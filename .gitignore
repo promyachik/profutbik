@@ -1,0 +1,11 @@
+ 
+# PROMYACHIK CLEAN PROJECT LOCK 
+.hugo_build.lock 
+public/ 
+resources/_gen/ 
+*.log 
+__pycache__/ 
+*.pyc 
+*.pyo 
+.DS_Store 
+Thumbs.db 

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 520" role="img" aria-labelledby="title desc">
+  <title id="title">ProFutbik player placeholder</title>
+  <desc id="desc">Dark football player silhouette with PF mark</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="22%" r="82%">
+      <stop offset="0" stop-color="#242d38"/>
+      <stop offset="0.56" stop-color="#111720"/>
+      <stop offset="1" stop-color="#07090c"/>
+    </radialGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a4552"/>
+      <stop offset="1" stop-color="#171d25"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.58"/>
+    </filter>
+  </defs>
+  <rect width="420" height="520" rx="34" fill="url(#bg)"/>
+  <circle cx="210" cy="144" r="76" fill="#2c3642" filter="url(#shadow)"/>
+  <path d="M82 500c6-100 38-169 93-199 12-7 24-11 35-11s23 4 35 11c55 30 87 99 93 199Z" fill="url(#body)" filter="url(#shadow)"/>
+  <path d="M130 312c24 26 51 39 80 39s56-13 80-39l20 188H110Z" fill="#202833"/>
+  <text x="210" y="413" text-anchor="middle" fill="#e3bd4f"
+        font-family="Arial, Helvetica, sans-serif" font-size="94" font-weight="900"
+        letter-spacing="-4">PF</text>
+</svg>

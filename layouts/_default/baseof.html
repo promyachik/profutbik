@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+
+    {{ with .Description }}
+        <meta
+            name="description"
+            content="{{ . }}"
+        >
+    {{ end }}
+
+    <link
+        rel="stylesheet"
+        href="{{ "css/style.css" | relURL }}"
+    >
+    <link rel="icon" href="{{ "favicon.ico" | relURL }}" type="image/x-icon">
+</head>
+
+<body class="{{ if .IsHome }}home-page{{ else }}site-page{{ end }}">
+
+{{ partial "header.html" . }}
+
+{{ block "main" . }}
+{{ end }}
+
+{{ partial "footer-transfer-ticker.html" . }}
+
+
+</body>
+</html>
