@@ -1,4 +1,4 @@
----
+﻿---
 title: "Гонсалу Рамуш переходит в «Милан»: сумма сделки и профиль игрока"
 seo_title: "Гонсалу Рамуш → AC Milan: трансфер из ПСЖ, сумма €74M + add-ons"
 description: "Гонсалу Рамуш согласовал переход из Paris Saint-Germain в AC Milan. Детали сделки, профиль игрока, гражданство, рабочая нога и динамика стоимости."
@@ -15,11 +15,14 @@ full_name: "Gonçalo Matias Ramos"
 player_initials: "GR"
 player_id: 41585
 player_slug: "goncalo-ramos"
-player_image: "images/players/api/41585.png"
-api_player_image: "images/players/api/41585.png"
+player_image: "images/players/custom/goncalo-ramos-ac-milan-black.png"
+player_image_processor: "black-background-ready"
+ticker_image: "images/players/custom/goncalo-ramos-ac-milan-black.png"
+cutout_player_image: "images/players/custom/goncalo-ramos-ac-milan-black.png"
+api_player_image: "images/players/custom/goncalo-ramos-ac-milan-black.png"
 player_image_source_name: "API-Football"
 player_image_source_url: "https://media.api-sports.io/football/players/41585.png"
-player_image_background_removed: false
+player_image_background_removed: true
 position: "Нападающий"
 position_ru: "Нападающий"
 main_position: "CF"
@@ -97,3 +100,4 @@ keywords:
 ## Статус сделки
 
 На данный момент страница имеет статус **«СОГЛАСОВАНО»**. Если появится официальное объявление клуба, материал можно обновить без смены адреса страницы.
+
