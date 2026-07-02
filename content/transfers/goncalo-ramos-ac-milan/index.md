@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Гонсалу Рамуш переходит в «Милан»: сумма сделки и профиль игрока"
 seo_title: "Гонсалу Рамуш → AC Milan: трансфер из ПСЖ, сумма €74M + add-ons"
 description: "Гонсалу Рамуш согласовал переход из Paris Saint-Germain в AC Milan. Детали сделки, профиль игрока, гражданство, рабочая нога и динамика стоимости."
@@ -14,8 +14,12 @@ player_name: "Gonçalo Ramos"
 full_name: "Gonçalo Matias Ramos"
 player_initials: "GR"
 player_id: 41585
+player_market_value_display: "€75 млн"
+player_brief_market_value_display: "€75 млн"
 player_slug: "goncalo-ramos"
-player_image: "images/players/custom/goncalo-ramos-ac-milan-black.png"
+player_image: "images/players/custom/goncalo-ramos-ac-milan-black.png"
+
+
 player_image_processor: "black-background-ready"
 ticker_image: "images/players/custom/goncalo-ramos-ac-milan-black.png"
 cutout_player_image: "images/players/custom/goncalo-ramos-ac-milan-black.png"
@@ -42,10 +46,10 @@ to_name: "AC Milan"
 from_team: "Paris Saint-Germain"
 to_team: "AC Milan"
 fee: "€74M + add-ons"
-amount: "€74M + add-ons"
-transfer_fee: "€74M + add-ons"
-market_value: "€30M"
-market_value_display: "€30M"
+amount: "€75 млн + бонусы"
+transfer_fee: "€75 млн + бонусы"
+market_value: "€75 млн"
+market_value_display: "€75 млн"
 source_name: "Fabrizio Romano"
 source_url: ""
 homepage_image: "images/homepage/featured/goncalo-ramos-ac-milan-card.png"

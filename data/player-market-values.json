@@ -487,8 +487,8 @@
         },
         {
           "label": "2026",
-          "value_label": "€40 млн",
-          "value": 40,
+          "value_label": "€75 млн",
+          "value": 75,
           "club": {
             "slug": "ac-milan",
             "name": "AC Milan",
@@ -498,6 +498,22 @@
           }
         }
       ]
+    }
+  ],
+  "key": "ramos",
+  "player_id": 41585,
+  "points": [
+    {
+      "label": "2026",
+      "value_label": "€75 млн",
+      "value": 75,
+      "club": {
+        "slug": "ac-milan",
+        "name": "AC Milan",
+        "short": "MIL",
+        "api_id": 489,
+        "period": "с 2026"
+      }
     }
   ]
 }
