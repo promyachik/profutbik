@@ -3185,5 +3185,8 @@
       "api_logo": "https://media.api-sports.io/football/teams/194.png",
       "youth_logo_rule": "Ajax Youth / Ajax U17 / Ajax U19 / Ajax U21 use the main Ajax logo; tooltip keeps the exact youth team name."
     }
-  }
+  },
+  "benfica": "https://media.api-sports.io/football/teams/211.png",
+  "psg": "https://media.api-sports.io/football/teams/85.png",
+  "ac-milan": "https://media.api-sports.io/football/teams/489.png"
 }

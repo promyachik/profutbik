@@ -4,7 +4,7 @@
     const VERSION = "42-pull-last-point-inside-keep-center";
     window.__PFMarketChartVersion = VERSION;
 
-    const PLAYERS = [{"key":"mbappe","name":"Килиан Мбаппе","paths":["/transfers/kylian-mbappe-real-madrid/"],"points":[{"label":"2017","value_label":"€35 млн","value":35,"club":{"slug":"monaco","name":"AS Monaco","short":"ASM","api_id":91,"period":"2015–2017"}},{"label":"2018","value_label":"€120 млн","value":120,"club":{"slug":"psg","name":"Paris Saint-Germain","short":"PSG","api_id":85,"period":"2017–2024"}},{"label":"2025","value_label":"€200 млн","value":200,"club":{"slug":"real-madrid","name":"Real Madrid","short":"RMA","api_id":541,"period":"с 2024"}},{"label":"2026","value_label":"€180 млн","value":180,"club":{"slug":"real-madrid","name":"Real Madrid","short":"RMA","api_id":541,"period":"с 2024"}}]},{"key":"wirtz","name":"Флориан Вирц","paths":["/transfers/florian-wirtz-liverpool/"],"points":[{"label":"2023","value_label":"€100 млн","value":100,"club":{"slug":"bayer-leverkusen","name":"Bayer Leverkusen","short":"B04","api_id":168,"period":"2020–2025"}},{"label":"июнь 2025","value_label":"€140 млн","value":140,"club":{"slug":"liverpool","name":"Liverpool","short":"LFC","api_id":40,"period":"с 2025"}},{"label":"дек. 2025","value_label":"€110 млн","value":110,"club":{"slug":"liverpool","name":"Liverpool","short":"LFC","api_id":40,"period":"с 2025"}},{"label":"2026","value_label":"€100 млн","value":100,"club":{"slug":"liverpool","name":"Liverpool","short":"LFC","api_id":40,"period":"с 2025"}}]},{"key":"konate","name":"Ибраима Конате","paths":["/transfers/ibrahima-konate-real-madrid/"],"points":[{"label":"2017","value_label":"€300 тыс.","value":0.3,"club":{"slug":"rb-leipzig","name":"RB Leipzig","short":"RBL","api_id":173,"period":"2017–2021"}},{"label":"2021","value_label":"€35 млн","value":35,"club":{"slug":"liverpool","name":"Liverpool","short":"LFC","api_id":40,"period":"2021–2026"}},{"label":"2025","value_label":"€60 млн","value":60,"club":{"slug":"liverpool","name":"Liverpool","short":"LFC","api_id":40,"period":"2021–2026"}},{"label":"2026","value_label":"€45 млн","value":45,"club":{"slug":"real-madrid","name":"Real Madrid","short":"RMA","api_id":541,"period":"с 2026"}}]},{"key":"cucurella","name":"Марк Кукурелья","paths":["/transfers/marc-cucurella-real-madrid/"],"points":[{"label":"2018","value_label":"€5 млн","value":5,"club":{"slug":"barcelona","name":"Barcelona","short":"FCB","api_id":529,"period":"до 2019"}},{"label":"2019","value_label":"€10 млн","value":10,"club":{"slug":"getafe","name":"Getafe","short":"GET","api_id":546,"period":"2019–2021"}},{"label":"2020","value_label":"€18 млн","value":18,"club":{"slug":"getafe","name":"Getafe","short":"GET","api_id":546,"period":"2019–2021"}},{"label":"2021","value_label":"€20 млн","value":20,"club":{"slug":"brighton","name":"Brighton & Hove Albion","short":"BHA","api_id":51,"period":"2021–2022"}},{"label":"2026","value_label":"€50 млн","value":50,"club":{"slug":"real-madrid","name":"Real Madrid","short":"RMA","api_id":541,"period":"с 2026"}}]},{"key":"dumfries","name":"Дензел Дюмфрис","paths":["/transfers/denzel-dumfries-real-madrid/"],"points":[{"label":"2015","value_label":"€50 тыс.","value":0.05,"club":{"slug":"sparta-rotterdam","name":"Sparta Rotterdam","short":"SPA","api_id":null,"period":"2014–2017"}},{"label":"2017","value_label":"€1 млн","value":1,"club":{"slug":"heerenveen","name":"SC Heerenveen","short":"HEE","api_id":null,"period":"2017–2018"}},{"label":"2018","value_label":"€4 млн","value":4,"club":{"slug":"psv","name":"PSV Eindhoven","short":"PSV","api_id":197,"period":"2018–2021"}},{"label":"2021","value_label":"€16 млн","value":16,"club":{"slug":"inter","name":"Inter","short":"INT","api_id":505,"period":"с 2021"}},{"label":"2025","value_label":"€35 млн","value":35,"club":{"slug":"inter","name":"Inter","short":"INT","api_id":505,"period":"с 2021"}},{"label":"2026","value_label":"€25 млн","value":25,"club":{"slug":"inter","name":"Inter","short":"INT","api_id":505,"period":"с 2021"}}]},{"key":"alvarez","name":"Хулиан Альварес","paths":["/transfers/julian-alvarez-barcelona/"],"points":[{"label":"янв. 2022","value_label":"€20 млн","value":20,"club":{"slug":"river-plate","name":"River Plate","short":"CARP","api_id":null,"period":"2018–2022"}},{"label":"июль 2022","value_label":"€23 млн","value":23,"club":{"slug":"manchester-city","name":"Manchester City","short":"MCI","api_id":50,"period":"2022–2024"}},{"label":"2023","value_label":"€90 млн","value":90,"club":{"slug":"manchester-city","name":"Manchester City","short":"MCI","api_id":50,"period":"2022–2024"}},{"label":"май 2026","value_label":"€90 млн","value":90,"club":{"slug":"atletico-madrid","name":"Atlético Madrid","short":"ATM","api_id":530,"period":"с 2024"}},{"label":"июнь 2026","value_label":"€100 млн","value":100,"club":{"slug":"atletico-madrid","name":"Atlético Madrid","short":"ATM","api_id":530,"period":"с 2024"}}]},{"key":"anderson","name":"Эллиот Андерсон","paths":["/transfers/elliot-anderson-manchester-city/"],"points":[{"label":"2022","value_label":"€200 тыс.","value":0.2,"club":{"slug":"newcastle","name":"Newcastle United","short":"NEW","api_id":34,"period":"2021–2024"}},{"label":"2024","value_label":"€15 млн","value":15,"club":{"slug":"nottingham-forest","name":"Nottingham Forest","short":"NFO","api_id":65,"period":"с 2024"}},{"label":"2025","value_label":"€60 млн","value":60,"club":{"slug":"nottingham-forest","name":"Nottingham Forest","short":"NFO","api_id":65,"period":"с 2024"}},{"label":"2026","value_label":"€75 млн","value":75,"club":{"slug":"nottingham-forest","name":"Nottingham Forest","short":"NFO","api_id":65,"period":"с 2024"}}]},{"key":"bernardo","name":"Бернарду Силва","paths":["/transfers/bernardo-silva-real-madrid/"],"points":[{"label":"2014","value_label":"€2,5 млн","value":2.5,"club":{"slug":"monaco","name":"AS Monaco","short":"ASM","api_id":91,"period":"2014–2017"}},{"label":"2015","value_label":"€3,5 млн","value":3.5,"club":{"slug":"monaco","name":"AS Monaco","short":"ASM","api_id":91,"period":"2014–2017"}},{"label":"2017","value_label":"€40 млн","value":40,"club":{"slug":"manchester-city","name":"Manchester City","short":"MCI","api_id":50,"period":"2017–2026"}},{"label":"2019","value_label":"€100 млн","value":100,"club":{"slug":"manchester-city","name":"Manchester City","short":"MCI","api_id":50,"period":"2017–2026"}},{"label":"апр. 2026","value_label":"€27 млн","value":27,"club":{"slug":"manchester-city","name":"Manchester City","short":"MCI","api_id":50,"period":"2017–2026"}},{"label":"июнь 2026","value_label":"€22 млн","value":22,"club":{"slug":"real-madrid","name":"Real Madrid","short":"RMA","api_id":541,"period":"с 2026"}}]},{"key":"de-ligt","name":"Маттейс де Лигт","paths":["/transfers/matthijs-de-ligt/"],"points":[{"label":"2016/17","value_label":"€0,1 млн","value":0.1,"club":{"slug":"ajax","name":"Ajax U21","short":"AJX","api_id":194,"period":"2016–2017"}},{"label":"2019","value_label":"€75 млн","value":75,"club":{"slug":"ajax","name":"Ajax","short":"AJX","api_id":194,"period":"2016–2019"}},{"label":"2022","value_label":"€70 млн","value":70,"club":{"slug":"juventus","name":"Juventus","short":"JUV","api_id":496,"period":"2019–2022"}},{"label":"2024","value_label":"€65 млн","value":65,"club":{"slug":"bayern-munich","name":"Bayern Munich","short":"FCB","api_id":157,"period":"2022–2024"}},{"label":"2026","value_label":"€30 млн","value":30,"club":{"slug":"manchester-united","name":"Manchester United","short":"MUN","api_id":33,"period":"с 2024"}}]}];
+    const PLAYERS = [{"key":"mbappe","name":"Килиан Мбаппе","paths":["/transfers/kylian-mbappe-real-madrid/"],"points":[{"label":"2017","value_label":"€35 млн","value":35,"club":{"slug":"monaco","name":"AS Monaco","short":"ASM","api_id":91,"period":"2015–2017"}},{"label":"2018","value_label":"€120 млн","value":120,"club":{"slug":"psg","name":"Paris Saint-Germain","short":"PSG","api_id":85,"period":"2017–2024"}},{"label":"2025","value_label":"€200 млн","value":200,"club":{"slug":"real-madrid","name":"Real Madrid","short":"RMA","api_id":541,"period":"с 2024"}},{"label":"2026","value_label":"€180 млн","value":180,"club":{"slug":"real-madrid","name":"Real Madrid","short":"RMA","api_id":541,"period":"с 2024"}}]},{"key":"wirtz","name":"Флориан Вирц","paths":["/transfers/florian-wirtz-liverpool/"],"points":[{"label":"2023","value_label":"€100 млн","value":100,"club":{"slug":"bayer-leverkusen","name":"Bayer Leverkusen","short":"B04","api_id":168,"period":"2020–2025"}},{"label":"июнь 2025","value_label":"€140 млн","value":140,"club":{"slug":"liverpool","name":"Liverpool","short":"LFC","api_id":40,"period":"с 2025"}},{"label":"дек. 2025","value_label":"€110 млн","value":110,"club":{"slug":"liverpool","name":"Liverpool","short":"LFC","api_id":40,"period":"с 2025"}},{"label":"2026","value_label":"€100 млн","value":100,"club":{"slug":"liverpool","name":"Liverpool","short":"LFC","api_id":40,"period":"с 2025"}}]},{"key":"konate","name":"Ибраима Конате","paths":["/transfers/ibrahima-konate-real-madrid/"],"points":[{"label":"2017","value_label":"€300 тыс.","value":0.3,"club":{"slug":"rb-leipzig","name":"RB Leipzig","short":"RBL","api_id":173,"period":"2017–2021"}},{"label":"2021","value_label":"€35 млн","value":35,"club":{"slug":"liverpool","name":"Liverpool","short":"LFC","api_id":40,"period":"2021–2026"}},{"label":"2025","value_label":"€60 млн","value":60,"club":{"slug":"liverpool","name":"Liverpool","short":"LFC","api_id":40,"period":"2021–2026"}},{"label":"2026","value_label":"€45 млн","value":45,"club":{"slug":"real-madrid","name":"Real Madrid","short":"RMA","api_id":541,"period":"с 2026"}}]},{"key":"cucurella","name":"Марк Кукурелья","paths":["/transfers/marc-cucurella-real-madrid/"],"points":[{"label":"2018","value_label":"€5 млн","value":5,"club":{"slug":"barcelona","name":"Barcelona","short":"FCB","api_id":529,"period":"до 2019"}},{"label":"2019","value_label":"€10 млн","value":10,"club":{"slug":"getafe","name":"Getafe","short":"GET","api_id":546,"period":"2019–2021"}},{"label":"2020","value_label":"€18 млн","value":18,"club":{"slug":"getafe","name":"Getafe","short":"GET","api_id":546,"period":"2019–2021"}},{"label":"2021","value_label":"€20 млн","value":20,"club":{"slug":"brighton","name":"Brighton & Hove Albion","short":"BHA","api_id":51,"period":"2021–2022"}},{"label":"2026","value_label":"€50 млн","value":50,"club":{"slug":"real-madrid","name":"Real Madrid","short":"RMA","api_id":541,"period":"с 2026"}}]},{"key":"dumfries","name":"Дензел Дюмфрис","paths":["/transfers/denzel-dumfries-real-madrid/"],"points":[{"label":"2015","value_label":"€50 тыс.","value":0.05,"club":{"slug":"sparta-rotterdam","name":"Sparta Rotterdam","short":"SPA","api_id":null,"period":"2014–2017"}},{"label":"2017","value_label":"€1 млн","value":1,"club":{"slug":"heerenveen","name":"SC Heerenveen","short":"HEE","api_id":null,"period":"2017–2018"}},{"label":"2018","value_label":"€4 млн","value":4,"club":{"slug":"psv","name":"PSV Eindhoven","short":"PSV","api_id":197,"period":"2018–2021"}},{"label":"2021","value_label":"€16 млн","value":16,"club":{"slug":"inter","name":"Inter","short":"INT","api_id":505,"period":"с 2021"}},{"label":"2025","value_label":"€35 млн","value":35,"club":{"slug":"inter","name":"Inter","short":"INT","api_id":505,"period":"с 2021"}},{"label":"2026","value_label":"€25 млн","value":25,"club":{"slug":"inter","name":"Inter","short":"INT","api_id":505,"period":"с 2021"}}]},{"key":"alvarez","name":"Хулиан Альварес","paths":["/transfers/julian-alvarez-barcelona/"],"points":[{"label":"янв. 2022","value_label":"€20 млн","value":20,"club":{"slug":"river-plate","name":"River Plate","short":"CARP","api_id":null,"period":"2018–2022"}},{"label":"июль 2022","value_label":"€23 млн","value":23,"club":{"slug":"manchester-city","name":"Manchester City","short":"MCI","api_id":50,"period":"2022–2024"}},{"label":"2023","value_label":"€90 млн","value":90,"club":{"slug":"manchester-city","name":"Manchester City","short":"MCI","api_id":50,"period":"2022–2024"}},{"label":"май 2026","value_label":"€90 млн","value":90,"club":{"slug":"atletico-madrid","name":"Atlético Madrid","short":"ATM","api_id":530,"period":"с 2024"}},{"label":"июнь 2026","value_label":"€100 млн","value":100,"club":{"slug":"atletico-madrid","name":"Atlético Madrid","short":"ATM","api_id":530,"period":"с 2024"}}]},{"key":"anderson","name":"Эллиот Андерсон","paths":["/transfers/elliot-anderson-manchester-city/"],"points":[{"label":"2022","value_label":"€200 тыс.","value":0.2,"club":{"slug":"newcastle","name":"Newcastle United","short":"NEW","api_id":34,"period":"2021–2024"}},{"label":"2024","value_label":"€15 млн","value":15,"club":{"slug":"nottingham-forest","name":"Nottingham Forest","short":"NFO","api_id":65,"period":"с 2024"}},{"label":"2025","value_label":"€60 млн","value":60,"club":{"slug":"nottingham-forest","name":"Nottingham Forest","short":"NFO","api_id":65,"period":"с 2024"}},{"label":"2026","value_label":"€75 млн","value":75,"club":{"slug":"nottingham-forest","name":"Nottingham Forest","short":"NFO","api_id":65,"period":"с 2024"}}]},{"key":"bernardo","name":"Бернарду Силва","paths":["/transfers/bernardo-silva-real-madrid/"],"points":[{"label":"2014","value_label":"€2,5 млн","value":2.5,"club":{"slug":"monaco","name":"AS Monaco","short":"ASM","api_id":91,"period":"2014–2017"}},{"label":"2015","value_label":"€3,5 млн","value":3.5,"club":{"slug":"monaco","name":"AS Monaco","short":"ASM","api_id":91,"period":"2014–2017"}},{"label":"2017","value_label":"€40 млн","value":40,"club":{"slug":"manchester-city","name":"Manchester City","short":"MCI","api_id":50,"period":"2017–2026"}},{"label":"2019","value_label":"€100 млн","value":100,"club":{"slug":"manchester-city","name":"Manchester City","short":"MCI","api_id":50,"period":"2017–2026"}},{"label":"апр. 2026","value_label":"€27 млн","value":27,"club":{"slug":"manchester-city","name":"Manchester City","short":"MCI","api_id":50,"period":"2017–2026"}},{"label":"июнь 2026","value_label":"€22 млн","value":22,"club":{"slug":"real-madrid","name":"Real Madrid","short":"RMA","api_id":541,"period":"с 2026"}}]},{"key":"de-ligt","name":"Маттейс де Лигт","paths":["/transfers/matthijs-de-ligt/"],"points":[{"label":"2016/17","value_label":"€0,1 млн","value":0.1,"club":{"slug":"ajax","name":"Ajax U21","short":"AJX","api_id":194,"period":"2016–2017"}},{"label":"2019","value_label":"€75 млн","value":75,"club":{"slug":"ajax","name":"Ajax","short":"AJX","api_id":194,"period":"2016–2019"}},{"label":"2022","value_label":"€70 млн","value":70,"club":{"slug":"juventus","name":"Juventus","short":"JUV","api_id":496,"period":"2019–2022"}},{"label":"2024","value_label":"€65 млн","value":65,"club":{"slug":"bayern-munich","name":"Bayern Munich","short":"FCB","api_id":157,"period":"2022–2024"}},{"label":"2026","value_label":"€30 млн","value":30,"club":{"slug":"manchester-united","name":"Manchester United","short":"MUN","api_id":33,"period":"с 2024"}}]},{"key":"ramos","name":"Гонсалу Рамуш","paths":["/transfers/goncalo-ramos-ac-milan/"],"points":[{"label":"2020","value_label":"€2 млн","value":2,"club":{"slug":"benfica","name":"Benfica","short":"SLB","api_id":211,"period":"2019–2023"}},{"label":"2022","value_label":"€24 млн","value":24,"club":{"slug":"benfica","name":"Benfica","short":"SLB","api_id":211,"period":"2019–2023"}},{"label":"2023","value_label":"€50 млн","value":50,"club":{"slug":"psg","name":"Paris Saint-Germain","short":"PSG","api_id":85,"period":"2023–2026"}},{"label":"2026","value_label":"€40 млн","value":40,"club":{"slug":"ac-milan","name":"AC Milan","short":"MIL","api_id":489,"period":"с 2026"}}]}];
 
     const normalizePath = (value) => {
         let path = String(value || "")
@@ -330,12 +330,42 @@ enlargedChart.classList.add(
 
         content.replaceChildren(enlargedChart);
 
+        /* PROMYACHIK 045 PREALIGN MARKET CHART MODAL START */
+        const promyachikMarketAligner045 = window.__promyachikMarketValueLabelsStandard279;
+        const promyachikShouldPrealignMarketModal045 =
+            promyachikMarketAligner045 &&
+            enlargedChart &&
+            enlargedChart.classList &&
+            enlargedChart.classList.contains("player-market-chart");
+
+        if (promyachikShouldPrealignMarketModal045) {
+            modal.style.setProperty("visibility", "hidden", "important");
+        }
+        /* PROMYACHIK 045 PREALIGN MARKET CHART MODAL END */
+
         modal.hidden = false;
 document.body.classList.add(
             "player-market-chart-modal-open"
         );
 
-        modal
+        
+        /* PROMYACHIK 045 PREALIGN MARKET CHART MODAL START */
+        if (promyachikShouldPrealignMarketModal045) {
+            const promyachikShowAlignedMarketModal045 = () => {
+                try {
+                    promyachikMarketAligner045.alignChart(enlargedChart);
+                } finally {
+                    modal.style.removeProperty("visibility");
+                }
+            };
+
+            window.requestAnimationFrame(() => {
+                promyachikMarketAligner045.alignChart(enlargedChart);
+                window.requestAnimationFrame(promyachikShowAlignedMarketModal045);
+            });
+        }
+        /* PROMYACHIK 045 PREALIGN MARKET CHART MODAL END */
+modal
             .querySelector(
                 ".player-market-chart-modal__close"
             )
@@ -740,144 +770,193 @@ document.body.classList.add(
 /* PROFUTBIK STATS ICON_ONLY TOOLTIP V177 END */
 
 /* PROMYACHIK 279 ALIGN MARKET PRICE LABELS TO POINTS START */
-
-function promyachikSkipKonate279(node) {
-    if (!node) return false;
-
-    var chart = null;
-
-    if (node.matches && node.matches(".player-market-chart")) {
-        chart = node;
-    } else if (node.closest) {
-        chart = node.closest(".player-market-chart");
-    }
-
-    if (!chart) return false;
-
-    return chart.getAttribute("data-player-id") === "1145" ||
-        chart.getAttribute("data-market-chart-key") === "konate" ||
-        chart.classList.contains("player-market-chart--konate-hide-bottom-white-45") ||
-        chart.classList.contains("promyachik-konate-prices-under-logos-031") ||
-        /konat/i.test(chart.getAttribute("data-player") || "");
-}
-
 (function () {
-  if (window.__promyachikAlignMarketPrices279Ready) {
+  if (window.__promyachikMarketValueLabelsStandard279) {
     return;
   }
-  window.__promyachikAlignMarketPrices279Ready = true;
 
+  const GOLD = "#f5c741";
   const CHART_SELECTOR = ".player-market-chart";
   const ROW_SELECTOR = ".player-market-chart__points";
   const ITEM_SELECTOR = ".player-market-chart__point";
-  const DOT_SELECTOR = ".player-market-chart__dot";
+  const DOT_SELECTOR = ".player-market-chart__dot, circle.player-market-chart__dot, svg circle";
   const CLUB_MARKER_SELECTOR = ".player-market-chart__club-marker";
 
-  const roundPx = function (value) {
-    return Math.round(value * 100) / 100;
-  };
+  let timer = null;
 
-  const getElementCenterX = function (element) {
+  const centerX = (rect) => rect.left + rect.width / 2;
+
+  const validRect = (element) => {
+    if (!element || !element.getBoundingClientRect) {
+      return null;
+    }
+
     const rect = element.getBoundingClientRect();
-    return rect.left + rect.width / 2;
+
+    if (!rect || rect.width < 1 || rect.height < 1) {
+      return null;
+    }
+
+    return rect;
   };
 
-  const getTargetCenters = function (chart) {
-    const dots = Array.from(chart.querySelectorAll(DOT_SELECTOR));
+  const sortByX = (elements) => {
+    return Array.from(elements)
+      .map((element) => ({ element, rect: validRect(element) }))
+      .filter((item) => item.rect)
+      .sort((a, b) => centerX(a.rect) - centerX(b.rect));
+  };
+
+  const getTargets = (chart) => {
+    const dots = sortByX(chart.querySelectorAll(DOT_SELECTOR));
+
     if (dots.length) {
-      return dots.map(getElementCenterX);
+      return dots;
     }
 
-    const clubMarkers = Array.from(chart.querySelectorAll(CLUB_MARKER_SELECTOR));
-    if (clubMarkers.length) {
-      return clubMarkers.map(getElementCenterX);
+    return sortByX(chart.querySelectorAll(CLUB_MARKER_SELECTOR));
+  };
+
+  const applyGold = (point) => {
+    const small = point.querySelector("small");
+    const strong = point.querySelector("strong");
+
+    if (small) {
+      small.style.setProperty("display", "none", "important");
     }
 
-    return [];
+    if (strong) {
+      strong.style.setProperty("display", "block", "important");
+      strong.style.setProperty("color", GOLD, "important");
+      strong.style.setProperty("-webkit-text-fill-color", GOLD, "important");
+      strong.style.setProperty("font-weight", "900", "important");
+      strong.style.setProperty("white-space", "nowrap", "important");
+      strong.style.setProperty(
+        "text-shadow",
+        "0 0 10px rgba(245,199,65,.45), 0 2px 8px rgba(0,0,0,.9)",
+        "important"
+      );
+      strong.style.setProperty("transition", "none", "important");
+      strong.style.setProperty("animation", "none", "important");
+    }
   };
 
-  const clearAlignment = function (row) {
-    const items = Array.from(row.querySelectorAll(ITEM_SELECTOR));
-    row.classList.remove("promyachik-price-align-279");
-    row.style.removeProperty("position");
-    row.style.removeProperty("display");
-    row.style.removeProperty("height");
-    row.style.removeProperty("min-height");
+  const alignChart = (chart) => {
+    if (!chart || !chart.querySelector) {
+      return;
+    }
 
-    items.forEach(function (item) {
-        if (promyachikSkipKonate279(item)) return;
-      item.classList.remove("promyachik-price-align-item-279");
-      item.style.removeProperty("position");
-      item.style.removeProperty("left");
-      item.style.removeProperty("top");
-      item.style.removeProperty("transform");
-      item.style.removeProperty("width");
-      item.style.removeProperty("max-width");
-      item.style.removeProperty("text-align");
-    });
-  };
-
-  const alignChart = function (chart) {
     const row = chart.querySelector(ROW_SELECTOR);
+
     if (!row) {
       return;
     }
 
-    const items = Array.from(row.querySelectorAll(ITEM_SELECTOR));
-    if (!items.length) {
+    const points = Array.from(row.querySelectorAll(ITEM_SELECTOR));
+
+    if (!points.length) {
       return;
     }
 
-    const centers = getTargetCenters(chart);
-    if (!centers.length) {
-      clearAlignment(row);
+    const targets = getTargets(chart);
+
+    if (!targets.length) {
       return;
     }
 
-    clearAlignment(row);
+    const chartRect = chart.getBoundingClientRect();
 
-    const rowRect = row.getBoundingClientRect();
-    const currentHeights = items.map(function (item) {
-      return item.getBoundingClientRect().height || 0;
-    });
-    const rowHeight = Math.max(rowRect.height || 0, currentHeights.reduce(function (max, value) {
-      return Math.max(max, value);
-    }, 0), 20);
+    if (!chartRect || chartRect.width < 1 || chartRect.height < 1) {
+      return;
+    }
+
+    chart.classList.add("promyachik-market-chart-labels-standard-279");
+    chart.style.setProperty("position", "relative", "important");
 
     row.classList.add("promyachik-price-align-279");
-    row.style.position = "relative";
-    row.style.display = "block";
-    row.style.minHeight = Math.ceil(rowHeight) + "px";
-    row.style.height = Math.ceil(rowHeight) + "px";
+    row.style.setProperty("position", "absolute", "important");
+    row.style.setProperty("inset", "0", "important");
+    row.style.setProperty("display", "block", "important");
+    row.style.setProperty("width", "100%", "important");
+    row.style.setProperty("height", "100%", "important");
+    row.style.setProperty("min-height", "0", "important");
+    row.style.setProperty("margin", "0", "important");
+    row.style.setProperty("padding", "0", "important");
+    row.style.setProperty("pointer-events", "none", "important");
+    row.style.setProperty("z-index", "80", "important");
+    row.style.setProperty("transition", "none", "important");
+    row.style.setProperty("animation", "none", "important");
 
-    items.forEach(function (item, index) {
-        if (promyachikSkipKonate279(item)) return;
-      const center = centers[Math.min(index, centers.length - 1)];
-      const x = roundPx(center - rowRect.left);
-      item.classList.add("promyachik-price-align-item-279");
-      item.style.position = "absolute";
-      item.style.left = x + "px";
-      item.style.top = "0";
-      item.style.transform = "translateX(-50%)";
-      item.style.width = "max-content";
-      item.style.maxWidth = "78px";
-      item.style.textAlign = "center";
+    points.forEach((point, index) => {
+      const strong = point.querySelector("strong");
+
+      if (!strong || !strong.textContent.trim()) {
+        return;
+      }
+
+      const target = targets[Math.min(index, targets.length - 1)];
+      const rect = target.rect;
+
+      let left = centerX(rect) - chartRect.left;
+      let top = rect.bottom - chartRect.top + 8;
+
+      if (left < 28) {
+        left = 18;
+      }
+
+      if (left > chartRect.width - 28) {
+        left = chartRect.width - 18;
+      }
+
+      let transform = "translateX(-50%)";
+
+      if (left <= 20) {
+        transform = "translateX(0)";
+      } else if (left >= chartRect.width - 20) {
+        transform = "translateX(-100%)";
+      }
+
+      point.classList.add("promyachik-price-align-item-279");
+      point.style.setProperty("position", "absolute", "important");
+      point.style.setProperty("inset", `${top}px auto auto ${left}px`, "important");
+      point.style.setProperty("display", "block", "important");
+      point.style.setProperty("visibility", "visible", "important");
+      point.style.setProperty("opacity", "1", "important");
+      point.style.setProperty("width", "max-content", "important");
+      point.style.setProperty("min-width", "0", "important");
+      point.style.setProperty("max-width", "78px", "important");
+      point.style.setProperty("margin", "0", "important");
+      point.style.setProperty("padding", "0", "important");
+      point.style.setProperty("pointer-events", "none", "important");
+      point.style.setProperty("z-index", "90", "important");
+      point.style.setProperty("text-align", "center", "important");
+      point.style.setProperty("transform", transform, "important");
+      point.style.setProperty("transition", "none", "important");
+      point.style.setProperty("animation", "none", "important");
+
+      applyGold(point);
     });
   };
 
-  const alignAllCharts = function () {
+  const alignAllCharts = () => {
     Array.from(document.querySelectorAll(CHART_SELECTOR)).forEach(alignChart);
   };
 
-  let timer = null;
-  const scheduleAlign = function () {
+  const scheduleAlign = () => {
     if (timer) {
       window.clearTimeout(timer);
     }
-    window.requestAnimationFrame(function () {
+
+    window.requestAnimationFrame(() => {
       alignAllCharts();
       timer = window.setTimeout(alignAllCharts, 120);
     });
+  };
+
+  window.__promyachikMarketValueLabelsStandard279 = {
+    alignChart,
+    alignAllCharts,
+    scheduleAlign
   };
 
   if (document.readyState === "loading") {
@@ -896,6 +975,7 @@ function promyachikSkipKonate279(node) {
   });
 })();
 /* PROMYACHIK 279 ALIGN MARKET PRICE LABELS TO POINTS END */
+
 
 /* PROMYACHIK 280 SHORTEN THOUSAND EURO LABELS TO K START */
 (function () {
@@ -986,188 +1066,6 @@ function promyachikSkipKonate279(node) {
 
 
 
-
-
-
-
-/* PROMYACHIK 031 KONATE PRICES UNDER CLUB LOGOS START */
-(function () {
-    var PATH_RE = /ibrahima-konate-real-madrid/i;
-    var GOLD = '#f5c741';
-
-    function isKonatePage() {
-        return window.location && PATH_RE.test(window.location.pathname || '');
-    }
-
-    function centerX(rect) {
-        return rect.left + rect.width / 2;
-    }
-
-    function visibleRect(el) {
-        if (!el || !el.getBoundingClientRect) return null;
-
-        var r = el.getBoundingClientRect();
-
-        if (!r || r.width < 8 || r.height < 8) return null;
-
-        return r;
-    }
-
-    function sortByX(elements) {
-        return elements
-            .map(function (el) {
-                return { el: el, rect: visibleRect(el) };
-            })
-            .filter(function (x) {
-                return x.rect;
-            })
-            .sort(function (a, b) {
-                return centerX(a.rect) - centerX(b.rect);
-            });
-    }
-
-    function alignChart(chart) {
-        if (!chart) return;
-
-        var isKonateChart =
-            chart.getAttribute('data-player-id') === '1145' ||
-            chart.getAttribute('data-market-chart-key') === 'konate' ||
-            chart.classList.contains('player-market-chart--konate-hide-bottom-white-45') ||
-            /konat/i.test(chart.getAttribute('data-player') || '');
-
-        if (!isKonateChart) return;
-
-        var canvas = chart.querySelector('.player-market-chart__canvas');
-        var row = chart.querySelector('.player-market-chart__points');
-        var points = row ? Array.prototype.slice.call(row.querySelectorAll('.player-market-chart__point')) : [];
-
-        if (!canvas || !row || !points.length) return;
-
-        var chartRect = chart.getBoundingClientRect();
-
-        var logos = sortByX(Array.prototype.slice.call(
-            canvas.querySelectorAll('img, image, .player-market-chart__club-logo, .player-market-chart__club img')
-        ));
-
-        var dots = sortByX(Array.prototype.slice.call(
-            canvas.querySelectorAll('.player-market-chart__dot, circle.player-market-chart__dot, svg circle')
-        ));
-
-        chart.classList.add('promyachik-konate-prices-under-logos-031');
-
-        chart.style.setProperty('position', 'relative', 'important');
-
-        row.style.setProperty('position', 'absolute', 'important');
-        row.style.setProperty('left', '0', 'important');
-        row.style.setProperty('top', '0', 'important');
-        row.style.setProperty('right', '0', 'important');
-        row.style.setProperty('bottom', '0', 'important');
-        row.style.setProperty('display', 'block', 'important');
-        row.style.setProperty('width', '100%', 'important');
-        row.style.setProperty('height', '100%', 'important');
-        row.style.setProperty('margin', '0', 'important');
-        row.style.setProperty('padding', '0', 'important');
-        row.style.setProperty('pointer-events', 'none', 'important');
-        row.style.setProperty('z-index', '80', 'important');
-
-        points.forEach(function (point, index) {
-            var strong = point.querySelector('strong');
-            var small = point.querySelector('small');
-
-            if (!strong || !strong.textContent.trim()) return;
-
-            var logo = logos[index] || null;
-            var dot = dots[index] || null;
-
-            var xRect = dot ? dot.rect : (logo ? logo.rect : null);
-            var yRect = dot ? dot.rect : (logo ? logo.rect : null);
-
-            if (!xRect || !yRect) return;
-
-            var left = centerX(xRect) - chartRect.left;
-
-            /*
-              Цена должна стоять под точкой графика (под кружком),
-              а не под логотипом.
-            */
-            var top = yRect.bottom - chartRect.top + 8;
-
-            if (left < 34) left = 20;
-            if (left > chartRect.width - 34) left = chartRect.width - 20;
-
-            var transform = 'translateX(-50%)';
-
-            if (left <= 22) {
-                transform = 'translateX(0)';
-            } else if (left >= chartRect.width - 22) {
-                transform = 'translateX(-100%)';
-            }
-
-            point.style.setProperty('position', 'absolute', 'important');
-            point.style.setProperty('left', left + 'px', 'important');
-            point.style.setProperty('top', top + 'px', 'important');
-            point.style.setProperty('right', 'auto', 'important');
-            point.style.setProperty('bottom', 'auto', 'important');
-            point.style.setProperty('transform', transform, 'important');
-            point.style.setProperty('display', 'block', 'important');
-            point.style.setProperty('visibility', 'visible', 'important');
-            point.style.setProperty('opacity', '1', 'important');
-            point.style.setProperty('width', 'max-content', 'important');
-            point.style.setProperty('min-width', '0', 'important');
-            point.style.setProperty('margin', '0', 'important');
-            point.style.setProperty('padding', '0', 'important');
-            point.style.setProperty('pointer-events', 'none', 'important');
-            point.style.setProperty('z-index', '90', 'important');
-            point.style.setProperty('text-align', 'center', 'important');
-
-            if (small) {
-                small.style.setProperty('display', 'none', 'important');
-            }
-
-            strong.style.setProperty('display', 'block', 'important');
-            strong.style.setProperty('color', GOLD, 'important');
-            strong.style.setProperty('-webkit-text-fill-color', GOLD, 'important');
-            strong.style.setProperty('font-weight', '900', 'important');
-            strong.style.setProperty('white-space', 'nowrap', 'important');
-            strong.style.setProperty('text-shadow', '0 0 10px rgba(245,199,65,.45), 0 2px 8px rgba(0,0,0,.9)', 'important');
-        });
-    }
-
-    function applyAll() {
-        if (!isKonatePage()) return;
-
-        Array.prototype.slice.call(document.querySelectorAll('.player-market-chart')).forEach(alignChart);
-    }
-
-    function schedule() {
-        if (!isKonatePage()) return;
-
-        window.requestAnimationFrame(applyAll);
-        [0, 80, 180, 350, 700, 1200, 2000].forEach(function (delay) {
-            window.setTimeout(applyAll, delay);
-        });
-    }
-
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', schedule);
-    } else {
-        schedule();
-    }
-
-    window.addEventListener('load', schedule);
-    window.addEventListener('resize', schedule);
-
-    document.addEventListener('click', function () {
-        schedule();
-    }, true);
-
-    document.addEventListener('keydown', function (event) {
-        if (event.key === 'Escape' || event.key === 'Enter' || event.key === ' ') {
-            schedule();
-        }
-    }, true);
-}());
-/* PROMYACHIK 031 KONATE PRICES UNDER CLUB LOGOS END */
 
 
 

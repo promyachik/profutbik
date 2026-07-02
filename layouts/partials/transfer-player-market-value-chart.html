@@ -1,6 +1,5 @@
 {{- $page := . -}}
 {{- $chart := .Params.market_value_chart -}}
-{{- $promyachik305KonateHideBottom45 := or (in (lower (default "" .RelPermalink)) "ibrahima-konate-real-madrid") (in (lower (default "" .Title)) "konate") (in (lower (default "" .Title)) "konaté") -}}
 {{- $points := slice -}}
 {{- $path := "" -}}
 {{- $areaPath := "" -}}
@@ -41,7 +40,7 @@
 {{- if gt (len $points) 0 -}}
   {{- $pointCount := len $points -}}
   {{- $lastIndex := sub $pointCount 1 -}}
-  <section class="player-market-chart player-market-chart--zoomable{{ if $promyachik305KonateHideBottom45 }} player-market-chart--konate-hide-bottom-white-45{{ end }}" style="--market-point-count: {{ $pointCount }};" data-player-id="{{ .Params.player_id }}" data-player="{{ .Params.player }}">
+  <section class="player-market-chart player-market-chart--zoomable player-market-chart--standard-labels" style="--market-point-count: {{ $pointCount }};" data-player-id="{{ .Params.player_id }}" data-player="{{ .Params.player }}">
     <div class="player-market-chart__canvas" aria-label="Динамика стоимости {{ .Params.player }}">
       <svg viewBox="0 0 320 120" role="img" aria-hidden="true" focusable="false">
         <path class="player-market-chart__grid" d="M 20 26 H 300 M 20 54 H 300 M 20 82 H 300 M 20 110 H 300"></path>
