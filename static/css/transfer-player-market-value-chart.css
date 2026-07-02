@@ -756,3 +756,204 @@ body.transfer-page .player-market-chart.player-market-chart--konate-hide-bottom-
     text-shadow: 0 0 10px rgba(245,199,65,.45), 0 2px 8px rgba(0,0,0,.9) !important;
 }
 /* PATCH 031 KONATE PRICES UNDER CLUB LOGOS CSS END */
+
+/* PATCH 038 KONATE ZOOM INITIAL LABEL POSITIONS
+   Убирает прыжок: zoom-цены сразу стартуют там, где их потом ставит align-код. */
+
+.player-market-chart-modal
+.player-market-chart--enlarged.promyachik-konate-prices-under-logos-031
+.player-market-chart__points {
+    position: absolute !important;
+    inset: 0 !important;
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    pointer-events: none !important;
+    z-index: 80 !important;
+}
+
+.player-market-chart-modal
+.player-market-chart--enlarged.promyachik-konate-prices-under-logos-031
+.player-market-chart__points > .player-market-chart__point {
+    position: absolute !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: max-content !important;
+    min-width: 0 !important;
+    max-width: 78px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    pointer-events: none !important;
+    z-index: 90 !important;
+    text-align: center !important;
+    transform: translateX(-50%) !important;
+    transition: none !important;
+    animation: none !important;
+}
+
+.player-market-chart-modal
+.player-market-chart--enlarged.promyachik-konate-prices-under-logos-031
+.player-market-chart__points > .player-market-chart__point:nth-child(1) {
+    inset: 85.65% auto auto 6.33% !important;
+}
+
+.player-market-chart-modal
+.player-market-chart--enlarged.promyachik-konate-prices-under-logos-031
+.player-market-chart__points > .player-market-chart__point:nth-child(2) {
+    inset: 61.63% auto auto 35.50% !important;
+}
+
+.player-market-chart-modal
+.player-market-chart--enlarged.promyachik-konate-prices-under-logos-031
+.player-market-chart__points > .player-market-chart__point:nth-child(3) {
+    inset: 44.33% auto auto 64.55% !important;
+}
+
+.player-market-chart-modal
+.player-market-chart--enlarged.promyachik-konate-prices-under-logos-031
+.player-market-chart__points > .player-market-chart__point:nth-child(4) {
+    inset: 55.96% auto auto 92.43% !important;
+}
+
+.player-market-chart-modal
+.player-market-chart--enlarged.promyachik-konate-prices-under-logos-031
+.player-market-chart__point small {
+    display: none !important;
+}
+
+.player-market-chart-modal
+.player-market-chart--enlarged.promyachik-konate-prices-under-logos-031
+.player-market-chart__point strong {
+    display: block !important;
+    color: #f5c741 !important;
+    -webkit-text-fill-color: #f5c741 !important;
+    font-weight: 900 !important;
+    white-space: nowrap !important;
+    text-shadow: 0 0 10px rgba(245,199,65,.45), 0 2px 8px rgba(0,0,0,.9) !important;
+    transition: none !important;
+    animation: none !important;
+}
+
+/* PATCH 038 KONATE ZOOM INITIAL LABEL POSITIONS END */
+
+/* PATCH 039 KONATE PAGE INITIAL LABEL POSITIONS
+   Убирает прыжок после закрытия zoom:
+   обычный график сразу получает те же стартовые позиции цен. */
+
+body.transfer-page
+.player-market-chart.promyachik-konate-prices-under-logos-031:not(.player-market-chart--enlarged)
+.player-market-chart__points,
+
+body.transfer-page
+.player-market-chart[data-player-id="1145"]:not(.player-market-chart--enlarged)
+.player-market-chart__points {
+    position: absolute !important;
+    inset: 0 !important;
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    pointer-events: none !important;
+    z-index: 80 !important;
+}
+
+body.transfer-page
+.player-market-chart.promyachik-konate-prices-under-logos-031:not(.player-market-chart--enlarged)
+.player-market-chart__points > .player-market-chart__point,
+
+body.transfer-page
+.player-market-chart[data-player-id="1145"]:not(.player-market-chart--enlarged)
+.player-market-chart__points > .player-market-chart__point {
+    position: absolute !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: max-content !important;
+    min-width: 0 !important;
+    max-width: 78px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    pointer-events: none !important;
+    z-index: 90 !important;
+    text-align: center !important;
+    transform: translateX(-50%) !important;
+    transition: none !important;
+    animation: none !important;
+}
+
+body.transfer-page
+.player-market-chart.promyachik-konate-prices-under-logos-031:not(.player-market-chart--enlarged)
+.player-market-chart__points > .player-market-chart__point:nth-child(1),
+
+body.transfer-page
+.player-market-chart[data-player-id="1145"]:not(.player-market-chart--enlarged)
+.player-market-chart__points > .player-market-chart__point:nth-child(1) {
+    inset: 85.65% auto auto 6.33% !important;
+}
+
+body.transfer-page
+.player-market-chart.promyachik-konate-prices-under-logos-031:not(.player-market-chart--enlarged)
+.player-market-chart__points > .player-market-chart__point:nth-child(2),
+
+body.transfer-page
+.player-market-chart[data-player-id="1145"]:not(.player-market-chart--enlarged)
+.player-market-chart__points > .player-market-chart__point:nth-child(2) {
+    inset: 61.63% auto auto 35.50% !important;
+}
+
+body.transfer-page
+.player-market-chart.promyachik-konate-prices-under-logos-031:not(.player-market-chart--enlarged)
+.player-market-chart__points > .player-market-chart__point:nth-child(3),
+
+body.transfer-page
+.player-market-chart[data-player-id="1145"]:not(.player-market-chart--enlarged)
+.player-market-chart__points > .player-market-chart__point:nth-child(3) {
+    inset: 44.33% auto auto 64.55% !important;
+}
+
+body.transfer-page
+.player-market-chart.promyachik-konate-prices-under-logos-031:not(.player-market-chart--enlarged)
+.player-market-chart__points > .player-market-chart__point:nth-child(4),
+
+body.transfer-page
+.player-market-chart[data-player-id="1145"]:not(.player-market-chart--enlarged)
+.player-market-chart__points > .player-market-chart__point:nth-child(4) {
+    inset: 55.96% auto auto 92.43% !important;
+}
+
+body.transfer-page
+.player-market-chart.promyachik-konate-prices-under-logos-031:not(.player-market-chart--enlarged)
+.player-market-chart__point small,
+
+body.transfer-page
+.player-market-chart[data-player-id="1145"]:not(.player-market-chart--enlarged)
+.player-market-chart__point small {
+    display: none !important;
+}
+
+body.transfer-page
+.player-market-chart.promyachik-konate-prices-under-logos-031:not(.player-market-chart--enlarged)
+.player-market-chart__point strong,
+
+body.transfer-page
+.player-market-chart[data-player-id="1145"]:not(.player-market-chart--enlarged)
+.player-market-chart__point strong {
+    display: block !important;
+    color: #f5c741 !important;
+    -webkit-text-fill-color: #f5c741 !important;
+    font-weight: 900 !important;
+    white-space: nowrap !important;
+    text-shadow: 0 0 10px rgba(245,199,65,.45), 0 2px 8px rgba(0,0,0,.9) !important;
+    transition: none !important;
+    animation: none !important;
+}
+
+/* PATCH 039 KONATE PAGE INITIAL LABEL POSITIONS END */
+
+
+
+

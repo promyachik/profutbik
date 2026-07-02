@@ -740,6 +740,27 @@ document.body.classList.add(
 /* PROFUTBIK STATS ICON_ONLY TOOLTIP V177 END */
 
 /* PROMYACHIK 279 ALIGN MARKET PRICE LABELS TO POINTS START */
+
+function promyachikSkipKonate279(node) {
+    if (!node) return false;
+
+    var chart = null;
+
+    if (node.matches && node.matches(".player-market-chart")) {
+        chart = node;
+    } else if (node.closest) {
+        chart = node.closest(".player-market-chart");
+    }
+
+    if (!chart) return false;
+
+    return chart.getAttribute("data-player-id") === "1145" ||
+        chart.getAttribute("data-market-chart-key") === "konate" ||
+        chart.classList.contains("player-market-chart--konate-hide-bottom-white-45") ||
+        chart.classList.contains("promyachik-konate-prices-under-logos-031") ||
+        /konat/i.test(chart.getAttribute("data-player") || "");
+}
+
 (function () {
   if (window.__promyachikAlignMarketPrices279Ready) {
     return;
@@ -784,6 +805,7 @@ document.body.classList.add(
     row.style.removeProperty("min-height");
 
     items.forEach(function (item) {
+        if (promyachikSkipKonate279(item)) return;
       item.classList.remove("promyachik-price-align-item-279");
       item.style.removeProperty("position");
       item.style.removeProperty("left");
@@ -829,6 +851,7 @@ document.body.classList.add(
     row.style.height = Math.ceil(rowHeight) + "px";
 
     items.forEach(function (item, index) {
+        if (promyachikSkipKonate279(item)) return;
       const center = centers[Math.min(index, centers.length - 1)];
       const x = roundPx(center - rowRect.left);
       item.classList.add("promyachik-price-align-item-279");
@@ -1145,3 +1168,7 @@ document.body.classList.add(
     }, true);
 }());
 /* PROMYACHIK 031 KONATE PRICES UNDER CLUB LOGOS END */
+
+
+
+
