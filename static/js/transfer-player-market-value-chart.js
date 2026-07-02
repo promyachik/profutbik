@@ -321,8 +321,7 @@
         );
 
         const enlargedChart = chartElement.cloneNode(true);
-
-        enlargedChart.classList.add(
+enlargedChart.classList.add(
             "player-market-chart--enlarged"
         );
 
@@ -332,8 +331,7 @@
         content.replaceChildren(enlargedChart);
 
         modal.hidden = false;
-
-        document.body.classList.add(
+document.body.classList.add(
             "player-market-chart-modal-open"
         );
 
@@ -959,3 +957,65 @@
 })();
 /* PROMYACHIK 280 SHORTEN THOUSAND EURO LABELS TO K END */
 
+
+
+
+
+
+
+/* PROMYACHIK 027 KONATE GOLD AFTER RENDER START */
+(function () {
+    var PATH_RE = /ibrahima-konate-real-madrid/i;
+    var GOLD = '#f5c741';
+
+    function isKonatePage() {
+        return window.location && PATH_RE.test(window.location.pathname || '');
+    }
+
+    function paintGold() {
+        if (!isKonatePage()) return;
+
+        var values = document.querySelectorAll(
+            '.player-market-chart--konate-hide-bottom-white-45 .player-market-chart__point strong, ' +
+            '.player-market-chart[data-player-id="1145"] .player-market-chart__point strong, ' +
+            '.player-market-chart[data-market-chart-key="konate"] .player-market-chart__point strong'
+        );
+
+        Array.prototype.forEach.call(values, function (el) {
+            el.style.setProperty('color', GOLD, 'important');
+            el.style.setProperty('-webkit-text-fill-color', GOLD, 'important');
+            el.style.setProperty('font-weight', '900', 'important');
+            el.style.setProperty('text-shadow', '0 0 10px rgba(245,199,65,.45), 0 2px 8px rgba(0,0,0,.9)', 'important');
+        });
+    }
+
+    function scheduleGold() {
+        if (!isKonatePage()) return;
+
+        window.requestAnimationFrame(paintGold);
+
+        [0, 80, 180, 350, 700, 1200, 2000, 3200].forEach(function (delay) {
+            window.setTimeout(paintGold, delay);
+        });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', scheduleGold);
+    } else {
+        scheduleGold();
+    }
+
+    window.addEventListener('load', scheduleGold);
+    window.addEventListener('resize', scheduleGold);
+
+    document.addEventListener('click', function () {
+        scheduleGold();
+    }, true);
+
+    document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape' || event.key === 'Enter' || event.key === ' ') {
+            scheduleGold();
+        }
+    }, true);
+}());
+/* PROMYACHIK 027 KONATE GOLD AFTER RENDER END */

@@ -606,3 +606,106 @@ body.transfer-page .player-market-chart:not(.player-market-chart--enlarged) .pla
 }
 /* PROMYACHIK 282 PRICE ROW UP ALL PLAYER CHARTS END */
 
+
+
+
+
+/* PATCH 024 KONATE CSS ONLY GOLD GRAPH START */
+
+/* Конате: без JS. Цены внутри графика, золотые, нижний блок не откатывается */
+body.transfer-page .player-market-chart.player-market-chart--konate-hide-bottom-white-45:not(.player-market-chart--enlarged) {
+    position: relative !important;
+    margin-bottom: 8px !important;
+    padding-bottom: 0 !important;
+    min-height: auto !important;
+}
+
+body.transfer-page .player-market-chart.player-market-chart--konate-hide-bottom-white-45:not(.player-market-chart--enlarged) .player-market-chart__canvas {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+body.transfer-page .player-market-chart.player-market-chart--konate-hide-bottom-white-45:not(.player-market-chart--enlarged) .player-market-chart__points,
+.player-market-chart-modal .player-market-chart--enlarged.player-market-chart--konate-hide-bottom-white-45 .player-market-chart__points {
+    position: absolute !important;
+    inset: 0 !important;
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    pointer-events: none !important;
+    z-index: 60 !important;
+}
+
+body.transfer-page .player-market-chart.player-market-chart--konate-hide-bottom-white-45:not(.player-market-chart--enlarged) .player-market-chart__point,
+.player-market-chart-modal .player-market-chart--enlarged.player-market-chart--konate-hide-bottom-white-45 .player-market-chart__point {
+    position: absolute !important;
+    top: calc(100% - 30px) !important;
+    width: max-content !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: none !important;
+    z-index: 70 !important;
+    text-align: center !important;
+}
+
+body.transfer-page .player-market-chart.player-market-chart--konate-hide-bottom-white-45 .player-market-chart__point:nth-child(1),
+.player-market-chart-modal .player-market-chart--enlarged.player-market-chart--konate-hide-bottom-white-45 .player-market-chart__point:nth-child(1) {
+    left: 6.5% !important;
+    transform: translateX(-30%) !important;
+}
+
+body.transfer-page .player-market-chart.player-market-chart--konate-hide-bottom-white-45 .player-market-chart__point:nth-child(2),
+.player-market-chart-modal .player-market-chart--enlarged.player-market-chart--konate-hide-bottom-white-45 .player-market-chart__point:nth-child(2) {
+    left: 35.5% !important;
+    transform: translateX(-50%) !important;
+}
+
+body.transfer-page .player-market-chart.player-market-chart--konate-hide-bottom-white-45 .player-market-chart__point:nth-child(3),
+.player-market-chart-modal .player-market-chart--enlarged.player-market-chart--konate-hide-bottom-white-45 .player-market-chart__point:nth-child(3) {
+    left: 64.8% !important;
+    transform: translateX(-50%) !important;
+}
+
+body.transfer-page .player-market-chart.player-market-chart--konate-hide-bottom-white-45 .player-market-chart__point:nth-child(4),
+.player-market-chart-modal .player-market-chart--enlarged.player-market-chart--konate-hide-bottom-white-45 .player-market-chart__point:nth-child(4) {
+    left: 93.5% !important;
+    transform: translateX(-70%) !important;
+}
+
+body.transfer-page .player-market-chart.player-market-chart--konate-hide-bottom-white-45 .player-market-chart__point small,
+.player-market-chart-modal .player-market-chart--enlarged.player-market-chart--konate-hide-bottom-white-45 .player-market-chart__point small {
+    display: none !important;
+}
+
+body.transfer-page .player-market-chart.player-market-chart--konate-hide-bottom-white-45 .player-market-chart__point strong,
+.player-market-chart-modal .player-market-chart--enlarged.player-market-chart--konate-hide-bottom-white-45 .player-market-chart__point strong {
+    display: block !important;
+    color: #f5c741 !important;
+    -webkit-text-fill-color: #f5c741 !important;
+    font-weight: 900 !important;
+    white-space: nowrap !important;
+    text-shadow: 0 0 10px rgba(245,199,65,.45), 0 2px 8px rgba(0,0,0,.9) !important;
+}
+
+/* В zoom чуть ниже, чтобы не налезало на линию */
+.player-market-chart-modal .player-market-chart--enlarged.player-market-chart--konate-hide-bottom-white-45 .player-market-chart__point {
+    top: calc(100% - 38px) !important;
+}
+
+/* PATCH 024 KONATE CSS ONLY GOLD GRAPH END */
+
+/* PATCH 025 FORCE KONATE GOLD PRICES */
+.player-market-chart--konate-hide-bottom-white-45 .player-market-chart__point strong,
+.player-market-chart--konate-hide-bottom-white-45.promyachik-konate-gold-inside-020 .player-market-chart__point strong,
+.player-market-chart-modal .player-market-chart--enlarged.player-market-chart--konate-hide-bottom-white-45 .player-market-chart__point strong {
+    color: #f5c741 !important;
+    -webkit-text-fill-color: #f5c741 !important;
+    font-weight: 900 !important;
+    text-shadow: 0 0 10px rgba(245,199,65,.45), 0 2px 8px rgba(0,0,0,.9) !important;
+}
