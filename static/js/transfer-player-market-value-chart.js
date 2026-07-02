@@ -963,7 +963,11 @@ document.body.classList.add(
 
 
 
-/* PROMYACHIK 027 KONATE GOLD AFTER RENDER START */
+
+
+
+
+/* PROMYACHIK 031 KONATE PRICES UNDER CLUB LOGOS START */
 (function () {
     var PATH_RE = /ibrahima-konate-real-madrid/i;
     var GOLD = '#f5c741';
@@ -972,50 +976,172 @@ document.body.classList.add(
         return window.location && PATH_RE.test(window.location.pathname || '');
     }
 
-    function paintGold() {
-        if (!isKonatePage()) return;
+    function centerX(rect) {
+        return rect.left + rect.width / 2;
+    }
 
-        var values = document.querySelectorAll(
-            '.player-market-chart--konate-hide-bottom-white-45 .player-market-chart__point strong, ' +
-            '.player-market-chart[data-player-id="1145"] .player-market-chart__point strong, ' +
-            '.player-market-chart[data-market-chart-key="konate"] .player-market-chart__point strong'
-        );
+    function visibleRect(el) {
+        if (!el || !el.getBoundingClientRect) return null;
 
-        Array.prototype.forEach.call(values, function (el) {
-            el.style.setProperty('color', GOLD, 'important');
-            el.style.setProperty('-webkit-text-fill-color', GOLD, 'important');
-            el.style.setProperty('font-weight', '900', 'important');
-            el.style.setProperty('text-shadow', '0 0 10px rgba(245,199,65,.45), 0 2px 8px rgba(0,0,0,.9)', 'important');
+        var r = el.getBoundingClientRect();
+
+        if (!r || r.width < 8 || r.height < 8) return null;
+
+        return r;
+    }
+
+    function sortByX(elements) {
+        return elements
+            .map(function (el) {
+                return { el: el, rect: visibleRect(el) };
+            })
+            .filter(function (x) {
+                return x.rect;
+            })
+            .sort(function (a, b) {
+                return centerX(a.rect) - centerX(b.rect);
+            });
+    }
+
+    function alignChart(chart) {
+        if (!chart) return;
+
+        var isKonateChart =
+            chart.getAttribute('data-player-id') === '1145' ||
+            chart.getAttribute('data-market-chart-key') === 'konate' ||
+            chart.classList.contains('player-market-chart--konate-hide-bottom-white-45') ||
+            /konat/i.test(chart.getAttribute('data-player') || '');
+
+        if (!isKonateChart) return;
+
+        var canvas = chart.querySelector('.player-market-chart__canvas');
+        var row = chart.querySelector('.player-market-chart__points');
+        var points = row ? Array.prototype.slice.call(row.querySelectorAll('.player-market-chart__point')) : [];
+
+        if (!canvas || !row || !points.length) return;
+
+        var chartRect = chart.getBoundingClientRect();
+
+        var logos = sortByX(Array.prototype.slice.call(
+            canvas.querySelectorAll('img, image, .player-market-chart__club-logo, .player-market-chart__club img')
+        ));
+
+        var dots = sortByX(Array.prototype.slice.call(
+            canvas.querySelectorAll('.player-market-chart__dot, circle.player-market-chart__dot, svg circle')
+        ));
+
+        chart.classList.add('promyachik-konate-prices-under-logos-031');
+
+        chart.style.setProperty('position', 'relative', 'important');
+
+        row.style.setProperty('position', 'absolute', 'important');
+        row.style.setProperty('left', '0', 'important');
+        row.style.setProperty('top', '0', 'important');
+        row.style.setProperty('right', '0', 'important');
+        row.style.setProperty('bottom', '0', 'important');
+        row.style.setProperty('display', 'block', 'important');
+        row.style.setProperty('width', '100%', 'important');
+        row.style.setProperty('height', '100%', 'important');
+        row.style.setProperty('margin', '0', 'important');
+        row.style.setProperty('padding', '0', 'important');
+        row.style.setProperty('pointer-events', 'none', 'important');
+        row.style.setProperty('z-index', '80', 'important');
+
+        points.forEach(function (point, index) {
+            var strong = point.querySelector('strong');
+            var small = point.querySelector('small');
+
+            if (!strong || !strong.textContent.trim()) return;
+
+            var logo = logos[index] || null;
+            var dot = dots[index] || null;
+
+            var xRect = dot ? dot.rect : (logo ? logo.rect : null);
+            var yRect = dot ? dot.rect : (logo ? logo.rect : null);
+
+            if (!xRect || !yRect) return;
+
+            var left = centerX(xRect) - chartRect.left;
+
+            /*
+              Цена должна стоять под точкой графика (под кружком),
+              а не под логотипом.
+            */
+            var top = yRect.bottom - chartRect.top + 8;
+
+            if (left < 34) left = 20;
+            if (left > chartRect.width - 34) left = chartRect.width - 20;
+
+            var transform = 'translateX(-50%)';
+
+            if (left <= 22) {
+                transform = 'translateX(0)';
+            } else if (left >= chartRect.width - 22) {
+                transform = 'translateX(-100%)';
+            }
+
+            point.style.setProperty('position', 'absolute', 'important');
+            point.style.setProperty('left', left + 'px', 'important');
+            point.style.setProperty('top', top + 'px', 'important');
+            point.style.setProperty('right', 'auto', 'important');
+            point.style.setProperty('bottom', 'auto', 'important');
+            point.style.setProperty('transform', transform, 'important');
+            point.style.setProperty('display', 'block', 'important');
+            point.style.setProperty('visibility', 'visible', 'important');
+            point.style.setProperty('opacity', '1', 'important');
+            point.style.setProperty('width', 'max-content', 'important');
+            point.style.setProperty('min-width', '0', 'important');
+            point.style.setProperty('margin', '0', 'important');
+            point.style.setProperty('padding', '0', 'important');
+            point.style.setProperty('pointer-events', 'none', 'important');
+            point.style.setProperty('z-index', '90', 'important');
+            point.style.setProperty('text-align', 'center', 'important');
+
+            if (small) {
+                small.style.setProperty('display', 'none', 'important');
+            }
+
+            strong.style.setProperty('display', 'block', 'important');
+            strong.style.setProperty('color', GOLD, 'important');
+            strong.style.setProperty('-webkit-text-fill-color', GOLD, 'important');
+            strong.style.setProperty('font-weight', '900', 'important');
+            strong.style.setProperty('white-space', 'nowrap', 'important');
+            strong.style.setProperty('text-shadow', '0 0 10px rgba(245,199,65,.45), 0 2px 8px rgba(0,0,0,.9)', 'important');
         });
     }
 
-    function scheduleGold() {
+    function applyAll() {
         if (!isKonatePage()) return;
 
-        window.requestAnimationFrame(paintGold);
+        Array.prototype.slice.call(document.querySelectorAll('.player-market-chart')).forEach(alignChart);
+    }
 
-        [0, 80, 180, 350, 700, 1200, 2000, 3200].forEach(function (delay) {
-            window.setTimeout(paintGold, delay);
+    function schedule() {
+        if (!isKonatePage()) return;
+
+        window.requestAnimationFrame(applyAll);
+        [0, 80, 180, 350, 700, 1200, 2000].forEach(function (delay) {
+            window.setTimeout(applyAll, delay);
         });
     }
 
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', scheduleGold);
+        document.addEventListener('DOMContentLoaded', schedule);
     } else {
-        scheduleGold();
+        schedule();
     }
 
-    window.addEventListener('load', scheduleGold);
-    window.addEventListener('resize', scheduleGold);
+    window.addEventListener('load', schedule);
+    window.addEventListener('resize', schedule);
 
     document.addEventListener('click', function () {
-        scheduleGold();
+        schedule();
     }, true);
 
     document.addEventListener('keydown', function (event) {
         if (event.key === 'Escape' || event.key === 'Enter' || event.key === ' ') {
-            scheduleGold();
+            schedule();
         }
     }, true);
 }());
-/* PROMYACHIK 027 KONATE GOLD AFTER RENDER END */
+/* PROMYACHIK 031 KONATE PRICES UNDER CLUB LOGOS END */

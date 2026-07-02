@@ -709,3 +709,50 @@ body.transfer-page .player-market-chart.player-market-chart--konate-hide-bottom-
     font-weight: 900 !important;
     text-shadow: 0 0 10px rgba(245,199,65,.45), 0 2px 8px rgba(0,0,0,.9) !important;
 }
+
+
+
+
+
+
+/* PATCH 031 KONATE PRICES UNDER CLUB LOGOS CSS START */
+.player-market-chart--konate-hide-bottom-white-45 .player-market-chart__points,
+.player-market-chart[data-player-id="1145"] .player-market-chart__points {
+    position: absolute !important;
+    inset: 0 !important;
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    pointer-events: none !important;
+    z-index: 80 !important;
+}
+
+.player-market-chart--konate-hide-bottom-white-45 .player-market-chart__point,
+.player-market-chart[data-player-id="1145"] .player-market-chart__point {
+    position: absolute !important;
+    width: max-content !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    pointer-events: none !important;
+    z-index: 90 !important;
+    text-align: center !important;
+}
+
+.player-market-chart--konate-hide-bottom-white-45 .player-market-chart__point small,
+.player-market-chart[data-player-id="1145"] .player-market-chart__point small {
+    display: none !important;
+}
+
+.player-market-chart--konate-hide-bottom-white-45 .player-market-chart__point strong,
+.player-market-chart[data-player-id="1145"] .player-market-chart__point strong {
+    display: block !important;
+    color: #f5c741 !important;
+    -webkit-text-fill-color: #f5c741 !important;
+    font-weight: 900 !important;
+    white-space: nowrap !important;
+    text-shadow: 0 0 10px rgba(245,199,65,.45), 0 2px 8px rgba(0,0,0,.9) !important;
+}
+/* PATCH 031 KONATE PRICES UNDER CLUB LOGOS CSS END */
