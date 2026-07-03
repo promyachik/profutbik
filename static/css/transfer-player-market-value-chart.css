@@ -673,3 +673,64 @@ body.transfer-page .player-market-chart:not(.player-market-chart--enlarged) .pla
 }
 
 /* PATCH 045 GLOBAL MARKET CHART LABEL STANDARD END */
+
+
+
+/* PATCH 063 FIX ZOOM SVG DOT RADIUS START */
+
+/* Only zoom/enlarged chart. SVG circle size is controlled by r, not width/height. */
+.player-market-chart--enlarged svg circle.player-market-chart__dot,
+.player-market-chart--enlarged .player-market-chart__dot {
+    r: 2.35px !important;
+    stroke-width: 1.45px !important;
+}
+
+.player-market-chart--enlarged svg circle.player-market-chart__dot--current,
+.player-market-chart--enlarged .player-market-chart__dot--current {
+    r: 2.65px !important;
+    stroke-width: 1.6px !important;
+}
+
+/* PATCH 063 FIX ZOOM SVG DOT RADIUS END */
+
+
+/* PATCH 064 ZOOM DOT BOLD STROKE START */
+
+/* Only zoom/enlarged chart: stronger golden outline for SVG dots. */
+.player-market-chart--enlarged svg circle.player-market-chart__dot,
+.player-market-chart--enlarged .player-market-chart__dot {
+    stroke: #f5c741 !important;
+    stroke-width: 2.35px !important;
+    vector-effect: non-scaling-stroke !important;
+    filter: drop-shadow(0 0 5px rgba(245, 199, 65, .55)) !important;
+}
+
+.player-market-chart--enlarged svg circle.player-market-chart__dot--current,
+.player-market-chart--enlarged .player-market-chart__dot--current {
+    stroke: #f5c741 !important;
+    stroke-width: 2.75px !important;
+    vector-effect: non-scaling-stroke !important;
+    filter: drop-shadow(0 0 7px rgba(245, 199, 65, .7)) !important;
+}
+
+/* PATCH 064 ZOOM DOT BOLD STROKE END */
+
+
+
+
+/* PATCH 066 NORMAL DOTS MEDIUM SIZE START */
+
+/* Normal page chart only. Zoom/enlarged dots stay controlled by PATCH 063/064. */
+body.transfer-page .player-market-chart:not(.player-market-chart--enlarged) svg circle.player-market-chart__dot,
+body.transfer-page .player-market-chart:not(.player-market-chart--enlarged) .player-market-chart__dot {
+    r: 2.8px !important;
+    stroke-width: 1.45px !important;
+}
+
+body.transfer-page .player-market-chart:not(.player-market-chart--enlarged) svg circle.player-market-chart__dot--current,
+body.transfer-page .player-market-chart:not(.player-market-chart--enlarged) .player-market-chart__dot--current {
+    r: 3.05px !important;
+    stroke-width: 1.65px !important;
+}
+
+/* PATCH 066 NORMAL DOTS MEDIUM SIZE END */
