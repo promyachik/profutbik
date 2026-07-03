@@ -1,4 +1,4 @@
----
+﻿---
 title: "Марк Кукурелья перешёл в «Реал»: сумма сделки и контракт до 2032 года"
 description: "Марк Кукурелья официально перешёл из «Челси» в мадридский «Реал». Сумма, срок контракта и главные детали сделки."
 date: 2026-06-15T12:00:00+02:00
@@ -10,7 +10,9 @@ layout: "single"
 status: "official"
 player: "Marc Cucurella"
 player_initials: "MC"
-player_id: 47380
+player_id: 47380
+market_value_display: "55 млн"
+market_value: "55 млн"
 player_image: "images/players/cutout/47380.png"
 player_image_source_name: "API-Football"
 player_image_source_url: "https://media.api-sports.io/football/players/47380.png"
@@ -153,3 +155,5 @@ previous_club_stats:
 
 
 Переход и срок соглашения подтверждены [официальным сайтом «Реала»](https://www.realmadrid.com/en-US/news/club/announcements/comunicado-oficial-cucurella-15-06-2026). Информацию о структуре суммы опубликовал [Фабрицио Романо](https://x.com/FabrizioRomano/status/2066446489006584029).
+
+

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
 
 <head>
@@ -872,7 +872,7 @@
                                 {{ if $marketValueURL }}
 
                                     <a
-                                        class="player-brief__market-value"
+                                        class="player-brief__market-value-inline"
                                         href="{{ $marketValueURL }}"
                                         title="Открыть историю рыночной стоимости"
                                     >
@@ -881,7 +881,7 @@
 
                                 {{ else }}
 
-                                    <span class="player-brief__market-value">
+                                    <span class="player-brief__market-value-inline">
                                         <span>{{ . }}</span>
                                     </span>
 
@@ -895,8 +895,7 @@
 
 
                 </dl>
-
-                {{ partial "transfer-player-market-value-chart.html" . }}
+{{ partial "transfer-player-market-value-chart.html" . }}
 
 
 
@@ -1893,3 +1892,5 @@
 </body>
 </html>
 {{ partial "promyachik-cucurella-move-prices-to-club-x-244.html" . }}
+
+
