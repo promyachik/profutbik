@@ -1,4 +1,4 @@
----
+﻿---
 title: "Маттейс де Лигт перешёл в «Манчестер Юнайтед»: детали трансфера из «Баварии»"
 description: "Маттейс де Лигт официально перешёл из «Баварии» в «Манчестер Юнайтед». Сумма сделки, роль защитника и главные детали перехода."
 date: 2024-08-13T12:00:00+02:00
@@ -10,7 +10,9 @@ layout: "single"
 status: "official"
 player: "Matthijs de Ligt"
 player_initials: "MDL"
-player_id: "532"
+player_id: "532"
+market_value_display: "€30 млн"
+market_value: "€30 млн"
 player_image: "images/players/transfermarkt/532.jpg"
 api_player_image: "images/players/api/532.png"
 cutout_player_image: ""
@@ -37,7 +39,6 @@ to_club_logo: "images/clubs/api/33.png"
 fee: "€45.00m"
 source_name: "Transfermarkt"
 source_url: "https://www.transfermarkt.com/matthijs-de-ligt/marktwertverlauf/spieler/326031"
-market_value: "30 млн евро"
 
 previous_club_stats:
   label: "Bayern Munich · сезон 2023/24"
@@ -118,3 +119,4 @@ player_url: "/players/matthijs-de-ligt/"
 ## История стоимости
 
 Блок динамики показывает оценочную рыночную стоимость игрока, а не сумму трансфера.
+

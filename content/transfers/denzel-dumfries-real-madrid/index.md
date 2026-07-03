@@ -1,4 +1,4 @@
----
+﻿---
 title: "Дензел Дюмфрис подписал контракт с «Реалом»: что известно о сделке"
 description: "Дензел Дюмфрис прошёл медосмотр и подписал четырёхлетний контракт с «Реалом». Последние детали перехода из «Интера» и текущий статус."
 date: 2026-06-09T10:00:00+02:00
@@ -10,7 +10,9 @@ layout: "single"
 status: "confirmed"
 player: "Denzel Dumfries"
 player_initials: "DD"
-player_id: 226
+player_id: 226
+market_value_display: "€25 млн"
+market_value: "€25 млн"
 player_image: "images/players/cutout/226.png"
 player_image_source_name: "API-Football"
 player_image_source_url: "https://media.api-sports.io/football/players/226.png"
@@ -157,3 +159,4 @@ previous_club_stats:
 
 
 Информация о контракте и медосмотре опубликована [Фабрицио Романо](https://x.com/FabrizioRomano/status/2064229756812636414).
+

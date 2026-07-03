@@ -1,4 +1,4 @@
----
+﻿---
 title: "Флориан Вирц перешёл в «Ливерпуль»: сумма трансфера и детали сделки"
 description: "Флориан Вирц перешёл из «Байера» в «Ливерпуль» 20 июня 2025 года. Сумма, контракт, возраст игрока и главные факты трансфера."
 date: 2025-06-20T12:00:00+02:00
@@ -13,7 +13,9 @@ player_initials: "PF"
 player_image: "images/players/cutout/203224.png"
 player_image_source_name: "API-Football"
 player_image_source_url: "https://media.api-sports.io/football/players/203224.png"
-player_id: 203224
+player_id: 203224
+market_value_display: "€100 млн"
+market_value: "€100 млн"
 player_image_background_removed: true
 player_image_processor: "Pixelcut"
 position: "Атакующий полузащитник"
@@ -23,7 +25,6 @@ birth_date: "03.05.2003"
 nationality: "Германия"
 nationality_name: "Германия"
 preferred_foot: "Правая"
-market_value: "140 млн евро"
 
 from_club_id: 168
 from_club_name: "Bayer Leverkusen"
@@ -107,3 +108,4 @@ previous_club_stats:
 ## Источники
 
 Основой материала стали официальные сообщения [«Ливерпуля»](https://www.liverpoolfc.com/news/liverpool-agree-signing-florian-wirtz-bayer-leverkusen) и [леверкузенского «Байера»](https://www.bayer04.de/de-de/news/bayer04/abschied-mit-wehmut-florian-wirtz-wechselt-zum-fc-liverpool), а данные о предполагаемой стоимости сделки опубликованы [официальным сайтом Премьер-лиги](https://www.premierleague.com/en/news/4324665).
+

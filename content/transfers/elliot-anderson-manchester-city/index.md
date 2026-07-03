@@ -1,4 +1,4 @@
----
+﻿---
 title: "Эллиот Андерсон переходит в «Манчестер Сити»: £116 млн и медосмотр"
 description: "«Манчестер Сити» согласовал трансфер Эллиота Андерсона из «Ноттингем Форест» за £116 млн. Медосмотр, статус сделки и детали."
 date: 2026-06-25T23:00:00+02:00
@@ -10,7 +10,9 @@ layout: "single"
 status: "agreement"
 player: "Elliot Anderson"
 player_initials: "EA"
-player_id: 138908
+player_id: 138908
+market_value_display: "€75 млн"
+market_value: "€75 млн"
 player_image: "images/players/cutout/138908.png"
 player_image_source_name: "API-Football"
 player_image_source_url: "https://media.api-sports.io/football/players/138908.png"
@@ -157,3 +159,4 @@ previous_club_stats:
 
 
 О договорённости на £116 млн и назначенном медосмотре сообщил [Фабрицио Романо](https://x.com/FabrizioRomano/status/2070259614206017553).
+

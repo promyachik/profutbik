@@ -1,4 +1,4 @@
----
+﻿---
 title: "«Барселона» ведёт переговоры по Хулиану Альваресу: предложение и позиция «Атлетико»"
 description: "«Барселона» сделала предложение по Хулиану Альваресу. Что известно о сумме, позиции игрока, ответе «Атлетико» и текущем статусе переговоров."
 date: 2026-05-29T12:00:00+02:00
@@ -10,7 +10,9 @@ layout: "single"
 status: "negotiations"
 player: "Julián Álvarez"
 player_initials: "JÁ"
-player_id: 6009
+player_id: 6009
+market_value_display: "€100 млн"
+market_value: "€100 млн"
 player_image: "images/players/cutout/6009.png"
 player_image_source_name: "API-Football"
 player_image_source_url: "https://media.api-sports.io/football/players/6009.png"
@@ -165,3 +167,4 @@ previous_club_stats:
 
 
 О первом официальном предложении сообщил [Фабрицио Романо](https://x.com/FabrizioRomano/status/2060298651436535963). Позднее он также сообщал, что «Атлетико» не намерен принимать такую оценку и ожидает более выгодных условий.
+

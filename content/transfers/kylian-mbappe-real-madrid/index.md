@@ -1,4 +1,4 @@
----
+﻿---
 title: "Килиан Мбаппе перешел из ПСЖ в Реал Мадрид - детали трансфера"
 description: "Подробности перехода Килиана Мбаппе из ПСЖ в Реал Мадрид: статус сделки, контракт, статистика за предыдущий клуб и хронология трансфера."
 date: 2024-06-03T12:00:00+03:00
@@ -13,7 +13,9 @@ player_initials: "KM"
 player_image: ""
 player_image_source_name: "API-Football"
 player_image_source_url: "https://www.api-football.com/"
-player_id: 278
+player_id: 278
+market_value_display: "€180 млн"
+market_value: "€180 млн"
 player_slug: "kylian-mbappe"
 
 position: "Нападающий"
@@ -22,7 +24,6 @@ age: 25
 nationality: "Франция"
 nationality_flag_image: "images/flags/fr.svg"
 preferred_foot: "Правая"
-market_value: "180 миллионов"
 market_value_url: "/transfers/kylian-mbappe-real-madrid/#market-value"
 
 from_club_id: 85
