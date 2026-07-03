@@ -1,4 +1,4 @@
-/* =========================================
+﻿/* =========================================
    PROMYACHIK — БЕГУЩАЯ СТРОКА ТРАНСФЕРОВ
 ========================================= */
 
@@ -326,3 +326,17 @@
 }
 /* PROMYACHIK 298 TICKER STABILIZE END */
 
+
+/* PATCH 072 TOP TICKER SEAM START */
+
+.pf-ticker__track {
+    gap: 0 !important;
+    column-gap: 0 !important;
+}
+
+.pf-ticker__track > .pf-ticker__group {
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* PATCH 072 TOP TICKER SEAM END */
