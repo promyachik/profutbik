@@ -157,7 +157,10 @@
                 </aside>
             </div>
         </section>
-    </main>
+    {{/* PF_HOME_PLAYER_BOTTOM_START */}}
+{{ partial "home-player-bottom-strip.html" . }}
+{{/* PF_HOME_PLAYER_BOTTOM_END */}}
+</main>
 
     {{ if templates.Exists "partials/official-transfer-ticker.html" }}
         {{ partial "official-transfer-ticker.html" . }}
