@@ -1,4 +1,5 @@
-﻿---
+---
+concept_art_image: "images/homepage/featured/bernardo-silva-real-madrid-hero.png"
 title: "Бернарду Силва переходит в «Реал»: соглашение с «Манчестер Сити» и сумма сделки"
 seo_title: "Бернарду Силва → Real Madrid: трансфер из Manchester City, сумма €22 млн"
 description: "Бернарду Силва согласовал переход из Manchester City в Real Madrid. Детали сделки, сумма трансфера, позиция, гражданство, рабочая нога и динамика рыночной стоимости."
