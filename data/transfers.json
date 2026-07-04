@@ -35,6 +35,40 @@
     },
     {
         "status":  "agreement",
+        "status_label":  "СОГЛАСОВАНО",
+        "player":  "Bernardo Silva",
+        "player_id":  636,
+        "player_image":  "images/players/custom/bernardo-silva-real-madrid-black.png",
+        "player_image_fallback":  "https://media.api-sports.io/football/players/636.png",
+        "from_club_id":  50,
+        "from_club_name":  "Manchester City",
+        "from_club_logo":  "images/clubs/api/50.png",
+        "to_club_id":  541,
+        "to_club_name":  "Real Madrid",
+        "to_club_logo":  "images/clubs/api/541.png",
+        "from_club":  {
+                          "id":  50,
+                          "name":  "Manchester City",
+                          "logo":  "images/clubs/api/50.png"
+                      },
+        "to_club":  {
+                        "id":  541,
+                        "name":  "Real Madrid",
+                        "logo":  "images/clubs/api/541.png"
+                    },
+        "fee":  "€22 млн",
+        "url":  "transfers/bernardo-silva-real-madrid/",
+        "date":  "2026-06-21",
+        "show_in_top_ticker":  true,
+        "show_in_footer_ticker":  true,
+        "ticker_image":  "images/players/custom/bernardo-silva-real-madrid-black.png",
+        "cutout_player_image":  "images/players/custom/bernardo-silva-real-madrid-black.png",
+        "player_image_background_removed":  true,
+        "player_image_processor":  "black-background-ready",
+        "slug":  "bernardo-silva-real-madrid"
+    },
+    {
+        "status":  "agreement",
         "status_label":  "",
         "player":  "Elliot Anderson",
         "player_id":  138908,

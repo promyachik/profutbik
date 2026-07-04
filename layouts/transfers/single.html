@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 
 <head>
@@ -914,11 +914,11 @@
 
     {{ $bottomTransfers := slice }}
     {{ range .Site.Data.transfers }}
-        {{ if or (eq .status "official") (eq .slug "goncalo-ramos-ac-milan") }}
+        {{ if or (eq .status "official") (eq .slug "goncalo-ramos-ac-milan") (eq .slug "bernardo-silva-real-madrid") }}
             {{ $bottomTransfers = $bottomTransfers | append . }}
         {{ end }}
     {{ end }}
-    {{ $bottomTransfers = first 6 $bottomTransfers }}
+    {{ $bottomTransfers = first 7 $bottomTransfers }}
 
     <style>
         .transfer-status--confirmed {
