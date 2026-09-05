@@ -3,6 +3,13 @@ name: Publish site
 on:
   push:
     branches: [main]
+  # Push, сделанный встроенным токеном Actions, намеренно не запускает другие
+  # workflow — так GitHub защищается от бесконечной цепочки. Из-за этого
+  # трансфер, опубликованный автопилотом, ложился в репозиторий и на сайт не
+  # попадал. Отдельным поводом ловим завершение такта.
+  workflow_run:
+    workflows: ["Autopilot tick"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -17,6 +24,10 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Такт, завершившийся отказом, сайт не менял — пересобирать нечего.
+    if: >-
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
     env:
       HUGO_VERSION: 0.163.3
     steps:
