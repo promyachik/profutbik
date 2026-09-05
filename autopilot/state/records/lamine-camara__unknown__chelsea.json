@@ -1,0 +1,84 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "lamine-camara__unknown__chelsea",
+  "player": "Lamine Camara",
+  "from_club": "AS Monaco",
+  "to_club": "Chelsea",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "RUMOR_READY",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cp8416ll9yvo?at_medium=RSS&at_campaign=rss",
+    "title": "Chelsea eye Monaco's Lamine Camara and Valencia push for Liverpool midfielder Harvey Elliott, plus more",
+    "published": "Fri, 28 Aug 2026 20:48:59 GMT",
+    "published_iso": "2026-08-28T20:48:59+00:00"
+  },
+  "discovered_at": "2026-09-05T19:24:40.427975+00:00",
+  "enriched_at": "2026-09-05T19:26:51.579568+00:00",
+  "tm_to_club_id": "631",
+  "found_in": "local_index",
+  "tm_from_club_id": "162",
+  "tm_player_id": "918969",
+  "player_full_name": "Lamine Camara",
+  "birth_date": "2004-01-01",
+  "age": 22,
+  "position": "Central Midfield",
+  "position_short": "CM",
+  "preferred_foot": "right",
+  "height": 1.74,
+  "contract_until": "2029-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/918969-1726834088.jpg",
+  "market_value_points": [
+    {
+      "date": "2026-03-27",
+      "value_eur_m": 35.0
+    },
+    {
+      "date": "2026-06-01",
+      "value_eur_m": 40.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 149,
+    "secondNationalityId": 0
+  },
+  "birth_place": "Diouloulou ",
+  "former_clubs_note": "Galaxy FA, Casa Sports ",
+  "shirt_number": 8,
+  "is_captain": false,
+  "transfer_date": "2024-07-30",
+  "national_team_debut": "2023-01-14",
+  "squad_analysis": {
+    "same_position_count": 2,
+    "same_position_names": [
+      "Valentín Barco",
+      "Jordan Henderson"
+    ],
+    "value_rank": null,
+    "squad_total": 28,
+    "younger_than": 16
+  },
+  "to_club_official_name": "Chelsea FC",
+  "to_club_context": {
+    "squad_size": 28,
+    "average_age": "24.4",
+    "squad_value": {
+      "prefix": "€",
+      "content": "1.08",
+      "suffix": "B"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "38.74",
+      "suffix": "M"
+    },
+    "stadium": "Fulham Road",
+    "city": "London"
+  },
+  "block_reason": "",
+  "block_detail": ""
+}

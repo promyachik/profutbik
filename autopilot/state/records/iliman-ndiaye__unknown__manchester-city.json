@@ -1,0 +1,81 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "iliman-ndiaye__unknown__manchester-city",
+  "player": "Iliman Ndiaye",
+  "from_club": "",
+  "to_club": "Manchester City",
+  "fee_raw": "",
+  "verdict": "DUPLICATE_EXISTING",
+  "verdict_reason": "TM ID 623570 уже на сайте: iliman-ndiaye-manchester-city",
+  "pipeline_state": "SKIPPED_DUPLICATE",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c3eq89xedp0o?at_medium=RSS&at_campaign=rss",
+    "title": "Manchester City target Everton's Iliman Ndiaye and Aston Villa make direct contact to sign Rafael Leao",
+    "published": "Thu, 27 Aug 2026 21:33:44 GMT",
+    "published_iso": "2026-08-27T21:33:44+00:00"
+  },
+  "discovered_at": "2026-09-05T19:24:40.428779+00:00",
+  "enriched_at": "2026-09-05T19:26:41.312479+00:00",
+  "tm_to_club_id": "281",
+  "tm_player_id": "623570",
+  "player_full_name": "Iliman Ndiaye",
+  "birth_date": "2000-03-06",
+  "age": 26,
+  "position": "Right Winger",
+  "position_short": "RW",
+  "preferred_foot": "right",
+  "height": 1.8,
+  "contract_until": "2031-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/623570-1765811829.jpg",
+  "market_value_points": [
+    {
+      "date": "2026-03-09",
+      "value_eur_m": 50.0
+    },
+    {
+      "date": "2026-06-03",
+      "value_eur_m": 55.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 149,
+    "secondNationalityId": 50
+  },
+  "birth_place": "Rouen",
+  "former_clubs_note": "Rouen Sapins FC (2007-2009), FC Rouen (2009-2010), Olympique de Marseille (2010-2014), Dakar Sacré-Cœur (2014-2016), Boreham Wood (2016-2019), Rising Ballers FC (2019)",
+  "shirt_number": 7,
+  "is_captain": false,
+  "transfer_date": "2026-09-01",
+  "national_team_debut": "2022-06-04",
+  "squad_analysis": {
+    "same_position_count": 3,
+    "same_position_names": [
+      "Antoine Semenyo",
+      "Allan",
+      "Ryan McAidoo"
+    ],
+    "value_rank": 13,
+    "squad_total": 25,
+    "younger_than": 6
+  },
+  "to_club_official_name": "Manchester City",
+  "to_club_context": {
+    "squad_size": 25,
+    "average_age": "25.4",
+    "squad_value": {
+      "prefix": "€",
+      "content": "1.43",
+      "suffix": "B"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "57.39",
+      "suffix": "M"
+    },
+    "stadium": "Etihad Stadium, Etihad Campus",
+    "city": "Manchester"
+  }
+}

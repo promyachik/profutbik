@@ -1,0 +1,83 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "martin-zubimendi__unknown__real-madrid",
+  "player": "Martin Zubimendi",
+  "from_club": "Arsenal FC",
+  "to_club": "Real Madrid",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "RUMOR_READY",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c4gkk7r2r4yo?at_medium=RSS&at_campaign=rss",
+    "title": "Real Madrid want Martin Zubimendi and Premier League clubs want Liam Delap",
+    "published": "Mon, 17 Aug 2026 09:12:54 GMT",
+    "published_iso": "2026-08-17T09:12:54+00:00"
+  },
+  "discovered_at": "2026-09-05T19:24:40.438419+00:00",
+  "enriched_at": "2026-09-05T19:26:54.024539+00:00",
+  "tm_to_club_id": "418",
+  "found_in": "local_index",
+  "tm_from_club_id": "11",
+  "tm_player_id": "423440",
+  "player_full_name": "Martín Zubimendi",
+  "birth_date": "1999-02-02",
+  "age": 27,
+  "position": "Defensive Midfield",
+  "position_short": "DM",
+  "preferred_foot": "right",
+  "height": 1.81,
+  "contract_until": "2030-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/423440-1684149419.jpg",
+  "market_value_points": [
+    {
+      "date": "2026-03-09",
+      "value_eur_m": 80.0
+    },
+    {
+      "date": "2026-06-03",
+      "value_eur_m": 75.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 157,
+    "secondNationalityId": 0
+  },
+  "birth_place": "Donostia-San Sebastián",
+  "former_clubs_note": "Antiguoko (2006-2011), Real Sociedad (2011-2019)",
+  "shirt_number": 36,
+  "is_captain": false,
+  "transfer_date": "2025-07-06",
+  "national_team_debut": "2021-06-08",
+  "squad_analysis": {
+    "same_position_count": 1,
+    "same_position_names": [
+      "Aurélien Tchouaméni"
+    ],
+    "value_rank": null,
+    "squad_total": 27,
+    "younger_than": 8
+  },
+  "to_club_official_name": "Real Madrid",
+  "to_club_context": {
+    "squad_size": 27,
+    "average_age": "25.9",
+    "squad_value": {
+      "prefix": "€",
+      "content": "1.46",
+      "suffix": "B"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "53.94",
+      "suffix": "M"
+    },
+    "stadium": "Avenida de Concha Espina 1",
+    "city": "Madrid"
+  },
+  "block_reason": "",
+  "block_detail": ""
+}

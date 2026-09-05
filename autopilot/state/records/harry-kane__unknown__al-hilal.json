@@ -1,0 +1,88 @@
+{
+  "schema_version": 2,
+  "kind": "negotiations",
+  "entity_id": "harry-kane__unknown__al-hilal",
+  "player": "Harry Kane",
+  "from_club": "Bayern Munich",
+  "to_club": "Al-Hilal",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "RUMOR_READY",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c70gdd61kk4o?at_medium=RSS&at_campaign=rss",
+    "title": "Al-Hilal in talks with Harry Kane and Ollie Watkins",
+    "published": "Tue, 18 Aug 2026 21:02:44 GMT",
+    "published_iso": "2026-08-18T21:02:44+00:00"
+  },
+  "discovered_at": "2026-09-05T19:24:40.436970+00:00",
+  "enriched_at": "2026-09-05T19:26:32.757852+00:00",
+  "tm_to_club_id": "1114",
+  "found_in": "local_index",
+  "tm_from_club_id": "27",
+  "tm_player_id": "132098",
+  "player_full_name": "Harry Kane",
+  "birth_date": "1993-07-28",
+  "age": 33,
+  "position": "Centre-Forward",
+  "position_short": "CF",
+  "preferred_foot": "right",
+  "height": 1.88,
+  "contract_until": "2027-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/132098-1700211169.jpg",
+  "market_value_points": [
+    {
+      "date": "2019-12-10",
+      "value_eur_m": 150.0
+    },
+    {
+      "date": "2025-12-19",
+      "value_eur_m": 65.0
+    },
+    {
+      "date": "2026-05-27",
+      "value_eur_m": 60.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 189,
+    "secondNationalityId": 72
+  },
+  "birth_place": "London",
+  "former_clubs_note": "Ridgeway Rovers (1999-2001), Arsenal FC (2001-2002), Ridgeway Rovers (2002-2004), Watford FC (2004), Tottenham Hotspur (2004-2010)",
+  "shirt_number": 9,
+  "is_captain": false,
+  "transfer_date": "2023-08-12",
+  "national_team_debut": "2015-03-27",
+  "squad_analysis": {
+    "same_position_count": 2,
+    "same_position_names": [
+      "Ollie Watkins",
+      "Kader Meïté"
+    ],
+    "value_rank": null,
+    "squad_total": 28,
+    "younger_than": 4
+  },
+  "to_club_official_name": "Al-Hilal SFC",
+  "to_club_context": {
+    "squad_size": 28,
+    "average_age": "27.3",
+    "squad_value": {
+      "prefix": "€",
+      "content": "239.88",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "8.57",
+      "suffix": "M"
+    },
+    "stadium": "",
+    "city": "Benghazi"
+  },
+  "block_reason": "",
+  "block_detail": ""
+}

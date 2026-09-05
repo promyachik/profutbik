@@ -1,0 +1,89 @@
+{
+  "schema_version": 2,
+  "kind": "negotiations",
+  "entity_id": "mateta__unknown__aston-villa",
+  "player": "Mateta",
+  "from_club": "Crystal Palace",
+  "to_club": "Aston Villa",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "RUMOR_READY",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ce8e0l7prg6o?at_medium=RSS&at_campaign=rss",
+    "title": "Villa make offer for Mateta - Wednesday's gossip",
+    "published": "Wed, 26 Aug 2026 09:07:26 GMT",
+    "published_iso": "2026-08-26T09:07:26+00:00"
+  },
+  "discovered_at": "2026-09-05T19:24:40.433900+00:00",
+  "enriched_at": "2026-09-05T19:26:57.139166+00:00",
+  "tm_to_club_id": "405",
+  "found_in": "local_index",
+  "tm_from_club_id": "873",
+  "tm_player_id": "420002",
+  "player_full_name": "Jean-Philippe Mateta",
+  "birth_date": "1997-06-28",
+  "age": 29,
+  "position": "Centre-Forward",
+  "position_short": "CF",
+  "preferred_foot": "right",
+  "height": 1.92,
+  "contract_until": "2027-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/420002-1723202650.jpg",
+  "market_value_points": [
+    {
+      "date": "2025-12-09",
+      "value_eur_m": 40.0
+    },
+    {
+      "date": "2026-03-09",
+      "value_eur_m": 35.0
+    },
+    {
+      "date": "2026-06-03",
+      "value_eur_m": 30.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 50,
+    "secondNationalityId": 193
+  },
+  "birth_place": "Sevran",
+  "former_clubs_note": "Olympique de Sevran (2004-2010), Sevran FC (2010-2011), JA Drancy (2011-2014), LB Châteauroux (2014-2016)",
+  "shirt_number": 14,
+  "is_captain": false,
+  "transfer_date": "2022-01-31",
+  "national_team_debut": "2025-10-10",
+  "squad_analysis": {
+    "same_position_count": 3,
+    "same_position_names": [
+      "Nicolas Jackson",
+      "Tammy Abraham",
+      "Brian Madjo"
+    ],
+    "value_rank": null,
+    "squad_total": 27,
+    "younger_than": 6
+  },
+  "to_club_official_name": "Aston Villa",
+  "to_club_context": {
+    "squad_size": 27,
+    "average_age": "26.2",
+    "squad_value": {
+      "prefix": "€",
+      "content": "572.30",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "21.20",
+      "suffix": "M"
+    },
+    "stadium": "Villa Park",
+    "city": "Birmingham"
+  },
+  "block_reason": "",
+  "block_detail": ""
+}

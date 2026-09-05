@@ -27,7 +27,13 @@ from pathlib import Path
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from paths import SITE as ACTIVE_PROJECT, WORK as PROFUTBIK  # noqa: E402
-PARSER_ROOT = PROFUTBIK / "parser"
+from paths import PARSER_ROOT  # noqa: E402
+# PARSER_ROOT берётся из paths, а не считается как WORK/"parser". На машине
+# Дмитрия это одно и то же, а в облаке — разные каталоги: очередь лежит в
+# autopilot, рабочий каталог в autopilot/work. Разведка складывала найденное
+# в work, обогащение искало в autopilot и не находило ничего. Хуже того,
+# work закрыт от коммитов как одноразовый, поэтому находки исчезали вместе
+# с раннером, и в облаке ленты много недель работали вхолостую.
 RECORDS_DIR = PARSER_ROOT / "state" / "records"
 HISTORY_DIR = PARSER_ROOT / "state" / "history"
 
