@@ -102,15 +102,13 @@ svg text {
    и лишь при её отсутствии берёт основной шрифт. Переменная наследуется, ей
    специфичность не нужна, и достаточно объявить её там, где нужен другой
    шрифт. */
-.pf-home-panel__title,
-.pf-home-panel__title a,
+/* PF512B: заголовки разделов вернулись к основному шрифту — так Дмитрию
+   лучше. Заголовочный остался там, где он и работает: на именах и фамилиях
+   игроков. Узкое начертание там не только про характер, но и про ширину —
+   «Jean-Philippe Mateta» перестал обрезаться именно из-за него. */
 .pf-home-transfers-table tbody td.is-player a,
-.pf405a-title,
 .pf405a-player,
-.pf405a-head-title,
-.transfer-stage__player,
-.transfer-story__header h1,
-body.transfer-page h1 {
+.transfer-stage__player {
   --pf-font-here: var(--pf-display-font-family);
   letter-spacing: 0.01em;
 }
