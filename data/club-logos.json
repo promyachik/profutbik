@@ -265,7 +265,7 @@
     "45": {
       "id": 45,
       "name": "Everton",
-      "configured_name": "Everton",
+      "configured_name": "Everton FC",
       "code": "EVE",
       "country": "England",
       "league_id": 39,
@@ -273,7 +273,7 @@
       "season": 2024,
       "founded": 1878,
       "national": false,
-      "logo": "images/clubs/api/rendered/45-7d798d13ebff.png",
+      "logo": "images/clubs/api/rendered/45-2880cbece686.png",
       "api_logo": "https://media.api-sports.io/football/teams/45.png",
       "venue": {
         "id": 22033,
