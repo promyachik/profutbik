@@ -609,7 +609,7 @@
     "81": {
       "id": 81,
       "name": "Marseille",
-      "configured_name": "Marseille",
+      "configured_name": "Olympique Marseille",
       "code": "MAR",
       "country": "France",
       "league_id": 61,
@@ -1089,13 +1089,17 @@
       "season": 2024,
       "founded": 1909,
       "national": false,
-      "logo": "images/clubs/api/165.png",
+      "logo": "images/clubs/api/rendered/165-17e1ca84f0e3.png",
       "api_logo": "https://media.api-sports.io/football/teams/165.png",
       "venue": {
         "id": 19381,
         "name": "SIGNAL IDUNA PARK",
         "city": "Dortmund",
         "capacity": 81365
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "167": {
