@@ -153,8 +153,16 @@
                                 <span class="pf-ticker__club-name">{{ $toName }}</span>
                             </span>
 
-                            {{ with $transfer.fee }}
-                                <span class="pf-ticker__fee">· {{ . }}</span>
+                            {{/* PF508A: в бегущей строке «Сумма не разглашается»
+                                 занимает место дольше, чем сам переход, и не
+                                 сообщает ничего. Нет суммы — нет и хвоста. */}}
+                            {{ $noFee := slice "сумма не разглашается" "сумма не указана"
+                                               "сумма не раскрывается" "сумма не раскрыта"
+                                               "сумма не называется" "не раскрыта" "не разглашается" }}
+                            {{ with trim $transfer.fee " " }}
+                                {{ if not (in $noFee (lower .)) }}
+                                    <span class="pf-ticker__fee">· {{ . }}</span>
+                                {{ end }}
                             {{ end }}
                         </a>
 

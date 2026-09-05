@@ -531,6 +531,106 @@
       }
     }
     /* PF401L_KEEP_LONG_RUMOR_ROUTE_ON_ONE_LINE_END */
+
+    /* PF508A_MOBILE_ROWS_HORIZONTAL_START
+       Строка трансфера — одна мысль: кто, откуда, куда, за сколько и на какой
+       стадии. На узком экране она разваливалась на шесть этажей: каждая
+       ячейка таблицы получала display:block и width:100%, поэтому логотип,
+       стрелка, второй логотип, сумма и статус вставали друг под другом.
+       Читать приходилось сверху вниз то, что глаз схватывает слева направо,
+       а статус в одиночестве на всю ширину выглядел кнопкой, хотя это просто
+       цветной текст без фона и рамки.
+
+       Теперь строка — гибкий контейнер: имя занимает первую строку целиком,
+       остальное укладывается во вторую. Сумма тянется, статус прижат вправо.
+       Пустая сумма схлопывается, и статус просто подъезжает к логотипам. */
+    @media (max-width: 720px) {
+      .pf-home-transfers-table tbody tr {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 6px 9px;
+        padding: 12px 16px;
+      }
+
+      .pf-home-transfers-table tbody td {
+        display: block;
+        width: auto;
+        padding: 0;
+        text-align: left !important;
+      }
+
+      .pf-home-transfers-table tbody td.is-player {
+        flex: 0 0 100%;
+      }
+
+      .pf-home-transfers-table tbody td.is-fee {
+        flex: 1 1 auto;
+        min-width: 0;
+      }
+
+      .pf-home-transfers-table tbody td.is-status {
+        flex: 0 0 auto;
+        margin-left: auto;
+      }
+
+      .pf-home-transfers-table .pf-club-logo {
+        width: 26px;
+        height: 26px;
+      }
+
+      .pf-home-transfers-table .pf-club-arrow {
+        font-size: 17px;
+      }
+
+      /* nowrap уместен в колонке таблицы, а в гибкой строке длинная сумма
+         вида «€125 млн + €20 млн бонусов» из-за него вылезала бы за экран. */
+      .pf-home-transfers-table .pf-fee-value {
+        font-size: 14px;
+        white-space: normal;
+      }
+
+      .pf-home-transfers-table .pf-status-pill {
+        font-size: 12px;
+      }
+
+      /* Слухи. PF401L задан вне медиазапроса и с !important, поэтому на
+         телефоне тоже держал маршрут в nowrap: длинные названия клубов не
+         переносились и наползали на соседей. Здесь перенос разрешён, а сумма
+         со статусом встают в одну строку под маршрутом, а не столбиком. */
+      .pf-home-panel--rumors .pf-home-rumors-list > li {
+        grid-template-columns: minmax(0, 1fr) !important;
+        gap: 6px !important;
+        align-items: start;
+      }
+
+      .pf-home-panel--rumors .pf-home-rumors-route {
+        flex-wrap: wrap !important;
+        row-gap: 4px !important;
+      }
+
+      .pf-home-rumors-side {
+        grid-column: 1;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: 4px 12px;
+        text-align: left;
+        min-width: 0;
+      }
+
+      .pf-home-rumors-side .pf-fee-value,
+      .pf-home-rumors-side .pf-status-pill {
+        display: inline;
+        margin-top: 0;
+      }
+
+      .pf403c-rumor-club-logo {
+        width: 22px;
+        height: 22px;
+      }
+    }
+    /* PF508A_MOBILE_ROWS_HORIZONTAL_END */
   </style>
 
   <article class="pf-home-panel pf-home-panel--transfers">
@@ -563,10 +663,25 @@
                   <span>{{ .to_name }}</span>
                 {{ end }}
               </td>
-              <td>
-                <a class="pf-fee-value pf405v-home-transfer-fee-link" href="{{ .url | relURL }}">{{ .fee }}</a>
+              {{/* PF508A: «Сумма не разглашается» — это не факт, а признание,
+                   что факта нет. В строке она занимает место наравне с
+                   настоящими суммами и на телефоне выталкивает статус на
+                   отдельный этаж. Пустое место лучше пустых слов: где суммы
+                   нет, ячейка просто остаётся пустой и строка становится
+                   короче. Формулировок в данных семь, поэтому сверяем по
+                   списку, приведя к нижнему регистру. Целые фразы вроде
+                   «Свободный трансфер» или «Обязательный выкуп; сумма не
+                   раскрывается» смысл несут и остаются. */}}
+              {{ $noFee := slice "сумма не разглашается" "сумма не указана"
+                                 "сумма не раскрывается" "сумма не раскрыта"
+                                 "сумма не называется" "не раскрыта" "не разглашается" }}
+              {{ $fee := trim .fee " " }}
+              <td class="is-fee">
+                {{ if not (in $noFee (lower $fee)) }}
+                  <a class="pf-fee-value pf405v-home-transfer-fee-link" href="{{ .url | relURL }}">{{ $fee }}</a>
+                {{ end }}
               </td>
-              <td>
+              <td class="is-status">
                 <span class="pf-status-pill {{ .status_css }}">{{ .status_display }}</span>
               </td>
             </tr>
@@ -615,7 +730,13 @@
               </div>
               </div>
             <div class="pf-home-rumors-side">
-              <span class="pf-fee-value">{{ replace $item.fee "Предложение " "" }}</span>
+              {{ $noFee := slice "сумма не разглашается" "сумма не указана"
+                                 "сумма не раскрывается" "сумма не раскрыта"
+                                 "сумма не называется" "не раскрыта" "не разглашается" }}
+              {{ $fee := trim (replace $item.fee "Предложение " "") " " }}
+              {{ if not (in $noFee (lower $fee)) }}
+                <span class="pf-fee-value">{{ $fee }}</span>
+              {{ end }}
               <span class="pf-status-pill {{ $item.status_css }}">{{ $item.status_display }}</span>
             </div>
           </li>
