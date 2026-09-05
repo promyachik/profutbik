@@ -216,7 +216,7 @@
     }
 
     .pf-home-panel--rumors .pf-home-transfers-table tbody td.is-club {
-      width: 19% !important;
+      width: 25% !important;
     }
 
     .pf-home-transfers-table tbody td.is-club {
@@ -310,16 +310,14 @@
     }
 
     .pf-home-panel--rumors .pf-home-transfers-table tbody td.is-player {
-      width: 38%;
+      width: 46%;
     }
 
     .pf-home-panel--rumors .pf-home-transfers-table tbody td.is-club {
       width: 14%;
     }
 
-    .pf-home-panel--rumors .pf-home-transfers-table tbody td.is-status {
-      width: 62px !important;
-    }
+
 
     .pf-home-transfers-table tbody td.is-status {
       width: 16%;
@@ -346,28 +344,6 @@
       height: 24px;
     }
 
-    /* Лестница ступеней. Деления в цвет своей ступени, незажжённые —
-       приглушены до контура, чтобы читалось «пройдено столько-то из трёх». */
-    .pf-status-steps {
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-    }
-
-    .pf-status-steps i {
-      display: block;
-      width: 9px;
-      height: 9px;
-      border-radius: 50%;
-      border: 1.5px solid currentColor;
-      opacity: 0.32;
-    }
-
-    .pf-status-steps i.is-on {
-      background: currentColor;
-      opacity: 1;
-    }
-
     .pf-status-done path {
       fill: none;
       stroke: #29d65f;
@@ -380,8 +356,9 @@
 
     /* Под галочку прежней ширины не нужно, освободившееся уходит клубам:
        «Borussia Mönchengladbach» упиралось в край. */
+    /* Ширины хватает и галочке, и редкому слову вроде «переговоры». */
     .pf-home-panel--transfers .pf-home-transfers-table tbody td.is-status {
-      width: 62px !important;
+      width: 104px !important;
     }
 
     .pf-fee-value {
@@ -1019,17 +996,14 @@
                    продвинулся, чего из слова не понять без знания порядка.
                    Цвет остаётся прежним для каждой ступени, слово — в подписи
                    для чтения с экрана и во всплывающей подсказке. */}}
-              {{ $steps := dict "is-rumor" 1 "is-talks" 2 "is-agreement" 3 }}
-              {{ $filled := index $steps .status_css }}
+              {{/* PF514B: галочка только у состоявшегося перехода. Значок для
+                   промежуточных ступеней пробовали — он выглядел переключателем
+                   и о самой ступени не говорил ничего. Там, где переход ещё не
+                   состоялся, слово яснее любой иконки. */}}
               <td class="is-status">
                 {{ if eq .status_css "is-done" }}
                   <span class="pf-status-done" role="img" aria-label="Переход состоялся" title="Переход состоялся">
                     <svg viewBox="0 0 24 24" focusable="false"><path d="M5 12.5 L10 17.5 L19 7"/></svg>
-                  </span>
-                {{ else if $filled }}
-                  <span class="pf-status-steps {{ .status_css }}" role="img"
-                        aria-label="{{ .status_display }}" title="{{ .status_display }}">
-                    {{ range $i := seq 3 }}<i{{ if le $i $filled }} class="is-on"{{ end }}></i>{{ end }}
                   </span>
                 {{ else }}
                   <span class="pf-status-pill {{ .status_css }}">{{ .status_display }}</span>
@@ -1098,19 +1072,13 @@
                   <span class="pf-club-name-inline" data-pf403c-logo-ready="true">{{ .to_name }}</span>
                 </a>
               </td>
-              {{/* PF514A: та же лестница ступеней, что в блоке трансферов. */}}
-              {{ $steps := dict "is-rumor" 1 "is-talks" 2 "is-agreement" 3 }}
-              {{ $filled := index $steps .status_css }}
-              <td class="is-status">
-                {{ if $filled }}
-                  <span class="pf-status-steps {{ .status_css }}" role="img"
-                        aria-label="{{ .status_display }}" title="{{ .status_display }}">
-                    {{ range $i := seq 3 }}<i{{ if le $i $filled }} class="is-on"{{ end }}></i>{{ end }}
-                  </span>
-                {{ else }}
-                  <span class="pf-status-pill {{ .status_css }}">{{ .status_display }}</span>
-                {{ end }}
-              </td>
+              {{/* PF514B: колонки статуса в слухах нет. Панель называется
+                   «Слухи», и подписывать каждую строку словом «слух» — то же
+                   самое, что писать «состоялся» под заголовком «Трансферы».
+                   Ни слово, ни значок здесь ничего не добавляли: значок к тому
+                   же выглядел переключателем, на который хочется нажать.
+                   Ступень — интерес, переговоры, согласовано — осталась на
+                   самой странице слуха, где ей и место. */}}
             </tr>
           {{ end }}
         </tbody>
