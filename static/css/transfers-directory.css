@@ -15,7 +15,7 @@
 .pf-transfer-filters button{padding:0 18px;cursor:pointer}
 .pf-transfer-filters button.is-active{border-color:#e3bd00;color:#ffd400;background:rgba(255,212,0,.06)}
 .pf-transfer-toolbar select{min-width:170px;padding:0 14px}
-.pf-transfer-head,.pf-transfer-row__summary{display:grid;grid-template-columns:minmax(220px,1.35fr) minmax(155px,1fr) 38px minmax(155px,1fr) minmax(150px,.85fr) 42px;align-items:center}
+.pf-transfer-head,.pf-transfer-row__summary{display:grid;grid-template-columns:minmax(220px,1.35fr) minmax(175px,1fr) 58px minmax(175px,1fr) 96px 42px;align-items:center}
 .pf-transfer-head{padding:0 18px 10px;color:#6f7a86;font-size:12px;font-weight:700;text-transform:uppercase}
 .pf-transfer-list{display:grid;gap:8px}
 .pf-transfer-row{position:relative;overflow:hidden;border:1px solid #1b2835;border-radius:9px;background:linear-gradient(100deg,#08111b,#0b131d)}
@@ -32,10 +32,26 @@
 .pf-transfer-club__logo img{max-width:54px;max-height:54px;object-fit:contain}
 .pf-transfer-club__logo span{width:44px;height:44px;display:grid;place-items:center;border:1px solid #263543;border-radius:50%;color:#6f7a86;font-weight:900}
 .pf-transfer-club strong{color:#c7ced5;font-size:12px;text-transform:uppercase}
-.pf-transfer-arrow{color:#ffd400;font-size:28px;text-align:center}
+/* PF513A: стрелка вектором, с той же бегущей волной, что на главной. */
+.pf-transfer-arrow{display:grid;place-items:center}
+.pf-transfer-arrow svg{display:block;width:44px;height:23px;overflow:visible}
+.pf-transfer-arrow path{fill:none;stroke:#34d058;stroke-width:3.6;stroke-linecap:round;stroke-linejoin:round;animation:pf513a-flow 1.9s ease-in-out infinite}
+.pf-transfer-arrow path:nth-child(1){animation-delay:0s}
+.pf-transfer-arrow path:nth-child(2){animation-delay:.16s}
+.pf-transfer-arrow path:nth-child(3){animation-delay:.32s}
+@keyframes pf513a-flow{0%,60%,100%{opacity:.22}25%{opacity:1}}
 .pf-transfer-meta{display:grid;justify-items:center;gap:5px;text-align:center}
 .pf-transfer-meta>strong{color:#ffd400;font-size:20px}
-.pf-transfer-status{padding:5px 10px;border-radius:5px;background:#0f4b1d;color:#69e16d;font-size:11px;font-weight:900}
+/* PF513A: вместо слова «СОСТОЯЛСЯ» — галочка. Слово повторялось в каждой
+   строке раздела, который и так называется «Трансферы»: места занимало
+   много, сообщало ноль. Кружок держит ту же зелёную линию, что и шевроны. */
+.pf-transfer-done{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;
+  border:1.5px solid rgba(41,214,95,.55);background:rgba(41,214,95,.10)}
+.pf-transfer-done svg{display:block;width:17px;height:17px}
+.pf-transfer-done path{fill:none;stroke:#29d65f;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.pf-transfer-loan{color:#f1bd29;font-size:12px;font-weight:800;letter-spacing:.04em}
+@media(prefers-reduced-motion:reduce){.pf-transfer-arrow path{animation:none}
+  .pf-transfer-arrow path:nth-child(1){opacity:.45}.pf-transfer-arrow path:nth-child(2){opacity:.72}}
 
 .pf-transfer-expand{position:relative;z-index:3;width:38px;height:38px;border:0;background:transparent;color:#d9dee3;font-size:23px;cursor:pointer}
 .pf-transfer-details{position:relative;z-index:4;display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:0 10px 10px;padding:20px;border:1px solid #1e2c39;border-radius:8px;background:#0a1118}

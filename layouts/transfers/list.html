@@ -216,7 +216,7 @@ html body button[data-filter="loan"]:focus-visible {
 }
 </style>
 
-<link rel="stylesheet" href="{{ "css/transfers-directory.css" | relURL }}">
+<link rel="stylesheet" href="{{ "css/transfers-directory.css" | relURL }}?v=pf513a">
 
 {{ $data := site.Data.homepage_transfer_rumor }}
 {{ $items := slice }}
@@ -317,7 +317,12 @@ html body button[data-filter="loan"]:focus-visible {
               <strong>{{ if ne $from "" }}{{ $from }}{{ else }}—{{ end }}</strong>
             </div>
 
-            <div class="pf-transfer-arrow">→</div>
+            {{/* PF513A: те же шевроны, что на главной и в статье. */}}
+            <div class="pf-transfer-arrow" aria-hidden="true">
+              <svg viewBox="0 0 46 24" focusable="false">
+                <path d="M4 5 L14 12 L4 19"/><path d="M18 5 L28 12 L18 19"/><path d="M32 5 L42 12 L32 19"/>
+              </svg>
+            </div>
 
             <div class="pf-transfer-club">
               <div class="pf-transfer-club__logo">
@@ -330,9 +335,20 @@ html body button[data-filter="loan"]:focus-visible {
               <strong>{{ if ne $to "" }}{{ $to }}{{ else }}—{{ end }}</strong>
             </div>
 
+            {{/* PF513A: сумма из строки убрана — она есть внутри новости, а у
+                 большинства переходов её нет вовсе, и на месте цены стояло
+                 «Сумма не разглашается» или прочерк. «Аренда» остаётся: это
+                 не цена, а вид сделки.
+
+                 Слово «СОСТОЯЛСЯ» заменено галочкой. Оно повторялось в каждой
+                 строке раздела, который и так называется «Трансферы», то есть
+                 не сообщало ничего. Значение осталось в подписи для чтения с
+                 экрана. */}}
             <div class="pf-transfer-meta">
-              <strong>{{ if $isLoan }}АРЕНДА{{ else if ne $fee "" }}{{ $fee }}{{ else }}—{{ end }}</strong>
-              <span class="pf-transfer-status">СОСТОЯЛСЯ</span>
+              {{ if $isLoan }}<strong class="pf-transfer-loan">АРЕНДА</strong>{{ end }}
+              <span class="pf-transfer-done" role="img" aria-label="Переход состоялся" title="Переход состоялся">
+                <svg viewBox="0 0 24 24" focusable="false"><path d="M5 12.5 L10 17.5 L19 7"/></svg>
+              </span>
 </div>
 
             <button class="pf-transfer-expand" type="button" data-transfer-expand aria-expanded="false">⌄</button>
@@ -344,7 +360,10 @@ html body button[data-filter="loan"]:focus-visible {
               <dl>
                 <div><dt>Статус</dt><dd>Состоялся</dd></div>
                 <div><dt>Тип сделки</dt><dd>{{ if $isLoan }}Аренда{{ else }}Постоянный трансфер{{ end }}</dd></div>
-                {{ with $fee }}<div><dt>Сумма</dt><dd>{{ . }}</dd></div>{{ end }}
+                {{ $noFee := slice "сумма не разглашается" "сумма не указана"
+                                   "сумма не раскрывается" "сумма не раскрыта"
+                                   "сумма не называется" "не раскрыта" "не разглашается" }}
+                {{ with trim $fee " " }}{{ if not (in $noFee (lower .)) }}<div><dt>Сумма</dt><dd>{{ . }}</dd></div>{{ end }}{{ end }}
                 {{ with $date }}<div><dt>Дата</dt><dd>{{ . }}</dd></div>{{ end }}
               </dl>
             </div>
