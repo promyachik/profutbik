@@ -47,7 +47,7 @@ body:has(.pf405a-rumors-page) .home-player-bottom-strip{position:relative!import
 <a class="pf405a-row" data-league-id="{{ .Params.league_id }}" href="{{ .RelPermalink }}">
 <span class="pf405a-side"><span class="pf405a-logo-box"><img class="pf405a-logo" src="{{ .Params.from_logo | relURL }}" alt="{{ .Params.from_club }}"></span><span class="pf405a-copy"><span class="pf405a-player">{{ .Params.player }}</span><span class="pf405a-club">{{ .Params.from_club }}</span></span></span>
 <span class="pf405a-arrow" aria-hidden="true"><svg viewBox="0 0 46 24" focusable="false"><path d="M4 5 L14 12 L4 19"/><path d="M18 5 L28 12 L18 19"/><path d="M32 5 L42 12 L32 19"/></svg></span>
-<span class="pf405a-side pf405a-side--to"><span class="pf405a-copy"><span class="pf405a-player">{{ .Params.to_club }}</span><span class="pf405a-club">{{ .Params.display_date }}</span></span><span class="pf405a-logo-box"><img class="pf405a-logo" src="{{ .Params.to_logo | relURL }}" alt="{{ .Params.to_club }}"></span></span>
+<span class="pf405a-side pf405a-side--to"><span class="pf405a-copy"><span class="pf405a-player">{{ .Params.to_club }}</span></span><span class="pf405a-logo-box"><img class="pf405a-logo" src="{{ .Params.to_logo | relURL }}" alt="{{ .Params.to_club }}"></span></span>
 <span class="pf405a-status pf405a-status--{{ .Params.status }}">{{ .Params.status_label }}</span>
 </a>
 {{ end }}
