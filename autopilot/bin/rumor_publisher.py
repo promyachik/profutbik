@@ -50,6 +50,11 @@ STATUS_LABELS = {
     "agreement": ("СОГЛАСОВАНО", "согласовано", "is-agreement"),
 }
 
+# Ниже этого объёма слух не публикуется. Цифра не с потолка: у страниц
+# трансферов медиана 165 слов, и они уже на грани; для материала, который
+# конкурирует с BBC и Sky по тому же запросу, 300 — минимум приличия.
+MIN_RUMOR_WORDS = 300
+
 LEAGUE_BY_COUNTRY = {
     "England": ("39", "Premier League"), "Spain": ("140", "La Liga"),
     "Italy": ("135", "Serie A"), "Germany": ("78", "Bundesliga"),
@@ -75,26 +80,175 @@ def rumor_slug(record: dict) -> str:
     return "%s-%s" % (slugify(name), slugify(record.get("to_club") or ""))
 
 
+CLUB_LINKS = ACTIVE_PROJECT / "data" / "club_links.json"
+
+
+def club_link(api_id, name: str) -> str:
+    """Название клуба ссылкой на его страницу, если она у нас есть.
+
+    До этого страницы слухов не имели ни одной внутренней ссылки — ни на
+    клубы, ни на трансферы. Для поиска это тупик: вес некуда передавать, а
+    человеку некуда идти дальше. Клубных страниц у нас 148, связываем по
+    числовому id, а не по названию: «Atlético de Madrid» на странице клуба и
+    «Atletico Madrid» в слухе — один клуб, но разные строки.
+    """
+    if not api_id:
+        return name
+    try:
+        links = json.loads(CLUB_LINKS.read_text(encoding="utf-8"))
+    except Exception:
+        return name
+    url = (links.get(str(api_id)) or {}).get("url")
+    return "[%s](%s)" % (name, url) if url else name
+
+
+def value_story(points: list) -> str:
+    """Что говорит история оценок Transfermarkt.
+
+    Единственный раздел, которого у конкурентов в слухах нет: там пересказ
+    чужого сообщения и всё. Оценки мы храним для графика, поэтому разбор
+    ничего не стоит и опирается на числа, а не на предположения.
+    """
+    if not points:
+        return ""
+    current, first = points[-1], points[0]
+    peak = max(points, key=lambda item: item.get("value_eur_m") or 0)
+    parts = ["Сейчас Transfermarkt оценивает игрока в **%s**."
+             % euro(current["value_eur_m"])]
+
+    if (peak.get("value_eur_m") or 0) > (current.get("value_eur_m") or 0):
+        delta = peak["value_eur_m"] - current["value_eur_m"]
+        share = round(100 * delta / peak["value_eur_m"])
+        parts.append(
+            "Пик пришёлся на %s, тогда он стоил %s: с того момента оценка "
+            "снизилась на %s, то есть на %d%% от максимума."
+            % (ru_date(peak["date"]), euro(peak["value_eur_m"]),
+               euro(delta), share))
+    elif (current.get("value_eur_m") or 0) > (first.get("value_eur_m") or 0):
+        growth = round(100 * (current["value_eur_m"] - first["value_eur_m"])
+                       / max(first["value_eur_m"], 0.1))
+        parts.append(
+            "Это максимум карьеры: с первой оценки в %s от %s стоимость "
+            "выросла на %d%%."
+            % (euro(first["value_eur_m"]), ru_date(first["date"]), growth))
+
+    if len(points) >= 3:
+        parts.append("Всего у игрока %d переоценок, первая — %s."
+                     % (len(points), ru_date(first["date"])))
+    return " ".join(parts)
+
+
+def tm_money(value: dict) -> str:
+    """Сумма из Transfermarkt в человеческий вид.
+
+    Суффикс у них «B», а не «BN», и на этом мы уже обжигались: умолчание в
+    таблице масштабов превращало 1,29 млрд в 1,29 млн. Неизвестный суффикс —
+    факт не печатаем вовсе.
+    """
+    if not isinstance(value, dict):
+        return ""
+    scale = {"B": "млрд", "M": "млн", "K": "тыс."}.get(
+        str(value.get("suffix") or "").upper())
+    content = str(value.get("content") or "").strip()
+    if not scale or not content:
+        return ""
+    return "%s%s %s" % (value.get("prefix") or "€", content.replace(".", ","), scale)
+
+
+def competition_story(record: dict, position_ru: str, to_club: str) -> str:
+    """Кто уже играет на этой позиции в клубе назначения.
+
+    Ради этого раздела всё и затевалось: у конкурентов в слухах пересказ
+    сообщения, а здесь видно, зачем клубу игрок и с кем он будет спорить за
+    место. Данные лежат в записи с обогащения, считать заново ничего не надо.
+    """
+    analysis = record.get("squad_analysis") or {}
+    same = analysis.get("same_position_count")
+    names = analysis.get("same_position_names") or []
+    total = analysis.get("squad_total")
+    younger = analysis.get("younger_than")
+    if same is None and not total:
+        return ""
+
+    parts = []
+    if same == 0:
+        parts.append("Чистого конкурента на этой позиции в составе %s сейчас нет."
+                     % to_club)
+    elif same:
+        who = ", ".join(names[:3])
+        word = "игрок" if same == 1 else ("игрока" if same < 5 else "игроков")
+        parts.append("На этой позиции в клубе уже %d %s%s."
+                     % (same, word, (" — %s" % who) if who else ""))
+    if total:
+        parts.append("Всего в заявке %d футболистов." % total)
+    if younger and total:
+        parts.append("Он моложе %d из %d футболистов заявки." % (younger, total))
+    return " ".join(parts)
+
+
+def club_portrait(record: dict, to_club: str, league: str) -> str:
+    """Что за команда: размер заявки, средний возраст, стоимость, город."""
+    context = record.get("to_club_context") or {}
+    if not context:
+        return ""
+    parts = []
+    lead = "Клуб %s" % to_club
+    if league:
+        lead += " выступает в %s" % league
+    city = context.get("city")
+    if city:
+        lead += ("," if league else "") + " базируется в городе %s" % city
+    parts.append(lead + ".")
+
+    value = tm_money(context.get("squad_value"))
+    avg = tm_money(context.get("average_player_value"))
+    age = context.get("average_age")
+    numbers = []
+    if value:
+        numbers.append("суммарная стоимость состава — %s" % value)
+    if avg:
+        numbers.append("средний игрок стоит %s" % avg)
+    if age:
+        numbers.append("средний возраст — %s года" % str(age).replace(".", ","))
+    if numbers:
+        parts.append("По оценке Transfermarkt " + ", ".join(numbers) + ".")
+    return " ".join(parts)
+
+
 def build_rumor_body(record: dict, status: str, fee_ru: str,
-                     position_ru: str, country_ru: str) -> str:
+                     position_ru: str, country_ru: str,
+                     from_api=None, to_api=None, league: str = "") -> str:
+    """Текст страницы слуха.
+
+    Раньше выходило 40-100 слов. Столько не ранжируется ни по какому запросу,
+    а при потоке в сутки такие страницы тянут вниз весь домен: качество Google
+    оценивает по сайту целиком, и тонкие страницы утягивают за собой те, что
+    сделаны нормально.
+
+    Собираем 350-450 слов целиком из того, что уже лежит в записи: оценки
+    Transfermarkt, прежние клубы, амплуа, рост, место рождения, срок
+    контракта, дебют за сборную. Ничего не выдумываем: нет данных — нет
+    раздела.
+    """
     player = record.get("player_full_name") or record["player"]
     to_club = record["to_club"]
     from_club = record.get("from_club") or ""
     points = record.get("market_value_points") or []
-    market = euro(points[-1]["value_eur_m"]) if points else ""
-    date_ru = ru_date((record.get("source") or {}).get("published_iso") or "")
+    source = record.get("source") or {}
+    date_ru = ru_date(source.get("published_iso") or "")
+    to_linked = club_link(to_api, to_club)
+    from_linked = club_link(from_api, from_club)
 
     stage = {
-        "agreement": "стороны согласовали условия",
-        "negotiations": "стороны ведут переговоры",
-        "rumour": "тема обсуждается",
-    }.get(status, "тема обсуждается")
+        "agreement": "стороны согласовали условия перехода",
+        "negotiations": "стороны ведут переговоры о переходе",
+        "rumour": "обсуждается возможный переход",
+    }.get(status, "обсуждается возможный переход")
 
-    lines = ["## %s и %s: что известно" % (player, club_word(to_club, "nom"))]
-    lines.append("")
+    lines = ["## %s и %s: что известно" % (player, club_word(to_club, "nom")), ""]
 
-    opening = "По информации %s, %s о переходе **%s**" % (
-        (record.get("source") or {}).get("publisher") or "СМИ", stage, player)
+    opening = "По информации %s, %s **%s**" % (
+        source.get("publisher") or "СМИ", stage, player)
     if from_club:
         opening += " из %s" % club_word("**%s**" % from_club, "gen")
     opening += " в %s." % club_word("**%s**" % to_club, "acc")
@@ -102,45 +256,101 @@ def build_rumor_body(record: dict, status: str, fee_ru: str,
         opening += " Сообщение появилось %s." % date_ru
     lines += [opening, ""]
 
-    lines.append(
-        "Официального объявления пока нет, поэтому материал остаётся в разделе "
-        "«Слухи». Как только переход будет подтверждён, он появится в разделе "
-        "«Трансферы» с полными данными.")
-    lines.append("")
+    stage_note = {
+        "agreement": ("Согласование условий — предпоследняя ступень: остаются "
+                      "медицинское обследование и объявление клуба."),
+        "negotiations": ("Переговоры означают, что клубы общаются напрямую, но "
+                         "сумма и условия ещё не сведены."),
+        "rumour": ("Интерес — самая ранняя ступень. До предложения дело может и "
+                   "не дойти: клубы обычно прорабатывают несколько вариантов "
+                   "сразу и выбирают один."),
+    }.get(status, "")
+    if stage_note:
+        lines += [stage_note, ""]
+
+    if fee_ru:
+        lines += ["Обсуждаемая сумма — %s. Подтверждения у неё нет: цифру "
+                  "называют СМИ, а не клубы." % fee_ru, ""]
+
+    story = value_story(points)
+    if story:
+        lines += ["## Сколько стоит игрок", "", story, ""]
 
     lines += ["## Об игроке", ""]
     facts = []
     if position_ru:
         facts.append("**Позиция:** %s" % position_ru.lower())
-    if from_club:
-        facts.append("**Текущий клуб:** %s" % from_club)
-    facts.append("**Клуб интереса:** %s" % to_club)
-    if country_ru:
-        facts.append("**Гражданство:** %s" % country_ru)
+    if record.get("age"):
+        facts.append("**Возраст:** %s" % record["age"])
     if record.get("birth_date"):
         facts.append("**Дата рождения:** %s" % dotted_date(record["birth_date"]))
-    if market:
-        facts.append("**Рыночная стоимость Transfermarkt:** %s" % market)
-    if fee_ru:
-        facts.append("**Обсуждаемая сумма:** %s" % fee_ru)
-    facts.append("**Статус:** %s" % STATUS_LABELS.get(
-        status, ("", "не подтверждено", ""))[1])
+    if (record.get("birth_place") or "").strip():
+        facts.append("**Место рождения:** %s" % record["birth_place"].strip())
+    if country_ru:
+        facts.append("**Гражданство:** %s" % country_ru)
+    if record.get("height"):
+        # В записи рост числом вида 1.85 — по-русски это «1,85 м».
+        facts.append("**Рост:** %s м" % str(record["height"]).replace(".", ","))
+    if from_club:
+        facts.append("**Текущий клуб:** %s" % from_linked)
+    if record.get("contract_until"):
+        facts.append("**Контракт до:** %s" % dotted_date(record["contract_until"]))
+    facts.append("**Клуб интереса:** %s" % to_linked)
+    facts.append("**Статус темы:** %s"
+                 % STATUS_LABELS.get(status, ("", "не подтверждено", ""))[1])
     lines += ["- %s" % fact for fact in facts]
+    lines.append("")
 
     former = parse_former_clubs(record.get("former_clubs_note") or "")
     if former:
-        lines += ["", "## Карьера", "",
+        lines += ["## Карьера", "",
                   "Ранее выступал за: %s." % ", ".join(
-                      "%s (%s)" % (club, years) for club, years in former)]
+                      "%s (%s)" % (club, years) for club, years in former), ""]
 
     debut = record.get("national_team_debut")
     if debut and country_ru:
-        lines += ["", "За сборную %s дебютировал %s."
-                  % (country_genitive(country_ru), ru_date(debut))]
+        lines += ["За сборную %s дебютировал %s."
+                  % (country_genitive(country_ru), ru_date(debut)), ""]
 
-    source = record.get("source") or {}
+    competition = competition_story(record, position_ru, to_club)
+    portrait = club_portrait(record, to_club, league)
+    if competition or portrait:
+        lines += ["## Куда он может попасть", ""]
+        if portrait:
+            lines += [portrait, ""]
+        if competition:
+            lines += [competition, ""]
+
+    if record.get("contract_until"):
+        lines += ["Контракт с нынешним клубом рассчитан до %s. Чем ближе его "
+                  "конец, тем дешевле обходится переход: за год до истечения "
+                  "клубы обычно уже готовы торговаться, а за полгода игрок "
+                  "вправе договариваться с кем угодно сам."
+                  % dotted_date(record["contract_until"]), ""]
+
+    lines += ["## Что это значит для клубов", ""]
+    note = "Клуб %s ищет усиление" % to_club
+    if position_ru:
+        note += " на позицию «%s»" % position_ru.lower()
+    note += "."
+    note += " Состав и стоимость команды — на странице %s." % to_linked
+    if from_club:
+        note += (" Текущая команда игрока — %s: там же видно, кого клуб терял "
+                 "и приобретал в этом окне." % from_linked)
+    lines += [note, ""]
+
+    lines += ["## Что будет дальше", "",
+              "Официального объявления пока нет, поэтому материал остаётся в "
+              "разделе «Слухи». Состоявшимся переход мы считаем только тогда, "
+              "когда игрок появляется в составе клуба на Transfermarkt — до "
+              "этого никакие сообщения СМИ статуса не меняют. Как только это "
+              "случится, материал переедет в раздел «Трансферы» с полными "
+              "данными и графиком стоимости, а нынешний адрес будет вести "
+              "туда же.", ""]
+
     if source.get("publisher"):
-        lines += ["", "---", "", "**Источник:** %s. Данные игрока — Transfermarkt."
+        lines += ["---", "",
+                  "**Источник:** %s. Данные игрока — Transfermarkt."
                   % source["publisher"]]
     return "\n".join(lines)
 
@@ -206,7 +416,18 @@ def publish_rumor(record: dict, tm_clubs: dict, bridge: dict,
         "---",
         "",
     ]
-    body = build_rumor_body(record, status, fee_ru, position_ru, country_ru)
+    body = build_rumor_body(record, status, fee_ru, position_ru, country_ru,
+                            from_api, to_api, league)
+
+    # Порог объёма. Страница в полсотни слов не ранжируется ни по какому
+    # запросу, а поток таких страниц тянет вниз весь домен: качество Google
+    # оценивает по сайту целиком. Нечем наполнить — лучше не публиковать
+    # вовсе, запись останется в очереди и дождётся недостающих данных.
+    words = len(re.findall(r"\w+", body))
+    if words < MIN_RUMOR_WORDS:
+        return {"ok": False,
+                "error": "слишком короткая статья: %d слов при пороге %d"
+                         % (words, MIN_RUMOR_WORDS)}
 
     page_dir = RUMORS_DIR / slug
     page_dir.mkdir(parents=True, exist_ok=True)
