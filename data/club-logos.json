@@ -309,7 +309,7 @@
     "47": {
       "id": 47,
       "name": "Tottenham",
-      "configured_name": "Tottenham",
+      "configured_name": "Tottenham Hotspur",
       "code": "TOT",
       "country": "England",
       "league_id": 39,
@@ -317,7 +317,7 @@
       "season": 2024,
       "founded": 1882,
       "national": false,
-      "logo": "images/clubs/api/rendered/47-ce51d50ba9db.png",
+      "logo": "images/clubs/api/rendered/47-96683ae591e9.png",
       "api_logo": "https://media.api-sports.io/football/teams/47.png",
       "venue": {
         "id": 593,
@@ -389,7 +389,7 @@
       "season": 2024,
       "founded": 1880,
       "national": false,
-      "logo": "images/clubs/api/rendered/50-090f6609ab46.png",
+      "logo": "images/clubs/api/rendered/50-448f2e57b69e.png",
       "api_logo": "https://media.api-sports.io/football/teams/50.png",
       "venue": {
         "id": 555,
