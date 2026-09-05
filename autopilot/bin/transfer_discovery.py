@@ -45,7 +45,50 @@ FEEDS = [
      "url": "https://feeds.skynews.com/feeds/rss/sports.xml", "tier": "major_media"},
     {"id": "championat-football", "publisher": "Championat", "lang": "ru",
      "url": "https://www.championat.com/rss/news/football/", "tier": "major_media"},
+    # Ежедневная сводка слухов BBC. Ценное здесь не в заголовке, а в описании:
+    # «Chelsea were offered Yves Bissouma, Manchester City showed interest in
+    # Adam Wharton, Arsenal are considering...» — три-четыре слуха в одной
+    # строке, каждый со ссылкой на первоисточник. Флагом clauses просим
+    # разбирать описание по оговоркам, а не только заголовок.
+    {"id": "bbc-gossip", "publisher": "BBC Sport", "lang": "en", "clauses": True,
+     "url": "https://feeds.bbci.co.uk/sport/football/gossip/rss.xml",
+     "tier": "major_media"},
 ]
+
+# Обороты, за которыми перехода нет. «Клуб хочет удержать игрока» — это
+# ровно противоположность слуху о переходе, а «plus more» — хвост анонса.
+GOSSIP_NOISE = re.compile(
+    r"(want[s]?\s+to\s+keep|keen\s+to\s+keep|play\s+down|rule[sd]?\s+out|"
+    r"not\s+for\s+sale|stay\s+at|contract\s+talks|new\s+deal|plus\s+more)",
+    re.I)
+
+_POSITION = (r"(?:midfielder|striker|defender|forward|winger|goalkeeper|attacker|"
+             r"playmaker|centre-back|full-back|centre-forward)")
+
+
+def strip_descriptors(text: str) -> str:
+    """Убирает представление игрока, оставляя только имя.
+
+    В сводках игрока называют через клуб и амплуа: «ex-Tottenham midfielder
+    Yves Bissouma», «Crystal Palace's Adam Wharton», «Bournemouth striker Eli
+    Junior Kroupi». Для человека это уточнение, для разбора — шум: клуб из
+    представления легко принять за клуб назначения. Проще снять его заранее,
+    чем городить оговорки в каждом правиле.
+    """
+    text = re.sub(r"[A-Z][\w.-]*(?:\s+[A-Z][\w.-]*){0,2}'s\s+", "", text)
+    text = re.sub(r"(?:ex-|former\s+)?[A-Z][\w.-]*(?:\s+[A-Z][\w.-]*){0,2}\s+%s\s+"
+                  % _POSITION, "", text)
+    text = re.sub(r"%s\s+" % _POSITION, "", text)
+    text = re.sub(r"(?:free\s+agent|free\s+transfer)\s+", "", text, flags=re.I)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def gossip_clauses(summary: str) -> list[str]:
+    """Одна сводка — несколько слухов. Делим по запятой перед заглавной."""
+    text = re.sub(r"\s+", " ", strip_tags(unescape(summary or ""))).strip().rstrip(".")
+    text = re.sub(r"^Football gossip:\s*", "", text)
+    return [part.strip() for part in re.split(r",\s*(?=[A-Z])", text)
+            if len(part.strip()) > 12]
 
 # Разговорные формы, которых нет в каталоге логотипов.
 CLUB_ALIASES = {
@@ -280,6 +323,37 @@ _NAME = r"[A-Z][\w'’\-]+(?:\s+[A-Z][\w'’\-]+){0,2}"
 _CLUB = r"[A-Z][\w'’&\.\-]*(?:\s+[A-Z][\w'’&\.\-]*){0,3}"
 
 RUMOUR_PATTERNS = [
+    # Обороты из ежедневных сводок BBC. Проверены на живой ленте: из 55
+    # оговорок разбирается 13 и ещё 13 отсеиваются как заведомо не о переходе.
+    # Остальное — обрывки вроде «plus more», за ними сущностей нет.
+    (re.compile(r"^(?P<to>%s)\s+(?:were|was|have\s+been|has\s+been)\s+offered\s+"
+                r"(?P<player>%s)" % (_CLUB, _NAME)), "negotiations"),
+    (re.compile(r"^(?P<to>%s)\s+(?:showed?|show)\s+interest\s+in\s+"
+                r"(?P<player>%s)" % (_CLUB, _NAME)), "rumour"),
+    (re.compile(r"^(?P<to>%s)\s+(?:are\s+|is\s+)?(?:still\s+)?interested\s+in\s+"
+                r"(?:signing\s+)?(?P<player>%s)" % (_CLUB, _NAME)), "rumour"),
+    (re.compile(r"^(?P<to>%s)\s+(?:are\s+)?consider(?:ing|s)?\s+(?:a\s+)?move\s+for\s+"
+                r"(?P<player>%s)" % (_CLUB, _NAME)), "rumour"),
+    (re.compile(r"^(?P<to>%s)\s+weigh(?:ing)?\s+up\s+(?:a\s+)?moves?\s+for\s+"
+                r"(?P<player>%s)" % (_CLUB, _NAME)), "rumour"),
+    (re.compile(r"^(?P<to>%s)\s+(?:make|makes|made)\s+contact\s+with\s+"
+                r"(?P<player>%s)" % (_CLUB, _NAME)), "negotiations"),
+    (re.compile(r"^(?P<to>%s)\s+(?:explore|explores|explored)\s+(?:a\s+)?(?:late\s+)?"
+                r"move\s+for\s+(?P<player>%s)" % (_CLUB, _NAME)), "rumour"),
+    (re.compile(r"^(?P<to>%s)\s+monitor(?:ing|s)?\s+(?P<player>%s)"
+                % (_CLUB, _NAME)), "rumour"),
+    (re.compile(r"^(?P<to>%s)\s+(?:enquire|enquires|enquired)\s+about\s+"
+                r"(?P<player>%s)" % (_CLUB, _NAME)), "rumour"),
+    (re.compile(r"^(?P<to>%s)\s+(?:tried|try|attempt(?:ed)?)\s+to\s+sign\s+"
+                r"(?P<player>%s)" % (_CLUB, _NAME)), "rumour"),
+    (re.compile(r"^(?P<player>%s)\s+could\s+join\s+(?P<to>%s)"
+                % (_NAME, _CLUB)), "rumour"),
+    # «Liverpool reject £30m bid from Nottingham Forest for Trey Nyoni»:
+    # отказ — тоже свидетельство интереса, и направление здесь названо прямо.
+    (re.compile(r"^(?P<from>%s)\s+reject\w*\s+(?:a\s+)?(?:\W?\d[\d.,]*m\s+)?"
+                r"bid\s+from\s+(?P<to>%s)\s+for\s+(?P<player>%s)"
+                % (_CLUB, _CLUB, _NAME)), "negotiations"),
+
     # "Bissouma was offered to Chelsea"
     (re.compile(r"^(?P<player>%s)\s+(?:was\s+|has\s+been\s+|is\s+)?offered\s+to\s+"
                 r"(?P<to>%s)\b" % (_NAME, _CLUB)), "negotiations"),
@@ -312,8 +386,19 @@ def classify_rumour(text: str, index: dict[str, str]) -> tuple[str, dict | None,
     клуб — резолвиться по справочнику. Именно они отсеивают Формулу-1,
     бокс и отчёты о матчах, где слова-маркеры есть, а сущностей нет.
     """
+    if GOSSIP_NOISE.search(text):
+        return "rumour", None, "оборот не о переходе"
+
+    # Сначала как есть, затем без представления игрока: «Arsenal eye
+    # Bournemouth striker Eli Junior Kroupi» разбирается только во втором
+    # проходе, а привычные заголовки — в первом.
+    variants = [text]
+    stripped = strip_descriptors(text)
+    if stripped != text:
+        variants.append(stripped)
+
     for pattern, stage in RUMOUR_PATTERNS:
-        match = pattern.match(text)
+        match = next((m for m in (pattern.match(v) for v in variants) if m), None)
         if not match:
             continue
         groups = match.groupdict()
@@ -470,51 +555,68 @@ def discover(save: bool, verbose: bool = False) -> dict:
         items = parse_feed(raw.decode("utf-8", "replace"))
         stats["items"] += len(items)
 
-        for item in items:
-            kind, extracted, reason = classify(item["title"], clubs)
-            stats[kind] += 1
-            if not extracted:
-                if verbose and kind != "ignore":
-                    rejected.append((item["title"], reason))
-                continue
+        # У сводок разбираем и описание: там лежит по три-четыре слуха,
+        # тогда как заголовок называет только первый.
+        for source_item in items:
+            # В обычной ленте разбирается заголовок, в сводке — ещё и каждая
+            # оговорка описания. Кандидатов из одного материала может быть
+            # несколько: «Chelsea were offered Bissouma, Napoli show interest
+            # in Woltemade» — это два разных слуха, и терять второй незачем.
+            texts = [source_item["title"]]
+            if feed.get("clauses"):
+                texts += gossip_clauses(source_item.get("summary") or "")
 
-            eid = entity_id(extracted["player"], extracted["from_club"],
-                            extracted["to_club"])
-            if eid in seen:
-                continue
-            seen.add(eid)
+            hits = []
+            for text in texts:
+                kind, extracted, reason = classify(text, clubs)
+                if extracted:
+                    hits.append((kind, extracted, text))
+                else:
+                    stats[kind] += 1
+                    if verbose and kind != "ignore":
+                        rejected.append((text, reason))
 
-            verdict, verdict_reason = dedup_verdict(
-                site, extracted["player"], extracted["to_club"])
+            for kind, extracted, text in hits:
+                stats[kind] += 1
+                item = dict(source_item, title=text)
 
-            record = {
-                "schema_version": 2,
-                "kind": kind,
-                "entity_id": eid,
-                "player": extracted["player"],
-                "from_club": extracted["from_club"],
-                "to_club": extracted["to_club"],
-                "fee_raw": extracted["fee_raw"],
-                "verdict": verdict,
-                "verdict_reason": verdict_reason,
-                "pipeline_state": "DISCOVERED",
-                "source": {
-                    "publisher": feed["publisher"],
-                    "tier": feed["tier"],
-                    "url": item["link"],
-                    "title": item["title"],
-                    "published": item["published"],
-                    "published_iso": to_iso(item["published"]),
-                },
-                "discovered_at": now_iso(),
-            }
-            found.append(record)
+                eid = entity_id(extracted["player"], extracted["from_club"],
+                                extracted["to_club"])
+                if eid in seen:
+                    continue
+                seen.add(eid)
 
-            if save:
-                path = RECORDS_DIR / ("%s.json" % eid)
-                path.write_text(
-                    json.dumps(record, ensure_ascii=False, indent=2) + "\n",
-                    encoding="utf-8")
+                verdict, verdict_reason = dedup_verdict(
+                    site, extracted["player"], extracted["to_club"])
+
+                record = {
+                    "schema_version": 2,
+                    "kind": kind,
+                    "entity_id": eid,
+                    "player": extracted["player"],
+                    "from_club": extracted["from_club"],
+                    "to_club": extracted["to_club"],
+                    "fee_raw": extracted["fee_raw"],
+                    "verdict": verdict,
+                    "verdict_reason": verdict_reason,
+                    "pipeline_state": "DISCOVERED",
+                    "source": {
+                        "publisher": feed["publisher"],
+                        "tier": feed["tier"],
+                        "url": item["link"],
+                        "title": item["title"],
+                        "published": item["published"],
+                        "published_iso": to_iso(item["published"]),
+                    },
+                    "discovered_at": now_iso(),
+                }
+                found.append(record)
+
+                if save:
+                    path = RECORDS_DIR / ("%s.json" % eid)
+                    path.write_text(
+                        json.dumps(record, ensure_ascii=False, indent=2) + "\n",
+                        encoding="utf-8")
 
     return {"stats": stats, "found": found, "rejected": rejected}
 

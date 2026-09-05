@@ -67,28 +67,51 @@ PACE_MINUTES = 30
 MAX_PER_TICK = 4
 LAST_PUBLISH = PARSER_ROOT / "state" / "last_publish.txt"
 
+# Слухи выходят вдвое реже переходов. Причина не в технике: слух — сообщение
+# слабее факта, и лента, забитая ими, обесценивает раздел. Час между слухами
+# держит их редкими, а раздел живым.
+RUMOUR_PACE_MINUTES = 60
+MAX_RUMOURS_PER_TICK = 2
+LAST_RUMOUR = PARSER_ROOT / "state" / "last_rumour.txt"
 
-def _last_publish() -> "datetime | None":
-    if not LAST_PUBLISH.exists():
+
+def _last_at(path: Path) -> "datetime | None":
+    if not path.exists():
         return None
     try:
-        return datetime.fromisoformat(LAST_PUBLISH.read_text(encoding="utf-8").strip())
+        return datetime.fromisoformat(path.read_text(encoding="utf-8").strip())
     except Exception:
         return None
 
 
-def note_publish() -> None:
-    LAST_PUBLISH.write_text(datetime.now(timezone.utc).isoformat(), encoding="utf-8")
+def _note_at(path: Path) -> None:
+    path.write_text(datetime.now(timezone.utc).isoformat(), encoding="utf-8")
 
 
-def elapsed_text() -> str:
-    last = _last_publish()
+def _quota(path: Path, pace: int, cap: int) -> int:
+    last = _last_at(path)
+    if last is None:
+        return 1
+    minutes = (datetime.now(timezone.utc) - last).total_seconds() / 60
+    return max(1, min(cap, int(minutes // pace)))
+
+
+def _elapsed(path: Path) -> str:
+    last = _last_at(path)
     if last is None:
         return "неизвестно (первая публикация)"
     minutes = (datetime.now(timezone.utc) - last).total_seconds() / 60
     if minutes < 90:
         return "%d мин" % round(minutes)
     return "%.1f ч" % (minutes / 60)
+
+
+def note_publish() -> None:
+    _note_at(LAST_PUBLISH)
+
+
+def elapsed_text() -> str:
+    return _elapsed(LAST_PUBLISH)
 
 
 def publish_quota() -> int:
@@ -107,11 +130,16 @@ def publish_quota() -> int:
     вывалится полсотни страниц разом, а для поиска это выглядит свалкой —
     ровно то, чего мы избегали, когда выбирали штучную публикацию.
     """
-    last = _last_publish()
-    if last is None:
-        return 1
-    minutes = (datetime.now(timezone.utc) - last).total_seconds() / 60
-    return max(1, min(MAX_PER_TICK, int(minutes // PACE_MINUTES)))
+    return _quota(LAST_PUBLISH, PACE_MINUTES, MAX_PER_TICK)
+
+
+def rumor_pages() -> int:
+    """Сколько страниц в разделе слухов — по ним и судим, добавилось ли что-то."""
+    from paths import SITE
+    root = SITE / "content" / "rumors"
+    if not root.exists():
+        return 0
+    return sum(1 for path in root.iterdir() if (path / "index.md").is_file())
 
 
 def enriched_count() -> int:
@@ -219,12 +247,31 @@ def main(argv: list[str] | None = None) -> int:
         published_now += 1
         note_publish()
 
+    print("\n[5] слухи")
+    rumours = _quota(LAST_RUMOUR, RUMOUR_PACE_MINUTES, MAX_RUMOURS_PER_TICK)
+    print("  с прошлого слуха прошло %s; норма на такт: %d"
+          % (_elapsed(LAST_RUMOUR), rumours))
+    if args.dry_run:
+        run("rumor_publisher.py")
+    else:
+        before = rumor_pages()
+        run("rumor_publisher.py", "--save", "--limit", str(rumours))
+        added = rumor_pages() - before
+        if added:
+            _note_at(LAST_RUMOUR)
+            # Блок слухов на главной собирается из страниц раздела, поэтому
+            # пересобирать его надо после каждого пополнения — иначе новый
+            # слух окажется на сайте, но не на главной.
+            run("rumor_publisher.py", "--resync-homepage")
+            print("  новых слухов: %d" % added)
+        else:
+            print("  новых слухов нет")
+
     if published_now:
-        print("\n  опубликовано за такт: %d" % published_now)
+        print("\n  опубликовано за такт: трансферов %d" % published_now)
         return 0
     if code == 0:
-        print("\n  такт завершён без изменений")
-    return code
+        print("\n  такт завершён без новых трансферов")
     return code
 
 

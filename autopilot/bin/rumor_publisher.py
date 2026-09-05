@@ -379,6 +379,8 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--network", action="store_true")
     parser.add_argument("--resync-homepage", action="store_true",
                         help="пересобрать блок слухов на главной из страниц раздела")
+    parser.add_argument("--limit", type=int, default=0,
+                        help="сколько слухов выпустить за раз (0 — все готовые)")
     args = parser.parse_args(argv)
 
     if args.resync_homepage:
@@ -405,6 +407,10 @@ def main(argv: list[str] | None = None) -> int:
                 record.get("player_full_name"), record.get("from_club"),
                 record.get("to_club")))
             continue
+
+        if args.limit and published >= args.limit:
+            print("  норма такта исчерпана, остальные ждут следующего")
+            break
 
         result = publish_rumor(record, tm_clubs, bridge, countries, args.network)
         if result.get("ok"):
