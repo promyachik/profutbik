@@ -92,6 +92,61 @@
       transform: translateY(-1px);
     }
 
+    /* PF508C: направление задают три шеврона, нарисованные вектором.
+       Текстовая стрелка «→» зависела от шрифта, выходила тонкой и рядом с
+       эмблемами клубов терялась. Фона и рамки нет намеренно: это указатель
+       направления, а не кнопка. */
+    .pf-arrow-chevrons {
+      display: block;
+      width: 46px;
+      height: 24px;
+      margin: 0 auto;
+      overflow: visible;
+    }
+
+    .pf-arrow-chevrons path {
+      fill: none;
+      stroke: #34d058;
+      stroke-width: 3.6;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* Три шеврона гаснут к хвосту: глаз читает направление, а не частокол. */
+    .pf-arrow-chevrons path:nth-child(1) { opacity: 0.45; }
+    .pf-arrow-chevrons path:nth-child(2) { opacity: 0.72; }
+
+    /* Одиночный шеврон в слухах: слот под стрелку там ровно 18 пикселей. */
+    .pf-arrow-chevrons.is-single {
+      width: 16px;
+      height: 20px;
+    }
+
+    .pf-arrow-chevrons.is-single path {
+      opacity: 1;
+      stroke-width: 3.2;
+    }
+
+    /* PF508C: имя игрока — главное в строке, и после удаления колонки с
+       суммой ему досталась вся освободившаяся ширина. Переносов больше нет:
+       «Matias Fernandez-Pardo» стоял в три строки и ломал ритм списка. */
+    .pf-home-transfers-table tbody td.is-player {
+      width: 100%;
+      white-space: nowrap;
+    }
+
+    .pf-home-transfers-table tbody td.is-player a {
+      font-size: 17px;
+      letter-spacing: 0.01em;
+    }
+
+    /* Колонки с эмблемами, стрелкой и статусом занимают ровно своё. */
+    .pf-home-transfers-table tbody td.is-center,
+    .pf-home-transfers-table tbody td.is-status {
+      width: 1%;
+      white-space: nowrap;
+    }
+
     .pf-fee-value {
       color: #f1bd29;
       font-weight: 800;
@@ -560,20 +615,22 @@
         text-align: left !important;
       }
 
+      /* Имя занимает первую строку целиком; ширина в 100% из настольной
+         раскладки здесь только мешала бы гибкой строке. */
       .pf-home-transfers-table tbody td.is-player {
         flex: 0 0 100%;
+        width: auto;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
 
-      /* Ни сумма, ни статус не растягиваются и не жмутся к краю: иначе у
-         трансферов без суммы между логотипами и статусом зияла бы дыра во
-         всю строку. Всё собрано влево, строка ровно такой длины, сколько в
-         ней содержания. */
-      .pf-home-transfers-table tbody td.is-fee {
-        flex: 0 1 auto;
-        min-width: 0;
+      .pf-home-transfers-table tbody td.is-player a {
+        font-size: 16px;
       }
 
+      .pf-home-transfers-table tbody td.is-center,
       .pf-home-transfers-table tbody td.is-status {
+        width: auto;
         flex: 0 0 auto;
       }
 
@@ -582,19 +639,14 @@
         height: 26px;
       }
 
-      .pf-home-transfers-table .pf-club-arrow {
-        font-size: 17px;
-      }
-
-      /* nowrap уместен в колонке таблицы, а в гибкой строке длинная сумма
-         вида «€125 млн + €20 млн бонусов» из-за него вылезала бы за экран. */
-      .pf-home-transfers-table .pf-fee-value {
-        font-size: 14px;
-        white-space: normal;
+      .pf-arrow-chevrons {
+        width: 34px;
+        height: 20px;
       }
 
       .pf-home-transfers-table .pf-status-pill {
         font-size: 12px;
+        margin-left: 4px;
       }
 
       /* Слухи. PF401L задан вне медиазапроса и с !important, поэтому на
@@ -668,8 +720,17 @@
                   <span>{{ .from_name }}</span>
                 {{ end }}
               </td>
-              <td class="is-center">
-                <span class="pf-club-arrow">→</span>
+              {{/* PF508C: стрелка вместо текстового «→». Глиф тонкий и в
+                   строке с эмблемами теряется. Три шеврона рисуются вектором,
+                   поэтому не зависят от шрифта, не мылятся на retina и
+                   задают направление сразу, без подписи. Фона под ними нет:
+                   это указатель, а не кнопка. */}}
+              <td class="is-center is-arrow">
+                <svg class="pf-arrow-chevrons" viewBox="0 0 46 24" aria-hidden="true" focusable="false">
+                  <path d="M4 5 L14 12 L4 19" />
+                  <path d="M18 5 L28 12 L18 19" />
+                  <path d="M32 5 L42 12 L32 19" />
+                </svg>
               </td>
               <td class="is-center">
                 {{ if .to_logo }}
@@ -678,24 +739,11 @@
                   <span>{{ .to_name }}</span>
                 {{ end }}
               </td>
-              {{/* PF508A: «Сумма не разглашается» — это не факт, а признание,
-                   что факта нет. В строке она занимает место наравне с
-                   настоящими суммами и на телефоне выталкивает статус на
-                   отдельный этаж. Пустое место лучше пустых слов: где суммы
-                   нет, ячейка просто остаётся пустой и строка становится
-                   короче. Формулировок в данных семь, поэтому сверяем по
-                   списку, приведя к нижнему регистру. Целые фразы вроде
-                   «Свободный трансфер» или «Обязательный выкуп; сумма не
-                   раскрывается» смысл несут и остаются. */}}
-              {{ $noFee := slice "сумма не разглашается" "сумма не указана"
-                                 "сумма не раскрывается" "сумма не раскрыта"
-                                 "сумма не называется" "не раскрыта" "не разглашается" }}
-              {{ $fee := trim .fee " " }}
-              <td class="is-fee">
-                {{ if not (in $noFee (lower $fee)) }}
-                  <a class="pf-fee-value pf405v-home-transfer-fee-link" href="{{ .url | relURL }}">{{ $fee }}</a>
-                {{ end }}
-              </td>
+              {{/* PF508C: сумма с главной убрана совсем. Она есть внутри
+                   новости, а в списке у большинства переходов её нет вовсе —
+                   колонка стояла пустой и растаскивала строку по ширине,
+                   оставляя посередине дыру. Освободившееся место отдано имени
+                   игрока: оно перестало переноситься на две строки. */}}
               <td class="is-status">
                 <span class="pf-status-pill {{ .status_css }}">{{ .status_display }}</span>
               </td>
@@ -737,7 +785,15 @@
                   {{- with $item.from_logo }}<img class="pf403c-rumor-club-logo"
                     src="{{ . | relURL }}" alt="{{ $item.from_name }}" loading="lazy">{{ end -}}
                   {{ $item.from_name }}</span>
-                <span class="pf-route-arrow pf-club-arrow">→</span>
+                {{/* PF508C: тот же шеврон, что и в трансферах, но один:
+                     под стрелку в маршруте PF405P отводит ровно 18 пикселей,
+                     три сюда не встанут. Начертание общее, поэтому блоки
+                     читаются как одна система. */}}
+                <span class="pf-route-arrow pf-club-arrow">
+                  <svg class="pf-arrow-chevrons is-single" viewBox="0 0 16 24" aria-hidden="true" focusable="false">
+                    <path d="M4 5 L12 12 L4 19" />
+                  </svg>
+                </span>
                 <span{{ with $item.to_logo }} class="pf403c-rumor-club-with-logo"{{ end }}>
                   {{- with $item.to_logo }}<img class="pf403c-rumor-club-logo"
                     src="{{ . | relURL }}" alt="{{ $item.to_name }}" loading="lazy">{{ end -}}
