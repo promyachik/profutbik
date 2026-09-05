@@ -216,7 +216,7 @@ html body button[data-filter="loan"]:focus-visible {
 }
 </style>
 
-<link rel="stylesheet" href="{{ "css/transfers-directory.css" | relURL }}?v=pf513c">
+<link rel="stylesheet" href="{{ "css/transfers-directory.css" | relURL }}?v=pf514a">
 
 {{ $data := site.Data.homepage_transfer_rumor }}
 {{ $items := slice }}
@@ -250,7 +250,7 @@ html body button[data-filter="loan"]:focus-visible {
     </div>
 
     <div class="pf-transfer-head">
-      <span>Игрок</span><span>Из клуба</span><span></span><span>В клуб</span><span>Статус</span><span></span>
+      <span>Игрок</span><span>Из клуба</span><span></span><span>В клуб</span><span>Статус</span>
     </div>
 
     <div class="pf-transfer-list">
@@ -351,32 +351,8 @@ html body button[data-filter="loan"]:focus-visible {
               </span>
 </div>
 
-            <button class="pf-transfer-expand" type="button" data-transfer-expand aria-expanded="false">⌄</button>
           </div>
 
-          <div class="pf-transfer-details" hidden data-transfer-details>
-            <div>
-              <h3>Детали трансфера</h3>
-              <dl>
-                <div><dt>Статус</dt><dd>Состоялся</dd></div>
-                <div><dt>Тип сделки</dt><dd>{{ if $isLoan }}Аренда{{ else }}Постоянный трансфер{{ end }}</dd></div>
-                {{ $noFee := slice "сумма не разглашается" "сумма не указана"
-                                   "сумма не раскрывается" "сумма не раскрыта"
-                                   "сумма не называется" "не раскрыта" "не разглашается" }}
-                {{ with trim $fee " " }}{{ if not (in $noFee (lower .)) }}<div><dt>Сумма</dt><dd>{{ . }}</dd></div>{{ end }}{{ end }}
-                {{ with $date }}<div><dt>Дата</dt><dd>{{ . }}</dd></div>{{ end }}
-              </dl>
-            </div>
-            <div>
-              <h3>О переходе</h3>
-              <dl>
-                <div><dt>Игрок</dt><dd>{{ $player }}</dd></div>
-                <div><dt>Из клуба</dt><dd>{{ if ne $from "" }}{{ $from }}{{ else }}Не указан{{ end }}</dd></div>
-                <div><dt>В клуб</dt><dd>{{ if ne $to "" }}{{ $to }}{{ else }}Не указан{{ end }}</dd></div>
-              </dl>
-            </div>
-            {{ if ne $url "" }}<a class="pf-transfer-details__link" href="{{ $url }}">Перейти к новости →</a>{{ end }}
-          </div>
         </article>
       {{ else }}
         <div class="pf-transfer-empty">Нет опубликованных трансферов.</div>
@@ -464,19 +440,6 @@ body {
   if (more) more.addEventListener('click', () => {
     expanded = !expanded;
     render();
-  });
-
-  page.querySelectorAll('[data-transfer-expand]').forEach(button => {
-    button.addEventListener('click', event => {
-      event.preventDefault();
-      event.stopPropagation();
-      const row = button.closest('[data-transfer-row]');
-      const details = row.querySelector('[data-transfer-details]');
-      const open = button.getAttribute('aria-expanded') === 'true';
-      button.setAttribute('aria-expanded', String(!open));
-      button.textContent = open ? '⌄' : '⌃';
-      details.hidden = open;
-    });
   });
 
   render();
