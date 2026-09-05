@@ -1,0 +1,202 @@
+---
+title: "Genoa CFC: состав, стоимость и трансферы"
+description: "Состав клуба Genoa CFC — 29 игроков, средний возраст 24,5. Общая стоимость команды €164,60 млн."
+date: "2026-09-02T18:39:02+03:00"
+url: "/clubs/genoa-cfc/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Genoa CFC"
+club_code: "GEN"
+club_logo: "images/clubs/api/495.png"
+api_football_id: "495"
+club_city: "Genova"
+club_country: "Italy"
+league: "Серия А"
+league_id: "135"
+transfermarkt_club_id: "252"
+squad_size: 29
+average_age: "24,5"
+squad_value: "€164,60 млн"
+squad_value_eur: 164600000
+average_value: "€5,68 млн"
+squad:
+  - name: "Morten Frendrup"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 25
+    value: "€15 млн"
+    tm_id: "503871"
+  - name: "Hamed Traoré"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 26
+    value: "€15 млн"
+    tm_id: "391065"
+  - name: "Johan Vásquez"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€14 млн"
+    tm_id: "532937"
+  - name: "Alessandro Marcandalli"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 23
+    value: "€14 млн"
+    tm_id: "818448"
+  - name: "Leo Østigård"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€13 млн"
+    tm_id: "367284"
+  - name: "Lorenzo Colombo"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 24
+    value: "€10 млн"
+    tm_id: "487843"
+  - name: "Tommaso Baldanzi"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 23
+    value: "€8,5 млн"
+    tm_id: "641537"
+  - name: "Amorim"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 21
+    value: "€8 млн"
+    tm_id: "1082774"
+  - name: "Vitinha"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 26
+    value: "€8 млн"
+    tm_id: "586853"
+  - name: "Djibril Sow"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 29
+    value: "€7,5 млн"
+    tm_id: "212723"
+  - name: "Mario Mitaj"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 23
+    value: "€6 млн"
+    tm_id: "726114"
+  - name: "Mikael Egill Ellertsson"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 24
+    value: "€6 млн"
+    tm_id: "566615"
+  - name: "Franz-Ethan Meichtry"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 21
+    value: "€5 млн"
+    tm_id: "1172166"
+  - name: "Robinho Junior"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 18
+    value: "€5 млн"
+    tm_id: "1355385"
+  - name: "Lorenzo Venturino"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 20
+    value: "€5 млн"
+    tm_id: "1061820"
+  - name: "Justin Bijlow"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 28
+    value: "€4 млн"
+    tm_id: "315121"
+  - name: "Cody Drameh"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 24
+    value: "€3 млн"
+    tm_id: "531957"
+  - name: "Milutin Osmajic"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 27
+    value: "€3 млн"
+    tm_id: "542819"
+  - name: "Sebastian Otoa"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 22
+    value: "€2,5 млн"
+    tm_id: "890385"
+  - name: "David Puczka"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 21
+    value: "€2,5 млн"
+    tm_id: "715894"
+  - name: "Samuel Wiafe"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 18
+    value: "€2,5 млн"
+    tm_id: "1295778"
+  - name: "Elias Havel"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 23
+    value: "€2,2 млн"
+    tm_id: "566626"
+  - name: "Stefano Sabelli"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 33
+    value: "€1,3 млн"
+    tm_id: "167491"
+  - name: "Junior Messias"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 35
+    value: "€1,1 млн"
+    tm_id: "449151"
+  - name: "Joi Nuredini"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 19
+    value: "€1 млн"
+    tm_id: "1089770"
+  - name: "Franz Stolz"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 25
+    value: "€600 тыс."
+    tm_id: "462699"
+  - name: "Mamedi Doucouré"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 19
+    value: "€400 тыс."
+    tm_id: "1105948"
+  - name: "Marcelo Vaz"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 19
+    value: "€400 тыс."
+    tm_id: "1438038"
+  - name: "Daniele Sommariva"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 29
+    value: "€100 тыс."
+    tm_id: "312773"
+club_transfers:
+---
+В заявке клуба Genoa CFC — 29 игроков со средним возрастом 24,5 года. Общая стоимость команды по оценке Transfermarkt — €164,60 млн, в среднем €5,68 млн на игрока.
+
+Самый дорогой игрок состава — Morten Frendrup (опорный полузащитник), его стоимость оценивается в €15 млн.

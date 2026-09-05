@@ -1,0 +1,196 @@
+---
+title: "Deportivo A Coruña: состав, стоимость и трансферы"
+description: "Состав клуба Deportivo A Coruña — 28 игроков, средний возраст 26,3. Общая стоимость команды €115,80 млн."
+date: "2026-09-02T18:37:02+03:00"
+url: "/clubs/deportivo-a-coruna/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Deportivo A Coruña"
+club_code: ""
+club_logo: "images/clubs/tm/rendered/897-a4bb700c7186.png"
+api_football_id: "544"
+club_city: "La Coruña"
+club_country: ""
+league: "Ла Лига"
+league_id: "140"
+transfermarkt_club_id: "897"
+squad_size: 28
+average_age: "26,3"
+squad_value: "€115,80 млн"
+squad_value_eur: 115800000
+average_value: "€4,14 млн"
+squad:
+  - name: "Yeremay Hernández"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 23
+    value: "€25 млн"
+    tm_id: "636385"
+  - name: "Marc Casadó"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 22
+    value: "€18 млн"
+    tm_id: "636695"
+  - name: "José María Giménez"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 31
+    value: "€9 млн"
+    tm_id: "250845"
+  - name: "Lorenzo Amatucci"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 22
+    value: "€8 млн"
+    tm_id: "707450"
+  - name: "Leo Román"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 26
+    value: "€6 млн"
+    tm_id: "562742"
+  - name: "Adama Traoré"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 30
+    value: "€6 млн"
+    tm_id: "204103"
+  - name: "Mario Soriano"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 24
+    value: "€5 млн"
+    tm_id: "568148"
+  - name: "David Mella"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 21
+    value: "€5 млн"
+    tm_id: "741256"
+  - name: "Angeliño"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 29
+    value: "€4,5 млн"
+    tm_id: "277179"
+  - name: "Jonathan Asp Jensen"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 20
+    value: "€4 млн"
+    tm_id: "856274"
+  - name: "Bil Nsongo"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 21
+    value: "€3 млн"
+    tm_id: "1299392"
+  - name: "Pierre-Emerick Aubameyang"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 37
+    value: "€2,5 млн"
+    tm_id: "58864"
+  - name: "Zakaria Eddahchouri"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 26
+    value: "€2,5 млн"
+    tm_id: "519651"
+  - name: "Álvaro Ferllo"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 28
+    value: "€2 млн"
+    tm_id: "453704"
+  - name: "Giacomo Quagliata"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 26
+    value: "€2 млн"
+    tm_id: "458777"
+  - name: "Luismi Cruz"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 25
+    value: "€2 млн"
+    tm_id: "610461"
+  - name: "Adrià Altimira"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 25
+    value: "€1,8 млн"
+    tm_id: "466807"
+  - name: "Lucas Noubi"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 21
+    value: "€1,5 млн"
+    tm_id: "743379"
+  - name: "Riki Rodríguez"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 28
+    value: "€1,5 млн"
+    tm_id: "596899"
+  - name: "Dani Barcia"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 23
+    value: "€1,2 млн"
+    tm_id: "857949"
+  - name: "Miguel Loureiro"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 29
+    value: "€1,2 млн"
+    tm_id: "400104"
+  - name: "Diego Villares"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 30
+    value: "€1 млн"
+    tm_id: "590687"
+  - name: "Noé Carrillo"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 19
+    value: "€1 млн"
+    tm_id: "1309177"
+  - name: "Teun Gijselhart"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 21
+    value: "€650 тыс."
+    tm_id: "738477"
+  - name: "Bright Ede"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 19
+    value: "€600 тыс."
+    tm_id: "1177033"
+  - name: "Arnau Comas"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€500 тыс."
+    tm_id: "388542"
+  - name: "Germán Parreño"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 33
+    value: "€250 тыс."
+    tm_id: "126746"
+  - name: "Ximo Navarro"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 36
+    value: "€100 тыс."
+    tm_id: "184767"
+club_transfers:
+---
+В заявке клуба Deportivo A Coruña — 28 игроков со средним возрастом 26,3 года. Общая стоимость команды по оценке Transfermarkt — €115,80 млн, в среднем €4,14 млн на игрока.
+
+Самый дорогой игрок состава — Yeremay Hernández (левый вингер), его стоимость оценивается в €25 млн.

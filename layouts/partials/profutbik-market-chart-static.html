@@ -396,15 +396,6 @@
         </div>
     </div>
 
-    <p class="player-market-chart__note">
-        {{ default "Оценочная стоимость, не сумма трансфера." $chart.note }}
-        {{ with $chart.source_url }}
-            <a class="player-market-chart__source" href="{{ . }}" target="_blank" rel="nofollow noopener">
-                {{ default "Источник" $chart.source_name }}
-            </a>
-        {{ else }}
-            {{ with $chart.source_name }}<strong>{{ . }}</strong>{{ end }}
-        {{ end }}
-    </p>
+    <p class="player-market-chart__note">ценочная рыночная стоимость. е является суммой трансфера.</p>
 </section>
 {{- end -}}

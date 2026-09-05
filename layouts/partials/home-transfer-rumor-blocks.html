@@ -1,0 +1,1709 @@
+{{ $data := site.Data.homepage_transfer_rumor }}
+<section class="pf-home-market-overview" data-pf-home-market-overview>
+  <style id="pf-home-transfer-rumor-blocks-style">
+    .pf-home-market-overview {
+      display: grid;
+      grid-template-columns: minmax(0, 1.6fr) minmax(320px, 1fr);
+      gap: 16px;
+      margin: 22px auto 22px;
+      width: min(100%, 1200px);
+      padding: 0 12px;
+      box-sizing: border-box;
+    }
+
+    .pf-home-panel {
+      position: relative;
+      border: 1px solid rgba(214, 170, 34, 0.28);
+      background:
+        linear-gradient(180deg, rgba(9, 16, 27, 0.96), rgba(5, 10, 18, 0.98)),
+        radial-gradient(circle at top right, rgba(214, 170, 34, 0.09), transparent 44%);
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.24);
+    }
+
+    .pf-home-panel__header {
+      padding: 18px 18px 14px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .pf-home-panel__title {
+      margin: 0;
+      font-size: 21px;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #f0f4fb;
+    }
+
+    .pf-home-transfers-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .pf-home-transfers-table thead th {
+      padding: 12px 18px;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(220,229,241,0.68);
+      font-weight: 700;
+      text-align: left;
+    }
+
+    .pf-home-transfers-table thead th.is-center,
+    .pf-home-transfers-table tbody td.is-center {
+      text-align: center;
+    }
+
+    .pf-home-transfers-table tbody tr {
+      border-top: 1px solid rgba(255,255,255,0.07);
+    }
+
+    .pf-home-transfers-table tbody td {
+      padding: 14px 18px;
+      vertical-align: middle;
+    }
+
+    .pf-home-transfers-table tbody td.is-player a {
+      color: #e0b22b;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .pf-home-transfers-table tbody td.is-player a:hover {
+      color: #ffd24d;
+    }
+
+    .pf-club-logo {
+      width: 34px;
+      height: 34px;
+      object-fit: contain;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .pf-club-arrow {
+      color: #34d058;
+      font-size: 22px;
+      line-height: 1;
+      font-weight: 800;
+      display: inline-block;
+      transform: translateY(-1px);
+    }
+
+    .pf-fee-value {
+      color: #f1bd29;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .pf-status-pill {
+      font-weight: 800;
+      white-space: nowrap;
+      text-transform: lowercase;
+    }
+
+    .pf-status-pill.is-done {
+      color: #29d65f;
+    }
+
+    .pf-status-pill.is-agreement {
+      color: #f0b938;
+    }
+
+    .pf-status-pill.is-talks {
+      color: #5ec5ff;
+    }
+
+    .pf-status-pill.is-rumor {
+      color: #e38bff;
+    }
+
+    .pf-status-pill.is-other {
+      color: #c9d4e2;
+    }
+
+    .pf-home-rumors-list {
+      list-style: none;
+      margin: 0;
+      padding: 0 0 8px;
+    }
+
+    .pf-home-rumors-list li {
+      display: grid;
+      grid-template-columns: 44px minmax(0, 1fr) auto;
+      gap: 14px;
+      align-items: start;
+      padding: 14px 18px;
+      border-top: 1px solid rgba(255,255,255,0.07);
+    }
+
+    .pf-home-rumors-rank {
+      width: 30px;
+      height: 30px;
+      border-radius: 4px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(180deg, #f1c03a, #d7a51c);
+      color: #111827;
+      font-weight: 900;
+      font-size: 15px;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.35);
+    }
+
+    .pf-home-rumors-rank.is-secondary {
+      background: linear-gradient(180deg, rgba(148,163,184,0.32), rgba(71,85,105,0.55));
+      color: #edf2f7;
+    }
+
+    .pf-home-rumors-main a {
+      color: #f0c13a;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 800;
+    }
+
+    .pf-home-rumors-main a:hover {
+      color: #ffd24d;
+    }
+
+    .pf-home-rumors-route {
+      margin-top: 4px;
+      font-size: 13px;
+      color: rgba(220,229,241,0.78);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+    }
+
+    .pf-home-rumors-route .pf-route-arrow {
+      color: #34d058;
+      font-weight: 900;
+    }
+
+    .pf-home-rumors-meta {
+      margin-top: 4px;
+      font-size: 12px;
+      color: rgba(220,229,241,0.70);
+    }
+
+    .pf-home-rumors-side {
+      text-align: right;
+      min-width: 78px;
+    }
+
+    .pf-home-rumors-side .pf-fee-value {
+      display: block;
+      font-size: 15px;
+    }
+
+    .pf-home-rumors-side .pf-status-pill {
+      display: block;
+      margin-top: 4px;
+      font-size: 12px;
+    }
+
+    .pf-home-panel__footer {
+      padding: 14px 18px 18px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .pf-home-panel__button {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 38px;
+      padding: 0 16px;
+      border: 1px solid rgba(214, 170, 34, 0.85);
+      border-radius: 4px;
+      color: #f1bd29;
+      background: rgba(214, 170, 34, 0.06);
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    .pf-home-panel__button:hover {
+      border-color: #ffcf3e;
+      color: #ffcf3e;
+      background: rgba(214, 170, 34, 0.10);
+    }
+
+    .pf-home-empty {
+      padding: 18px;
+      color: rgba(220,229,241,0.72);
+    }
+
+    @media (max-width: 980px) {
+      .pf-home-market-overview {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .pf-home-panel__title {
+        font-size: 18px;
+      }
+
+      .pf-home-transfers-table thead {
+        display: none;
+      }
+
+      .pf-home-transfers-table,
+      .pf-home-transfers-table tbody,
+      .pf-home-transfers-table tr,
+      .pf-home-transfers-table td {
+        display: block;
+        width: 100%;
+      }
+
+      .pf-home-transfers-table tbody tr {
+        padding: 10px 0;
+      }
+
+      .pf-home-transfers-table tbody td {
+        padding: 6px 16px;
+        text-align: left !important;
+      }
+
+      .pf-home-rumors-list li {
+        grid-template-columns: 36px minmax(0, 1fr);
+      }
+
+      .pf-home-rumors-side {
+        grid-column: 2;
+        text-align: left;
+        min-width: 0;
+      }
+    }
+
+    /* PF399W_ALIGN_BLOCKS_START */
+    .pf-home-market-overview {
+      width: min(1320px, calc(100% - 20px));
+      max-width: 1320px;
+      padding-left: 0;
+      padding-right: 0;
+      grid-template-columns: minmax(0, 1.62fr) minmax(360px, 0.98fr);
+      align-items: stretch;
+    }
+
+    .pf-home-panel--transfers,
+    .pf-home-panel--rumors {
+      min-width: 0;
+      height: 100%;
+    }
+
+    @media (max-width: 980px) {
+      .pf-home-market-overview {
+        width: min(1320px, calc(100% - 20px));
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .pf-home-market-overview {
+        width: calc(100% - 12px);
+      }
+    }
+    /* PF399W_ALIGN_BLOCKS_END */
+    .pf399x-transfer-table .pf-fee-value {
+      font-weight: 400;
+    }
+
+    .pf399x-transfer-table .pf-status-pill {
+      font-weight: 400;
+    }
+
+    .pf-home-transfers-expand {
+      height: auto;
+      overflow: hidden;
+      transition: height 420ms cubic-bezier(0.22, 1, 0.36, 1);
+      will-change: height;
+    }
+
+    .pf-home-transfers-expand.is-measuring,
+    .pf-home-transfers-expand.is-static {
+      transition: none;
+    }
+
+    .pf-home-transfer-toggle {
+      appearance: none;
+      cursor: pointer;
+      font: inherit;
+    }
+
+    .pf-home-transfer-toggle[hidden] {
+      display: none;
+    }
+
+    /* PF400A_CENTER_TITLES_BUTTONS_START */
+    .pf-home-panel {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .pf-home-panel__header {
+      text-align: center;
+    }
+
+    .pf-home-panel__title {
+      width: 100%;
+      text-align: center;
+    }
+
+    .pf-home-panel__footer {
+      margin-top: auto;
+      justify-content: center;
+    }
+
+    .pf-home-panel__button {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 15px;
+      font-weight: 400;
+      font-style: italic;
+      letter-spacing: 0.03em;
+      text-transform: none;
+    }
+    /* PF400A_CENTER_TITLES_BUTTONS_END */
+
+    /* PF400B_HOME_BUTTONS_ROBOTO_START */
+    .pf-home-panel__button {
+      font-family: "Roboto Condensed", "Roboto", "Segoe UI", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: 0.06em;
+      text-transform: none;
+    }
+    /* PF400B_HOME_BUTTONS_ROBOTO_END */
+
+    /* PF400C_TRANSFER_PLAYERS_FEES_ROBOTO_START */
+    .pf-home-panel--transfers .pf-home-transfers-table td.is-player a,
+    .pf-home-panel--transfers .pf-fee-value {
+      font-family: "Roboto Condensed", "Roboto", "Segoe UI", sans-serif;
+      font-style: normal;
+    }
+    /* PF400C_TRANSFER_PLAYERS_FEES_ROBOTO_END */
+
+    /* PF400L_FULL_ARCHIVE_FILTER_START */
+    .pf-home-panel--rumors .pf-status-pill.is-agreement {
+      color: #ff7a59;
+    }
+
+    .pf-home-filter-empty {
+      padding: 24px 18px;
+      color: rgba(220, 229, 241, 0.72);
+      text-align: center;
+      line-height: 1.5;
+    }
+
+    .pf-home-transfers-table tr[hidden],
+    .pf-home-rumors-list li[hidden],
+    .pf-home-filter-empty[hidden] {
+      display: none !important;
+    }
+    /* PF400L_FULL_ARCHIVE_FILTER_END */
+
+    /* PF400P_CENTER_RUMOR_ARROW_START */
+    .pf-home-rumors-route {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+      align-items: center;
+      column-gap: 10px;
+      width: 100%;
+    }
+
+    .pf-home-rumors-route > span:first-child {
+      min-width: 0;
+      text-align: right;
+    }
+
+    .pf-home-rumors-route > .pf-route-arrow {
+      justify-self: center;
+      text-align: center;
+    }
+
+    .pf-home-rumors-route > span:last-child {
+      min-width: 0;
+      text-align: left;
+    }
+    /* PF400P_CENTER_RUMOR_ARROW_END */
+
+    /* PF401L_KEEP_LONG_RUMOR_ROUTE_ON_ONE_LINE_START */
+    .pf-home-panel--rumors .pf-home-rumors-rank {
+      display: none !important;
+    }
+
+    .pf-home-panel--rumors .pf-home-rumors-list > li {
+      grid-template-columns: minmax(0, 1fr) auto !important;
+    }
+
+    .pf-home-panel--rumors .pf-home-rumors-main {
+      grid-column: 1 !important;
+      min-width: 0 !important;
+      width: 100% !important;
+      margin-left: 0 !important;
+      padding-left: 0 !important;
+      text-align: left !important;
+    }
+
+    .pf-home-panel--rumors .pf-home-rumors-meta {
+      grid-column: 2 !important;
+      justify-self: end !important;
+    }
+
+    .pf-home-panel--rumors .pf-home-rumors-route {
+      display: flex !important;
+      flex-flow: row nowrap !important;
+      align-items: center !important;
+      justify-content: flex-start !important;
+      width: 100% !important;
+      min-width: 0 !important;
+      max-width: none !important;
+      margin-left: 0 !important;
+      padding-left: 0 !important;
+      gap: 8px !important;
+      text-align: left !important;
+      white-space: nowrap !important;
+      overflow: visible !important;
+    }
+
+    .pf-home-panel--rumors
+    .pf-home-rumors-route > span:first-child,
+    .pf-home-panel--rumors
+    .pf-home-rumors-route > span:last-child {
+      display: inline-block !important;
+      flex: 0 0 auto !important;
+      flex-basis: auto !important;
+      width: auto !important;
+      min-width: 0 !important;
+      max-width: none !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      text-align: left !important;
+      white-space: nowrap !important;
+      overflow: visible !important;
+    }
+
+    .pf-home-panel--rumors
+    .pf-home-rumors-route > .pf-route-arrow {
+      display: inline-block !important;
+      flex: 0 0 18px !important;
+      flex-basis: 18px !important;
+      width: 18px !important;
+      min-width: 18px !important;
+      max-width: 18px !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      text-align: center !important;
+      white-space: nowrap !important;
+    }
+
+    @media (min-width: 681px) {
+      .pf-home-panel--rumors .pf-home-rumors-list > li {
+        grid-template-columns:
+          minmax(0, 1fr)
+          205px !important;
+        column-gap: 14px !important;
+      }
+
+      .pf-home-panel--rumors .pf-home-rumors-meta {
+        width: 205px !important;
+        min-width: 205px !important;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .pf-home-panel--rumors .pf-home-rumors-route {
+        gap: 5px !important;
+      }
+
+      .pf-home-panel--rumors
+      .pf-home-rumors-route > .pf-route-arrow {
+        flex-basis: 16px !important;
+        width: 16px !important;
+        min-width: 16px !important;
+        max-width: 16px !important;
+      }
+    }
+    /* PF401L_KEEP_LONG_RUMOR_ROUTE_ON_ONE_LINE_END */
+  </style>
+
+  <article class="pf-home-panel pf-home-panel--transfers">
+    <header class="pf-home-panel__header">
+      <h2 class="pf-home-panel__title"><a class="pf405i-home-panel-title-link" data-pf405i-section="transfers" href="{{ "transfers/" | relURL }}">{{ $data.transfers_title }}</a></h2>
+    </header>
+
+    {{ if gt (len $data.transfers) 0 }}
+      <div class="pf-home-transfers-expand" data-pf-transfer-expand><table class="pf-home-transfers-table pf399x-transfer-table">
+<tbody>
+          {{ range $data.transfers }}
+            <tr>
+              <td class="is-player">
+                <a href="{{ .url | relURL }}">{{ .player }}</a>
+              </td>
+              <td class="is-center">
+                {{ if .from_logo }}
+                  <img class="pf-club-logo" src="{{ .from_logo | relURL }}" alt="{{ .from_name }}">
+                {{ else }}
+                  <span>{{ .from_name }}</span>
+                {{ end }}
+              </td>
+              <td class="is-center">
+                <span class="pf-club-arrow">→</span>
+              </td>
+              <td class="is-center">
+                {{ if .to_logo }}
+                  <img class="pf-club-logo" src="{{ .to_logo | relURL }}" alt="{{ .to_name }}">
+                {{ else }}
+                  <span>{{ .to_name }}</span>
+                {{ end }}
+              </td>
+              <td>
+                <a class="pf-fee-value pf405v-home-transfer-fee-link" href="{{ .url | relURL }}">{{ .fee }}</a>
+              </td>
+              <td>
+                <span class="pf-status-pill {{ .status_css }}">{{ .status_display }}</span>
+              </td>
+            </tr>
+          {{ end }}
+        </tbody>
+      </table></div>
+    {{ else }}
+      <div class="pf-home-empty">Пока нет данных для блока «Трансферы».</div>
+    {{ end }}
+
+    <footer class="pf-home-panel__footer">
+      <button class="pf-home-panel__button pf-home-transfer-toggle" type="button" data-pf-transfer-toggle aria-expanded="false">Развернуть</button>
+    </footer>
+  </article>
+
+  <article class="pf-home-panel pf-home-panel--rumors">
+    <header class="pf-home-panel__header">
+      <h2 class="pf-home-panel__title"><a class="pf405i-home-panel-title-link" data-pf405i-section="rumors" href="{{ "rumors/" | relURL }}">{{ $data.rumors_title }}</a></h2>
+    </header>
+
+    {{ if gt (len $data.rumors) 0 }}
+      <ol class="pf-home-rumors-list">
+        {{ range $index, $item := $data.rumors }}
+          <li>
+            <div>
+              <span class="pf-home-rumors-rank{{ if ge $index 3 }} is-secondary{{ end }}">{{ add $index 1 }}</span>
+            </div>
+            <div class="pf-home-rumors-main">
+              <a href="{{ $item.url | relURL }}">{{ $item.player }}</a>
+              <div class="pf-home-rumors-route">
+                <span>{{ $item.from_name }}</span>
+                <span class="pf-route-arrow pf-club-arrow">→</span>
+                <span>{{ $item.to_name }}</span>
+              </div>
+              </div>
+            <div class="pf-home-rumors-side">
+              <span class="pf-fee-value">{{ replace $item.fee "Предложение " "" }}</span>
+              <span class="pf-status-pill {{ $item.status_css }}">{{ $item.status_display }}</span>
+            </div>
+          </li>
+        {{ end }}
+      </ol>
+    {{ else }}
+      <div class="pf-home-empty">Пока нет данных для блока «Слухи».</div>
+    {{ end }}
+
+    <footer class="pf-home-panel__footer">
+      <a class="pf-home-panel__button" href="{{ "rumors/" | relURL }}">Все материалы</a>
+    </footer>
+  </article>
+</section>
+
+<style id="pf405v-home-transfer-fee-link">
+/* PF405V_LINK_EXPANDED_HOME_TRANSFER_FEES_START */
+.pf399x-transfer-table .pf405v-home-transfer-fee-link {
+  color: inherit !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+
+.pf399x-transfer-table .pf405v-home-transfer-fee-link:hover,
+.pf399x-transfer-table .pf405v-home-transfer-fee-link:focus-visible {
+  color: #ffd400 !important;
+  text-decoration: none !important;
+}
+/* PF405V_LINK_EXPANDED_HOME_TRANSFER_FEES_END */
+</style>
+
+<script src="{{ "js/home-transfer-show-more.js" | relURL }}?v=pf494a" defer></script>
+
+<!-- PF403B_HOME_TRANSFER_AMOUNT_CLICK_START -->
+<style>
+.pf403b-transfer-amount-click {
+  cursor: pointer !important;
+}
+
+.pf403b-transfer-amount-click:focus-visible {
+  outline: 1px solid rgba(212, 175, 55, 0.95) !important;
+  outline-offset: -3px !important;
+}
+</style>
+
+<script>
+(() => {
+  const PF403B_RUNTIME_TOKEN = 'PF403B_HOME_TRANSFER_AMOUNT_CLICK_RUNTIME';
+
+  const normalize = (value) =>
+    String(value || '').replace(/\s+/g, ' ').trim();
+
+  const amountPattern = (value) => {
+    const text = normalize(value);
+
+    return (
+      /^(?:до\s*)?[€£$]\s*[\d.,]+/i.test(text) ||
+      /^сумма\s+не\s+раскрывается$/i.test(text) ||
+      /^аренда$/i.test(text) ||
+      (/млн/i.test(text) && /[€£$]|\d/i.test(text))
+    );
+  };
+
+  const findTransfersBlock = () => {
+    const headings = [
+      ...document.querySelectorAll('h1,h2,h3,h4,h5,div,span')
+    ];
+
+    for (const heading of headings) {
+      if (normalize(heading.textContent).toUpperCase() !== 'ТРАНСФЕРЫ') {
+        continue;
+      }
+
+      let block = heading.parentElement;
+      let depth = 0;
+
+      while (block && depth < 8) {
+        const text = normalize(block.textContent).toLowerCase();
+        const statuses = (text.match(/состоялся/g) || []).length;
+
+        if (statuses >= 2 && block.querySelectorAll('img').length >= 2) {
+          return block;
+        }
+
+        block = block.parentElement;
+        depth += 1;
+      }
+    }
+
+    return null;
+  };
+
+  const findStoryLink = (row) => {
+    const links = [...row.querySelectorAll('a[href]')];
+
+    for (const link of links) {
+      const text = normalize(link.textContent);
+
+      if (!text || text.length > 100) continue;
+      if (amountPattern(text)) continue;
+      if (/состоялся|официально|развернуть|свернуть|все материалы/i.test(text)) {
+        continue;
+      }
+
+      return link;
+    }
+
+    return null;
+  };
+
+  const findRow = (element, block) => {
+    let row = element;
+    let depth = 0;
+
+    while (row && row !== block && depth < 9) {
+      const text = normalize(row.textContent).toLowerCase();
+      const rect = row.getBoundingClientRect();
+
+      if (
+        /состоялся|официально/.test(text) &&
+        rect.width >= Math.min(600, window.innerWidth * 0.70) &&
+        rect.height >= 40 &&
+        rect.height <= 180 &&
+        findStoryLink(row)
+      ) {
+        return row;
+      }
+
+      row = row.parentElement;
+      depth += 1;
+    }
+
+    return null;
+  };
+
+  const smallestAmountElements = (block) => {
+    return [...block.querySelectorAll('*')].filter((element) => {
+      const text = normalize(element.textContent);
+
+      if (!amountPattern(text)) return false;
+
+      return ![...element.children].some((child) =>
+        amountPattern(normalize(child.textContent))
+      );
+    });
+  };
+
+  const expandToWholeAmountCell = (element) => {
+    const amountText = normalize(element.textContent);
+    let cell = element;
+    let parent = element.parentElement;
+    let depth = 0;
+
+    while (parent && depth < 6) {
+      const parentText = normalize(parent.textContent);
+      const rect = parent.getBoundingClientRect();
+
+      if (
+        parentText === amountText &&
+        rect.width <= Math.min(440, window.innerWidth * 0.46) &&
+        rect.height <= 140
+      ) {
+        cell = parent;
+        parent = parent.parentElement;
+        depth += 1;
+        continue;
+      }
+
+      break;
+    }
+
+    return cell;
+  };
+
+  const prepare = () => {
+    const block = findTransfersBlock();
+
+    if (!block) {
+      document.documentElement.dataset.pf403bPrepared = '0';
+      return;
+    }
+
+    let prepared = 0;
+
+    smallestAmountElements(block).forEach((amountElement) => {
+      const cell = expandToWholeAmountCell(amountElement);
+
+      if (cell.dataset.pf403bReady === 'true') {
+        prepared += 1;
+        return;
+      }
+
+      const row = findRow(cell, block);
+      if (!row) return;
+
+      const storyLink = findStoryLink(row);
+      if (!storyLink) return;
+
+      cell.dataset.pf403bReady = 'true';
+      cell.dataset.pf403bHref = storyLink.href;
+      cell.classList.add('pf403b-transfer-amount-click');
+      cell.setAttribute('role', 'link');
+      cell.setAttribute('tabindex', '0');
+
+      const playerName = normalize(storyLink.textContent);
+
+      cell.setAttribute(
+        'aria-label',
+        playerName
+          ? `Открыть трансфер: ${playerName}`
+          : 'Открыть новость о трансфере'
+      );
+
+      cell.addEventListener('click', (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        window.location.assign(cell.dataset.pf403bHref);
+      });
+
+      cell.addEventListener('keydown', (event) => {
+        if (event.key !== 'Enter' && event.key !== ' ') return;
+
+        event.preventDefault();
+        window.location.assign(cell.dataset.pf403bHref);
+      });
+
+      prepared += 1;
+    });
+
+    document.documentElement.dataset.pf403bPrepared =
+      String(prepared);
+  };
+
+  prepare();
+
+  const observer = new MutationObserver(prepare);
+
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
+})();
+</script>
+<!-- PF403B_HOME_TRANSFER_AMOUNT_CLICK_END -->
+
+<!-- PF403C_HOME_RUMOR_ENHANCEMENTS_START -->
+<style>
+.pf403c-rumor-club-with-logo {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  white-space: nowrap !important;
+}
+
+.pf403c-rumor-club-logo {
+  display: inline-block !important;
+  width: 28px !important;
+  height: 28px !important;
+  flex: 0 0 28px !important;
+  object-fit: contain !important;
+  vertical-align: middle !important;
+}
+
+.pf403c-rumor-amount-click {
+  cursor: pointer !important;
+}
+
+.pf403c-rumor-amount-click:focus-visible {
+  outline: 1px solid rgba(212, 175, 55, 0.95) !important;
+  outline-offset: -3px !important;
+}
+</style>
+
+<script>
+(() => {
+  const PF403C_RUNTIME_TOKEN = 'PF403C_HOME_RUMOR_LOGOS_AMOUNT_RUNTIME';
+  {{/* PF489A_RUMOR_LOGO_MAP_FROM_CATALOG_START
+       Карта раньше была захардкожена, и у клубов без логотипа стоял
+       случайный флаг страны: Juventus -> us.svg, Arsenal -> al.svg,
+       Tottenham -> am.svg. Клубов, добавленных позже, в ней не было вовсе.
+       Теперь она строится из data/club-logos.json, который ведёт движок:
+       новые клубы подхватываются сами, флагов вместо эмблем не бывает. */}}
+  {{- $logoMap := dict -}}
+  {{- with (index site.Data "club-logos") -}}
+    {{- range $id, $club := .clubs -}}
+      {{- with $club.logo -}}
+        {{- with $club.name -}}
+          {{- $logoMap = merge $logoMap (dict . $club.logo) -}}
+        {{- end -}}
+        {{- with $club.configured_name -}}
+          {{- $logoMap = merge $logoMap (dict . $club.logo) -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  const logoMap = {{ $logoMap | jsonify | safeJS }};
+  {{/* PF489A_RUMOR_LOGO_MAP_FROM_CATALOG_END */}}
+  const normalize = (value) =>
+    String(value || '')
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase()
+      .replace(/&/g, ' and ')
+      .replace(/[^a-z0-9а-яё]+/gi, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+  const normalizedLogoMap = {};
+
+  Object.entries(logoMap).forEach(([name, path]) => {
+    normalizedLogoMap[normalize(name)] = path;
+  });
+
+  const assetUrl = (path) => {
+    if (/^https?:\/\//i.test(path)) return path;
+
+    const clean = String(path || '').replace(/^\/+/, '');
+    return new URL(clean, new URL('.', window.location.href)).href;
+  };
+
+  const text = (element) =>
+    String(element && element.textContent || '').replace(/\s+/g, ' ').trim();
+
+  const isRumorAmount = (value) => {
+    const current = text({ textContent: value });
+
+    return (
+      /^(?:предложение\s*)?(?:до\s*)?[€£$]\s*[\d.,]+/i.test(current) ||
+      /^(?:предложение\s*)?[\d.,]+\s*(?:млн|m)/i.test(current) ||
+      /[€£$]\s*[\d.,]+.*(?:млн|m|бонус)/i.test(current)
+    );
+  };
+
+  const findRumorBlock = () => {
+    const headings = [
+      ...document.querySelectorAll('h1,h2,h3,h4,h5,div,span')
+    ];
+
+    for (const heading of headings) {
+      if (text(heading).toUpperCase() !== 'СЛУХИ') continue;
+
+      let block = heading.parentElement;
+      let depth = 0;
+
+      while (block && depth < 8) {
+        const content = text(block).toLowerCase();
+        const statuses = (
+          content.match(/согласовано|переговоры|слух|интерес/g) || []
+        ).length;
+
+        if (statuses >= 2) return block;
+
+        block = block.parentElement;
+        depth += 1;
+      }
+    }
+
+    return null;
+  };
+
+  const findStoryLink = (row) => {
+    const anchors = [...row.querySelectorAll('a[href]')];
+
+    for (const anchor of anchors) {
+      const label = text(anchor);
+
+      if (!label || label.length > 100) continue;
+      if (isRumorAmount(label)) continue;
+      if (
+        /согласовано|переговоры|слух|интерес|развернуть|свернуть/i.test(label)
+      ) {
+        continue;
+      }
+
+      return anchor;
+    }
+
+    return null;
+  };
+
+  const findRow = (element, block) => {
+    let row = element;
+    let depth = 0;
+
+    while (row && row !== block && depth < 9) {
+      const content = text(row).toLowerCase();
+      const rect = row.getBoundingClientRect();
+
+      if (
+        /согласовано|переговоры|слух|интерес/.test(content) &&
+        rect.width >= Math.min(500, window.innerWidth * 0.68) &&
+        rect.height >= 55 &&
+        rect.height <= 190 &&
+        findStoryLink(row)
+      ) {
+        return row;
+      }
+
+      row = row.parentElement;
+      depth += 1;
+    }
+
+    return null;
+  };
+
+  const smallestAmountElements = (block) =>
+    [...block.querySelectorAll('*')].filter((element) => {
+      const current = text(element);
+      if (!isRumorAmount(current)) return false;
+
+      return ![...element.children].some((child) =>
+        isRumorAmount(text(child))
+      );
+    });
+
+  const expandAmountCell = (element) => {
+    const amountText = text(element);
+    let cell = element;
+    let parent = element.parentElement;
+    let depth = 0;
+
+    while (parent && depth < 5) {
+      const rect = parent.getBoundingClientRect();
+
+      if (
+        text(parent) === amountText &&
+        rect.width <= Math.min(430, window.innerWidth * 0.46) &&
+        rect.height <= 145
+      ) {
+        cell = parent;
+        parent = parent.parentElement;
+        depth += 1;
+        continue;
+      }
+
+      break;
+    }
+
+    return cell;
+  };
+
+  const makeAmountClickable = (block) => {
+    let count = 0;
+
+    smallestAmountElements(block).forEach((amountElement) => {
+      const cell = expandAmountCell(amountElement);
+
+      if (cell.dataset.pf403cAmountReady === 'true') {
+        count += 1;
+        return;
+      }
+
+      const row = findRow(cell, block);
+      if (!row) return;
+
+      const storyLink = findStoryLink(row);
+      if (!storyLink) return;
+
+      cell.dataset.pf403cAmountReady = 'true';
+      cell.dataset.pf403cHref = storyLink.href;
+      cell.classList.add('pf403c-rumor-amount-click');
+      cell.setAttribute('role', 'link');
+      cell.setAttribute('tabindex', '0');
+      cell.setAttribute(
+        'aria-label',
+        `Открыть новость: ${text(storyLink)}`
+      );
+
+      cell.addEventListener('click', (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        window.location.assign(cell.dataset.pf403cHref);
+      });
+
+      cell.addEventListener('keydown', (event) => {
+        if (event.key !== 'Enter' && event.key !== ' ') return;
+
+        event.preventDefault();
+        window.location.assign(cell.dataset.pf403cHref);
+      });
+
+      count += 1;
+    });
+
+    return count;
+  };
+
+  const leafClubElements = (block) =>
+    [...block.querySelectorAll('span,div,p,strong,b')].filter((element) => {
+      if (element.querySelector('.pf403c-rumor-club-logo')) return false;
+
+      const current = normalize(text(element));
+      if (!normalizedLogoMap[current]) return false;
+
+      return ![...element.children].some((child) => {
+        return normalize(text(child)) === current;
+      });
+    });
+
+  const addClubLogos = (block) => {
+    let count = 0;
+
+    leafClubElements(block).forEach((element) => {
+      const clubName = text(element);
+      const logoPath = normalizedLogoMap[normalize(clubName)];
+
+      if (!logoPath || element.dataset.pf403cLogoReady === 'true') {
+        return;
+      }
+
+      const image = document.createElement('img');
+      image.className = 'pf403c-rumor-club-logo';
+      image.src = assetUrl(logoPath);
+      image.alt = clubName;
+      image.loading = 'lazy';
+      image.decoding = 'async';
+
+      element.classList.add('pf403c-rumor-club-with-logo');
+      element.insertBefore(image, element.firstChild);
+      element.dataset.pf403cLogoReady = 'true';
+
+      count += 1;
+    });
+
+    return count;
+  };
+
+  const prepare = () => {
+    const block = findRumorBlock();
+
+    if (!block) {
+      document.documentElement.dataset.pf403cRumorAmounts = '0';
+      document.documentElement.dataset.pf403cRumorLogos = '0';
+      return;
+    }
+
+    const amountCount = makeAmountClickable(block);
+    const logoCount = addClubLogos(block);
+
+    document.documentElement.dataset.pf403cRumorAmounts =
+      String(amountCount);
+    document.documentElement.dataset.pf403cRumorLogos =
+      String(logoCount);
+  };
+
+  prepare();
+
+  const observer = new MutationObserver(prepare);
+
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
+})();
+</script>
+<!-- PF403C_HOME_RUMOR_ENHANCEMENTS_END -->
+
+<!-- PF403D_RUMOR_PRICE_LINK_START -->
+<style>
+/* Real Madrid crest has asymmetric transparent space around the crown. */
+.pf403c-rumor-club-logo[alt="Real Madrid"],
+.pf403c-rumor-club-logo[src$="/541.png"],
+.pf403c-rumor-club-logo[src*="/541.png?"] {
+  position: relative !important;
+  top: -1px !important;
+  transform: none !important;
+  object-position: center center !important;
+}
+
+.pf403d-rumor-price-overlay {
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  color: transparent !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  z-index: 2147483000 !important;
+}
+
+.pf403d-rumor-price-overlay:focus-visible {
+  outline: 1px solid rgba(212, 175, 55, 0.95) !important;
+  outline-offset: -3px !important;
+}
+</style>
+
+<script>
+(() => {
+  const PF403D_RUNTIME_TOKEN = 'PF403D_REAL_RUMOR_PRICE_ANCHOR_RUNTIME';
+
+  const cleanText = (value) =>
+    String(value || '').replace(/\s+/g, ' ').trim();
+
+  const statusPattern =
+    /согласовано|переговоры|слух|интерес/i;
+
+  const amountPattern = (value) => {
+    const text = cleanText(value);
+
+    return (
+      /^(?:предложение\s*)?(?:до\s*)?[€£$]\s*[\d.,]+/i.test(text) ||
+      /[€£$]\s*[\d.,]+.*(?:млн|m|бонус)/i.test(text) ||
+      /^(?:предложение\s*)?[\d.,]+\s*(?:млн|m)/i.test(text)
+    );
+  };
+
+  const findRumorBlock = () => {
+    const headings = [
+      ...document.querySelectorAll('h1,h2,h3,h4,h5,div,span')
+    ];
+
+    for (const heading of headings) {
+      if (cleanText(heading.textContent).toUpperCase() !== 'СЛУХИ') {
+        continue;
+      }
+
+      let block = heading.parentElement;
+      let depth = 0;
+
+      while (block && depth < 8) {
+        const content = cleanText(block.textContent);
+        const statuses = (
+          content.match(
+            /согласовано|переговоры|слух|интерес/gi
+          ) || []
+        ).length;
+
+        if (statuses >= 2) {
+          return block;
+        }
+
+        block = block.parentElement;
+        depth += 1;
+      }
+    }
+
+    return null;
+  };
+
+  const qualifiesAsRow = (element) => {
+    const content = cleanText(element.textContent);
+    const rect = element.getBoundingClientRect();
+    const statuses = (
+      content.match(
+        /согласовано|переговоры|слух|интерес/gi
+      ) || []
+    ).length;
+
+    return (
+      statuses === 1 &&
+      amountPattern(content) &&
+      rect.width >= Math.min(480, window.innerWidth * 0.66) &&
+      rect.height >= 65 &&
+      rect.height <= 180
+    );
+  };
+
+  const findRows = (block) => {
+    const candidates = [
+      ...block.querySelectorAll('article,li,div,a')
+    ].filter(qualifiesAsRow);
+
+    return candidates.filter((candidate) => {
+      return ![...candidate.children].some(qualifiesAsRow);
+    });
+  };
+
+  const findPlayerLink = (row) => {
+    const rowRect = row.getBoundingClientRect();
+
+    const candidates = [...row.querySelectorAll('a[href]')]
+      .filter((anchor) => {
+        if (
+          anchor.classList.contains(
+            'pf403d-rumor-price-overlay'
+          )
+        ) {
+          return false;
+        }
+
+        const label = cleanText(anchor.textContent);
+        const rect = anchor.getBoundingClientRect();
+
+        return (
+          label.length >= 3 &&
+          label.length <= 90 &&
+          !amountPattern(label) &&
+          !statusPattern.test(label) &&
+          rect.left < rowRect.left + rowRect.width * 0.55 &&
+          rect.top < rowRect.top + rowRect.height * 0.58
+        );
+      })
+      .sort((a, b) => {
+        const aRect = a.getBoundingClientRect();
+        const bRect = b.getBoundingClientRect();
+
+        return (
+          aRect.top - bRect.top ||
+          aRect.left - bRect.left
+        );
+      });
+
+    return candidates[0] || null;
+  };
+
+  const findAmountElement = (row) => {
+    const rowRect = row.getBoundingClientRect();
+
+    const candidates = [...row.querySelectorAll('*')]
+      .filter((element) => {
+        const label = cleanText(element.textContent);
+        const rect = element.getBoundingClientRect();
+
+        if (!amountPattern(label)) return false;
+
+        return (
+          rect.left > rowRect.left + rowRect.width * 0.50 &&
+          rect.top < rowRect.top + rowRect.height * 0.72 &&
+          rect.width > 0 &&
+          rect.height > 0
+        );
+      })
+      .sort((a, b) => {
+        const aRect = a.getBoundingClientRect();
+        const bRect = b.getBoundingClientRect();
+        const aArea = aRect.width * aRect.height;
+        const bArea = bRect.width * bRect.height;
+
+        return (
+          aArea - bArea ||
+          bRect.left - aRect.left
+        );
+      });
+
+    return candidates[0] || null;
+  };
+
+  const installRealAnchor = (row) => {
+    if (
+      row.querySelector(
+        ':scope > .pf403d-rumor-price-overlay'
+      )
+    ) {
+      return true;
+    }
+
+    const playerLink = findPlayerLink(row);
+    const amountElement = findAmountElement(row);
+
+    if (!playerLink || !amountElement) {
+      return false;
+    }
+
+    const rowRect = row.getBoundingClientRect();
+    const amountRect = amountElement.getBoundingClientRect();
+
+    const minimumLeft = rowRect.width * 0.54;
+    const measuredLeft =
+      amountRect.left - rowRect.left - 18;
+    const maximumLeft = rowRect.width - 100;
+
+    const overlayLeft = Math.max(
+      minimumLeft,
+      Math.min(measuredLeft, maximumLeft)
+    );
+
+    const currentPosition =
+      window.getComputedStyle(row).position;
+
+    if (currentPosition === 'static') {
+      row.style.position = 'relative';
+    }
+
+    const overlay = document.createElement('a');
+    overlay.className = 'pf403d-rumor-price-overlay';
+    overlay.href = playerLink.href;
+    overlay.style.left = `${overlayLeft}px`;
+    overlay.setAttribute(
+      'aria-label',
+      `Открыть новость: ${cleanText(playerLink.textContent)}`
+    );
+    overlay.textContent = cleanText(playerLink.textContent);
+
+    row.appendChild(overlay);
+    row.dataset.pf403dPriceLinked = 'true';
+
+    return true;
+  };
+
+  const prepare = () => {
+    const block = findRumorBlock();
+
+    if (!block) {
+      document.documentElement.dataset.pf403dRumorPriceLinks =
+        '0';
+      return;
+    }
+
+    const rows = findRows(block);
+    let installed = 0;
+
+    rows.forEach((row) => {
+      if (installRealAnchor(row)) {
+        installed += 1;
+      }
+    });
+
+    document.documentElement.dataset.pf403dRumorPriceLinks =
+      String(installed);
+  };
+
+  const schedulePrepare = () => {
+    prepare();
+    window.setTimeout(prepare, 100);
+    window.setTimeout(prepare, 500);
+    window.setTimeout(prepare, 1200);
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener(
+      'DOMContentLoaded',
+      schedulePrepare,
+      { once: true }
+    );
+  } else {
+    schedulePrepare();
+  }
+
+  const observer = new MutationObserver(() => {
+    window.requestAnimationFrame(prepare);
+  });
+
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
+})();
+</script>
+<!-- PF403D_RUMOR_PRICE_LINK_END -->
+
+<!-- PF405I_HOME_PANEL_TITLE_LINKS_STYLE_START -->
+<style id="pf405i-home-panel-title-links-style">
+.pf405i-home-panel-title-link {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 150ms ease;
+}
+
+.pf405i-home-panel-title-link:hover,
+.pf405i-home-panel-title-link:focus-visible {
+  color: #ffd400;
+  outline: none;
+}
+</style>
+<!-- PF405I_HOME_PANEL_TITLE_LINKS_STYLE_END -->
+
+<!-- PF405K_REMOVE_GOLD_TITLE_STYLE_START -->
+<style id="pf405k-remove-gold-title-style">
+.pf-home-panel__title >
+a.pf405i-home-panel-title-link {
+  all: unset !important;
+  display: inline !important;
+  color: inherit !important;
+  font: inherit !important;
+  line-height: inherit !important;
+  letter-spacing: inherit !important;
+  text-transform: inherit !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+
+.pf-home-panel__title >
+a.pf405i-home-panel-title-link:hover,
+.pf-home-panel__title >
+a.pf405i-home-panel-title-link:focus-visible {
+  color: #ffd400 !important;
+  outline: none !important;
+}
+<style id="pf405o-align-home-rumor-arrows-vertical">
+/* PF405O_ALIGN_HOME_RUMOR_ARROWS_VERTICAL_START */
+.pf-home-panel--rumors .pf-home-rumors-route {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) 18px minmax(0, 1fr) !important;
+  align-items: center !important;
+  column-gap: 8px !important;
+  row-gap: 0 !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  justify-content: stretch !important;
+  text-align: left !important;
+}
+
+.pf-home-panel--rumors .pf-home-rumors-route > span:first-child,
+.pf-home-panel--rumors .pf-home-rumors-route > span:last-child {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  white-space: nowrap !important;
+  overflow: visible !important;
+  text-align: left !important;
+}
+
+.pf-home-panel--rumors .pf-home-rumors-route > span:first-child {
+  justify-content: flex-start !important;
+}
+
+.pf-home-panel--rumors .pf-home-rumors-route > span:last-child {
+  justify-content: flex-start !important;
+}
+
+.pf-home-panel--rumors .pf-home-rumors-route > .pf-route-arrow {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 18px !important;
+  min-width: 18px !important;
+  max-width: 18px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  justify-self: center !important;
+  align-self: center !important;
+  text-align: center !important;
+}
+/* PF405O_ALIGN_HOME_RUMOR_ARROWS_VERTICAL_END */
+</style>
+
+<style id="pf405p-tighten-home-rumor-route-spacing">
+/* PF405P_TIGHTEN_HOME_RUMOR_ROUTE_SPACING_START */
+.pf-home-panel--rumors .pf-home-rumors-route {
+  display: grid !important;
+  grid-template-columns: 170px 18px 150px !important;
+  align-items: center !important;
+  justify-content: start !important;
+  column-gap: 8px !important;
+  row-gap: 0 !important;
+  width: 346px !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  text-align: left !important;
+}
+
+.pf-home-panel--rumors .pf-home-rumors-route > span:first-child,
+.pf-home-panel--rumors .pf-home-rumors-route > span:last-child {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  text-align: left !important;
+}
+
+.pf-home-panel--rumors .pf-home-rumors-route > span:first-child {
+  width: 170px !important;
+  justify-content: flex-start !important;
+}
+
+.pf-home-panel--rumors .pf-home-rumors-route > span:last-child {
+  width: 150px !important;
+  justify-content: flex-start !important;
+}
+
+.pf-home-panel--rumors .pf-home-rumors-route > .pf-route-arrow {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 18px !important;
+  min-width: 18px !important;
+  max-width: 18px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  justify-self: center !important;
+  align-self: center !important;
+  text-align: center !important;
+}
+/* PF405P_TIGHTEN_HOME_RUMOR_ROUTE_SPACING_END */
+</style>
+
+</style>
+<!-- PF405K_REMOVE_GOLD_TITLE_STYLE_END -->
+
+<!-- PF405R_MOVE_HOME_RUMOR_ARROWS_LEFT_6PX_START -->
+<style id="pf405r-move-home-rumor-arrows-left-6px">
+.pf-home-panel--rumors
+.pf-home-rumors-route > .pf-route-arrow {
+  position: relative !important;
+  left: -6px !important;
+}
+
+
+    /* PF446F_RESTORE_HOME_TRANSFER_CLUB_LOGOS_START */
+    .pf-home-panel--transfers {
+      --pf446f-home-transfer-logo-fix: 1px;
+    }
+
+    .pf-home-panel--transfers
+    .pf-home-transfers-table
+    td:nth-child(2),
+    .pf-home-panel--transfers
+    .pf-home-transfers-table
+    td:nth-child(4) {
+      width: 52px !important;
+      min-width: 52px !important;
+      max-width: 52px !important;
+      padding-left: 7px !important;
+      padding-right: 7px !important;
+      box-sizing: border-box !important;
+      vertical-align: middle !important;
+      text-align: center !important;
+    }
+
+    .pf-home-panel--transfers
+    .pf-home-transfers-table
+    td:nth-child(2) > img.pf-club-logo,
+    .pf-home-panel--transfers
+    .pf-home-transfers-table
+    td:nth-child(4) > img.pf-club-logo {
+      display: block !important;
+      width: 38px !important;
+      height: 38px !important;
+      min-width: 38px !important;
+      min-height: 38px !important;
+      max-width: 38px !important;
+      max-height: 38px !important;
+      margin: 0 auto !important;
+      padding: 0 !important;
+      object-fit: contain !important;
+      object-position: center center !important;
+      opacity: 1 !important;
+      transform: none !important;
+      flex: 0 0 38px !important;
+    }
+
+    @media (max-width: 680px) {
+      .pf-home-panel--transfers
+      .pf-home-transfers-table
+      td:nth-child(2),
+      .pf-home-panel--transfers
+      .pf-home-transfers-table
+      td:nth-child(4) {
+        width: 44px !important;
+        min-width: 44px !important;
+        max-width: 44px !important;
+        padding-left: 6px !important;
+        padding-right: 6px !important;
+      }
+
+      .pf-home-panel--transfers
+      .pf-home-transfers-table
+      td:nth-child(2) > img.pf-club-logo,
+      .pf-home-panel--transfers
+      .pf-home-transfers-table
+      td:nth-child(4) > img.pf-club-logo {
+        width: 32px !important;
+        height: 32px !important;
+        min-width: 32px !important;
+        min-height: 32px !important;
+        max-width: 32px !important;
+        max-height: 32px !important;
+        flex-basis: 32px !important;
+      }
+    }
+    /* PF446F_RESTORE_HOME_TRANSFER_CLUB_LOGOS_END */
+  </style>
+<!-- PF405R_MOVE_HOME_RUMOR_ARROWS_LEFT_6PX_END -->
+<!-- PF486A_HOME_RUMOR_PANEL_NO_STRETCH_START -->
+<style id="pf486a-home-rumor-panel-no-stretch">
+    /* Блок слухов не должен следовать за высотой развёрнутого блока трансферов.
+       Растяжение давали два правила выше:
+         .pf-home-market-overview { align-items: stretch }
+         .pf-home-panel--transfers, .pf-home-panel--rumors { height: 100% }
+       Здесь отменяем их только для панели слухов, трансферы не трогаем. */
+    .pf-home-market-overview .pf-home-panel--rumors {
+      align-self: stretch;
+      height: auto;
+    }
+
+    /* PF494A: пока блок трансферов развёрнут, слухи не тянутся за ним -
+       иначе под ними висит пустота. В свёрнутом состоянии обе панели
+       выравниваются по нижней кромке. */
+    .pf-home-market-overview.pf494a-transfers-expanded .pf-home-panel--rumors {
+      align-self: start;
+    }
+</style>
+<!-- PF486A_HOME_RUMOR_PANEL_NO_STRETCH_END -->

@@ -1,8 +1,8 @@
 ---
 concept_art_image: "images/homepage/featured/bernardo-silva-real-madrid-hero.png"
-title: "Бернарду Силва переходит в «Реал»: соглашение с «Манчестер Сити» и сумма сделки"
-seo_title: "Бернарду Силва → Real Madrid: трансфер из Manchester City, сумма €22 млн"
-description: "Бернарду Силва согласовал переход из Manchester City в Real Madrid. Детали сделки, сумма трансфера, позиция, гражданство, рабочая нога и динамика рыночной стоимости."
+title: "Bernardo Silva переходит в «Реал»: соглашение с «Манчестер Сити» и сумма сделки"
+seo_title: "Bernardo Silva → Real Madrid: трансфер из Manchester City, сумма €22 млн"
+description: "Bernardo Silva согласовал переход из Manchester City в Real Madrid. Детали сделки, сумма трансфера, позиция, гражданство, рабочая нога и динамика рыночной стоимости."
 date: 2026-06-21T12:00:00+02:00
 lastmod: 2026-07-04T12:00:00+02:00
 draft: false
@@ -41,7 +41,7 @@ age_at_transfer: 31
 birth_date: "10.08.1994"
 nationality: "Португалия"
 nationality_name: "Португалия"
-nationality_flag: "images/flags/portugal.svg"
+nationality_flag: "images/flags/countries/pt.svg"
 preferred_foot: "Левая"
 height: "1.73 м"
 
@@ -71,30 +71,31 @@ show_in_footer_ticker: true
 
 previous_club_stats:
   label: "Manchester City · сезон 2025/26"
-  matches: "—"
-  goals: "—"
-  assists: "—"
-  minutes: "—"
-  yellow_cards: "—"
-  red_cards: "—"
+  matches: "TBA"
+  goals: "TBA"
+  assists: "TBA"
+  minutes: "TBA"
+  yellow_cards: "TBA"
+  red_cards: "TBA"
   season: "2025/26"
   source_note: "Данные будут заполнены после синхронизации API-Football."
 
 keywords:
   - Bernardo Silva
-  - Бернарду Силва
+  - Bernardo Silva
   - Real Madrid
   - Manchester City
   - трансферы
   - La Liga
   - Premier League
+nationality_flag_image: "images/flags/countries/pt.svg"
 ---
 
-Бернарду Силва готовится к переходу из Manchester City в Real Madrid. Сделка находится в статусе согласования, а сумма трансфера, рыночная стоимость и последняя точка графика синхронизированы на уровне **€22 млн**.
+Bernardo Silva готовится к переходу из Manchester City в Real Madrid. Сделка находится в статусе согласования, а сумма трансфера, рыночная стоимость и последняя точка графика синхронизированы на уровне **€22 млн**.
 
 ## Главные факты о трансфере Бернарду Силвы
 
-- **Игрок:** Бернарду Силва
+- **Игрок:** Bernardo Silva
 - **Предыдущий клуб:** Manchester City
 - **Новый клуб:** Real Madrid
 - **Статус:** согласовано
@@ -109,6 +110,8 @@ keywords:
 
 ## Что даст Real Madrid
 
-Бернарду Силва может играть в центре атаки, под нападающим и на полуфлангах. Его сильные качества — контроль мяча, короткий пас, игра между линиями и умение удерживать темп атаки.
+Bernardo Silva может играть в центре атаки, под нападающим и на полуфлангах. Его сильные качества — контроль мяча, короткий пас, игра между линиями и умение удерживать темп атаки.
 
+---
 
+**Источник:** Fabrizio Romano.

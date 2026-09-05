@@ -1,0 +1,190 @@
+---
+title: "FC Krasnodar: состав, стоимость и трансферы"
+description: "Состав клуба FC Krasnodar — 27 игроков, средний возраст 27,0. Общая стоимость команды €113,40 млн."
+date: "2026-09-02T18:45:21+03:00"
+url: "/clubs/fc-krasnodar/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "FC Krasnodar"
+club_code: "KRA"
+club_logo: "images/clubs/api/621.png"
+api_football_id: "621"
+club_city: "Krasnodar"
+club_country: "Russia"
+league: "РПЛ"
+league_id: "235"
+transfermarkt_club_id: "16704"
+squad_size: 27
+average_age: "27,0"
+squad_value: "€113,40 млн"
+squad_value_eur: 113400000
+average_value: "€4,20 млн"
+squad:
+  - name: "Stanislav Agkatsev"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 24
+    value: "€12 млн"
+    tm_id: "617520"
+  - name: "Diego Costa"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€12 млн"
+    tm_id: "546212"
+  - name: "Christian"
+    position: "Правый полузащитник"
+    position_short: "RM"
+    age: 25
+    value: "€12 млн"
+    tm_id: "658678"
+  - name: "Jhon Córdoba"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 33
+    value: "€10 млн"
+    tm_id: "185245"
+  - name: "Vítor Tormena"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 30
+    value: "€8 млн"
+    tm_id: "517300"
+  - name: "Aleksandr Chernikov"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 26
+    value: "€8 млн"
+    tm_id: "432112"
+  - name: "João Batxi"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 28
+    value: "€8 млн"
+    tm_id: "514256"
+  - name: "Nikita Krivtsov"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 24
+    value: "€7,5 млн"
+    tm_id: "746180"
+  - name: "Douglas Augusto"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 29
+    value: "€7 млн"
+    tm_id: "393621"
+  - name: "Dmitriy Vorobyov"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 28
+    value: "€6 млн"
+    tm_id: "370287"
+  - name: "Kevin Pina"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 29
+    value: "€5 млн"
+    tm_id: "544586"
+  - name: "Lucas Olaza"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 32
+    value: "€3,5 млн"
+    tm_id: "216240"
+  - name: "Valentin Paltsev"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 25
+    value: "€3 млн"
+    tm_id: "615650"
+  - name: "Ilya Vakhania"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 25
+    value: "€3 млн"
+    tm_id: "515050"
+  - name: "Jubal"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 33
+    value: "€1,5 млн"
+    tm_id: "149928"
+  - name: "Daniil Utkin"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 26
+    value: "€1,5 млн"
+    tm_id: "375667"
+  - name: "Juan Manuel Boselli"
+    position: "Оттянутый нападающий"
+    position_short: "SS"
+    age: 26
+    value: "€1,5 млн"
+    tm_id: "487421"
+  - name: "Magomed Ozdoev"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 33
+    value: "€1,2 млн"
+    tm_id: "137206"
+  - name: "Aleksandr Koryakin"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 24
+    value: "€750 тыс."
+    tm_id: "687463"
+  - name: "Vitaliy Stezhko"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 29
+    value: "€400 тыс."
+    tm_id: "375662"
+  - name: "Artem Khmarin"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 19
+    value: "€400 тыс."
+    tm_id: "1052493"
+  - name: "Efim Burkin"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 18
+    value: "€300 тыс."
+    tm_id: "1109231"
+  - name: "Eldar Guseynov"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 18
+    value: "€300 тыс."
+    tm_id: "1244035"
+  - name: "Sergey Petrov"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 35
+    value: "€250 тыс."
+    tm_id: "102581"
+  - name: "Roman Safronov"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 23
+    value: "€100 тыс."
+    tm_id: "685982"
+  - name: "Grigoriy Lovtsov"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 21
+    value: "€100 тыс."
+    tm_id: "715339"
+  - name: "Timur Abdrashitov"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 24
+    value: "€100 тыс."
+    tm_id: "797594"
+club_transfers:
+---
+В заявке клуба FC Krasnodar — 27 игроков со средним возрастом 27,0 года. Общая стоимость команды по оценке Transfermarkt — €113,40 млн, в среднем €4,20 млн на игрока.
+
+Самый дорогой игрок состава — Stanislav Agkatsev (вратарь), его стоимость оценивается в €12 млн.

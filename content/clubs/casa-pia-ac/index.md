@@ -1,0 +1,196 @@
+---
+title: "Casa Pia AC: состав, стоимость и трансферы"
+description: "Состав клуба Casa Pia AC — 28 игроков, средний возраст 26,1. Общая стоимость команды €27,10 млн."
+date: "2026-09-02T18:45:06+03:00"
+url: "/clubs/casa-pia-ac/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Casa Pia AC"
+club_code: "CAS"
+club_logo: "images/clubs/api/4716.png"
+api_football_id: "4716"
+club_city: "Lisboa"
+club_country: "Portugal"
+league: "Примейра"
+league_id: "94"
+transfermarkt_club_id: "3268"
+squad_size: 28
+average_age: "26,1"
+squad_value: "€27,10 млн"
+squad_value_eur: 27100000
+average_value: "€967,86 тыс."
+squad:
+  - name: "Patrick Sequeira"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 27
+    value: "€3,5 млн"
+    tm_id: "378482"
+  - name: "André Gomes"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 21
+    value: "€3 млн"
+    tm_id: "670710"
+  - name: "João Rego"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 21
+    value: "€3 млн"
+    tm_id: "931415"
+  - name: "Jérémy Livolant"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 28
+    value: "€2,5 млн"
+    tm_id: "324806"
+  - name: "JP"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 21
+    value: "€2 млн"
+    tm_id: "1083970"
+  - name: "João Goulart"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€1,5 млн"
+    tm_id: "537477"
+  - name: "Lawrence Ofori"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 28
+    value: "€1,5 млн"
+    tm_id: "536081"
+  - name: "Kaique Rocha"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 25
+    value: "€1 млн"
+    tm_id: "633377"
+  - name: "David Sousa"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 25
+    value: "€1 млн"
+    tm_id: "740159"
+  - name: "Henrique Araújo"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 24
+    value: "€1 млн"
+    tm_id: "617267"
+  - name: "Benjamin Pauwels"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 21
+    value: "€800 тыс."
+    tm_id: "1104143"
+  - name: "Abdu Conté"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 28
+    value: "€700 тыс."
+    tm_id: "337798"
+  - name: "Alassana Jatta"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 27
+    value: "€600 тыс."
+    tm_id: "631704"
+  - name: "Gabi"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 26
+    value: "€550 тыс."
+    tm_id: "567516"
+  - name: "Seba Pérez"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 33
+    value: "€500 тыс."
+    tm_id: "182108"
+  - name: "Kevin Prieto"
+    position: "Правый полузащитник"
+    position_short: "RM"
+    age: 23
+    value: "€500 тыс."
+    tm_id: "1221003"
+  - name: "Rochinha"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 31
+    value: "€500 тыс."
+    tm_id: "290336"
+  - name: "Pedro Rosas"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 25
+    value: "€450 тыс."
+    tm_id: "696504"
+  - name: "Kaly"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 22
+    value: "€400 тыс."
+    tm_id: "1241219"
+  - name: "Korede Osundina"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 22
+    value: "€350 тыс."
+    tm_id: "975138"
+  - name: "Ivan Mandić"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 23
+    value: "€300 тыс."
+    tm_id: "815219"
+  - name: "Selvi Clua"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 21
+    value: "€300 тыс."
+    tm_id: "1061660"
+  - name: "Evans Maurin"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 25
+    value: "€300 тыс."
+    tm_id: "823521"
+  - name: "Aymen Zouin"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 19
+    value: "€250 тыс."
+    tm_id: "1188771"
+  - name: "Daniel Azevedo"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 28
+    value: "€200 тыс."
+    tm_id: "383008"
+  - name: "André Geraldes"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 35
+    value: "€150 тыс."
+    tm_id: "154319"
+  - name: "Cassiano"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 37
+    value: "€150 тыс."
+    tm_id: "238367"
+  - name: "Clau Mendes"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 25
+    value: "€100 тыс."
+    tm_id: "699501"
+club_transfers:
+---
+В заявке клуба Casa Pia AC — 28 игроков со средним возрастом 26,1 года. Общая стоимость команды по оценке Transfermarkt — €27,10 млн, в среднем €967,86 тыс. на игрока.
+
+Самый дорогой игрок состава — Patrick Sequeira (вратарь), его стоимость оценивается в €3,5 млн.

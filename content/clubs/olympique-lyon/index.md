@@ -1,0 +1,202 @@
+---
+title: "Olympique Lyon: состав, стоимость и трансферы"
+description: "Состав клуба Olympique Lyon — 29 игроков, средний возраст 24,7. Общая стоимость команды €249,65 млн."
+date: "2026-09-02T18:41:03+03:00"
+url: "/clubs/olympique-lyon/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Olympique Lyon"
+club_code: "LYO"
+club_logo: "images/clubs/api/80.png"
+api_football_id: "80"
+club_city: "Décines-Charpieu"
+club_country: "France"
+league: "Лига 1"
+league_id: "61"
+transfermarkt_club_id: "1041"
+squad_size: 29
+average_age: "24,7"
+squad_value: "€249,65 млн"
+squad_value_eur: 249650000
+average_value: "€8,61 млн"
+squad:
+  - name: "Tyler Morton"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 23
+    value: "€30 млн"
+    tm_id: "618494"
+  - name: "Loïs Openda"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 26
+    value: "€25 млн"
+    tm_id: "368887"
+  - name: "Pavel Sulc"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 25
+    value: "€20 млн"
+    tm_id: "500053"
+  - name: "Moussa Niakhaté"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 30
+    value: "€15 млн"
+    tm_id: "291200"
+  - name: "Zachary Athekame"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 21
+    value: "€15 млн"
+    tm_id: "990637"
+  - name: "Khalis Merah"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 19
+    value: "€15 млн"
+    tm_id: "1187942"
+  - name: "Noah Nartey"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 20
+    value: "€15 млн"
+    tm_id: "802515"
+  - name: "Mads Bidstrup"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 25
+    value: "€13 млн"
+    tm_id: "462832"
+  - name: "Abner"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 26
+    value: "€10 млн"
+    tm_id: "646402"
+  - name: "Tanner Tessmann"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 24
+    value: "€10 млн"
+    tm_id: "670096"
+  - name: "Corentin Tolisso"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 32
+    value: "€10 млн"
+    tm_id: "190393"
+  - name: "Rémi Himbert"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 18
+    value: "€10 млн"
+    tm_id: "1200423"
+  - name: "Ernest Nuamah"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 22
+    value: "€10 млн"
+    tm_id: "955070"
+  - name: "Dominik Greif"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 29
+    value: "€9 млн"
+    tm_id: "316884"
+  - name: "Ruben Kluivert"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 25
+    value: "€8 млн"
+    tm_id: "578421"
+  - name: "Felix Bacher"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 25
+    value: "€6 млн"
+    tm_id: "394134"
+  - name: "Julien Duranville"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 20
+    value: "€6 млн"
+    tm_id: "819215"
+  - name: "Kaïl Boudache"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 20
+    value: "€5 млн"
+    tm_id: "1097113"
+  - name: "Nicolás Tagliafico"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 34
+    value: "€4 млн"
+    tm_id: "131225"
+  - name: "Noham Kamara"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 19
+    value: "€3 млн"
+    tm_id: "1275040"
+  - name: "Mathys de Carvalho"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 21
+    value: "€3 млн"
+    tm_id: "1004486"
+  - name: "Clinton Mata"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 33
+    value: "€2,5 млн"
+    tm_id: "187718"
+  - name: "Rémy Descamps"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 30
+    value: "€1,5 млн"
+    tm_id: "282028"
+  - name: "Mohamed Ouédraogo"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 23
+    value: "€1,2 млн"
+    tm_id: "1107570"
+  - name: "Steeve Kango"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 19
+    value: "€1 млн"
+    tm_id: "1119391"
+  - name: "Alejandro Gomes Rodríguez"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 18
+    value: "€800 тыс."
+    tm_id: "1108478"
+  - name: "Paul Akouokou"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 28
+    value: "€400 тыс."
+    tm_id: "429901"
+  - name: "Justin Bengui"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 21
+    value: "€250 тыс."
+    tm_id: "802986"
+  - name: "Lassine Diarra"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 23
+    value: ""
+    tm_id: "1071430"
+club_transfers:
+---
+В заявке клуба Olympique Lyon — 29 игроков со средним возрастом 24,7 года. Общая стоимость команды по оценке Transfermarkt — €249,65 млн, в среднем €8,61 млн на игрока.
+
+Самый дорогой игрок состава — Tyler Morton (опорный полузащитник), его стоимость оценивается в €30 млн.

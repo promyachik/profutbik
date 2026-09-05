@@ -1,0 +1,20 @@
+{
+  "active": true,
+  "slot_id": "homepage_featured_slider_first_slide",
+  "item_id": "mario-balotelli-ac-milan-396e",
+  "art_id": "art-3",
+  "name": "Mario Balotelli",
+  "route": "Mario Balotelli → AC Milan",
+  "status": "СЛУХ",
+  "statusClass": "pf-badge--rumour",
+  "source": "Manual admin stage",
+  "fee": "TBA",
+  "link": "#",
+  "heroImage": "/promyachik/images/homepage/featured/admin-mario-balotelli-ac-milan-396e-art-3.png",
+  "cardImage": "/promyachik/images/homepage/featured/admin-mario-balotelli-ac-milan-396e-art-3.png",
+  "alt": "Mario Balotelli",
+  "chartValue": "TBA",
+  "chartLabel": "Оценка сделки",
+  "stage": "art_approved_only",
+  "updated_at": "2026-07-14 15:53:29"
+}

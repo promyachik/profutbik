@@ -810,3 +810,100 @@ body.transfer-page .promyachik-cucurella-price-moved-244 {
 }
 /* PROMYACHIK 259 CUCURELLA HIDE YEAR KEEP PRICE END */
 
+/* PROFUTBIK_370L_CSS_FILE_PLAIN_FLAG_START */
+
+/* ражданство: просто картинка флага без плашки/фона/tooltip */
+body .player-brief__nationality {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+
+    width: auto !important;
+    min-width: 62px !important;
+    height: 38px !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+
+    background: transparent !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    line-height: 0 !important;
+}
+
+/* тключаем визуальные плашки/tooltip вокруг флага */
+body .player-brief__nationality::before,
+body .player-brief__nationality::after,
+body .player-brief__nationality *::before,
+body .player-brief__nationality *::after {
+    content: none !important;
+    display: none !important;
+}
+
+/* span вокруг флага: только прозрачный размер под картинку */
+body .player-brief__nationality .player-brief__flag {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    width: 58px !important;
+    height: 35px !important;
+    min-width: 58px !important;
+    max-width: 58px !important;
+    min-height: 35px !important;
+    max-height: 35px !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+
+    background: transparent !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    overflow: visible !important;
+    box-shadow: none !important;
+    line-height: 0 !important;
+}
+
+/* сам SVG-флаг */
+body .player-brief__nationality .player-brief__flag-img {
+    display: block !important;
+
+    width: 58px !important;
+    height: 35px !important;
+    min-width: 58px !important;
+    max-width: 58px !important;
+    min-height: 35px !important;
+    max-height: 35px !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+
+    object-fit: fill !important;
+    object-position: center center !important;
+    transform: none !important;
+
+    background: transparent !important;
+    border: 0 !important;
+    border-radius: 2px !important;
+    box-shadow: none !important;
+}
+
+@media (max-width: 900px) {
+    body .player-brief__nationality {
+        min-width: 56px !important;
+        height: 34px !important;
+    }
+
+    body .player-brief__nationality .player-brief__flag,
+    body .player-brief__nationality .player-brief__flag-img {
+        width: 54px !important;
+        height: 32px !important;
+        min-width: 54px !important;
+        max-width: 54px !important;
+        min-height: 32px !important;
+        max-height: 32px !important;
+    }
+}
+
+/* PROFUTBIK_370L_CSS_FILE_PLAIN_FLAG_END */

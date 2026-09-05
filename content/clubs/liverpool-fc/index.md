@@ -1,0 +1,202 @@
+---
+title: "Liverpool FC: состав, стоимость и трансферы"
+description: "Состав клуба Liverpool FC — 27 игроков, средний возраст 25,9. Общая стоимость команды €1,03 млрд."
+date: "2026-09-02T18:36:06+03:00"
+url: "/clubs/liverpool-fc/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Liverpool FC"
+club_code: "LIV"
+club_logo: "images/clubs/api/rendered/40-c3b13021c1ab.png"
+api_football_id: "40"
+club_city: "Liverpool"
+club_country: "England"
+league: "Премьер-лига"
+league_id: "39"
+transfermarkt_club_id: "31"
+squad_size: 27
+average_age: "25,9"
+squad_value: "€1,03 млрд"
+squad_value_eur: 1029000000
+average_value: "€38,11 млн"
+squad:
+  - name: "Florian Wirtz"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 23
+    value: "€100 млн"
+    tm_id: "598577"
+  - name: "Dominik Szoboszlai"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 25
+    value: "€100 млн"
+    tm_id: "451276"
+  - name: "Bradley Barcola"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 24
+    value: "€90 млн"
+    tm_id: "708265"
+  - name: "Alexander Isak"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 26
+    value: "€85 млн"
+    tm_id: "349066"
+  - name: "Ryan Gravenberch"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 24
+    value: "€80 млн"
+    tm_id: "478573"
+  - name: "Hugo Ekitiké"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 24
+    value: "€80 млн"
+    tm_id: "709726"
+  - name: "Alexis Mac Allister"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 27
+    value: "€70 млн"
+    tm_id: "534033"
+  - name: "Cody Gakpo"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 27
+    value: "€60 млн"
+    tm_id: "434675"
+  - name: "Jérémy Jacquet"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 21
+    value: "€55 млн"
+    tm_id: "1004301"
+  - name: "Milos Kerkez"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 22
+    value: "€35 млн"
+    tm_id: "730861"
+  - name: "Jeremie Frimpong"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 25
+    value: "€35 млн"
+    tm_id: "484547"
+  - name: "Víctor Muñoz"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 23
+    value: "€30 млн"
+    tm_id: "935231"
+  - name: "Rio Ngumoha"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 18
+    value: "€30 млн"
+    tm_id: "1108466"
+  - name: "Giorgi Mamardashvili"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 25
+    value: "€28 млн"
+    tm_id: "502676"
+  - name: "Giovanni Leoni"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 19
+    value: "€25 млн"
+    tm_id: "1086619"
+  - name: "Conor Bradley"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 23
+    value: "€25 млн"
+    tm_id: "624258"
+  - name: "Ronald Araujo"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€20 млн"
+    tm_id: "480267"
+  - name: "Alisson"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 33
+    value: "€15 млн"
+    tm_id: "105470"
+  - name: "Virgil van Dijk"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 35
+    value: "€15 млн"
+    tm_id: "139208"
+  - name: "Joe Gomez"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 29
+    value: "€13 млн"
+    tm_id: "256178"
+  - name: "Federico Chiesa"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 28
+    value: "€13 млн"
+    tm_id: "341092"
+  - name: "Trey Nyoni"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 19
+    value: "€8 млн"
+    tm_id: "1045123"
+  - name: "Vitezslav Jaros"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 25
+    value: "€5 млн"
+    tm_id: "486604"
+  - name: "Konstantinos Tsimikas"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 30
+    value: "€4,5 млн"
+    tm_id: "338070"
+  - name: "Wataru Endo"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 33
+    value: "€4 млн"
+    tm_id: "146310"
+  - name: "Freddie Woodman"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 29
+    value: "€3 млн"
+    tm_id: "226049"
+  - name: "Harvey Davies"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 22
+    value: "€500 тыс."
+    tm_id: "706815"
+club_transfers:
+  - player: "Bradley Barcola"
+    slug: "bradley-barcola-liverpool"
+    direction: "in"
+    other_club: "Paris Saint-Germain"
+    fee: "€125 млн + €20 млн бонусов"
+  - player: "Jérémy Jacquet"
+    slug: "jeremy-jacquet-liverpool"
+    direction: "in"
+    other_club: "Rennes"
+    fee: "£60 млн"
+---
+В заявке клуба Liverpool FC — 27 игроков со средним возрастом 25,9 года. Общая стоимость команды по оценке Transfermarkt — €1,03 млрд, в среднем €38,11 млн на игрока.
+
+Самый дорогой игрок состава — Florian Wirtz (атакующий полузащитник), его стоимость оценивается в €100 млн.
+
+Трансферы клуба, о которых мы писали: пришли 2.

@@ -1,9 +1,9 @@
-﻿{{ with .Params.previous_club_stats }}
-{{ $matches := .matches | default "—" }}
-{{ $goals := .goals | default "—" }}
-{{ $assists := .assists | default "—" }}
-{{ $yellowCards := .yellow_cards | default "—" }}
-{{ $redCards := .red_cards | default "—" }}
+{{ with .Params.previous_club_stats }}
+{{ $matches := .matches | default "TBA" }}
+{{ $goals := .goals | default "TBA" }}
+{{ $assists := .assists | default "TBA" }}
+{{ $yellowCards := .yellow_cards | default "TBA" }}
+{{ $redCards := .red_cards | default "TBA" }}
 
 <style>
 /* PROFUTBIK APPROVED SCREENSHOT STATS BLOCK V184 START */
@@ -424,36 +424,139 @@ body.transfer-page #pfb-stats-v184 .pfb-stats-v184__card {
   box-sizing: border-box !important;
   justify-self: center !important;
 }
+
+
+
+
+
+/* 311 clean compact stats tooltip */
+body.transfer-page #pfb-stats-v184.transfer-stats.pfb-stats-v184,
+body.transfer-page #pfb-stats-v184.transfer-stats.pfb-stats-v184.transfer-stats--under-market-chart {
+  margin: 68px auto 22px !important;
+}
+
+body.transfer-page #pfb-stats-v184 .pfb-stats-v184__tip {
+  position: absolute !important;
+  left: 50% !important;
+  bottom: calc(100% + 7px) !important;
+  transform: translateX(-50%) translateY(5px) !important;
+  z-index: 999999 !important;
+
+  display: block !important;
+  min-width: 72px !important;
+  width: auto !important;
+  max-width: 118px !important;
+  padding: 7px 10px 8px !important;
+
+  border: 1.2px solid rgba(255, 218, 83, 0.92) !important;
+  border-radius: 11px !important;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(245,199,65,0.18), transparent 58%),
+    rgba(6,7,9,0.98) !important;
+  box-shadow:
+    0 0 12px rgba(245,199,65,0.20),
+    0 10px 22px rgba(0,0,0,0.48) !important;
+
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  transition: opacity .16s ease, visibility .16s ease, transform .16s ease !important;
+}
+
+body.transfer-page #pfb-stats-v184 .pfb-stats-v184__tip::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 50% !important;
+  top: 100% !important;
+  width: 11px !important;
+  height: 11px !important;
+  background: rgba(6,7,9,0.98) !important;
+  border-right: 1.2px solid rgba(255,218,83,0.92) !important;
+  border-bottom: 1.2px solid rgba(255,218,83,0.92) !important;
+  transform: translate(-50%, -5.5px) rotate(45deg) !important;
+}
+
+body.transfer-page #pfb-stats-v184 .pfb-stats-v184__tip b {
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #ffd84d !important;
+  -webkit-text-fill-color: #ffd84d !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 20px !important;
+  line-height: .95 !important;
+  font-weight: 900 !important;
+  letter-spacing: .03em !important;
+  text-shadow: 0 0 9px rgba(255,216,77,0.34) !important;
+}
+
+body.transfer-page #pfb-stats-v184 .pfb-stats-v184__tip span {
+  display: block !important;
+  margin: 4px 0 0 !important;
+  padding: 0 !important;
+  color: #ffd84d !important;
+  -webkit-text-fill-color: #ffd84d !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 8px !important;
+  line-height: 1 !important;
+  font-weight: 900 !important;
+  letter-spacing: .08em !important;
+  text-transform: uppercase !important;
+}
+
+body.transfer-page #pfb-stats-v184 .pfb-stats-v184__card--tba .pfb-stats-v184__tip {
+  min-width: 64px !important;
+  max-width: 80px !important;
+  padding: 7px 9px !important;
+}
+
+body.transfer-page #pfb-stats-v184 .pfb-stats-v184__card--tba .pfb-stats-v184__tip span {
+  display: none !important;
+}
+
+body.transfer-page #pfb-stats-v184 .pfb-stats-v184__card:hover .pfb-stats-v184__tip,
+body.transfer-page #pfb-stats-v184 .pfb-stats-v184__card:focus .pfb-stats-v184__tip,
+body.transfer-page #pfb-stats-v184 .pfb-stats-v184__card:focus-visible .pfb-stats-v184__tip {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: translateX(-50%) translateY(0) !important;
+}
+/* 311 clean compact stats tooltip end */
+
 </style>
 
 <section id="pfb-stats-v184" class="transfer-stats pfb-stats-v184" aria-label="Статистика игрока">
     <div class="pfb-stats-v184__grid" role="list">
-        <article class="pfb-stats-v184__card pfb-stats-v184__matches" role="listitem" tabindex="0" aria-label="Матчей: {{ $matches }}">
+        <article class="pfb-stats-v184__card pfb-stats-v184__matches{{ if eq (printf "%v" $matches) "TBA" }} pfb-stats-v184__card--tba{{ end }}" role="listitem" tabindex="0" aria-label="Матчей: {{ $matches }}">
             <img class="pfb-stats-v184__icon" src="{{ "images/stats-icons-v184/matches.png" | relURL }}" alt="" aria-hidden="true">
-            <span class="pfb-stats-v184__tip" aria-hidden="true"><b>{{ $matches }}</b><span>МАТЧА</span></span>
+            <span class="pfb-stats-v184__tip" aria-hidden="true"><b>{{ $matches }}</b>{{ if ne (printf "%v" $matches) "TBA" }}<span>МАТЧА</span>{{ end }}</span>
         </article>
 
-        <article class="pfb-stats-v184__card pfb-stats-v184__goals" role="listitem" tabindex="0" aria-label="Голов: {{ $goals }}">
-            <img class="pfb-stats-v184__icon" src="{{ "images/stats-icons-v184/goals.png?v=194" | relURL }}?v=188" alt="" aria-hidden="true">
-            <span class="pfb-stats-v184__tip" aria-hidden="true"><b>{{ $goals }}</b><span>ГОЛА</span></span>
+        <article class="pfb-stats-v184__card pfb-stats-v184__goals{{ if eq (printf "%v" $goals) "TBA" }} pfb-stats-v184__card--tba{{ end }}" role="listitem" tabindex="0" aria-label="Голов: {{ $goals }}">
+            <img class="pfb-stats-v184__icon" src="{{ "images/stats-icons-v184/goals.png?v=194" | relURL }}" alt="" aria-hidden="true">
+            <span class="pfb-stats-v184__tip" aria-hidden="true"><b>{{ $goals }}</b>{{ if ne (printf "%v" $goals) "TBA" }}<span>ГОЛА</span>{{ end }}</span>
         </article>
 
-        <article class="pfb-stats-v184__card pfb-stats-v184__assists" role="listitem" tabindex="0" aria-label="Голевых передач: {{ $assists }}">
+        <article class="pfb-stats-v184__card pfb-stats-v184__assists{{ if eq (printf "%v" $assists) "TBA" }} pfb-stats-v184__card--tba{{ end }}" role="listitem" tabindex="0" aria-label="Голевых передач: {{ $assists }}">
             <img class="pfb-stats-v184__icon" src="{{ "images/stats-icons-v184/assists.png" | relURL }}" alt="" aria-hidden="true">
-            <span class="pfb-stats-v184__tip" aria-hidden="true"><b>{{ $assists }}</b><span>ПЕРЕДАЧА</span></span>
+            <span class="pfb-stats-v184__tip" aria-hidden="true"><b>{{ $assists }}</b>{{ if ne (printf "%v" $assists) "TBA" }}<span>ПЕРЕДАЧА</span>{{ end }}</span>
         </article>
 
-        <article class="pfb-stats-v184__card pfb-stats-v184__yellow" role="listitem" tabindex="0" aria-label="Жёлтых карточек: {{ $yellowCards }}">
+        <article class="pfb-stats-v184__card pfb-stats-v184__yellow{{ if eq (printf "%v" $yellowCards) "TBA" }} pfb-stats-v184__card--tba{{ end }}" role="listitem" tabindex="0" aria-label="Жёлтых карточек: {{ $yellowCards }}">
             <img class="pfb-stats-v184__icon" src="{{ "images/stats-icons-v184/yellow_cards.png" | relURL }}" alt="" aria-hidden="true">
-            <span class="pfb-stats-v184__tip" aria-hidden="true"><b>{{ $yellowCards }}</b><span>ЖЁЛТЫХ</span></span>
+            <span class="pfb-stats-v184__tip" aria-hidden="true"><b>{{ $yellowCards }}</b>{{ if ne (printf "%v" $yellowCards) "TBA" }}<span>ЖЁЛТЫХ</span>{{ end }}</span>
         </article>
 
-        <article class="pfb-stats-v184__card pfb-stats-v184__red" role="listitem" tabindex="0" aria-label="Красных карточек: {{ $redCards }}">
+        <article class="pfb-stats-v184__card pfb-stats-v184__red{{ if eq (printf "%v" $redCards) "TBA" }} pfb-stats-v184__card--tba{{ end }}" role="listitem" tabindex="0" aria-label="Красных карточек: {{ $redCards }}">
             <img class="pfb-stats-v184__icon" src="{{ "images/stats-icons-v184/red_cards.png" | relURL }}" alt="" aria-hidden="true">
-            <span class="pfb-stats-v184__tip" aria-hidden="true"><b>{{ $redCards }}</b><span>КРАСНЫХ</span></span>
+            <span class="pfb-stats-v184__tip" aria-hidden="true"><b>{{ $redCards }}</b>{{ if ne (printf "%v" $redCards) "TBA" }}<span>КРАСНЫХ</span>{{ end }}</span>
         </article>
     </div>
 </section>
 {{ end }}
+
+
 
 

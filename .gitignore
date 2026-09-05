@@ -9,3 +9,13 @@ __pycache__/
 *.pyo 
 .DS_Store 
 Thumbs.db 
+
+# секреты и локальное — в публичный репозиторий не пускать
+.env
+.env.*
+*.key
+*.pem
+config/*.env
+secrets/
+*.bak
+*.tmp

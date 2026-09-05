@@ -1,0 +1,190 @@
+---
+title: "AS Monaco: состав, стоимость и трансферы"
+description: "Состав клуба AS Monaco — 25 игроков, средний возраст 24,9. Общая стоимость команды €313,80 млн."
+date: "2026-09-02T18:40:51+03:00"
+url: "/clubs/as-monaco/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "AS Monaco"
+club_code: "MON"
+club_logo: "images/clubs/api/rendered/91-371080d3fd97.png"
+api_football_id: "91"
+club_city: "Monaco"
+club_country: "France"
+league: "Лига 1"
+league_id: "61"
+transfermarkt_club_id: "162"
+squad_size: 25
+average_age: "24,9"
+squad_value: "€313,80 млн"
+squad_value_eur: 313800000
+average_value: "€12,55 млн"
+squad:
+  - name: "Folarin Balogun"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 25
+    value: "€50 млн"
+    tm_id: "503770"
+  - name: "Lamine Camara"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 22
+    value: "€40 млн"
+    tm_id: "918969"
+  - name: "Denis Zakaria"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 29
+    value: "€25 млн"
+    tm_id: "334526"
+  - name: "Matthis Abline"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 23
+    value: "€20 млн"
+    tm_id: "659543"
+  - name: "Vanderson"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 25
+    value: "€18 млн"
+    tm_id: "789082"
+  - name: "Aleksandr Golovin"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 30
+    value: "€18 млн"
+    tm_id: "263918"
+  - name: "Christian Mawissa"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 21
+    value: "€15 млн"
+    tm_id: "1005240"
+  - name: "Jordan Teze"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 26
+    value: "€15 млн"
+    tm_id: "364245"
+  - name: "Mamadou Coulibaly"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 22
+    value: "€15 млн"
+    tm_id: "745173"
+  - name: "Mathys Detourbet"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 19
+    value: "€15 млн"
+    tm_id: "1171981"
+  - name: "Ansu Fati"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 23
+    value: "€15 млн"
+    tm_id: "466810"
+  - name: "Mika Biereth"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 23
+    value: "€15 млн"
+    tm_id: "565821"
+  - name: "Mohammed Salisu"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€10 млн"
+    tm_id: "563963"
+  - name: "Takumi Minamino"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 31
+    value: "€10 млн"
+    tm_id: "165793"
+  - name: "Sadibou Sané"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 22
+    value: "€7 млн"
+    tm_id: "1111777"
+  - name: "Nazinho"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 23
+    value: "€6 млн"
+    tm_id: "668587"
+  - name: "Eric Dier"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 32
+    value: "€4 млн"
+    tm_id: "175722"
+  - name: "Stanis Idumbo"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 21
+    value: "€4 млн"
+    tm_id: "743387"
+  - name: "Philipp Köhn"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 28
+    value: "€3,5 млн"
+    tm_id: "251322"
+  - name: "Edan Diop"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 22
+    value: "€3 млн"
+    tm_id: "745178"
+  - name: "Lukas Hradecky"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 36
+    value: "€1,5 млн"
+    tm_id: "48015"
+  - name: "Paris Brunner"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 20
+    value: "€1,5 млн"
+    tm_id: "918414"
+  - name: "Pape Cabral"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 19
+    value: "€1,2 млн"
+    tm_id: "1075588"
+  - name: "Samuel Nibombe"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 19
+    value: "€1 млн"
+    tm_id: "981700"
+  - name: "Yann Lienard"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 23
+    value: "€100 тыс."
+    tm_id: "745341"
+club_transfers:
+  - player: "Ansu Fati"
+    slug: "ansu-fati-monaco"
+    direction: "in"
+    other_club: "Barcelona"
+    fee: "Сумма не указана"
+  - player: "Aladji Bamba"
+    slug: "aladji-bamba-newcastle"
+    direction: "out"
+    other_club: "Newcastle"
+    fee: "£30 млн + £5,5 млн бонусами"
+---
+В заявке клуба AS Monaco — 25 игроков со средним возрастом 24,9 года. Общая стоимость команды по оценке Transfermarkt — €313,80 млн, в среднем €12,55 млн на игрока.
+
+Самый дорогой игрок состава — Folarin Balogun (центральный нападающий), его стоимость оценивается в €50 млн.
+
+Трансферы клуба, о которых мы писали: пришли 1, ушли 1.

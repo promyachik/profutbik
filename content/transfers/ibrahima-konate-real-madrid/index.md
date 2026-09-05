@@ -1,6 +1,6 @@
-﻿---
-title: "Ибраима Конате перешёл в «Реал»: контракт до 2030 года и детали трансфера"
-description: "Ибраима Конате официально стал игроком мадридского «Реала». Срок контракта, подтверждённые факты и роль защитника в новой команде."
+---
+title: "Ibrahima Konaté перешёл в «Реал»: контракт до 2030 года и детали трансфера"
+description: "Ibrahima Konaté официально стал игроком мадридского «Реала». Срок контракта, подтверждённые факты и роль защитника в новой команде."
 date: 2026-06-18T12:00:00+02:00
 lastmod: 2026-06-26T16:30:00+02:00
 draft: false
@@ -10,7 +10,8 @@ layout: "single"
 status: "official"
 player: "Ibrahima Konaté"
 player_initials: "IK"
-player_id: 1145
+player_id: 1145
+
 market_value_display: "€45 млн"
 market_value: "€45 млн"
 player_image: "images/players/cutout/1145.png"
@@ -23,7 +24,7 @@ age: 27
 age_at_transfer: 27
 birth_date: "25.05.1999"
 nationality: "Франция"
-nationality_flag: "images/flags/france.svg"
+nationality_flag: "images/flags/countries/fr.svg"
 preferred_foot: "Правая"
 
 from_club_id: 40
@@ -36,17 +37,18 @@ source_name: "Real Madrid"
 source_url: "https://www.realmadrid.com/en-US/news/club/announcements/comunicado-oficial-konate-18-06-2026"
 previous_club_stats:
   label: "Liverpool · сезон 2025/26"
-  matches: "—"
-  goals: "—"
-  assists: "—"
-  minutes: "—"
-  yellow_cards: "—"
-  red_cards: "—"
+  matches: "TBA"
+  goals: "TBA"
+  assists: "TBA"
+  minutes: "TBA"
+  yellow_cards: "TBA"
+  red_cards: "TBA"
   season: "2025/26"
   source_note: "Данные будут заполнены после синхронизации API-Football."
+nationality_flag_image: "images/flags/countries/fr.svg"
 ---
 
-Ибраима Конате **официально стал игроком мадридского «Реала» 18 июня 2026 года**. Испанский клуб сообщил о соглашении с французским центральным защитником на четыре сезона — до 30 июня 2030 года.
+Ibrahima Konaté **официально стал игроком мадридского «Реала» 18 июня 2026 года**. Испанский клуб сообщил о соглашении с французским центральным защитником на четыре сезона — до 30 июня 2030 года.
 
 
 
@@ -58,7 +60,7 @@ previous_club_stats:
 
 
 
-- **Игрок:** Ибраима Конате
+- **Игрок:** Ibrahima Konaté
 
 - **Предыдущий клуб:** «Ливерпуль»
 
@@ -158,3 +160,6 @@ previous_club_stats:
 
 Основой материала является [официальное сообщение мадридского «Реала»](https://www.realmadrid.com/en-US/news/club/announcements/comunicado-oficial-konate-18-06-2026).
 
+---
+
+**Источник:** Real Madrid.

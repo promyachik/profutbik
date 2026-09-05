@@ -1,0 +1,215 @@
+---
+title: "Borussia Dortmund: состав, стоимость и трансферы"
+description: "Состав клуба Borussia Dortmund — 30 игроков, средний возраст 24,4. Общая стоимость команды €564,45 млн."
+date: "2026-09-02T18:39:44+03:00"
+url: "/clubs/borussia-dortmund/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Borussia Dortmund"
+club_code: "DOR"
+club_logo: "images/clubs/api/165.png"
+api_football_id: "165"
+club_city: "Dortmund"
+club_country: "Germany"
+league: "Бундеслига"
+league_id: "78"
+transfermarkt_club_id: "16"
+squad_size: 30
+average_age: "24,4"
+squad_value: "€564,45 млн"
+squad_value_eur: 564450000
+average_value: "€18,82 млн"
+squad:
+  - name: "Nico Schlotterbeck"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€55 млн"
+    tm_id: "388198"
+  - name: "Felix Nmecha"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 25
+    value: "€55 млн"
+    tm_id: "406640"
+  - name: "Gregor Kobel"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 28
+    value: "€40 млн"
+    tm_id: "257814"
+  - name: "Jobe Bellingham"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 20
+    value: "€40 млн"
+    tm_id: "796297"
+  - name: "Maximilian Beier"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 23
+    value: "€40 млн"
+    tm_id: "578392"
+  - name: "Ethan Nwaneri"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 19
+    value: "€35 млн"
+    tm_id: "890719"
+  - name: "Konstantinos Karetsas"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 18
+    value: "€35 млн"
+    tm_id: "990148"
+  - name: "Serhou Guirassy"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 30
+    value: "€32 млн"
+    tm_id: "270541"
+  - name: "Julian Ryerson"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 28
+    value: "€25 млн"
+    tm_id: "370789"
+  - name: "Joey Veerman"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 27
+    value: "€25 млн"
+    tm_id: "408574"
+  - name: "Daniel Svensson"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 24
+    value: "€22 млн"
+    tm_id: "579287"
+  - name: "Giannis Konstantelias"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 23
+    value: "€22 млн"
+    tm_id: "628331"
+  - name: "Fábio Silva"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 24
+    value: "€22 млн"
+    tm_id: "505653"
+  - name: "Joane Gadou"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 19
+    value: "€20 млн"
+    tm_id: "1075577"
+  - name: "Carney Chukwuemeka"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 22
+    value: "€20 млн"
+    tm_id: "659459"
+  - name: "Waldemar Anton"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 30
+    value: "€18 млн"
+    tm_id: "193004"
+  - name: "Samuele Inácio"
+    position: "Оттянутый нападающий"
+    position_short: "SS"
+    age: 18
+    value: "€15 млн"
+    tm_id: "1058359"
+  - name: "Luca Reggiani"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 18
+    value: "€10 млн"
+    tm_id: "1074990"
+  - name: "Kauã Prates"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 18
+    value: "€10 млн"
+    tm_id: "1275068"
+  - name: "Ramy Bensebaini"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 31
+    value: "€7 млн"
+    tm_id: "284732"
+  - name: "Marcel Sabitzer"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 32
+    value: "€6 млн"
+    tm_id: "106987"
+  - name: "Justin Lerma"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 18
+    value: "€3,2 млн"
+    tm_id: "1185507"
+  - name: "Emre Can"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 32
+    value: "€3 млн"
+    tm_id: "119296"
+  - name: "Filippo Mane"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 21
+    value: "€2,5 млн"
+    tm_id: "883007"
+  - name: "Alexander Meyer"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 35
+    value: "€500 тыс."
+    tm_id: "76158"
+  - name: "Patrick Drewes"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 33
+    value: "€300 тыс."
+    tm_id: "94192"
+  - name: "Mathis Albert"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 17
+    value: "€300 тыс."
+    tm_id: "1193849"
+  - name: "Enzo dos Santos"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 17
+    value: "€250 тыс."
+    tm_id: "1311594"
+  - name: "Silas Ostrzinski"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 22
+    value: "€200 тыс."
+    tm_id: "684116"
+  - name: "Mussa Kaba"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 17
+    value: "€200 тыс."
+    tm_id: "1141179"
+club_transfers:
+  - player: "Karim Adeyemi"
+    slug: "karim-adeyemi-barcelona"
+    direction: "out"
+    other_club: "Barcelona"
+    fee: "Сумма не указана"
+---
+В заявке клуба Borussia Dortmund — 30 игроков со средним возрастом 24,4 года. Общая стоимость команды по оценке Transfermarkt — €564,45 млн, в среднем €18,82 млн на игрока.
+
+Самый дорогой игрок состава — Nico Schlotterbeck (центральный защитник), его стоимость оценивается в €55 млн.
+
+Трансферы клуба, о которых мы писали: ушли 1.

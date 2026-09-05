@@ -1,0 +1,202 @@
+---
+title: "Moreirense FC: состав, стоимость и трансферы"
+description: "Состав клуба Moreirense FC — 29 игроков, средний возраст 22,9. Общая стоимость команды €24,35 млн."
+date: "2026-09-02T18:44:31+03:00"
+url: "/clubs/moreirense-fc/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Moreirense FC"
+club_code: "MOR"
+club_logo: "images/clubs/api/215.png"
+api_football_id: "215"
+club_city: "Moreira de Cónegos - Guimarães"
+club_country: "Portugal"
+league: "Примейра"
+league_id: "94"
+transfermarkt_club_id: "979"
+squad_size: 29
+average_age: "22,9"
+squad_value: "€24,35 млн"
+squad_value_eur: 24350000
+average_value: "€839,66 тыс."
+squad:
+  - name: "Dinis Pinto"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 26
+    value: "€3 млн"
+    tm_id: "663254"
+  - name: "Mateja Stjepanović"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 22
+    value: "€3 млн"
+    tm_id: "698539"
+  - name: "Rodri Alonso"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 23
+    value: "€2 млн"
+    tm_id: "668178"
+  - name: "Manuel Mendonça"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 21
+    value: "€1,8 млн"
+    tm_id: "1010120"
+  - name: "Gilberto Batista"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 22
+    value: "€1,5 млн"
+    tm_id: "816572"
+  - name: "Kiko"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 24
+    value: "€1,5 млн"
+    tm_id: "934031"
+  - name: "João Veloso"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 21
+    value: "€1,5 млн"
+    tm_id: "637792"
+  - name: "Tiago Andrade"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 20
+    value: "€1,2 млн"
+    tm_id: "957740"
+  - name: "Leandro Santos"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 20
+    value: "€1 млн"
+    tm_id: "1173926"
+  - name: "Landerson"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 19
+    value: "€1 млн"
+    tm_id: "1219689"
+  - name: "Leonardo Vonić"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 23
+    value: "€900 тыс."
+    tm_id: "744599"
+  - name: "Guilherme Liberato"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 25
+    value: "€800 тыс."
+    tm_id: "739442"
+  - name: "Kiko Bondoso"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 30
+    value: "€800 тыс."
+    tm_id: "590302"
+  - name: "Maracás"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 32
+    value: "€700 тыс."
+    tm_id: "373187"
+  - name: "André Ferreira"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 30
+    value: "€600 тыс."
+    tm_id: "290346"
+  - name: "Yan Maranhão"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 23
+    value: "€600 тыс."
+    tm_id: "862568"
+  - name: "Kevyn Monteiro"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 20
+    value: "€500 тыс."
+    tm_id: "1116537"
+  - name: "Afonso Assis"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 20
+    value: "€500 тыс."
+    tm_id: "1365020"
+  - name: "Nile John"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 23
+    value: "€500 тыс."
+    tm_id: "581683"
+  - name: "Álvaro Martínez"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 24
+    value: "€400 тыс."
+    tm_id: "718577"
+  - name: "Alexandre Parsemain"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 23
+    value: "€350 тыс."
+    tm_id: "811432"
+  - name: "Miguel Silva"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 18
+    value: "€100 тыс."
+    tm_id: "1510255"
+  - name: "Jimi Gower"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 21
+    value: "€100 тыс."
+    tm_id: "890718"
+  - name: "Aranha"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 21
+    value: ""
+    tm_id: "1093863"
+  - name: "Pedro Jesus"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 18
+    value: ""
+    tm_id: "1580906"
+  - name: "Janderson"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 21
+    value: ""
+    tm_id: "1097224"
+  - name: "Koby Mottoh"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 20
+    value: ""
+    tm_id: "1076505"
+  - name: "Afonso Vieira"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 19
+    value: ""
+    tm_id: "958931"
+  - name: "Michael Dacosta"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 21
+    value: ""
+    tm_id: "854722"
+club_transfers:
+---
+В заявке клуба Moreirense FC — 29 игроков со средним возрастом 22,9 года. Общая стоимость команды по оценке Transfermarkt — €24,35 млн, в среднем €839,66 тыс. на игрока.
+
+Самый дорогой игрок состава — Dinis Pinto (правый защитник), его стоимость оценивается в €3 млн.

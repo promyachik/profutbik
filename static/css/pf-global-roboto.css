@@ -1,0 +1,82 @@
+/* PF400F_GLOBAL_ROBOTO_START */
+:root {
+  --pf-global-font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+}
+
+html,
+body,
+button,
+input,
+select,
+textarea,
+optgroup,
+option {
+  font-family: var(--pf-global-font-family) !important;
+}
+
+body :where(
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a,
+  span,
+  div,
+  section,
+  article,
+  header,
+  footer,
+  nav,
+  main,
+  aside,
+  ul,
+  ol,
+  li,
+  table,
+  caption,
+  thead,
+  tbody,
+  tfoot,
+  tr,
+  th,
+  td,
+  label,
+  small,
+  strong,
+  b,
+  em,
+  blockquote,
+  figure,
+  figcaption,
+  time,
+  address,
+  summary,
+  details,
+  code,
+  pre,
+  kbd,
+  samp,
+  cite,
+  mark,
+  sub,
+  sup
+):not(.fa):not(.fas):not(.far):not(.fab):not(.fal):not(.fad):not(.fat):not(.fa-solid):not(.fa-regular):not(.fa-brands) {
+  font-family: var(--pf-global-font-family) !important;
+}
+
+button,
+input,
+select,
+textarea,
+input::placeholder,
+textarea::placeholder {
+  font-family: var(--pf-global-font-family) !important;
+}
+
+svg text {
+  font-family: var(--pf-global-font-family) !important;
+}
+/* PF400F_GLOBAL_ROBOTO_END */

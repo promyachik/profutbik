@@ -1,0 +1,190 @@
+---
+title: "Lokomotiv Moscow: состав, стоимость и трансферы"
+description: "Состав клуба Lokomotiv Moscow — 27 игроков, средний возраст 25,4. Общая стоимость команды €68,40 млн."
+date: "2026-09-02T18:46:16+03:00"
+url: "/clubs/lokomotiv-moscow/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Lokomotiv Moscow"
+club_code: "LOK"
+club_logo: "images/clubs/api/597.png"
+api_football_id: "597"
+club_city: "Moskau"
+club_country: "Russia"
+league: "РПЛ"
+league_id: "235"
+transfermarkt_club_id: "932"
+squad_size: 27
+average_age: "25,4"
+squad_value: "€68,40 млн"
+squad_value_eur: 68400000
+average_value: "€2,53 млн"
+squad:
+  - name: "Aleksandr Silyanov"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 25
+    value: "€8 млн"
+    tm_id: "515051"
+  - name: "Sergey Pinyaev"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 21
+    value: "€8 млн"
+    tm_id: "516751"
+  - name: "César Montes"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 29
+    value: "€7,5 млн"
+    tm_id: "387687"
+  - name: "Lucas Fasson"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 25
+    value: "€5 млн"
+    tm_id: "729266"
+  - name: "Evgeniy Morozov"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 25
+    value: "€4 млн"
+    tm_id: "652270"
+  - name: "Anton Mitryushkin"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 30
+    value: "€3,5 млн"
+    tm_id: "260677"
+  - name: "Gerzino Nyamsi"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 29
+    value: "€3,5 млн"
+    tm_id: "378953"
+  - name: "Vadim Rakov"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 21
+    value: "€3 млн"
+    tm_id: "745284"
+  - name: "Nikolay Komlichenko"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 31
+    value: "€3 млн"
+    tm_id: "300538"
+  - name: "Maksim Nenakhov"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 27
+    value: "€2,5 млн"
+    tm_id: "382535"
+  - name: "Lucas Vera"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 29
+    value: "€2,5 млн"
+    tm_id: "689628"
+  - name: "Aleksandr Rudenko"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 27
+    value: "€2,5 млн"
+    tm_id: "318468"
+  - name: "Zelimkhan Bakaev"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 30
+    value: "€2,5 млн"
+    tm_id: "279242"
+  - name: "Sergey Babkin"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 23
+    value: "€2 млн"
+    tm_id: "622461"
+  - name: "Ilya Lantratov"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 30
+    value: "€1,5 млн"
+    tm_id: "230946"
+  - name: "Egor Pogostnov"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 22
+    value: "€1,5 млн"
+    tm_id: "697724"
+  - name: "Cristian Ramírez"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 32
+    value: "€1,5 млн"
+    tm_id: "189485"
+  - name: "Nikita Saltykov"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 22
+    value: "€1,5 млн"
+    tm_id: "697728"
+  - name: "Aleksandr Kovalenko"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 23
+    value: "€1,2 млн"
+    tm_id: "811544"
+  - name: "Georgiy Dzhikiya"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 32
+    value: "€1 млн"
+    tm_id: "185024"
+  - name: "Danila Godyaev"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 22
+    value: "€800 тыс."
+    tm_id: "948363"
+  - name: "Daniil Chevardin"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 20
+    value: "€500 тыс."
+    tm_id: "1037572"
+  - name: "Mikhail Shchetinin"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 21
+    value: "€350 тыс."
+    tm_id: "749186"
+  - name: "Ruslan Myalkovskiy"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 20
+    value: "€350 тыс."
+    tm_id: "946413"
+  - name: "Ilya Eremeev"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 18
+    value: "€250 тыс."
+    tm_id: "1080109"
+  - name: "Vladislav Golubev"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 18
+    value: "€250 тыс."
+    tm_id: "1244223"
+  - name: "Daniil Veselov"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 21
+    value: "€200 тыс."
+    tm_id: "838670"
+club_transfers:
+---
+В заявке клуба Lokomotiv Moscow — 27 игроков со средним возрастом 25,4 года. Общая стоимость команды по оценке Transfermarkt — €68,40 млн, в среднем €2,53 млн на игрока.
+
+Самый дорогой игрок состава — Aleksandr Silyanov (правый защитник), его стоимость оценивается в €8 млн.

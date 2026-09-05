@@ -1,0 +1,96 @@
+﻿C:\Users\Dmitrii\Promyachik_CLEAN\layouts\index.html:241: {{ if templates.Exists "partials/official-transfer-ticker.html" }}
+C:\Users\Dmitrii\Promyachik_CLEAN\layouts\index.html:243: {{ partial "official-transfer-ticker.html" . }}
+C:\Users\Dmitrii\Promyachik_CLEAN\layouts\index.html:245: {{ else if templates.Exists "partials/official-transfers-ticker.html" }}
+C:\Users\Dmitrii\Promyachik_CLEAN\layouts\index.html:247: {{ partial "official-transfers-ticker.html" . }}
+C:\Users\Dmitrii\Promyachik_CLEAN\layouts\index.html:249: {{ else if templates.Exists "partials/bottom-transfer-ticker.html" }}
+C:\Users\Dmitrii\Promyachik_CLEAN\layouts\index.html:251: {{ partial "bottom-transfer-ticker.html" . }}
+C:\Users\Dmitrii\Promyachik_CLEAN\layouts\index.html:253: {{ else if templates.Exists "partials/transfer-ticker-bottom.html" }}
+C:\Users\Dmitrii\Promyachik_CLEAN\layouts\index.html:255: {{ partial "transfer-ticker-bottom.html" . }}
+C:\Users\Dmitrii\Promyachik_CLEAN\layouts\partials\footer-transfer-ticker.html:18: "official" "ОФИЦИАЛЬНО"
+C:\Users\Dmitrii\Promyachik_CLEAN\layouts\partials\header.html:180: {{ partial "transfer-ticker.html" . }}
+C:\Users\Dmitrii\Promyachik_CLEAN\layouts\partials\home-player-bottom-strip.html:4: {{ if or (eq .status "official") (eq .slug "goncalo-ramos-ac-milan") (eq .slug "bernardo-silva-real-madrid") }}
+C:\Users\Dmitrii\Promyachik_CLEAN\layouts\partials\home-player-bottom-strip.html:18: .transfer-status--official {
+C:\Users\Dmitrii\Promyachik_CLEAN\layouts\partials\transfer-ticker.html:18: "official" "ОФИЦИАЛЬНО"
+C:\Users\Dmitrii\Promyachik_CLEAN\layouts\partials\transfer-ticker.html:26: "official" "official"
+C:\Users\Dmitrii\Promyachik_CLEAN\layouts\transfers\list.html:209: html body button[data-filter="completed"]:hover,
+C:\Users\Dmitrii\Promyachik_CLEAN\layouts\transfers\list.html:215: html body button[data-filter="completed"]:focus-visible,
+C:\Users\Dmitrii\Promyachik_CLEAN\layouts\transfers\list.html:239: <button type="button" data-filter="completed">Состоялся</button>
+C:\Users\Dmitrii\Promyachik_CLEAN\layouts\transfers\list.html:263: {{ $filterType := cond $isLoan "loan" "completed" }}
+C:\Users\Dmitrii\Promyachik_CLEAN\layouts\transfers\single.html:234: "official" "ОФИЦИАЛЬНО"
+C:\Users\Dmitrii\Promyachik_CLEAN\layouts\_default\baseof.html:42: {{ partial "footer-transfer-ticker.html" . }}
+C:\Users\Dmitrii\Promyachik_CLEAN\data\homepage_transfer_rumor.json:8: "entity_id": "mario-gila__lazio__ac-milan",
+C:\Users\Dmitrii\Promyachik_CLEAN\data\homepage_transfer_rumor.json:17: "player": "Mario Gila",
+C:\Users\Dmitrii\Promyachik_CLEAN\data\homepage_transfer_rumor.json:18: "player_name_en": "Mario Gila",
+C:\Users\Dmitrii\Promyachik_CLEAN\data\homepage_transfer_rumor.json:19: "slug": "mario-gila-ac-milan",
+C:\Users\Dmitrii\Promyachik_CLEAN\data\homepage_transfer_rumor.json:21: "status": "completed",
+C:\Users\Dmitrii\Promyachik_CLEAN\data\homepage_transfer_rumor.json:25: "title": "Mario Gila перешёл из Lazio в AC Milan",
+C:\Users\Dmitrii\Promyachik_CLEAN\data\homepage_transfer_rumor.json:30: "url": "transfers/mario-gila-ac-milan/"
+C:\Users\Dmitrii\Promyachik_CLEAN\data\homepage_transfer_rumor.json:37: "status": "official",
+C:\Users\Dmitrii\Promyachik_CLEAN\data\homepage_transfer_rumor.json:81: "status": "official",
+C:\Users\Dmitrii\Promyachik_CLEAN\data\homepage_transfer_rumor.json:103: "status": "official",
+C:\Users\Dmitrii\Promyachik_CLEAN\data\homepage_transfer_rumor.json:125: "status": "official",
+C:\Users\Dmitrii\Promyachik_CLEAN\data\homepage_transfer_rumor.json:147: "status": "official",
+C:\Users\Dmitrii\Promyachik_CLEAN\data\transfers.json:3: "entity_id": "mario-gila__lazio__ac-milan",
+C:\Users\Dmitrii\Promyachik_CLEAN\data\transfers.json:17: "player": "Mario Gila",
+C:\Users\Dmitrii\Promyachik_CLEAN\data\transfers.json:25: "slug": "mario-gila-ac-milan",
+C:\Users\Dmitrii\Promyachik_CLEAN\data\transfers.json:26: "status": "completed",
+C:\Users\Dmitrii\Promyachik_CLEAN\data\transfers.json:39: "url": "transfers/mario-gila-ac-milan/"
+C:\Users\Dmitrii\Promyachik_CLEAN\data\transfers.json:139: "status": "official",
+C:\Users\Dmitrii\Promyachik_CLEAN\data\transfers.json:168: "status": "official",
+C:\Users\Dmitrii\Promyachik_CLEAN\data\transfers.json:255: "status": "official",
+C:\Users\Dmitrii\Promyachik_CLEAN\data\transfers.json:284: "status": "official",
+C:\Users\Dmitrii\Promyachik_CLEAN\data\transfers.json:313: "status": "official",
+C:\Users\Dmitrii\Promyachik_CLEAN\content\transfers\florian-wirtz-liverpool\index.md:19: status: "official"
+C:\Users\Dmitrii\Promyachik_CLEAN\content\transfers\ibrahima-konate-real-madrid\index.md:10: status: "official"
+C:\Users\Dmitrii\Promyachik_CLEAN\content\transfers\kylian-mbappe-real-madrid\index.md:70: status: "official"
+C:\Users\Dmitrii\Promyachik_CLEAN\content\transfers\kylian-mbappe-real-madrid\index.md:178: - status: "official"
+C:\Users\Dmitrii\Promyachik_CLEAN\content\transfers\marc-cucurella-real-madrid\index.md:10: status: "official"
+C:\Users\Dmitrii\Promyachik_CLEAN\content\transfers\mario-gila-ac-milan\index.md:2: title: "Mario Gila перешёл из Lazio в AC Milan"
+C:\Users\Dmitrii\Promyachik_CLEAN\content\transfers\mario-gila-ac-milan\index.md:7: slug: "mario-gila-ac-milan"
+C:\Users\Dmitrii\Promyachik_CLEAN\content\transfers\mario-gila-ac-milan\index.md:8: url: "/transfers/mario-gila-ac-milan/"
+C:\Users\Dmitrii\Promyachik_CLEAN\content\transfers\mario-gila-ac-milan\index.md:9: description: "AC Milan официально объявил о переходе Mario Gila из Lazio."
+C:\Users\Dmitrii\Promyachik_CLEAN\content\transfers\mario-gila-ac-milan\index.md:10: summary: "AC Milan официально объявил о переходе Mario Gila из Lazio."
+C:\Users\Dmitrii\Promyachik_CLEAN\content\transfers\mario-gila-ac-milan\index.md:11: entity_id: "mario-gila__lazio__ac-milan"
+C:\Users\Dmitrii\Promyachik_CLEAN\content\transfers\mario-gila-ac-milan\index.md:12: player: "Mario Gila"
+C:\Users\Dmitrii\Promyachik_CLEAN\content\transfers\mario-gila-ac-milan\index.md:13: player_name: "Mario Gila"
+C:\Users\Dmitrii\Promyachik_CLEAN\content\transfers\mario-gila-ac-milan\index.md:28: status: "completed"
+C:\Users\Dmitrii\Promyachik_CLEAN\content\transfers\mario-gila-ac-milan\index.md:29: canonical_transfer_status: "official"
+C:\Users\Dmitrii\Promyachik_CLEAN\content\transfers\mario-gila-ac-milan\index.md:32: source_url: "https://www.acmilan.com/en/news/articles/media/2026-07-10/official-statement-mario-gila"
+C:\Users\Dmitrii\Promyachik_CLEAN\content\transfers\mario-gila-ac-milan\index.md:39: AC Milan официально объявил о переходе Mario Gila из Lazio.
+C:\Users\Dmitrii\Promyachik_CLEAN\content\transfers\mario-gila-ac-milan\index.md:43: - Игрок: **Mario Gila**
+C:\Users\Dmitrii\Promyachik_CLEAN\content\transfers\matthijs-de-ligt\index.md:10: status: "official"
+C:\Users\Dmitrii\ProFutbik\tools\copy-old-bottom-strip-to-home.py:48: {{ if and (ne .slug "bernardo-silva-real-madrid") (or (eq .status "confirmed") (eq .status "official") (eq .slug "goncalo-ramos-ac-milan")) }}
+C:\Users\Dmitrii\ProFutbik\tools\copy-old-bottom-strip-to-home.py:63: idx = re.sub(r'\s*{{\s*partial\s+"footer-transfer-ticker.html"\s+\.\s*}}\s*', "\n", idx)
+C:\Users\Dmitrii\ProFutbik\tools\copy-old-bottom-strip-to-home.py:64: idx = re.sub(r'\s*<link\s+rel="stylesheet"\s+href="{{\s*"css/transfer-ticker.css"\s*\|\s*relURL\s*}}">\s*', "\n", idx)
+C:\Users\Dmitrii\ProFutbik\tools\CREATE_COMPACT_BACKUP.ps1:187: Log "Compact backup completed successfully"
+C:\Users\Dmitrii\ProFutbik\tools\CREATE_FULL_BACKUP.ps1:218: Log "Backup completed successfully"
+C:\Users\Dmitrii\ProFutbik\tools\enrich-transfer-draft.py:44: "official": ("official", "ФЦ"),
+C:\Users\Dmitrii\ProFutbik\tools\fix-bottom-ticker.py:7: partial_call = '{{ partial "footer-transfer-ticker.html" . }}'
+C:\Users\Dmitrii\ProFutbik\tools\fix-bottom-ticker.py:19: if "css/transfer-ticker.css" not in txt:
+C:\Users\Dmitrii\ProFutbik\tools\fix-bottom-ticker.py:20: link = '  <link rel="stylesheet" href="{{ "css/transfer-ticker.css" | relURL }}">'
+C:\Users\Dmitrii\ProFutbik\tools\fix-bottom-ticker.py:42: if p.name == "footer-transfer-ticker.html":
+C:\Users\Dmitrii\ProFutbik\tools\fix-new-transfer-labels-v2.py:9: "official": "\u041e\u0424\u0418\u0426\u0418\u0410\u041b\u042c\u041d\u041e",
+C:\Users\Dmitrii\ProFutbik\tools\fix-new-transfer-labels.py:9: "official": "\\u041e\\u0424\\u0418\\u0426\\u0418\\u0410\\u041b\\u042c\\u041d\\u041e",
+C:\Users\Dmitrii\ProFutbik\tools\new-transfer.py:62: "official": "ОФИЦИАЛЬНО",
+C:\Users\Dmitrii\ProFutbik\tools\parse-source-to-draft.py:37: if "official" in low or "confirmed" in low:
+C:\Users\Dmitrii\ProFutbik\tools\parse-source-to-draft.py:38: return "official", "ФЦ"
+C:\Users\Dmitrii\ProFutbik\tools\patch-next-steps-photo-vs-art.py:13: "source priority: API-Football -> Transfermarkt -> official source -> fallback only if all failed",
+C:\Users\Dmitrii\ProFutbik\tools\PATCH_007B_RESTORE_KONATE_BRIEF_MARKET_VALUE.ps1:134: Log "$PatchName completed successfully"
+C:\Users\Dmitrii\ProFutbik\tools\PATCH_007C_RESTORE_ONLY_KONATE_CARD_MARKET_VALUE.py:150: log(f"{patch_name} completed successfully")
+C:\Users\Dmitrii\ProFutbik\tools\PATCH_007D_FIX_KONATE_ZOOM_CHART.py:277: log(f"{patch_name} completed successfully")
+C:\Users\Dmitrii\ProFutbik\tools\PATCH_007_HIDE_KONATE_45_VALUE.ps1:300: Log "$PatchName completed successfully"
+C:\Users\Dmitrii\ProFutbik\tools\PATCH_008_FIX_KONATE_ZOOM_CHART.py:408: log(f"{patch_name} completed successfully")
+C:\Users\Dmitrii\ProFutbik\tools\PATCH_009_FORCE_FIX_KONATE_ZOOM_CHART.py:444: log(f"{patch_name} completed successfully")
+C:\Users\Dmitrii\ProFutbik\tools\PATCH_010_ROLLBACK_009_PERFORMANCE.py:154: log(f"{patch_name} completed successfully")
+C:\Users\Dmitrii\ProFutbik\tools\PATCH_010_ROLLBACK_009_PERFORMANCE.py:157: print("SUCCESS: PATCH 010 DONE — heavy 009 rollback completed.")
+C:\Users\Dmitrii\ProFutbik\tools\PATCH_012_CLEAN_KONATE_MARKET_CHART_SOURCE.py:269: log(f"{patch_name} completed successfully")
+C:\Users\Dmitrii\ProFutbik\tools\PATCH_013_REMOVE_KONATE_45_FROM_TEMPLATE.py:201: log(f"{patch_name} completed successfully")
+C:\Users\Dmitrii\ProFutbik\tools\PATCH_014_FIX_KONATE_CHART_DATA_SOURCE.py:236: log(f"{patch_name} completed successfully")
+C:\Users\Dmitrii\ProFutbik\tools\PATCH_015_FIX_KONATE_ZOOM_LABELS_STYLE.py:285: log(f"{patch_name} completed successfully")
+C:\Users\Dmitrii\ProFutbik\tools\PATCH_016_FIX_KONATE_ZOOM_IN_SOURCE.py:327: log(f"{patch_name} completed successfully")
+C:\Users\Dmitrii\ProFutbik\tools\PUSH_STATE_TO_CHATGPT.ps1:144: Write-State "PROMYACHIK STATE EXPORT COMPLETED"
+C:\Users\Dmitrii\ProFutbik\tools\SAFE_CLEANER.ps1:197: Write-Log "SAFE_CLEANER completed"
+C:\Users\Dmitrii\ProFutbik\tools\sync-next-steps.py:38: "source priority: API-Football -> Transfermarkt -> official source -> fallback only if all failed",
+C:\Users\Dmitrii\ProFutbik\tools\VERIFY_COMPACT_BACKUP.ps1:147: Log "Compact backup verification completed successfully"
+C:\Users\Dmitrii\ProFutbik\tools\VERIFY_FULL_BACKUP.ps1:155: Log "OK: Hugo build from extracted backup completed"
+C:\Users\Dmitrii\ProFutbik\tools\VERIFY_FULL_BACKUP.ps1:172: Log "Backup verification completed successfully"

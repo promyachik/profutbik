@@ -1,0 +1,190 @@
+---
+title: "Parma Calcio 1913: состав, стоимость и трансферы"
+description: "Состав клуба Parma Calcio 1913 — 27 игроков, средний возраст 23,8. Общая стоимость команды €145,72 млн."
+date: "2026-09-02T18:38:58+03:00"
+url: "/clubs/parma-calcio-1913/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Parma Calcio 1913"
+club_code: "PAR"
+club_logo: "images/clubs/api/523.png"
+api_football_id: "523"
+club_city: "Parma"
+club_country: "Italy"
+league: "Серия А"
+league_id: "135"
+transfermarkt_club_id: "130"
+squad_size: 27
+average_age: "23,8"
+squad_value: "€145,72 млн"
+squad_value_eur: 145725000
+average_value: "€5,40 млн"
+squad:
+  - name: "Mandela Keita"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 24
+    value: "€20 млн"
+    tm_id: "707844"
+  - name: "Adrián Bernabé"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 25
+    value: "€15 млн"
+    tm_id: "466802"
+  - name: "El Bilal Touré"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 24
+    value: "€13 млн"
+    tm_id: "649016"
+  - name: "Mariano Troilo"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 23
+    value: "€10 млн"
+    tm_id: "1159864"
+  - name: "Sascha Britschgi"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 20
+    value: "€10 млн"
+    tm_id: "932187"
+  - name: "Giovanni Fabbian"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 23
+    value: "€10 млн"
+    tm_id: "633668"
+  - name: "Matija Frigan"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 23
+    value: "€7 млн"
+    tm_id: "840149"
+  - name: "Christian Ordóñez"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 22
+    value: "€6,5 млн"
+    tm_id: "1043646"
+  - name: "Abdoulaye Ndiaye"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 24
+    value: "€6 млн"
+    tm_id: "673514"
+  - name: "Enrico Delprato"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 26
+    value: "€6 млн"
+    tm_id: "392956"
+  - name: "Hans Nicolussi Caviglia"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 26
+    value: "€6 млн"
+    tm_id: "430280"
+  - name: "Diego Carlos"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 33
+    value: "€5 млн"
+    tm_id: "329145"
+  - name: "David Romero"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 23
+    value: "€5 млн"
+    tm_id: "668512"
+  - name: "Benja Cremaschi"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 21
+    value: "€4 млн"
+    tm_id: "999127"
+  - name: "Nesta Elphege"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 25
+    value: "€4 млн"
+    tm_id: "862606"
+  - name: "Giovanni Daffara"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 21
+    value: "€3,5 млн"
+    tm_id: "814473"
+  - name: "Emanuele Valeri"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 27
+    value: "€3 млн"
+    tm_id: "445126"
+  - name: "Simone Lontani"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 18
+    value: "€2,5 млн"
+    tm_id: "1058366"
+  - name: "Lautaro Valenti"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€2 млн"
+    tm_id: "625202"
+  - name: "Pontus Almqvist"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 27
+    value: "€1,8 млн"
+    tm_id: "300532"
+  - name: "Edoardo Corvi"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 25
+    value: "€1,5 млн"
+    tm_id: "528181"
+  - name: "Ousmane Diallo"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 19
+    value: "€1,5 млн"
+    tm_id: "962149"
+  - name: "Franco Carboni"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 23
+    value: "€900 тыс."
+    tm_id: "731491"
+  - name: "Dominik Drobnic"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 19
+    value: "€800 тыс."
+    tm_id: "1009616"
+  - name: "Simone Ghidotti"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 26
+    value: "€400 тыс."
+    tm_id: "357983"
+  - name: "Abdou-Salam Konate"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 19
+    value: "€200 тыс."
+    tm_id: "1087009"
+  - name: "Thomás De Martis"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 18
+    value: "€125 тыс."
+    tm_id: "1231230"
+club_transfers:
+---
+В заявке клуба Parma Calcio 1913 — 27 игроков со средним возрастом 23,8 года. Общая стоимость команды по оценке Transfermarkt — €145,72 млн, в среднем €5,40 млн на игрока.
+
+Самый дорогой игрок состава — Mandela Keita (опорный полузащитник), его стоимость оценивается в €20 млн.

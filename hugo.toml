@@ -1,4 +1,5 @@
-baseURL = "https://promyachik.github.io/promyachik/"
+baseURL = "https://profutbik.ru/"
 languageCode = "ru"
-title = "Promyachik"
+title = "ProFutbik"
 theme = ""
+enableRobotsTXT = true

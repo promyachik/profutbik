@@ -1,0 +1,196 @@
+---
+title: "Coventry City: состав, стоимость и трансферы"
+description: "Состав клуба Coventry City — 28 игроков, средний возраст 27,1. Общая стоимость команды €278,70 млн."
+date: "2026-09-02T18:36:18+03:00"
+url: "/clubs/coventry-city/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Coventry City"
+club_code: ""
+club_logo: "images/clubs/api/rendered/1346-3064f92b849d.png"
+api_football_id: "1346"
+club_city: "Coventry"
+club_country: ""
+league: "Премьер-лига"
+league_id: "39"
+transfermarkt_club_id: "990"
+squad_size: 28
+average_age: "27,1"
+squad_value: "€278,70 млн"
+squad_value_eur: 278700000
+average_value: "€9,95 млн"
+squad:
+  - name: "Milan van Ewijk"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 25
+    value: "€22 млн"
+    tm_id: "587335"
+  - name: "Jack Rudoni"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 25
+    value: "€20 млн"
+    tm_id: "662476"
+  - name: "Caleb Yirenkyi"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 20
+    value: "€18 млн"
+    tm_id: "1240763"
+  - name: "Sidiki Chérif"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 19
+    value: "€18 млн"
+    tm_id: "986288"
+  - name: "Carl Rushworth"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 25
+    value: "€16 млн"
+    tm_id: "646353"
+  - name: "Bobby Thomas"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 25
+    value: "€16 млн"
+    tm_id: "788283"
+  - name: "Ephron Mason-Clark"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 27
+    value: "€16 млн"
+    tm_id: "466637"
+  - name: "Haji Wright"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 28
+    value: "€16 млн"
+    tm_id: "315291"
+  - name: "Brandon Thomas-Asante"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 27
+    value: "€16 млн"
+    tm_id: "451747"
+  - name: "Victor Torp"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 27
+    value: "€14 млн"
+    tm_id: "403692"
+  - name: "Gustavo Hamer"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 29
+    value: "€14 млн"
+    tm_id: "322985"
+  - name: "Loum Tchaouna"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 22
+    value: "€13 млн"
+    tm_id: "607226"
+  - name: "Ellis Simms"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 25
+    value: "€12 млн"
+    tm_id: "511550"
+  - name: "Aurèle Amenda"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 23
+    value: "€10 млн"
+    tm_id: "635645"
+  - name: "Jay Dasilva"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 28
+    value: "€9 млн"
+    tm_id: "258915"
+  - name: "Josh Eccles"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 26
+    value: "€9 млн"
+    tm_id: "618903"
+  - name: "Frank Onyeka"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 28
+    value: "€8 млн"
+    tm_id: "421637"
+  - name: "Taiwo Awoniyi"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 29
+    value: "€8 млн"
+    tm_id: "295313"
+  - name: "Matt Grimes"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 31
+    value: "€5 млн"
+    tm_id: "265471"
+  - name: "Tatsuhiro Sakamoto"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 29
+    value: "€4,5 млн"
+    tm_id: "617408"
+  - name: "Ethan Pinnock"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 33
+    value: "€3 млн"
+    tm_id: "442248"
+  - name: "Joel Latibeaudiere"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€3 млн"
+    tm_id: "412823"
+  - name: "Kaine Kesler-Hayden"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 23
+    value: "€3 млн"
+    tm_id: "626888"
+  - name: "Luke Woolfenden"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€2 млн"
+    tm_id: "527425"
+  - name: "Stephen Mfuni"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 18
+    value: "€1,5 млн"
+    tm_id: "1049020"
+  - name: "Daniel Bentley"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 33
+    value: "€800 тыс."
+    tm_id: "136401"
+  - name: "Jake Bidwell"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 33
+    value: "€600 тыс."
+    tm_id: "121250"
+  - name: "Ben Wilson"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 34
+    value: "€300 тыс."
+    tm_id: "121352"
+club_transfers:
+---
+В заявке клуба Coventry City — 28 игроков со средним возрастом 27,1 года. Общая стоимость команды по оценке Transfermarkt — €278,70 млн, в среднем €9,95 млн на игрока.
+
+Самый дорогой игрок состава — Milan van Ewijk (правый защитник), его стоимость оценивается в €22 млн.

@@ -81,13 +81,17 @@
       "season": 2024,
       "founded": 1878,
       "national": false,
-      "logo": "images/clubs/api/33.png",
+      "logo": "images/clubs/api/rendered/33-6dff7e1a3d7d.png",
       "api_logo": "https://media.api-sports.io/football/teams/33.png",
       "venue": {
         "id": 556,
         "name": "Old Trafford",
         "city": "Manchester",
         "capacity": 76212
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "34": {
@@ -101,13 +105,17 @@
       "season": 2024,
       "founded": 1892,
       "national": false,
-      "logo": "images/clubs/api/34.png",
+      "logo": "images/clubs/api/rendered/34-2cdfd5d4d0e6.png",
       "api_logo": "https://media.api-sports.io/football/teams/34.png",
       "venue": {
         "id": 562,
         "name": "St. James' Park",
         "city": "Newcastle upon Tyne",
         "capacity": 52758
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "35": {
@@ -121,13 +129,17 @@
       "season": 2024,
       "founded": 1899,
       "national": false,
-      "logo": "images/clubs/api/35.png",
+      "logo": "images/clubs/api/rendered/35-e668d998ce23.png",
       "api_logo": "https://media.api-sports.io/football/teams/35.png",
       "venue": {
         "id": 504,
         "name": "Vitality Stadium",
         "city": "Bournemouth, Dorset",
         "capacity": 12000
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "36": {
@@ -141,13 +153,17 @@
       "season": 2024,
       "founded": 1879,
       "national": false,
-      "logo": "images/clubs/api/36.png",
+      "logo": "images/clubs/api/rendered/36-3735bd31a6c7.png",
       "api_logo": "https://media.api-sports.io/football/teams/36.png",
       "venue": {
         "id": 535,
         "name": "Craven Cottage",
         "city": "London",
         "capacity": 29589
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "39": {
@@ -161,13 +177,17 @@
       "season": 2024,
       "founded": 1877,
       "national": false,
-      "logo": "images/clubs/api/39.png",
+      "logo": "images/clubs/api/rendered/39-9f69a4f1dcb3.png",
       "api_logo": "https://media.api-sports.io/football/teams/39.png",
       "venue": {
         "id": 600,
         "name": "Molineux Stadium",
         "city": "Wolverhampton, West Midlands",
         "capacity": 34624
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "40": {
@@ -181,13 +201,17 @@
       "season": 2024,
       "founded": 1892,
       "national": false,
-      "logo": "images/clubs/api/40.png",
+      "logo": "images/clubs/api/rendered/40-c3b13021c1ab.png",
       "api_logo": "https://media.api-sports.io/football/teams/40.png",
       "venue": {
         "id": 550,
         "name": "Anfield",
         "city": "Liverpool",
         "capacity": 61276
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "41": {
@@ -201,13 +225,17 @@
       "season": 2024,
       "founded": 1885,
       "national": false,
-      "logo": "images/clubs/api/41.png",
+      "logo": "images/clubs/api/rendered/41-48793bd6be9f.png",
       "api_logo": "https://media.api-sports.io/football/teams/41.png",
       "venue": {
         "id": 585,
         "name": "St. Mary's Stadium",
         "city": "Southampton, Hampshire",
         "capacity": 32689
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "42": {
@@ -221,13 +249,17 @@
       "season": 2024,
       "founded": 1886,
       "national": false,
-      "logo": "images/clubs/api/42.png",
+      "logo": "images/clubs/api/rendered/42-ba273b85e8fe.png",
       "api_logo": "https://media.api-sports.io/football/teams/42.png",
       "venue": {
         "id": 494,
         "name": "Emirates Stadium",
         "city": "London",
         "capacity": 60383
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "45": {
@@ -241,13 +273,17 @@
       "season": 2024,
       "founded": 1878,
       "national": false,
-      "logo": "images/clubs/api/45.png",
+      "logo": "images/clubs/api/rendered/45-7d798d13ebff.png",
       "api_logo": "https://media.api-sports.io/football/teams/45.png",
       "venue": {
         "id": 22033,
         "name": "Hill Dickinson Stadium",
         "city": "Liverpool, Merseyside",
         "capacity": 52888
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "46": {
@@ -281,13 +317,17 @@
       "season": 2024,
       "founded": 1882,
       "national": false,
-      "logo": "images/clubs/api/47.png",
+      "logo": "images/clubs/api/rendered/47-ce51d50ba9db.png",
       "api_logo": "https://media.api-sports.io/football/teams/47.png",
       "venue": {
         "id": 593,
         "name": "Tottenham Hotspur Stadium",
         "city": "London",
         "capacity": 62850
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "48": {
@@ -301,13 +341,17 @@
       "season": 2024,
       "founded": 1895,
       "national": false,
-      "logo": "images/clubs/api/48.png",
+      "logo": "images/clubs/api/rendered/48-5e9cf3eda820.png",
       "api_logo": "https://media.api-sports.io/football/teams/48.png",
       "venue": {
         "id": 598,
         "name": "London Stadium",
         "city": "London",
         "capacity": 64472
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.3"
       }
     },
     "49": {
@@ -321,13 +365,17 @@
       "season": 2024,
       "founded": 1905,
       "national": false,
-      "logo": "images/clubs/api/49.png",
+      "logo": "images/clubs/api/rendered/49-a4353df0d456.png",
       "api_logo": "https://media.api-sports.io/football/teams/49.png",
       "venue": {
         "id": 519,
         "name": "Stamford Bridge",
         "city": "London",
         "capacity": 41841
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "50": {
@@ -341,13 +389,17 @@
       "season": 2024,
       "founded": 1880,
       "national": false,
-      "logo": "images/clubs/api/50.png",
+      "logo": "images/clubs/api/rendered/50-090f6609ab46.png",
       "api_logo": "https://media.api-sports.io/football/teams/50.png",
       "venue": {
         "id": 555,
         "name": "Etihad Stadium",
         "city": "Manchester",
         "capacity": 55097
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "51": {
@@ -361,13 +413,17 @@
       "season": 2024,
       "founded": 1901,
       "national": false,
-      "logo": "images/clubs/api/51.png",
+      "logo": "images/clubs/api/rendered/51-d9b536ef13f9.png",
       "api_logo": "https://media.api-sports.io/football/teams/51.png",
       "venue": {
         "id": 508,
         "name": "American Express Stadium",
         "city": "Falmer, East Sussex",
         "capacity": 31872
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "52": {
@@ -381,13 +437,17 @@
       "season": 2024,
       "founded": 1861,
       "national": false,
-      "logo": "images/clubs/api/52.png",
+      "logo": "images/clubs/api/rendered/52-3a5b60eb010b.png",
       "api_logo": "https://media.api-sports.io/football/teams/52.png",
       "venue": {
         "id": 525,
         "name": "Selhurst Park",
         "city": "London",
         "capacity": 26309
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "55": {
@@ -401,19 +461,23 @@
       "season": 2024,
       "founded": 1889,
       "national": false,
-      "logo": "images/clubs/api/55.png",
+      "logo": "images/clubs/api/rendered/55-69278a7461b2.png",
       "api_logo": "https://media.api-sports.io/football/teams/55.png",
       "venue": {
         "id": 10503,
         "name": "Gtech Community Stadium",
         "city": "Brentford, Middlesex",
         "capacity": 17250
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "57": {
       "id": 57,
       "name": "Ipswich",
-      "configured_name": "Ipswich",
+      "configured_name": "Ipswich Town",
       "code": "IPS",
       "country": "England",
       "league_id": 39,
@@ -421,13 +485,17 @@
       "season": 2024,
       "founded": 1878,
       "national": false,
-      "logo": "images/clubs/api/57.png",
+      "logo": "images/clubs/api/rendered/57-1362c589ddf7.png",
       "api_logo": "https://media.api-sports.io/football/teams/57.png",
       "venue": {
         "id": 545,
         "name": "Portman Road",
         "city": "Ipswich, Suffolk",
         "capacity": 30311
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "65": {
@@ -461,13 +529,17 @@
       "season": 2024,
       "founded": 1874,
       "national": false,
-      "logo": "images/clubs/api/66.png",
+      "logo": "images/clubs/api/rendered/66-15f20ce5969b.png",
       "api_logo": "https://media.api-sports.io/football/teams/66.png",
       "venue": {
         "id": 495,
         "name": "Villa Park",
         "city": "Birmingham",
         "capacity": 42824
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "77": {
@@ -501,13 +573,17 @@
       "season": 2024,
       "founded": 1944,
       "national": false,
-      "logo": "images/clubs/api/79.png",
+      "logo": "images/clubs/api/rendered/79-021579263933.png",
       "api_logo": "https://media.api-sports.io/football/teams/79.png",
       "venue": {
         "id": 22783,
         "name": "Decathlon Arena - Stade Pierre-Mauroy",
         "city": "Villeneuve d&apos;Ascq",
         "capacity": 50083
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "80": {
@@ -541,13 +617,17 @@
       "season": 2024,
       "founded": 1899,
       "national": false,
-      "logo": "images/clubs/api/81.png",
+      "logo": "images/clubs/api/rendered/81-f781160a86a8.png",
       "api_logo": "https://media.api-sports.io/football/teams/81.png",
       "venue": {
         "id": 12678,
         "name": "Stade Orange Vélodrome",
         "city": "Marseille",
         "capacity": 67394
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "82": {
@@ -613,7 +693,7 @@
     "85": {
       "id": 85,
       "name": "Paris Saint Germain",
-      "configured_name": "Paris Saint Germain",
+      "configured_name": "Paris Saint-Germain",
       "code": "PSG",
       "country": "France",
       "league_id": 61,
@@ -621,13 +701,17 @@
       "season": 2024,
       "founded": 1970,
       "national": false,
-      "logo": "images/clubs/api/85.png",
+      "logo": "images/clubs/api/rendered/85-ca6329d951be.png",
       "api_logo": "https://media.api-sports.io/football/teams/85.png",
       "venue": {
         "id": 671,
         "name": "Parc des Princes",
         "city": "Paris",
         "capacity": 47929
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "91": {
@@ -641,13 +725,17 @@
       "season": 2024,
       "founded": 1919,
       "national": false,
-      "logo": "images/clubs/api/91.png",
+      "logo": "images/clubs/api/rendered/91-371080d3fd97.png",
       "api_logo": "https://media.api-sports.io/football/teams/91.png",
       "venue": {
         "id": 20470,
         "name": "Stade Louis-II",
         "city": "Monaco",
         "capacity": 18523
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "93": {
@@ -681,13 +769,17 @@
       "season": 2024,
       "founded": 1901,
       "national": false,
-      "logo": "images/clubs/api/94.png",
+      "logo": "images/clubs/api/rendered/94-505c803fda66.png",
       "api_logo": "https://media.api-sports.io/football/teams/94.png",
       "venue": {
         "id": 680,
         "name": "Roazhon Park",
         "city": "Rennes",
         "capacity": 31127
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.3"
       }
     },
     "95": {
@@ -701,13 +793,17 @@
       "season": 2024,
       "founded": 1906,
       "national": false,
-      "logo": "images/clubs/api/95.png",
+      "logo": "images/clubs/api/rendered/95-94fa45143780.png",
       "api_logo": "https://media.api-sports.io/football/teams/95.png",
       "venue": {
         "id": 681,
         "name": "Stade de la Meinau",
         "city": "Strasbourg",
         "capacity": 26109
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "96": {
@@ -873,7 +969,7 @@
     "160": {
       "id": 160,
       "name": "SC Freiburg",
-      "configured_name": "SC Freiburg",
+      "configured_name": "Freiburg",
       "code": "FRE",
       "country": "Germany",
       "league_id": 78,
@@ -881,13 +977,17 @@
       "season": 2024,
       "founded": 1904,
       "national": false,
-      "logo": "images/clubs/api/160.png",
+      "logo": "images/clubs/api/rendered/160-54f643a63e51.png",
       "api_logo": "https://media.api-sports.io/football/teams/160.png",
       "venue": {
         "id": 12717,
         "name": "Europa-Park Stadion",
         "city": "Freiburg im Breisgau",
         "capacity": 34700
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "161": {
@@ -921,13 +1021,17 @@
       "season": 2024,
       "founded": 1899,
       "national": false,
-      "logo": "images/clubs/api/162.png",
+      "logo": "images/clubs/api/rendered/162-076ca6ba9cbf.png",
       "api_logo": "https://media.api-sports.io/football/teams/162.png",
       "venue": {
         "id": 22796,
         "name": "Weserstadion",
         "city": "Bremen",
         "capacity": 42100
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "163": {
@@ -941,13 +1045,17 @@
       "season": 2024,
       "founded": 1900,
       "national": false,
-      "logo": "images/clubs/api/163.png",
+      "logo": "images/clubs/api/rendered/163-b218cb7ec3e8.png",
       "api_logo": "https://media.api-sports.io/football/teams/163.png",
       "venue": {
         "id": 20471,
         "name": "BORUSSIA-PARK",
         "city": "Mönchengladbach",
         "capacity": 54057
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "164": {
@@ -993,7 +1101,7 @@
     "167": {
       "id": 167,
       "name": "1899 Hoffenheim",
-      "configured_name": "1899 Hoffenheim",
+      "configured_name": "Hoffenheim",
       "code": "HOF",
       "country": "Germany",
       "league_id": 78,
@@ -1001,13 +1109,17 @@
       "season": 2024,
       "founded": 1899,
       "national": false,
-      "logo": "images/clubs/api/167.png",
+      "logo": "images/clubs/api/rendered/167-d3563d9ffa1e.png",
       "api_logo": "https://media.api-sports.io/football/teams/167.png",
       "venue": {
         "id": 724,
         "name": "PreZero Arena",
         "city": "Sinsheim",
         "capacity": 30164
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "168": {
@@ -1021,13 +1133,17 @@
       "season": 2024,
       "founded": 1904,
       "national": false,
-      "logo": "images/clubs/api/168.png",
+      "logo": "images/clubs/api/rendered/168-780bfce19ea9.png",
       "api_logo": "https://media.api-sports.io/football/teams/168.png",
       "venue": {
         "id": 699,
         "name": "BayArena",
         "city": "Leverkusen",
         "capacity": 30210
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "169": {
@@ -1041,13 +1157,17 @@
       "season": 2024,
       "founded": 1899,
       "national": false,
-      "logo": "images/clubs/api/169.png",
+      "logo": "images/clubs/api/rendered/169-bdd9ff4272f0.png",
       "api_logo": "https://media.api-sports.io/football/teams/169.png",
       "venue": {
         "id": 10491,
         "name": "Deutsche Bank Park",
         "city": "Frankfurt am Main",
         "capacity": 59500
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "170": {
@@ -1101,13 +1221,17 @@
       "season": 2024,
       "founded": 2009,
       "national": false,
-      "logo": "images/clubs/api/173.png",
+      "logo": "images/clubs/api/rendered/173-d38d0dff9d91.png",
       "api_logo": "https://media.api-sports.io/football/teams/173.png",
       "venue": {
         "id": 738,
         "name": "Red Bull Arena",
         "city": "Leipzig",
         "capacity": 47800
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "176": {
@@ -1221,13 +1345,17 @@
       "season": 2024,
       "founded": 1904,
       "national": false,
-      "logo": "images/clubs/api/211.png",
+      "logo": "images/clubs/api/rendered/211-2874faa514fa.png",
       "api_logo": "https://media.api-sports.io/football/teams/211.png",
       "venue": {
         "id": 1265,
         "name": "Estádio do Sport Lisboa e Benfica (da Luz)",
         "city": "Lisboa",
         "capacity": 65647
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "212": {
@@ -1521,13 +1649,17 @@
       "season": 2024,
       "founded": 1899,
       "national": false,
-      "logo": "images/clubs/api/489.png",
+      "logo": "images/clubs/api/rendered/489-dcceb506e62c.png",
       "api_logo": "https://media.api-sports.io/football/teams/489.png",
       "venue": {
         "id": 907,
         "name": "Stadio Giuseppe Meazza",
         "city": "Milano",
         "capacity": 80018
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "490": {
@@ -1561,13 +1693,17 @@
       "season": 2024,
       "founded": 1904,
       "national": false,
-      "logo": "images/clubs/api/492.png",
+      "logo": "images/clubs/api/rendered/492-1ca3923a25a9.png",
       "api_logo": "https://media.api-sports.io/football/teams/492.png",
       "venue": {
         "id": 11904,
         "name": "Stadio Diego Armando Maradona",
         "city": "Napoli",
         "capacity": 60240
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "494": {
@@ -1582,7 +1718,7 @@
       "founded": 1896,
       "national": false,
       "logo": "images/clubs/api/494.png",
-      "api_logo": "https://media.api-sports.io/football/teams/494.png",
+      "api_logo": "https://media.api-sports.io/football/teams/494-v399t.png",
       "venue": {
         "id": 20416,
         "name": "Bluenergy Stadium",
@@ -1621,13 +1757,17 @@
       "season": 2024,
       "founded": 1897,
       "national": false,
-      "logo": "images/clubs/api/496.png",
+      "logo": "images/clubs/api/rendered/496-ea0cc8953697.png",
       "api_logo": "https://media.api-sports.io/football/teams/496.png",
       "venue": {
         "id": 909,
         "name": "Allianz Stadium",
         "city": "Torino",
         "capacity": 45666
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "497": {
@@ -1753,7 +1893,7 @@
     "505": {
       "id": 505,
       "name": "Inter",
-      "configured_name": "Inter",
+      "configured_name": "Inter Milan",
       "code": "INT",
       "country": "Italy",
       "league_id": 135,
@@ -1761,13 +1901,17 @@
       "season": 2024,
       "founded": 1908,
       "national": false,
-      "logo": "images/clubs/api/505.png",
+      "logo": "images/clubs/api/rendered/505-14c915ad4d30.png",
       "api_logo": "https://media.api-sports.io/football/teams/505.png",
       "venue": {
         "id": 907,
         "name": "Stadio Giuseppe Meazza",
         "city": "Milano",
         "capacity": 80018
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "511": {
@@ -1841,13 +1985,17 @@
       "season": 2024,
       "founded": 1899,
       "national": false,
-      "logo": "images/clubs/api/529.png",
+      "logo": "images/clubs/api/rendered/529-921329187f25.png",
       "api_logo": "https://media.api-sports.io/football/teams/529.png",
       "venue": {
         "id": 19939,
         "name": "Camp Nou",
         "city": "Barcelona",
         "capacity": 55926
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "530": {
@@ -1861,13 +2009,17 @@
       "season": 2024,
       "founded": 1903,
       "national": false,
-      "logo": "images/clubs/api/530.png",
+      "logo": "images/clubs/api/rendered/530-33037c80387a.png",
       "api_logo": "https://media.api-sports.io/football/teams/530.png",
       "venue": {
         "id": 19217,
         "name": "Estádio Cívitas Metropolitano",
         "city": "Madrid",
         "capacity": 70460
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "531": {
@@ -2041,19 +2193,23 @@
       "season": 2024,
       "founded": 1902,
       "national": false,
-      "logo": "images/clubs/api/541.png",
+      "logo": "images/clubs/api/rendered/541-9a1b10dacb76.png",
       "api_logo": "https://media.api-sports.io/football/teams/541.png",
       "venue": {
         "id": 1456,
         "name": "Estadio Santiago Bernabéu",
         "city": "Madrid",
         "capacity": 85454
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.3"
       }
     },
     "542": {
       "id": 542,
       "name": "Alaves",
-      "configured_name": "Alaves",
+      "configured_name": "Deportivo Alavés",
       "code": "ALA",
       "country": "Spain",
       "league_id": 140,
@@ -2061,13 +2217,17 @@
       "season": 2024,
       "founded": 1921,
       "national": false,
-      "logo": "images/clubs/api/542.png",
+      "logo": "images/clubs/api/rendered/542-7a707dd9621a.png",
       "api_logo": "https://media.api-sports.io/football/teams/542.png",
       "venue": {
         "id": 1470,
         "name": "Estadio de Mendizorroza",
         "city": "Vitoria-Gasteiz",
         "capacity": 19840
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "543": {
@@ -2293,7 +2453,7 @@
     "611": {
       "id": 611,
       "name": "Fenerbahçe",
-      "configured_name": "Fenerbahce",
+      "configured_name": "Fenerbahçe",
       "code": "FEN",
       "country": "Turkey",
       "league_id": 203,
@@ -2301,13 +2461,17 @@
       "season": 2024,
       "founded": 1907,
       "national": false,
-      "logo": "images/clubs/api/611.png",
+      "logo": "images/clubs/api/rendered/611-26561183c779.png",
       "api_logo": "https://media.api-sports.io/football/teams/611.png",
       "venue": {
         "id": 22760,
         "name": "Chobani Stadyumu Fenerbahçe Şükrü Saracoğlu Spor Kompleksi",
         "city": "İstanbul",
         "capacity": 47834
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "621": {
@@ -2341,13 +2505,17 @@
       "season": 2024,
       "founded": 1905,
       "national": false,
-      "logo": "images/clubs/api/645.png",
+      "logo": "images/clubs/api/rendered/645-4722b4796f98.png",
       "api_logo": "https://media.api-sports.io/football/teams/645.png",
       "venue": {
         "id": 22761,
         "name": "RAMS Park",
         "city": "İstanbul",
         "capacity": 53798
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "720": {
@@ -2401,13 +2569,17 @@
       "season": 2024,
       "founded": 1924,
       "national": false,
-      "logo": "images/clubs/api/728.png",
+      "logo": "images/clubs/api/rendered/728-9b826173203d.png",
       "api_logo": "https://media.api-sports.io/football/teams/728.png",
       "venue": {
         "id": 1488,
         "name": "Estadio de Vallecas",
         "city": "Madrid",
         "capacity": 15500
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "762": {
@@ -2542,7 +2714,7 @@
       "founded": 1925,
       "national": false,
       "logo": "images/clubs/api/994.png",
-      "api_logo": "https://media.api-sports.io/football/teams/994.png",
+      "api_logo": "https://media.api-sports.io/football/teams/994-v399t.png",
       "venue": {
         "id": 22441,
         "name": "Gürsel Aksel Stadyumu",
@@ -2902,7 +3074,7 @@
       "founded": 1997,
       "national": false,
       "logo": "images/clubs/api/1994.png",
-      "api_logo": "https://media.api-sports.io/football/teams/1994.png",
+      "api_logo": "https://media.api-sports.io/football/teams/1994-v399t.png",
       "venue": {
         "id": 18629,
         "name": "Arena Khimki",
@@ -3182,8 +3354,404 @@
       "founded": 1900,
       "national": false,
       "logo": "images/clubs/api/194.png",
-      "api_logo": "https://media.api-sports.io/football/teams/194.png",
+      "api_logo": "https://media.api-sports.io/football/teams/194-v399t.png",
       "youth_logo_rule": "Ajax Youth / Ajax U17 / Ajax U19 / Ajax U21 use the main Ajax logo; tooltip keeps the exact youth team name."
+    },
+    "569": {
+      "id": 569,
+      "name": "Club Brugge",
+      "configured_name": "Club Brugge",
+      "logo": "images/clubs/api/rendered/569-8ec816f84cba.png",
+      "api_logo": "https://media.api-sports.io/football/teams/569.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "44": {
+      "id": 44,
+      "name": "Burnley",
+      "configured_name": "Burnley",
+      "logo": "images/clubs/api/rendered/44-1201390c0881.png",
+      "api_logo": "https://media.api-sports.io/football/teams/44.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "114": {
+      "id": 114,
+      "name": "Paris FC",
+      "configured_name": "Paris FC",
+      "logo": "images/clubs/api/rendered/114-f681a4a91d58.png",
+      "api_logo": "https://media.api-sports.io/football/teams/114.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "110": {
+      "id": 110,
+      "name": "Troyes",
+      "configured_name": "Troyes",
+      "logo": "images/clubs/api/rendered/110-66d3f62462cd.png",
+      "api_logo": "https://media.api-sports.io/football/teams/110.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "797": {
+      "id": 797,
+      "name": "Elche",
+      "configured_name": "Elche",
+      "logo": "images/clubs/api/rendered/797-f8f6e27d0845.png",
+      "api_logo": "https://media.api-sports.io/football/teams/797.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "207": {
+      "id": 207,
+      "name": "FC Utrecht",
+      "configured_name": "FC Utrecht",
+      "logo": "images/clubs/api/rendered/207-149f6c11cf77.png",
+      "api_logo": "https://media.api-sports.io/football/teams/207.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "64": {
+      "id": 64,
+      "name": "Hull City",
+      "configured_name": "Hull City",
+      "logo": "images/clubs/api/rendered/64-e5825be5ee17.png",
+      "api_logo": "https://media.api-sports.io/football/teams/64.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "350": {
+      "id": 350,
+      "name": "KS Cracovia",
+      "configured_name": "KS Cracovia",
+      "logo": "images/clubs/api/rendered/350-3e65f1616aa4.png",
+      "api_logo": "https://media.api-sports.io/football/teams/350.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "550": {
+      "id": 550,
+      "name": "Shakhtar Donetsk",
+      "configured_name": "Shakhtar Donetsk",
+      "logo": "images/clubs/api/rendered/550-c053c3d0dc5f.png",
+      "api_logo": "https://media.api-sports.io/football/teams/550.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "74": {
+      "id": 74,
+      "name": "Sheffield Wednesday",
+      "configured_name": "Sheffield Wednesday",
+      "logo": "images/clubs/api/rendered/74-762c2c99e6f1.png",
+      "api_logo": "https://media.api-sports.io/football/teams/74.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "1025": {
+      "id": 1025,
+      "name": "Wolfsberger AC",
+      "configured_name": "Wolfsberger AC",
+      "logo": "images/clubs/api/rendered/1025-9f782482601b.png",
+      "api_logo": "https://media.api-sports.io/football/teams/1025.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "571": {
+      "id": 571,
+      "name": "Red Bull Salzburg",
+      "configured_name": "Red Bull Salzburg",
+      "logo": "images/clubs/api/rendered/571-5a000bd42ecd.png",
+      "api_logo": "https://media.api-sports.io/football/teams/571.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "524": {
+      "id": 524,
+      "name": "Perugia",
+      "configured_name": "Perugia",
+      "logo": "images/clubs/api/rendered/524-68f32f9ea2c7.png",
+      "api_logo": "https://media.api-sports.io/football/teams/524.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "2951": {
+      "id": 2951,
+      "name": "Abha",
+      "configured_name": "Abha",
+      "logo": "images/clubs/api/rendered/2951-4b44fd03ad0f.png",
+      "api_logo": "https://media.api-sports.io/football/teams/2951.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "1577": {
+      "id": 1577,
+      "name": "Al Ahly",
+      "configured_name": "Al Ahly",
+      "logo": "images/clubs/api/rendered/1577-0f786f981cdc.png",
+      "api_logo": "https://media.api-sports.io/football/teams/1577.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "10511": {
+      "id": 10511,
+      "name": "Al-Riyadh",
+      "configured_name": "Al-Riyadh",
+      "logo": "images/clubs/api/rendered/10511-30496d9efb45.png",
+      "api_logo": "https://media.api-sports.io/football/teams/10511.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "2897": {
+      "id": 2897,
+      "name": "Al-Rayyan",
+      "configured_name": "Al-Rayyan",
+      "logo": "images/clubs/api/rendered/2897-fb02d191c0ff.png",
+      "api_logo": "https://media.api-sports.io/football/teams/2897.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "746": {
+      "id": 746,
+      "name": "Sunderland",
+      "configured_name": "Sunderland",
+      "logo": "images/clubs/api/rendered/746-4ebea02c3573.png",
+      "api_logo": "https://media.api-sports.io/football/teams/746.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "1837": {
+      "id": 1837,
+      "name": "Wrexham",
+      "configured_name": "Wrexham",
+      "logo": "images/clubs/api/rendered/1837-4f30bb39094c.png",
+      "api_logo": "https://media.api-sports.io/football/teams/1837.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "58": {
+      "id": 58,
+      "name": "Millwall",
+      "configured_name": "Millwall",
+      "logo": "images/clubs/api/rendered/58-efc3a3c31918.png",
+      "api_logo": "https://media.api-sports.io/football/teams/58.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "2932": {
+      "id": 2932,
+      "name": "Al-Hilal",
+      "configured_name": "Al-Hilal",
+      "logo": "images/clubs/api/rendered/2932-f3e8c8f3257a.png",
+      "api_logo": "https://media.api-sports.io/football/teams/2932.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "63": {
+      "id": 63,
+      "name": "Leeds United",
+      "configured_name": "Leeds United",
+      "logo": "images/clubs/api/rendered/63-9f58f9f706d4.png",
+      "api_logo": "https://media.api-sports.io/football/teams/63.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "1346": {
+      "id": 1346,
+      "name": "Coventry City",
+      "configured_name": "Coventry City",
+      "logo": "images/clubs/api/rendered/1346-3064f92b849d.png",
+      "api_logo": "https://media.api-sports.io/football/teams/1346.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "539": {
+      "id": 539,
+      "name": "Levante UD",
+      "configured_name": "Levante UD",
+      "logo": "images/clubs/api/rendered/539-3fac6cfda22c.png",
+      "api_logo": "https://media.api-sports.io/football/teams/539.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "4665": {
+      "id": 4665,
+      "name": "Racing Santander",
+      "configured_name": "Racing Santander",
+      "logo": "images/clubs/api/rendered/4665-ff184cd32119.png",
+      "api_logo": "https://media.api-sports.io/football/teams/4665.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "512": {
+      "id": 512,
+      "name": "Frosinone Calcio",
+      "configured_name": "Frosinone Calcio",
+      "logo": "images/clubs/api/rendered/512-2c58ddc213c3.png",
+      "api_logo": "https://media.api-sports.io/football/teams/512.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "185": {
+      "id": 185,
+      "name": "SC Paderborn 07",
+      "configured_name": "SC Paderborn 07",
+      "logo": "images/clubs/api/rendered/185-42c0f4e988e7.png",
+      "api_logo": "https://media.api-sports.io/football/teams/185.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "175": {
+      "id": 175,
+      "name": "Hamburger SV",
+      "configured_name": "Hamburger SV",
+      "logo": "images/clubs/api/rendered/175-4997c01a94f2.png",
+      "api_logo": "https://media.api-sports.io/football/teams/175.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "174": {
+      "id": 174,
+      "name": "FC Schalke 04",
+      "configured_name": "FC Schalke 04",
+      "logo": "images/clubs/api/rendered/174-280f64ff39ff.png",
+      "api_logo": "https://media.api-sports.io/football/teams/174.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "3579": {
+      "id": 3579,
+      "name": "Amed SK",
+      "configured_name": "Amed SK",
+      "logo": "images/clubs/api/rendered/3579-375cd88c1841.png",
+      "api_logo": "https://media.api-sports.io/football/teams/3579.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "7411": {
+      "id": 7411,
+      "name": "Kocaelispor",
+      "configured_name": "Kocaelispor",
+      "logo": "images/clubs/api/rendered/7411-9c1135b097a3.png",
+      "api_logo": "https://media.api-sports.io/football/teams/7411.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "6343": {
+      "id": 6343,
+      "name": "Corum FK",
+      "configured_name": "Corum FK",
+      "logo": "images/clubs/api/rendered/6343-d7101cfefc6d.png",
+      "api_logo": "https://media.api-sports.io/football/teams/6343.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "1009": {
+      "id": 1009,
+      "name": "Erzurumspor FK",
+      "configured_name": "Erzurumspor FK",
+      "logo": "images/clubs/api/rendered/1009-36c3c679cd9b.png",
+      "api_logo": "https://media.api-sports.io/football/teams/1009.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "4724": {
+      "id": 4724,
+      "name": "FC Alverca",
+      "configured_name": "FC Alverca",
+      "logo": "images/clubs/api/rendered/4724-0f2e83b0b7a4.png",
+      "api_logo": "https://media.api-sports.io/football/teams/4724.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "238": {
+      "id": 238,
+      "name": "Académico Viseu FC",
+      "configured_name": "Académico Viseu FC",
+      "logo": "images/clubs/api/rendered/238-66806a24513e.png",
+      "api_logo": "https://media.api-sports.io/football/teams/238.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
+    },
+    "2006": {
+      "id": 2006,
+      "name": "Baltika Kaliningrad",
+      "configured_name": "Baltika Kaliningrad",
+      "logo": "images/clubs/api/rendered/2006-8909121524bb.png",
+      "api_logo": "https://media.api-sports.io/football/teams/2006.png",
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
+      }
     }
   },
   "benfica": "https://media.api-sports.io/football/teams/211.png",

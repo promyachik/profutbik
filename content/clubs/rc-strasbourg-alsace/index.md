@@ -1,0 +1,221 @@
+---
+title: "RC Strasbourg Alsace: состав, стоимость и трансферы"
+description: "Состав клуба RC Strasbourg Alsace — 31 игрок, средний возраст 21,7. Общая стоимость команды €297,95 млн."
+date: "2026-09-02T18:41:28+03:00"
+url: "/clubs/rc-strasbourg-alsace/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "RC Strasbourg Alsace"
+club_code: "STR"
+club_logo: "images/clubs/api/rendered/95-94fa45143780.png"
+api_football_id: "95"
+club_city: "Strasbourg"
+club_country: "France"
+league: "Лига 1"
+league_id: "61"
+transfermarkt_club_id: "667"
+squad_size: 31
+average_age: "21,7"
+squad_value: "€297,95 млн"
+squad_value_eur: 297950000
+average_value: "€9,61 млн"
+squad:
+  - name: "Joaquín Panichelli"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 23
+    value: "€35 млн"
+    tm_id: "1064871"
+  - name: "Karim Coulibaly"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 19
+    value: "€28 млн"
+    tm_id: "1084638"
+  - name: "Samir El Mourabet"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 20
+    value: "€22 млн"
+    tm_id: "1130514"
+  - name: "Martial Godo"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 23
+    value: "€22 млн"
+    tm_id: "992686"
+  - name: "Ismaël Doukouré"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 23
+    value: "€20 млн"
+    tm_id: "786436"
+  - name: "Lucas Høgsberg"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 20
+    value: "€18 млн"
+    tm_id: "926978"
+  - name: "Conrad Harder"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 21
+    value: "€17 млн"
+    tm_id: "807386"
+  - name: "Filip Jørgensen"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 24
+    value: "€15 млн"
+    tm_id: "585323"
+  - name: "Dário Essugo"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 21
+    value: "€15 млн"
+    tm_id: "670717"
+  - name: "Sebastian Nanasi"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 24
+    value: "€15 млн"
+    tm_id: "579928"
+  - name: "Gessime Yassine"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 20
+    value: "€12 млн"
+    tm_id: "1151929"
+  - name: "Oso"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 23
+    value: "€10 млн"
+    tm_id: "1032280"
+  - name: "Pape Demba Diop"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 22
+    value: "€9 млн"
+    tm_id: "949113"
+  - name: "Andrew Omobamidele"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 24
+    value: "€8 млн"
+    tm_id: "621993"
+  - name: "Diogo Sousa"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 20
+    value: "€8 млн"
+    tm_id: "937729"
+  - name: "Samuel Amo-Ameyaw"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 20
+    value: "€8 млн"
+    tm_id: "933900"
+  - name: "Mateo Del Blanco"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 22
+    value: "€5 млн"
+    tm_id: "984529"
+  - name: "Maxi Oyedele"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 21
+    value: "€5 млн"
+    tm_id: "863204"
+  - name: "Fábio Baldé"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 21
+    value: "€5 млн"
+    tm_id: "910541"
+  - name: "Giovanni Reyna"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 23
+    value: "€4 млн"
+    tm_id: "504215"
+  - name: "Sékou Mara"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 24
+    value: "€4 млн"
+    tm_id: "557612"
+  - name: "Jeyland Mitchell"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 21
+    value: "€3 млн"
+    tm_id: "856068"
+  - name: "Deivid Washington"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 21
+    value: "€3 млн"
+    tm_id: "1082850"
+  - name: "Abakar Sylla"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 23
+    value: "€2,5 млн"
+    tm_id: "962555"
+  - name: "Omari Kellyman"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 20
+    value: "€1,7 млн"
+    tm_id: "926135"
+  - name: "Jacobo Ortega"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 20
+    value: "€1 млн"
+    tm_id: "1186237"
+  - name: "Milosz Piekutowski"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 20
+    value: "€600 тыс."
+    tm_id: "965043"
+  - name: "Benjamin Brantlind"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 18
+    value: "€500 тыс."
+    tm_id: "1172441"
+  - name: "Genesis Antwi"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 19
+    value: "€350 тыс."
+    tm_id: "1045121"
+  - name: "Yaya Diémé"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 18
+    value: "€300 тыс."
+    tm_id: "1133733"
+  - name: "Hermann Malonga"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 18
+    value: ""
+    tm_id: "1185890"
+club_transfers:
+  - player: "Julio Enciso"
+    slug: "julio-enciso-ipswich-town"
+    direction: "out"
+    other_club: "Ipswich Town"
+    fee: "Около €30 млн"
+---
+В заявке клуба RC Strasbourg Alsace — 31 игрок со средним возрастом 21,7 года. Общая стоимость команды по оценке Transfermarkt — €297,95 млн, в среднем €9,61 млн на игрока.
+
+Самый дорогой игрок состава — Joaquín Panichelli (центральный нападающий), его стоимость оценивается в €35 млн.
+
+Трансферы клуба, о которых мы писали: ушли 1.

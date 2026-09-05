@@ -1,0 +1,208 @@
+---
+title: "Eyüpspor: состав, стоимость и трансферы"
+description: "Состав клуба Eyüpspor — 30 игроков, средний возраст 24,5. Общая стоимость команды €14,00 млн."
+date: "2026-09-02T18:43:14+03:00"
+url: "/clubs/eyupspor/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Eyüpspor"
+club_code: "EYU"
+club_logo: "images/clubs/api/3588.png"
+api_football_id: "3588"
+club_city: "Eyüp / İstanbul"
+club_country: "Turkey"
+league: "Суперлига"
+league_id: "203"
+transfermarkt_club_id: "7160"
+squad_size: 30
+average_age: "24,5"
+squad_value: "€14,00 млн"
+squad_value_eur: 14000000
+average_value: "€466,67 тыс."
+squad:
+  - name: "Calegari"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 24
+    value: "€2,5 млн"
+    tm_id: "686597"
+  - name: "Horațiu Moldovan"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 28
+    value: "€1,8 млн"
+    tm_id: "525438"
+  - name: "Bilal Boutobba"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 28
+    value: "€1,2 млн"
+    tm_id: "344151"
+  - name: "Abdelhamid Sabiri"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 29
+    value: "€850 тыс."
+    tm_id: "340394"
+  - name: "Yusuf Barası"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 23
+    value: "€800 тыс."
+    tm_id: "566271"
+  - name: "Ahmed Abdullahi"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 22
+    value: "€800 тыс."
+    tm_id: "1015619"
+  - name: "Charles-André Raux-Yao"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 24
+    value: "€700 тыс."
+    tm_id: "976840"
+  - name: "Simone Giordano"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 24
+    value: "€650 тыс."
+    tm_id: "480046"
+  - name: "Chandrel Massanga"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 27
+    value: "€500 тыс."
+    tm_id: "752455"
+  - name: "David Costa"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 22
+    value: "€500 тыс."
+    tm_id: "1160599"
+  - name: "Konrad Michalak"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 28
+    value: "€500 тыс."
+    tm_id: "387160"
+  - name: "Emre Bilgin"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 22
+    value: "€400 тыс."
+    tm_id: "727147"
+  - name: "Talha Ülvan"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 25
+    value: "€400 тыс."
+    tm_id: "708111"
+  - name: "Hamza Akman"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 21
+    value: "€400 тыс."
+    tm_id: "727152"
+  - name: "Mete Demir"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 28
+    value: "€325 тыс."
+    tm_id: "282615"
+  - name: "Anıl Yaşar"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 24
+    value: "€300 тыс."
+    tm_id: "685329"
+  - name: "Jawad El Yamiq"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 34
+    value: "€300 тыс."
+    tm_id: "235412"
+  - name: "Zak Jules"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 29
+    value: "€275 тыс."
+    tm_id: "309041"
+  - name: "Lenny Pintor"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 26
+    value: "€200 тыс."
+    tm_id: "418660"
+  - name: "Yiğit Demir"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 23
+    value: "€150 тыс."
+    tm_id: "873533"
+  - name: "Taşkın İlter"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 32
+    value: "€150 тыс."
+    tm_id: "200082"
+  - name: "Christ Sadia"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 19
+    value: "€100 тыс."
+    tm_id: "1458907"
+  - name: "Abdou Khadre Sy"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 18
+    value: "€100 тыс."
+    tm_id: "1414677"
+  - name: "Umut Keseci"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 22
+    value: "€50 тыс."
+    tm_id: "1045821"
+  - name: "Arda Yavuz"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 20
+    value: "€50 тыс."
+    tm_id: "1175508"
+  - name: "Diabel Ndoye"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 19
+    value: ""
+    tm_id: "1414664"
+  - name: "Berhan Kutlay Şatlı"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 20
+    value: ""
+    tm_id: "1178853"
+  - name: "Ömer Ahmet Ceyhan"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 19
+    value: ""
+    tm_id: "1374186"
+  - name: "Erdem Çalık"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 20
+    value: ""
+    tm_id: "1225269"
+  - name: "Musa Eren Karakaş"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 22
+    value: ""
+    tm_id: "880414"
+club_transfers:
+---
+В заявке клуба Eyüpspor — 30 игроков со средним возрастом 24,5 года. Общая стоимость команды по оценке Transfermarkt — €14,00 млн, в среднем €466,67 тыс. на игрока.
+
+Самый дорогой игрок состава — Calegari (правый защитник), его стоимость оценивается в €2,5 млн.

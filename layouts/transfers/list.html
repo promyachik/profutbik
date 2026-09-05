@@ -1,202 +1,466 @@
-<!DOCTYPE html>
+{{ define "main" }}
+<!-- PF404F_TRANSFER_LEAGUE_QUERY_START -->
+<style id="pf404f-transfer-league-query-style">
+[data-pf-league-hidden="1"] {
+  display: none !important;
+}
+</style>
 
-<html lang="ru">
+<script id="pf404f-transfer-league-query-script">
+(function () {
+  "use strict";
 
-<head>
+  var params = new URLSearchParams(window.location.search);
+  var leagueId = params.get("league");
 
-    <meta charset="UTF-8">
+  var leagueTeams = {
+    "39": [
+      "Arsenal", "Aston Villa", "Bournemouth", "Brentford",
+      "Brighton", "Burnley", "Chelsea", "Crystal Palace",
+      "Everton", "Fulham", "Leeds United", "Liverpool",
+      "Manchester City", "Manchester United", "Newcastle",
+      "Nottingham Forest", "Sunderland", "Tottenham",
+      "West Ham", "Wolverhampton", "Wolves"
+    ],
+    "140": [
+      "Athletic Club", "Athletic Bilbao", "Atletico Madrid",
+      "Atlético Madrid", "Barcelona", "Celta Vigo", "Elche",
+      "Espanyol", "Getafe", "Girona", "Levante", "Mallorca",
+      "Osasuna", "Rayo Vallecano", "Real Betis", "Real Madrid",
+      "Real Oviedo", "Real Sociedad", "Sevilla", "Valencia",
+      "Villarreal"
+    ],
+    "135": [
+      "Atalanta", "Bologna", "Cagliari", "Como", "Cremonese",
+      "Fiorentina", "Genoa", "Hellas Verona", "Inter",
+      "Inter Milan", "Juventus", "Lazio", "Lecce", "AC Milan",
+      "Milan", "Napoli", "Parma", "Pisa", "Roma", "Sassuolo",
+      "Torino", "Udinese"
+    ],
+    "78": [
+      "Augsburg", "Bayer Leverkusen", "Bayern Munich",
+      "Bayern München", "Borussia Dortmund",
+      "Borussia Monchengladbach", "Borussia Mönchengladbach",
+      "Eintracht Frankfurt", "Freiburg", "Hamburg",
+      "Heidenheim", "Hoffenheim", "Koln", "Köln",
+      "Mainz", "RB Leipzig", "St. Pauli", "Stuttgart",
+      "Union Berlin", "Werder Bremen", "Wolfsburg"
+    ],
+    "61": [
+      "Auxerre", "Brest", "Lens", "Le Havre", "Lille",
+      "Lorient", "Lyon", "Marseille", "Metz", "Monaco",
+      "Nantes", "Nice", "Paris FC", "Paris Saint-Germain",
+      "PSG", "Rennes", "Strasbourg", "Toulouse"
+    ],
+    "203": [
+      "Alanyaspor", "Antalyaspor", "Başakşehir",
+      "Basaksehir", "Beşiktaş", "Besiktas", "Eyüpspor",
+      "Fenerbahçe", "Fenerbahce", "Galatasaray",
+      "Gaziantep", "Gençlerbirliği", "Goztepe", "Göztepe",
+      "Kasımpaşa", "Kasimpasa", "Kayserispor", "Kocaelispor",
+      "Konyaspor", "Rizespor", "Samsunspor", "Trabzonspor"
+    ],
+    "94": [
+      "Arouca", "AVS", "Benfica", "Boavista", "Braga",
+      "Casa Pia", "Estoril", "Estrela Amadora", "Famalicão",
+      "Famalicao", "Farense", "Gil Vicente", "Moreirense",
+      "Nacional", "Porto", "Rio Ave", "Santa Clara",
+      "Sporting CP", "Sporting Lisbon", "Vitoria Guimaraes",
+      "Vitória Guimarães"
+    ],
+    "235": [
+      "Akron", "Baltika", "CSKA Moscow", "Dynamo Makhachkala",
+      "Dynamo Moscow", "Krasnodar", "Krylia Sovetov",
+      "Lokomotiv Moscow", "Nizhny Novgorod", "Orenburg",
+      "Pari NN", "Rostov", "Rubin Kazan", "Sochi",
+      "Spartak Moscow", "Zenit"
+    ]
+  };
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1"
-    >
+  if (!leagueId || !leagueTeams[leagueId]) {
+    return;
+  }
 
-    <title>{{ .Title }} — {{ .Site.Title }}</title>
+  function normalize(value) {
+    return String(value || "")
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/\s+/g, " ")
+      .trim();
+  }
 
-    <link
-        rel="stylesheet"
-        href="{{ "css/style.css" | relURL }}"
-    >
+  function isStoryLink(link) {
+    try {
+      var path = new URL(
+        link.href,
+        window.location.href
+      ).pathname;
 
-    <style>
+      return /\/transfers\/[^\/?#]+\/?$/.test(path);
+    } catch (error) {
+      return false;
+    }
+  }
 
-        body {
-            min-height: 100vh;
-            margin: 0;
-            color: #f4f5f7;
-            background:
-                linear-gradient(
-                    180deg,
-                    #07090c,
-                    #0c0f13
-                );
-            font-family:
-                Inter,
-                Manrope,
-                "Segoe UI",
-                Arial,
-                sans-serif;
-        }
+  function findRow(link) {
+    var node = link;
 
-        .transfer-list-page {
-            width: min(1200px, calc(100% - 40px));
-            margin: 0 auto;
-            padding: 42px 0 70px;
-        }
+    while (node && node !== document.body) {
+      if (
+        node.closest &&
+        node.closest(
+          "header, nav, footer, " +
+          ".home-player-bottom-strip, " +
+          ".bottom-transfer-strip-v3"
+        )
+      ) {
+        return null;
+      }
 
-        .transfer-list-page h1 {
-            margin: 0 0 12px;
-            font-size: clamp(38px, 5vw, 62px);
-            line-height: 1;
-            text-transform: uppercase;
-        }
+      var className =
+        String(node.className || "").toLowerCase();
 
-        .transfer-list-page__description {
-            max-width: 760px;
-            margin-bottom: 34px;
-            color: #9da3ad;
-            font-size: 16px;
-            line-height: 1.7;
-        }
+      if (
+        node.hasAttribute("data-pf-league-ids") ||
+        node.hasAttribute("data-league-id") ||
+        node.hasAttribute("data-league") ||
+        (
+          className.indexOf("transfer") !== -1 &&
+          (
+            className.indexOf("row") !== -1 ||
+            className.indexOf("item") !== -1 ||
+            className.indexOf("card") !== -1
+          )
+        ) ||
+        node.tagName === "TR" ||
+        node.tagName === "LI" ||
+        node.tagName === "ARTICLE"
+      ) {
+        return node;
+      }
 
-        .transfer-list {
-            display: grid;
-            grid-template-columns:
-                repeat(
-                    auto-fit,
-                    minmax(280px, 1fr)
-                );
-            gap: 20px;
-        }
+      node = node.parentElement;
+    }
 
-        .transfer-list__item {
-            display: block;
-            padding: 24px;
-            border:
-                1px solid rgba(212, 175, 55, 0.18);
-            border-radius: 18px;
-            color: #ffffff;
-            background:
-                linear-gradient(
-                    145deg,
-                    #12161b,
-                    #0c0f13
-                );
-            text-decoration: none;
-            transition:
-                transform 0.2s ease,
-                border-color 0.2s ease;
-        }
+    return link;
+  }
 
-        .transfer-list__item:hover {
-            transform: translateY(-3px);
-            border-color:
-                rgba(212, 175, 55, 0.5);
-        }
+  var links = Array.prototype.slice
+    .call(document.querySelectorAll("a[href]"))
+    .filter(isStoryLink);
 
-        .transfer-list__status {
-            display: inline-block;
-            margin-bottom: 14px;
-            padding: 5px 9px;
-            border-radius: 6px;
-            color: #78e597;
-            background:
-                rgba(75, 195, 108, 0.12);
-            font-size: 9px;
-            font-weight: 900;
-            letter-spacing: 0.1em;
-        }
+  var rows = [];
 
-        .transfer-list__item h2 {
-            margin: 0 0 14px;
-            font-size: 21px;
-            line-height: 1.25;
-        }
+  links.forEach(function (link) {
+    var row = findRow(link);
 
-        .transfer-list__item p {
-            margin: 0;
-            color: #9da3ad;
-            font-size: 14px;
-            line-height: 1.6;
-        }
+    if (row && rows.indexOf(row) === -1) {
+      rows.push(row);
+    }
+  });
 
-    </style>
+  var teamNames =
+    leagueTeams[leagueId].map(normalize);
 
-{{ partial "favicon.html" . }}
-    <link rel="stylesheet" href="{{ "css/transfer-player-market-value-chart.css" | relURL }}">
-    <script defer src="{{ "js/transfer-player-market-value-chart.js" | relURL }}"></script>
+  rows.forEach(function (row) {
+    var explicitIds = [
+      row.getAttribute("data-pf-league-ids"),
+      row.getAttribute("data-league-id"),
+      row.getAttribute("data-league")
+    ]
+      .filter(Boolean)
+      .join(",")
+      .split(/[\s,;|]+/)
+      .filter(Boolean);
 
-    <link rel="icon" type="image/png" href="{{ "favicon.png" | relURL }}">
-    <link rel="shortcut icon" href="{{ "favicon.ico" | relURL }}">
-</head>
+    var explicitMatch =
+      explicitIds.indexOf(leagueId) !== -1;
 
-<body>
+    var rowText = normalize(row.textContent);
 
+    var textMatch = teamNames.some(
+      function (teamName) {
+        return rowText.indexOf(teamName) !== -1;
+      }
+    );
 
-{{ partial "header.html" . }}
+    if (!explicitMatch && !textMatch) {
+      row.setAttribute(
+        "data-pf-league-hidden",
+        "1"
+      );
+    }
+  });
 
+  document.documentElement.setAttribute(
+    "data-pf-active-transfer-league",
+    leagueId
+  );
+})();
+</script>
+<!-- PF404F_TRANSFER_LEAGUE_QUERY_END -->
 
-<main class="transfer-list-page">
+<style id="pf403m-transfer-button-hover">
+html body a[href="/promyachik/transfers/"]:hover,
+html body a[href="/promyachik/rumors/"]:hover,
+html body button[data-filter="all"]:hover,
+html body button[data-filter="completed"]:hover,
+html body button[data-filter="loan"]:hover,
+html body a[href="/promyachik/transfers/"]:focus-visible,
+html body a[href="/promyachik/rumors/"]:focus-visible,
+html body button[data-filter="all"]:focus-visible,
+html body button[data-filter="completed"]:focus-visible,
+html body button[data-filter="loan"]:focus-visible {
+  border-color: #ffd400 !important;
+}
+</style>
 
-    <h1>
-        {{ .Title }}
-    </h1>
+<link rel="stylesheet" href="{{ "css/transfers-directory.css" | relURL }}">
 
-    {{ with .Description }}
+{{ $data := site.Data.homepage_transfer_rumor }}
+{{ $items := slice }}
+{{ with $data.transfers }}{{ $items = . }}{{ end }}
+{{ if eq (len $items) 0 }}{{ with $data.items }}{{ $items = . }}{{ end }}{{ end }}
 
-        <div class="transfer-list-page__description">
-            {{ . }}
-        </div>
+<main class="pf-transfer-page" data-transfer-page>
+<section class="pf-transfer-shell">
+    <nav class="pf-section-tabs">
+      <a class="is-active" href="{{ "transfers/" | relURL }}">Трансферы</a>
+      <a href="{{ "rumors/" | relURL }}">Слухи</a>
+    </nav>
 
-    {{ end }}
-
-    <div class="transfer-list">
-
-        {{ range .RegularPages.ByDate.Reverse }}
-
-            <a
-                class="transfer-list__item"
-                href="{{ .RelPermalink }}"
-            >
-
-                <span class="transfer-list__status">
-                    {{ if eq .Params.status "official" }}
-                        ОФИЦИАЛЬНО
-                    {{ else if eq .Params.status "confirmed" }}
-                        ПОДТВЕРЖДЕНО
-                    {{ else if eq .Params.status "agreement" }}
-                        СОГЛАСОВАНО
-                    {{ else if eq .Params.status "negotiations" }}
-                        ПЕРЕГОВОРЫ
-                    {{ else }}
-                        СЛУХ
-                    {{ end }}
-                </span>
-
-                <h2>
-                    {{ .Title }}
-                </h2>
-
-                {{ with .Description }}
-
-                    <p>
-                        {{ . }}
-                    </p>
-
-                {{ end }}
-
-            </a>
-
-        {{ end }}
-
+    <div class="pf-transfer-toolbar">
+      <div class="pf-transfer-filters">
+        <button class="is-active" type="button" data-filter="all">Все трансферы</button>
+        <button type="button" data-filter="completed">Состоялся</button>
+        <button type="button" data-filter="loan">Аренда</button>
+      </div>
+      <select data-league-filter>
+        <option value="all">Все лиги</option>
+        <option value="premier-league">Premier League</option>
+        <option value="la-liga">La Liga</option>
+        <option value="serie-a">Serie A</option>
+        <option value="bundesliga">Bundesliga</option>
+        <option value="ligue-1">Ligue 1</option>
+        <option value="super-lig">Süper Lig</option>
+        <option value="primeira-liga">Primeira Liga</option>
+        <option value="rpl">РПЛ</option>
+      </select>
     </div>
 
+    <div class="pf-transfer-head">
+      <span>Игрок</span><span>Из клуба</span><span></span><span>В клуб</span><span>Сумма</span><span></span>
+    </div>
+
+    <div class="pf-transfer-list">
+      {{ range $item := $items }}
+        {{ $dealType := lower (default "" (or $item.deal_type $item.transfer_type $item.type)) }}
+        {{ $isLoan := or (eq $dealType "loan") (in $dealType "аренд") }}
+        {{ $filterType := cond $isLoan "loan" "completed" }}
+
+        {{ $player := default "Player" (or $item.player_name_en $item.player_en $item.name_en $item.player_name $item.player $item.name) }}
+        {{ $from := default "" (or $item.from_club_name_en $item.from_name_en $item.from_club_en $item.from_club_name $item.from_club $item.from_name $item.from_team) }}
+        {{ $to := default "" (or $item.to_club_name_en $item.to_name_en $item.to_club_en $item.to_club_name $item.to_club $item.to_name $item.to_team) }}
+        {{ $fee := default "" (or $item.fee $item.amount $item.transfer_fee) }}
+        {{ $date := default "" (or $item.date $item.published_at $item.transfer_date) }}
+        {{ $league := lower (default "" (or $item.league_slug $item.league $item.to_league)) }}
+        {{ $fromLogo := default "" (or $item.from_logo $item.from_club_logo) }}
+        {{ $toLogo := default "" (or $item.to_logo $item.to_club_logo) }}
+        {{/* PF405T_RESOLVE_EXISTING_TRANSFER_ARTICLE_START */}}
+                {{ $rawURL := default "" (or $item.url $item.href $item.permalink) }}
+                {{ $url := "" }}
+                {{ $cleanURL := "" }}
+
+                {{ if ne $rawURL "" }}
+                  {{ $cleanURL = replaceRE `^https?://[^/]+` "" $rawURL }}
+                  {{ $cleanURL = strings.TrimPrefix "/promyachik/" $cleanURL }}
+                  {{ $cleanURL = strings.TrimPrefix "/" $cleanURL }}
+
+                  {{ with site.GetPage $cleanURL }}
+                    {{ $url = .RelPermalink }}
+                  {{ end }}
+                {{ end }}
+
+                {{ if and (eq $url "") $item.slug }}
+                  {{ with site.GetPage (printf "transfers/%s" $item.slug) }}
+                    {{ $url = .RelPermalink }}
+                  {{ end }}
+                {{ end }}
+
+                {{ if and (eq $url "") (ne $cleanURL "") }}
+                  {{ $url = $cleanURL | relURL }}
+                {{ end }}
+        {{/* PF405T_RESOLVE_EXISTING_TRANSFER_ARTICLE_END */}}
+
+        <article class="pf-transfer-row" data-transfer-row data-type="{{ $filterType }}" data-league="{{ $league }}">
+          <div class="pf-transfer-row__summary">
+            {{ if ne $url "" }}<a class="pf-transfer-row__main-link" href="{{ $url }}"></a>{{ end }}
+
+            <div class="pf-transfer-player">
+              <strong>{{ $player }}</strong>
+              <span>
+                {{ with $item.nationality }}{{ . }}{{ end }}
+                {{ with $item.position }}<b>•</b>{{ . }}{{ end }}
+                {{ with $item.age }}<b>•</b>{{ . }} лет{{ end }}
+              </span>
+            </div>
+
+            <div class="pf-transfer-club">
+              <div class="pf-transfer-club__logo">
+                {{ if ne $fromLogo "" }}
+                  <img src="{{ $fromLogo | relURL }}" alt="{{ $from }}">
+                {{ else }}
+                  <span>{{ if ne $from "" }}{{ substr $from 0 1 }}{{ else }}—{{ end }}</span>
+                {{ end }}
+              </div>
+              <strong>{{ if ne $from "" }}{{ $from }}{{ else }}—{{ end }}</strong>
+            </div>
+
+            <div class="pf-transfer-arrow">→</div>
+
+            <div class="pf-transfer-club">
+              <div class="pf-transfer-club__logo">
+                {{ if ne $toLogo "" }}
+                  <img src="{{ $toLogo | relURL }}" alt="{{ $to }}">
+                {{ else }}
+                  <span>{{ if ne $to "" }}{{ substr $to 0 1 }}{{ else }}—{{ end }}</span>
+                {{ end }}
+              </div>
+              <strong>{{ if ne $to "" }}{{ $to }}{{ else }}—{{ end }}</strong>
+            </div>
+
+            <div class="pf-transfer-meta">
+              <strong>{{ if $isLoan }}АРЕНДА{{ else if ne $fee "" }}{{ $fee }}{{ else }}—{{ end }}</strong>
+              <span class="pf-transfer-status">СОСТОЯЛСЯ</span>
+</div>
+
+            <button class="pf-transfer-expand" type="button" data-transfer-expand aria-expanded="false">⌄</button>
+          </div>
+
+          <div class="pf-transfer-details" hidden data-transfer-details>
+            <div>
+              <h3>Детали трансфера</h3>
+              <dl>
+                <div><dt>Статус</dt><dd>Состоялся</dd></div>
+                <div><dt>Тип сделки</dt><dd>{{ if $isLoan }}Аренда{{ else }}Постоянный трансфер{{ end }}</dd></div>
+                {{ with $fee }}<div><dt>Сумма</dt><dd>{{ . }}</dd></div>{{ end }}
+                {{ with $date }}<div><dt>Дата</dt><dd>{{ . }}</dd></div>{{ end }}
+              </dl>
+            </div>
+            <div>
+              <h3>О переходе</h3>
+              <dl>
+                <div><dt>Игрок</dt><dd>{{ $player }}</dd></div>
+                <div><dt>Из клуба</dt><dd>{{ if ne $from "" }}{{ $from }}{{ else }}Не указан{{ end }}</dd></div>
+                <div><dt>В клуб</dt><dd>{{ if ne $to "" }}{{ $to }}{{ else }}Не указан{{ end }}</dd></div>
+              </dl>
+            </div>
+            {{ if ne $url "" }}<a class="pf-transfer-details__link" href="{{ $url }}">Перейти к новости →</a>{{ end }}
+          </div>
+        </article>
+      {{ else }}
+        <div class="pf-transfer-empty">Нет опубликованных трансферов.</div>
+      {{ end }}
+    </div>
+
+    <button class="pf-transfer-more" type="button" data-transfer-more hidden>Развернуть</button>
+  </section>
 </main>
 
+<!-- PF402S_TRANSFERS_TICKER_FULL_WIDTH_START -->
+<style>
+body {
+  overflow-x: hidden;
+}
 
-    <script src="{{ "js/ticker-transfer-tab.js" | relURL }}" defer></script>
+.pf402s-transfers-ticker-fullbleed {
+  position: relative;
+  left: 50%;
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  box-sizing: border-box;
+  overflow: hidden;
+}
 
+.pf402s-transfers-ticker-fullbleed > .home-player-bottom-strip,
+.pf402s-transfers-ticker-fullbleed > .bottom-transfer-strip-v3,
+.pf402s-transfers-ticker-fullbleed > .home-player-bottom-strip.bottom-transfer-strip-v3 {
+  position: relative !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  box-sizing: border-box !important;
+}
+</style>
 
-</body>
+<div class="pf402s-transfers-ticker-fullbleed">
+  {{ partial "home-player-bottom-strip.html" . }}
+</div>
+<!-- PF402S_TRANSFERS_TICKER_FULL_WIDTH_END -->
+<script>
+(() => {
+  const page = document.querySelector('[data-transfer-page]');
+  if (!page) return;
+  const rows = [...page.querySelectorAll('[data-transfer-row]')];
+  const buttons = [...page.querySelectorAll('[data-filter]')];
+  const league = page.querySelector('[data-league-filter]');
+  const more = page.querySelector('[data-transfer-more]');
+  let active = 'all';
+  let expanded = false;
+  const limit = 10;
 
-</html>
+  const render = () => {
+    const leagueValue = league ? league.value : 'all';
+    const matched = rows.filter(row =>
+      (active === 'all' || row.dataset.type === active) &&
+      (leagueValue === 'all' || row.dataset.league === leagueValue)
+    );
+    rows.forEach(row => row.hidden = true);
+    matched.forEach((row, index) => row.hidden = !expanded && index >= limit);
+    if (more) {
+      more.hidden = matched.length <= limit;
+      more.textContent = expanded ? 'Свернуть' : 'Развернуть';
+    }
+  };
+
+  buttons.forEach(button => button.addEventListener('click', () => {
+    buttons.forEach(item => item.classList.remove('is-active'));
+    button.classList.add('is-active');
+    active = button.dataset.filter;
+    expanded = false;
+    render();
+  }));
+
+  if (league) league.addEventListener('change', () => {
+    expanded = false;
+    render();
+  });
+
+  if (more) more.addEventListener('click', () => {
+    expanded = !expanded;
+    render();
+  });
+
+  page.querySelectorAll('[data-transfer-expand]').forEach(button => {
+    button.addEventListener('click', event => {
+      event.preventDefault();
+      event.stopPropagation();
+      const row = button.closest('[data-transfer-row]');
+      const details = row.querySelector('[data-transfer-details]');
+      const open = button.getAttribute('aria-expanded') === 'true';
+      button.setAttribute('aria-expanded', String(!open));
+      button.textContent = open ? '⌄' : '⌃';
+      details.hidden = open;
+    });
+  });
+
+  render();
+})();
+</script>
+{{ end }}

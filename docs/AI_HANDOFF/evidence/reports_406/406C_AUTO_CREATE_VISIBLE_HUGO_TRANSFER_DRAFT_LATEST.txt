@@ -1,0 +1,29 @@
+STEP: 406C_AUTO_CREATE_VISIBLE_HUGO_TRANSFER_DRAFT
+STARTED_AT: 2026-07-22T19:54:50
+PUBLIC_GITHUB_PUBLISH: False
+ADMIN_REQUIRED: False
+MANUAL_FILE_COPY_REQUIRED: False
+PRECHECK[entity_id]: True
+PRECHECK[player]: True
+PRECHECK[status]: True
+PRECHECK[ready_route]: True
+PRECHECK[site_not_published]: True
+CONTENT_CHECK[title]: True
+CONTENT_CHECK[draft_true]: True
+CONTENT_CHECK[test_mode]: True
+CONTENT_CHECK[player_latin]: True
+CONTENT_CHECK[source_internal]: True
+CONTENT_CHECK[pending_blocks]: True
+HUGO_DRAFT_FILE: C:\Users\Dmitrii\Promyachik_CLEAN\content\transfers\mario-gila-ac-milan\index.md
+HUGO_EXIT_CODE: 0
+RENDERED_CHECK[page_rendered]: True
+RENDERED_CHECK[player_visible]: True
+RENDERED_CHECK[from_club_visible]: True
+RENDERED_CHECK[to_club_visible]: True
+RENDERED_CHECK[not_404]: True
+RENDERED_FILE: C:\Users\Dmitrii\ProFutbik\temp\406C\transfers\mario-gila-ac-milan\index.html
+LOCAL_URL: http://localhost:1313/promyachik/transfers/mario-gila-ac-milan/
+HUGO_PROJECT_CHANGED: local draft page added
+PUBLIC_SITE_CHANGED: False
+NEXT_STAGE: automatic club logos and player profile
+FINAL_STATUS: VISIBLE_HUGO_TRANSFER_DRAFT_CREATED

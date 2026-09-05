@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Эллиот Андерсон переходит в «Манчестер Сити»: £116 млн и медосмотр"
 description: "«Манчестер Сити» согласовал трансфер Эллиота Андерсона из «Ноттингем Форест» за £116 млн. Медосмотр, статус сделки и детали."
 date: 2026-06-25T23:00:00+02:00
@@ -10,7 +10,8 @@ layout: "single"
 status: "agreement"
 player: "Elliot Anderson"
 player_initials: "EA"
-player_id: 138908
+player_id: 138908
+
 market_value_display: "€75 млн"
 market_value: "€75 млн"
 player_image: "images/players/cutout/138908.png"
@@ -23,7 +24,7 @@ age: 23
 age_at_transfer: 23
 birth_date: "06.11.2002"
 nationality: "Англия"
-nationality_flag: "images/flags/england.svg"
+nationality_flag: "images/flags/countries/gb-eng.svg"
 preferred_foot: "Правая"
 
 from_club_id: 65
@@ -36,14 +37,15 @@ source_name: "Fabrizio Romano"
 source_url: "https://x.com/FabrizioRomano/status/2070259614206017553"
 previous_club_stats:
   label: "Nottingham Forest · сезон 2025/26"
-  matches: "—"
-  goals: "—"
-  assists: "—"
-  minutes: "—"
-  yellow_cards: "—"
-  red_cards: "—"
+  matches: "TBA"
+  goals: "TBA"
+  assists: "TBA"
+  minutes: "TBA"
+  yellow_cards: "TBA"
+  red_cards: "TBA"
   season: "2025/26"
   source_note: "Данные будут заполнены после синхронизации API-Football."
+nationality_flag_image: "images/flags/countries/gb-eng.svg"
 ---
 
 «Манчестер Сити» и «Ноттингем Форест» **согласовали трансфер Эллиота Андерсона за 116 миллионов фунтов**, сообщил Фабрицио Романо. Для игрока был назначен медицинский осмотр, а основные условия сделки между клубами согласованы.
@@ -160,3 +162,6 @@ previous_club_stats:
 
 О договорённости на £116 млн и назначенном медосмотре сообщил [Фабрицио Романо](https://x.com/FabrizioRomano/status/2070259614206017553).
 
+---
+
+**Источник:** Fabrizio Romano.

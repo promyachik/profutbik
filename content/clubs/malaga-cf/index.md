@@ -1,0 +1,196 @@
+---
+title: "Málaga CF: состав, стоимость и трансферы"
+description: "Состав клуба Málaga CF — 28 игроков, средний возраст 25,4. Общая стоимость команды €55,35 млн."
+date: "2026-09-02T18:37:47+03:00"
+url: "/clubs/malaga-cf/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Málaga CF"
+club_code: ""
+club_logo: "images/clubs/tm/rendered/1084-74f079fcce49.png"
+api_football_id: "535"
+club_city: "Málaga"
+club_country: ""
+league: "Ла Лига"
+league_id: "140"
+transfermarkt_club_id: "1084"
+squad_size: 28
+average_age: "25,4"
+squad_value: "€55,35 млн"
+squad_value_eur: 55350000
+average_value: "€1,98 млн"
+squad:
+  - name: "Chupe"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 22
+    value: "€10 млн"
+    tm_id: "780817"
+  - name: "Jens Cajuste"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 27
+    value: "€7 млн"
+    tm_id: "468066"
+  - name: "Adam Aznou"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 20
+    value: "€6 млн"
+    tm_id: "938146"
+  - name: "David Larrubia"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 24
+    value: "€5 млн"
+    tm_id: "635939"
+  - name: "Pablo Martínez"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 28
+    value: "€3 млн"
+    tm_id: "568835"
+  - name: "Fernando Calero"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 30
+    value: "€2 млн"
+    tm_id: "357884"
+  - name: "José Salinas"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 25
+    value: "€2 млн"
+    tm_id: "819590"
+  - name: "Izan Merino"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 20
+    value: "€2 млн"
+    tm_id: "1078436"
+  - name: "Adrián Niño"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 22
+    value: "€2 млн"
+    tm_id: "926849"
+  - name: "Juan Cruz"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 26
+    value: "€1,8 млн"
+    tm_id: "585700"
+  - name: "Juan Berrocal"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€1,5 млн"
+    tm_id: "461843"
+  - name: "Diego Murillo"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 25
+    value: "€1,5 млн"
+    tm_id: "635930"
+  - name: "Dani Lorenzo"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 23
+    value: "€1,5 млн"
+    tm_id: "960562"
+  - name: "Joaquín Muñoz"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 27
+    value: "€1,5 млн"
+    tm_id: "396334"
+  - name: "Carlos Dotor"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 25
+    value: "€1,2 млн"
+    tm_id: "623524"
+  - name: "Julen Lobete"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 25
+    value: "€1,2 млн"
+    tm_id: "625654"
+  - name: "Rafita Garrido"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 21
+    value: "€1 млн"
+    tm_id: "1064717"
+  - name: "Rafa Rodríguez"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 23
+    value: "€1 млн"
+    tm_id: "1057394"
+  - name: "Carlos Puga"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 25
+    value: "€800 тыс."
+    tm_id: "776703"
+  - name: "Aarón Ochoa"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 19
+    value: "€800 тыс."
+    tm_id: "1109577"
+  - name: "Eneko Jauregi"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 30
+    value: "€700 тыс."
+    tm_id: "376589"
+  - name: "Alfonso Herrero"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 32
+    value: "€400 тыс."
+    tm_id: "129478"
+  - name: "Einar Galilea"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 32
+    value: "€350 тыс."
+    tm_id: "251046"
+  - name: "Álex Pastor"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€300 тыс."
+    tm_id: "398056"
+  - name: "Ángel Recio"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 23
+    value: "€300 тыс."
+    tm_id: "897521"
+  - name: "Ramón Enríquez"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 25
+    value: "€200 тыс."
+    tm_id: "567222"
+  - name: "Haitam Abaida"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 24
+    value: "€200 тыс."
+    tm_id: "667996"
+  - name: "Carlos López"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 21
+    value: "€100 тыс."
+    tm_id: "1004298"
+club_transfers:
+---
+В заявке клуба Málaga CF — 28 игроков со средним возрастом 25,4 года. Общая стоимость команды по оценке Transfermarkt — €55,35 млн, в среднем €1,98 млн на игрока.
+
+Самый дорогой игрок состава — Chupe (центральный нападающий), его стоимость оценивается в €10 млн.

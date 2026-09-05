@@ -1,0 +1,594 @@
+{
+  "192": {
+    "url": "/clubs/1-fc-koln/",
+    "name": "1.FC Köln"
+  },
+  "182": {
+    "url": "/clubs/1-fc-union-berlin/",
+    "name": "1.FC Union Berlin"
+  },
+  "164": {
+    "url": "/clubs/1-fsv-mainz-05/",
+    "name": "1.FSV Mainz 05"
+  },
+  "489": {
+    "url": "/clubs/ac-milan/",
+    "name": "AC Milan"
+  },
+  "1579": {
+    "url": "/clubs/ac-monza/",
+    "name": "AC Monza"
+  },
+  "238": {
+    "url": "/clubs/academico-viseu-fc/",
+    "name": "Académico Viseu FC"
+  },
+  "502": {
+    "url": "/clubs/acf-fiorentina/",
+    "name": "ACF Fiorentina"
+  },
+  "35": {
+    "url": "/clubs/afc-bournemouth/",
+    "name": "AFC Bournemouth"
+  },
+  "108": {
+    "url": "/clubs/aj-auxerre/",
+    "name": "AJ Auxerre"
+  },
+  "1085": {
+    "url": "/clubs/akhmat-grozny/",
+    "name": "Akhmat Grozny"
+  },
+  "6786": {
+    "url": "/clubs/akron-tolyatti/",
+    "name": "Akron Tolyatti"
+  },
+  "996": {
+    "url": "/clubs/alanyaspor/",
+    "name": "Alanyaspor"
+  },
+  "3579": {
+    "url": "/clubs/amed-sk/",
+    "name": "Amed SK"
+  },
+  "77": {
+    "url": "/clubs/angers-sco/",
+    "name": "Angers SCO"
+  },
+  "42": {
+    "url": "/clubs/arsenal-fc/",
+    "name": "Arsenal FC"
+  },
+  "91": {
+    "url": "/clubs/as-monaco/",
+    "name": "AS Monaco"
+  },
+  "497": {
+    "url": "/clubs/as-roma/",
+    "name": "AS Roma"
+  },
+  "66": {
+    "url": "/clubs/aston-villa/",
+    "name": "Aston Villa"
+  },
+  "499": {
+    "url": "/clubs/atalanta-bc/",
+    "name": "Atalanta BC"
+  },
+  "531": {
+    "url": "/clubs/athletic-bilbao/",
+    "name": "Athletic Bilbao"
+  },
+  "530": {
+    "url": "/clubs/atletico-de-madrid/",
+    "name": "Atlético de Madrid"
+  },
+  "2006": {
+    "url": "/clubs/baltika-kaliningrad/",
+    "name": "Baltika Kaliningrad"
+  },
+  "564": {
+    "url": "/clubs/basaksehir-fk/",
+    "name": "Basaksehir FK"
+  },
+  "168": {
+    "url": "/clubs/bayer-04-leverkusen/",
+    "name": "Bayer 04 Leverkusen"
+  },
+  "157": {
+    "url": "/clubs/bayern-munich/",
+    "name": "Bayern Munich"
+  },
+  "549": {
+    "url": "/clubs/besiktas-jk/",
+    "name": "Besiktas JK"
+  },
+  "500": {
+    "url": "/clubs/bologna-fc-1909/",
+    "name": "Bologna FC 1909"
+  },
+  "165": {
+    "url": "/clubs/borussia-dortmund/",
+    "name": "Borussia Dortmund"
+  },
+  "163": {
+    "url": "/clubs/borussia-monchengladbach/",
+    "name": "Borussia Mönchengladbach"
+  },
+  "55": {
+    "url": "/clubs/brentford-fc/",
+    "name": "Brentford FC"
+  },
+  "51": {
+    "url": "/clubs/brighton-hove-albion/",
+    "name": "Brighton & Hove Albion"
+  },
+  "727": {
+    "url": "/clubs/ca-osasuna/",
+    "name": "CA Osasuna"
+  },
+  "490": {
+    "url": "/clubs/cagliari-calcio/",
+    "name": "Cagliari Calcio"
+  },
+  "4716": {
+    "url": "/clubs/casa-pia-ac/",
+    "name": "Casa Pia AC"
+  },
+  "1007": {
+    "url": "/clubs/caykur-rizespor/",
+    "name": "Caykur Rizespor"
+  },
+  "225": {
+    "url": "/clubs/cd-nacional/",
+    "name": "CD Nacional"
+  },
+  "227": {
+    "url": "/clubs/cd-santa-clara/",
+    "name": "CD Santa Clara"
+  },
+  "538": {
+    "url": "/clubs/celta-de-vigo/",
+    "name": "Celta de Vigo"
+  },
+  "15130": {
+    "url": "/clubs/cf-estrela-amadora/",
+    "name": "CF Estrela Amadora"
+  },
+  "49": {
+    "url": "/clubs/chelsea-fc/",
+    "name": "Chelsea FC"
+  },
+  "895": {
+    "url": "/clubs/como-1907/",
+    "name": "Como 1907"
+  },
+  "6343": {
+    "url": "/clubs/corum-fk/",
+    "name": "Corum FK"
+  },
+  "1346": {
+    "url": "/clubs/coventry-city/",
+    "name": "Coventry City"
+  },
+  "52": {
+    "url": "/clubs/crystal-palace/",
+    "name": "Crystal Palace"
+  },
+  "214": {
+    "url": "/clubs/cs-maritimo/",
+    "name": "CS Marítimo"
+  },
+  "555": {
+    "url": "/clubs/cska-moscow/",
+    "name": "CSKA Moscow"
+  },
+  "544": {
+    "url": "/clubs/deportivo-a-coruna/",
+    "name": "Deportivo A Coruña"
+  },
+  "542": {
+    "url": "/clubs/deportivo-alaves/",
+    "name": "Deportivo Alavés"
+  },
+  "6813": {
+    "url": "/clubs/dinamo-makhachkala/",
+    "name": "Dinamo Makhachkala"
+  },
+  "1088": {
+    "url": "/clubs/dynamo-moscow/",
+    "name": "Dynamo Moscow"
+  },
+  "169": {
+    "url": "/clubs/eintracht-frankfurt/",
+    "name": "Eintracht Frankfurt"
+  },
+  "797": {
+    "url": "/clubs/elche-cf/",
+    "name": "Elche CF"
+  },
+  "1009": {
+    "url": "/clubs/erzurumspor-fk/",
+    "name": "Erzurumspor FK"
+  },
+  "110": {
+    "url": "/clubs/estac-troyes/",
+    "name": "ESTAC Troyes"
+  },
+  "45": {
+    "url": "/clubs/everton-fc/",
+    "name": "Everton FC"
+  },
+  "3588": {
+    "url": "/clubs/eyupspor/",
+    "name": "Eyüpspor"
+  },
+  "1993": {
+    "url": "/clubs/fakel-voronezh/",
+    "name": "Fakel Voronezh"
+  },
+  "4724": {
+    "url": "/clubs/fc-alverca/",
+    "name": "FC Alverca"
+  },
+  "240": {
+    "url": "/clubs/fc-arouca/",
+    "name": "FC Arouca"
+  },
+  "170": {
+    "url": "/clubs/fc-augsburg/",
+    "name": "FC Augsburg"
+  },
+  "529": {
+    "url": "/clubs/fc-barcelona/",
+    "name": "FC Barcelona"
+  },
+  "242": {
+    "url": "/clubs/fc-famalicao/",
+    "name": "FC Famalicão"
+  },
+  "621": {
+    "url": "/clubs/fc-krasnodar/",
+    "name": "FC Krasnodar"
+  },
+  "97": {
+    "url": "/clubs/fc-lorient/",
+    "name": "FC Lorient"
+  },
+  "1080": {
+    "url": "/clubs/fc-orenburg/",
+    "name": "FC Orenburg"
+  },
+  "212": {
+    "url": "/clubs/fc-porto/",
+    "name": "FC Porto"
+  },
+  "779": {
+    "url": "/clubs/fc-rostov/",
+    "name": "FC Rostov"
+  },
+  "174": {
+    "url": "/clubs/fc-schalke-04/",
+    "name": "FC Schalke 04"
+  },
+  "96": {
+    "url": "/clubs/fc-toulouse/",
+    "name": "FC Toulouse"
+  },
+  "611": {
+    "url": "/clubs/fenerbahce/",
+    "name": "Fenerbahce"
+  },
+  "512": {
+    "url": "/clubs/frosinone-calcio/",
+    "name": "Frosinone Calcio"
+  },
+  "36": {
+    "url": "/clubs/fulham-fc/",
+    "name": "Fulham FC"
+  },
+  "645": {
+    "url": "/clubs/galatasaray/",
+    "name": "Galatasaray"
+  },
+  "3573": {
+    "url": "/clubs/gaziantep-fk/",
+    "name": "Gaziantep FK"
+  },
+  "230": {
+    "url": "/clubs/gd-estoril-praia/",
+    "name": "GD Estoril Praia"
+  },
+  "997": {
+    "url": "/clubs/genclerbirligi-ankara/",
+    "name": "Genclerbirligi Ankara"
+  },
+  "495": {
+    "url": "/clubs/genoa-cfc/",
+    "name": "Genoa CFC"
+  },
+  "546": {
+    "url": "/clubs/getafe-cf/",
+    "name": "Getafe CF"
+  },
+  "762": {
+    "url": "/clubs/gil-vicente-fc/",
+    "name": "Gil Vicente FC"
+  },
+  "994": {
+    "url": "/clubs/goztepe/",
+    "name": "Göztepe"
+  },
+  "175": {
+    "url": "/clubs/hamburger-sv/",
+    "name": "Hamburger SV"
+  },
+  "64": {
+    "url": "/clubs/hull-city/",
+    "name": "Hull City"
+  },
+  "505": {
+    "url": "/clubs/inter-milan/",
+    "name": "Inter Milan"
+  },
+  "57": {
+    "url": "/clubs/ipswich-town/",
+    "name": "Ipswich Town"
+  },
+  "496": {
+    "url": "/clubs/juventus-fc/",
+    "name": "Juventus FC"
+  },
+  "1004": {
+    "url": "/clubs/kasimpasa/",
+    "name": "Kasimpasa"
+  },
+  "7411": {
+    "url": "/clubs/kocaelispor/",
+    "name": "Kocaelispor"
+  },
+  "607": {
+    "url": "/clubs/konyaspor/",
+    "name": "Konyaspor"
+  },
+  "1079": {
+    "url": "/clubs/krylya-sovetov-samara/",
+    "name": "Krylya Sovetov Samara"
+  },
+  "111": {
+    "url": "/clubs/le-havre-ac/",
+    "name": "Le Havre AC"
+  },
+  "1298": {
+    "url": "/clubs/le-mans-fc/",
+    "name": "Le Mans FC"
+  },
+  "63": {
+    "url": "/clubs/leeds-united/",
+    "name": "Leeds United"
+  },
+  "539": {
+    "url": "/clubs/levante-ud/",
+    "name": "Levante UD"
+  },
+  "40": {
+    "url": "/clubs/liverpool-fc/",
+    "name": "Liverpool FC"
+  },
+  "597": {
+    "url": "/clubs/lokomotiv-moscow/",
+    "name": "Lokomotiv Moscow"
+  },
+  "79": {
+    "url": "/clubs/losc-lille/",
+    "name": "LOSC Lille"
+  },
+  "535": {
+    "url": "/clubs/malaga-cf/",
+    "name": "Málaga CF"
+  },
+  "50": {
+    "url": "/clubs/manchester-city/",
+    "name": "Manchester City"
+  },
+  "33": {
+    "url": "/clubs/manchester-united/",
+    "name": "Manchester United"
+  },
+  "215": {
+    "url": "/clubs/moreirense-fc/",
+    "name": "Moreirense FC"
+  },
+  "34": {
+    "url": "/clubs/newcastle-united/",
+    "name": "Newcastle United"
+  },
+  "65": {
+    "url": "/clubs/nottingham-forest/",
+    "name": "Nottingham Forest"
+  },
+  "84": {
+    "url": "/clubs/ogc-nice/",
+    "name": "OGC Nice"
+  },
+  "80": {
+    "url": "/clubs/olympique-lyon/",
+    "name": "Olympique Lyon"
+  },
+  "81": {
+    "url": "/clubs/olympique-marseille/",
+    "name": "Olympique Marseille"
+  },
+  "114": {
+    "url": "/clubs/paris-fc/",
+    "name": "Paris FC"
+  },
+  "85": {
+    "url": "/clubs/paris-saint-germain/",
+    "name": "Paris Saint-Germain"
+  },
+  "523": {
+    "url": "/clubs/parma-calcio-1913/",
+    "name": "Parma Calcio 1913"
+  },
+  "4665": {
+    "url": "/clubs/racing-santander/",
+    "name": "Racing Santander"
+  },
+  "728": {
+    "url": "/clubs/rayo-vallecano/",
+    "name": "Rayo Vallecano"
+  },
+  "173": {
+    "url": "/clubs/rb-leipzig/",
+    "name": "RB Leipzig"
+  },
+  "116": {
+    "url": "/clubs/rc-lens/",
+    "name": "RC Lens"
+  },
+  "95": {
+    "url": "/clubs/rc-strasbourg-alsace/",
+    "name": "RC Strasbourg Alsace"
+  },
+  "540": {
+    "url": "/clubs/rcd-espanyol-barcelona/",
+    "name": "RCD Espanyol Barcelona"
+  },
+  "543": {
+    "url": "/clubs/real-betis-balompie/",
+    "name": "Real Betis Balompié"
+  },
+  "541": {
+    "url": "/clubs/real-madrid/",
+    "name": "Real Madrid"
+  },
+  "548": {
+    "url": "/clubs/real-sociedad/",
+    "name": "Real Sociedad"
+  },
+  "226": {
+    "url": "/clubs/rio-ave-fc/",
+    "name": "Rio Ave FC"
+  },
+  "6822": {
+    "url": "/clubs/rodina-moscow/",
+    "name": "Rodina Moscow"
+  },
+  "1083": {
+    "url": "/clubs/rubin-kazan/",
+    "name": "Rubin Kazan"
+  },
+  "3603": {
+    "url": "/clubs/samsunspor/",
+    "name": "Samsunspor"
+  },
+  "217": {
+    "url": "/clubs/sc-braga/",
+    "name": "SC Braga"
+  },
+  "160": {
+    "url": "/clubs/sc-freiburg/",
+    "name": "SC Freiburg"
+  },
+  "185": {
+    "url": "/clubs/sc-paderborn-07/",
+    "name": "SC Paderborn 07"
+  },
+  "536": {
+    "url": "/clubs/sevilla-fc/",
+    "name": "Sevilla FC"
+  },
+  "211": {
+    "url": "/clubs/sl-benfica/",
+    "name": "SL Benfica"
+  },
+  "558": {
+    "url": "/clubs/spartak-moscow/",
+    "name": "Spartak Moscow"
+  },
+  "228": {
+    "url": "/clubs/sporting-cp/",
+    "name": "Sporting CP"
+  },
+  "487": {
+    "url": "/clubs/ss-lazio/",
+    "name": "SS Lazio"
+  },
+  "492": {
+    "url": "/clubs/ssc-napoli/",
+    "name": "SSC Napoli"
+  },
+  "106": {
+    "url": "/clubs/stade-brestois-29/",
+    "name": "Stade Brestois 29"
+  },
+  "94": {
+    "url": "/clubs/stade-rennais-fc/",
+    "name": "Stade Rennais FC"
+  },
+  "746": {
+    "url": "/clubs/sunderland-afc/",
+    "name": "Sunderland AFC"
+  },
+  "1660": {
+    "url": "/clubs/sv-07-elversberg/",
+    "name": "SV 07 Elversberg"
+  },
+  "162": {
+    "url": "/clubs/sv-werder-bremen/",
+    "name": "SV Werder Bremen"
+  },
+  "503": {
+    "url": "/clubs/torino-fc/",
+    "name": "Torino FC"
+  },
+  "47": {
+    "url": "/clubs/tottenham-hotspur/",
+    "name": "Tottenham Hotspur"
+  },
+  "998": {
+    "url": "/clubs/trabzonspor/",
+    "name": "Trabzonspor"
+  },
+  "167": {
+    "url": "/clubs/tsg-1899-hoffenheim/",
+    "name": "TSG 1899 Hoffenheim"
+  },
+  "494": {
+    "url": "/clubs/udinese-calcio/",
+    "name": "Udinese Calcio"
+  },
+  "867": {
+    "url": "/clubs/us-lecce/",
+    "name": "US Lecce"
+  },
+  "488": {
+    "url": "/clubs/us-sassuolo/",
+    "name": "US Sassuolo"
+  },
+  "532": {
+    "url": "/clubs/valencia-cf/",
+    "name": "Valencia CF"
+  },
+  "517": {
+    "url": "/clubs/venezia-fc/",
+    "name": "Venezia FC"
+  },
+  "172": {
+    "url": "/clubs/vfb-stuttgart/",
+    "name": "VfB Stuttgart"
+  },
+  "533": {
+    "url": "/clubs/villarreal-cf/",
+    "name": "Villarreal CF"
+  },
+  "224": {
+    "url": "/clubs/vitoria-guimaraes-sc/",
+    "name": "Vitória Guimarães SC"
+  },
+  "596": {
+    "url": "/clubs/zenit-st-petersburg/",
+    "name": "Zenit St. Petersburg"
+  }
+}

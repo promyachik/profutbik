@@ -1,68 +1,203 @@
-<link
-    rel="stylesheet"
-    href="{{ "css/header.css" | relURL }}"
->
+<style id="pf400d-header-roboto">
+  .pf-header-399m__brand,
+  .pf-header-399m__nav,
+  .pf-header-399m__nav a,
+  .pf-header__brand,
+  .pf-header__nav,
+  .pf-header__nav a,
+  .pf-header nav,
+  .pf-header nav a {
+    font-family: "Roboto Condensed", "Roboto", "Segoe UI", sans-serif !important;
+    font-style: normal;
+  }
+</style>
 
-<link
-    rel="stylesheet"
-    href="{{ "css/transfer-ticker.css" | relURL }}"
->
+<header class="pf-header-399m" data-pf-header="399M">
+  <style>
+    .pf-header-399m,
+    .pf-header-399m * {
+      box-sizing: border-box;
+    }
 
-<header class="pf-header">
+    .pf-header-399m {
+      position: relative;
+      z-index: 50;
+      width: 100%;
+      background:
+        radial-gradient(circle at 50% -95%, rgba(27, 49, 64, 0.18), transparent 58%),
+        linear-gradient(180deg, #080c0f 0%, #030506 100%);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.035);
+      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18);
+    }
 
-    <div class="pf-header__inner">
+    .pf-header-399m__inner {
+      width: min(1320px, calc(100% - 40px));
+      min-height: 72px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
 
-        <a
-            class="pf-header__logo"
-            href="{{ .Site.Home.RelPermalink }}"
-            aria-label="Главная страница Promyachik"
-        >
-            <img
-                class="pf-header__logo-image"
-                src="{{ "css/profutbik-logo-site.png" | relURL }}"
-                alt="Promyachik"
-            >
-        </a>
+    .pf-header-399m__brand {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      display: inline-flex;
+      align-items: center;
+      flex: 0 0 auto;
+      line-height: 0;
+      text-decoration: none;
+    }
 
-        <nav
-            class="pf-header__nav"
-            aria-label="Основная навигация"
-        >
-            <a
-                class="pf-header__nav-link{{ if .IsHome }} is-active{{ end }}"
-                href="{{ .Site.Home.RelPermalink }}"
-                {{ if .IsHome }}aria-current="page"{{ end }}
-            >
-                Главная
-            </a>
+    .pf-header-399m__logo {
+      display: block;
+      width: 126px;
+      height: auto;
+      max-height: 60px;
+    }
 
-            <a
-                class="pf-header__nav-link{{ if eq .Section "transfers" }} is-active{{ end }}"
-                href="{{ "transfers/" | relURL }}"
-                {{ if eq .Section "transfers" }}aria-current="page"{{ end }}
-            >
-                Трансферы
-            </a>
+    .pf-header-399m__nav {
+      min-height: 72px;
+      margin: 0 auto;
+      display: flex;
+      align-items: stretch;
+      gap: clamp(30px, 4vw, 60px);
+    }
 
-            <a
-                class="pf-header__nav-link{{ if eq .Section "news" }} is-active{{ end }}"
-                href="{{ "news/" | relURL }}"
-                {{ if eq .Section "news" }}aria-current="page"{{ end }}
-            >
-                Новости
-            </a>
+    .pf-header-399m__link {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      min-height: 72px;
+      padding: 2px 0 0;
+      color: rgba(245, 245, 245, 0.82);
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family: "Arial Narrow", "Roboto Condensed", "Segoe UI Semibold", "Segoe UI", sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      font-stretch: condensed;
+      line-height: 1;
+      letter-spacing: 0.12em;
+      white-space: nowrap;
+      transition: color 0.16s ease;
+    }
 
-            <a
-                class="pf-header__nav-link{{ if eq .Section "about" }} is-active{{ end }}"
-                href="{{ "about/" | relURL }}"
-                {{ if eq .Section "about" }}aria-current="page"{{ end }}
-            >
-                О проекте
-            </a>
-        </nav>
+    /* PF496A: новый раздел подсвечен неярко - тёплый оттенок и
+       тонкая точка рядом. Заметно, но не кричит. */
+    .pf496a-nav-clubs {
+      color: rgba(242, 201, 76, 0.92);
+    }
 
-    </div>
+    .pf496a-nav-clubs::before {
+      content: "";
+      position: absolute;
+      top: 22px;
+      right: -9px;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: #f2c94c;
+      opacity: 0.85;
+    }
 
+    .pf496a-nav-clubs:hover,
+    .pf496a-nav-clubs:focus-visible {
+      color: #f2c94c;
+    }
+
+    .pf-header-399m__link::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 14px;
+      height: 2px;
+      background: #f2c94c;
+      transform: scaleX(0);
+      transform-origin: center;
+      transition: transform 0.17s ease;
+      box-shadow: 0 0 8px rgba(242, 201, 76, 0.22);
+    }
+
+    .pf-header-399m__link:hover,
+    .pf-header-399m__link:focus-visible {
+      color: #ffffff;
+    }
+
+    .pf-header-399m__link:hover::after,
+    .pf-header-399m__link:focus-visible::after {
+      transform: scaleX(1);
+    }
+
+    @media (max-width: 960px) {
+      .pf-header-399m__inner {
+        width: min(100% - 24px, 1320px);
+        min-height: auto;
+        padding: 9px 0 7px;
+        flex-wrap: wrap;
+        gap: 6px 18px;
+      }
+
+      .pf-header-399m__brand {
+        position: static;
+        transform: none;
+      }
+
+      .pf-header-399m__logo {
+        width: 112px;
+      }
+
+      .pf-header-399m__nav {
+        order: 2;
+        width: 100%;
+        min-height: 42px;
+        margin-left: 0;
+        gap: 24px;
+        overflow-x: auto;
+        scrollbar-width: none;
+      }
+
+      .pf-header-399m__nav::-webkit-scrollbar {
+        display: none;
+      }
+
+      .pf-header-399m__link {
+        min-height: 42px;
+        font-size: 11px;
+      }
+
+      .pf-header-399m__link::after {
+        bottom: 1px;
+      }
+    }
+  </style>
+
+  <div class="pf-header-399m__inner">
+    <a
+      class="pf-header-399m__brand"
+      href="{{ .Site.Home.RelPermalink }}"
+      aria-label="PRO FUTBIK — главная"
+    >
+      <img
+        class="pf-header-399m__logo"
+        src="{{ "images/brand/profutbik-stacked-399m.svg" | relURL }}"
+        alt="PRO FUTBIK"
+        width="154"
+        height="66"
+      >
+    </a>
+
+    <nav class="pf-header-399m__nav" aria-label="Главная навигация">
+      <a class="pf-header-399m__link" href="{{ .Site.Home.RelPermalink }}">Главная</a>
+      <a class="pf-header-399m__link" href="{{ printf "%stransfers/" .Site.Home.RelPermalink }}">Трансферы</a>
+      <a class="pf-header-399m__link" href="{{ printf "%srumors/" .Site.Home.RelPermalink }}">Слухи</a>
+      <a class="pf-header-399m__link pf496a-nav-clubs" href="{{ printf "%sclubs/" .Site.Home.RelPermalink }}">Клубы</a>
+    </nav>
+  </div>
 </header>
 
 {{ partial "transfer-ticker.html" . }}

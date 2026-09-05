@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-07-23T19:45:00+02:00",
+  "project": "ProFutbik / Promyachik",
+  "active_hugo_project": "C:\\Users\\Dmitrii\\Promyachik_CLEAN",
+  "autosync_root": "C:\\Users\\Dmitrii\\Promyachik",
+  "infrastructure_root": "C:\\Users\\Dmitrii\\ProFutbik",
+  "workflow": "AutoSync ZIP -> root BAT -> report -> next ZIP",
+  "current_entity": {
+    "entity_id": "mario-gila__lazio__ac-milan",
+    "player": "Mario Gila",
+    "from_club": "Lazio",
+    "to_club": "AC Milan",
+    "slug": "mario-gila-ac-milan",
+    "status": "completed",
+    "status_label": "СОСТОЯЛСЯ",
+    "show_in_top_ticker": true,
+    "show_in_footer_ticker": false,
+    "draft": true,
+    "test_mode": true
+  },
+  "last_successful_step": "406H_INSTALL_AND_TEST_UNIVERSAL_TRANSFER_IMPORTER",
+  "last_failed_step": "406I_FIX_UNIVERSAL_UPPER_TICKER_STATUS_AND_LINK",
+  "current_bug": "Upper ticker maps unknown status completed to fallback class rumour, so label is correct but color is yellow.",
+  "next_action": "Minimal universal mapping fix in layouts/partials/transfer-ticker.html; validate green class, href, drag, seamless loop, and no lower ticker change.",
+  "full_backup_policy": "Only after user visually approves a completed block or explicitly requests backup.",
+  "source_of_truth": "Current files + latest report, not Git HEAD or memory."
+}

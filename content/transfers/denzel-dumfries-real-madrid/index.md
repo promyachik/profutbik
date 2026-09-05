@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Дензел Дюмфрис подписал контракт с «Реалом»: что известно о сделке"
 description: "Дензел Дюмфрис прошёл медосмотр и подписал четырёхлетний контракт с «Реалом». Последние детали перехода из «Интера» и текущий статус."
 date: 2026-06-09T10:00:00+02:00
@@ -10,7 +10,8 @@ layout: "single"
 status: "confirmed"
 player: "Denzel Dumfries"
 player_initials: "DD"
-player_id: 226
+player_id: 226
+
 market_value_display: "€25 млн"
 market_value: "€25 млн"
 player_image: "images/players/cutout/226.png"
@@ -23,7 +24,7 @@ age: 30
 age_at_transfer: 30
 birth_date: "18.04.1996"
 nationality: "Нидерланды"
-nationality_flag: "images/flags/netherlands.svg"
+nationality_flag: "images/flags/countries/nl.svg"
 preferred_foot: "Правая"
 
 from_club_id: 505
@@ -36,14 +37,16 @@ source_name: "Fabrizio Romano"
 source_url: "https://x.com/FabrizioRomano/status/2064229756812636414"
 previous_club_stats:
   label: "Inter · сезон 2025/26"
-  matches: "—"
-  goals: "—"
-  assists: "—"
-  minutes: "—"
-  yellow_cards: "—"
-  red_cards: "—"
+  matches: "TBA"
+  goals: "TBA"
+  assists: "TBA"
+  minutes: "TBA"
+  yellow_cards: "TBA"
+  red_cards: "TBA"
   season: "2025/26"
   source_note: "Данные будут заполнены после синхронизации API-Football."
+nationality_flag_image: "images/flags/countries/nl.svg"
+concept_art_image: "/promyachik/images/homepage/featured/denzel-dumfries-real-madrid-hero.png"
 ---
 
 Дензел Дюмфрис **подписал контракт с мадридским «Реалом» после прохождения медицинского обследования**, сообщил Фабрицио Романо. Соглашение рассчитано на четыре года.
@@ -159,4 +162,5 @@ previous_club_stats:
 
 
 Информация о контракте и медосмотре опубликована [Фабрицио Романо](https://x.com/FabrizioRomano/status/2064229756812636414).
+
 

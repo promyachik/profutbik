@@ -1,0 +1,202 @@
+---
+title: "Como 1907: состав, стоимость и трансферы"
+description: "Состав клуба Como 1907 — 29 игроков, средний возраст 25,7. Общая стоимость команды €536,75 млн."
+date: "2026-09-02T18:38:25+03:00"
+url: "/clubs/como-1907/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Como 1907"
+club_code: "COM"
+club_logo: "images/clubs/api/895.png"
+api_football_id: "895"
+club_city: "Como"
+club_country: "Italy"
+league: "Серия А"
+league_id: "135"
+transfermarkt_club_id: "1047"
+squad_size: 29
+average_age: "25,7"
+squad_value: "€536,75 млн"
+squad_value_eur: 536750000
+average_value: "€18,51 млн"
+squad:
+  - name: "Nico Paz"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 21
+    value: "€80 млн"
+    tm_id: "948294"
+  - name: "Martin Baturina"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 23
+    value: "€45 млн"
+    tm_id: "580451"
+  - name: "Trevoh Chalobah"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€40 млн"
+    tm_id: "346314"
+  - name: "Máximo Perrone"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 23
+    value: "€35 млн"
+    tm_id: "668547"
+  - name: "Moise Kean"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 26
+    value: "€32 млн"
+    tm_id: "364135"
+  - name: "Jacobo Ramón"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 21
+    value: "€30 млн"
+    tm_id: "948278"
+  - name: "Assane Diao"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 20
+    value: "€30 млн"
+    tm_id: "1061282"
+  - name: "Jesús Rodríguez"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 20
+    value: "€30 млн"
+    tm_id: "1190411"
+  - name: "Anastasios Douvikas"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 27
+    value: "€25 млн"
+    tm_id: "523318"
+  - name: "Robert Sánchez"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 28
+    value: "€22 млн"
+    tm_id: "403151"
+  - name: "Samuele Ricci"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 25
+    value: "€22 млн"
+    tm_id: "467992"
+  - name: "Lucas Da Cunha"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 25
+    value: "€20 млн"
+    tm_id: "495667"
+  - name: "Jayden Addai"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 21
+    value: "€20 млн"
+    tm_id: "747720"
+  - name: "Yan Couto"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 24
+    value: "€17 млн"
+    tm_id: "627228"
+  - name: "Kaiki"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 23
+    value: "€14 млн"
+    tm_id: "879217"
+  - name: "Maxence Caqueret"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 26
+    value: "€13 млн"
+    tm_id: "395237"
+  - name: "Álex Valle"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 22
+    value: "€12 млн"
+    tm_id: "709957"
+  - name: "Adrian Lahdo"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 18
+    value: "€10 млн"
+    tm_id: "1231993"
+  - name: "Mattia Liberali"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 19
+    value: "€8,5 млн"
+    tm_id: "988964"
+  - name: "Jean Butez"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 31
+    value: "€8 млн"
+    tm_id: "290537"
+  - name: "Alberto Dossena"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€6 млн"
+    tm_id: "385394"
+  - name: "Marc Oliver Kempf"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 31
+    value: "€3,5 млн"
+    tm_id: "160938"
+  - name: "Ivan Smolcic"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 26
+    value: "€3,5 млн"
+    tm_id: "571271"
+  - name: "Luis Milla"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 31
+    value: "€3,5 млн"
+    tm_id: "281989"
+  - name: "Willy Kambwala"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 22
+    value: "€3 млн"
+    tm_id: "780630"
+  - name: "Edoardo Goldaniga"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 32
+    value: "€2 млн"
+    tm_id: "242940"
+  - name: "Luca Mazzitelli"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 30
+    value: "€1,2 млн"
+    tm_id: "226025"
+  - name: "Marlon Mustapha"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 25
+    value: "€400 тыс."
+    tm_id: "532495"
+  - name: "Mauro Vigorito"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 36
+    value: "€150 тыс."
+    tm_id: "88595"
+club_transfers:
+---
+В заявке клуба Como 1907 — 29 игроков со средним возрастом 25,7 года. Общая стоимость команды по оценке Transfermarkt — €536,75 млн, в среднем €18,51 млн на игрока.
+
+Самый дорогой игрок состава — Nico Paz (атакующий полузащитник), его стоимость оценивается в €80 млн.

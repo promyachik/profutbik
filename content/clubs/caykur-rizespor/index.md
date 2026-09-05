@@ -1,0 +1,208 @@
+---
+title: "Caykur Rizespor: состав, стоимость и трансферы"
+description: "Состав клуба Caykur Rizespor — 30 игроков, средний возраст 24,3. Общая стоимость команды €44,00 млн."
+date: "2026-09-02T18:42:45+03:00"
+url: "/clubs/caykur-rizespor/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Caykur Rizespor"
+club_code: "RIZ"
+club_logo: "images/clubs/api/1007.png"
+api_football_id: "1007"
+club_city: "Merkez/RİZE"
+club_country: "Turkey"
+league: "Суперлига"
+league_id: "203"
+transfermarkt_club_id: "126"
+squad_size: 30
+average_age: "24,3"
+squad_value: "€44,00 млн"
+squad_value_eur: 44000000
+average_value: "€1,47 млн"
+squad:
+  - name: "Yahia Fofana"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 26
+    value: "€6 млн"
+    tm_id: "418651"
+  - name: "Valentin Mihăilă"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 26
+    value: "€3,5 млн"
+    tm_id: "535469"
+  - name: "Taha Şahin"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 25
+    value: "€3 млн"
+    tm_id: "616885"
+  - name: "Mithat Pala"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 26
+    value: "€3 млн"
+    tm_id: "703720"
+  - name: "Ahmed Kutucu"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 26
+    value: "€3 млн"
+    tm_id: "452084"
+  - name: "Qazim Laci"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 30
+    value: "€2,8 млн"
+    tm_id: "290552"
+  - name: "Siaka Bakayoko"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 21
+    value: "€2,5 млн"
+    tm_id: "986258"
+  - name: "Ibrahim Olawoyin"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 28
+    value: "€2,2 млн"
+    tm_id: "672597"
+  - name: "Attila Mocsi"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€2 млн"
+    tm_id: "496996"
+  - name: "Modibo Sagnan"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€2 млн"
+    tm_id: "524925"
+  - name: "Zakaria Ariss"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 22
+    value: "€2 млн"
+    tm_id: "982403"
+  - name: "Tayyip Talha Sanuç"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€1,5 млн"
+    tm_id: "462772"
+  - name: "Adedire Mebude"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 22
+    value: "€1,5 млн"
+    tm_id: "719672"
+  - name: "Ali Sowe"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 32
+    value: "€1,5 млн"
+    tm_id: "229817"
+  - name: "Khusniddin Alikulov"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€1,2 млн"
+    tm_id: "581429"
+  - name: "Dal Varesanovic"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 25
+    value: "€1,2 млн"
+    tm_id: "433105"
+  - name: "Moussa Diakité"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 22
+    value: "€1 млн"
+    tm_id: "979235"
+  - name: "Mame Mor Faye"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 21
+    value: "€1 млн"
+    tm_id: "1111241"
+  - name: "Zafer Görgen"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 26
+    value: "€800 тыс."
+    tm_id: "576566"
+  - name: "Taylan Antalyalı"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 31
+    value: "€700 тыс."
+    tm_id: "204176"
+  - name: "Umut Erdem"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 22
+    value: "€600 тыс."
+    tm_id: "875116"
+  - name: "Emrecan Bulut"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 23
+    value: "€600 тыс."
+    tm_id: "1050797"
+  - name: "Efe Doğan"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 22
+    value: "€150 тыс."
+    tm_id: "966488"
+  - name: "Mustafa Coşkun Tosun"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 17
+    value: "€150 тыс."
+    tm_id: "1474364"
+  - name: "Iustin Doicaru"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 19
+    value: "€100 тыс."
+    tm_id: "1050693"
+  - name: "Hasan Yağız Döne"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 15
+    value: ""
+    tm_id: "1581401"
+  - name: "Habil Özbakır"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 21
+    value: ""
+    tm_id: "1071936"
+  - name: "Yakup Ayan"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 18
+    value: ""
+    tm_id: "1351512"
+  - name: "Emirhan Yılmaz"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 22
+    value: ""
+    tm_id: "951697"
+  - name: "Muhammed Baltacı"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 20
+    value: ""
+    tm_id: "1303293"
+club_transfers:
+---
+В заявке клуба Caykur Rizespor — 30 игроков со средним возрастом 24,3 года. Общая стоимость команды по оценке Transfermarkt — €44,00 млн, в среднем €1,47 млн на игрока.
+
+Самый дорогой игрок состава — Yahia Fofana (вратарь), его стоимость оценивается в €6 млн.

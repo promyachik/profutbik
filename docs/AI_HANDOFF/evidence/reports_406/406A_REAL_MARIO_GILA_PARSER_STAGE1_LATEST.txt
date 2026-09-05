@@ -1,0 +1,33 @@
+STEP: 406A_REAL_MARIO_GILA_PARSER_STAGE1
+STARTED_AT: 2026-07-22T19:47:14
+SOURCE_URL: https://www.acmilan.com/en/news/articles/media/2026-07-10/official-statement-mario-gila
+SITE_PUBLICATION_ENABLED: False
+ADMIN_REQUIRED: False
+HTTP_STATUS: 200
+CONTENT_TYPE: text/html; charset=utf-8
+DOWNLOADED_BYTES: 433321
+SOURCE_CHECK[player]: True
+SOURCE_CHECK[from_club]: True
+SOURCE_CHECK[to_club]: True
+SOURCE_CHECK[official_action]: True
+RAW_FILE: C:\Users\Dmitrii\ProFutbik\parser\raw\mario-gila__lazio__ac-milan__7eb9bc0f4d24.html
+RAW_SHA256: 7eb9bc0f4d247738efb7d0039e4fe174f157a7dc841da88c894fdbec22f861ab
+RECORD_FILE: C:\Users\Dmitrii\ProFutbik\parser\state\records\mario-gila__lazio__ac-milan.json
+HISTORY_FILE: C:\Users\Dmitrii\ProFutbik\parser\state\history\mario-gila__lazio__ac-milan.jsonl
+SOURCE_CONFIG: C:\Users\Dmitrii\ProFutbik\parser\config\official_sources.json
+FINAL_CHECK[entity_id_correct]: True
+FINAL_CHECK[player_latin]: True
+FINAL_CHECK[status_official]: True
+FINAL_CHECK[news_section]: True
+FINAL_CHECK[transfers_section]: True
+FINAL_CHECK[rumors_excluded]: True
+FINAL_CHECK[fee_not_invented]: True
+FINAL_CHECK[site_not_changed]: True
+PLAYER: Mario Gila
+ROUTE: Lazio -> AC Milan
+CLASSIFICATION: official
+SECTIONS: news, transfers
+FEE: not disclosed; not invented
+DUPLICATE_POLICY: same entity_id updates same record
+HUGO_PROJECT_CHANGED: False
+FINAL_STATUS: REAL_TRANSFER_PARSED

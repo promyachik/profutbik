@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Служебные и черновые разделы в индекс не нужны
+Disallow: /promyachik/categories/
+Disallow: /promyachik/tags/
+
+Sitemap: {{ "sitemap.xml" | absURL }}

@@ -1,0 +1,196 @@
+---
+title: "FC Porto: состав, стоимость и трансферы"
+description: "Состав клуба FC Porto — 28 игроков, средний возраст 25,7. Общая стоимость команды €451,30 млн."
+date: "2026-09-02T18:43:46+03:00"
+url: "/clubs/fc-porto/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "FC Porto"
+club_code: "POR"
+club_logo: "images/clubs/api/212.png"
+api_football_id: "212"
+club_city: "Porto"
+club_country: "Portugal"
+league: "Примейра"
+league_id: "94"
+transfermarkt_club_id: "720"
+squad_size: 28
+average_age: "25,7"
+squad_value: "€451,30 млн"
+squad_value_eur: 451300000
+average_value: "€16,12 млн"
+squad:
+  - name: "Victor Froholdt"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 20
+    value: "€50 млн"
+    tm_id: "926993"
+  - name: "Samu Aghehowa"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 22
+    value: "€45 млн"
+    tm_id: "991268"
+  - name: "Diogo Costa"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 26
+    value: "€40 млн"
+    tm_id: "357153"
+  - name: "Jakub Kiwior"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€35 млн"
+    tm_id: "425918"
+  - name: "Alan Varela"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 25
+    value: "€32 млн"
+    tm_id: "756990"
+  - name: "Gabri Veiga"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 24
+    value: "€30 млн"
+    tm_id: "699704"
+  - name: "Oskar Pietuszewski"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 18
+    value: "€25 млн"
+    tm_id: "1162012"
+  - name: "William Gomes"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 20
+    value: "€25 млн"
+    tm_id: "1004725"
+  - name: "Borja Sainz"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 25
+    value: "€20 млн"
+    tm_id: "634461"
+  - name: "Alberto Costa"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 22
+    value: "€18 млн"
+    tm_id: "877139"
+  - name: "Santiago Gimenez"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 25
+    value: "€18 млн"
+    tm_id: "552955"
+  - name: "Pepê"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 29
+    value: "€17 млн"
+    tm_id: "520662"
+  - name: "Nehuén Pérez"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€12 млн"
+    tm_id: "491693"
+  - name: "Souza"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 20
+    value: "€12 млн"
+    tm_id: "1086258"
+  - name: "Martim Fernandes"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 20
+    value: "€12 млн"
+    tm_id: "935480"
+  - name: "Jan Bednarek"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 30
+    value: "€11 млн"
+    tm_id: "243028"
+  - name: "Francisco Moura"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 27
+    value: "€9 млн"
+    tm_id: "478365"
+  - name: "Pablo Rosario"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 29
+    value: "€8 млн"
+    tm_id: "370791"
+  - name: "Seko Fofana"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 31
+    value: "€8 млн"
+    tm_id: "182893"
+  - name: "In-beom Hwang"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 29
+    value: "€7 млн"
+    tm_id: "365394"
+  - name: "Dominik Prpić"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 22
+    value: "€4 млн"
+    tm_id: "921533"
+  - name: "Zaidu Sanusi"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 29
+    value: "€3 млн"
+    tm_id: "544784"
+  - name: "André Silva"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 30
+    value: "€3 млн"
+    tm_id: "198008"
+  - name: "Gabriel Veron"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 23
+    value: "€2,5 млн"
+    tm_id: "627221"
+  - name: "Vasco Sousa"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 23
+    value: "€2 млн"
+    tm_id: "575716"
+  - name: "João Afonso"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 19
+    value: "€1,5 млн"
+    tm_id: "1083369"
+  - name: "Cláudio Ramos"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 34
+    value: "€800 тыс."
+    tm_id: "155396"
+  - name: "João Costa"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 30
+    value: "€500 тыс."
+    tm_id: "198638"
+club_transfers:
+---
+В заявке клуба FC Porto — 28 игроков со средним возрастом 25,7 года. Общая стоимость команды по оценке Transfermarkt — €451,30 млн, в среднем €16,12 млн на игрока.
+
+Самый дорогой игрок состава — Victor Froholdt (центральный полузащитник), его стоимость оценивается в €50 млн.

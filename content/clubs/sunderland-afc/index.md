@@ -1,0 +1,215 @@
+---
+title: "Sunderland AFC: состав, стоимость и трансферы"
+description: "Состав клуба Sunderland AFC — 30 игроков, средний возраст 25,7. Общая стоимость команды €443,62 млн."
+date: "2026-09-02T18:36:01+03:00"
+url: "/clubs/sunderland-afc/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Sunderland AFC"
+club_code: ""
+club_logo: "images/clubs/api/rendered/746-4ebea02c3573.png"
+api_football_id: "746"
+club_city: "Sunderland"
+club_country: ""
+league: "Премьер-лига"
+league_id: "39"
+transfermarkt_club_id: "289"
+squad_size: 30
+average_age: "25,7"
+squad_value: "€443,62 млн"
+squad_value_eur: 443625000
+average_value: "€14,79 млн"
+squad:
+  - name: "Brian Brobbey"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 24
+    value: "€40 млн"
+    tm_id: "473169"
+  - name: "Habib Diarra"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 22
+    value: "€35 млн"
+    tm_id: "876631"
+  - name: "Noah Sadiki"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 21
+    value: "€35 млн"
+    tm_id: "727089"
+  - name: "Malick Fofana"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 21
+    value: "€30 млн"
+    tm_id: "743386"
+  - name: "Robin Roefs"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 23
+    value: "€28 млн"
+    tm_id: "646991"
+  - name: "Enzo Le Fée"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 26
+    value: "€28 млн"
+    tm_id: "633992"
+  - name: "Chris Rigg"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 19
+    value: "€25 млн"
+    tm_id: "947411"
+  - name: "Chemsdine Talbi"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 21
+    value: "€25 млн"
+    tm_id: "743384"
+  - name: "Trai Hume"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 24
+    value: "€22 млн"
+    tm_id: "515544"
+  - name: "Simon Adingra"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 24
+    value: "€22 млн"
+    tm_id: "658536"
+  - name: "Kevin Danso"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€20 млн"
+    tm_id: "263236"
+  - name: "Dan Ballard"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€20 млн"
+    tm_id: "503686"
+  - name: "Dayann Méthalie"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 20
+    value: "€18 млн"
+    tm_id: "1191444"
+  - name: "Wilson Isidor"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 26
+    value: "€18 млн"
+    tm_id: "494237"
+  - name: "Nilson Angulo"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 23
+    value: "€17 млн"
+    tm_id: "903611"
+  - name: "Nordi Mukiele"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 28
+    value: "€16 млн"
+    tm_id: "348026"
+  - name: "Omar Alderete"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 29
+    value: "€13 млн"
+    tm_id: "353032"
+  - name: "Granit Xhaka"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 33
+    value: "€8 млн"
+    tm_id: "111455"
+  - name: "Romaine Mundle"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 23
+    value: "€7 млн"
+    tm_id: "696181"
+  - name: "Reinildo Mandava"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 32
+    value: "€4 млн"
+    tm_id: "240692"
+  - name: "Melker Ellborg"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 23
+    value: "€3 млн"
+    tm_id: "605426"
+  - name: "Jocelin Ta Bi"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 21
+    value: "€2,5 млн"
+    tm_id: "1322090"
+  - name: "Alan Browne"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 31
+    value: "€2 млн"
+    tm_id: "277697"
+  - name: "Thomas Meunier"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 34
+    value: "€1,5 млн"
+    tm_id: "100986"
+  - name: "Abdoullah Ba"
+    position: "Правый полузащитник"
+    position_short: "RM"
+    age: 23
+    value: "€1,5 млн"
+    tm_id: "654412"
+  - name: "Luke O'Nien"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 31
+    value: "€700 тыс."
+    tm_id: "282939"
+  - name: "Aji Alese"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 25
+    value: "€700 тыс."
+    tm_id: "502065"
+  - name: "Juan Riquelme Angulo"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 18
+    value: "€350 тыс."
+    tm_id: "1257410"
+  - name: "Jules Ahoka"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 20
+    value: "€300 тыс."
+    tm_id: "1401779"
+  - name: "Simon Moore"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 36
+    value: "€75 тыс."
+    tm_id: "123536"
+club_transfers:
+  - player: "Anthony Patterson"
+    slug: "anthony-patterson-wrexham"
+    direction: "out"
+    other_club: "Wrexham"
+    fee: "Около £8 млн"
+---
+В заявке клуба Sunderland AFC — 30 игроков со средним возрастом 25,7 года. Общая стоимость команды по оценке Transfermarkt — €443,62 млн, в среднем €14,79 млн на игрока.
+
+Самый дорогой игрок состава — Brian Brobbey (центральный нападающий), его стоимость оценивается в €40 млн.
+
+Трансферы клуба, о которых мы писали: ушли 1.

@@ -1,0 +1,202 @@
+---
+title: "CSKA Moscow: состав, стоимость и трансферы"
+description: "Состав клуба CSKA Moscow — 29 игроков, средний возраст 24,1. Общая стоимость команды €111,10 млн."
+date: "2026-09-02T18:45:33+03:00"
+url: "/clubs/cska-moscow/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "CSKA Moscow"
+club_code: "CSK"
+club_logo: "images/clubs/api/555.png"
+api_football_id: "555"
+club_city: "Moscow"
+club_country: "Russia"
+league: "РПЛ"
+league_id: "235"
+transfermarkt_club_id: "2410"
+squad_size: 29
+average_age: "24,1"
+squad_value: "€111,10 млн"
+squad_value_eur: 111100000
+average_value: "€3,83 млн"
+squad:
+  - name: "Matvey Kislyak"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 21
+    value: "€25 млн"
+    tm_id: "651580"
+  - name: "Ivan Oblyakov"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 28
+    value: "€10 млн"
+    tm_id: "419845"
+  - name: "Kirill Glebov"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 20
+    value: "€10 млн"
+    tm_id: "865414"
+  - name: "Dmitriy Barinov"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 29
+    value: "€7,5 млн"
+    tm_id: "263905"
+  - name: "Luciano Gondou"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 25
+    value: "€7 млн"
+    tm_id: "851111"
+  - name: "Matheus Alves"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 21
+    value: "€6 млн"
+    tm_id: "1127813"
+  - name: "Danil Krugovoy"
+    position: "Левый полузащитник"
+    position_short: "LM"
+    age: 28
+    value: "€5 млн"
+    tm_id: "372535"
+  - name: "Matvey Lukin"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 22
+    value: "€4 млн"
+    tm_id: "624340"
+  - name: "Moisés"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 31
+    value: "€4 млн"
+    tm_id: "368468"
+  - name: "Milan Gajic"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 30
+    value: "€3,5 млн"
+    tm_id: "245030"
+  - name: "Henrique Carmo"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 19
+    value: "€3,5 млн"
+    tm_id: "1009031"
+  - name: "João Victor"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 28
+    value: "€3 млн"
+    tm_id: "671145"
+  - name: "Danila Kozlov"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 21
+    value: "€3 млн"
+    tm_id: "720287"
+  - name: "Kirill Danilov"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 19
+    value: "€2,5 млн"
+    tm_id: "1131030"
+  - name: "Matheus Reis"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 31
+    value: "€2,5 млн"
+    tm_id: "379249"
+  - name: "Tamerlan Musaev"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 25
+    value: "€2,5 млн"
+    tm_id: "654117"
+  - name: "Maksim Borisko"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 26
+    value: "€2 млн"
+    tm_id: "526448"
+  - name: "Maksim Voronov"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 18
+    value: "€2 млн"
+    tm_id: "1141473"
+  - name: "Matija Popović"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 20
+    value: "€1,8 млн"
+    tm_id: "1012421"
+  - name: "Vladislav Torop"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 22
+    value: "€1,5 млн"
+    tm_id: "555146"
+  - name: "Igor Akinfeev"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 40
+    value: "€1 млн"
+    tm_id: "15570"
+  - name: "Dzhamalutdin Abdulkadyrov"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 21
+    value: "€900 тыс."
+    tm_id: "917402"
+  - name: "Ramiro Di Luciano"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 22
+    value: "€800 тыс."
+    tm_id: "878219"
+  - name: "Artem Bandikyan"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 20
+    value: "€750 тыс."
+    tm_id: "917403"
+  - name: "Artem Shumanskiy"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 21
+    value: "€700 тыс."
+    tm_id: "898119"
+  - name: "Imran Firov"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 18
+    value: "€500 тыс."
+    tm_id: "1242657"
+  - name: "Artem Serikov"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 19
+    value: "€150 тыс."
+    tm_id: "1052489"
+  - name: "Egor Besaev"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 20
+    value: ""
+    tm_id: "864314"
+  - name: "Nikolay Barovskiy"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 19
+    value: ""
+    tm_id: "960578"
+club_transfers:
+---
+В заявке клуба CSKA Moscow — 29 игроков со средним возрастом 24,1 года. Общая стоимость команды по оценке Transfermarkt — €111,10 млн, в среднем €3,83 млн на игрока.
+
+Самый дорогой игрок состава — Matvey Kislyak (центральный полузащитник), его стоимость оценивается в €25 млн.

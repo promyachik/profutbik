@@ -1,0 +1,190 @@
+---
+title: "Rubin Kazan: состав, стоимость и трансферы"
+description: "Состав клуба Rubin Kazan — 27 игроков, средний возраст 26,4. Общая стоимость команды €44,95 млн."
+date: "2026-09-02T18:45:47+03:00"
+url: "/clubs/rubin-kazan/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Rubin Kazan"
+club_code: "RUB"
+club_logo: "images/clubs/api/1083.png"
+api_football_id: "1083"
+club_city: "Kazan"
+club_country: "Russia"
+league: "РПЛ"
+league_id: "235"
+transfermarkt_club_id: "2698"
+squad_size: 27
+average_age: "26,4"
+squad_value: "€44,95 млн"
+squad_value_eur: 44950000
+average_value: "€1,66 млн"
+squad:
+  - name: "Ilya Rozhkov"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 21
+    value: "€5 млн"
+    tm_id: "700385"
+  - name: "Veldin Hodza"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 23
+    value: "€4 млн"
+    tm_id: "619279"
+  - name: "Ugochukwu Iwu"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 26
+    value: "€3 млн"
+    tm_id: "565852"
+  - name: "Egor Teslenko"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 25
+    value: "€2,8 млн"
+    tm_id: "584231"
+  - name: "Igor Vujacic"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 32
+    value: "€2,8 млн"
+    tm_id: "227538"
+  - name: "Evgeniy Staver"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 28
+    value: "€2,5 млн"
+    tm_id: "389624"
+  - name: "Anderson Arroyo"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 26
+    value: "€2,5 млн"
+    tm_id: "426326"
+  - name: "Ignacio Saavedra"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 27
+    value: "€2,5 млн"
+    tm_id: "401706"
+  - name: "Nazmi Gripshi"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 29
+    value: "€2,5 млн"
+    tm_id: "355692"
+  - name: "Jacques Siwe"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 25
+    value: "€2,5 млн"
+    tm_id: "804933"
+  - name: "Denil Maldonado"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 28
+    value: "€2 млн"
+    tm_id: "401769"
+  - name: "Ilya Samoshnikov"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 28
+    value: "€2 млн"
+    tm_id: "522030"
+  - name: "Dardan Shabanhaxhaj"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 25
+    value: "€1,5 млн"
+    tm_id: "452464"
+  - name: "Jakhongir Urozov"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 22
+    value: "€1,2 млн"
+    tm_id: "989069"
+  - name: "Aleksey Gritsaenko"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 31
+    value: "€1 млн"
+    tm_id: "379634"
+  - name: "Nikita Lobov"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 21
+    value: "€1 млн"
+    tm_id: "720281"
+  - name: "Ruslan Bezrukov"
+    position: "Левый полузащитник"
+    position_short: "LM"
+    age: 24
+    value: "€1 млн"
+    tm_id: "685854"
+  - name: "Bogdan Jocic"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 25
+    value: "€900 тыс."
+    tm_id: "574669"
+  - name: "Konstantin Nizhegorodov"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 24
+    value: "€700 тыс."
+    tm_id: "604073"
+  - name: "Aleksandar Jukic"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 26
+    value: "€700 тыс."
+    tm_id: "393699"
+  - name: "Maksim Ignatjev"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 26
+    value: "€600 тыс."
+    tm_id: "908186"
+  - name: "Daniil Motorin"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 22
+    value: "€600 тыс."
+    tm_id: "726446"
+  - name: "Daniil Kuznetsov"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 23
+    value: "€500 тыс."
+    tm_id: "522145"
+  - name: "Dmitriy Kabutov"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 34
+    value: "€400 тыс."
+    tm_id: "148118"
+  - name: "Artur Nigmatullin"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 35
+    value: "€300 тыс."
+    tm_id: "70074"
+  - name: "Uros Drezgic"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 23
+    value: "€250 тыс."
+    tm_id: "615642"
+  - name: "Nikita Korets"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 21
+    value: "€200 тыс."
+    tm_id: "697943"
+club_transfers:
+---
+В заявке клуба Rubin Kazan — 27 игроков со средним возрастом 26,4 года. Общая стоимость команды по оценке Transfermarkt — €44,95 млн, в среднем €1,66 млн на игрока.
+
+Самый дорогой игрок состава — Ilya Rozhkov (левый защитник), его стоимость оценивается в €5 млн.

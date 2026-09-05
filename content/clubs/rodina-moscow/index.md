@@ -1,0 +1,190 @@
+---
+title: "Rodina Moscow: состав, стоимость и трансферы"
+description: "Состав клуба Rodina Moscow — 27 игроков, средний возраст 27,7. Общая стоимость команды €21,20 млн."
+date: "2026-09-02T18:46:12+03:00"
+url: "/clubs/rodina-moscow/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Rodina Moscow"
+club_code: ""
+club_logo: "images/clubs/tm/rendered/59024-6f4bd6d754d2.png"
+api_football_id: "6822"
+club_city: "Moscow"
+club_country: ""
+league: "РПЛ"
+league_id: "235"
+transfermarkt_club_id: "59024"
+squad_size: 27
+average_age: "27,7"
+squad_value: "€21,20 млн"
+squad_value_eur: 21200000
+average_value: "€785,19 тыс."
+squad:
+  - name: "Mickaël Nadé"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€3 млн"
+    tm_id: "494586"
+  - name: "German Onugkha"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 30
+    value: "€1,8 млн"
+    tm_id: "568318"
+  - name: "Iker Pozo"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 26
+    value: "€1,5 млн"
+    tm_id: "445096"
+  - name: "Sergey Volkov"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 31
+    value: "€1,2 млн"
+    tm_id: "402434"
+  - name: "Mitja Krizan"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 29
+    value: "€1,2 млн"
+    tm_id: "413524"
+  - name: "Ruslan Fishchenko"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 26
+    value: "€1,2 млн"
+    tm_id: "535968"
+  - name: "Brian Mansilla"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 29
+    value: "€1,2 млн"
+    tm_id: "373374"
+  - name: "Artem Maksimenko"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 28
+    value: "€1,2 млн"
+    tm_id: "310132"
+  - name: "Ivan Timoshenko"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 27
+    value: "€1,2 млн"
+    tm_id: "653776"
+  - name: "Artem Meshchaninov"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 30
+    value: "€1 млн"
+    tm_id: "380349"
+  - name: "Artem Sokol"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 29
+    value: "€800 тыс."
+    tm_id: "330780"
+  - name: "Ilya Dyatlov"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 22
+    value: "€700 тыс."
+    tm_id: "869527"
+  - name: "Stanislav Bessmertniy"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 22
+    value: "€600 тыс."
+    tm_id: "817673"
+  - name: "Soltmurad Bakaev"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 27
+    value: "€600 тыс."
+    tm_id: "416704"
+  - name: "Magomedkhabib Abdusalamov"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 23
+    value: "€500 тыс."
+    tm_id: "686193"
+  - name: "Leo Goglichidze"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 29
+    value: "€450 тыс."
+    tm_id: "334481"
+  - name: "Leon Musaev"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 27
+    value: "€400 тыс."
+    tm_id: "375668"
+  - name: "Andrey Egorychev"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 33
+    value: "€400 тыс."
+    tm_id: "447257"
+  - name: "Dmitriy Tananeev"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 28
+    value: "€350 тыс."
+    tm_id: "461687"
+  - name: "Dmitriy Shadrintsev"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 27
+    value: "€350 тыс."
+    tm_id: "575401"
+  - name: "Yordy Reyna"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 32
+    value: "€350 тыс."
+    tm_id: "200779"
+  - name: "Kerfala Cissoko"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 27
+    value: "€300 тыс."
+    tm_id: "591862"
+  - name: "Kirill Ushatov"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 26
+    value: "€250 тыс."
+    tm_id: "576743"
+  - name: "Astemir Gordyushenko"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 29
+    value: "€250 тыс."
+    tm_id: "334429"
+  - name: "Artur Gharibyan"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 20
+    value: "€225 тыс."
+    tm_id: "1064063"
+  - name: "Ilya Svinov"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 25
+    value: "€150 тыс."
+    tm_id: "599150"
+  - name: "Sergey Aydarov"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 28
+    value: "€25 тыс."
+    tm_id: "461682"
+club_transfers:
+---
+В заявке клуба Rodina Moscow — 27 игроков со средним возрастом 27,7 года. Общая стоимость команды по оценке Transfermarkt — €21,20 млн, в среднем €785,19 тыс. на игрока.
+
+Самый дорогой игрок состава — Mickaël Nadé (центральный защитник), его стоимость оценивается в €3 млн.

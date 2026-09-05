@@ -1,0 +1,40 @@
+STEP: 406E_TEST_ONE_TRANSFER_TO_HOME_AND_UPPER_TICKER
+STARTED_AT: 2026-07-22T20:18:47
+TEST_PLAYER: Mario Gila
+TEST_FLOW: page -> homepage transfers -> upper ticker
+PHOTO_STAGE_ENABLED: False
+PUBLIC_GITHUB_PUBLISH: False
+ADMIN_REQUIRED: False
+DRAFT_CHECK[entity_id]: True
+DRAFT_CHECK[player_latin]: True
+DRAFT_CHECK[official]: True
+DRAFT_CHECK[transfers_route]: True
+SOURCE_CHECK[upper_uses_transfer_data]: True
+SOURCE_CHECK[upper_item_class]: True
+SOURCE_CHECK[upper_link_uses_url]: True
+SOURCE_CHECK[lower_ticker_present]: True
+TARGETED_BACKUP: C:\Users\Dmitrii\ProFutbik\patch-backups\406E_2026-07-22_20-18-47
+TRANSFER_PAGE_FILE: C:\Users\Dmitrii\Promyachik_CLEAN\content\transfers\mario-gila-ac-milan\index.md
+HOMEPAGE_DATA_FILE: C:\Users\Dmitrii\Promyachik_CLEAN\data\homepage_transfer_rumor.json
+UPPER_TICKER_DATA_FILE: C:\Users\Dmitrii\Promyachik_CLEAN\data\transfers.json
+DATA_CHECK[home_single_entity]: True
+DATA_CHECK[ticker_single_entity]: True
+DATA_CHECK[home_entity_first]: True
+DATA_CHECK[ticker_entity_first]: True
+DATA_CHECK[top_ticker_enabled]: True
+DATA_CHECK[bottom_ticker_disabled]: True
+HUGO_EXIT_CODE: 0
+RENDERED_CHECK[homepage_transfer_visible]: True
+RENDERED_CHECK[upper_ticker_visible]: False
+ROLLBACK_DONE: True
+ERROR: RuntimeError: Rendered validation failed: upper_ticker_visible
+Traceback (most recent call last):
+  File "C:\Users\Dmitrii\Promyachik\_internal\406E_TEST_ONE_TRANSFER_TO_HOME_AND_UPPER_TICKER.py", line 590, in <module>
+    code = main()
+  File "C:\Users\Dmitrii\Promyachik\_internal\406E_TEST_ONE_TRANSFER_TO_HOME_AND_UPPER_TICKER.py", line 544, in main
+    raise RuntimeError(
+        f"Rendered validation failed: {name}"
+    )
+RuntimeError: Rendered validation failed: upper_ticker_visible
+
+FINAL_STATUS: STOPPED_WITH_ERROR

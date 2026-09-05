@@ -1,0 +1,190 @@
+---
+title: "Konyaspor: состав, стоимость и трансферы"
+description: "Состав клуба Konyaspor — 27 игроков, средний возраст 25,8. Общая стоимость команды €37,95 млн."
+date: "2026-09-02T18:43:32+03:00"
+url: "/clubs/konyaspor/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Konyaspor"
+club_code: "KON"
+club_logo: "images/clubs/api/607.png"
+api_football_id: "607"
+club_city: "Selçuklu, Konya"
+club_country: "Turkey"
+league: "Суперлига"
+league_id: "203"
+transfermarkt_club_id: "2293"
+squad_size: 27
+average_age: "25,8"
+squad_value: "€37,95 млн"
+squad_value_eur: 37950000
+average_value: "€1,36 млн"
+squad:
+  - name: "Deniz Ertaş"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 21
+    value: "€3,5 млн"
+    tm_id: "882568"
+  - name: "Mostafa Mohamed"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 28
+    value: "€3,5 млн"
+    tm_id: "462348"
+  - name: "Adil Demirbağ"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 28
+    value: "€3 млн"
+    tm_id: "354173"
+  - name: "Jackson Muleka"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 26
+    value: "€2,8 млн"
+    tm_id: "549966"
+  - name: "Chidozie Awaziem"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 29
+    value: "€2,5 млн"
+    tm_id: "358143"
+  - name: "Melih İbrahimoğlu"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 26
+    value: "€2,5 млн"
+    tm_id: "391555"
+  - name: "Enis Bardhi"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 31
+    value: "€2,5 млн"
+    tm_id: "245014"
+  - name: "Diogo Gonçalves"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 29
+    value: "€2,5 млн"
+    tm_id: "258015"
+  - name: "Jean-Luc Dompé"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 31
+    value: "€2,5 млн"
+    tm_id: "291222"
+  - name: "Uğurcan Yazğılı"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€2 млн"
+    tm_id: "295955"
+  - name: "Arthur Masuaku"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 32
+    value: "€2 млн"
+    tm_id: "181380"
+  - name: "Enis Destan"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 24
+    value: "€2 млн"
+    tm_id: "699980"
+  - name: "Rayyan Baniya"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€1 млн"
+    tm_id: "394872"
+  - name: "Rajmund Tóth"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 22
+    value: "€900 тыс."
+    tm_id: "1138547"
+  - name: "Arif Boşluk"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 23
+    value: "€800 тыс."
+    tm_id: "801693"
+  - name: "Yhoan Andzouana"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 29
+    value: "€800 тыс."
+    tm_id: "342218"
+  - name: "Ebrima Colley"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 26
+    value: "€800 тыс."
+    tm_id: "567217"
+  - name: "Bahadır Güngördü"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 30
+    value: "€700 тыс."
+    tm_id: "388359"
+  - name: "Deniz Türüç"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 33
+    value: "€500 тыс."
+    tm_id: "216662"
+  - name: "Emir Bars"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 21
+    value: "€450 тыс."
+    tm_id: "775978"
+  - name: "Marko Jevtović"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 33
+    value: "€400 тыс."
+    tm_id: "256000"
+  - name: "Mücahit Ibrahimoglu"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 21
+    value: "€150 тыс."
+    tm_id: "724050"
+  - name: "Egemen Aydın"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 19
+    value: "€50 тыс."
+    tm_id: "1071220"
+  - name: "Ata Yanık"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 17
+    value: "€50 тыс."
+    tm_id: "1223318"
+  - name: "Emir Gündoğdu"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 16
+    value: ""
+    tm_id: "1347138"
+  - name: "Da Mata"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 20
+    value: ""
+    tm_id: "1005007"
+  - name: "Ömer Çobanoğlu"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 19
+    value: ""
+    tm_id: "1304052"
+club_transfers:
+---
+В заявке клуба Konyaspor — 27 игроков со средним возрастом 25,8 года. Общая стоимость команды по оценке Transfermarkt — €37,95 млн, в среднем €1,36 млн на игрока.
+
+Самый дорогой игрок состава — Deniz Ertaş (вратарь), его стоимость оценивается в €3,5 млн.

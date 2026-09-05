@@ -1,0 +1,196 @@
+---
+title: "FC Rostov: состав, стоимость и трансферы"
+description: "Состав клуба FC Rostov — 28 игроков, средний возраст 24,1. Общая стоимость команды €32,08 млн."
+date: "2026-09-02T18:46:07+03:00"
+url: "/clubs/fc-rostov/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "FC Rostov"
+club_code: "ROS"
+club_logo: "images/clubs/api/779.png"
+api_football_id: "779"
+club_city: "Rostov-na-Donu"
+club_country: "Russia"
+league: "РПЛ"
+league_id: "235"
+transfermarkt_club_id: "1083"
+squad_size: 28
+average_age: "24,1"
+squad_value: "€32,08 млн"
+squad_value_eur: 32075000
+average_value: "€1,15 млн"
+squad:
+  - name: "Ronaldo"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 25
+    value: "€3,5 млн"
+    tm_id: "866670"
+  - name: "Viktor Melekhin"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 22
+    value: "€3 млн"
+    tm_id: "866001"
+  - name: "Oumar Sako"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 30
+    value: "€2,5 млн"
+    tm_id: "640692"
+  - name: "Olakunle Olusegun"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 24
+    value: "€2,5 млн"
+    tm_id: "666616"
+  - name: "Rustam Yatimov"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 28
+    value: "€2 млн"
+    tm_id: "424022"
+  - name: "Konstantin Kuchaev"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 28
+    value: "€2 млн"
+    tm_id: "381834"
+  - name: "Aleksey Mironov"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 26
+    value: "€1,8 млн"
+    tm_id: "402625"
+  - name: "Egor Golenkov"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 27
+    value: "€1,7 млн"
+    tm_id: "449722"
+  - name: "Andrey Langovich"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 23
+    value: "€1,5 млн"
+    tm_id: "727569"
+  - name: "Ivan Komarov"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 23
+    value: "€1,5 млн"
+    tm_id: "787305"
+  - name: "Timur Suleymanov"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 26
+    value: "€1,5 млн"
+    tm_id: "582074"
+  - name: "Maksim Mukhin"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 24
+    value: "€1,2 млн"
+    tm_id: "623274"
+  - name: "Danila Prokhin"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 25
+    value: "€1 млн"
+    tm_id: "486083"
+  - name: "David Semenchuk"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 21
+    value: "€900 тыс."
+    tm_id: "817604"
+  - name: "Dmitriy Chistyakov"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 32
+    value: "€750 тыс."
+    tm_id: "235339"
+  - name: "Daniil Shantaliy"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 22
+    value: "€750 тыс."
+    tm_id: "817607"
+  - name: "Yaroslav Mikhailov"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 23
+    value: "€700 тыс."
+    tm_id: "701937"
+  - name: "Ygor Nogueira"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 31
+    value: "€650 тыс."
+    tm_id: "187211"
+  - name: "German Ignatov"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 21
+    value: "€600 тыс."
+    tm_id: "918332"
+  - name: "Imran Aznaurov"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 22
+    value: "€350 тыс."
+    tm_id: "817967"
+  - name: "Anton Shamonin"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 21
+    value: "€350 тыс."
+    tm_id: "917991"
+  - name: "Artem Petrov"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 18
+    value: "€250 тыс."
+    tm_id: "1244877"
+  - name: "Ilya Zhbanov"
+    position: "Левый полузащитник"
+    position_short: "LM"
+    age: 22
+    value: "€250 тыс."
+    tm_id: "817830"
+  - name: "Karim Madrakhimov"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 18
+    value: "€250 тыс."
+    tm_id: "1244873"
+  - name: "Daniil Golikov"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 22
+    value: "€175 тыс."
+    tm_id: "697721"
+  - name: "Nikita Babakin"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 20
+    value: "€150 тыс."
+    tm_id: "939879"
+  - name: "Ibraheem Mahfus Ajasa"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 20
+    value: "€150 тыс."
+    tm_id: "1339250"
+  - name: "Denis Titov"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 19
+    value: "€100 тыс."
+    tm_id: "1369649"
+club_transfers:
+---
+В заявке клуба FC Rostov — 28 игроков со средним возрастом 24,1 года. Общая стоимость команды по оценке Transfermarkt — €32,08 млн, в среднем €1,15 млн на игрока.
+
+Самый дорогой игрок состава — Ronaldo (правый вингер), его стоимость оценивается в €3,5 млн.

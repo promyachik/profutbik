@@ -1,4 +1,4 @@
-﻿---
+---
 title: "«Барселона» ведёт переговоры по Хулиану Альваресу: предложение и позиция «Атлетико»"
 description: "«Барселона» сделала предложение по Хулиану Альваресу. Что известно о сумме, позиции игрока, ответе «Атлетико» и текущем статусе переговоров."
 date: 2026-05-29T12:00:00+02:00
@@ -10,7 +10,8 @@ layout: "single"
 status: "negotiations"
 player: "Julián Álvarez"
 player_initials: "JÁ"
-player_id: 6009
+player_id: 6009
+
 market_value_display: "€100 млн"
 market_value: "€100 млн"
 player_image: "images/players/cutout/6009.png"
@@ -23,7 +24,7 @@ age: 26
 age_at_transfer: 26
 birth_date: "31.01.2000"
 nationality: "Аргентина"
-nationality_flag: "images/flags/argentina.svg"
+nationality_flag: "images/flags/countries/ar.svg"
 preferred_foot: "Правая"
 
 from_club_id: 530
@@ -36,14 +37,15 @@ source_name: "Fabrizio Romano"
 source_url: "https://x.com/FabrizioRomano/status/2060298651436535963"
 previous_club_stats:
   label: "Atlético Madrid · сезон 2025/26"
-  matches: "—"
-  goals: "—"
-  assists: "—"
-  minutes: "—"
-  yellow_cards: "—"
-  red_cards: "—"
+  matches: "TBA"
+  goals: "TBA"
+  assists: "TBA"
+  minutes: "TBA"
+  yellow_cards: "TBA"
+  red_cards: "TBA"
   season: "2025/26"
   source_note: "Данные будут заполнены после синхронизации API-Football."
+nationality_flag_image: "images/flags/countries/ar.svg"
 ---
 
 «Барселона» **направила «Атлетико» предложение по Хулиану Альваресу на сумму 100 миллионов евро**, сообщил Фабрицио Романо. Сделка остаётся незавершённой: между клубами нет окончательного соглашения, а мадридская сторона не согласилась считать эту сумму достаточной.
@@ -58,7 +60,7 @@ previous_club_stats:
 
 
 
-- **Игрок:** Хулиан Альварес
+- **Игрок:** Julián Álvarez
 
 - **Текущий клуб:** «Атлетико» Мадрид
 
@@ -168,3 +170,6 @@ previous_club_stats:
 
 О первом официальном предложении сообщил [Фабрицио Романо](https://x.com/FabrizioRomano/status/2060298651436535963). Позднее он также сообщал, что «Атлетико» не намерен принимать такую оценку и ожидает более выгодных условий.
 
+---
+
+**Источник:** Fabrizio Romano.

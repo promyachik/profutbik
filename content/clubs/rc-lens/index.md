@@ -1,0 +1,202 @@
+---
+title: "RC Lens: состав, стоимость и трансферы"
+description: "Состав клуба RC Lens — 29 игроков, средний возраст 26,4. Общая стоимость команды €203,20 млн."
+date: "2026-09-02T18:41:17+03:00"
+url: "/clubs/rc-lens/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "RC Lens"
+club_code: "LEN"
+club_logo: "images/clubs/api/116.png"
+api_football_id: "116"
+club_city: "Avion"
+club_country: "France"
+league: "Лига 1"
+league_id: "61"
+transfermarkt_club_id: "826"
+squad_size: 29
+average_age: "26,4"
+squad_value: "€203,20 млн"
+squad_value_eur: 203200000
+average_value: "€7,01 млн"
+squad:
+  - name: "Robin Risser"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 21
+    value: "€30 млн"
+    tm_id: "743515"
+  - name: "Samson Baidoo"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 22
+    value: "€25 млн"
+    tm_id: "655217"
+  - name: "Jean-Clair Todibo"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€22 млн"
+    tm_id: "605184"
+  - name: "Ismaëlo Ganiou"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 21
+    value: "€20 млн"
+    tm_id: "1020191"
+  - name: "Franjo Ivanović"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 22
+    value: "€15 млн"
+    tm_id: "548028"
+  - name: "Odsonne Édouard"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 28
+    value: "€12 млн"
+    tm_id: "344152"
+  - name: "Saud Abdulhamid"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 27
+    value: "€9 млн"
+    tm_id: "631927"
+  - name: "Matthieu Udol"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 30
+    value: "€8 млн"
+    tm_id: "344886"
+  - name: "Andrija Bulatovic"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 19
+    value: "€8 млн"
+    tm_id: "986291"
+  - name: "Nidal Celik"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 20
+    value: "€7 млн"
+    tm_id: "819566"
+  - name: "Yacine Titraoui"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 23
+    value: "€7 млн"
+    tm_id: "748445"
+  - name: "Amadou Haidara"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 28
+    value: "€5 млн"
+    tm_id: "402008"
+  - name: "Abdallah Sima"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 25
+    value: "€5 млн"
+    tm_id: "776798"
+  - name: "Florian Thauvin"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 33
+    value: "€5 млн"
+    tm_id: "184892"
+  - name: "Michal Skoras"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 26
+    value: "€4 млн"
+    tm_id: "393565"
+  - name: "Kyllian Antonio"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 18
+    value: "€3 млн"
+    tm_id: "1186789"
+  - name: "Michaël Cuisance"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 27
+    value: "€3 млн"
+    tm_id: "344600"
+  - name: "Jonathan Gradit"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 33
+    value: "€2,5 млн"
+    tm_id: "126557"
+  - name: "Ruben Aguilar"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 33
+    value: "€2,5 млн"
+    tm_id: "203746"
+  - name: "Jhoanner Chávez"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 24
+    value: "€2,2 млн"
+    tm_id: "713787"
+  - name: "Thorgan Hazard"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 33
+    value: "€2 млн"
+    tm_id: "102226"
+  - name: "Junior Kadile"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 23
+    value: "€2 млн"
+    tm_id: "585958"
+  - name: "Maik Nawrocki"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 25
+    value: "€1,5 млн"
+    tm_id: "407745"
+  - name: "Florian Sotoca"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 35
+    value: "€1,2 млн"
+    tm_id: "354726"
+  - name: "Souleymane Sagnan"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 21
+    value: "€500 тыс."
+    tm_id: "1160378"
+  - name: "Mezian Mesloub"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 16
+    value: "€500 тыс."
+    tm_id: "1297674"
+  - name: "Mathieu Gorgelin"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 36
+    value: "€200 тыс."
+    tm_id: "60543"
+  - name: "Régis Gurtner"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 39
+    value: "€100 тыс."
+    tm_id: "39918"
+  - name: "Ilan Jourdren"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 18
+    value: ""
+    tm_id: "1200424"
+club_transfers:
+---
+В заявке клуба RC Lens — 29 игроков со средним возрастом 26,4 года. Общая стоимость команды по оценке Transfermarkt — €203,20 млн, в среднем €7,01 млн на игрока.
+
+Самый дорогой игрок состава — Robin Risser (вратарь), его стоимость оценивается в €30 млн.

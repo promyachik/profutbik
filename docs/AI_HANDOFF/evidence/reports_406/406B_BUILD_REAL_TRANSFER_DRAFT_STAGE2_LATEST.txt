@@ -1,0 +1,28 @@
+STEP: 406B_BUILD_REAL_TRANSFER_DRAFT_STAGE2
+STARTED_AT: 2026-07-22T19:50:12
+SITE_PUBLICATION_ENABLED: False
+PRECHECK[entity_id]: True
+PRECHECK[player_latin]: True
+PRECHECK[status_official]: True
+PRECHECK[news_section]: True
+PRECHECK[transfers_section]: True
+PRECHECK[rumors_excluded]: True
+PRECHECK[site_not_published]: True
+DRAFT_FILE: C:\Users\Dmitrii\ProFutbik\parser\drafts\mario-gila__lazio__ac-milan.json
+QUEUE_FILE: C:\Users\Dmitrii\ProFutbik\parser\queues\official_transfer_enrichment.json
+FINAL_CHECK[player_latin]: True
+FINAL_CHECK[title_created]: True
+FINAL_CHECK[seo_created]: True
+FINAL_CHECK[facts_created]: True
+FINAL_CHECK[news_enabled]: True
+FINAL_CHECK[transfers_enabled]: True
+FINAL_CHECK[rumors_disabled]: True
+FINAL_CHECK[site_write_disabled]: True
+FINAL_CHECK[required_blocks_pending]: True
+PLAYER: Mario Gila
+TITLE: Mario Gila перешёл из Lazio в AC Milan
+DRAFT_ROUTE: news + transfers
+RUMORS_ROUTE: disabled
+NEXT_STAGE: resolve club logos and create local Hugo draft
+HUGO_PROJECT_CHANGED: False
+FINAL_STATUS: REAL_TRANSFER_DRAFT_CREATED

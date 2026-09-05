@@ -1,0 +1,202 @@
+---
+title: "Fakel Voronezh: состав, стоимость и трансферы"
+description: "Состав клуба Fakel Voronezh — 29 игроков, средний возраст 27,0. Общая стоимость команды €14,58 млн."
+date: "2026-09-02T18:46:25+03:00"
+url: "/clubs/fakel-voronezh/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Fakel Voronezh"
+club_code: "FAK"
+club_logo: "images/clubs/api/1993.png"
+api_football_id: "1993"
+club_city: "Voronezh"
+club_country: "Russia"
+league: "РПЛ"
+league_id: "235"
+transfermarkt_club_id: "1124"
+squad_size: 29
+average_age: "27,0"
+squad_value: "€14,58 млн"
+squad_value_eur: 14575000
+average_value: "€502,59 тыс."
+squad:
+  - name: "Belajdi Pusi"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 28
+    value: "€1 млн"
+    tm_id: "541006"
+  - name: "Yuriy Zhuravlev"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 30
+    value: "€800 тыс."
+    tm_id: "323710"
+  - name: "Matvey Bardachev"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 20
+    value: "€800 тыс."
+    tm_id: "991180"
+  - name: "Daniil Frolkin"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 25
+    value: "€700 тыс."
+    tm_id: "621586"
+  - name: "Stanislav Magkeev"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€700 тыс."
+    tm_id: "462329"
+  - name: "Clayton"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€700 тыс."
+    tm_id: "371968"
+  - name: "Hodaifa El Mhassani"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 26
+    value: "€700 тыс."
+    tm_id: "627926"
+  - name: "Darko Todorovic"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 29
+    value: "€700 тыс."
+    tm_id: "293231"
+  - name: "Nikolay Giorgobiani"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 29
+    value: "€700 тыс."
+    tm_id: "448901"
+  - name: "Igor Obukhov"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 30
+    value: "€600 тыс."
+    tm_id: "235344"
+  - name: "Vyacheslav Yakimov"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 28
+    value: "€600 тыс."
+    tm_id: "645682"
+  - name: "Aleksey Sutormin"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 32
+    value: "€600 тыс."
+    tm_id: "217033"
+  - name: "Butta Magomedov"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 28
+    value: "€550 тыс."
+    tm_id: "395163"
+  - name: "Maks Dziov"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 25
+    value: "€500 тыс."
+    tm_id: "606527"
+  - name: "Albert Gabaraev"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 28
+    value: "€500 тыс."
+    tm_id: "528386"
+  - name: "Aleksandr Koksharov"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 21
+    value: "€500 тыс."
+    tm_id: "817843"
+  - name: "Igor Yurganov"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 32
+    value: "€450 тыс."
+    tm_id: "231724"
+  - name: "Ravil Netfullin"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 33
+    value: "€450 тыс."
+    tm_id: "151282"
+  - name: "Kirill Simonov"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 20
+    value: "€450 тыс."
+    tm_id: "1021048"
+  - name: "Abdula Bagamaev"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 21
+    value: "€450 тыс."
+    tm_id: "913018"
+  - name: "Ilnur Alshin"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 33
+    value: "€400 тыс."
+    tm_id: "179973"
+  - name: "Maksim Turishchev"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 24
+    value: "€350 тыс."
+    tm_id: "555837"
+  - name: "Axel Gnapi"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 25
+    value: "€350 тыс."
+    tm_id: "825668"
+  - name: "Merabi Uridia"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 33
+    value: "€350 тыс."
+    tm_id: "114022"
+  - name: "Anton Kovalev"
+    position: "Правый полузащитник"
+    position_short: "RM"
+    age: 26
+    value: "€300 тыс."
+    tm_id: "541914"
+  - name: "Nuri Abdokov"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 26
+    value: "€200 тыс."
+    tm_id: "528380"
+  - name: "Vyacheslav Dorovskikh"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 22
+    value: "€175 тыс."
+    tm_id: "798664"
+  - name: "Vladislav Kalinichev"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 21
+    value: ""
+    tm_id: "909229"
+  - name: "Aleksandr Belyaev"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 20
+    value: ""
+    tm_id: "1243095"
+club_transfers:
+---
+В заявке клуба Fakel Voronezh — 29 игроков со средним возрастом 27,0 года. Общая стоимость команды по оценке Transfermarkt — €14,58 млн, в среднем €502,59 тыс. на игрока.
+
+Самый дорогой игрок состава — Belajdi Pusi (центральный нападающий), его стоимость оценивается в €1 млн.

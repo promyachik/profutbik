@@ -1,0 +1,40 @@
+STEP: 406F_FIX_UPPER_TICKER_BY_WORKING_ITEM_SCHEMA
+STARTED_AT: 2026-07-22T20:22:59
+TEST_FLOW: page -> homepage transfers -> upper ticker
+PHOTO_STAGE_ENABLED: False
+PUBLIC_GITHUB_PUBLISH: False
+TARGETED_BACKUP: C:\Users\Dmitrii\ProFutbik\patch-backups\406F_2026-07-22_20-22-59
+WORKING_TEMPLATE_KEYS: cutout_player_image, date, fee, from_club, from_club_id, from_club_logo, from_club_name, player, player_id, player_image, player_image_background_removed, player_image_fallback, player_image_processor, show_in_footer_ticker, show_in_top_ticker, slug, status, status_label, ticker_image, to_club, to_club_id, to_club_logo, to_club_name, url
+FROM_LOGO: images/clubs/api/487.png
+TO_LOGO: images/clubs/api/489.png
+DATA_CHECK[home_single]: True
+DATA_CHECK[ticker_single]: True
+DATA_CHECK[ticker_first]: True
+DATA_CHECK[ticker_url]: True
+DATA_CHECK[ticker_player]: True
+HUGO_EXIT_CODE: 1
+ROLLBACK_DONE: True
+ERROR: RuntimeError: WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+WARN  found no layout file for "html" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN  deprecated: .Site.Data was deprecated in Hugo v0.156.0 and will be removed in a future release. Use hugo.Data instead.
+WARN  found no layout file for "html" for kind "section": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+ERROR error building site: render: [en v1.0.0 guest] failed to render pages: render of "/" failed: "C:\Users\Dmitrii\Promyachik_CLEAN\layouts\index.html:235:3": execute of template failed: template: index.html:235:3: executing "index.html" at <partial "home-player-bottom-strip.html" .>: error calling partial: "C:\Users\Dmitrii\Promyachik_CLEAN\layouts\partials\home-player-bottom-strip.html:410:53": execute of template failed: template: _partials/home-player-bottom-strip.html:410:53: executing "_partials/home-player-bottom-strip.html" at <.name>: can't evaluate field name in type string
+
+Traceback (most recent call last):
+  File "C:\Users\Dmitrii\Promyachik\_internal\406F_FIX_UPPER_TICKER_BY_WORKING_ITEM_SCHEMA.py", line 672, in <module>
+    code = main()
+  File "C:\Users\Dmitrii\Promyachik\_internal\406F_FIX_UPPER_TICKER_BY_WORKING_ITEM_SCHEMA.py", line 587, in main
+    build_site(root, hugo)
+    ~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Dmitrii\Promyachik\_internal\406F_FIX_UPPER_TICKER_BY_WORKING_ITEM_SCHEMA.py", line 386, in build_site
+    raise RuntimeError(
+        result.stderr or result.stdout or "Hugo build failed"
+    )
+RuntimeError: WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+WARN  found no layout file for "html" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN  deprecated: .Site.Data was deprecated in Hugo v0.156.0 and will be removed in a future release. Use hugo.Data instead.
+WARN  found no layout file for "html" for kind "section": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+ERROR error building site: render: [en v1.0.0 guest] failed to render pages: render of "/" failed: "C:\Users\Dmitrii\Promyachik_CLEAN\layouts\index.html:235:3": execute of template failed: template: index.html:235:3: executing "index.html" at <partial "home-player-bottom-strip.html" .>: error calling partial: "C:\Users\Dmitrii\Promyachik_CLEAN\layouts\partials\home-player-bottom-strip.html:410:53": execute of template failed: template: _partials/home-player-bottom-strip.html:410:53: executing "_partials/home-player-bottom-strip.html" at <.name>: can't evaluate field name in type string
+
+
+FINAL_STATUS: STOPPED_WITH_ERROR

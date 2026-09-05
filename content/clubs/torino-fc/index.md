@@ -1,0 +1,208 @@
+---
+title: "Torino FC: состав, стоимость и трансферы"
+description: "Состав клуба Torino FC — 30 игроков, средний возраст 26,0. Общая стоимость команды €180,90 млн."
+date: "2026-09-02T18:38:51+03:00"
+url: "/clubs/torino-fc/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Torino FC"
+club_code: "TOR"
+club_logo: "images/clubs/api/503.png"
+api_football_id: "503"
+club_city: "Torino"
+club_country: "Italy"
+league: "Серия А"
+league_id: "135"
+transfermarkt_club_id: "416"
+squad_size: 30
+average_age: "26,0"
+squad_value: "€180,90 млн"
+squad_value_eur: 180900000
+average_value: "€6,03 млн"
+squad:
+  - name: "Pietro Comuzzo"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 21
+    value: "€18 млн"
+    tm_id: "746712"
+  - name: "Cesare Casadei"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 23
+    value: "€15 млн"
+    tm_id: "622380"
+  - name: "Rafik Belghali"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 24
+    value: "€12 млн"
+    tm_id: "864306"
+  - name: "Daniel Bragança"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 27
+    value: "€12 млн"
+    tm_id: "461943"
+  - name: "Lucas Perri"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 28
+    value: "€10 млн"
+    tm_id: "352041"
+  - name: "Niccolò Fortini"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 20
+    value: "€10 млн"
+    tm_id: "984964"
+  - name: "Nathan Patterson"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 24
+    value: "€10 млн"
+    tm_id: "424015"
+  - name: "Nikola Vlašić"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 28
+    value: "€10 млн"
+    tm_id: "293200"
+  - name: "Rolando Mandragora"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 29
+    value: "€9 млн"
+    tm_id: "308279"
+  - name: "Saúl Coco"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€7,5 млн"
+    tm_id: "588426"
+  - name: "Giovanni Simeone"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 31
+    value: "€7 млн"
+    tm_id: "282388"
+  - name: "Emirhan İlkhan"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 22
+    value: "€6 млн"
+    tm_id: "743091"
+  - name: "Zakaria Aboukhlal"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 26
+    value: "€6 млн"
+    tm_id: "393238"
+  - name: "Gvidas Gineitis"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 22
+    value: "€5,5 млн"
+    tm_id: "798929"
+  - name: "Ardian Ismajli"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 29
+    value: "€5 млн"
+    tm_id: "435228"
+  - name: "Gaetano Oristanio"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 23
+    value: "€5 млн"
+    tm_id: "613393"
+  - name: "Ché Adams"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 30
+    value: "€5 млн"
+    tm_id: "346779"
+  - name: "Alessio Cacciamani"
+    position: "Левый полузащитник"
+    position_short: "LM"
+    age: 19
+    value: "€4,5 млн"
+    tm_id: "1188619"
+  - name: "Tino Anjorin"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 24
+    value: "€4 млн"
+    tm_id: "433181"
+  - name: "Sandro Kulenović"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 26
+    value: "€3,5 млн"
+    tm_id: "357778"
+  - name: "Kian Fitz-Jim"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 23
+    value: "€3 млн"
+    tm_id: "559333"
+  - name: "Franco Israel"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 26
+    value: "€2,5 млн"
+    tm_id: "492319"
+  - name: "Eray Cömert"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 28
+    value: "€2,5 млн"
+    tm_id: "298583"
+  - name: "Duván Zapata"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 35
+    value: "€2,5 млн"
+    tm_id: "73794"
+  - name: "Diego Mascardi"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 19
+    value: "€1,3 млн"
+    tm_id: "981998"
+  - name: "Alberto Paleari"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 34
+    value: "€1,2 млн"
+    tm_id: "163048"
+  - name: "Andrea Luongo"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 18
+    value: "€1 млн"
+    tm_id: "1191921"
+  - name: "Cristiano Biraghi"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 34
+    value: "€900 тыс."
+    tm_id: "124555"
+  - name: "Lapo Siviero"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 19
+    value: "€500 тыс."
+    tm_id: "942103"
+  - name: "Pietro Pellegri"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 25
+    value: "€500 тыс."
+    tm_id: "364133"
+club_transfers:
+---
+В заявке клуба Torino FC — 30 игроков со средним возрастом 26,0 года. Общая стоимость команды по оценке Transfermarkt — €180,90 млн, в среднем €6,03 млн на игрока.
+
+Самый дорогой игрок состава — Pietro Comuzzo (центральный защитник), его стоимость оценивается в €18 млн.

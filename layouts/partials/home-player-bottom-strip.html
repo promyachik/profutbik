@@ -1,10 +1,5 @@
-{{ $bottomTransfers := slice }}
-{{ range .Site.Data.transfers }}
-    {{ if or (eq .status "official") (eq .slug "goncalo-ramos-ac-milan") (eq .slug "bernardo-silva-real-madrid") }}
-        {{ $bottomTransfers = $bottomTransfers | append . }}
-    {{ end }}
-{{ end }}
-{{ $bottomTransfers = first 7 $bottomTransfers }}
+{{- /* pf-transfer-four-step-footer-canonical */ -}}
+{{ $bottomTransfers := where .Site.Data.transfers "show_in_footer_ticker" true }}
 
 {{ if gt (len $bottomTransfers) 0 }}<style>
         .transfer-status--confirmed {
@@ -127,7 +122,6 @@
                 ) !important;
         }
 
-
         .bottom-transfer-strip-v3__photo {
             position: relative !important;
             display: flex !important;
@@ -170,7 +164,6 @@
             font-weight: 900 !important;
             letter-spacing: 0.04em !important;
         }
-
 
         .bottom-transfer-strip-v3__info {
             display: flex !important;
@@ -373,6 +366,25 @@
     letter-spacing: 0.04em !important;
 }
 </style>
+<style>
+/* PF401Y_PLAYER_IMAGE_DOWN_5PX_START */
+.home-player-bottom-strip .bottom-transfer-strip-v3__photo {
+    align-self: end !important;
+    margin-top: auto !important;
+    margin-bottom: 0 !important;
+    overflow: visible !important;
+}
+
+.home-player-bottom-strip .bottom-transfer-strip-v3__photo img {
+    display: block !important;
+    position: relative !important;
+    top: 5px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    object-position: center bottom !important;
+}
+/* PF401Y_PLAYER_IMAGE_DOWN_5PX_END */
+</style>
 <section class="bottom-transfer-strip-v3 home-player-bottom-strip" aria-label="Transfer ticker">
     <div class="bottom-transfer-strip-v3__viewport">
         <div class="bottom-transfer-strip-v3__track">
@@ -442,89 +454,4 @@
     </div>
 </section>
 
-<script>
-(function () {
-    document.querySelectorAll(".bottom-transfer-strip-v3").forEach(function (strip) {
-        var viewport = strip.querySelector(".bottom-transfer-strip-v3__viewport");
-        var track = strip.querySelector(".bottom-transfer-strip-v3__track");
-        var group = strip.querySelector(".bottom-transfer-strip-v3__group");
-
-        if (!viewport || !track || !group) return;
-
-        var x = 0;
-        var speed = 0.55;
-        var width = 1;
-        var isDown = false;
-        var startX = 0;
-        var lastX = 0;
-        var didDrag = false;
-
-        viewport.style.cursor = "grab";
-        viewport.style.userSelect = "none";
-
-        function measure() {
-            width = group.scrollWidth || 1;
-        }
-
-        function apply() {
-            track.style.transform = "translate3d(" + x + "px,0,0)";
-        }
-
-        function normalize() {
-            if (x > 0) x = -width + (x % width);
-            if (Math.abs(x) >= width) x = x % width;
-        }
-
-        function tick() {
-            if (!isDown) {
-                x -= speed;
-                normalize();
-                apply();
-            }
-            requestAnimationFrame(tick);
-        }
-
-        viewport.addEventListener("mousedown", function (event) {
-            isDown = true;
-            didDrag = false;
-            startX = event.clientX;
-            lastX = event.clientX;
-            viewport.style.cursor = "grabbing";
-        });
-
-        window.addEventListener("mousemove", function (event) {
-            if (!isDown) return;
-
-            var dx = event.clientX - lastX;
-            lastX = event.clientX;
-
-            if (Math.abs(event.clientX - startX) > 5) {
-                didDrag = true;
-            }
-
-            x += dx;
-            normalize();
-            apply();
-            event.preventDefault();
-        });
-
-        window.addEventListener("mouseup", function () {
-            isDown = false;
-            viewport.style.cursor = "grab";
-        });
-
-        strip.addEventListener("click", function (event) {
-            if (!didDrag) return;
-
-            event.preventDefault();
-            event.stopPropagation();
-            didDrag = false;
-        }, true);
-
-        window.addEventListener("resize", measure);
-        measure();
-        tick();
-    });
-})();
-</script>
 {{ end }}

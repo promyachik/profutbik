@@ -1,0 +1,18 @@
+STEP: 406I_FIX_UNIVERSAL_UPPER_TICKER_STATUS_AND_LINK
+STARTED_AT: 2026-07-22T20:40:17
+PLAYER_SPECIFIC_CODE: False
+APPLIES_TO_ALL_FUTURE_TRANSFERS: True
+UPPER_TICKER_DRAG_PRESERVED: True
+PRECHECK[uses_transfer_data]: True
+PRECHECK[ticker_item_class]: True
+PRECHECK[specific_transfer_href]: True
+PRECHECK[status_expression]: False
+ERROR: RuntimeError: Required source fragment missing: status_expression
+Traceback (most recent call last):
+  File "C:\Users\Dmitrii\Promyachik\_internal\406I_FIX_UNIVERSAL_UPPER_TICKER_STATUS_AND_LINK.py", line 346, in <module>
+    code = main()
+  File "C:\Users\Dmitrii\Promyachik\_internal\406I_FIX_UNIVERSAL_UPPER_TICKER_STATUS_AND_LINK.py", line 244, in main
+    raise RuntimeError(f"Required source fragment missing: {name}")
+RuntimeError: Required source fragment missing: status_expression
+
+FINAL_STATUS: STOPPED_WITH_ERROR

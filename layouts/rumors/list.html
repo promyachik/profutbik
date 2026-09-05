@@ -1,0 +1,55 @@
+{{ define "main" }}
+<div class="pf405a-rumors-page">
+<style id="pf405a-rumors-style">
+.pf405a-rumors-page{width:min(1320px,calc(100% - 28px));margin:0 auto;padding:28px 0 42px;font-family:Roboto,Arial,sans-serif;color:#f2f4f6}
+.pf405a-rumors-page *{box-sizing:border-box}
+.pf405a-leagues{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));border:1px solid rgba(130,145,160,.24);background:rgba(8,13,18,.55)}
+.pf405a-league{min-height:118px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;border:0;border-right:1px solid rgba(130,145,160,.18);background:transparent;color:inherit;cursor:pointer}
+.pf405a-league:last-child{border-right:0}
+.pf405a-league:hover,.pf405a-league:focus-visible,.pf405a-league.is-active{z-index:2;background:rgba(255,212,0,.035);box-shadow:inset 0 0 0 1px #ffd400;outline:none}
+.pf405a-league__logo-box{width:54px;height:54px;display:grid;place-items:center}
+.pf405a-league__logo{display:block;max-width:50px;max-height:50px;width:auto;height:auto;object-fit:contain}
+.pf405a-league__name{font-size:12px;text-align:center}
+.pf405a-title{margin:30px 0 18px;font-size:clamp(26px,2.7vw,38px);font-weight:800}
+.pf405a-list{border:1px solid rgba(130,145,160,.24);background:rgba(8,13,18,.35)}
+.pf405a-row{min-height:124px;display:grid;grid-template-columns:minmax(210px,1.1fr) 42px minmax(210px,1.1fr) 120px 132px;gap:20px;align-items:center;padding:18px 24px;border-bottom:1px solid rgba(130,145,160,.24);color:inherit;text-decoration:none}
+.pf405a-row:last-child{border-bottom:0}
+.pf405a-row:hover,.pf405a-row:focus-visible{background:rgba(255,212,0,.035);box-shadow:inset 0 0 0 1px #ffd400;outline:none}
+.pf405a-side{display:grid;grid-template-columns:58px minmax(0,1fr);gap:14px;align-items:center;min-width:0}
+.pf405a-side--to{grid-template-columns:minmax(0,1fr) 58px}
+.pf405a-logo-box{width:56px;height:56px;display:grid;place-items:center}
+.pf405a-logo{display:block;max-width:52px;max-height:52px;width:auto;height:auto;object-fit:contain}
+.pf405a-player{display:block;margin-bottom:7px;font-size:17px;font-weight:750;color:#f5f7f8}
+.pf405a-club{display:block;color:#aeb8c2;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pf405a-side--to .pf405a-copy{text-align:right}
+.pf405a-arrow{color:#ffd400;font-size:22px;text-align:center}
+.pf405a-fee{text-align:center;font-size:15px;white-space:nowrap}
+.pf405a-status{justify-self:end;min-width:118px;padding:8px 10px;border:1px solid currentColor;border-radius:2px;text-align:center;font-size:11px;font-weight:800;white-space:nowrap}
+.pf405a-status--rumor{color:#d4d8dc}.pf405a-status--interest{color:#ffd400}.pf405a-status--negotiations{color:#4da3ff}.pf405a-status--agreement{color:#ff7a59}
+.pf405a-empty{display:none;padding:28px;border:1px solid rgba(130,145,160,.24);color:#aeb8c2;text-align:center}
+body:has(.pf405a-rumors-page) .bottom-transfer-strip-v3:not(.home-player-bottom-strip){display:none!important}
+body:has(.pf405a-rumors-page) .home-player-bottom-strip{position:relative!important;left:auto!important;right:auto!important;width:100vw!important;max-width:100vw!important;margin-left:calc(50% - 50vw)!important;margin-right:calc(50% - 50vw)!important;transform:none!important}
+@media(max-width:980px){.pf405a-leagues{grid-template-columns:repeat(4,minmax(0,1fr))}.pf405a-row{grid-template-columns:minmax(0,1fr) 34px minmax(0,1fr)}.pf405a-fee{grid-column:1/3;text-align:left}.pf405a-status{grid-column:3;grid-row:2}}
+@media(max-width:680px){.pf405a-rumors-page{width:min(100% - 20px,1320px)}.pf405a-leagues{grid-template-columns:repeat(2,minmax(0,1fr))}.pf405a-league{min-height:96px}.pf405a-row{grid-template-columns:1fr;padding:18px 16px}.pf405a-side,.pf405a-side--to{grid-template-columns:52px minmax(0,1fr)}.pf405a-side--to .pf405a-copy{text-align:left}.pf405a-side--to .pf405a-logo-box{grid-column:1;grid-row:1}.pf405a-side--to .pf405a-copy{grid-column:2}.pf405a-arrow{text-align:left;padding-left:18px;transform:rotate(90deg)}.pf405a-fee,.pf405a-status{grid-column:1;grid-row:auto;justify-self:start;text-align:left}}
+</style>
+{{ partial "rumors-league-selector-405a.html" . }}
+<h1 class="pf405a-title">Слухи</h1>
+<div class="pf405a-list" id="pf405a-rumors-list">
+{{ range .Pages.ByDate.Reverse }}
+<a class="pf405a-row" data-league-id="{{ .Params.league_id }}" href="{{ .RelPermalink }}">
+<span class="pf405a-side"><span class="pf405a-logo-box"><img class="pf405a-logo" src="{{ .Params.from_logo | relURL }}" alt="{{ .Params.from_club }}"></span><span class="pf405a-copy"><span class="pf405a-player">{{ .Params.player }}</span><span class="pf405a-club">{{ .Params.from_club }}</span></span></span>
+<span class="pf405a-arrow">→</span>
+<span class="pf405a-side pf405a-side--to"><span class="pf405a-copy"><span class="pf405a-player">{{ .Params.to_club }}</span><span class="pf405a-club">{{ .Params.display_date }}</span></span><span class="pf405a-logo-box"><img class="pf405a-logo" src="{{ .Params.to_logo | relURL }}" alt="{{ .Params.to_club }}"></span></span>
+<span class="pf405a-fee">{{ .Params.fee }}</span>
+<span class="pf405a-status pf405a-status--{{ .Params.status }}">{{ .Params.status_label }}</span>
+</a>
+{{ end }}
+</div>
+<div class="pf405a-empty" id="pf405a-rumors-empty">По выбранной лиге слухов пока нет.</div>
+</div>
+<script id="pf405a-rumors-filter">
+(function(){var b=[].slice.call(document.querySelectorAll("[data-rumor-league]")),r=[].slice.call(document.querySelectorAll(".pf405a-row[data-league-id]")),e=document.getElementById("pf405a-rumors-empty"),a=null;function f(id){a=a===id?null:id;var v=0;r.forEach(function(x){var s=!a||x.getAttribute("data-league-id")===a;x.style.display=s?"":"none";if(s)v++});b.forEach(function(x){x.classList.toggle("is-active",x.getAttribute("data-rumor-league")===a)});if(e)e.style.display=v?"none":"block"}b.forEach(function(x){x.addEventListener("click",function(){f(x.getAttribute("data-rumor-league"))})})})();
+</script>
+{{ partial "home-player-bottom-strip.html" . }}
+<span hidden id="pf405a-rumors-marker">PF405A_RUMORS_PAGE_STAGE1</span>
+{{ end }}

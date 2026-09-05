@@ -6,11 +6,11 @@
   "players": [
     {
       "player_id": "278",
-      "player": "Килиан Мбаппе",
+      "player": "Kylian Mbappé",
       "aliases": [
-        "Килиан Мбаппе",
         "Kylian Mbappé",
-        "Kylian Mbappe"
+        "Kylian Mbappé",
+        "Kylian Mbappé"
       ],
       "current_value_million": 180,
       "source_url": "https://www.transfermarkt.com/kylian-mbappe/marktwertverlauf/spieler/342229",
@@ -54,9 +54,9 @@
     },
     {
       "player_id": "203224",
-      "player": "Флориан Вирц",
+      "player": "Florian Wirtz",
       "aliases": [
-        "Флориан Вирц",
+        "Florian Wirtz",
         "Florian Wirtz",
         "F. Wirtz"
       ],
@@ -102,9 +102,9 @@
     },
     {
       "player_id": "1145",
-      "player": "Ибраима Конате",
+      "player": "Ibrahima Konaté",
       "aliases": [
-        "Ибраима Конате",
+        "Ibrahima Konaté",
         "Ibrahima Konaté",
         "Ibrahima Konate",
         "I. Konaté"
@@ -151,9 +151,9 @@
     },
     {
       "player_id": "47380",
-      "player": "Марк Кукурелья",
+      "player": "Marc Cucurella",
       "aliases": [
-        "Марк Кукурелья",
+        "Marc Cucurella",
         "Marc Cucurella",
         "M. Cucurella"
       ],
@@ -271,9 +271,9 @@
     },
     {
       "player_id": "6009",
-      "player": "Хулиан Альварес",
+      "player": "Julián Álvarez",
       "aliases": [
-        "Хулиан Альварес",
+        "Julián Álvarez",
         "Julián Álvarez",
         "Julián Alvarez",
         "Julian Alvarez"
@@ -376,9 +376,9 @@
     },
     {
       "player_id": "636",
-      "player": "Бернарду Силва",
+      "player": "Bernardo Silva",
       "aliases": [
-        "Бернарду Силва",
+        "Bernardo Silva",
         "Bernardo Silva",
         "B. Silva"
       ],
@@ -445,7 +445,7 @@
         "Gonçalo Ramos",
         "Goncalo Ramos",
         "G. Ramos",
-        "Гонсалу Рамуш"
+        "Gonçalo Ramos"
       ],
       "source_url": "https://www.transfermarkt.com/goncalo-ramos/marktwertverlauf/spieler/550550",
       "points": [

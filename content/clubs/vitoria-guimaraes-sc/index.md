@@ -1,0 +1,208 @@
+---
+title: "Vitória Guimarães SC: состав, стоимость и трансферы"
+description: "Состав клуба Vitória Guimarães SC — 30 игроков, средний возраст 23,5. Общая стоимость команды €45,20 млн."
+date: "2026-09-02T18:44:35+03:00"
+url: "/clubs/vitoria-guimaraes-sc/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Vitória Guimarães SC"
+club_code: "GUI"
+club_logo: "images/clubs/api/224.png"
+api_football_id: "224"
+club_city: "Guimarães"
+club_country: "Portugal"
+league: "Примейра"
+league_id: "94"
+transfermarkt_club_id: "2420"
+squad_size: 30
+average_age: "23,5"
+squad_value: "€45,20 млн"
+squad_value_eur: 45200000
+average_value: "€1,51 млн"
+squad:
+  - name: "Oumar Camara"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 19
+    value: "€8 млн"
+    tm_id: "1053206"
+  - name: "Gonçalo Nogueira"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 22
+    value: "€4 млн"
+    tm_id: "877140"
+  - name: "Beni Mukendi"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 24
+    value: "€4 млн"
+    tm_id: "666539"
+  - name: "Gustavo Silva"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 27
+    value: "€4 млн"
+    tm_id: "1047860"
+  - name: "Telmo Arcanjo"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 25
+    value: "€3 млн"
+    tm_id: "791528"
+  - name: "João Mendes"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 26
+    value: "€2,5 млн"
+    tm_id: "684348"
+  - name: "Samu"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 30
+    value: "€2,5 млн"
+    tm_id: "291939"
+  - name: "Oliwier Zych"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 22
+    value: "€2 млн"
+    tm_id: "555074"
+  - name: "Tony Strata"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 21
+    value: "€2 млн"
+    tm_id: "1004681"
+  - name: "Matija Mitrović"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 21
+    value: "€2 млн"
+    tm_id: "959979"
+  - name: "Maga"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 23
+    value: "€1,5 млн"
+    tm_id: "729140"
+  - name: "Miguel Nogueira"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 21
+    value: "€1,5 млн"
+    tm_id: "1135545"
+  - name: "Óscar Rivas"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€1 млн"
+    tm_id: "890557"
+  - name: "Thiago Balieiro"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 23
+    value: "€1 млн"
+    tm_id: "984093"
+  - name: "Alioune Ndoye"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 24
+    value: "€1 млн"
+    tm_id: "807124"
+  - name: "Fabio Blanco"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 22
+    value: "€800 тыс."
+    tm_id: "648909"
+  - name: "Ahmed Sidibé"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 24
+    value: "€600 тыс."
+    tm_id: "808477"
+  - name: "Juan Castillo"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 23
+    value: "€500 тыс."
+    tm_id: "662446"
+  - name: "Lohann Doucet"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 23
+    value: "€500 тыс."
+    tm_id: "830265"
+  - name: "Vando Félix"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 23
+    value: "€500 тыс."
+    tm_id: "830452"
+  - name: "Victor Andersson"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 21
+    value: "€500 тыс."
+    tm_id: "989508"
+  - name: "Miguel Nóbrega"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€400 тыс."
+    tm_id: "409884"
+  - name: "Marco Cruz"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 22
+    value: "€400 тыс."
+    tm_id: "670682"
+  - name: "Patrick Ouotro"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 20
+    value: "€300 тыс."
+    tm_id: "1099652"
+  - name: "Yeimar Mosquera"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 21
+    value: "€200 тыс."
+    tm_id: "1163638"
+  - name: "Francisco Dias"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 23
+    value: "€200 тыс."
+    tm_id: "1335120"
+  - name: "Rica Rocha"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 22
+    value: "€200 тыс."
+    tm_id: "902869"
+  - name: "Lucas Furtado"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 21
+    value: "€100 тыс."
+    tm_id: "1087843"
+  - name: "Santi Verdi"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 18
+    value: ""
+    tm_id: "1093061"
+  - name: "Rodrigo Macedo"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 23
+    value: ""
+    tm_id: "801463"
+club_transfers:
+---
+В заявке клуба Vitória Guimarães SC — 30 игроков со средним возрастом 23,5 года. Общая стоимость команды по оценке Transfermarkt — €45,20 млн, в среднем €1,51 млн на игрока.
+
+Самый дорогой игрок состава — Oumar Camara (левый вингер), его стоимость оценивается в €8 млн.

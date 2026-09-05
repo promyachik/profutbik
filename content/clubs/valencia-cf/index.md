@@ -1,0 +1,190 @@
+---
+title: "Valencia CF: состав, стоимость и трансферы"
+description: "Состав клуба Valencia CF — 27 игроков, средний возраст 27,5. Общая стоимость команды €148,60 млн."
+date: "2026-09-02T18:37:35+03:00"
+url: "/clubs/valencia-cf/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Valencia CF"
+club_code: "VAL"
+club_logo: "images/clubs/api/532.png"
+api_football_id: "532"
+club_city: "Valencia"
+club_country: "Spain"
+league: "Ла Лига"
+league_id: "140"
+transfermarkt_club_id: "1049"
+squad_size: 27
+average_age: "27,5"
+squad_value: "€148,60 млн"
+squad_value_eur: 148600000
+average_value: "€5,50 млн"
+squad:
+  - name: "Javi Guerra"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 23
+    value: "€25 млн"
+    tm_id: "834764"
+  - name: "Harvey Elliott"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 23
+    value: "€20 млн"
+    tm_id: "565822"
+  - name: "Hugo Duro"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 26
+    value: "€12 млн"
+    tm_id: "573775"
+  - name: "Arnau Martínez"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 23
+    value: "€10 млн"
+    tm_id: "826224"
+  - name: "César Tárrega"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 24
+    value: "€9 млн"
+    tm_id: "707274"
+  - name: "Diego López"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 24
+    value: "€9 млн"
+    tm_id: "617081"
+  - name: "Pepelu"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 28
+    value: "€8 млн"
+    tm_id: "328480"
+  - name: "Justin de Haas"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€7 млн"
+    tm_id: "420196"
+  - name: "Filip Ugrinic"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 27
+    value: "€6 млн"
+    tm_id: "394236"
+  - name: "José Copete"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€5 млн"
+    tm_id: "520840"
+  - name: "José Gayà"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 31
+    value: "€4 млн"
+    tm_id: "221322"
+  - name: "Jesús Vázquez"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 23
+    value: "€4 млн"
+    tm_id: "623024"
+  - name: "Guido Rodríguez"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 32
+    value: "€4 млн"
+    tm_id: "342385"
+  - name: "Umar Sadiq"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 29
+    value: "€4 млн"
+    tm_id: "337715"
+  - name: "Pablo Maffeo"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 29
+    value: "€3 млн"
+    tm_id: "251876"
+  - name: "Aliou Dieng"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 28
+    value: "€3 млн"
+    tm_id: "410427"
+  - name: "Arnaut Danjuma"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 29
+    value: "€3 млн"
+    tm_id: "355861"
+  - name: "Stole Dimitrievski"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 32
+    value: "€2 млн"
+    tm_id: "165467"
+  - name: "Kayne van Oevelen"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 23
+    value: "€2 млн"
+    tm_id: "790669"
+  - name: "Ryunosuke Sato"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 19
+    value: "€2 млн"
+    tm_id: "948169"
+  - name: "Luis Rioja"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 32
+    value: "€1,8 млн"
+    tm_id: "278837"
+  - name: "Mouctar Diakhaby"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 29
+    value: "€1,5 млн"
+    tm_id: "346289"
+  - name: "Dani Raba"
+    position: "Оттянутый нападающий"
+    position_short: "SS"
+    age: 30
+    value: "€1,2 млн"
+    tm_id: "413262"
+  - name: "Dimitri Foulquier"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 33
+    value: "€900 тыс."
+    tm_id: "170472"
+  - name: "Sergi Canós"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 29
+    value: "€600 тыс."
+    tm_id: "251845"
+  - name: "Iker Córdoba"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 20
+    value: "€500 тыс."
+    tm_id: "834463"
+  - name: "Cristian Rivero"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 28
+    value: "€100 тыс."
+    tm_id: "398131"
+club_transfers:
+---
+В заявке клуба Valencia CF — 27 игроков со средним возрастом 27,5 года. Общая стоимость команды по оценке Transfermarkt — €148,60 млн, в среднем €5,50 млн на игрока.
+
+Самый дорогой игрок состава — Javi Guerra (центральный полузащитник), его стоимость оценивается в €25 млн.

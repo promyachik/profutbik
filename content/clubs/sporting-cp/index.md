@@ -1,0 +1,202 @@
+---
+title: "Sporting CP: состав, стоимость и трансферы"
+description: "Состав клуба Sporting CP — 29 игроков, средний возраст 23,5. Общая стоимость команды €378,70 млн."
+date: "2026-09-02T18:43:50+03:00"
+url: "/clubs/sporting-cp/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Sporting CP"
+club_code: "SPO"
+club_logo: "images/clubs/api/228.png"
+api_football_id: "228"
+club_city: "Lisboa"
+club_country: "Portugal"
+league: "Примейра"
+league_id: "94"
+transfermarkt_club_id: "336"
+squad_size: 29
+average_age: "23,5"
+squad_value: "€378,70 млн"
+squad_value_eur: 378700000
+average_value: "€13,06 млн"
+squad:
+  - name: "Gonçalo Inácio"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 25
+    value: "€40 млн"
+    tm_id: "549006"
+  - name: "Maxi Araújo"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 26
+    value: "€40 млн"
+    tm_id: "572675"
+  - name: "Rodrigo Zalazar"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 27
+    value: "€30 млн"
+    tm_id: "606752"
+  - name: "Luis Suárez"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 28
+    value: "€30 млн"
+    tm_id: "424784"
+  - name: "Zeno Debast"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 22
+    value: "€28 млн"
+    tm_id: "548193"
+  - name: "Geny Catamo"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 25
+    value: "€25 млн"
+    tm_id: "701979"
+  - name: "Sergi Altimira"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 25
+    value: "€20 млн"
+    tm_id: "466801"
+  - name: "Issa Doumbia"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 22
+    value: "€20 млн"
+    tm_id: "924349"
+  - name: "Eduardo Quaresma"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 24
+    value: "€17 млн"
+    tm_id: "504073"
+  - name: "Fotis Ioannidis"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 26
+    value: "€16 млн"
+    tm_id: "532444"
+  - name: "Iván Fresneda"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 21
+    value: "€15 млн"
+    tm_id: "946883"
+  - name: "João Simões"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 19
+    value: "€15 млн"
+    tm_id: "958937"
+  - name: "Ibrahima Ba"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 21
+    value: "€12 млн"
+    tm_id: "1191154"
+  - name: "Luís Guilherme"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 20
+    value: "€12 млн"
+    tm_id: "991800"
+  - name: "Nestory Irankunda"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 20
+    value: "€10 млн"
+    tm_id: "956920"
+  - name: "Georgios Vagiannidis"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 24
+    value: "€8 млн"
+    tm_id: "546186"
+  - name: "Rui Silva"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 32
+    value: "€7 млн"
+    tm_id: "234811"
+  - name: "Silas Andersen"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 22
+    value: "€7 млн"
+    tm_id: "685657"
+  - name: "Moncef Zekri"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 17
+    value: "€4 млн"
+    tm_id: "1263687"
+  - name: "Rafael Nel"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 21
+    value: "€4 млн"
+    tm_id: "1057523"
+  - name: "Nuno Santos"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 31
+    value: "€3 млн"
+    tm_id: "290391"
+  - name: "Pedro Lima"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 23
+    value: "€3 млн"
+    tm_id: "816135"
+  - name: "Salvador Blopa"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 19
+    value: "€2,5 млн"
+    tm_id: "1294105"
+  - name: "Flávio Gonçalves"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 19
+    value: "€2,2 млн"
+    tm_id: "1294120"
+  - name: "Kaique Pereira"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 23
+    value: "€2 млн"
+    tm_id: "964590"
+  - name: "Jesse Derry"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 19
+    value: "€2 млн"
+    tm_id: "1135611"
+  - name: "Diego Callai"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 22
+    value: "€1,5 млн"
+    tm_id: "848875"
+  - name: "Rodrigo Dias"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 21
+    value: "€1,3 млн"
+    tm_id: "1086722"
+  - name: "Sotiris Alexandropoulos"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 24
+    value: "€1,2 млн"
+    tm_id: "481688"
+club_transfers:
+---
+В заявке клуба Sporting CP — 29 игроков со средним возрастом 23,5 года. Общая стоимость команды по оценке Transfermarkt — €378,70 млн, в среднем €13,06 млн на игрока.
+
+Самый дорогой игрок состава — Gonçalo Inácio (центральный защитник), его стоимость оценивается в €40 млн.

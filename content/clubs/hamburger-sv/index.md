@@ -1,0 +1,196 @@
+---
+title: "Hamburger SV: состав, стоимость и трансферы"
+description: "Состав клуба Hamburger SV — 28 игроков, средний возраст 24,9. Общая стоимость команды €155,95 млн."
+date: "2026-09-02T18:40:21+03:00"
+url: "/clubs/hamburger-sv/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Hamburger SV"
+club_code: ""
+club_logo: "images/clubs/api/rendered/175-4997c01a94f2.png"
+api_football_id: "175"
+club_city: "Hamburg"
+club_country: ""
+league: "Бундеслига"
+league_id: "78"
+transfermarkt_club_id: "41"
+squad_size: 28
+average_age: "24,9"
+squad_value: "€155,95 млн"
+squad_value_eur: 155950000
+average_value: "€5,38 млн"
+squad:
+  - name: "Fábio Vieira"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 26
+    value: "€18 млн"
+    tm_id: "537598"
+  - name: "Zakaria El Ouahdi"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 24
+    value: "€17 млн"
+    tm_id: "820474"
+  - name: "David Møller Wolfe"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 24
+    value: "€12 млн"
+    tm_id: "661427"
+  - name: "Albert Sambi Lokonga"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 26
+    value: "€12 млн"
+    tm_id: "381967"
+  - name: "Martin Adeline"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 22
+    value: "€10 млн"
+    tm_id: "814976"
+  - name: "Nicolai Remberg"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 26
+    value: "€9 млн"
+    tm_id: "592534"
+  - name: "Nicolás Capaldo"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€8 млн"
+    tm_id: "649672"
+  - name: "Sebastiaan Bornauw"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€8 млн"
+    tm_id: "338629"
+  - name: "Bilal Nadir"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 22
+    value: "€8 млн"
+    tm_id: "659520"
+  - name: "Terem Moffi"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 27
+    value: "€8 млн"
+    tm_id: "538874"
+  - name: "Miro Muheim"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 28
+    value: "€5 млн"
+    tm_id: "298603"
+  - name: "Albert Grønbaek"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 25
+    value: "€5 млн"
+    tm_id: "503866"
+  - name: "Alexander Røssing-Lelesiit"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 19
+    value: "€5 млн"
+    tm_id: "1213681"
+  - name: "Warmed Omari"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€4 млн"
+    tm_id: "711996"
+  - name: "Jordan Torunarigha"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 29
+    value: "€4 млн"
+    tm_id: "227110"
+  - name: "Kofi Amoako"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 21
+    value: "€4 млн"
+    tm_id: "814950"
+  - name: "Otto Stange"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 19
+    value: "€4 млн"
+    tm_id: "1058520"
+  - name: "Sander Tangvik"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 23
+    value: "€3 млн"
+    tm_id: "549378"
+  - name: "Patson Daka"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 27
+    value: "€3 млн"
+    tm_id: "365172"
+  - name: "Immanuel Pherai"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 25
+    value: "€1,5 млн"
+    tm_id: "412935"
+  - name: "Daniel Heuer Fernandes"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 33
+    value: "€1,2 млн"
+    tm_id: "84993"
+  - name: "Bakery Jatta"
+    position: "Правый полузащитник"
+    position_short: "RM"
+    age: 28
+    value: "€1 млн"
+    tm_id: "415194"
+  - name: "Yussuf Poulsen"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 32
+    value: "€1 млн"
+    tm_id: "157635"
+  - name: "Shafiq Nandja"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 19
+    value: "€500 тыс."
+    tm_id: "1125079"
+  - name: "Fernando Dickes"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 18
+    value: "€300 тыс."
+    tm_id: "1048715"
+  - name: "Louis Lemke"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 16
+    value: "€300 тыс."
+    tm_id: "1294853"
+  - name: "Joel Agyekum"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 21
+    value: "€150 тыс."
+    tm_id: "815838"
+  - name: "Elias Lahti"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 17
+    value: ""
+    tm_id: "1303450"
+club_transfers:
+---
+В заявке клуба Hamburger SV — 28 игроков со средним возрастом 24,9 года. Общая стоимость команды по оценке Transfermarkt — €155,95 млн, в среднем €5,38 млн на игрока.
+
+Самый дорогой игрок состава — Fábio Vieira (атакующий полузащитник), его стоимость оценивается в €18 млн.

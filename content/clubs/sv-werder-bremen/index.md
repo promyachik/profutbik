@@ -1,0 +1,233 @@
+---
+title: "SV Werder Bremen: состав, стоимость и трансферы"
+description: "Состав клуба SV Werder Bremen — 33 игрока, средний возраст 25,7. Общая стоимость команды €124,08 млн."
+date: "2026-09-02T18:40:25+03:00"
+url: "/clubs/sv-werder-bremen/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "SV Werder Bremen"
+club_code: "WER"
+club_logo: "images/clubs/api/rendered/162-076ca6ba9cbf.png"
+api_football_id: "162"
+club_city: "Bremen"
+club_country: "Germany"
+league: "Бундеслига"
+league_id: "78"
+transfermarkt_club_id: "86"
+squad_size: 33
+average_age: "25,7"
+squad_value: "€124,08 млн"
+squad_value_eur: 124075000
+average_value: "€3,76 млн"
+squad:
+  - name: "Jens Stage"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 29
+    value: "€14 млн"
+    tm_id: "289835"
+  - name: "Marco Friedl"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 28
+    value: "€10 млн"
+    tm_id: "156990"
+  - name: "Arthur"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 23
+    value: "€8 млн"
+    tm_id: "977464"
+  - name: "Senne Lynen"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 27
+    value: "€8 млн"
+    tm_id: "338668"
+  - name: "Chuki"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 22
+    value: "€8 млн"
+    tm_id: "926763"
+  - name: "Eren Dinkçi"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 24
+    value: "€6 млн"
+    tm_id: "645774"
+  - name: "Oskar Wójcik"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 23
+    value: "€5 млн"
+    tm_id: "821350"
+  - name: "Youri Regeer"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 23
+    value: "€5 млн"
+    tm_id: "559324"
+  - name: "Justin Njinmah"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 25
+    value: "€5 млн"
+    tm_id: "596153"
+  - name: "Felix Agu"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 26
+    value: "€4,5 млн"
+    tm_id: "393512"
+  - name: "Amos Pieper"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 28
+    value: "€4 млн"
+    tm_id: "334221"
+  - name: "Moussa Ndiaye"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 24
+    value: "€4 млн"
+    tm_id: "649022"
+  - name: "Marco Grüll"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 28
+    value: "€4 млн"
+    tm_id: "391766"
+  - name: "Olivier Deman"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 26
+    value: "€3,5 млн"
+    tm_id: "621802"
+  - name: "Niclas Füllkrug"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 33
+    value: "€3,5 млн"
+    tm_id: "75489"
+  - name: "Karl Hein"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 24
+    value: "€3 млн"
+    tm_id: "493513"
+  - name: "Mitchell Weiser"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 32
+    value: "€3 млн"
+    tm_id: "119211"
+  - name: "Ludovit Reis"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 26
+    value: "€3 млн"
+    tm_id: "490884"
+  - name: "Keke Topp"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 22
+    value: "€3 млн"
+    tm_id: "701757"
+  - name: "Kenny Quetant"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 20
+    value: "€3 млн"
+    tm_id: "1178695"
+  - name: "Niklas Stark"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 31
+    value: "€2,5 млн"
+    tm_id: "162434"
+  - name: "Alexander Schlager"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 30
+    value: "€2 млн"
+    tm_id: "186374"
+  - name: "Julián Malatini"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 25
+    value: "€2 млн"
+    tm_id: "830108"
+  - name: "Skelly Alvero"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 24
+    value: "€2 млн"
+    tm_id: "855134"
+  - name: "Salim Musah"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 20
+    value: "€2 млн"
+    tm_id: "1042472"
+  - name: "Cedric Itten"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 29
+    value: "€1,8 млн"
+    tm_id: "243856"
+  - name: "Dariusz Stalmach"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 20
+    value: "€1,5 млн"
+    tm_id: "826795"
+  - name: "Dawid Kownacki"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 29
+    value: "€1,5 млн"
+    tm_id: "208167"
+  - name: "Mick Schmetgens"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 18
+    value: "€700 тыс."
+    tm_id: "1045986"
+  - name: "Markus Kolke"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 36
+    value: "€300 тыс."
+    tm_id: "99451"
+  - name: "Stefan Smarkalev"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 19
+    value: "€150 тыс."
+    tm_id: "1025989"
+  - name: "Paul Erevbenagie"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 19
+    value: "€125 тыс."
+    tm_id: "1080555"
+  - name: "Darwin Soylu"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 19
+    value: ""
+    tm_id: "1071244"
+club_transfers:
+  - player: "Oskar Wójcik"
+    slug: "oskar-wojcik-werder-bremen"
+    direction: "in"
+    other_club: "KS Cracovia"
+    fee: "Сумма не разглашается"
+---
+В заявке клуба SV Werder Bremen — 33 игрока со средним возрастом 25,7 года. Общая стоимость команды по оценке Transfermarkt — €124,08 млн, в среднем €3,76 млн на игрока.
+
+Самый дорогой игрок состава — Jens Stage (центральный полузащитник), его стоимость оценивается в €14 млн.
+
+Трансферы клуба, о которых мы писали: пришли 1.

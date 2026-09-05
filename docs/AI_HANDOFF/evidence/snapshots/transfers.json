@@ -1,0 +1,341 @@
+[
+  {
+    "entity_id": "mario-gila__lazio__ac-milan",
+    "cutout_player_image": "",
+    "date": "2026-07-10T12:00:00+03:00",
+    "fee": "Сумма не раскрыта",
+    "from_club": {
+      "id": 487,
+      "name": "Lazio",
+      "configured_name": "Lazio",
+      "logo": "images/clubs/api/487.png"
+    },
+    "from_club_id": 487,
+    "from_club_logo": "images/clubs/api/487.png",
+    "from_club_name": "Lazio",
+    "parser_generated": true,
+    "player": "Mario Gila",
+    "player_id": 4108626654,
+    "player_image": "",
+    "player_image_background_removed": false,
+    "player_image_fallback": "",
+    "player_image_processor": "pending",
+    "show_in_footer_ticker": false,
+    "show_in_top_ticker": true,
+    "slug": "mario-gila-ac-milan",
+    "status": "completed",
+    "status_label": "СОСТОЯЛСЯ",
+    "test_mode": true,
+    "ticker_image": "",
+    "to_club": {
+      "id": 489,
+      "name": "AC Milan",
+      "configured_name": "AC Milan",
+      "logo": "images/clubs/api/489.png"
+    },
+    "to_club_id": 489,
+    "to_club_logo": "images/clubs/api/489.png",
+    "to_club_name": "AC Milan",
+    "url": "transfers/mario-gila-ac-milan/"
+  },
+  {
+    "status": "agreement",
+    "status_label": "СОГЛАСОВАНО",
+    "player": "Gonçalo Ramos",
+    "player_id": 41585,
+    "player_image": "images/players/custom/goncalo-ramos-ac-milan-black.png",
+    "player_image_fallback": "https://media.api-sports.io/football/players/41585.png",
+    "from_club_id": 85,
+    "from_club_name": "Paris Saint Germain",
+    "from_club_logo": "images/clubs/api/85.png",
+    "to_club_id": 489,
+    "to_club_name": "AC Milan",
+    "to_club_logo": "images/clubs/api/489.png",
+    "from_club": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "logo": "images/clubs/api/85.png"
+    },
+    "to_club": {
+      "id": 489,
+      "name": "AC Milan",
+      "logo": "images/clubs/api/489.png"
+    },
+    "fee": "€74M + add-ons",
+    "url": "transfers/goncalo-ramos-ac-milan/",
+    "date": "2026-06-27",
+    "show_in_top_ticker": true,
+    "show_in_footer_ticker": true,
+    "ticker_image": "images/players/custom/goncalo-ramos-ac-milan-black.png",
+    "cutout_player_image": "images/players/custom/goncalo-ramos-ac-milan-black.png",
+    "player_image_background_removed": true,
+    "player_image_processor": "black-background-ready",
+    "slug": "goncalo-ramos-ac-milan"
+  },
+  {
+    "status": "agreement",
+    "status_label": "СОГЛАСОВАНО",
+    "player": "Bernardo Silva",
+    "player_id": 636,
+    "player_image": "images/players/custom/bernardo-silva-real-madrid-black.png",
+    "player_image_fallback": "https://media.api-sports.io/football/players/636.png",
+    "from_club_id": 50,
+    "from_club_name": "Manchester City",
+    "from_club_logo": "images/clubs/api/50.png",
+    "to_club_id": 541,
+    "to_club_name": "Real Madrid",
+    "to_club_logo": "images/clubs/api/541.png",
+    "from_club": {
+      "id": 50,
+      "name": "Manchester City",
+      "logo": "images/clubs/api/50.png"
+    },
+    "to_club": {
+      "id": 541,
+      "name": "Real Madrid",
+      "logo": "images/clubs/api/541.png"
+    },
+    "fee": "€22 млн",
+    "url": "transfers/bernardo-silva-real-madrid/",
+    "date": "2026-06-21",
+    "show_in_top_ticker": true,
+    "show_in_footer_ticker": true,
+    "ticker_image": "images/players/custom/bernardo-silva-real-madrid-black.png",
+    "cutout_player_image": "images/players/custom/bernardo-silva-real-madrid-black.png",
+    "player_image_background_removed": true,
+    "player_image_processor": "black-background-ready",
+    "slug": "bernardo-silva-real-madrid"
+  },
+  {
+    "status": "agreement",
+    "status_label": "",
+    "player": "Elliot Anderson",
+    "player_id": 138908,
+    "player_image": "images/players/cutout/138908.png",
+    "player_image_fallback": "https://media.api-sports.io/football/players/138908.png",
+    "from_club_id": 65,
+    "from_club_name": "Nottingham Forest",
+    "from_club_logo": "images/clubs/api/65.png",
+    "to_club_id": 50,
+    "to_club_name": "Manchester City",
+    "to_club_logo": "images/clubs/api/50.png",
+    "from_club": {
+      "id": 65,
+      "name": "Nottingham Forest",
+      "logo": "images/clubs/api/65.png"
+    },
+    "to_club": {
+      "id": 50,
+      "name": "Manchester City",
+      "logo": "images/clubs/api/50.png"
+    },
+    "fee": "£116 млн",
+    "url": "transfers/elliot-anderson-manchester-city/",
+    "date": "2026-06-25T23:00:00+02:00",
+    "show_in_top_ticker": true,
+    "show_in_footer_ticker": true
+  },
+  {
+    "status": "official",
+    "status_label": "",
+    "player": "Ibrahima Konaté",
+    "player_id": 1145,
+    "player_image": "images/players/cutout/1145.png",
+    "player_image_fallback": "https://media.api-sports.io/football/players/1145.png",
+    "from_club_id": 40,
+    "from_club_name": "Liverpool",
+    "from_club_logo": "images/clubs/api/40.png",
+    "to_club_id": 541,
+    "to_club_name": "Real Madrid",
+    "to_club_logo": "images/clubs/api/541.png",
+    "from_club": {
+      "id": 40,
+      "name": "Liverpool",
+      "logo": "images/clubs/api/40.png"
+    },
+    "to_club": {
+      "id": 541,
+      "name": "Real Madrid",
+      "logo": "images/clubs/api/541.png"
+    },
+    "fee": "Сумма не раскрывается",
+    "url": "transfers/ibrahima-konate-real-madrid/",
+    "date": "2026-06-18T12:00:00+02:00",
+    "show_in_top_ticker": true,
+    "show_in_footer_ticker": true
+  },
+  {
+    "status": "official",
+    "status_label": "",
+    "player": "Marc Cucurella",
+    "player_id": 47380,
+    "player_image": "images/players/cutout/47380.png",
+    "player_image_fallback": "https://media.api-sports.io/football/players/47380.png",
+    "from_club_id": 49,
+    "from_club_name": "Chelsea",
+    "from_club_logo": "images/clubs/api/49.png",
+    "to_club_id": 541,
+    "to_club_name": "Real Madrid",
+    "to_club_logo": "images/clubs/api/541.png",
+    "from_club": {
+      "id": 49,
+      "name": "Chelsea",
+      "logo": "images/clubs/api/49.png"
+    },
+    "to_club": {
+      "id": 541,
+      "name": "Real Madrid",
+      "logo": "images/clubs/api/541.png"
+    },
+    "fee": "€55 млн + €5 млн бонусами",
+    "url": "transfers/marc-cucurella-real-madrid/",
+    "date": "2026-06-15T12:00:00+02:00",
+    "show_in_top_ticker": true,
+    "show_in_footer_ticker": true
+  },
+  {
+    "status": "confirmed",
+    "status_label": "",
+    "player": "Denzel Dumfries",
+    "player_id": 226,
+    "player_image": "images/players/cutout/226.png",
+    "player_image_fallback": "https://media.api-sports.io/football/players/226.png",
+    "from_club_id": 505,
+    "from_club_name": "Inter",
+    "from_club_logo": "images/clubs/api/505.png",
+    "to_club_id": 541,
+    "to_club_name": "Real Madrid",
+    "to_club_logo": "images/clubs/api/541.png",
+    "from_club": {
+      "id": 505,
+      "name": "Inter",
+      "logo": "images/clubs/api/505.png"
+    },
+    "to_club": {
+      "id": 541,
+      "name": "Real Madrid",
+      "logo": "images/clubs/api/541.png"
+    },
+    "fee": "Сумма не раскрывается",
+    "url": "transfers/denzel-dumfries-real-madrid/",
+    "date": "2026-06-09T10:00:00+02:00",
+    "show_in_top_ticker": true,
+    "show_in_footer_ticker": true
+  },
+  {
+    "status": "negotiations",
+    "status_label": "",
+    "player": "Julián Álvarez",
+    "player_id": 6009,
+    "player_image": "images/players/cutout/6009.png",
+    "player_image_fallback": "https://media.api-sports.io/football/players/6009.png",
+    "from_club_id": 530,
+    "from_club_name": "Atletico Madrid",
+    "from_club_logo": "images/clubs/api/530.png",
+    "to_club_id": 529,
+    "to_club_name": "Barcelona",
+    "to_club_logo": "images/clubs/api/529.png",
+    "from_club": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "logo": "images/clubs/api/530.png"
+    },
+    "to_club": {
+      "id": 529,
+      "name": "Barcelona",
+      "logo": "images/clubs/api/529.png"
+    },
+    "fee": "Предложение €100 млн",
+    "url": "transfers/julian-alvarez-barcelona/",
+    "date": "2026-05-29T12:00:00+02:00",
+    "show_in_top_ticker": true,
+    "show_in_footer_ticker": true
+  },
+  {
+    "status": "official",
+    "status_label": "",
+    "player": "Florian Wirtz",
+    "player_id": 203224,
+    "player_image": "images/players/cutout/203224.png",
+    "player_image_fallback": "https://media.api-sports.io/football/players/203224.png",
+    "from_club_id": 168,
+    "from_club_name": "Bayer Leverkusen",
+    "from_club_logo": "images/clubs/api/168.png",
+    "to_club_id": 40,
+    "to_club_name": "Liverpool",
+    "to_club_logo": "images/clubs/api/40.png",
+    "from_club": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "logo": "images/clubs/api/168.png"
+    },
+    "to_club": {
+      "id": 40,
+      "name": "Liverpool",
+      "logo": "images/clubs/api/40.png"
+    },
+    "fee": "До £116,5 млн",
+    "url": "transfers/florian-wirtz-liverpool/",
+    "date": "2025-06-20T12:00:00+02:00",
+    "show_in_top_ticker": true,
+    "show_in_footer_ticker": true
+  },
+  {
+    "status": "official",
+    "status_label": "",
+    "player": "Matthijs de Ligt",
+    "player_id": 532,
+    "player_image": "images/players/transfermarkt/532.jpg",
+    "player_image_fallback": "https://media.api-sports.io/football/players/532.png",
+    "from_club_id": 157,
+    "from_club_name": "Bayern Munich",
+    "from_club_logo": "images/clubs/api/157.png",
+    "to_club_id": 33,
+    "to_club_name": "Manchester United",
+    "to_club_logo": "images/clubs/api/33.png",
+    "from_club": {
+      "id": 157,
+      "name": "Bayern Munich",
+      "logo": "images/clubs/api/157.png"
+    },
+    "to_club": {
+      "id": 33,
+      "name": "Manchester United",
+      "logo": "images/clubs/api/33.png"
+    },
+    "fee": "€45.00m",
+    "url": "transfers/matthijs-de-ligt/",
+    "date": "2024-08-13T12:00:00+02:00",
+    "show_in_top_ticker": true,
+    "show_in_footer_ticker": true
+  },
+  {
+    "status": "official",
+    "status_label": "",
+    "player": "Kylian Mbappé",
+    "player_id": 278,
+    "player_image": "images/players/api/278.png",
+    "player_image_fallback": "https://media.api-sports.io/football/players/278.png",
+    "from_club_id": 85,
+    "from_club_name": "Paris Saint Germain",
+    "from_club_logo": "images/clubs/api/85.png",
+    "to_club_id": 541,
+    "to_club_name": "Real Madrid",
+    "to_club_logo": "images/clubs/api/541.png",
+    "from_club": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "logo": "images/clubs/api/85.png"
+    },
+    "to_club": {
+      "id": 541,
+      "name": "Real Madrid",
+      "logo": "images/clubs/api/541.png"
+    },
+    "fee": "Свободный агент",
+    "url": "transfers/kylian-mbappe-real-madrid/",
+    "date": "2024-06-03T12:00:00+03:00",
+    "show_in_top_ticker": true,
+    "show_in_footer_ticker": true
+  }
+]

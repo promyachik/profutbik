@@ -1,0 +1,208 @@
+---
+title: "Dinamo Makhachkala: состав, стоимость и трансферы"
+description: "Состав клуба Dinamo Makhachkala — 30 игроков, средний возраст 24,7. Общая стоимость команды €19,38 млн."
+date: "2026-09-02T18:45:51+03:00"
+url: "/clubs/dinamo-makhachkala/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Dinamo Makhachkala"
+club_code: ""
+club_logo: "images/clubs/api/6813.png"
+api_football_id: "6813"
+club_city: "Kaspiysk, Republic of Dagestan "
+club_country: "Russia"
+league: "РПЛ"
+league_id: "235"
+transfermarkt_club_id: "75231"
+squad_size: 30
+average_age: "24,7"
+squad_value: "€19,38 млн"
+squad_value_eur: 19375000
+average_value: "€645,83 тыс."
+squad:
+  - name: "Mohammadjavad Hosseinnejad"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 23
+    value: "€1,5 млн"
+    tm_id: "1030739"
+  - name: "Gamid Agalarov"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 26
+    value: "€1,5 млн"
+    tm_id: "567023"
+  - name: "Houssem Mrezigue"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 26
+    value: "€1,2 млн"
+    tm_id: "842780"
+  - name: "Daniil Lesovoy"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 28
+    value: "€1,2 млн"
+    tm_id: "315252"
+  - name: "Idar Shumakhov"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€1 млн"
+    tm_id: "702149"
+  - name: "Temirkan Sundukov"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 24
+    value: "€1 млн"
+    tm_id: "654591"
+  - name: "Mohamed Azzi"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 24
+    value: "€1 млн"
+    tm_id: "863190"
+  - name: "David Volk"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 25
+    value: "€900 тыс."
+    tm_id: "451244"
+  - name: "Nikita Glushkov"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 27
+    value: "€900 тыс."
+    tm_id: "480139"
+  - name: "Miro"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 23
+    value: "€800 тыс."
+    tm_id: "1043831"
+  - name: "Andrés Alarcón"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 25
+    value: "€750 тыс."
+    tm_id: "1102540"
+  - name: "Egor Smelov"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 21
+    value: "€750 тыс."
+    tm_id: "715359"
+  - name: "Ilyas Akhmedov"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 19
+    value: "€700 тыс."
+    tm_id: "1317563"
+  - name: "Mutalip Alibekov"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 29
+    value: "€700 тыс."
+    tm_id: "334425"
+  - name: "Timur Magomedov"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 24
+    value: "€600 тыс."
+    tm_id: "622477"
+  - name: "Soslan Kagermazov"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 30
+    value: "€600 тыс."
+    tm_id: "438306"
+  - name: "Razhab Magomedov"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 25
+    value: "€500 тыс."
+    tm_id: "622454"
+  - name: "Makhmud Makhamadzhonov"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 23
+    value: "€400 тыс."
+    tm_id: "989071"
+  - name: "Aleksandr Sandrachuk"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 24
+    value: "€400 тыс."
+    tm_id: "649301"
+  - name: "Abdulpasha Dzhabrailov"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 21
+    value: "€400 тыс."
+    tm_id: "1156870"
+  - name: "Vladimir Khubulov"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 25
+    value: "€400 тыс."
+    tm_id: "430484"
+  - name: "Dmitriy Aleksandrov"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 20
+    value: "€350 тыс."
+    tm_id: "864621"
+  - name: "Kirill Zinovich"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 23
+    value: "€350 тыс."
+    tm_id: "720936"
+  - name: "Nikita Karabashev"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 24
+    value: "€300 тыс."
+    tm_id: "698931"
+  - name: "Marat Apshatsev"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 25
+    value: "€250 тыс."
+    tm_id: "599046"
+  - name: "Serder Serderov"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 32
+    value: "€250 тыс."
+    tm_id: "129103"
+  - name: "Anton Krachkovskiy"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 24
+    value: "€225 тыс."
+    tm_id: "614776"
+  - name: "Shamil Gadzhiev"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 21
+    value: "€200 тыс."
+    tm_id: "926945"
+  - name: "Diaa Eddine Mechid"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 20
+    value: "€150 тыс."
+    tm_id: "1404902"
+  - name: "Gadzhi Budunov"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 19
+    value: "€100 тыс."
+    tm_id: "1317564"
+club_transfers:
+---
+В заявке клуба Dinamo Makhachkala — 30 игроков со средним возрастом 24,7 года. Общая стоимость команды по оценке Transfermarkt — €19,38 млн, в среднем €645,83 тыс. на игрока.
+
+Самый дорогой игрок состава — Mohammadjavad Hosseinnejad (атакующий полузащитник), его стоимость оценивается в €1,5 млн.

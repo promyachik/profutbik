@@ -26,6 +26,23 @@
     "official" "official"
 }}
 
+{{/* PF488A_TOLERANT_STATUS_SYNONYMS_START
+     Исторические написания статусов. Без них lookup не находит значение,
+     срабатывает fallback "rumour", и состоявшийся переход показывается жёлтым
+     при верной подписи. Это был баг 406I. Данные приведены к каноническим
+     статусам, эти синонимы — страховка, чтобы он не вернулся. */}}
+{{ $statusLabels = merge $statusLabels (dict
+    "completed" "СОСТОЯЛСЯ"
+    "rumor" "СЛУХ"
+    "done" "СОСТОЯЛСЯ"
+) }}
+{{ $statusClasses = merge $statusClasses (dict
+    "completed" "official"
+    "rumor" "rumour"
+    "done" "official"
+) }}
+{{/* PF488A_TOLERANT_STATUS_SYNONYMS_END */}}
+
 {{ if gt (len $transfers) 0 }}
 
 <div

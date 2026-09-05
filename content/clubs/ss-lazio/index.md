@@ -1,0 +1,233 @@
+---
+title: "SS Lazio: состав, стоимость и трансферы"
+description: "Состав клуба SS Lazio — 33 игрока, средний возраст 26,1. Общая стоимость команды €249,65 млн."
+date: "2026-09-02T18:38:18+03:00"
+url: "/clubs/ss-lazio/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "SS Lazio"
+club_code: "LAZ"
+club_logo: "images/clubs/api/487.png"
+api_football_id: "487"
+club_city: "Roma"
+club_country: "Italy"
+league: "Серия А"
+league_id: "135"
+transfermarkt_club_id: "398"
+squad_size: 33
+average_age: "26,1"
+squad_value: "€249,65 млн"
+squad_value_eur: 249650000
+average_value: "€7,57 млн"
+squad:
+  - name: "Kenneth Taylor"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 24
+    value: "€25 млн"
+    tm_id: "470394"
+  - name: "Nicolò Rovella"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 24
+    value: "€23 млн"
+    tm_id: "525704"
+  - name: "Davide Frattesi"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 26
+    value: "€22 млн"
+    tm_id: "394300"
+  - name: "Oliver Provstgaard"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 23
+    value: "€16 млн"
+    tm_id: "644408"
+  - name: "Gustav Isaksen"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 25
+    value: "€15 млн"
+    tm_id: "462823"
+  - name: "Andrea Pinamonti"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 27
+    value: "€15 млн"
+    tm_id: "315865"
+  - name: "Danilho Doekhi"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 28
+    value: "€13 млн"
+    tm_id: "387047"
+  - name: "Josip Sutalo"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€12 млн"
+    tm_id: "371001"
+  - name: "Nuno Tavares"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 26
+    value: "€12 млн"
+    tm_id: "535955"
+  - name: "Albert Gudmundsson"
+    position: "Оттянутый нападающий"
+    position_short: "SS"
+    age: 29
+    value: "€12 млн"
+    tm_id: "305947"
+  - name: "Christos Mandas"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 24
+    value: "€8 млн"
+    tm_id: "481675"
+  - name: "Edoardo Motta"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 21
+    value: "€8 млн"
+    tm_id: "916430"
+  - name: "Tijjani Noslin"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 27
+    value: "€8 млн"
+    tm_id: "457736"
+  - name: "Mattia Zaccagni"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 31
+    value: "€7,5 млн"
+    tm_id: "283735"
+  - name: "Matteo Cancellieri"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 24
+    value: "€7 млн"
+    tm_id: "550106"
+  - name: "Reda Belahyane"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 22
+    value: "€6,8 млн"
+    tm_id: "982855"
+  - name: "Alessio Romagnoli"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 31
+    value: "€6 млн"
+    tm_id: "197747"
+  - name: "Fisayo Dele-Bashiru"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 25
+    value: "€6 млн"
+    tm_id: "530742"
+  - name: "Adrian Przyborek"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 19
+    value: "€6 млн"
+    tm_id: "1018395"
+  - name: "Luca Pellegrini"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 27
+    value: "€4,5 млн"
+    tm_id: "346567"
+  - name: "Danilo Cataldi"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 32
+    value: "€3,5 млн"
+    tm_id: "199733"
+  - name: "Alfonso Pedraza"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 30
+    value: "€2,5 млн"
+    tm_id: "356197"
+  - name: "Romano Floriani Mussolini"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 23
+    value: "€2,5 млн"
+    tm_id: "708086"
+  - name: "Adam Marusic"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 33
+    value: "€2,5 млн"
+    tm_id: "239802"
+  - name: "Manuel Lazzari"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 32
+    value: "€2 млн"
+    tm_id: "331401"
+  - name: "Patric"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 33
+    value: "€1,5 млн"
+    tm_id: "126729"
+  - name: "Filipe Bordon"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 21
+    value: "€750 тыс."
+    tm_id: "1110645"
+  - name: "Mohamed Fares"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 30
+    value: "€500 тыс."
+    tm_id: "287700"
+  - name: "Federico Serra"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 20
+    value: "€400 тыс."
+    tm_id: "976207"
+  - name: "Alessio Furlanetto"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 24
+    value: "€350 тыс."
+    tm_id: "538079"
+  - name: "Davide Renzetti"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 20
+    value: "€150 тыс."
+    tm_id: "918957"
+  - name: "Bruno Galassi"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 19
+    value: "€100 тыс."
+    tm_id: "1455976"
+  - name: "Valerio Farcomeni"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 20
+    value: "€100 тыс."
+    tm_id: "866255"
+club_transfers:
+  - player: "Mario Gila"
+    slug: "mario-gila-ac-milan"
+    direction: "out"
+    other_club: "AC Milan"
+    fee: "Сумма не раскрыта"
+---
+В заявке клуба SS Lazio — 33 игрока со средним возрастом 26,1 года. Общая стоимость команды по оценке Transfermarkt — €249,65 млн, в среднем €7,57 млн на игрока.
+
+Самый дорогой игрок состава — Kenneth Taylor (центральный полузащитник), его стоимость оценивается в €25 млн.
+
+Трансферы клуба, о которых мы писали: ушли 1.

@@ -1,0 +1,175 @@
+/* 398T HOME LEAGUE SELECTOR START */
+
+body.pf-homepage .pf-header {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+body.pf-homepage .pf-header__inner {
+    width: calc(100% - 48px) !important;
+    max-width: 1320px !important;
+    min-height: 112px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+body.pf-homepage .pf-header__nav {
+    margin-left: auto !important;
+}
+
+body.pf-homepage .pf-home-main {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: none !important;
+    min-height: calc(100vh - 228px) !important;
+    margin: 0 !important;
+    padding: 0 0 28px !important;
+}
+
+body.pf-homepage .home-player-bottom-strip {
+    margin-top: auto !important;
+}
+
+/* 398T HOME LEAGUE SELECTOR END */
+
+/* 504A HOME LEAGUE STRIP START
+ *
+ * Плашка лиг на главной приведена к виду плашки в разделе клубов
+ * (pf405a): одна сплошная лента с тонкими перегородками вместо восьми
+ * отдельных карточек с зазорами.
+ *
+ * Это замена, а не ещё один слой. Раньше здесь лежали три патча подряд —
+ * 398T задавал скруглённые карточки, 398W перебивал шрифт, 399E через
+ * !important возвращал прямые углы. Каждый следующий спорил с предыдущим,
+ * и итоговый вид не совпадал ни с одним из замыслов. Стилевая часть всех
+ * трёх убрана; раскладка главной из 398T выше сохранена без изменений.
+ *
+ * Ширину ленты не трогаем: по её краям выровнены блоки трансферов
+ * и слухов ниже (399V).
+ *
+ * Разметку и классы менять нельзя — на них завязаны выбор лиги
+ * (home-league-selector.js) и фильтр трансферов (home-transfer-show-more.js).
+ */
+
+.pf-league-selector {
+    width: calc(100% - 48px);
+    max-width: 1320px;
+    margin: 22px auto 28px;
+}
+
+.pf-league-selector__heading {
+    display: none;
+}
+
+.pf-league-selector__list {
+    display: grid;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    border: 1px solid rgba(130, 145, 160, 0.24);
+    background: rgba(8, 13, 18, 0.55);
+}
+
+.pf-league-selector__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-width: 0;
+    min-height: 118px;
+    padding: 10px 8px;
+    border: 0;
+    border-right: 1px solid rgba(130, 145, 160, 0.18);
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+}
+
+.pf-league-selector__item:last-child {
+    border-right: 0;
+}
+
+/* Подсветка внутренней рамкой, а не внешней: у соседних ячеек общая
+   перегородка, и обычный border сдвигал бы содержимое на пиксель. */
+.pf-league-selector__item:hover,
+.pf-league-selector__item:focus-visible,
+.pf-league-selector__item.is-active,
+.pf-league-selector__item[aria-pressed="true"] {
+    z-index: 2;
+    background: rgba(255, 212, 0, 0.035);
+    box-shadow: inset 0 0 0 1px #ffd400;
+    outline: none;
+}
+
+.pf-league-selector__logo {
+    display: grid;
+    place-items: center;
+    width: 54px;
+    height: 54px;
+}
+
+/* width/height в разметке стоят атрибутами (48x48), иначе логотипы
+   разных пропорций растянет. Пересчёт оставляем браузеру. */
+.pf-league-selector__logo img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 50px;
+    max-height: 50px;
+    object-fit: contain;
+    pointer-events: none;
+}
+
+.pf-league-selector__name {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 1.2;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media (max-width: 980px) {
+    .pf-league-selector__list {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    /* В сетке из четырёх колонок правая перегородка нужна не каждой
+       ячейке, а всем кроме четвёртой в ряду. */
+    .pf-league-selector__item:nth-child(4n) {
+        border-right: 0;
+    }
+}
+
+@media (max-width: 760px) {
+    body.pf-homepage .pf-header__inner,
+    .pf-league-selector {
+        width: calc(100% - 28px) !important;
+    }
+
+    body.pf-homepage .pf-header__inner {
+        min-height: 94px !important;
+    }
+}
+
+@media (max-width: 680px) {
+    .pf-league-selector__list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .pf-league-selector__item {
+        min-height: 96px;
+        border-right: 1px solid rgba(130, 145, 160, 0.18);
+    }
+
+    .pf-league-selector__item:nth-child(2n) {
+        border-right: 0;
+    }
+}
+
+/* 504A HOME LEAGUE STRIP END */

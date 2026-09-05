@@ -1,6 +1,6 @@
-﻿---
-title: "Марк Кукурелья перешёл в «Реал»: сумма сделки и контракт до 2032 года"
-description: "Марк Кукурелья официально перешёл из «Челси» в мадридский «Реал». Сумма, срок контракта и главные детали сделки."
+---
+title: "Marc Cucurella перешёл в «Реал»: сумма сделки и контракт до 2032 года"
+description: "Marc Cucurella официально перешёл из «Челси» в мадридский «Реал». Сумма, срок контракта и главные детали сделки."
 date: 2026-06-15T12:00:00+02:00
 lastmod: 2026-06-26T16:30:00+02:00
 draft: false
@@ -10,7 +10,9 @@ layout: "single"
 status: "official"
 player: "Marc Cucurella"
 player_initials: "MC"
-player_id: 47380
+player_id: 47380
+
+
 market_value_display: "55 млн"
 market_value: "55 млн"
 player_image: "images/players/cutout/47380.png"
@@ -23,7 +25,7 @@ age: 27
 age_at_transfer: 27
 birth_date: "22.07.1998"
 nationality: "Испания"
-nationality_flag: "images/flags/spain.svg"
+nationality_flag: "images/flags/countries/es.svg"
 preferred_foot: "Левая"
 
 from_club_id: 49
@@ -36,17 +38,18 @@ source_name: "Real Madrid"
 source_url: "https://www.realmadrid.com/en-US/news/club/announcements/comunicado-oficial-cucurella-15-06-2026"
 previous_club_stats:
   label: "Chelsea · сезон 2025/26"
-  matches: "—"
-  goals: "—"
-  assists: "—"
-  minutes: "—"
-  yellow_cards: "—"
-  red_cards: "—"
+  matches: "TBA"
+  goals: "TBA"
+  assists: "TBA"
+  minutes: "TBA"
+  yellow_cards: "TBA"
+  red_cards: "TBA"
   season: "2025/26"
   source_note: "Данные будут заполнены после синхронизации API-Football."
+nationality_flag_image: "images/flags/countries/es.svg"
 ---
 
-Марк Кукурелья **официально перешёл из «Челси» в мадридский «Реал» 15 июня 2026 года**. Испанский клуб подтвердил трансфер и сообщил, что защитник подписал контракт на шесть сезонов — до 30 июня 2032 года.
+Marc Cucurella **официально перешёл из «Челси» в мадридский «Реал» 15 июня 2026 года**. Испанский клуб подтвердил трансфер и сообщил, что защитник подписал контракт на шесть сезонов — до 30 июня 2032 года.
 
 
 
@@ -58,7 +61,7 @@ previous_club_stats:
 
 
 
-- **Игрок:** Марк Кукурелья
+- **Игрок:** Marc Cucurella
 
 - **Предыдущий клуб:** «Челси»
 
@@ -156,4 +159,6 @@ previous_club_stats:
 
 Переход и срок соглашения подтверждены [официальным сайтом «Реала»](https://www.realmadrid.com/en-US/news/club/announcements/comunicado-oficial-cucurella-15-06-2026). Информацию о структуре суммы опубликовал [Фабрицио Романо](https://x.com/FabrizioRomano/status/2066446489006584029).
 
+---
 
+**Источник:** Real Madrid.

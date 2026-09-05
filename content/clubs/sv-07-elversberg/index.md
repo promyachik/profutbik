@@ -1,0 +1,196 @@
+---
+title: "SV 07 Elversberg: состав, стоимость и трансферы"
+description: "Состав клуба SV 07 Elversberg — 28 игроков, средний возраст 26,1. Общая стоимость команды €58,85 млн."
+date: "2026-09-02T18:39:52+03:00"
+url: "/clubs/sv-07-elversberg/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "SV 07 Elversberg"
+club_code: "ELV"
+club_logo: "images/clubs/api/1660.png"
+api_football_id: "1660"
+club_city: "St. Ingbert "
+club_country: "Germany"
+league: "Бундеслига"
+league_id: "78"
+transfermarkt_club_id: "64"
+squad_size: 28
+average_age: "26,1"
+squad_value: "€58,85 млн"
+squad_value_eur: 58850000
+average_value: "€2,10 млн"
+squad:
+  - name: "Francis Onyeka"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 19
+    value: "€10 млн"
+    tm_id: "929943"
+  - name: "Noel Futkeu"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 23
+    value: "€7,5 млн"
+    tm_id: "675535"
+  - name: "Cole Campbell"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 20
+    value: "€5 млн"
+    tm_id: "866579"
+  - name: "Noah Darvich"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 19
+    value: "€4 млн"
+    tm_id: "897480"
+  - name: "David Mokwa"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 22
+    value: "€4 млн"
+    tm_id: "974894"
+  - name: "Maurice Krattenmacher"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 21
+    value: "€3 млн"
+    tm_id: "829316"
+  - name: "Lukas Petkov"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 25
+    value: "€3 млн"
+    tm_id: "401639"
+  - name: "Nicolas Kristof"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 26
+    value: "€2,5 млн"
+    tm_id: "349465"
+  - name: "Lukas Pinckert"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€2,5 млн"
+    tm_id: "448259"
+  - name: "Lasse Günther"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 23
+    value: "€2,5 млн"
+    tm_id: "522245"
+  - name: "Lukasz Poreba"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 26
+    value: "€2,5 млн"
+    tm_id: "532169"
+  - name: "Luca Sirch"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€2,2 млн"
+    tm_id: "521928"
+  - name: "Tom Zimmerschied"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 27
+    value: "€1,5 млн"
+    tm_id: "337097"
+  - name: "Felix Keidel"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 23
+    value: "€1,2 млн"
+    tm_id: "815322"
+  - name: "Nicholas Mickelson"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 27
+    value: "€1 млн"
+    tm_id: "430034"
+  - name: "Amara Condé"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 29
+    value: "€900 тыс."
+    tm_id: "207580"
+  - name: "Maximilian Rohr"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 31
+    value: "€800 тыс."
+    tm_id: "440386"
+  - name: "Jason Ceka"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 26
+    value: "€800 тыс."
+    tm_id: "390661"
+  - name: "Frederik Schmahl"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 23
+    value: "€750 тыс."
+    tm_id: "604756"
+  - name: "Jan Gyamerah"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 31
+    value: "€700 тыс."
+    tm_id: "192840"
+  - name: "Florian Le Joncour"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 31
+    value: "€500 тыс."
+    tm_id: "352332"
+  - name: "Raif Adam"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 20
+    value: "€500 тыс."
+    tm_id: "910538"
+  - name: "Luca Pfeiffer"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 30
+    value: "€500 тыс."
+    tm_id: "232463"
+  - name: "Luca Schnellbacher"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 32
+    value: "€500 тыс."
+    tm_id: "229991"
+  - name: "Tim Boss"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 33
+    value: "€200 тыс."
+    tm_id: "85534"
+  - name: "Luis Seifert"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 22
+    value: "€200 тыс."
+    tm_id: "806007"
+  - name: "Frank Lehmann"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 37
+    value: "€100 тыс."
+    tm_id: "44536"
+  - name: "Elias Etringer"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 18
+    value: ""
+    tm_id: "1159486"
+club_transfers:
+---
+В заявке клуба SV 07 Elversberg — 28 игроков со средним возрастом 26,1 года. Общая стоимость команды по оценке Transfermarkt — €58,85 млн, в среднем €2,10 млн на игрока.
+
+Самый дорогой игрок состава — Francis Onyeka (атакующий полузащитник), его стоимость оценивается в €10 млн.

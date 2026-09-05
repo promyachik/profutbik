@@ -1,0 +1,110 @@
+﻿HEAD=1e10e22e0e9d3e40c721ce0dfce632a7b2c8c10a
+
+STATUS:
+ D content/news/index.md
+ M content/transfers/_index.md
+ M content/transfers/bernardo-silva-real-madrid/index.md
+ M content/transfers/denzel-dumfries-real-madrid/index.md
+ M content/transfers/elliot-anderson-manchester-city/index.md
+ M content/transfers/florian-wirtz-liverpool/index.md
+ M content/transfers/goncalo-ramos-ac-milan/index.md
+ M content/transfers/ibrahima-konate-real-madrid/index.md
+ M content/transfers/julian-alvarez-barcelona/index.md
+ D content/transfers/kylian-mbappe-real-madrid/index.before-mbappe-cutout.md
+ M content/transfers/kylian-mbappe-real-madrid/index.md
+ M content/transfers/marc-cucurella-real-madrid/index.md
+ D content/transfers/matthijs-de-ligt/index.index_before_remove_bad_market_chart.md
+ M content/transfers/matthijs-de-ligt/index.md
+ M data/club-logos.json
+ M data/player-market-values.json
+ M data/playerdb/teams.json
+ M data/transfers-api-preview.json
+ M data/transfers.json
+ M layouts/_default/baseof.html
+ M layouts/_default/single.html
+ M layouts/index.html
+ M layouts/partials/featured-transfer-of-day.html
+ M layouts/partials/footer-transfer-ticker.html
+ M layouts/partials/header.html
+ M layouts/partials/home-player-bottom-strip.html
+ M layouts/partials/mbappe-player-market-value-chart.html
+ M layouts/partials/mbappe-standalone-chart-runtime.html
+ M layouts/partials/player-value-chart.html
+ M layouts/partials/profutbik-market-chart-static.html
+ M layouts/partials/promyachik-cucurella-move-prices-to-club-x-244.html
+ M layouts/partials/transfer-player-market-value-chart.html
+ M layouts/partials/transfer-player-stats.html
+ M layouts/partials/transfer-player-value-history.html
+ M layouts/partials/transfer-ticker(1).html
+ M layouts/partials/transfer-ticker(2).html
+ M layouts/partials/transfer-ticker.html
+ M layouts/players/single.html
+ M layouts/shortcodes/mbappe-market-chart.html
+ M layouts/transfers/list.html
+ M layouts/transfers/single.html
+ M static/css/style.css
+ D static/images/flags/argentina.svg
+ D static/images/flags/england.svg
+ D static/images/flags/france.svg
+ D static/images/flags/netherlands.svg
+ D static/images/flags/portugal-v211.png
+ D static/images/flags/spain.svg
+ M static/js/homepage-featured-switcher.js
+ M static/js/transfer-player-market-value-chart.js
+?? .art-requests/
+?? .github/
+?? content/news/_index.md
+?? content/news/alexander-nubel-joins-besiktas/
+?? content/news/dominik-szoboszlai-new-liverpool-contract/
+?? content/news/mario-gila-ac-milan-official/
+?? content/news/maximilian-ibrahimovic-joins-az-alkmaar/
+?? content/rumors/
+?? content/transfers/mario-gila-ac-milan/
+?? data/flags/
+?? data/homepage_featured_admin.json
+?? data/homepage_latest_news.json
+?? data/homepage_transfer_rumor.json
+?? layouts/news/
+?? layouts/partials/global-roboto-font.html
+?? layouts/partials/home-latest-news.html
+?? layouts/partials/home-transfer-rumor-blocks.html
+?? layouts/partials/news-league-logos-404e.html
+?? layouts/partials/rumors-league-selector-405a.html
+?? layouts/rumors/
+?? static/css/home-league-selector.css
+?? static/css/pf-global-roboto.css
+?? static/css/transfers-directory.css
+?? static/images/brand/
+?? static/images/flags/countries/
+?? static/images/homepage/featured/admin-julian-alvarez-barcelona-396d-art-2.png
+?? static/images/homepage/featured/admin-mario-balotelli-ac-milan-396e-art-3.png
+?? static/images/homepage/featured/denzel-dumfries-real-madrid-card.png
+?? static/images/homepage/featured/denzel-dumfries-real-madrid-hero.png
+?? static/images/homepage/featured/erling-haaland-barcelona-card.png
+?? static/images/homepage/featured/erling-haaland-barcelona-hero.png
+?? static/images/homepage/featured/rafael-leao-bayern-art-3.png
+?? static/images/homepage/featured/rafael-leao-bayern-art-4.png
+?? static/images/homepage/featured/rafael-leao-bayern-art-5.png
+?? static/images/homepage/featured/rafael-leao-bayern-card.png
+?? static/images/homepage/featured/rafael-leao-bayern-hero.png
+?? static/images/leagues/
+?? static/js/home-league-selector.js
+?? static/js/home-transfer-show-more.js
+
+LAST 20 COMMITS:
+1e10e22e0e9d3e40c721ce0dfce632a7b2c8c10a`t2026-07-05 00:57:06 +0300`tAdd transfer concept art pages
+b493ec1f9de5a9a05bb855769935e378dff53469`t2026-07-04 22:58:31 +0300`tAdd unified bottom transfer ticker
+57de5c56fbd14b1ee11456afb52761ac6688b628`t2026-07-04 22:24:54 +0300`tAdd Bernardo Silva transfer page and player ticker
+9315338529715554677c679f5cc0f61867965303`t2026-07-03 22:11:21 +0300`tFix top transfer ticker seam gap
+1ca252cf4c619f3a10bea4de2e96f0aab89232e2`t2026-07-03 21:11:57 +0300`tAdd market value fields to transfer pages
+58ac6e2b801976e7d523aec4d4230ca344f08166`t2026-07-03 19:53:01 +0300`tFix Cucurella market value field layout
+5c7ae7f6f02953dabf89374be3c0c6daedfdae97`t2026-07-03 19:18:44 +0300`tTune market chart dot sizes
+1b4d20f3b9c62bcc8ef5631f6ed7af388a90b79e`t2026-07-02 23:06:53 +0300`tSync Ramos market value with transfer fee
+ae5c33c379f524e64391afe06ffc85b91f952666`t2026-07-02 23:01:21 +0300`tApply global market chart standard and add Ramos chart
+ef40417de93a799a3b9fa87c26d68127c9b6fe20`t2026-07-02 22:44:37 +0300`tPrevent Konate market labels from jumping after zoom
+8ef00c71158adc0696632207880f1f1db9aaebdd`t2026-07-02 21:51:20 +0300`tAlign Konate market value labels under chart dots
+02726f54e5819721643507c71ce9d10540ae3eb7`t2026-07-02 20:04:07 +0300`tFix Konate market chart gold labels and layout
+1348e793b9382f3ce1d06307d696b892f4a5041d`t2026-07-02 19:34:51 +0300`tFix Konate market chart to use default layout
+3747667bb8d437a570422515004662463a382b62`t2026-07-01 22:03:56 +0300`tPATCH 006 add Goncalo Ramos to existing bottom ticker
+d36792ba34d5497d498f2edd6807b28f71321810`t2026-07-01 21:37:27 +0300`tPATCH 005 update Goncalo Ramos player photo
+8807bdedbbda8e7b26b5b8bfe63c58379ba9bc2d`t2026-07-01 19:24:39 +0300`tbaseline clean Promyachik project after PATCH 001

@@ -892,7 +892,7 @@
         "city": "Sevilla",
         "capacity": 48649,
         "surface": "grass",
-        "image": "https://media.api-sports.io/football/venues/1494.png"
+        "image": "https://media.api-sports.io/football/venues/1494-v399t.png"
       },
       "league": {
         "id": 140,
@@ -1334,7 +1334,7 @@
       "country": "France",
       "founded": 1901,
       "national": false,
-      "logo": "https://media.api-sports.io/football/teams/94.png",
+      "logo": "https://media.api-sports.io/football/teams/94-v399t.png",
       "venue": {
         "id": 680,
         "name": "Roazhon Park",
@@ -1467,7 +1467,7 @@
         "city": "London",
         "capacity": 60383,
         "surface": "grass",
-        "image": "https://media.api-sports.io/football/venues/494.png"
+        "image": "https://media.api-sports.io/football/venues/494-v399t.png"
       },
       "league": {
         "id": 39,
@@ -2884,7 +2884,7 @@
       "country": "Italy",
       "founded": 1896,
       "national": false,
-      "logo": "https://media.api-sports.io/football/teams/494.png",
+      "logo": "https://media.api-sports.io/football/teams/494-v399t.png",
       "venue": {
         "id": 20416,
         "name": "Bluenergy Stadium",
@@ -3184,7 +3184,7 @@
       "country": "Turkey",
       "founded": 1925,
       "national": false,
-      "logo": "https://media.api-sports.io/football/teams/994.png",
+      "logo": "https://media.api-sports.io/football/teams/994-v399t.png",
       "venue": {
         "id": 22441,
         "name": "Gürsel Aksel Stadyumu",

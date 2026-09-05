@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="154" height="66" viewBox="0 0 154 66" role="img" aria-labelledby="title">
+  <title id="title">PRO FUTBIK</title>
+  <defs>
+    <linearGradient id="gold399m" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7d66b"/>
+      <stop offset="0.48" stop-color="#d9ab2d"/>
+      <stop offset="1" stop-color="#a87310"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#gold399m)" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900">
+    <text x="2" y="27" font-size="28" letter-spacing="0.5">PRO</text>
+    <text x="2" y="58" font-size="28" letter-spacing="0">FUTBIK</text>
+  </g>
+</svg>

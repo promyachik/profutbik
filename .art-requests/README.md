@@ -1,0 +1,1 @@
+GitHub bridge folders for admin art regeneration.\n

@@ -1,0 +1,196 @@
+---
+title: "GD Estoril Praia: состав, стоимость и трансферы"
+description: "Состав клуба GD Estoril Praia — 28 игроков, средний возраст 25,0. Общая стоимость команды €41,65 млн."
+date: "2026-09-02T18:45:01+03:00"
+url: "/clubs/gd-estoril-praia/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "GD Estoril Praia"
+club_code: "EST"
+club_logo: "images/clubs/api/230.png"
+api_football_id: "230"
+club_city: "Estoril"
+club_country: "Portugal"
+league: "Примейра"
+league_id: "94"
+transfermarkt_club_id: "1465"
+squad_size: 28
+average_age: "25,0"
+squad_value: "€41,65 млн"
+squad_value_eur: 41650000
+average_value: "€1,49 млн"
+squad:
+  - name: "Yanis Begraoui"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 25
+    value: "€12 млн"
+    tm_id: "569376"
+  - name: "Jordan Holsgrove"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 26
+    value: "€5 млн"
+    tm_id: "429309"
+  - name: "João Carvalho"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 29
+    value: "€5 млн"
+    tm_id: "258005"
+  - name: "Rafik Guitane"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 27
+    value: "€5 млн"
+    tm_id: "394328"
+  - name: "Ricard Sánchez"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 26
+    value: "€3 млн"
+    tm_id: "388545"
+  - name: "Stelios Andreou"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 24
+    value: "€2 млн"
+    tm_id: "613964"
+  - name: "Ferro"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 29
+    value: "€1 млн"
+    tm_id: "294321"
+  - name: "Antef Tsoungui"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 23
+    value: "€1 млн"
+    tm_id: "503858"
+  - name: "Ismael Sierra"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 23
+    value: "€800 тыс."
+    tm_id: "718195"
+  - name: "Pedro Carvalho"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 23
+    value: "€800 тыс."
+    tm_id: "1072238"
+  - name: "Xeka"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 31
+    value: "€800 тыс."
+    tm_id: "290256"
+  - name: "André Lacximicant"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 25
+    value: "€800 тыс."
+    tm_id: "752442"
+  - name: "Gonçalo Costa"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 26
+    value: "€600 тыс."
+    tm_id: "383014"
+  - name: "Fernando Medrano"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 26
+    value: "€500 тыс."
+    tm_id: "461619"
+  - name: "Tiago Parente"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 22
+    value: "€500 тыс."
+    tm_id: "925417"
+  - name: "Xavi Sintes"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 25
+    value: "€400 тыс."
+    tm_id: "569876"
+  - name: "Fabrício Garcia"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 25
+    value: "€400 тыс."
+    tm_id: "1070645"
+  - name: "Khayon Edwards"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 22
+    value: "€400 тыс."
+    tm_id: "741650"
+  - name: "Joel Robles"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 36
+    value: "€350 тыс."
+    tm_id: "101118"
+  - name: "Martin Turk"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 23
+    value: "€300 тыс."
+    tm_id: "700643"
+  - name: "Tiago Brito"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 22
+    value: "€300 тыс."
+    tm_id: "1020686"
+  - name: "Diogo Dias"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 23
+    value: "€200 тыс."
+    tm_id: "906307"
+  - name: "Diogo Brasido"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 23
+    value: "€200 тыс."
+    tm_id: "1044429"
+  - name: "Peixinho"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 22
+    value: "€200 тыс."
+    tm_id: "1159044"
+  - name: "Israel Salazar"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 23
+    value: "€100 тыс."
+    tm_id: "634430"
+  - name: "Sam Amissah"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 19
+    value: ""
+    tm_id: "1026524"
+  - name: "Jordan Arnolin"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 18
+    value: ""
+    tm_id: "1384113"
+  - name: "Luís Gomes"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 22
+    value: ""
+    tm_id: "826490"
+club_transfers:
+---
+В заявке клуба GD Estoril Praia — 28 игроков со средним возрастом 25,0 года. Общая стоимость команды по оценке Transfermarkt — €41,65 млн, в среднем €1,49 млн на игрока.
+
+Самый дорогой игрок состава — Yanis Begraoui (центральный нападающий), его стоимость оценивается в €12 млн.

@@ -1,0 +1,190 @@
+---
+title: "Levante UD: состав, стоимость и трансферы"
+description: "Состав клуба Levante UD — 27 игроков, средний возраст 24,3. Общая стоимость команды €102,70 млн."
+date: "2026-09-02T18:37:06+03:00"
+url: "/clubs/levante-ud/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Levante UD"
+club_code: ""
+club_logo: "images/clubs/api/rendered/539-3fac6cfda22c.png"
+api_football_id: "539"
+club_city: "Valencia"
+club_country: ""
+league: "Ла Лига"
+league_id: "140"
+transfermarkt_club_id: "3368"
+squad_size: 27
+average_age: "24,3"
+squad_value: "€102,70 млн"
+squad_value_eur: 102700000
+average_value: "€3,80 млн"
+squad:
+  - name: "Carlos Álvarez"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 23
+    value: "€15 млн"
+    tm_id: "668179"
+  - name: "Karl Etta Eyong"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 22
+    value: "€15 млн"
+    tm_id: "1038950"
+  - name: "Petar Ratkov"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 23
+    value: "€9 млн"
+    tm_id: "846254"
+  - name: "Axel Tape"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 19
+    value: "€8 млн"
+    tm_id: "1077670"
+  - name: "Iván Romero"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 25
+    value: "€8 млн"
+    tm_id: "628886"
+  - name: "Manu Sánchez"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 26
+    value: "€6 млн"
+    tm_id: "618809"
+  - name: "Enzo Bardeli"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 25
+    value: "€6 млн"
+    tm_id: "707222"
+  - name: "Hugo Sotelo"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 22
+    value: "€5 млн"
+    tm_id: "892221"
+  - name: "Thiago Fernández"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 22
+    value: "€4,5 млн"
+    tm_id: "1127730"
+  - name: "Adrián Dela"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€4 млн"
+    tm_id: "341263"
+  - name: "Ifeanyi Ndukwe"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 18
+    value: "€3 млн"
+    tm_id: "1167696"
+  - name: "Jon Ander Olasagasti"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 26
+    value: "€2,5 млн"
+    tm_id: "625660"
+  - name: "Jeremy Toljan"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 32
+    value: "€2 млн"
+    tm_id: "129674"
+  - name: "Roger Brugué"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 29
+    value: "€2 млн"
+    tm_id: "557057"
+  - name: "Mathew Ryan"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 34
+    value: "€1,8 млн"
+    tm_id: "128969"
+  - name: "Oriol Rey"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 28
+    value: "€1,8 млн"
+    tm_id: "293388"
+  - name: "Pablo Campos"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 24
+    value: "€1,5 млн"
+    tm_id: "617059"
+  - name: "Paco Cortés"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 19
+    value: "€1,5 млн"
+    tm_id: "1232057"
+  - name: "Víctor García"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 28
+    value: "€1,5 млн"
+    tm_id: "590690"
+  - name: "Aïssa Mandi"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 34
+    value: "€1 млн"
+    tm_id: "80293"
+  - name: "Dani Requena"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 22
+    value: "€1 млн"
+    tm_id: "945709"
+  - name: "Jorge Cabello"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 22
+    value: "€900 тыс."
+    tm_id: "1063333"
+  - name: "Xavi Grande"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 21
+    value: "€800 тыс."
+    tm_id: "947115"
+  - name: "Yanis Musuayi"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 19
+    value: "€600 тыс."
+    tm_id: "1299566"
+  - name: "Nacho Pérez"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 18
+    value: "€300 тыс."
+    tm_id: "1371830"
+  - name: "Álex Primo"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 22
+    value: ""
+    tm_id: "939445"
+  - name: "Marc Santos"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 15
+    value: ""
+    tm_id: "1476132"
+club_transfers:
+---
+В заявке клуба Levante UD — 27 игроков со средним возрастом 24,3 года. Общая стоимость команды по оценке Transfermarkt — €102,70 млн, в среднем €3,80 млн на игрока.
+
+Самый дорогой игрок состава — Carlos Álvarez (атакующий полузащитник), его стоимость оценивается в €15 млн.

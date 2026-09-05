@@ -1,0 +1,208 @@
+---
+title: "Trabzonspor: состав, стоимость и трансферы"
+description: "Состав клуба Trabzonspor — 30 игроков, средний возраст 27,4. Общая стоимость команды €164,60 млн."
+date: "2026-09-02T18:43:02+03:00"
+url: "/clubs/trabzonspor/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Trabzonspor"
+club_code: "TRA"
+club_logo: "images/clubs/api/998.png"
+api_football_id: "998"
+club_city: "Trabzon"
+club_country: "Turkey"
+league: "Суперлига"
+league_id: "203"
+transfermarkt_club_id: "449"
+squad_size: 30
+average_age: "27,4"
+squad_value: "€164,60 млн"
+squad_value_eur: 164600000
+average_value: "€5,49 млн"
+squad:
+  - name: "Mohamed Salah"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 34
+    value: "€22 млн"
+    tm_id: "148455"
+  - name: "Fabinho"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 32
+    value: "€12 млн"
+    tm_id: "225693"
+  - name: "Arseniy Batagov"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 24
+    value: "€11 млн"
+    tm_id: "665048"
+  - name: "Wagner Pina"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 23
+    value: "€11 млн"
+    tm_id: "1072017"
+  - name: "Ernest Muci"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 25
+    value: "€11 млн"
+    tm_id: "583917"
+  - name: "André Onana"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 30
+    value: "€10 млн"
+    tm_id: "234509"
+  - name: "Chibuike Nwaiwu"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 23
+    value: "€10 млн"
+    tm_id: "985825"
+  - name: "Sidny Lopes Cabral"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 23
+    value: "€10 млн"
+    tm_id: "611855"
+  - name: "Aral Şimşir"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 24
+    value: "€10 млн"
+    tm_id: "514887"
+  - name: "Noah Saviolo"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 22
+    value: "€10 млн"
+    tm_id: "671669"
+  - name: "Batista Mendy"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 26
+    value: "€7,5 млн"
+    tm_id: "395234"
+  - name: "Tim Jabol-Folcarelli"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 26
+    value: "€7 млн"
+    tm_id: "674241"
+  - name: "Paul Onuachu"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 32
+    value: "€6 млн"
+    tm_id: "272855"
+  - name: "Benjamin Bouchouari"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 24
+    value: "€4,5 млн"
+    tm_id: "783094"
+  - name: "Cenk Özkacar"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 25
+    value: "€4 млн"
+    tm_id: "615350"
+  - name: "Mustafa Eskihellaç"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 29
+    value: "€4 млн"
+    tm_id: "390379"
+  - name: "Ruslan Malinovskyi"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 33
+    value: "€2,5 млн"
+    tm_id: "207877"
+  - name: "Cihan Çanak"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 21
+    value: "€2 млн"
+    tm_id: "743376"
+  - name: "Denis Drăguș"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 27
+    value: "€2 млн"
+    tm_id: "405399"
+  - name: "Ozan Tufan"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 31
+    value: "€1,5 млн"
+    tm_id: "236471"
+  - name: "Samet Akaydin"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 32
+    value: "€1,2 млн"
+    tm_id: "295024"
+  - name: "Okay Yokuşlu"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 32
+    value: "€1,2 млн"
+    tm_id: "137616"
+  - name: "Onuralp Çevikkan"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 20
+    value: "€1 млн"
+    tm_id: "1054214"
+  - name: "René Mitongo"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 18
+    value: "€1 млн"
+    tm_id: "1241698"
+  - name: "Melih Kabasakal"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 30
+    value: "€600 тыс."
+    tm_id: "275683"
+  - name: "Umut Nayir"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 33
+    value: "€600 тыс."
+    tm_id: "248271"
+  - name: "Stefan Savić"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 35
+    value: "€400 тыс."
+    tm_id: "107010"
+  - name: "Metehan Mimaroğlu"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 32
+    value: "€400 тыс."
+    tm_id: "294100"
+  - name: "Ahmet Yıldırım"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 19
+    value: "€200 тыс."
+    tm_id: "1174140"
+  - name: "Erol Can Çolak"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 20
+    value: ""
+    tm_id: "1152080"
+club_transfers:
+---
+В заявке клуба Trabzonspor — 30 игроков со средним возрастом 27,4 года. Общая стоимость команды по оценке Transfermarkt — €164,60 млн, в среднем €5,49 млн на игрока.
+
+Самый дорогой игрок состава — Mohamed Salah (правый вингер), его стоимость оценивается в €22 млн.

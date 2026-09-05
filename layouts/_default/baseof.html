@@ -23,6 +23,15 @@
         href="{{ "css/style.css" | relURL }}"
     >
     <link rel="icon" href="{{ "favicon.ico" | relURL }}" type="image/x-icon">
+{{ partial "global-roboto-font.html" . }}
+<!-- PF402R_TRANSFERS_HOME_TICKER_CSS_START -->
+{{ if and .IsSection (eq .Section "transfers") }}
+  <link rel="stylesheet" href="{{ "css/home-league-selector.css" | relURL }}">
+{{ end }}
+<!-- PF402R_TRANSFERS_HOME_TICKER_CSS_END -->
+<!-- PF487A_SEO_FOUNDATION_START -->
+{{ partial "seo-head.html" . }}
+<!-- PF487A_SEO_FOUNDATION_END -->
 </head>
 
 <body class="{{ if .IsHome }}home-page{{ else }}site-page{{ end }}">
@@ -31,8 +40,17 @@
 
 {{ block "main" . }}
 {{ end }}
+<!-- PF402R_HIDE_OLD_FOOTER_TICKER_ON_TRANSFERS_START -->
+{{/* PF499A: разделы ниже сами подключают home-player-bottom-strip.
+     Старый footer-transfer-ticker давал вторую бегущую строку под первой.
+     Условие раньше проверяло только .IsSection, поэтому на отдельных
+     страницах клубов и слухов дубль всё равно появлялся. */}}
+{{ $ownStrip := slice "transfers" "clubs" "rumors" }}
+{{ if not (in $ownStrip .Section) }}
+  {{ partial "footer-transfer-ticker.html" . }}
+{{ end }}
+<!-- PF402R_HIDE_OLD_FOOTER_TICKER_ON_TRANSFERS_END -->
 
-{{ partial "footer-transfer-ticker.html" . }}
 
 
 </body>

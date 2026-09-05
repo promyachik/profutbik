@@ -1,0 +1,202 @@
+---
+title: "Le Mans FC: состав, стоимость и трансферы"
+description: "Состав клуба Le Mans FC — 29 игроков, средний возраст 26,9. Общая стоимость команды €28,15 млн."
+date: "2026-09-02T18:41:40+03:00"
+url: "/clubs/le-mans-fc/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Le Mans FC"
+club_code: ""
+club_logo: "images/clubs/tm/rendered/1164-287aad862c83.png"
+api_football_id: "1298"
+club_city: "Mulsanne"
+club_country: ""
+league: "Лига 1"
+league_id: "61"
+transfermarkt_club_id: "1164"
+squad_size: 29
+average_age: "26,9"
+squad_value: "€28,15 млн"
+squad_value_eur: 28150000
+average_value: "€970,69 тыс."
+squad:
+  - name: "Habib Diallo"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 31
+    value: "€4 млн"
+    tm_id: "344888"
+  - name: "Raúl Torrente"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 24
+    value: "€2,5 млн"
+    tm_id: "631222"
+  - name: "Lucas Calodat"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 24
+    value: "€2,5 млн"
+    tm_id: "857653"
+  - name: "Nicolas Kocik"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 28
+    value: "€1,5 млн"
+    tm_id: "357069"
+  - name: "Noa Boissé"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 20
+    value: "€1,5 млн"
+    tm_id: "1169041"
+  - name: "Yasser Larouci"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 25
+    value: "€1,5 млн"
+    tm_id: "554251"
+  - name: "Lucas Buades"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 28
+    value: "€1,5 млн"
+    tm_id: "531960"
+  - name: "Lucas Bretelle"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 24
+    value: "€1,2 млн"
+    tm_id: "941561"
+  - name: "Djibril Sidibé"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 34
+    value: "€1 млн"
+    tm_id: "161869"
+  - name: "Rayan Bamba"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 22
+    value: "€1 млн"
+    tm_id: "979760"
+  - name: "Milan Robin"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 26
+    value: "€1 млн"
+    tm_id: "371143"
+  - name: "Billal Brahimi"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 26
+    value: "€1 млн"
+    tm_id: "543051"
+  - name: "Louis Mafouta"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 32
+    value: "€1 млн"
+    tm_id: "461790"
+  - name: "Théo Eyoum"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 24
+    value: "€900 тыс."
+    tm_id: "801762"
+  - name: "Harold Voyer"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 29
+    value: "€700 тыс."
+    tm_id: "344382"
+  - name: "Alexandre Lauray"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 29
+    value: "€600 тыс."
+    tm_id: "666744"
+  - name: "Erwan Colas"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 29
+    value: "€600 тыс."
+    tm_id: "804386"
+  - name: "Antoine Rabillard"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 30
+    value: "€600 тыс."
+    tm_id: "146373"
+  - name: "Dame Gueye"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 31
+    value: "€600 тыс."
+    tm_id: "422711"
+  - name: "Edwin Quarshie"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 30
+    value: "€500 тыс."
+    tm_id: "590048"
+  - name: "Adil Bourabaa"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 21
+    value: "€500 тыс."
+    tm_id: "1166137"
+  - name: "Jean Vercruysse"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 26
+    value: "€400 тыс."
+    tm_id: "626592"
+  - name: "Daouda Traoré"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 20
+    value: "€400 тыс."
+    tm_id: "986300"
+  - name: "Martin Rossignol"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 22
+    value: "€400 тыс."
+    tm_id: "1010671"
+  - name: "William Harhouz"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 26
+    value: "€400 тыс."
+    tm_id: "1029482"
+  - name: "Samuel Yohou"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 35
+    value: "€200 тыс."
+    tm_id: "386048"
+  - name: "Ewan Hatfout"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 26
+    value: "€150 тыс."
+    tm_id: "725963"
+  - name: "Augustin Delbecque"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 24
+    value: ""
+    tm_id: "569359"
+  - name: "Enzo Vagner"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 20
+    value: ""
+    tm_id: "1027788"
+club_transfers:
+---
+В заявке клуба Le Mans FC — 29 игроков со средним возрастом 26,9 года. Общая стоимость команды по оценке Transfermarkt — €28,15 млн, в среднем €970,69 тыс. на игрока.
+
+Самый дорогой игрок состава — Habib Diallo (центральный нападающий), его стоимость оценивается в €4 млн.

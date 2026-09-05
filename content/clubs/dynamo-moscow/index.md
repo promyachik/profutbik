@@ -1,0 +1,190 @@
+---
+title: "Dynamo Moscow: состав, стоимость и трансферы"
+description: "Состав клуба Dynamo Moscow — 27 игроков, средний возраст 26,2. Общая стоимость команды €109,95 млн."
+date: "2026-09-02T18:45:43+03:00"
+url: "/clubs/dynamo-moscow/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Dynamo Moscow"
+club_code: "DYN"
+club_logo: "images/clubs/api/1088.png"
+api_football_id: "1088"
+club_city: "Moskau "
+club_country: "Russia"
+league: "РПЛ"
+league_id: "235"
+transfermarkt_club_id: "121"
+squad_size: 27
+average_age: "26,2"
+squad_value: "€109,95 млн"
+squad_value_eur: 109950000
+average_value: "€4,07 млн"
+squad:
+  - name: "Konstantin Tyukavin"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 24
+    value: "€17 млн"
+    tm_id: "532676"
+  - name: "Bitello"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 26
+    value: "€15 млн"
+    tm_id: "703497"
+  - name: "Rubens"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 25
+    value: "€8 млн"
+    tm_id: "843397"
+  - name: "Daniil Fomin"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 29
+    value: "€7,5 млн"
+    tm_id: "400713"
+  - name: "Juan José Cáceres"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 26
+    value: "€7 млн"
+    tm_id: "756494"
+  - name: "Danil Glebov"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 26
+    value: "€7 млн"
+    tm_id: "570423"
+  - name: "Nicolás Marichal"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 25
+    value: "€6 млн"
+    tm_id: "852980"
+  - name: "David Ricardo"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 23
+    value: "€6 млн"
+    tm_id: "985172"
+  - name: "Luis Chávez"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 30
+    value: "€6 млн"
+    tm_id: "331059"
+  - name: "Yaroslav Gladyshev"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 23
+    value: "€3,5 млн"
+    tm_id: "673114"
+  - name: "Maksim Osipenko"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 32
+    value: "€3 млн"
+    tm_id: "293829"
+  - name: "Arthur Gomes"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 28
+    value: "€3 млн"
+    tm_id: "401534"
+  - name: "Ivan Sergeev"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 31
+    value: "€2,8 млн"
+    tm_id: "395659"
+  - name: "Roberto Fernández"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€2,5 млн"
+    tm_id: "491589"
+  - name: "Dmitriy Skopintsev"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 29
+    value: "€2,5 млн"
+    tm_id: "281917"
+  - name: "Bakhtiyor Zaynutdinov"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 28
+    value: "€2,5 млн"
+    tm_id: "344299"
+  - name: "Anton Miranchuk"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 30
+    value: "€2 млн"
+    tm_id: "255451"
+  - name: "Kurban Rasulov"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 20
+    value: "€1,2 млн"
+    tm_id: "918327"
+  - name: "Milan Majstorovic"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 21
+    value: "€1,2 млн"
+    tm_id: "673429"
+  - name: "Aleksandr Kutitskiy"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 24
+    value: "€1 млн"
+    tm_id: "687617"
+  - name: "Timofey Marinkin"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 18
+    value: "€900 тыс."
+    tm_id: "1080107"
+  - name: "Andrey Lunev"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 34
+    value: "€800 тыс."
+    tm_id: "112541"
+  - name: "Luka Gagnidze"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 23
+    value: "€800 тыс."
+    tm_id: "724969"
+  - name: "Ulvi Babaev"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 22
+    value: "€750 тыс."
+    tm_id: "637540"
+  - name: "Leon Zaydenzal"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 22
+    value: "€700 тыс."
+    tm_id: "718759"
+  - name: "Viktor Okishor"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 19
+    value: "€700 тыс."
+    tm_id: "939068"
+  - name: "Igor Leshchuk"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 30
+    value: "€600 тыс."
+    tm_id: "168527"
+club_transfers:
+---
+В заявке клуба Dynamo Moscow — 27 игроков со средним возрастом 26,2 года. Общая стоимость команды по оценке Transfermarkt — €109,95 млн, в среднем €4,07 млн на игрока.
+
+Самый дорогой игрок состава — Konstantin Tyukavin (центральный нападающий), его стоимость оценивается в €17 млн.

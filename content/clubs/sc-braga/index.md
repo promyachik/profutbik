@@ -1,0 +1,208 @@
+---
+title: "SC Braga: состав, стоимость и трансферы"
+description: "Состав клуба SC Braga — 30 игроков, средний возраст 25,0. Общая стоимость команды €153,30 млн."
+date: "2026-09-02T18:44:22+03:00"
+url: "/clubs/sc-braga/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "SC Braga"
+club_code: "BRA"
+club_logo: "images/clubs/api/217.png"
+api_football_id: "217"
+club_city: "Braga"
+club_country: "Portugal"
+league: "Примейра"
+league_id: "94"
+transfermarkt_club_id: "1075"
+squad_size: 30
+average_age: "25,0"
+squad_value: "€153,30 млн"
+squad_value_eur: 153300000
+average_value: "€5,11 млн"
+squad:
+  - name: "Pau Víctor"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 24
+    value: "€15 млн"
+    tm_id: "707572"
+  - name: "Gustaf Lagerbielke"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€10 млн"
+    tm_id: "485395"
+  - name: "Víctor Gómez"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 26
+    value: "€10 млн"
+    tm_id: "495601"
+  - name: "Mario Dorgeles"
+    position: "Правый полузащитник"
+    position_short: "RM"
+    age: 22
+    value: "€10 млн"
+    tm_id: "1045972"
+  - name: "Bright Arrey-Mbi"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 23
+    value: "€9 млн"
+    tm_id: "580193"
+  - name: "Gorby"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 24
+    value: "€9 млн"
+    tm_id: "631404"
+  - name: "Ricardo Horta"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 31
+    value: "€9 млн"
+    tm_id: "261927"
+  - name: "Demir Ege Tıknaz"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 22
+    value: "€8 млн"
+    tm_id: "875337"
+  - name: "Gabriel Silva"
+    position: "Левый полузащитник"
+    position_short: "LM"
+    age: 24
+    value: "€7 млн"
+    tm_id: "627224"
+  - name: "Gabri Martínez"
+    position: "Левый полузащитник"
+    position_short: "LM"
+    age: 23
+    value: "€7 млн"
+    tm_id: "906948"
+  - name: "Jovan Milosevic"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 21
+    value: "€7 млн"
+    tm_id: "943795"
+  - name: "Sikou Niakaté"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€6 млн"
+    tm_id: "413118"
+  - name: "Diogo Travassos"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 22
+    value: "€6 млн"
+    tm_id: "478317"
+  - name: "Bernardo"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 24
+    value: "€5 млн"
+    tm_id: "719646"
+  - name: "Diego Rodrigues"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 21
+    value: "€5 млн"
+    tm_id: "984540"
+  - name: "Vítor Carvalho"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 29
+    value: "€4 млн"
+    tm_id: "553062"
+  - name: "Adrian Barisic"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 25
+    value: "€4 млн"
+    tm_id: "625206"
+  - name: "Fran Navarro"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 28
+    value: "€4 млн"
+    tm_id: "284883"
+  - name: "Jonas Wind"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 27
+    value: "€4 млн"
+    tm_id: "391004"
+  - name: "Tommy Marqués"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 19
+    value: "€3 млн"
+    tm_id: "938156"
+  - name: "Adrian Bajrami"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 24
+    value: "€2,5 млн"
+    tm_id: "582987"
+  - name: "Denis Huseinbasic"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 25
+    value: "€2 млн"
+    tm_id: "678479"
+  - name: "João Carvalho"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 22
+    value: "€1,5 млн"
+    tm_id: "929868"
+  - name: "Sergio Barcia"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 25
+    value: "€1,5 млн"
+    tm_id: "562058"
+  - name: "Bartlomiej Wdowik"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 25
+    value: "€1,5 млн"
+    tm_id: "589013"
+  - name: "Jonatás Noro"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 21
+    value: "€1 млн"
+    tm_id: "1061378"
+  - name: "João Moutinho"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 39
+    value: "€500 тыс."
+    tm_id: "29364"
+  - name: "João Aragão"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 18
+    value: "€500 тыс."
+    tm_id: "1075884"
+  - name: "Tiago Sá"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 31
+    value: "€300 тыс."
+    tm_id: "286908"
+  - name: "Luisinho"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 20
+    value: ""
+    tm_id: "1333915"
+club_transfers:
+---
+В заявке клуба SC Braga — 30 игроков со средним возрастом 25,0 года. Общая стоимость команды по оценке Transfermarkt — €153,30 млн, в среднем €5,11 млн на игрока.
+
+Самый дорогой игрок состава — Pau Víctor (центральный нападающий), его стоимость оценивается в €15 млн.

@@ -1,0 +1,208 @@
+---
+title: "1.FC Union Berlin: состав, стоимость и трансферы"
+description: "Состав клуба 1.FC Union Berlin — 30 игроков, средний возраст 27,1. Общая стоимость команды €115,78 млн."
+date: "2026-09-02T18:39:59+03:00"
+url: "/clubs/1-fc-union-berlin/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "1.FC Union Berlin"
+club_code: "UNI"
+club_logo: "images/clubs/api/182.png"
+api_football_id: "182"
+club_city: "Berlin"
+club_country: "Germany"
+league: "Бундеслига"
+league_id: "78"
+transfermarkt_club_id: "89"
+squad_size: 30
+average_age: "27,1"
+squad_value: "€115,78 млн"
+squad_value_eur: 115775000
+average_value: "€3,86 млн"
+squad:
+  - name: "Leopold Querfeld"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 22
+    value: "€20 млн"
+    tm_id: "597432"
+  - name: "Aljoscha Kemlein"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 22
+    value: "€12 млн"
+    tm_id: "692737"
+  - name: "Tom Rothe"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 21
+    value: "€10 млн"
+    tm_id: "798043"
+  - name: "Emmanuel Latte Lath"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 27
+    value: "€10 млн"
+    tm_id: "392964"
+  - name: "Andrej Ilic"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 26
+    value: "€9 млн"
+    tm_id: "583699"
+  - name: "Zeno Van Den Bosch"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 23
+    value: "€6 млн"
+    tm_id: "738774"
+  - name: "András Schäfer"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 27
+    value: "€4,5 млн"
+    tm_id: "454863"
+  - name: "Derrick Köhn"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 27
+    value: "€4 млн"
+    tm_id: "391780"
+  - name: "Michel Aebischer"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 29
+    value: "€4 млн"
+    tm_id: "237658"
+  - name: "Livan Burcu"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 21
+    value: "€4 млн"
+    tm_id: "519872"
+  - name: "Felix Uduokhai"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 28
+    value: "€3,5 млн"
+    tm_id: "278343"
+  - name: "Woo-yeong Jeong"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 26
+    value: "€3,5 млн"
+    tm_id: "297583"
+  - name: "Oliver Burke"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 29
+    value: "€3 млн"
+    tm_id: "341317"
+  - name: "Frederik Rönnow"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 34
+    value: "€2 млн"
+    tm_id: "107775"
+  - name: "Stanley Nsoki"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€2 млн"
+    tm_id: "371141"
+  - name: "Josip Juranovic"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 31
+    value: "€2 млн"
+    tm_id: "362977"
+  - name: "Rani Khedira"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 32
+    value: "€2 млн"
+    tm_id: "124410"
+  - name: "Janik Haberer"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 32
+    value: "€2 млн"
+    tm_id: "177779"
+  - name: "Robert Skov"
+    position: "Левый полузащитник"
+    position_short: "LM"
+    age: 30
+    value: "€2 млн"
+    tm_id: "270393"
+  - name: "Kastriot Imeri"
+    position: "Левый полузащитник"
+    position_short: "LM"
+    age: 26
+    value: "€2 млн"
+    tm_id: "469957"
+  - name: "Marin Ljubicic"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 24
+    value: "€2 млн"
+    tm_id: "838236"
+  - name: "Marvin Friedrich"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 30
+    value: "€1,8 млн"
+    tm_id: "196231"
+  - name: "Tim Skarke"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 29
+    value: "€1,5 млн"
+    tm_id: "287920"
+  - name: "Linus Güther"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 16
+    value: "€1 млн"
+    tm_id: "1378338"
+  - name: "Matheo Raab"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 27
+    value: "€600 тыс."
+    tm_id: "386685"
+  - name: "Christopher Trimmel"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 39
+    value: "€600 тыс."
+    tm_id: "75921"
+  - name: "Carl Klaus"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 32
+    value: "€350 тыс."
+    tm_id: "161057"
+  - name: "Andrik Markgraf"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 20
+    value: "€300 тыс."
+    tm_id: "1027870"
+  - name: "Julien Friedrich"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 19
+    value: "€125 тыс."
+    tm_id: "1033581"
+  - name: "Mekhi Gray"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 19
+    value: ""
+    tm_id: "1162925"
+club_transfers:
+---
+В заявке клуба 1.FC Union Berlin — 30 игроков со средним возрастом 27,1 года. Общая стоимость команды по оценке Transfermarkt — €115,78 млн, в среднем €3,86 млн на игрока.
+
+Самый дорогой игрок состава — Leopold Querfeld (центральный защитник), его стоимость оценивается в €20 млн.

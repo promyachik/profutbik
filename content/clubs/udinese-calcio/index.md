@@ -1,0 +1,202 @@
+---
+title: "Udinese Calcio: состав, стоимость и трансферы"
+description: "Состав клуба Udinese Calcio — 29 игроков, средний возраст 26,2. Общая стоимость команды €153,02 млн."
+date: "2026-09-02T18:38:21+03:00"
+url: "/clubs/udinese-calcio/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Udinese Calcio"
+club_code: "UDI"
+club_logo: "images/clubs/api/494.png"
+api_football_id: "494"
+club_city: "Udine"
+club_country: "Italy"
+league: "Серия А"
+league_id: "135"
+transfermarkt_club_id: "410"
+squad_size: 29
+average_age: "26,2"
+squad_value: "€153,02 млн"
+squad_value_eur: 153025000
+average_value: "€5,28 млн"
+squad:
+  - name: "Oumar Solet"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€23 млн"
+    tm_id: "463665"
+  - name: "Nicolò Zaniolo"
+    position: "Оттянутый нападающий"
+    position_short: "SS"
+    age: 27
+    value: "€15 млн"
+    tm_id: "392085"
+  - name: "Maduka Okoye"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 27
+    value: "€10 млн"
+    tm_id: "340353"
+  - name: "Jurgen Ekkelenkamp"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 26
+    value: "€10 млн"
+    tm_id: "361068"
+  - name: "Lennon Miller"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 20
+    value: "€10 млн"
+    tm_id: "924857"
+  - name: "Keinan Davis"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 28
+    value: "€10 млн"
+    tm_id: "412660"
+  - name: "Idrissa Gueye"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 19
+    value: "€8 млн"
+    tm_id: "1178488"
+  - name: "Nicolò Bertola"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 23
+    value: "€7 млн"
+    tm_id: "632831"
+  - name: "Matteo Palma"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 18
+    value: "€6,5 млн"
+    tm_id: "1058354"
+  - name: "Unai Gómez"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 23
+    value: "€5 млн"
+    tm_id: "834752"
+  - name: "Alessandro Zanoli"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 25
+    value: "€4,5 млн"
+    tm_id: "397225"
+  - name: "Jakub Piotrowski"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 28
+    value: "€4,5 млн"
+    tm_id: "377243"
+  - name: "Jesper Karlström"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 31
+    value: "€4 млн"
+    tm_id: "222855"
+  - name: "James Abankwah"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 22
+    value: "€3,5 млн"
+    tm_id: "648032"
+  - name: "Sandi Lovrić"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 28
+    value: "€3,5 млн"
+    tm_id: "268429"
+  - name: "Juan Arizala"
+    position: "Левый полузащитник"
+    position_short: "LM"
+    age: 20
+    value: "€3,5 млн"
+    tm_id: "1118347"
+  - name: "Giorgi Chakvetadze"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 27
+    value: "€3,5 млн"
+    tm_id: "412616"
+  - name: "Lazar Jovanovic"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 19
+    value: "€3,5 млн"
+    tm_id: "897505"
+  - name: "Bartosz Mrozek"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 26
+    value: "€3 млн"
+    tm_id: "345452"
+  - name: "Hassane Kamara"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 32
+    value: "€3 млн"
+    tm_id: "290017"
+  - name: "Enzo Ebosse"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€2,8 млн"
+    tm_id: "342877"
+  - name: "Mërgim Vojvoda"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 31
+    value: "€2,5 млн"
+    tm_id: "336125"
+  - name: "Vakoun Bayo"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 29
+    value: "€2,5 млн"
+    tm_id: "375877"
+  - name: "Oier Zarraga"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 27
+    value: "€1,5 млн"
+    tm_id: "524010"
+  - name: "David Pejičić"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 19
+    value: "€1,5 млн"
+    tm_id: "1009633"
+  - name: "Christian Kabasele"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 35
+    value: "€750 тыс."
+    tm_id: "81512"
+  - name: "Edoardo Piana"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 22
+    value: "€225 тыс."
+    tm_id: "612059"
+  - name: "Daniele Padelli"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 40
+    value: "€150 тыс."
+    tm_id: "27807"
+  - name: "Giulio Vinciati"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 19
+    value: "€100 тыс."
+    tm_id: "1078784"
+club_transfers:
+---
+В заявке клуба Udinese Calcio — 29 игроков со средним возрастом 26,2 года. Общая стоимость команды по оценке Transfermarkt — €153,02 млн, в среднем €5,28 млн на игрока.
+
+Самый дорогой игрок состава — Oumar Solet (центральный защитник), его стоимость оценивается в €23 млн.

@@ -1,0 +1,190 @@
+---
+title: "FC Schalke 04: состав, стоимость и трансферы"
+description: "Состав клуба FC Schalke 04 — 27 игроков, средний возраст 27,6. Общая стоимость команды €70,12 млн."
+date: "2026-09-02T18:40:34+03:00"
+url: "/clubs/fc-schalke-04/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "FC Schalke 04"
+club_code: ""
+club_logo: "images/clubs/api/rendered/174-280f64ff39ff.png"
+api_football_id: "174"
+club_city: "Gelsenkirchen"
+club_country: ""
+league: "Бундеслига"
+league_id: "78"
+transfermarkt_club_id: "33"
+squad_size: 27
+average_age: "27,6"
+squad_value: "€70,12 млн"
+squad_value_eur: 70125000
+average_value: "€2,60 млн"
+squad:
+  - name: "Soufiane El-Faouzi"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 24
+    value: "€9 млн"
+    tm_id: "697740"
+  - name: "Mertcan Ayhan"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 19
+    value: "€8 млн"
+    tm_id: "969376"
+  - name: "Junior Dina Ebimbe"
+    position: "Правый полузащитник"
+    position_short: "RM"
+    age: 25
+    value: "€6 млн"
+    tm_id: "536482"
+  - name: "Hee-chan Hwang"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 30
+    value: "€6 млн"
+    tm_id: "292246"
+  - name: "Moussa Sylla"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 26
+    value: "€5 млн"
+    tm_id: "460655"
+  - name: "Robin Gosens"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 32
+    value: "€4 млн"
+    tm_id: "273132"
+  - name: "Adil Aouchiche"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 24
+    value: "€3,5 млн"
+    tm_id: "569385"
+  - name: "Maximilian Wöber"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 28
+    value: "€3 млн"
+    tm_id: "263361"
+  - name: "Vitalie Becker"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 21
+    value: "€3 млн"
+    tm_id: "919703"
+  - name: "Dejan Ljubicic"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 28
+    value: "€3 млн"
+    tm_id: "287188"
+  - name: "Junior Adamu"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 25
+    value: "€3 млн"
+    tm_id: "452477"
+  - name: "Hasan Kuruçay"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 29
+    value: "€2 млн"
+    tm_id: "292812"
+  - name: "Ron Schallenberg"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 27
+    value: "€2 млн"
+    tm_id: "332392"
+  - name: "Satoshi Tanaka"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 24
+    value: "€2 млн"
+    tm_id: "665618"
+  - name: "Nikola Katic"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 29
+    value: "€1,8 млн"
+    tm_id: "422051"
+  - name: "Kenan Karaman"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 32
+    value: "€1,8 млн"
+    tm_id: "119557"
+  - name: "Timo Becker"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 29
+    value: "€1,5 млн"
+    tm_id: "282349"
+  - name: "Edin Dzeko"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 40
+    value: "€1 млн"
+    tm_id: "28396"
+  - name: "Adrian Gantenbein"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 25
+    value: "€900 тыс."
+    tm_id: "410870"
+  - name: "Loris Karius"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 33
+    value: "€800 тыс."
+    tm_id: "85864"
+  - name: "Finn Porath"
+    position: "Правый полузащитник"
+    position_short: "RM"
+    age: 29
+    value: "€800 тыс."
+    tm_id: "241307"
+  - name: "Bryan Lasme"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 27
+    value: "€600 тыс."
+    tm_id: "477109"
+  - name: "Janik Bachmann"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 30
+    value: "€500 тыс."
+    tm_id: "327862"
+  - name: "Emil Højlund"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 21
+    value: "€500 тыс."
+    tm_id: "802560"
+  - name: "Kevin Müller"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 35
+    value: "€300 тыс."
+    tm_id: "43824"
+  - name: "Johannes Siebeking"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 20
+    value: "€125 тыс."
+    tm_id: "1047294"
+  - name: "Luca Vozar"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 19
+    value: ""
+    tm_id: "1162413"
+club_transfers:
+---
+В заявке клуба FC Schalke 04 — 27 игроков со средним возрастом 27,6 года. Общая стоимость команды по оценке Transfermarkt — €70,12 млн, в среднем €2,60 млн на игрока.
+
+Самый дорогой игрок состава — Soufiane El-Faouzi (центральный полузащитник), его стоимость оценивается в €9 млн.

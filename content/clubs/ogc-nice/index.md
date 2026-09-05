@@ -1,0 +1,208 @@
+---
+title: "OGC Nice: состав, стоимость и трансферы"
+description: "Состав клуба OGC Nice — 30 игроков, средний возраст 25,2. Общая стоимость команды €142,50 млн."
+date: "2026-09-02T18:41:56+03:00"
+url: "/clubs/ogc-nice/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "OGC Nice"
+club_code: "NIC"
+club_logo: "images/clubs/api/84.png"
+api_football_id: "84"
+club_city: "Nice"
+club_country: "France"
+league: "Лига 1"
+league_id: "61"
+transfermarkt_club_id: "417"
+squad_size: 30
+average_age: "25,2"
+squad_value: "€142,50 млн"
+squad_value_eur: 142500000
+average_value: "€4,75 млн"
+squad:
+  - name: "Mohamed Amoura"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 26
+    value: "€20 млн"
+    tm_id: "746910"
+  - name: "Elye Wahi"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 23
+    value: "€18 млн"
+    tm_id: "659542"
+  - name: "Sofiane Diop"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 26
+    value: "€15 млн"
+    tm_id: "569389"
+  - name: "Hicham Boudaoui"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 26
+    value: "€12 млн"
+    tm_id: "560593"
+  - name: "Antoine Mendy"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 22
+    value: "€10 млн"
+    tm_id: "891998"
+  - name: "Yehvann Diouf"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 26
+    value: "€7 млн"
+    tm_id: "448632"
+  - name: "Youssouf Ndayishimiye"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€7 млн"
+    tm_id: "674612"
+  - name: "Moïse Bombito"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 26
+    value: "€7 млн"
+    tm_id: "1089202"
+  - name: "Xavier Mandza"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 17
+    value: "€5 млн"
+    tm_id: "1297638"
+  - name: "Gauthier Hein"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 30
+    value: "€5 млн"
+    tm_id: "344892"
+  - name: "Jonathan Clauss"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 33
+    value: "€4 млн"
+    tm_id: "175639"
+  - name: "Salis Abdul Samed"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 26
+    value: "€4 млн"
+    tm_id: "688707"
+  - name: "Isak Jansson"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 24
+    value: "€4 млн"
+    tm_id: "535820"
+  - name: "Morgan Sanson"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 32
+    value: "€3,5 млн"
+    tm_id: "174094"
+  - name: "Nathan Ngoumou"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 26
+    value: "€3,5 млн"
+    tm_id: "629588"
+  - name: "Niels Nkounkou"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 25
+    value: "€2,6 млн"
+    tm_id: "591193"
+  - name: "Mohamed Abdelmonem"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€2,5 млн"
+    tm_id: "566025"
+  - name: "Brad-Hamilton Mantsounga"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 18
+    value: "€2,5 млн"
+    tm_id: "1134110"
+  - name: "Ali Abdi"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 32
+    value: "€2 млн"
+    tm_id: "211474"
+  - name: "Everton"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 19
+    value: "€2 млн"
+    tm_id: "1191473"
+  - name: "Laurent Abergel"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 33
+    value: "€1,8 млн"
+    tm_id: "238626"
+  - name: "Axel Witsel"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 37
+    value: "€1,2 млн"
+    tm_id: "35047"
+  - name: "Djibril Coulibaly"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 17
+    value: "€1 млн"
+    tm_id: "1208968"
+  - name: "Zoumana Diallo"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 21
+    value: "€800 тыс."
+    tm_id: "1004479"
+  - name: "Victor Orakpo"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 20
+    value: "€400 тыс."
+    tm_id: "1231401"
+  - name: "Teddy Boulhendi"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 25
+    value: "€300 тыс."
+    tm_id: "789419"
+  - name: "Issiaga Camara"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 21
+    value: "€250 тыс."
+    tm_id: "1180835"
+  - name: "Hamza Koutoune"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 19
+    value: "€150 тыс."
+    tm_id: "1134250"
+  - name: "Martin Ponsot"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 17
+    value: ""
+    tm_id: "1297633"
+  - name: "Nassim Laarej"
+    position: ""
+    position_short: ""
+    age: 17
+    value: ""
+    tm_id: "1297635"
+club_transfers:
+---
+В заявке клуба OGC Nice — 30 игроков со средним возрастом 25,2 года. Общая стоимость команды по оценке Transfermarkt — €142,50 млн, в среднем €4,75 млн на игрока.
+
+Самый дорогой игрок состава — Mohamed Amoura (центральный нападающий), его стоимость оценивается в €20 млн.

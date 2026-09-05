@@ -1,0 +1,190 @@
+---
+title: "Amed SK: состав, стоимость и трансферы"
+description: "Состав клуба Amed SK — 27 игроков, средний возраст 26,8. Общая стоимость команды €27,28 млн."
+date: "2026-09-02T18:42:35+03:00"
+url: "/clubs/amed-sk/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "Amed SK"
+club_code: ""
+club_logo: "images/clubs/api/rendered/3579-375cd88c1841.png"
+api_football_id: "3579"
+club_city: "Diyarbakır"
+club_country: ""
+league: "Суперлига"
+league_id: "203"
+transfermarkt_club_id: "12382"
+squad_size: 27
+average_age: "26,8"
+squad_value: "€27,28 млн"
+squad_value_eur: 27275000
+average_value: "€1,01 млн"
+squad:
+  - name: "Gift Orban"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 24
+    value: "€7 млн"
+    tm_id: "1018259"
+  - name: "Alban Lafont"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 27
+    value: "€3 млн"
+    tm_id: "357117"
+  - name: "Yira Sor"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 26
+    value: "€2,5 млн"
+    tm_id: "673382"
+  - name: "Samuel Ballet"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 25
+    value: "€2 млн"
+    tm_id: "309977"
+  - name: "David Bates"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 29
+    value: "€1,8 млн"
+    tm_id: "272539"
+  - name: "Lumbardh Dellova"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€1,5 млн"
+    tm_id: "542469"
+  - name: "Gökhan Gül"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 28
+    value: "€1,3 млн"
+    tm_id: "269171"
+  - name: "Rayan Raveloson"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 29
+    value: "€1 млн"
+    tm_id: "344576"
+  - name: "Ermal Krasniqi"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 27
+    value: "€1 млн"
+    tm_id: "606893"
+  - name: "Mehmet Yeşil"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 28
+    value: "€900 тыс."
+    tm_id: "381689"
+  - name: "Rayan Lutin"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 23
+    value: "€800 тыс."
+    tm_id: "954090"
+  - name: "Dia Saba"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 33
+    value: "€700 тыс."
+    tm_id: "193928"
+  - name: "Mbaye Diagne"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 34
+    value: "€700 тыс."
+    tm_id: "271966"
+  - name: "Burak Bozan"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 26
+    value: "€600 тыс."
+    tm_id: "587726"
+  - name: "Ali Turap Bülbül"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 21
+    value: "€600 тыс."
+    tm_id: "942940"
+  - name: "Cem Üstündag"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 25
+    value: "€550 тыс."
+    tm_id: "445623"
+  - name: "Umut Meraş"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 30
+    value: "€400 тыс."
+    tm_id: "341549"
+  - name: "Furkan Soyalp"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 31
+    value: "€400 тыс."
+    tm_id: "221285"
+  - name: "Amadou Cissé"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 20
+    value: "€200 тыс."
+    tm_id: "1189317"
+  - name: "Miraç Acer"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 30
+    value: "€125 тыс."
+    tm_id: "354197"
+  - name: "Veysel Sapan"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 30
+    value: "€100 тыс."
+    tm_id: "338055"
+  - name: "Kahraman Demirtaş"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 32
+    value: "€100 тыс."
+    tm_id: "403834"
+  - name: "Muhammed Damar"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 18
+    value: ""
+    tm_id: "1583411"
+  - name: "Berat Perçin"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 20
+    value: ""
+    tm_id: "1506930"
+  - name: "Mohamed Khalil"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 25
+    value: ""
+    tm_id: "453987"
+  - name: "Hasan Yıldırım"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 20
+    value: ""
+    tm_id: "1047511"
+  - name: "Berk Kızıldemir"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 19
+    value: ""
+    tm_id: "1065428"
+club_transfers:
+---
+В заявке клуба Amed SK — 27 игроков со средним возрастом 26,8 года. Общая стоимость команды по оценке Transfermarkt — €27,28 млн, в среднем €1,01 млн на игрока.
+
+Самый дорогой игрок состава — Gift Orban (центральный нападающий), его стоимость оценивается в €7 млн.

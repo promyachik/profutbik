@@ -1,0 +1,202 @@
+---
+title: "FC Augsburg: состав, стоимость и трансферы"
+description: "Состав клуба FC Augsburg — 29 игроков, средний возраст 24,9. Общая стоимость команды €179,80 млн."
+date: "2026-09-02T18:39:40+03:00"
+url: "/clubs/fc-augsburg/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "FC Augsburg"
+club_code: "AUG"
+club_logo: "images/clubs/api/170.png"
+api_football_id: "170"
+club_city: "Augsburg"
+club_country: "Germany"
+league: "Бундеслига"
+league_id: "78"
+transfermarkt_club_id: "167"
+squad_size: 29
+average_age: "24,9"
+squad_value: "€179,80 млн"
+squad_value_eur: 179800000
+average_value: "€6,20 млн"
+squad:
+  - name: "Chrislain Matsima"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 24
+    value: "€22 млн"
+    tm_id: "569383"
+  - name: "Noahkai Banks"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 19
+    value: "€20 млн"
+    tm_id: "923945"
+  - name: "Alexis Claude-Maurice"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 28
+    value: "€15 млн"
+    tm_id: "384593"
+  - name: "Finn Dahmen"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 28
+    value: "€12 млн"
+    tm_id: "251299"
+  - name: "Mert Kömür"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 21
+    value: "€12 млн"
+    tm_id: "777005"
+  - name: "Fabian Rieder"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 24
+    value: "€12 млн"
+    tm_id: "507341"
+  - name: "Juma Bah"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 20
+    value: "€10 млн"
+    tm_id: "1121298"
+  - name: "Anton Kade"
+    position: "Атакующий полузащитник"
+    position_short: "AM"
+    age: 22
+    value: "€10 млн"
+    tm_id: "654234"
+  - name: "Arijon Ibrahimovic"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 20
+    value: "€10 млн"
+    tm_id: "744728"
+  - name: "Han-Noah Massengo"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 25
+    value: "€8 млн"
+    tm_id: "536508"
+  - name: "Young-woo Seol"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 27
+    value: "€6,5 млн"
+    tm_id: "639414"
+  - name: "Kristijan Jakic"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 29
+    value: "€6 млн"
+    tm_id: "374954"
+  - name: "Hennes Behrens"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 21
+    value: "€5 млн"
+    tm_id: "829838"
+  - name: "Rodrigo Ribeiro"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 21
+    value: "€4 млн"
+    tm_id: "726701"
+  - name: "Uchenna Ogundu"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 20
+    value: "€4 млн"
+    tm_id: "1309324"
+  - name: "Robin Fellhauer"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 28
+    value: "€3,5 млн"
+    tm_id: "264960"
+  - name: "Calvin Brackelmann"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€3 млн"
+    tm_id: "358766"
+  - name: "Sima Suso"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 21
+    value: "€2,8 млн"
+    tm_id: "928265"
+  - name: "Marius Wolf"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 31
+    value: "€2,5 млн"
+    tm_id: "193900"
+  - name: "Nediljko Labrovic"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 26
+    value: "€2 млн"
+    tm_id: "610190"
+  - name: "Yannik Keitel"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 26
+    value: "€2 млн"
+    tm_id: "342039"
+  - name: "Nathanaël Mbuku"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 24
+    value: "€2 млн"
+    tm_id: "557614"
+  - name: "Michael Gregoritsch"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 32
+    value: "€1,5 млн"
+    tm_id: "120205"
+  - name: "Steve Mounié"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 31
+    value: "€1,5 млн"
+    tm_id: "238639"
+  - name: "Jeffrey Gouweleeuw"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 35
+    value: "€1 млн"
+    tm_id: "106405"
+  - name: "Tim Breithaupt"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 24
+    value: "€800 тыс."
+    tm_id: "569457"
+  - name: "Tim Schnitzer"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 18
+    value: "€500 тыс."
+    tm_id: "1162968"
+  - name: "Faik Sakar"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 18
+    value: "€200 тыс."
+    tm_id: "1132292"
+  - name: "Tom Wisbereit"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 18
+    value: ""
+    tm_id: "954082"
+club_transfers:
+---
+В заявке клуба FC Augsburg — 29 игроков со средним возрастом 24,9 года. Общая стоимость команды по оценке Transfermarkt — €179,80 млн, в среднем €6,20 млн на игрока.
+
+Самый дорогой игрок состава — Chrislain Matsima (центральный защитник), его стоимость оценивается в €22 млн.

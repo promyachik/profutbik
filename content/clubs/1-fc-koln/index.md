@@ -1,0 +1,202 @@
+---
+title: "1.FC Köln: состав, стоимость и трансферы"
+description: "Состав клуба 1.FC Köln — 29 игроков, средний возраст 26,1. Общая стоимость команды €154,10 млн."
+date: "2026-09-02T18:39:48+03:00"
+url: "/clubs/1-fc-koln/"
+draft: false
+type: "clubs"
+layout: "single"
+club_name: "1.FC Köln"
+club_code: ""
+club_logo: "images/clubs/tm/rendered/3-fa4c3df02139.png"
+api_football_id: "192"
+club_city: "Köln"
+club_country: ""
+league: "Бундеслига"
+league_id: "78"
+transfermarkt_club_id: "3"
+squad_size: 29
+average_age: "26,1"
+squad_value: "€154,10 млн"
+squad_value_eur: 154100000
+average_value: "€5,31 млн"
+squad:
+  - name: "Said El Mala"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 20
+    value: "€45 млн"
+    tm_id: "1168219"
+  - name: "Mikey Moore"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 19
+    value: "€18 млн"
+    tm_id: "1011147"
+  - name: "Jahmai Simpson-Pusey"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 20
+    value: "€9 млн"
+    tm_id: "942497"
+  - name: "Ragnar Ache"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 28
+    value: "€9 млн"
+    tm_id: "416380"
+  - name: "Thijs Dallinga"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 26
+    value: "€9 млн"
+    tm_id: "538964"
+  - name: "Ísak Jóhannesson"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 23
+    value: "€8 млн"
+    tm_id: "579565"
+  - name: "Rav van den Berg"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 22
+    value: "€7 млн"
+    tm_id: "640556"
+  - name: "Sebastian Sebulonsen"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 26
+    value: "€5,5 млн"
+    tm_id: "592387"
+  - name: "Ellyes Skhiri"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 31
+    value: "€5 млн"
+    tm_id: "290587"
+  - name: "Jan Thielmann"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 24
+    value: "€5 млн"
+    tm_id: "472249"
+  - name: "Tom Krauß"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 25
+    value: "€4,5 млн"
+    tm_id: "405687"
+  - name: "Gideon Mensah"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 28
+    value: "€4 млн"
+    tm_id: "397171"
+  - name: "Marvin Schwäbe"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 31
+    value: "€3 млн"
+    tm_id: "160929"
+  - name: "Joël Schmied"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 27
+    value: "€3 млн"
+    tm_id: "322517"
+  - name: "Borna Sosa"
+    position: "Левый защитник"
+    position_short: "LB"
+    age: 28
+    value: "€3 млн"
+    tm_id: "293194"
+  - name: "Linton Maina"
+    position: "Правый вингер"
+    position_short: "RW"
+    age: 27
+    value: "€3 млн"
+    tm_id: "335103"
+  - name: "Luka Lochoshvili"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 28
+    value: "€2,5 млн"
+    tm_id: "345189"
+  - name: "Alessio Castro-Montes"
+    position: "Правый защитник"
+    position_short: "RB"
+    age: 29
+    value: "€2,5 млн"
+    tm_id: "340166"
+  - name: "Luca Waldschmidt"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 30
+    value: "€2 млн"
+    tm_id: "196095"
+  - name: "Marius Bülter"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 33
+    value: "€1,8 млн"
+    tm_id: "116088"
+  - name: "Timo Hübers"
+    position: "Центральный защитник"
+    position_short: "CB"
+    age: 30
+    value: "€1,5 млн"
+    tm_id: "236981"
+  - name: "Paul Okon-Engstler"
+    position: "Опорный полузащитник"
+    position_short: "DM"
+    age: 21
+    value: "€1,2 млн"
+    tm_id: "1064377"
+  - name: "Imad Rondic"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 27
+    value: "€750 тыс."
+    tm_id: "464154"
+  - name: "Ron-Robert Zieler"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 37
+    value: "€500 тыс."
+    tm_id: "21327"
+  - name: "Malek El Mala"
+    position: "Центральный нападающий"
+    position_short: "CF"
+    age: 21
+    value: "€250 тыс."
+    tm_id: "1168222"
+  - name: "Matthias Köbbing"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 29
+    value: "€100 тыс."
+    tm_id: "227089"
+  - name: "Martin James"
+    position: "Вратарь"
+    position_short: "GK"
+    age: 18
+    value: ""
+    tm_id: "1077676"
+  - name: "Gil Neves"
+    position: "Центральный полузащитник"
+    position_short: "CM"
+    age: 18
+    value: ""
+    tm_id: "1073474"
+  - name: "Reigan Heskey"
+    position: "Левый вингер"
+    position_short: "LW"
+    age: 18
+    value: ""
+    tm_id: "1056437"
+club_transfers:
+---
+В заявке клуба 1.FC Köln — 29 игроков со средним возрастом 26,1 года. Общая стоимость команды по оценке Transfermarkt — €154,10 млн, в среднем €5,31 млн на игрока.
+
+Самый дорогой игрок состава — Said El Mala (левый вингер), его стоимость оценивается в €45 млн.
