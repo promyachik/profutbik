@@ -1,0 +1,43 @@
+{
+  "slug": "rafael-leao-galatasaray",
+  "player": "Rafael Leão",
+  "image_rel": "images/players/transfermarkt/rafael-leao-galatasaray-357164-black.png",
+  "image_path": "/home/runner/work/profutbik/profutbik/static/images/players/transfermarkt/rafael-leao-galatasaray-357164-black.png",
+  "image_check": {
+    "width": 700,
+    "height": 900,
+    "black_corners": 4,
+    "non_black_sample_ratio": 0.7017
+  },
+  "photo_info": {
+    "profile_url": "https://www.transfermarkt.com/-/profil/spieler/357164",
+    "resolved_profile_url": "https://www.transfermarkt.com/-/profil/spieler/357164",
+    "photo_url": "https://img.a.transfermarkt.technology/portrait/big/357164-1730126553.jpg",
+    "source_size": [
+      300,
+      390
+    ],
+    "resolver": "exact_job_transfermarkt_url",
+    "diagnostics": [
+      "PHOTO_OK https://img.a.transfermarkt.technology/portrait/big/357164-1730126553.jpg 300x390"
+    ],
+    "upscaled_before_rembg": true,
+    "output_size": [
+      700,
+      900
+    ],
+    "background": "#000000",
+    "source_file": "C:\\Users\\Dmitrii\\ProFutbik/assets-inbox/rafael-leao-galatasaray/transfermarkt-source",
+    "output_file": "/home/runner/work/profutbik/profutbik/static/images/players/transfermarkt/rafael-leao-galatasaray-357164-black.png",
+    "engine_version": "3.4"
+  },
+  "page_path": "/home/runner/work/profutbik/profutbik/content/transfers/rafael-leao-galatasaray/index.md",
+  "data_path": "/home/runner/work/profutbik/profutbik/data/transfers.json",
+  "homepage_data_path": "/home/runner/work/profutbik/profutbik/data/homepage_transfer_rumor.json",
+  "steps": [
+    "homepage_transfers_block",
+    "clickable_upper_ticker",
+    "seo_page_and_black_background_transfermarkt_photo",
+    "lower_footer_ticker"
+  ]
+}
