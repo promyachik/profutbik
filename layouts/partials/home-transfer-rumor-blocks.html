@@ -596,10 +596,22 @@
             </div>
             <div class="pf-home-rumors-main">
               <a href="{{ $item.url | relURL }}">{{ $item.player }}</a>
+              {{/* PF506B: логотип берём из данных, а не подставляем скриптом
+                   по совпадению названия. Скрипт ниже ищет клуб в каталоге по
+                   точному имени, а слухи пишут его полностью — "Brighton &
+                   Hove Albion" против "Brighton" в каталоге, — и логотип
+                   не находился. В данных он лежит готовый и верный.
+                   Класс с логотипом заставляет скрипт пропустить эти строки. */}}
               <div class="pf-home-rumors-route">
-                <span>{{ $item.from_name }}</span>
+                <span{{ with $item.from_logo }} class="pf403c-rumor-club-with-logo"{{ end }}>
+                  {{- with $item.from_logo }}<img class="pf403c-rumor-club-logo"
+                    src="{{ . | relURL }}" alt="{{ $item.from_name }}" loading="lazy">{{ end -}}
+                  {{ $item.from_name }}</span>
                 <span class="pf-route-arrow pf-club-arrow">→</span>
-                <span>{{ $item.to_name }}</span>
+                <span{{ with $item.to_logo }} class="pf403c-rumor-club-with-logo"{{ end }}>
+                  {{- with $item.to_logo }}<img class="pf403c-rumor-club-logo"
+                    src="{{ . | relURL }}" alt="{{ $item.to_name }}" loading="lazy">{{ end -}}
+                  {{ $item.to_name }}</span>
               </div>
               </div>
             <div class="pf-home-rumors-side">
