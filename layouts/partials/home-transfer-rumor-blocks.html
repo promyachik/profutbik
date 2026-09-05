@@ -112,9 +112,39 @@
       stroke-linejoin: round;
     }
 
-    /* Три шеврона гаснут к хвосту: глаз читает направление, а не частокол. */
-    .pf-arrow-chevrons path:nth-child(1) { opacity: 0.45; }
-    .pf-arrow-chevrons path:nth-child(2) { opacity: 0.72; }
+    /* PF508I: по шевронам бежит волна слева направо — каждый вспыхивает на
+       долю секунды позже соседа. Направление перехода читается движением, а
+       не только формой, и строка перестаёт быть неподвижной.
+
+       Анимируется только прозрачность: она не меняет геометрию, поэтому
+       браузер не пересчитывает раскладку. Это принципиально — шевронов на
+       главной под две сотни, и любая анимация размера или сдвига заставила
+       бы страницу дёргаться, как недавно дёргалась бегущая строка. */
+    @keyframes pf-chevron-flow {
+      0%, 60%, 100% { opacity: 0.22; }
+      25%           { opacity: 1; }
+    }
+
+    .pf-arrow-chevrons path {
+      animation: pf-chevron-flow 1.9s ease-in-out infinite;
+    }
+
+    .pf-arrow-chevrons path:nth-child(1) { animation-delay: 0s; }
+    .pf-arrow-chevrons path:nth-child(2) { animation-delay: 0.16s; }
+    .pf-arrow-chevrons path:nth-child(3) { animation-delay: 0.32s; }
+
+    /* Одиночному шеврону бежать некуда — он просто горит. */
+    .pf-arrow-chevrons.is-single path {
+      animation: none;
+    }
+
+    /* Кто просил у системы меньше движения, тот его и не увидит: остаётся
+       прежнее статичное затухание к хвосту. */
+    @media (prefers-reduced-motion: reduce) {
+      .pf-arrow-chevrons path { animation: none; }
+      .pf-arrow-chevrons path:nth-child(1) { opacity: 0.45; }
+      .pf-arrow-chevrons path:nth-child(2) { opacity: 0.72; }
+    }
 
     /* Одиночный шеврон в слухах: слот под стрелку там ровно 18 пикселей. */
     .pf-arrow-chevrons.is-single {

@@ -185,9 +185,28 @@ body.transfer-page .transfer-stage__arrow .pf-arrow-chevrons path {
     stroke-linejoin: round !important;
 }
 
-/* Хвост гаснет: глаз читает направление, а не частокол. */
-body.transfer-page .transfer-stage__arrow .pf-arrow-chevrons path:nth-child(1) { opacity: 0.38 !important; }
-body.transfer-page .transfer-stage__arrow .pf-arrow-chevrons path:nth-child(2) { opacity: 0.68 !important; }
+/* PF508I: по шевронам бежит волна слева направо — каждый вспыхивает на долю
+   секунды позже соседа. Анимируется только прозрачность: геометрия не
+   меняется, раскладку браузер не пересчитывает. */
+@keyframes pf-chevron-flow {
+    0%, 60%, 100% { opacity: 0.20; }
+    25%           { opacity: 1; }
+}
+
+body.transfer-page .transfer-stage__arrow .pf-arrow-chevrons path {
+    animation: pf-chevron-flow 1.9s ease-in-out infinite;
+}
+
+body.transfer-page .transfer-stage__arrow .pf-arrow-chevrons path:nth-child(1) { animation-delay: 0s; }
+body.transfer-page .transfer-stage__arrow .pf-arrow-chevrons path:nth-child(2) { animation-delay: 0.16s; }
+body.transfer-page .transfer-stage__arrow .pf-arrow-chevrons path:nth-child(3) { animation-delay: 0.32s; }
+
+/* Кто просил у системы меньше движения — увидит статичное затухание. */
+@media (prefers-reduced-motion: reduce) {
+    body.transfer-page .transfer-stage__arrow .pf-arrow-chevrons path { animation: none !important; }
+    body.transfer-page .transfer-stage__arrow .pf-arrow-chevrons path:nth-child(1) { opacity: 0.38 !important; }
+    body.transfer-page .transfer-stage__arrow .pf-arrow-chevrons path:nth-child(2) { opacity: 0.68 !important; }
+}
 
 @media (max-width: 720px) {
     body.transfer-page .transfer-stage__route {
