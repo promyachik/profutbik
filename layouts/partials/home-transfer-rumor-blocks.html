@@ -171,7 +171,7 @@
        не остаётся. Имя не переносится: «Matias Fernandez-Pardo» вставал в
        три строки и ломал ритм списка. */
     .pf-home-transfers-table tbody td.is-player {
-      width: 26%;
+      width: 24%;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -185,7 +185,7 @@
     /* Клубы зеркальны относительно стрелки: название «откуда» прижато к ней
        справа, «куда» — слева. Так стрелка оказывается смысловым центром. */
     .pf-home-transfers-table tbody td.is-club {
-      width: 23%;
+      width: 24%;
       padding-left: 8px;
       padding-right: 8px;
     }
@@ -233,18 +233,38 @@
     }
 
     .pf-home-transfers-table tbody td.is-arrow {
-      width: 64px;
+      width: 56px;
+    }
+
+    /* Панель слухов вдвое уже: 492 пикселя против 812. Названия клубов там
+       обрезались бы до «Bright…» и «Manchester …», а обрубок хуже, чем его
+       отсутствие. Эмблема говорит то же и целиком; освободившееся место
+       отдано имени игрока и статусу, так что провалов не возникает. */
+    .pf-home-panel--rumors .pf-club-name-inline {
+      display: none;
+    }
+
+    .pf-home-panel--rumors .pf-home-transfers-table tbody td.is-player {
+      width: 38%;
+    }
+
+    .pf-home-panel--rumors .pf-home-transfers-table tbody td.is-club {
+      width: 14%;
+    }
+
+    .pf-home-panel--rumors .pf-home-transfers-table tbody td.is-status {
+      width: 26%;
     }
 
     .pf-home-transfers-table tbody td.is-status {
-      width: 16%;
+      width: 15%;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
     }
 
     .pf-home-transfers-table tbody td.is-date {
-      width: 58px;
+      width: 52px;
       white-space: nowrap;
     }
 
@@ -840,7 +860,7 @@
                    На телефоне названия скрыты, там ширины нет. */}}
               <td class="is-club is-from">
                 <span class="pf-club-cell">
-                  <span class="pf-club-name-inline">{{ .from_name }}</span>
+                  <span class="pf-club-name-inline" data-pf403c-logo-ready="true">{{ .from_name }}</span>
                   {{ with .from_logo }}<img class="pf-club-logo" src="{{ . | relURL }}" alt="">{{ end }}
                 </span>
               </td>
@@ -859,7 +879,7 @@
               <td class="is-club is-to">
                 <span class="pf-club-cell">
                   {{ with .to_logo }}<img class="pf-club-logo" src="{{ . | relURL }}" alt="">{{ end }}
-                  <span class="pf-club-name-inline">{{ .to_name }}</span>
+                  <span class="pf-club-name-inline" data-pf403c-logo-ready="true">{{ .to_name }}</span>
                 </span>
               </td>
               {{/* PF508C: сумма с главной убрана совсем. Она есть внутри
@@ -910,7 +930,7 @@
               </td>
               <td class="is-club is-from">
                 <span class="pf-club-cell">
-                  <span class="pf-club-name-inline">{{ .from_name }}</span>
+                  <span class="pf-club-name-inline" data-pf403c-logo-ready="true">{{ .from_name }}</span>
                   {{ with .from_logo }}<img class="pf-club-logo" src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}
                 </span>
               </td>
@@ -924,7 +944,7 @@
               <td class="is-club is-to">
                 <span class="pf-club-cell">
                   {{ with .to_logo }}<img class="pf-club-logo" src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}
-                  <span class="pf-club-name-inline">{{ .to_name }}</span>
+                  <span class="pf-club-name-inline" data-pf403c-logo-ready="true">{{ .to_name }}</span>
                 </span>
               </td>
               <td class="is-status">
