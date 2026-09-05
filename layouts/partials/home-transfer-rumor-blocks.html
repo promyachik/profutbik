@@ -765,54 +765,49 @@
       <h2 class="pf-home-panel__title"><a class="pf405i-home-panel-title-link" data-pf405i-section="rumors" href="{{ "rumors/" | relURL }}">{{ $data.rumors_title }}</a></h2>
     </header>
 
+    {{/* PF508E: слухи собраны той же таблицей, что и трансферы.
+         Раньше это был список с полными названиями клубов — «Brighton & Hove
+         Albion → Liverpool», — и на телефоне он ломался: строка не влезала,
+         переносилась и наползала на соседнюю. Названия здесь и не нужны:
+         эмблема узнаётся быстрее, а точное имя клуба есть внутри материала.
+         Общая разметка заодно снимает груз накопленных правок PF400P, PF401L,
+         PF405O и PF405P, каждая из которых чинила предыдущую. */}}
     {{ if gt (len $data.rumors) 0 }}
-      <ol class="pf-home-rumors-list">
-        {{ range $index, $item := $data.rumors }}
-          <li>
-            <div>
-              <span class="pf-home-rumors-rank{{ if ge $index 3 }} is-secondary{{ end }}">{{ add $index 1 }}</span>
-            </div>
-            <div class="pf-home-rumors-main">
-              <a href="{{ $item.url | relURL }}">{{ $item.player }}</a>
-              {{/* PF506B: логотип берём из данных, а не подставляем скриптом
-                   по совпадению названия. Скрипт ниже ищет клуб в каталоге по
-                   точному имени, а слухи пишут его полностью — "Brighton &
-                   Hove Albion" против "Brighton" в каталоге, — и логотип
-                   не находился. В данных он лежит готовый и верный.
-                   Класс с логотипом заставляет скрипт пропустить эти строки. */}}
-              <div class="pf-home-rumors-route">
-                <span{{ with $item.from_logo }} class="pf403c-rumor-club-with-logo"{{ end }}>
-                  {{- with $item.from_logo }}<img class="pf403c-rumor-club-logo"
-                    src="{{ . | relURL }}" alt="{{ $item.from_name }}" loading="lazy">{{ end -}}
-                  {{ $item.from_name }}</span>
-                {{/* PF508C: тот же шеврон, что и в трансферах, но один:
-                     под стрелку в маршруте PF405P отводит ровно 18 пикселей,
-                     три сюда не встанут. Начертание общее, поэтому блоки
-                     читаются как одна система. */}}
-                <span class="pf-route-arrow pf-club-arrow">
-                  <svg class="pf-arrow-chevrons is-single" viewBox="0 0 16 24" aria-hidden="true" focusable="false">
-                    <path d="M4 5 L12 12 L4 19" />
-                  </svg>
-                </span>
-                <span{{ with $item.to_logo }} class="pf403c-rumor-club-with-logo"{{ end }}>
-                  {{- with $item.to_logo }}<img class="pf403c-rumor-club-logo"
-                    src="{{ . | relURL }}" alt="{{ $item.to_name }}" loading="lazy">{{ end -}}
-                  {{ $item.to_name }}</span>
-              </div>
-              </div>
-            <div class="pf-home-rumors-side">
-              {{ $noFee := slice "сумма не разглашается" "сумма не указана"
-                                 "сумма не раскрывается" "сумма не раскрыта"
-                                 "сумма не называется" "не раскрыта" "не разглашается" }}
-              {{ $fee := trim (replace $item.fee "Предложение " "") " " }}
-              {{ if not (in $noFee (lower $fee)) }}
-                <span class="pf-fee-value">{{ $fee }}</span>
-              {{ end }}
-              <span class="pf-status-pill {{ $item.status_css }}">{{ $item.status_display }}</span>
-            </div>
-          </li>
-        {{ end }}
-      </ol>
+      <div class="pf508e-rumors-table-wrap"><table class="pf-home-transfers-table pf399x-transfer-table">
+        <tbody>
+          {{ range $data.rumors }}
+            <tr>
+              <td class="is-player">
+                <a href="{{ .url | relURL }}">{{ .player }}</a>
+              </td>
+              <td class="is-center">
+                {{ if .from_logo }}
+                  <img class="pf-club-logo" src="{{ .from_logo | relURL }}" alt="{{ .from_name }}" loading="lazy">
+                {{ else }}
+                  <span>{{ .from_name }}</span>
+                {{ end }}
+              </td>
+              <td class="is-center is-arrow">
+                <svg class="pf-arrow-chevrons" viewBox="0 0 46 24" aria-hidden="true" focusable="false">
+                  <path d="M4 5 L14 12 L4 19" />
+                  <path d="M18 5 L28 12 L18 19" />
+                  <path d="M32 5 L42 12 L32 19" />
+                </svg>
+              </td>
+              <td class="is-center">
+                {{ if .to_logo }}
+                  <img class="pf-club-logo" src="{{ .to_logo | relURL }}" alt="{{ .to_name }}" loading="lazy">
+                {{ else }}
+                  <span>{{ .to_name }}</span>
+                {{ end }}
+              </td>
+              <td class="is-status">
+                <span class="pf-status-pill {{ .status_css }}">{{ .status_display }}</span>
+              </td>
+            </tr>
+          {{ end }}
+        </tbody>
+      </table></div>
     {{ else }}
       <div class="pf-home-empty">Пока нет данных для блока «Слухи».</div>
     {{ end }}

@@ -155,6 +155,84 @@
 <!-- PF487A_SEO_FOUNDATION_START -->
 {{ partial "seo-head.html" . }}
 <!-- PF487A_SEO_FOUNDATION_END -->
+<style id="pf508f-transfer-route-horizontal">
+/* PF508F_TRANSFER_ROUTE_HORIZONTAL_START
+   Маршрут «клуб → клуб» на телефоне схлопывался в одну колонку, а стрелку
+   при этом разворачивали на 90 градусов: переход читался сверху вниз, и
+   Дмитрий справедливо назвал это кривым. Направление у перехода одно, и оно
+   горизонтальное на любом экране — как в списке на главной. Эмблемы тут
+   уменьшены, чтобы три колонки уместились в 375 пикселей.
+
+   Стили лежат в разметке, а не в transfer-article.css: внешний файл браузер
+   держит в кэше, и правку пришлось бы ждать. */
+.transfer-stage__arrow .pf-arrow-chevrons {
+    display: block;
+    width: 88px;
+    height: 34px;
+    margin: 0 auto;
+    overflow: visible;
+}
+
+.transfer-stage__arrow .pf-arrow-chevrons path {
+    fill: none;
+    stroke: var(--tr-gold-light, #f1bd29);
+    stroke-width: 3.4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    vector-effect: non-scaling-stroke;
+}
+
+/* Хвост гаснет: глаз читает направление, а не частокол. */
+.transfer-stage__arrow .pf-arrow-chevrons path:nth-child(1) { opacity: 0.38; }
+.transfer-stage__arrow .pf-arrow-chevrons path:nth-child(2) { opacity: 0.68; }
+
+@media (max-width: 720px) {
+    .transfer-stage__route {
+        grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) !important;
+        align-items: start !important;
+        gap: 10px !important;
+        padding: 28px 14px 18px !important;
+    }
+
+    /* Эмблема над названием: в строку они на такой ширине не встают. */
+    .transfer-stage__club {
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        gap: 8px !important;
+    }
+
+    .transfer-stage__logo-box {
+        width: 66px !important;
+        height: 66px !important;
+    }
+
+    .transfer-stage__logo {
+        max-width: 60px !important;
+        max-height: 60px !important;
+    }
+
+    .transfer-stage__club-name {
+        margin-top: 0 !important;
+        font-size: 14px !important;
+        line-height: 1.25 !important;
+        white-space: normal !important;
+        text-align: center !important;
+    }
+
+    .transfer-stage__arrow {
+        height: auto !important;
+        transform: none !important;
+        padding-top: 20px !important;
+    }
+
+    .transfer-stage__arrow .pf-arrow-chevrons {
+        width: 44px;
+        height: 24px;
+    }
+}
+/* PF508F_TRANSFER_ROUTE_HORIZONTAL_END */
+</style>
+
 <style id="pf501a-club-link-style">
 .pf501a-club-link{color:inherit;text-decoration:none;border-bottom:1px solid rgba(242,201,76,.5)}
 .pf501a-club-link:hover,.pf501a-club-link:focus-visible{color:#f2c94c;border-bottom-color:#f2c94c}
@@ -383,11 +461,20 @@
 
             </div>
 
+            {{/* PF508F: те же шевроны, что на главной. Прежде здесь была
+                 золотая полоса, а на телефоне её разворачивали на 90 градусов
+                 вместе со всем маршрутом — переход читался сверху вниз и
+                 выглядел криво. Направление у перехода одно, и оно
+                 горизонтальное на любом экране. */}}
             <div
                 class="transfer-stage__arrow"
                 aria-hidden="true"
             >
-                <span></span>
+                <svg class="pf-arrow-chevrons" viewBox="0 0 46 24" focusable="false">
+                    <path d="M4 5 L14 12 L4 19" />
+                    <path d="M18 5 L28 12 L18 19" />
+                    <path d="M32 5 L42 12 L32 19" />
+                </svg>
             </div>
 
             <div class="transfer-stage__club">
