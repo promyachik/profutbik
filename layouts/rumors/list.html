@@ -12,7 +12,7 @@
 .pf405a-league__name{font-size:12px;text-align:center}
 .pf405a-title{margin:30px 0 18px;font-size:clamp(26px,2.7vw,38px);font-weight:800}
 .pf405a-list{border:1px solid rgba(130,145,160,.24);background:rgba(8,13,18,.35)}
-.pf405a-row{min-height:124px;display:grid;grid-template-columns:minmax(210px,1.1fr) 42px minmax(210px,1.1fr) 120px 132px;gap:20px;align-items:center;padding:18px 24px;border-bottom:1px solid rgba(130,145,160,.24);color:inherit;text-decoration:none}
+.pf405a-row{min-height:124px;display:grid;grid-template-columns:minmax(210px,1.1fr) 62px minmax(210px,1.1fr) 132px;gap:20px;align-items:center;padding:18px 24px;border-bottom:1px solid rgba(130,145,160,.24);color:inherit;text-decoration:none}
 .pf405a-row:last-child{border-bottom:0}
 .pf405a-row:hover,.pf405a-row:focus-visible{background:rgba(255,212,0,.035);box-shadow:inset 0 0 0 1px #ffd400;outline:none}
 .pf405a-side{display:grid;grid-template-columns:58px minmax(0,1fr);gap:14px;align-items:center;min-width:0}
@@ -22,15 +22,23 @@
 .pf405a-player{display:block;margin-bottom:7px;font-size:17px;font-weight:750;color:#f5f7f8}
 .pf405a-club{display:block;color:#aeb8c2;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .pf405a-side--to .pf405a-copy{text-align:right}
-.pf405a-arrow{color:#ffd400;font-size:22px;text-align:center}
-.pf405a-fee{text-align:center;font-size:15px;white-space:nowrap}
+/* PF511B: та же стрелка, что в списках на главной и в статье о переходе.
+   Текстовая «→» зависела от шрифта и рядом с эмблемами терялась. */
+.pf405a-arrow{display:grid;place-items:center}
+.pf405a-arrow svg{display:block;width:46px;height:24px;overflow:visible}
+.pf405a-arrow path{fill:none;stroke:#34d058;stroke-width:3.6;stroke-linecap:round;stroke-linejoin:round;animation:pf405a-flow 1.9s ease-in-out infinite}
+.pf405a-arrow path:nth-child(1){animation-delay:0s}
+.pf405a-arrow path:nth-child(2){animation-delay:.16s}
+.pf405a-arrow path:nth-child(3){animation-delay:.32s}
+@keyframes pf405a-flow{0%,60%,100%{opacity:.22}25%{opacity:1}}
+@media(prefers-reduced-motion:reduce){.pf405a-arrow path{animation:none}.pf405a-arrow path:nth-child(1){opacity:.45}.pf405a-arrow path:nth-child(2){opacity:.72}}
 .pf405a-status{justify-self:end;min-width:118px;padding:8px 10px;border:1px solid currentColor;border-radius:2px;text-align:center;font-size:11px;font-weight:800;white-space:nowrap}
 .pf405a-status--rumor{color:#d4d8dc}.pf405a-status--interest{color:#ffd400}.pf405a-status--negotiations{color:#4da3ff}.pf405a-status--agreement{color:#ff7a59}
 .pf405a-empty{display:none;padding:28px;border:1px solid rgba(130,145,160,.24);color:#aeb8c2;text-align:center}
 body:has(.pf405a-rumors-page) .bottom-transfer-strip-v3:not(.home-player-bottom-strip){display:none!important}
 body:has(.pf405a-rumors-page) .home-player-bottom-strip{position:relative!important;left:auto!important;right:auto!important;width:100vw!important;max-width:100vw!important;margin-left:calc(50% - 50vw)!important;margin-right:calc(50% - 50vw)!important;transform:none!important}
-@media(max-width:980px){.pf405a-leagues{grid-template-columns:repeat(4,minmax(0,1fr))}.pf405a-row{grid-template-columns:minmax(0,1fr) 34px minmax(0,1fr)}.pf405a-fee{grid-column:1/3;text-align:left}.pf405a-status{grid-column:3;grid-row:2}}
-@media(max-width:680px){.pf405a-rumors-page{width:min(100% - 20px,1320px)}.pf405a-leagues{grid-template-columns:repeat(2,minmax(0,1fr))}.pf405a-league{min-height:96px}.pf405a-row{grid-template-columns:1fr;padding:18px 16px}.pf405a-side,.pf405a-side--to{grid-template-columns:52px minmax(0,1fr)}.pf405a-side--to .pf405a-copy{text-align:left}.pf405a-side--to .pf405a-logo-box{grid-column:1;grid-row:1}.pf405a-side--to .pf405a-copy{grid-column:2}.pf405a-arrow{text-align:left;padding-left:18px;transform:rotate(90deg)}.pf405a-fee,.pf405a-status{grid-column:1;grid-row:auto;justify-self:start;text-align:left}}
+@media(max-width:980px){.pf405a-leagues{grid-template-columns:repeat(4,minmax(0,1fr))}.pf405a-row{grid-template-columns:minmax(0,1fr) 48px minmax(0,1fr)}.pf405a-status{grid-column:3;grid-row:2}}
+@media(max-width:680px){.pf405a-rumors-page{width:min(100% - 20px,1320px)}.pf405a-leagues{grid-template-columns:repeat(2,minmax(0,1fr))}.pf405a-league{min-height:96px}.pf405a-row{grid-template-columns:1fr;padding:18px 16px}.pf405a-side,.pf405a-side--to{grid-template-columns:52px minmax(0,1fr)}.pf405a-side--to .pf405a-copy{text-align:left}.pf405a-side--to .pf405a-logo-box{grid-column:1;grid-row:1}.pf405a-side--to .pf405a-copy{grid-column:2}.pf405a-arrow{justify-items:start;padding-left:18px}.pf405a-status{grid-column:1;grid-row:auto;justify-self:start;text-align:left}}
 </style>
 {{ partial "rumors-league-selector-405a.html" . }}
 <h1 class="pf405a-title">Слухи</h1>
@@ -38,9 +46,8 @@ body:has(.pf405a-rumors-page) .home-player-bottom-strip{position:relative!import
 {{ range .Pages.ByDate.Reverse }}
 <a class="pf405a-row" data-league-id="{{ .Params.league_id }}" href="{{ .RelPermalink }}">
 <span class="pf405a-side"><span class="pf405a-logo-box"><img class="pf405a-logo" src="{{ .Params.from_logo | relURL }}" alt="{{ .Params.from_club }}"></span><span class="pf405a-copy"><span class="pf405a-player">{{ .Params.player }}</span><span class="pf405a-club">{{ .Params.from_club }}</span></span></span>
-<span class="pf405a-arrow">→</span>
+<span class="pf405a-arrow" aria-hidden="true"><svg viewBox="0 0 46 24" focusable="false"><path d="M4 5 L14 12 L4 19"/><path d="M18 5 L28 12 L18 19"/><path d="M32 5 L42 12 L32 19"/></svg></span>
 <span class="pf405a-side pf405a-side--to"><span class="pf405a-copy"><span class="pf405a-player">{{ .Params.to_club }}</span><span class="pf405a-club">{{ .Params.display_date }}</span></span><span class="pf405a-logo-box"><img class="pf405a-logo" src="{{ .Params.to_logo | relURL }}" alt="{{ .Params.to_club }}"></span></span>
-<span class="pf405a-fee">{{ .Params.fee }}</span>
 <span class="pf405a-status pf405a-status--{{ .Params.status }}">{{ .Params.status_label }}</span>
 </a>
 {{ end }}
