@@ -1,0 +1,3282 @@
+[
+ {
+  "tm_player_id": "648195",
+  "player_full_name": "Enzo Fernández",
+  "to_club": "Manchester City",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 100000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1097139",
+  "player_full_name": "Ayyoub Bouaddi",
+  "to_club": "Manchester City",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-26",
+  "value_eur": 80000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "455661",
+  "player_full_name": "Nick Woltemade",
+  "to_club": "Juventus FC",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 55000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "623570",
+  "player_full_name": "Iliman Ndiaye",
+  "to_club": "Manchester City",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 55000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "357164",
+  "player_full_name": "Rafael Leão",
+  "to_club": "Galatasaray",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-29",
+  "value_eur": 50000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "445939",
+  "player_full_name": "Omar Marmoush",
+  "to_club": "Tottenham Hotspur",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-27",
+  "value_eur": 50000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "413403",
+  "player_full_name": "Ezri Konsa",
+  "to_club": "Arsenal FC",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-21",
+  "value_eur": 45000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "776890",
+  "player_full_name": "Nicolas Jackson",
+  "to_club": "Aston Villa",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-28",
+  "value_eur": 40000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "466805",
+  "player_full_name": "Nico González",
+  "to_club": "Newcastle United",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-26",
+  "value_eur": 40000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "890719",
+  "player_full_name": "Ethan Nwaneri",
+  "to_club": "Borussia Dortmund",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-09-01",
+  "value_eur": 35000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "433188",
+  "player_full_name": "Curtis Jones",
+  "to_club": "Inter Milan",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-21",
+  "value_eur": 35000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "743591",
+  "player_full_name": "Sávio",
+  "to_club": "Tottenham Hotspur",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-25",
+  "value_eur": 35000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "364135",
+  "player_full_name": "Moise Kean",
+  "to_club": "Como 1907",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 32000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "741238",
+  "player_full_name": "Omari Hutchinson",
+  "to_club": "AC Milan",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-31",
+  "value_eur": 30000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1185888",
+  "player_full_name": "Ibrahim Mbaye",
+  "to_club": "Aston Villa",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 30000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "533738",
+  "player_full_name": "Jonathan David",
+  "to_club": "Atlético de Madrid",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 30000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1077175",
+  "player_full_name": "Honest Ahanor",
+  "to_club": "Crystal Palace",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 30000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "568693",
+  "player_full_name": "Pape Matar Sarr",
+  "to_club": "Juventus FC",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 30000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "901019",
+  "player_full_name": "Neil El Aynaoui",
+  "to_club": "RB Leipzig",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-09-01",
+  "value_eur": 30000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "743386",
+  "player_full_name": "Malick Fofana",
+  "to_club": "Sunderland AFC",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 30000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "672381",
+  "player_full_name": "Jonathan Rowe",
+  "to_club": "Atalanta BC",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 28000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1111589",
+  "player_full_name": "El Hadji Malick Diouf",
+  "to_club": "Brentford FC",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-28",
+  "value_eur": 28000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "931838",
+  "player_full_name": "Hugo Larsson",
+  "to_club": "Fulham FC",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 28000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "720286",
+  "player_full_name": "Aleksey Batrakov",
+  "to_club": "Galatasaray",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-20",
+  "value_eur": 28000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "540664",
+  "player_full_name": "Dilane Bakwa",
+  "to_club": "LOSC Lille",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-08-26",
+  "value_eur": 28000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "610849",
+  "player_full_name": "Liam Delap",
+  "to_club": "Nottingham Forest",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-27",
+  "value_eur": 28000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1084638",
+  "player_full_name": "Karim Coulibaly",
+  "to_club": "RC Strasbourg Alsace",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-08-21",
+  "value_eur": 28000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "426620",
+  "player_full_name": "Pedro Gonçalves",
+  "to_club": "ACF Fiorentina",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 25000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "395516",
+  "player_full_name": "Moussa Diaby",
+  "to_club": "Bayer 04 Leverkusen",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-09-01",
+  "value_eur": 25000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "718303",
+  "player_full_name": "Ernest Poku",
+  "to_club": "Besiktas JK",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-26",
+  "value_eur": 25000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "420213",
+  "player_full_name": "Quinten Timber",
+  "to_club": "Crystal Palace",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 25000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "526845",
+  "player_full_name": "Noah Atubolu",
+  "to_club": "Eintracht Frankfurt",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-08-28",
+  "value_eur": 25000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "964426",
+  "player_full_name": "Christos Mouzakitis",
+  "to_club": "Hull City",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 25000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "401578",
+  "player_full_name": "Exequiel Palacios",
+  "to_club": "Ipswich Town",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-27",
+  "value_eur": 25000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "939964",
+  "player_full_name": "Jean-Mattéo Bahoya",
+  "to_club": "Leeds United",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 25000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "344381",
+  "player_full_name": "Christopher Nkunku",
+  "to_club": "RB Leipzig",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-08-25",
+  "value_eur": 25000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "552655",
+  "player_full_name": "Troy Parrott",
+  "to_club": "Real Betis Balompié",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-08-20",
+  "value_eur": 25000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "569598",
+  "player_full_name": "Youssouf Fofana",
+  "to_club": "Sevilla FC",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 23000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "403151",
+  "player_full_name": "Robert Sánchez",
+  "to_club": "Como 1907",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 22000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "467992",
+  "player_full_name": "Samuele Ricci",
+  "to_club": "Como 1907",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-29",
+  "value_eur": 22000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "493003",
+  "player_full_name": "Daniel Muñoz",
+  "to_club": "Nottingham Forest",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-31",
+  "value_eur": 22000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "605184",
+  "player_full_name": "Jean-Clair Todibo",
+  "to_club": "RC Lens",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-09-01",
+  "value_eur": 22000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "910905",
+  "player_full_name": "Mamadou Sarr",
+  "to_club": "Real Sociedad",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-08-28",
+  "value_eur": 22000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "929090",
+  "player_full_name": "Franculino",
+  "to_club": "Trabzonspor",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-09-02",
+  "value_eur": 22000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "503977",
+  "player_full_name": "Taylor Harwood-Bellis",
+  "to_club": "Aston Villa",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 20000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "711980",
+  "player_full_name": "Guéla Doué",
+  "to_club": "Bayer 04 Leverkusen",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-09-01",
+  "value_eur": 20000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "948279",
+  "player_full_name": "Chema Andrés",
+  "to_club": "Brighton & Hove Albion",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 20000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "203460",
+  "player_full_name": "Jack Grealish",
+  "to_club": "Everton FC",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 20000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "452483",
+  "player_full_name": "David Affengruber",
+  "to_club": "Fulham FC",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 20000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "589128",
+  "player_full_name": "Ayase Ueda",
+  "to_club": "LOSC Lille",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-08-31",
+  "value_eur": 20000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1082631",
+  "player_full_name": "Allan",
+  "to_club": "Manchester City",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-31",
+  "value_eur": 20000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "746910",
+  "player_full_name": "Mohamed Amoura",
+  "to_club": "OGC Nice",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-08-31",
+  "value_eur": 20000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "263236",
+  "player_full_name": "Kevin Danso",
+  "to_club": "Sunderland AFC",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 20000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "565822",
+  "player_full_name": "Harvey Elliott",
+  "to_club": "Valencia CF",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 20000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1011147",
+  "player_full_name": "Mikey Moore",
+  "to_club": "1.FC Köln",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-08-31",
+  "value_eur": 18000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "595809",
+  "player_full_name": "Beto",
+  "to_club": "ACF Fiorentina",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 18000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "575998",
+  "player_full_name": "Leonardo Balerdi",
+  "to_club": "AS Roma",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-30",
+  "value_eur": 18000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "463613",
+  "player_full_name": "Yann Gboho",
+  "to_club": "Coventry City",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 18000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "636695",
+  "player_full_name": "Marc Casadó",
+  "to_club": "Deportivo A Coruña",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 18000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "552955",
+  "player_full_name": "Santiago Gimenez",
+  "to_club": "FC Porto",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-31",
+  "value_eur": 18000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "787912",
+  "player_full_name": "El Chadaille Bitshiabu",
+  "to_club": "Galatasaray",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-09-02",
+  "value_eur": 18000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "537598",
+  "player_full_name": "Fábio Vieira",
+  "to_club": "Hamburger SV",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-09-01",
+  "value_eur": 18000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "696589",
+  "player_full_name": "Tim Iroegbunam",
+  "to_club": "Hull City",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 18000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1131161",
+  "player_full_name": "Robinio Vaz",
+  "to_club": "Hull City",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 18000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "659542",
+  "player_full_name": "Elye Wahi",
+  "to_club": "OGC Nice",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-08-24",
+  "value_eur": 18000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1191444",
+  "player_full_name": "Dayann Méthalie",
+  "to_club": "Sunderland AFC",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-21",
+  "value_eur": 18000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "368891",
+  "player_full_name": "Arthur Theate",
+  "to_club": "Bologna FC 1909",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-30",
+  "value_eur": 17000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "820474",
+  "player_full_name": "Zakaria El Ouahdi",
+  "to_club": "Hamburger SV",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-09-01",
+  "value_eur": 17000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "807386",
+  "player_full_name": "Conrad Harder",
+  "to_club": "RC Strasbourg Alsace",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-09-01",
+  "value_eur": 17000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "627626",
+  "player_full_name": "Wilfried Gnonto",
+  "to_club": "ACF Fiorentina",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 16000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1228661",
+  "player_full_name": "Gabriel Mec",
+  "to_club": "FC Porto",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-09-02",
+  "value_eur": 16000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "258878",
+  "player_full_name": "Tosin Adarabioyo",
+  "to_club": "Tottenham Hotspur",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 16000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "477758",
+  "player_full_name": "Aaron Wan-Bissaka",
+  "to_club": "Aston Villa",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-21",
+  "value_eur": 15000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "571607",
+  "player_full_name": "Fabio Miretti",
+  "to_club": "Besiktas JK",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-28",
+  "value_eur": 15000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "703408",
+  "player_full_name": "Femi Azeez",
+  "to_club": "Brighton & Hove Albion",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 15000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "386047",
+  "player_full_name": "Axel Disasi",
+  "to_club": "Crystal Palace",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-26",
+  "value_eur": 15000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "881116",
+  "player_full_name": "Darío Osorio",
+  "to_club": "Crystal Palace",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 15000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "728733",
+  "player_full_name": "Brooke Norton-Cuffy",
+  "to_club": "Hull City",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 15000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "670847",
+  "player_full_name": "Mohamed-Ali Cho",
+  "to_club": "Hull City",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-27",
+  "value_eur": 15000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "670717",
+  "player_full_name": "Dário Essugo",
+  "to_club": "RC Strasbourg Alsace",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-09-01",
+  "value_eur": 15000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "655012",
+  "player_full_name": "Lucas Stassin",
+  "to_club": "Sevilla FC",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 15000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "541134",
+  "player_full_name": "Souffian El Karouani",
+  "to_club": "SL Benfica",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-09-01",
+  "value_eur": 15000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "257455",
+  "player_full_name": "João Palhinha",
+  "to_club": "SL Benfica",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-26",
+  "value_eur": 15000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "994536",
+  "player_full_name": "Claudio Echeverri",
+  "to_club": "SL Benfica",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-09-02",
+  "value_eur": 15000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "315865",
+  "player_full_name": "Andrea Pinamonti",
+  "to_club": "SS Lazio",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-27",
+  "value_eur": 15000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "463603",
+  "player_full_name": "Benoît Badiashile",
+  "to_club": "SSC Napoli",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-22",
+  "value_eur": 15000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "537860",
+  "player_full_name": "Mykhaylo Mudryk",
+  "to_club": "Tottenham Hotspur",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 15000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "538918",
+  "player_full_name": "Sebastiano Esposito",
+  "to_club": "US Sassuolo",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-29",
+  "value_eur": 15000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "475416",
+  "player_full_name": "Sorba Thomas",
+  "to_club": "Hull City",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 14000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "400489",
+  "player_full_name": "Eljif Elmas",
+  "to_club": "Atalanta BC",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-22",
+  "value_eur": 13000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1046867",
+  "player_full_name": "Jan Ziolkowski",
+  "to_club": "AC Monza",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-31",
+  "value_eur": 12000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "153084",
+  "player_full_name": "Leon Goretzka",
+  "to_club": "Aston Villa",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-27",
+  "value_eur": 12000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "294808",
+  "player_full_name": "Franck Kessié",
+  "to_club": "Atalanta BC",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-29",
+  "value_eur": 12000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "111873",
+  "player_full_name": "Emiliano Martínez",
+  "to_club": "Chelsea FC",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-30",
+  "value_eur": 12000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "485960",
+  "player_full_name": "Lilian Brassier",
+  "to_club": "Eintracht Frankfurt",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-08-31",
+  "value_eur": 12000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1086258",
+  "player_full_name": "Souza",
+  "to_club": "FC Porto",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-31",
+  "value_eur": 12000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "661427",
+  "player_full_name": "David Møller Wolfe",
+  "to_club": "Hamburger SV",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-09-01",
+  "value_eur": 12000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1035765",
+  "player_full_name": "Ilyas Ansah",
+  "to_club": "Hull City",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 12000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "411537",
+  "player_full_name": "Zian Flemming",
+  "to_club": "Ipswich Town",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 12000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "346551",
+  "player_full_name": "Kamil Grabara",
+  "to_club": "Juventus FC",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-25",
+  "value_eur": 12000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "405397",
+  "player_full_name": "Keito Nakamura",
+  "to_club": "Olympique Lyon",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-09-02",
+  "value_eur": 12000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "919515",
+  "player_full_name": "Jeanuël Belocian",
+  "to_club": "Racing Santander",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 12000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "938158",
+  "player_full_name": "Marc Guiu",
+  "to_club": "RB Leipzig",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-09-01",
+  "value_eur": 12000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "937955",
+  "player_full_name": "Héctor Fort",
+  "to_club": "Real Sociedad",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-08-29",
+  "value_eur": 12000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "371001",
+  "player_full_name": "Josip Sutalo",
+  "to_club": "SS Lazio",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-22",
+  "value_eur": 12000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "305947",
+  "player_full_name": "Albert Gudmundsson",
+  "to_club": "SS Lazio",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 12000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "864306",
+  "player_full_name": "Rafik Belghali",
+  "to_club": "Torino FC",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 12000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "461943",
+  "player_full_name": "Daniel Bragança",
+  "to_club": "Torino FC",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 12000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "225693",
+  "player_full_name": "Fabinho",
+  "to_club": "Trabzonspor",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-24",
+  "value_eur": 12000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "301238",
+  "player_full_name": "Michele Di Gregorio",
+  "to_club": "AFC Bournemouth",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-25",
+  "value_eur": 10000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "336012",
+  "player_full_name": "Nicolas Kühn",
+  "to_club": "Borussia Mönchengladbach",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-09-01",
+  "value_eur": 10000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "316125",
+  "player_full_name": "Ben Chilwell",
+  "to_club": "Crystal Palace",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 10000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "285845",
+  "player_full_name": "Ainsley Maitland-Niles",
+  "to_club": "Everton FC",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 10000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1121298",
+  "player_full_name": "Juma Bah",
+  "to_club": "FC Augsburg",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-09-01",
+  "value_eur": 10000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "744728",
+  "player_full_name": "Arijon Ibrahimovic",
+  "to_club": "FC Augsburg",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-09-01",
+  "value_eur": 10000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1113451",
+  "player_full_name": "Kojo Peprah Oppong",
+  "to_club": "Fenerbahce",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-28",
+  "value_eur": 10000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "532775",
+  "player_full_name": "Melvin Bard",
+  "to_club": "Leeds United",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 10000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "633668",
+  "player_full_name": "Giovanni Fabbian",
+  "to_club": "Parma Calcio 1913",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-28",
+  "value_eur": 10000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1032280",
+  "player_full_name": "Oso",
+  "to_club": "RC Strasbourg Alsace",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-08-30",
+  "value_eur": 10000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "479648",
+  "player_full_name": "Félix Correia",
+  "to_club": "Sevilla FC",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 10000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "352041",
+  "player_full_name": "Lucas Perri",
+  "to_club": "Torino FC",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-29",
+  "value_eur": 10000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "984964",
+  "player_full_name": "Niccolò Fortini",
+  "to_club": "Torino FC",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-21",
+  "value_eur": 10000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "424015",
+  "player_full_name": "Nathan Patterson",
+  "to_club": "Torino FC",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 10000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "826224",
+  "player_full_name": "Arnau Martínez",
+  "to_club": "Valencia CF",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-08-26",
+  "value_eur": 10000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "842420",
+  "player_full_name": "Nathan Saliba",
+  "to_club": "Villarreal CF",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-08-25",
+  "value_eur": 10000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "250845",
+  "player_full_name": "José María Giménez",
+  "to_club": "Deportivo A Coruña",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 9000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1010854",
+  "player_full_name": "Mathis Amougou",
+  "to_club": "FC Toulouse",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-09-01",
+  "value_eur": 9000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "846254",
+  "player_full_name": "Petar Ratkov",
+  "to_club": "Levante UD",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 9000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "308279",
+  "player_full_name": "Rolando Mandragora",
+  "to_club": "Torino FC",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 9000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "654991",
+  "player_full_name": "Samuel Mbangula",
+  "to_club": "Bologna FC 1909",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 8000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "355816",
+  "player_full_name": "Ko Itakura",
+  "to_club": "Borussia Mönchengladbach",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-08-20",
+  "value_eur": 8000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "661136",
+  "player_full_name": "Kevin Lomónaco",
+  "to_club": "Elche CF",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 8000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "182712",
+  "player_full_name": "João Cancelo",
+  "to_club": "FC Barcelona",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-08-20",
+  "value_eur": 8000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "182893",
+  "player_full_name": "Seko Fofana",
+  "to_club": "FC Porto",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-26",
+  "value_eur": 8000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "510103",
+  "player_full_name": "Tomas Bobcek",
+  "to_club": "Frosinone Calcio",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-28",
+  "value_eur": 8000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "538874",
+  "player_full_name": "Terem Moffi",
+  "to_club": "Hamburger SV",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-08-24",
+  "value_eur": 8000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1160814",
+  "player_full_name": "Rayan Fofana",
+  "to_club": "Le Havre AC",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-08-31",
+  "value_eur": 8000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1077670",
+  "player_full_name": "Axel Tape",
+  "to_club": "Levante UD",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-08-30",
+  "value_eur": 8000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "610405",
+  "player_full_name": "Maurits Kjærgaard",
+  "to_club": "LOSC Lille",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-09-01",
+  "value_eur": 8000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "961087",
+  "player_full_name": "Pablo García",
+  "to_club": "Racing Santander",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 8000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "713644",
+  "player_full_name": "Bryan Zaragoza",
+  "to_club": "RCD Espanyol Barcelona",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-08-27",
+  "value_eur": 8000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "977464",
+  "player_full_name": "Arthur",
+  "to_club": "SV Werder Bremen",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-09-01",
+  "value_eur": 8000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "593837",
+  "player_full_name": "Couhaib Driouech",
+  "to_club": "Celta de Vigo",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-08-25",
+  "value_eur": 7500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "643259",
+  "player_full_name": "Orlando Gill",
+  "to_club": "LOSC Lille",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-08-26",
+  "value_eur": 7500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "358032",
+  "player_full_name": "Cyril Ngonge",
+  "to_club": "AC Monza",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-28",
+  "value_eur": 7000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "661132",
+  "player_full_name": "Exequiel Zeballos",
+  "to_club": "AC Monza",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 7000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "533662",
+  "player_full_name": "Cameron Archer",
+  "to_club": "AJ Auxerre",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-09-01",
+  "value_eur": 7000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "750903",
+  "player_full_name": "Jaouen Hadjam",
+  "to_club": "Brighton & Hove Albion",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-25",
+  "value_eur": 7000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "353399",
+  "player_full_name": "Romain Del Castillo",
+  "to_club": "CA Osasuna",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 7000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "803049",
+  "player_full_name": "Ermin Mahmic",
+  "to_club": "Corum FK",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-29",
+  "value_eur": 7000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "468066",
+  "player_full_name": "Jens Cajuste",
+  "to_club": "Málaga CF",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 7000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "319745",
+  "player_full_name": "Dani Ceballos",
+  "to_club": "Real Betis Balompié",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 7000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "470794",
+  "player_full_name": "Ivan Ilić",
+  "to_club": "US Lecce",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-27",
+  "value_eur": 7000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "691920",
+  "player_full_name": "Artem Karpukas",
+  "to_club": "Zenit St. Petersburg",
+  "tm_to_club_id": "",
+  "league": "РПЛ",
+  "start": "2026-08-21",
+  "value_eur": 7000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "639414",
+  "player_full_name": "Young-woo Seol",
+  "to_club": "FC Augsburg",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-08-27",
+  "value_eur": 6500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "958647",
+  "player_full_name": "Ümit Akdağ",
+  "to_club": "Besiktas JK",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-09-02",
+  "value_eur": 6000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "204103",
+  "player_full_name": "Adama Traoré",
+  "to_club": "Deportivo A Coruña",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-08-26",
+  "value_eur": 6000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "292246",
+  "player_full_name": "Hee-chan Hwang",
+  "to_club": "FC Schalke 04",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-09-01",
+  "value_eur": 6000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "938146",
+  "player_full_name": "Adam Aznou",
+  "to_club": "Málaga CF",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-08-31",
+  "value_eur": 6000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "375382",
+  "player_full_name": "André Almeida",
+  "to_club": "Racing Santander",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 6000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "982267",
+  "player_full_name": "Ibrahim Sulemana",
+  "to_club": "US Sassuolo",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 6000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "405385",
+  "player_full_name": "Yukinari Sugawara",
+  "to_club": "Cagliari Calcio",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 5500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "876298",
+  "player_full_name": "Matteo Prati",
+  "to_club": "Racing Santander",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-08-26",
+  "value_eur": 5500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "290587",
+  "player_full_name": "Ellyes Skhiri",
+  "to_club": "1.FC Köln",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-08-21",
+  "value_eur": 5000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "377042",
+  "player_full_name": "Michael Folorunsho",
+  "to_club": "AC Monza",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-28",
+  "value_eur": 5000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "335516",
+  "player_full_name": "Idrissa Touré",
+  "to_club": "AC Monza",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-21",
+  "value_eur": 5000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "342046",
+  "player_full_name": "Axel Tuanzebe",
+  "to_club": "AJ Auxerre",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-09-01",
+  "value_eur": 5000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "467720",
+  "player_full_name": "Youssoufa Moukoko",
+  "to_club": "Corum FK",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-09-01",
+  "value_eur": 5000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "801886",
+  "player_full_name": "Isak Jensen",
+  "to_club": "FC Lorient",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-08-24",
+  "value_eur": 5000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "646824",
+  "player_full_name": "Manuel Ángel",
+  "to_club": "Fulham FC",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 5000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1063292",
+  "player_full_name": "Deniz Gül",
+  "to_club": "Galatasaray",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-09-01",
+  "value_eur": 5000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1355385",
+  "player_full_name": "Robinho Junior",
+  "to_club": "Genoa CFC",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 5000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "633306",
+  "player_full_name": "Iván Azón",
+  "to_club": "Getafe CF",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 5000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "646478",
+  "player_full_name": "Elias Jelert",
+  "to_club": "Le Havre AC",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-08-21",
+  "value_eur": 5000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "329145",
+  "player_full_name": "Diego Carlos",
+  "to_club": "Parma Calcio 1913",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 5000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "251878",
+  "player_full_name": "Aarón Martín",
+  "to_club": "Racing Santander",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 5000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "341278",
+  "player_full_name": "Iván Martín",
+  "to_club": "Racing Santander",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-08-20",
+  "value_eur": 5000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "497663",
+  "player_full_name": "Mujaid Sadick",
+  "to_club": "Rayo Vallecano",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 5000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1078326",
+  "player_full_name": "Noah Edjouma",
+  "to_club": "Stade Brestois 29",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-09-01",
+  "value_eur": 5000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "922685",
+  "player_full_name": "Giovani Versini",
+  "to_club": "Stade Brestois 29",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-09-02",
+  "value_eur": 5000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "626913",
+  "player_full_name": "Boulaye Dia",
+  "to_club": "Stade Rennais FC",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-09-01",
+  "value_eur": 5000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "559324",
+  "player_full_name": "Youri Regeer",
+  "to_club": "SV Werder Bremen",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-08-31",
+  "value_eur": 5000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "678035",
+  "player_full_name": "Jay Enem",
+  "to_club": "Bologna FC 1909",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 4500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "915849",
+  "player_full_name": "Yanis Massolin",
+  "to_club": "Cagliari Calcio",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-31",
+  "value_eur": 4500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "749552",
+  "player_full_name": "Alieu Fadera",
+  "to_club": "Cagliari Calcio",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-21",
+  "value_eur": 4500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "532389",
+  "player_full_name": "Sebastián Cáceres",
+  "to_club": "Celta de Vigo",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 4500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "919538",
+  "player_full_name": "Roy Revivo",
+  "to_club": "Elche CF",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 4500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "468192",
+  "player_full_name": "Daniel Bîrligea",
+  "to_club": "Frosinone Calcio",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-27",
+  "value_eur": 4500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "354814",
+  "player_full_name": "M'Bala Nzola",
+  "to_club": "Cagliari Calcio",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 4000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "341647",
+  "player_full_name": "Cengiz Ünder",
+  "to_club": "Corum FK",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-28",
+  "value_eur": 4000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "205927",
+  "player_full_name": "Dominik Livakovic",
+  "to_club": "FC Barcelona",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-08-27",
+  "value_eur": 4000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1150372",
+  "player_full_name": "Patricio Salas",
+  "to_club": "FC Famalicão",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-09-02",
+  "value_eur": 4000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1045375",
+  "player_full_name": "Niko Sigur",
+  "to_club": "FC Toulouse",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-09-01",
+  "value_eur": 4000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "344888",
+  "player_full_name": "Habib Diallo",
+  "to_club": "Le Mans FC",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-09-01",
+  "value_eur": 4000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "196813",
+  "player_full_name": "Michael Zetterer",
+  "to_club": "Leeds United",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-29",
+  "value_eur": 4000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "694507",
+  "player_full_name": "Rayan Philippe",
+  "to_club": "SC Paderborn 07",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-09-01",
+  "value_eur": 4000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "405564",
+  "player_full_name": "Giorgi Kochorashvili",
+  "to_club": "Sevilla FC",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-08-21",
+  "value_eur": 4000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1263687",
+  "player_full_name": "Moncef Zekri",
+  "to_club": "Sporting CP",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-25",
+  "value_eur": 4000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1200419",
+  "player_full_name": "Djylian N'Guessan",
+  "to_club": "Stade Brestois 29",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-09-01",
+  "value_eur": 4000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "649022",
+  "player_full_name": "Moussa Ndiaye",
+  "to_club": "SV Werder Bremen",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-09-01",
+  "value_eur": 4000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "278343",
+  "player_full_name": "Felix Uduokhai",
+  "to_club": "1.FC Union Berlin",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-08-27",
+  "value_eur": 3500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "906160",
+  "player_full_name": "Saba Goglichidze",
+  "to_club": "AC Monza",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 3500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "464598",
+  "player_full_name": "Casper Tengstedt",
+  "to_club": "FC Toulouse",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-08-31",
+  "value_eur": 3500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "485582",
+  "player_full_name": "Sontje Hansen",
+  "to_club": "Gaziantep FK",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-20",
+  "value_eur": 3500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "479638",
+  "player_full_name": "Tiago Gouveia",
+  "to_club": "Genclerbirligi Ankara",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-20",
+  "value_eur": 3500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "462348",
+  "player_full_name": "Mostafa Mohamed",
+  "to_club": "Konyaspor",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-09-01",
+  "value_eur": 3500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "897505",
+  "player_full_name": "Lazar Jovanovic",
+  "to_club": "Udinese Calcio",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 3500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "410787",
+  "player_full_name": "Joël Monteiro",
+  "to_club": "US Lecce",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-31",
+  "value_eur": 3500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "660746",
+  "player_full_name": "Fedde Leysen",
+  "to_club": "US Sassuolo",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-21",
+  "value_eur": 3500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "133179",
+  "player_full_name": "Marten de Roon",
+  "to_club": "AS Roma",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-30",
+  "value_eur": 3200000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "293194",
+  "player_full_name": "Borna Sosa",
+  "to_club": "1.FC Köln",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-09-01",
+  "value_eur": 3000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "934527",
+  "player_full_name": "Alieu Njie",
+  "to_club": "ACF Fiorentina",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-30",
+  "value_eur": 3000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "931415",
+  "player_full_name": "João Rego",
+  "to_club": "Casa Pia AC",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-22",
+  "value_eur": 3000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "780630",
+  "player_full_name": "Willy Kambwala",
+  "to_club": "Como 1907",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-26",
+  "value_eur": 3000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "442248",
+  "player_full_name": "Ethan Pinnock",
+  "to_club": "Coventry City",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-26",
+  "value_eur": 3000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "737781",
+  "player_full_name": "Jérémy Le Douaron",
+  "to_club": "ESTAC Troyes",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-08-31",
+  "value_eur": 3000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "531957",
+  "player_full_name": "Cody Drameh",
+  "to_club": "Genoa CFC",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 3000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "542819",
+  "player_full_name": "Milutin Osmajic",
+  "to_club": "Genoa CFC",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-24",
+  "value_eur": 3000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1167696",
+  "player_full_name": "Ifeanyi Ndukwe",
+  "to_club": "Levante UD",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-08-22",
+  "value_eur": 3000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "568835",
+  "player_full_name": "Pablo Martínez",
+  "to_club": "Málaga CF",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-08-21",
+  "value_eur": 3000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1082850",
+  "player_full_name": "Deivid Washington",
+  "to_club": "RC Strasbourg Alsace",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-09-01",
+  "value_eur": 3000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "289255",
+  "player_full_name": "Andoni Gorosabel",
+  "to_club": "RCD Espanyol Barcelona",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 3000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "494586",
+  "player_full_name": "Mickaël Nadé",
+  "to_club": "Rodina Moscow",
+  "tm_to_club_id": "",
+  "league": "РПЛ",
+  "start": "2026-08-27",
+  "value_eur": 3000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "938156",
+  "player_full_name": "Tommy Marqués",
+  "to_club": "SC Braga",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-21",
+  "value_eur": 3000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "471055",
+  "player_full_name": "Marvin Pieringer",
+  "to_club": "SC Paderborn 07",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-08-26",
+  "value_eur": 3000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "345452",
+  "player_full_name": "Bartosz Mrozek",
+  "to_club": "Udinese Calcio",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-28",
+  "value_eur": 3000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "490423",
+  "player_full_name": "Ignace Van der Brempt",
+  "to_club": "US Sassuolo",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-30",
+  "value_eur": 3000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "251876",
+  "player_full_name": "Pablo Maffeo",
+  "to_club": "Valencia CF",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-08-20",
+  "value_eur": 3000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1066206",
+  "player_full_name": "Toni Fernández",
+  "to_club": "Venezia FC",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 3000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "256339",
+  "player_full_name": "Emil Audero",
+  "to_club": "Rayo Vallecano",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 2800000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "501418",
+  "player_full_name": "Adrià Pedrosa",
+  "to_club": "Rayo Vallecano",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-08-27",
+  "value_eur": 2800000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "238266",
+  "player_full_name": "Duje Caleta-Car",
+  "to_club": "US Sassuolo",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 2800000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "591193",
+  "player_full_name": "Niels Nkounkou",
+  "to_club": "OGC Nice",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-09-01",
+  "value_eur": 2600000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "969447",
+  "player_full_name": "Dermane Karim",
+  "to_club": "ESTAC Troyes",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-08-21",
+  "value_eur": 2500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "842338",
+  "player_full_name": "Enzo Tchato",
+  "to_club": "Frosinone Calcio",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-25",
+  "value_eur": 2500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "291222",
+  "player_full_name": "Jean-Luc Dompé",
+  "to_club": "Konyaspor",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-27",
+  "value_eur": 2500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "325924",
+  "player_full_name": "Ahmed Touba",
+  "to_club": "Le Havre AC",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-08-27",
+  "value_eur": 2500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "94529",
+  "player_full_name": "Stephan El Shaarawy",
+  "to_club": "Genoa CFC",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-02",
+  "value_eur": 2400000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "926953",
+  "player_full_name": "Oskar Øhlenschlæger",
+  "to_club": "Samsunspor",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-24",
+  "value_eur": 2300000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "619657",
+  "player_full_name": "Tobias Gulliksen",
+  "to_club": "Kocaelispor",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-09-01",
+  "value_eur": 2200000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "469957",
+  "player_full_name": "Kastriot Imeri",
+  "to_club": "1.FC Union Berlin",
+  "tm_to_club_id": "",
+  "league": "Бундеслига",
+  "start": "2026-09-01",
+  "value_eur": 2000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "730531",
+  "player_full_name": "Noel Törnqvist",
+  "to_club": "AC Monza",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-31",
+  "value_eur": 2000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "538994",
+  "player_full_name": "Pierre Ekwah",
+  "to_club": "AJ Auxerre",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-08-26",
+  "value_eur": 2000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "628558",
+  "player_full_name": "Riccardo Ciervo",
+  "to_club": "Cagliari Calcio",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-29",
+  "value_eur": 2000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "655912",
+  "player_full_name": "Göktan Gürpüz",
+  "to_club": "Corum FK",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-27",
+  "value_eur": 2000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "522788",
+  "player_full_name": "Timothé Nkada",
+  "to_club": "ESTAC Troyes",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-09-01",
+  "value_eur": 2000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "722375",
+  "player_full_name": "Srdjan Kuzmic",
+  "to_club": "FC Lorient",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-08-31",
+  "value_eur": 2000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "804884",
+  "player_full_name": "Ibrahima Baldé",
+  "to_club": "FC Lorient",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-09-01",
+  "value_eur": 2000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "644032",
+  "player_full_name": "Cheikh Niasse",
+  "to_club": "Genclerbirligi Ankara",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-20",
+  "value_eur": 2000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "74294",
+  "player_full_name": "Nemanja Gudelj",
+  "to_club": "Getafe CF",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-08-30",
+  "value_eur": 2000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "372713",
+  "player_full_name": "Florian Ayé",
+  "to_club": "Kocaelispor",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-28",
+  "value_eur": 2000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "622461",
+  "player_full_name": "Sergey Babkin",
+  "to_club": "Lokomotiv Moscow",
+  "tm_to_club_id": "",
+  "league": "РПЛ",
+  "start": "2026-08-21",
+  "value_eur": 2000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1179482",
+  "player_full_name": "Iker Luque",
+  "to_club": "Racing Santander",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-08-31",
+  "value_eur": 2000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "585958",
+  "player_full_name": "Junior Kadile",
+  "to_club": "RC Lens",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-08-31",
+  "value_eur": 2000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "319623",
+  "player_full_name": "Pedro Amaral",
+  "to_club": "Rio Ave FC",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-25",
+  "value_eur": 2000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "964590",
+  "player_full_name": "Kaique Pereira",
+  "to_club": "Sporting CP",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-29",
+  "value_eur": 2000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "790669",
+  "player_full_name": "Kayne van Oevelen",
+  "to_club": "Valencia CF",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-08-24",
+  "value_eur": 2000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "705813",
+  "player_full_name": "Rubén Sánchez",
+  "to_club": "Elche CF",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 1800000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "205562",
+  "player_full_name": "Thomas Lemar",
+  "to_club": "Elche CF",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 1800000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1010120",
+  "player_full_name": "Manuel Mendonça",
+  "to_club": "Moreirense FC",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-21",
+  "value_eur": 1800000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "568318",
+  "player_full_name": "German Onugkha",
+  "to_club": "Rodina Moscow",
+  "tm_to_club_id": "",
+  "league": "РПЛ",
+  "start": "2026-08-21",
+  "value_eur": 1800000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "926135",
+  "player_full_name": "Omari Kellyman",
+  "to_club": "RC Strasbourg Alsace",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-08-25",
+  "value_eur": 1700000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1049020",
+  "player_full_name": "Stephen Mfuni",
+  "to_club": "Coventry City",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-30",
+  "value_eur": 1500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "620696",
+  "player_full_name": "Ibrahim Diabate",
+  "to_club": "Erzurumspor FK",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-26",
+  "value_eur": 1500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "225432",
+  "player_full_name": "Zé Rafael",
+  "to_club": "FC Alverca",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-24",
+  "value_eur": 1500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "704456",
+  "player_full_name": "Nosa Edward Obaretin",
+  "to_club": "FC Lorient",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-08-25",
+  "value_eur": 1500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "618869",
+  "player_full_name": "Metehan Baltacı",
+  "to_club": "Genclerbirligi Ankara",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-21",
+  "value_eur": 1500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "629637",
+  "player_full_name": "Kévin Mouanga",
+  "to_club": "Kasimpasa",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-25",
+  "value_eur": 1500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "461843",
+  "player_full_name": "Juan Berrocal",
+  "to_club": "Málaga CF",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 1500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "121985",
+  "player_full_name": "Juan Jesus",
+  "to_club": "Venezia FC",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-31",
+  "value_eur": 1500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "250153",
+  "player_full_name": "Pasquale Mazzocchi",
+  "to_club": "Venezia FC",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-31",
+  "value_eur": 1500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "197471",
+  "player_full_name": "Roberto Gagliardini",
+  "to_club": "Cagliari Calcio",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-31",
+  "value_eur": 1300000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1004344",
+  "player_full_name": "Ali Dembélé",
+  "to_club": "US Lecce",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-30",
+  "value_eur": 1300000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "433388",
+  "player_full_name": "Matej Maglica",
+  "to_club": "Kocaelispor",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-23",
+  "value_eur": 1200000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "957740",
+  "player_full_name": "Tiago Andrade",
+  "to_club": "Moreirense FC",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-26",
+  "value_eur": 1200000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "713649",
+  "player_full_name": "Miguel Ángel Brau",
+  "to_club": "Académico Viseu FC",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-28",
+  "value_eur": 1000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "284876",
+  "player_full_name": "Paolo Fernandes",
+  "to_club": "Alanyaspor",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-24",
+  "value_eur": 1000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "716163",
+  "player_full_name": "Iván Cédric",
+  "to_club": "Alanyaspor",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-21",
+  "value_eur": 1000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "895330",
+  "player_full_name": "Salvi Esquivel",
+  "to_club": "Atlético de Madrid",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 1000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "581977",
+  "player_full_name": "Min-kyu Song",
+  "to_club": "CD Nacional",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-30",
+  "value_eur": 1000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "863190",
+  "player_full_name": "Mohamed Azzi",
+  "to_club": "CSKA Moscow",
+  "tm_to_club_id": "",
+  "league": "РПЛ",
+  "start": "2026-09-02",
+  "value_eur": 1000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "891923",
+  "player_full_name": "Dawda Camara",
+  "to_club": "FC Alverca",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-09-01",
+  "value_eur": 1000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1489506",
+  "player_full_name": "Ousmane Diabate",
+  "to_club": "Genclerbirligi Ankara",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-26",
+  "value_eur": 1000000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "744599",
+  "player_full_name": "Leonardo Vonić",
+  "to_club": "Moreirense FC",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-09-01",
+  "value_eur": 900000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "811430",
+  "player_full_name": "Malik Sellouki",
+  "to_club": "Rio Ave FC",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-26",
+  "value_eur": 900000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1104143",
+  "player_full_name": "Benjamin Pauwels",
+  "to_club": "Casa Pia AC",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-28",
+  "value_eur": 800000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "136401",
+  "player_full_name": "Daniel Bentley",
+  "to_club": "Coventry City",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-21",
+  "value_eur": 800000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "681829",
+  "player_full_name": "Nilton",
+  "to_club": "CS Marítimo",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-26",
+  "value_eur": 800000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "426624",
+  "player_full_name": "André Vidigal",
+  "to_club": "FC Alverca",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-21",
+  "value_eur": 800000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1081721",
+  "player_full_name": "Richard Akonnor",
+  "to_club": "Göztepe",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-20",
+  "value_eur": 800000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "931841",
+  "player_full_name": "Amar Fatah",
+  "to_club": "US Lecce",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-25",
+  "value_eur": 800000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "268426",
+  "player_full_name": "Arnel Jakupovic",
+  "to_club": "Vitória Guimarães SC",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-09-02",
+  "value_eur": 800000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "371968",
+  "player_full_name": "Clayton",
+  "to_club": "Fakel Voronezh",
+  "tm_to_club_id": "",
+  "league": "РПЛ",
+  "start": "2026-08-25",
+  "value_eur": 700000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "480046",
+  "player_full_name": "Simone Giordano",
+  "to_club": "Eyüpspor",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-23",
+  "value_eur": 650000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "331496",
+  "player_full_name": "Valery Fernández",
+  "to_club": "Académico Viseu FC",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-09-01",
+  "value_eur": 600000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1160724",
+  "player_full_name": "Kazbek Mukailov",
+  "to_club": "Krylya Sovetov Samara",
+  "tm_to_club_id": "",
+  "league": "РПЛ",
+  "start": "2026-08-20",
+  "value_eur": 600000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "193256",
+  "player_full_name": "Gauthier Gallon",
+  "to_club": "Le Havre AC",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-08-26",
+  "value_eur": 600000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "744934",
+  "player_full_name": "Mathieu Patouillet",
+  "to_club": "Stade Brestois 29",
+  "tm_to_club_id": "",
+  "league": "Лига 1",
+  "start": "2026-08-26",
+  "value_eur": 600000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "709999",
+  "player_full_name": "Víctor Rofino",
+  "to_club": "FC Famalicão",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-31",
+  "value_eur": 550000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1041129",
+  "player_full_name": "Yvan Maye",
+  "to_club": "AC Monza",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-08-25",
+  "value_eur": 500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "637669",
+  "player_full_name": "Emre Demir",
+  "to_club": "Alanyaspor",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-26",
+  "value_eur": 500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "945763",
+  "player_full_name": "Dani Martinez",
+  "to_club": "Atlético de Madrid",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-09-01",
+  "value_eur": 500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "510686",
+  "player_full_name": "William Kokolo",
+  "to_club": "CD Nacional",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-20",
+  "value_eur": 500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "817843",
+  "player_full_name": "Aleksandr Koksharov",
+  "to_club": "Fakel Voronezh",
+  "tm_to_club_id": "",
+  "league": "РПЛ",
+  "start": "2026-09-02",
+  "value_eur": 500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "989508",
+  "player_full_name": "Victor Andersson",
+  "to_club": "Vitória Guimarães SC",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-21",
+  "value_eur": 500000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "989071",
+  "player_full_name": "Makhmud Makhamadzhonov",
+  "to_club": "Dinamo Makhachkala",
+  "tm_to_club_id": "",
+  "league": "РПЛ",
+  "start": "2026-09-01",
+  "value_eur": 400000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "569876",
+  "player_full_name": "Xavi Sintes",
+  "to_club": "GD Estoril Praia",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-26",
+  "value_eur": 400000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "357983",
+  "player_full_name": "Simone Ghidotti",
+  "to_club": "Parma Calcio 1913",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 400000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "864621",
+  "player_full_name": "Dmitriy Aleksandrov",
+  "to_club": "Dinamo Makhachkala",
+  "tm_to_club_id": "",
+  "league": "РПЛ",
+  "start": "2026-08-27",
+  "value_eur": 350000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1257410",
+  "player_full_name": "Juan Riquelme Angulo",
+  "to_club": "Sunderland AFC",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-09-01",
+  "value_eur": 350000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1321938",
+  "player_full_name": "Rufai Mohammed",
+  "to_club": "Venezia FC",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 350000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "842718",
+  "player_full_name": "Paulinho",
+  "to_club": "Académico Viseu FC",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-21",
+  "value_eur": 300000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "823521",
+  "player_full_name": "Evans Maurin",
+  "to_club": "Casa Pia AC",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-29",
+  "value_eur": 300000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "980854",
+  "player_full_name": "Ythallo",
+  "to_club": "CD Santa Clara",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-09-02",
+  "value_eur": 300000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1401779",
+  "player_full_name": "Jules Ahoka",
+  "to_club": "Sunderland AFC",
+  "tm_to_club_id": "",
+  "league": "Премьер-лига",
+  "start": "2026-08-24",
+  "value_eur": 300000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "881024",
+  "player_full_name": "Karlen Hovhannisyan",
+  "to_club": "Akron Tolyatti",
+  "tm_to_club_id": "",
+  "league": "РПЛ",
+  "start": "2026-09-01",
+  "value_eur": 250000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "962246",
+  "player_full_name": "Thomas Pompei",
+  "to_club": "Atalanta BC",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-01",
+  "value_eur": 250000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1188771",
+  "player_full_name": "Aymen Zouin",
+  "to_club": "Casa Pia AC",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-21",
+  "value_eur": 250000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1136279",
+  "player_full_name": "Valeri Vladimirov",
+  "to_club": "AC Milan",
+  "tm_to_club_id": "",
+  "league": "Серия А",
+  "start": "2026-09-02",
+  "value_eur": 150000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "873533",
+  "player_full_name": "Yiğit Demir",
+  "to_club": "Eyüpspor",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-23",
+  "value_eur": 150000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1050693",
+  "player_full_name": "Iustin Doicaru",
+  "to_club": "Caykur Rizespor",
+  "tm_to_club_id": "",
+  "league": "Суперлига",
+  "start": "2026-08-25",
+  "value_eur": 100000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1062317",
+  "player_full_name": "Rodrigo Dudok",
+  "to_club": "CF Estrela Amadora",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-09-02",
+  "value_eur": 100000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1368893",
+  "player_full_name": "Gnangoro Bouare",
+  "to_club": "Rayo Vallecano",
+  "tm_to_club_id": "",
+  "league": "Ла Лига",
+  "start": "2026-08-27",
+  "value_eur": 50000,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1534934",
+  "player_full_name": "Abdu Dafe",
+  "to_club": "Casa Pia AC",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-09-01",
+  "value_eur": 0,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1044495",
+  "player_full_name": "Mofe Jemide",
+  "to_club": "FC Alverca",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-20",
+  "value_eur": 0,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1363706",
+  "player_full_name": "Gabriel Carioca",
+  "to_club": "FC Alverca",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-25",
+  "value_eur": 0,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1081568",
+  "player_full_name": "Gustavo Ferreira",
+  "to_club": "FC Famalicão",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-09-02",
+  "value_eur": 0,
+  "on_site": false
+ },
+ {
+  "tm_player_id": "1026524",
+  "player_full_name": "Sam Amissah",
+  "to_club": "GD Estoril Praia",
+  "tm_to_club_id": "",
+  "league": "Примейра",
+  "start": "2026-08-30",
+  "value_eur": 0,
+  "on_site": false
+ }
+]

@@ -1,0 +1,99 @@
+{
+  "slug": "savio-tottenham-hotspur",
+  "player": "Sávio",
+  "full_name": "Sávio",
+  "transfermarkt_player_id": 743591,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/743591",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/743591",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 50,
+  "from_club_name": "Manchester City",
+  "to_club_id": 47,
+  "to_club_name": "Tottenham Hotspur",
+  "title": "Sávio перешёл из Manchester City в Tottenham Hotspur",
+  "description": "Клуб Tottenham Hotspur подписал Sávio из клуба Manchester City.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Left Winger",
+  "position_ru": "Левый вингер",
+  "main_position": "LW",
+  "birth_date": "10.04.2004",
+  "age": 22,
+  "nationality": "Brazil",
+  "nationality_ru": "Бразилия",
+  "nationality_code": "BR",
+  "nationality_fifa_code": "BRA",
+  "nationality_flag_aliases": [
+    "BR",
+    "BRA",
+    "Brazil",
+    "br",
+    "bra",
+    "brazil",
+    "flag-br"
+  ],
+  "preferred_foot": "Левая",
+  "market_value": "€35 млн",
+  "market_value_display": "€35 млн",
+  "seo_body_md": "## Sávio стал игроком Tottenham Hotspur\n\n**Sávio** — левый вингер, которому 22 — продолжит карьеру в клубе **Tottenham Hotspur**, покинув **Manchester City**. Переход состоялся **25 августа 2026 года**.\n\n## Карьера до перехода\n\nSávio родился в городе São Mateus (Бразилия). Путь игрока до нынешнего перехода: Atlético Mineiro (2015-2020).\n\n## Новый клуб\n\nВ составе клуба Tottenham Hotspur теперь 28 игроков со средним возрастом 26,6 года. Общая стоимость команды по Transfermarkt — €824,00 млн, в среднем €29,43 млн на игрока. Домашние матчи команда проводит в городе London. В новой команде игрок получил 17-й номер.\n\nКонкуренцию на этой позиции составят ещё 3 игрока: Mathys Tel, Wilson Odobert, Mykhaylo Mudryk. В рейтинге стоимости состава он занимает 11-е место из 28. В свои 22 года он моложе 22 партнёров команды.\n\nПо оценке Transfermarkt с 16 декабря 2024 года по 3 июня 2026 года стоимость Sávio снизилась с €55 млн до €35 млн. Максимальная оценка за этот период — €55 млн.\n\n## Профиль игрока\n\n- **Позиция:** левый вингер\n- **Прежний клуб:** Manchester City\n- **Новый клуб:** Tottenham Hotspur\n- **Гражданство:** Бразилия\n- **Дата рождения:** 10.04.2004\n- **Место рождения:** São Mateus\n- **Рост:** 1,76 м\n- **Рабочая нога:** левая\n- **Игровой номер:** 17\n- **Рыночная стоимость Transfermarkt:** €35 млн\n- **Контракт до:** 30.06.2031\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/743591",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-08-25",
+    "effective_transfer_date": "2026-08-25",
+    "parser_result": "official_permanent_transfer",
+    "player": "Sávio",
+    "from_club": "Manchester City",
+    "to_club": "Tottenham Hotspur",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Manchester City": 50,
+      "Tottenham Hotspur": 47
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "savio__manchester-city__tottenham-hotspur",
+    "built_at": "2026-09-05T13:39:00.465284+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2024-12-16",
+        "value_eur_m": 55.0
+      },
+      {
+        "date": "2026-03-09",
+        "value_eur_m": 40.0
+      },
+      {
+        "date": "2026-06-03",
+        "value_eur_m": 35.0
+      }
+    ]
+  }
+}

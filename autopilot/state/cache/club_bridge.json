@@ -1,0 +1,757 @@
+{
+  "built_at": "2026-09-02T15:20:17.618342+00:00",
+  "bridge": {
+    "10004": {
+      "tm_name": "paris fc",
+      "api_football_id": 114,
+      "api_name": "paris fc"
+    },
+    "1005": {
+      "tm_name": "us lecce",
+      "api_football_id": 867,
+      "api_name": "lecce"
+    },
+    "1025": {
+      "tm_name": "bologna fc 1909",
+      "api_football_id": 500,
+      "api_name": "bologna"
+    },
+    "1028": {
+      "tm_name": "millwall fc",
+      "api_football_id": 58,
+      "api_name": "millwall"
+    },
+    "1041": {
+      "tm_name": "olympique lyon",
+      "api_football_id": 80,
+      "api_name": "lyon"
+    },
+    "1047": {
+      "tm_name": "como 1907",
+      "api_football_id": 895,
+      "api_name": "como"
+    },
+    "1049": {
+      "tm_name": "valencia cf",
+      "api_football_id": 532,
+      "api_name": "valencia"
+    },
+    "1050": {
+      "tm_name": "villarreal cf",
+      "api_football_id": 533,
+      "api_name": "villarreal"
+    },
+    "1075": {
+      "tm_name": "sc braga",
+      "api_football_id": 217,
+      "api_name": "sc braga"
+    },
+    "1082": {
+      "tm_name": "losc lille",
+      "api_football_id": 79,
+      "api_name": "lille"
+    },
+    "1083": {
+      "tm_name": "fc rostov",
+      "api_football_id": 779,
+      "api_name": "fc rostov"
+    },
+    "1095": {
+      "tm_name": "estac troyes",
+      "api_football_id": 110,
+      "api_name": "troyes"
+    },
+    "11": {
+      "tm_name": "arsenal fc",
+      "api_football_id": 42,
+      "api_name": "arsenal"
+    },
+    "1108": {
+      "tm_name": "deportivo alaves",
+      "api_football_id": 542,
+      "api_name": "alaves"
+    },
+    "1112": {
+      "tm_name": "wrexham afc",
+      "api_football_id": 1837,
+      "api_name": "wrexham"
+    },
+    "1114": {
+      "tm_name": "al hilal sfc",
+      "api_football_id": 2932,
+      "api_name": "al hilal"
+    },
+    "1124": {
+      "tm_name": "fakel voronezh",
+      "api_football_id": 1993,
+      "api_name": "fakel"
+    },
+    "11282": {
+      "tm_name": "alanyaspor",
+      "api_football_id": 996,
+      "api_name": "alanyaspor"
+    },
+    "1132": {
+      "tm_name": "burnley fc",
+      "api_football_id": 44,
+      "api_name": "burnley"
+    },
+    "114": {
+      "tm_name": "besiktas jk",
+      "api_football_id": 549,
+      "api_name": "besiktas"
+    },
+    "1148": {
+      "tm_name": "brentford fc",
+      "api_football_id": 55,
+      "api_name": "brentford"
+    },
+    "12": {
+      "tm_name": "as roma",
+      "api_football_id": 497,
+      "api_name": "as roma"
+    },
+    "121": {
+      "tm_name": "dynamo moscow",
+      "api_football_id": 1088,
+      "api_name": "dynamo"
+    },
+    "1237": {
+      "tm_name": "brighton hove albion",
+      "api_football_id": 51,
+      "api_name": "brighton"
+    },
+    "126": {
+      "tm_name": "caykur rizespor",
+      "api_football_id": 1007,
+      "api_name": "rizespor"
+    },
+    "13": {
+      "tm_name": "atletico de madrid",
+      "api_football_id": 530,
+      "api_name": "atletico madrid"
+    },
+    "130": {
+      "tm_name": "parma calcio 1913",
+      "api_football_id": 523,
+      "api_name": "parma"
+    },
+    "131": {
+      "tm_name": "fc barcelona",
+      "api_football_id": 529,
+      "api_name": "barcelona"
+    },
+    "1390": {
+      "tm_name": "cagliari calcio",
+      "api_football_id": 490,
+      "api_name": "cagliari"
+    },
+    "141": {
+      "tm_name": "galatasaray",
+      "api_football_id": 645,
+      "api_name": "galatasaray"
+    },
+    "1420": {
+      "tm_name": "angers sco",
+      "api_football_id": 77,
+      "api_name": "angers"
+    },
+    "14589": {
+      "tm_name": "fc orenburg",
+      "api_football_id": 1080,
+      "api_name": "fc orenburg"
+    },
+    "1465": {
+      "tm_name": "gd estoril praia",
+      "api_football_id": 230,
+      "api_name": "estoril"
+    },
+    "1467": {
+      "tm_name": "goztepe",
+      "api_football_id": 994,
+      "api_name": "goztepe"
+    },
+    "148": {
+      "tm_name": "tottenham hotspur",
+      "api_football_id": 47,
+      "api_name": "tottenham"
+    },
+    "15": {
+      "tm_name": "bayer 04 leverkusen",
+      "api_football_id": 168,
+      "api_name": "bayer leverkusen"
+    },
+    "150": {
+      "tm_name": "real betis balompie",
+      "api_football_id": 543,
+      "api_name": "real betis"
+    },
+    "152": {
+      "tm_name": "samsunspor",
+      "api_football_id": 3603,
+      "api_name": "samsunspor"
+    },
+    "1531": {
+      "tm_name": "elche cf",
+      "api_football_id": 797,
+      "api_name": "elche"
+    },
+    "16": {
+      "tm_name": "borussia dortmund",
+      "api_football_id": 165,
+      "api_name": "borussia dortmund"
+    },
+    "162": {
+      "tm_name": "as monaco",
+      "api_football_id": 91,
+      "api_name": "monaco"
+    },
+    "167": {
+      "tm_name": "fc augsburg",
+      "api_football_id": 170,
+      "api_name": "fc augsburg"
+    },
+    "16704": {
+      "tm_name": "fc krasnodar",
+      "api_football_id": 621,
+      "api_name": "fc krasnodar"
+    },
+    "18": {
+      "tm_name": "borussia monchengladbach",
+      "api_football_id": 163,
+      "api_name": "borussia monchengladbach"
+    },
+    "180": {
+      "tm_name": "southampton fc",
+      "api_football_id": 41,
+      "api_name": "southampton"
+    },
+    "200": {
+      "tm_name": "fc utrecht",
+      "api_football_id": 207,
+      "api_name": "fc utrecht"
+    },
+    "2282": {
+      "tm_name": "club brugge kv",
+      "api_football_id": 569,
+      "api_name": "club brugge"
+    },
+    "2293": {
+      "tm_name": "konyaspor",
+      "api_football_id": 607,
+      "api_name": "konyaspor"
+    },
+    "232": {
+      "tm_name": "spartak moscow",
+      "api_football_id": 558,
+      "api_name": "spartak moscow"
+    },
+    "23826": {
+      "tm_name": "rb leipzig",
+      "api_football_id": 173,
+      "api_name": "rb leipzig"
+    },
+    "24": {
+      "tm_name": "eintracht frankfurt",
+      "api_football_id": 169,
+      "api_name": "eintracht frankfurt"
+    },
+    "2410": {
+      "tm_name": "cska moscow",
+      "api_football_id": 555,
+      "api_name": "cska moscow"
+    },
+    "2420": {
+      "tm_name": "vitoria guimaraes sc",
+      "api_football_id": 224,
+      "api_name": "guimaraes"
+    },
+    "2423": {
+      "tm_name": "cd santa clara",
+      "api_football_id": 227,
+      "api_name": "santa clara"
+    },
+    "2424": {
+      "tm_name": "gil vicente fc",
+      "api_football_id": 762,
+      "api_name": "gil vicente"
+    },
+    "2425": {
+      "tm_name": "rio ave fc",
+      "api_football_id": 226,
+      "api_name": "rio ave"
+    },
+    "2431": {
+      "tm_name": "cf estrela amadora",
+      "api_football_id": 15130,
+      "api_name": "estrela"
+    },
+    "244": {
+      "tm_name": "olympique marseille",
+      "api_football_id": 81,
+      "api_name": "marseille"
+    },
+    "252": {
+      "tm_name": "genoa cfc",
+      "api_football_id": 495,
+      "api_name": "genoa"
+    },
+    "2698": {
+      "tm_name": "rubin kazan",
+      "api_football_id": 1083,
+      "api_name": "rubin"
+    },
+    "281": {
+      "tm_name": "manchester city",
+      "api_football_id": 50,
+      "api_name": "manchester city"
+    },
+    "2832": {
+      "tm_name": "gaziantep fk",
+      "api_football_id": 3573,
+      "api_name": "gaziantep fk"
+    },
+    "289": {
+      "tm_name": "sunderland afc",
+      "api_football_id": 746,
+      "api_name": "sunderland"
+    },
+    "29": {
+      "tm_name": "everton fc",
+      "api_football_id": 45,
+      "api_name": "everton"
+    },
+    "290": {
+      "tm_name": "aj auxerre",
+      "api_football_id": 108,
+      "api_name": "auxerre"
+    },
+    "2919": {
+      "tm_name": "ac monza",
+      "api_football_id": 1579,
+      "api_name": "monza"
+    },
+    "294": {
+      "tm_name": "sl benfica",
+      "api_football_id": 211,
+      "api_name": "benfica"
+    },
+    "3008": {
+      "tm_name": "hull city",
+      "api_football_id": 64,
+      "api_name": "hull city"
+    },
+    "31": {
+      "tm_name": "liverpool fc",
+      "api_football_id": 40,
+      "api_name": "liverpool"
+    },
+    "31008": {
+      "tm_name": "al riyadh sc",
+      "api_football_id": 10511,
+      "api_name": "al riyadh"
+    },
+    "3268": {
+      "tm_name": "casa pia ac",
+      "api_football_id": 4716,
+      "api_name": "casa pia"
+    },
+    "331": {
+      "tm_name": "ca osasuna",
+      "api_football_id": 727,
+      "api_name": "osasuna"
+    },
+    "3329": {
+      "tm_name": "fc famalicao",
+      "api_football_id": 242,
+      "api_name": "famalicao"
+    },
+    "336": {
+      "tm_name": "sporting cp",
+      "api_football_id": 228,
+      "api_name": "sporting cp"
+    },
+    "358": {
+      "tm_name": "charlton athletic",
+      "api_football_id": 531,
+      "api_name": "athletic club"
+    },
+    "36": {
+      "tm_name": "fenerbahce",
+      "api_football_id": 611,
+      "api_name": "fenerbahce"
+    },
+    "367": {
+      "tm_name": "rayo vallecano",
+      "api_football_id": 728,
+      "api_name": "rayo vallecano"
+    },
+    "368": {
+      "tm_name": "sevilla fc",
+      "api_football_id": 536,
+      "api_name": "sevilla"
+    },
+    "3709": {
+      "tm_name": "getafe cf",
+      "api_football_id": 546,
+      "api_name": "getafe"
+    },
+    "3725": {
+      "tm_name": "akhmat grozny",
+      "api_football_id": 1085,
+      "api_name": "akhmat"
+    },
+    "379": {
+      "tm_name": "west ham united",
+      "api_football_id": 48,
+      "api_name": "west ham"
+    },
+    "39": {
+      "tm_name": "1 fsv mainz 05",
+      "api_football_id": 164,
+      "api_name": "fsv mainz 05"
+    },
+    "3911": {
+      "tm_name": "stade brestois 29",
+      "api_football_id": 106,
+      "api_name": "stade brestois 29"
+    },
+    "398": {
+      "tm_name": "ss lazio",
+      "api_football_id": 487,
+      "api_name": "lazio"
+    },
+    "40039": {
+      "tm_name": "abha club",
+      "api_football_id": 2951,
+      "api_name": "abha"
+    },
+    "405": {
+      "tm_name": "aston villa",
+      "api_football_id": 66,
+      "api_name": "aston villa"
+    },
+    "410": {
+      "tm_name": "udinese calcio",
+      "api_football_id": 494,
+      "api_name": "udinese"
+    },
+    "415": {
+      "tm_name": "fc toulouse",
+      "api_football_id": 96,
+      "api_name": "toulouse"
+    },
+    "416": {
+      "tm_name": "torino fc",
+      "api_football_id": 503,
+      "api_name": "torino"
+    },
+    "417": {
+      "tm_name": "ogc nice",
+      "api_football_id": 84,
+      "api_name": "nice"
+    },
+    "418": {
+      "tm_name": "real madrid",
+      "api_football_id": 541,
+      "api_name": "real madrid"
+    },
+    "430": {
+      "tm_name": "acf fiorentina",
+      "api_football_id": 502,
+      "api_name": "fiorentina"
+    },
+    "449": {
+      "tm_name": "trabzonspor",
+      "api_football_id": 998,
+      "api_name": "trabzonspor"
+    },
+    "5": {
+      "tm_name": "ac milan",
+      "api_football_id": 489,
+      "api_name": "ac milan"
+    },
+    "506": {
+      "tm_name": "juventus fc",
+      "api_football_id": 496,
+      "api_name": "juventus"
+    },
+    "520": {
+      "tm_name": "cercle brugge",
+      "api_football_id": 569,
+      "api_name": "club brugge"
+    },
+    "533": {
+      "tm_name": "tsg 1899 hoffenheim",
+      "api_football_id": 167,
+      "api_name": "1899 hoffenheim"
+    },
+    "583": {
+      "tm_name": "paris saint germain",
+      "api_football_id": 85,
+      "api_name": "paris saint germain"
+    },
+    "60": {
+      "tm_name": "sc freiburg",
+      "api_football_id": 160,
+      "api_name": "sc freiburg"
+    },
+    "607": {
+      "tm_name": "venezia fc",
+      "api_football_id": 517,
+      "api_name": "venezia"
+    },
+    "610": {
+      "tm_name": "ajax amsterdam",
+      "api_football_id": 194,
+      "api_name": "ajax"
+    },
+    "6195": {
+      "tm_name": "ssc napoli",
+      "api_football_id": 492,
+      "api_name": "napoli"
+    },
+    "621": {
+      "tm_name": "athletic bilbao",
+      "api_football_id": 531,
+      "api_name": "athletic club"
+    },
+    "631": {
+      "tm_name": "chelsea fc",
+      "api_football_id": 49,
+      "api_name": "chelsea"
+    },
+    "64": {
+      "tm_name": "sv 07 elversberg",
+      "api_football_id": 1660,
+      "api_name": "sv elversberg"
+    },
+    "667": {
+      "tm_name": "rc strasbourg alsace",
+      "api_football_id": 95,
+      "api_name": "strasbourg"
+    },
+    "677": {
+      "tm_name": "ipswich town",
+      "api_football_id": 57,
+      "api_name": "ipswich"
+    },
+    "681": {
+      "tm_name": "real sociedad",
+      "api_football_id": 548,
+      "api_name": "real sociedad"
+    },
+    "6890": {
+      "tm_name": "basaksehir fk",
+      "api_football_id": 564,
+      "api_name": "basaksehir"
+    },
+    "703": {
+      "tm_name": "nottingham forest",
+      "api_football_id": 65,
+      "api_name": "nottingham forest"
+    },
+    "7160": {
+      "tm_name": "eyupspor",
+      "api_football_id": 3588,
+      "api_name": "eyupspor"
+    },
+    "71985": {
+      "tm_name": "akron tolyatti",
+      "api_football_id": 6786,
+      "api_name": "akron"
+    },
+    "720": {
+      "tm_name": "fc porto",
+      "api_football_id": 212,
+      "api_name": "fc porto"
+    },
+    "738": {
+      "tm_name": "le havre ac",
+      "api_football_id": 111,
+      "api_name": "le havre"
+    },
+    "75231": {
+      "tm_name": "dinamo makhachkala",
+      "api_football_id": 6813,
+      "api_name": "dinamo makhachkala"
+    },
+    "762": {
+      "tm_name": "newcastle united",
+      "api_football_id": 34,
+      "api_name": "newcastle"
+    },
+    "79": {
+      "tm_name": "vfb stuttgart",
+      "api_football_id": 172,
+      "api_name": "vfb stuttgart"
+    },
+    "800": {
+      "tm_name": "atalanta bc",
+      "api_football_id": 499,
+      "api_name": "atalanta"
+    },
+    "8024": {
+      "tm_name": "fc arouca",
+      "api_football_id": 240,
+      "api_name": "arouca"
+    },
+    "826": {
+      "tm_name": "rc lens",
+      "api_football_id": 116,
+      "api_name": "lens"
+    },
+    "86": {
+      "tm_name": "sv werder bremen",
+      "api_football_id": 162,
+      "api_name": "werder bremen"
+    },
+    "873": {
+      "tm_name": "crystal palace",
+      "api_football_id": 52,
+      "api_name": "crystal palace"
+    },
+    "89": {
+      "tm_name": "1 fc union berlin",
+      "api_football_id": 182,
+      "api_name": "union berlin"
+    },
+    "931": {
+      "tm_name": "fulham fc",
+      "api_football_id": 36,
+      "api_name": "fulham"
+    },
+    "932": {
+      "tm_name": "lokomotiv moscow",
+      "api_football_id": 597,
+      "api_name": "lokomotiv"
+    },
+    "940": {
+      "tm_name": "celta de vigo",
+      "api_football_id": 538,
+      "api_name": "celta vigo"
+    },
+    "964": {
+      "tm_name": "zenit st petersburg",
+      "api_football_id": 596,
+      "api_name": "zenit"
+    },
+    "979": {
+      "tm_name": "moreirense fc",
+      "api_football_id": 215,
+      "api_name": "moreirense"
+    },
+    "982": {
+      "tm_name": "cd nacional",
+      "api_football_id": 225,
+      "api_name": "nacional"
+    },
+    "985": {
+      "tm_name": "manchester united",
+      "api_football_id": 33,
+      "api_name": "manchester united"
+    },
+    "989": {
+      "tm_name": "afc bournemouth",
+      "api_football_id": 35,
+      "api_name": "bournemouth"
+    }
+  },
+  "unmatched_tm_clubs": [
+    "1 fc koln",
+    "academico viseu fc",
+    "ado den haag",
+    "al ahli sfc",
+    "al diriyah fc",
+    "al ettifaq fc",
+    "al faisaly fc",
+    "al fateh sc",
+    "al fayha fc",
+    "al hazem sc",
+    "al ittihad club",
+    "al khaleej fc",
+    "al kholood club",
+    "al nassr fc",
+    "al qadsiah fc",
+    "al shabab fc",
+    "al taawoun fc",
+    "amed sk",
+    "az alkmaar",
+    "baltika kaliningrad",
+    "bayern munich",
+    "birmingham city",
+    "blackburn rovers",
+    "bolton wanderers",
+    "bristol city",
+    "cardiff city",
+    "corum fk",
+    "coventry city",
+    "cs maritimo",
+    "deportivo a coruna",
+    "derby county",
+    "erzurumspor fk",
+    "excelsior rotterdam",
+    "fc alverca",
+    "fc groningen",
+    "fc lorient",
+    "fc schalke 04",
+    "fc twente enschede",
+    "feyenoord rotterdam",
+    "fortuna sittard",
+    "frosinone calcio",
+    "genclerbirligi ankara",
+    "go ahead eagles",
+    "hamburger sv",
+    "inter milan",
+    "kaa gent",
+    "kasimpasa",
+    "kocaelispor",
+    "krc genk",
+    "krylya sovetov samara",
+    "kv kortrijk",
+    "kv mechelen",
+    "kvc westerlo",
+    "le mans fc",
+    "leeds united",
+    "levante ud",
+    "lincoln city",
+    "lommel sk",
+    "malaga cf",
+    "middlesbrough fc",
+    "nec nijmegen",
+    "neom sc",
+    "norwich city",
+    "oud heverlee leuven",
+    "pec zwolle",
+    "portsmouth fc",
+    "preston north end",
+    "psv eindhoven",
+    "queens park rangers",
+    "raal la louviere",
+    "racing santander",
+    "rcd espanyol barcelona",
+    "rodina moscow",
+    "royal antwerp fc",
+    "royal charleroi sc",
+    "rsc anderlecht",
+    "sc cambuur leeuwarden",
+    "sc heerenveen",
+    "sc paderborn 07",
+    "sc telstar",
+    "sheffield united",
+    "sint truidense vv",
+    "sk beveren",
+    "sparta rotterdam",
+    "stade rennais fc",
+    "standard liege",
+    "stoke city",
+    "swansea city",
+    "union saint gilloise",
+    "us sassuolo",
+    "watford fc",
+    "west bromwich albion",
+    "willem ii tilburg",
+    "wolverhampton wanderers",
+    "zulte waregem"
+  ]
+}

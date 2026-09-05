@@ -1,0 +1,99 @@
+{
+  "slug": "benoit-badiashile-ssc-napoli",
+  "player": "Benoît Badiashile",
+  "full_name": "Benoît Badiashile",
+  "transfermarkt_player_id": 463603,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/463603",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/463603",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 49,
+  "from_club_name": "Chelsea FC",
+  "to_club_id": 492,
+  "to_club_name": "SSC Napoli",
+  "title": "Benoît Badiashile перешёл из Chelsea FC в SSC Napoli",
+  "description": "Клуб SSC Napoli подписал Benoît Badiashile из клуба Chelsea FC.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Centre-Back",
+  "position_ru": "Центральный защитник",
+  "main_position": "CB",
+  "birth_date": "26.03.2001",
+  "age": 25,
+  "nationality": "France",
+  "nationality_ru": "Франция",
+  "nationality_code": "FR",
+  "nationality_fifa_code": "FRA",
+  "nationality_flag_aliases": [
+    "FR",
+    "FRA",
+    "France",
+    "flag-fr",
+    "fr",
+    "fra",
+    "france"
+  ],
+  "preferred_foot": "Левая",
+  "market_value": "€15 млн",
+  "market_value_display": "€15 млн",
+  "seo_body_md": "## Benoît Badiashile стал игроком SSC Napoli\n\n**Benoît Badiashile** — центральный защитник, которому 25 — продолжит карьеру в клубе **SSC Napoli**, покинув **Chelsea FC**. Переход состоялся **22 августа 2026 года**.\n\n## Карьера до перехода\n\nBenoît Badiashile родился в городе Limoges (Франция). Путь игрока до нынешнего перехода: Limoges Football (2008-09).\n\n## Новый клуб\n\nВ составе клуба SSC Napoli теперь 27 игроков со средним возрастом 27,7 года. Общая стоимость команды по Transfermarkt — €432,50 млн, в среднем €16,02 млн на игрока. Домашние матчи команда проводит в городе Napoli. В новой команде игрок получил 5-й номер.\n\nКонкуренцию на этой позиции составят ещё 5 игроков: Alessandro Buongiorno, Sam Beukema, Rafa Marín, Amir Rrahmani. В рейтинге стоимости состава он занимает 11-е место из 27. В свои 25 лет он моложе 16 партнёров команды.\n\nПо оценке Transfermarkt с 20 июня 2023 года по 3 июня 2026 года стоимость Badiashile снизилась с €40 млн до €15 млн. Максимальная оценка за этот период — €40 млн.\n\n## Профиль игрока\n\n- **Позиция:** центральный защитник\n- **Прежний клуб:** Chelsea FC\n- **Новый клуб:** SSC Napoli\n- **Гражданство:** Франция\n- **Дата рождения:** 26.03.2001\n- **Место рождения:** Limoges\n- **Рост:** 1,94 м\n- **Рабочая нога:** левая\n- **Игровой номер:** 5\n- **Рыночная стоимость Transfermarkt:** €15 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/463603",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-08-22",
+    "effective_transfer_date": "2026-08-22",
+    "parser_result": "official_permanent_transfer",
+    "player": "Benoît Badiashile",
+    "from_club": "Chelsea FC",
+    "to_club": "SSC Napoli",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Chelsea FC": 49,
+      "SSC Napoli": 492
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "badiashile__chelsea-fc__ssc-napoli",
+    "built_at": "2026-09-05T13:39:00.426320+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2023-06-20",
+        "value_eur_m": 40.0
+      },
+      {
+        "date": "2025-12-09",
+        "value_eur_m": 18.0
+      },
+      {
+        "date": "2026-06-03",
+        "value_eur_m": 15.0
+      }
+    ]
+  }
+}

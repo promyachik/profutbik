@@ -1,0 +1,85 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "pinamonti__us-sassuolo__ss-lazio",
+  "player": "Pinamonti",
+  "player_full_name": "Andrea Pinamonti",
+  "from_club": "US Sassuolo",
+  "to_club": "SS Lazio",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "pipeline_state": "ENRICHED",
+  "backfill": true,
+  "source": {
+    "publisher": "Transfermarkt",
+    "tier": "reference",
+    "url": "https://www.transfermarkt.com/-/profil/spieler/315865",
+    "title": "Andrea Pinamonti: переход в SS Lazio",
+    "published_iso": "2026-08-27T12:00:00+00:00"
+  },
+  "discovered_at": "2026-09-05T13:29:58.574537+00:00",
+  "enriched_at": "2026-09-05T13:38:41.462024+00:00",
+  "tm_to_club_id": "398",
+  "tm_player_id": "315865",
+  "birth_date": "1999-05-19",
+  "age": 27,
+  "position": "Centre-Forward",
+  "position_short": "CF",
+  "preferred_foot": "right",
+  "height": 1.85,
+  "contract_until": "2031-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/315865-1788425969.jpg",
+  "market_value_points": [
+    {
+      "date": "2022-11-11",
+      "value_eur_m": 20.0
+    },
+    {
+      "date": "2025-12-23",
+      "value_eur_m": 15.0
+    },
+    {
+      "date": "2026-05-29",
+      "value_eur_m": 15.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 75,
+    "secondNationalityId": 0
+  },
+  "birth_place": "Cles",
+  "former_clubs_note": "TNT Monte Peller",
+  "shirt_number": 9,
+  "is_captain": false,
+  "transfer_date": "2026-08-27",
+  "national_team_debut": "",
+  "squad_analysis": {
+    "same_position_count": 1,
+    "same_position_names": [
+      "Federico Serra"
+    ],
+    "value_rank": 6,
+    "squad_total": 33,
+    "younger_than": 9
+  },
+  "to_club_official_name": "SS Lazio",
+  "to_club_context": {
+    "squad_size": 33,
+    "average_age": "25.8",
+    "squad_value": {
+      "prefix": "€",
+      "content": "243.85",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "7.39",
+      "suffix": "M"
+    },
+    "stadium": "Via di Santa Cornelia 1000",
+    "city": "Roma"
+  },
+  "verdict_reason": "",
+  "block_reason": "",
+  "block_detail": ""
+}

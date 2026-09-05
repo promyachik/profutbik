@@ -1,0 +1,92 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "woltemade__newcastle__juventus",
+  "player": "Woltemade",
+  "from_club": "Newcastle",
+  "to_club": "Juventus",
+  "fee_raw": "",
+  "verdict": "DUPLICATE_EXISTING",
+  "verdict_reason": "TM ID 455661 уже на сайте: nick-woltemade-juventus",
+  "pipeline_state": "SKIPPED_DUPLICATE",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c3wj80lw5q2o?at_medium=RSS&at_campaign=rss",
+    "title": "Juventus agree to sign Woltemade on loan from Newcastle",
+    "published": "Tue, 01 Sep 2026 08:03:16 GMT",
+    "published_iso": "2026-09-01T08:03:16+00:00"
+  },
+  "discovered_at": "2026-09-01T16:00:52.894966+00:00",
+  "enriched_at": "2026-09-05T13:38:59.868388+00:00",
+  "tm_to_club_id": "506",
+  "block_reason": "",
+  "block_detail": "",
+  "tm_from_club_id": "762",
+  "tm_player_id": "455661",
+  "player_full_name": "Nick Woltemade",
+  "birth_date": "2002-02-14",
+  "age": 24,
+  "position": "Centre-Forward",
+  "position_short": "CF",
+  "preferred_foot": "right",
+  "height": 1.98,
+  "contract_until": "2027-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/455661-1779983237.jpg",
+  "market_value_points": [
+    {
+      "date": "2025-12-09",
+      "value_eur_m": 70.0
+    },
+    {
+      "date": "2026-03-09",
+      "value_eur_m": 65.0
+    },
+    {
+      "date": "2026-06-03",
+      "value_eur_m": 55.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 40,
+    "secondNationalityId": 0
+  },
+  "birth_place": "Bremen",
+  "former_clubs_note": "TS Woltmershausen (2007-10)",
+  "shirt_number": 27,
+  "is_captain": false,
+  "transfer_date": "2026-09-01",
+  "national_team_debut": "2025-06-04",
+  "squad_analysis": {
+    "same_position_count": 3,
+    "same_position_names": [
+      "Randal Kolo Muani",
+      "Jeff Ekhator",
+      "Arkadiusz Milik"
+    ],
+    "value_rank": 2,
+    "squad_total": 28,
+    "younger_than": 22
+  },
+  "to_club_official_name": "Juventus FC",
+  "to_club_context": {
+    "squad_size": 28,
+    "average_age": "27.3",
+    "squad_value": {
+      "prefix": "€",
+      "content": "618.70",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "22.10",
+      "suffix": "M"
+    },
+    "stadium": "Via Druento, 175",
+    "city": "Torino"
+  },
+  "rumor_slug": "nick-woltemade-juventus",
+  "rumor_published_at": "2026-09-01T16:37:49.623988+00:00",
+  "promoted_from_agreement_at": "2026-09-05T13:22:28.963687+00:00",
+  "promotion_evidence": "числится в составе Juventus на Transfermarkt"
+}

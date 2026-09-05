@@ -1,0 +1,99 @@
+{
+  "slug": "youssouf-fofana-sevilla-fc",
+  "player": "Youssouf Fofana",
+  "full_name": "Youssouf Fofana",
+  "transfermarkt_player_id": 569598,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/569598",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/569598",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 489,
+  "from_club_name": "AC Milan",
+  "to_club_id": 536,
+  "to_club_name": "Sevilla FC",
+  "title": "Youssouf Fofana перешёл из AC Milan в Sevilla FC",
+  "description": "Клуб Sevilla FC подписал Youssouf Fofana из клуба AC Milan.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Defensive Midfield",
+  "position_ru": "Опорный полузащитник",
+  "main_position": "DM",
+  "birth_date": "10.01.1999",
+  "age": 27,
+  "nationality": "France",
+  "nationality_ru": "Франция",
+  "nationality_code": "FR",
+  "nationality_fifa_code": "FRA",
+  "nationality_flag_aliases": [
+    "FR",
+    "FRA",
+    "France",
+    "flag-fr",
+    "fr",
+    "fra",
+    "france"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€23 млн",
+  "market_value_display": "€23 млн",
+  "seo_body_md": "## Youssouf Fofana: что известно о переходе в Sevilla FC\n\nКлуб **Sevilla FC** усилил состав и подписал **Youssouf Fofana** из клуба **AC Milan**. Переход оформлен **1 сентября 2026 года**.\n\n## Динамика стоимости\n\nПо оценке Transfermarkt с 17 июня 2025 года по 29 мая 2026 года стоимость Fofana снизилась с €30 млн до €23 млн. Максимальная оценка за этот период — €30 млн.\n\n## Клуб назначения\n\nВ составе клуба Sevilla FC теперь 26 игроков со средним возрастом 25,8 года. Общая стоимость команды по Transfermarkt — €169,10 млн, в среднем €6,50 млн на игрока. Домашние матчи команда проводит в городе Sevilla. В новой команде игрок получил 24-й номер.\n\nНа этой же позиции в клубе значится ещё один игрок — Lucien Agoumé. По оценке Transfermarkt это 1-й по стоимости игрок команды из 26. В свои 27 лет он моложе 8 партнёров команды.\n\nYoussouf Fofana родился в городе Paris (Франция). Ранее выступал за: Espérance Paris (2005-13), Red Star FC (2013-14), JA Drancy (2014-17). Таким образом, это уже 4-й клуб в карьере Fofana.\n\n## Данные игрока\n\n- **Позиция:** опорный полузащитник\n- **Прежний клуб:** AC Milan\n- **Новый клуб:** Sevilla FC\n- **Гражданство:** Франция\n- **Дата рождения:** 10.01.1999\n- **Место рождения:** Paris\n- **Рост:** 1,85 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 24\n- **Рыночная стоимость Transfermarkt:** €23 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/569598",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-01",
+    "effective_transfer_date": "2026-09-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "Youssouf Fofana",
+    "from_club": "AC Milan",
+    "to_club": "Sevilla FC",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "AC Milan": 489,
+      "Sevilla FC": 536
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "fofana__ac-milan__sevilla-fc",
+    "built_at": "2026-09-05T13:39:00.439502+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2025-06-17",
+        "value_eur_m": 30.0
+      },
+      {
+        "date": "2026-03-24",
+        "value_eur_m": 25.0
+      },
+      {
+        "date": "2026-05-29",
+        "value_eur_m": 23.0
+      }
+    ]
+  }
+}

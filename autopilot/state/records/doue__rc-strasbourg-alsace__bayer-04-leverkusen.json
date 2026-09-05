@@ -1,0 +1,81 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "doue__rc-strasbourg-alsace__bayer-04-leverkusen",
+  "player": "Doué",
+  "player_full_name": "Guéla Doué",
+  "from_club": "RC Strasbourg Alsace",
+  "to_club": "Bayer 04 Leverkusen",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "pipeline_state": "ENRICHED",
+  "backfill": true,
+  "source": {
+    "publisher": "Transfermarkt",
+    "tier": "reference",
+    "url": "https://www.transfermarkt.com/-/profil/spieler/711980",
+    "title": "Guéla Doué: переход в Bayer 04 Leverkusen",
+    "published_iso": "2026-09-01T12:00:00+00:00"
+  },
+  "discovered_at": "2026-09-05T13:29:58.559391+00:00",
+  "enriched_at": "2026-09-05T13:37:45.806894+00:00",
+  "tm_to_club_id": "15",
+  "tm_player_id": "711980",
+  "birth_date": "2002-10-17",
+  "age": 23,
+  "position": "Right-Back",
+  "position_short": "RB",
+  "preferred_foot": "right",
+  "height": 1.87,
+  "contract_until": "2031-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/711980-1780899949.jpg",
+  "market_value_points": [
+    {
+      "date": "2025-12-15",
+      "value_eur_m": 18.0
+    },
+    {
+      "date": "2026-06-01",
+      "value_eur_m": 20.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 38,
+    "secondNationalityId": 50
+  },
+  "birth_place": "Angers",
+  "former_clubs_note": "Stade Rennais FC (2011-2020)",
+  "shirt_number": 20,
+  "is_captain": false,
+  "transfer_date": "2026-09-01",
+  "national_team_debut": "2024-03-23",
+  "squad_analysis": {
+    "same_position_count": 1,
+    "same_position_names": [
+      "Lucas Vázquez"
+    ],
+    "value_rank": 9,
+    "squad_total": 29,
+    "younger_than": 18
+  },
+  "to_club_official_name": "Bayer 04 Leverkusen",
+  "to_club_context": {
+    "squad_size": 29,
+    "average_age": "26.1",
+    "squad_value": {
+      "prefix": "€",
+      "content": "480.95",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "16.58",
+      "suffix": "M"
+    },
+    "stadium": "Bismarckstraße 122-124",
+    "city": "Leverkusen"
+  },
+  "verdict_reason": "",
+  "block_reason": "",
+  "block_detail": ""
+}

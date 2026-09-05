@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "kind": "agreement",
+  "entity_id": "de-almeida__paris-saint-germain__arsenal",
+  "player": "De Almeida",
+  "from_club": "Paris Saint Germain",
+  "to_club": "Arsenal",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "AWAITING_CONFIRMATION",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cgl7yw9y1weo?at_medium=RSS&at_campaign=rss",
+    "title": "Arsenal agree terms to sign De Almeida from PSG",
+    "published": "Tue, 01 Sep 2026 09:59:20 GMT",
+    "published_iso": "2026-09-01T09:59:20+00:00"
+  },
+  "discovered_at": "2026-09-01T16:50:00.934865+00:00",
+  "enriched_at": "2026-09-05T13:37:34.307578+00:00",
+  "tm_to_club_id": "11",
+  "block_reason": "AGREEMENT_NOT_YET_COMPLETED",
+  "block_detail": "De Almeida пока не числится в составе Arsenal. Это договорённость, а не состоявшийся переход."
+}

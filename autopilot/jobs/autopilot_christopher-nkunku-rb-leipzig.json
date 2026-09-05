@@ -1,0 +1,99 @@
+{
+  "slug": "christopher-nkunku-rb-leipzig",
+  "player": "Christopher Nkunku",
+  "full_name": "Christopher Nkunku",
+  "transfermarkt_player_id": 344381,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/344381",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/344381",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 489,
+  "from_club_name": "AC Milan",
+  "to_club_id": 173,
+  "to_club_name": "RB Leipzig",
+  "title": "Christopher Nkunku перешёл из AC Milan в RB Leipzig",
+  "description": "Клуб RB Leipzig подписал Christopher Nkunku из клуба AC Milan.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Centre-Forward",
+  "position_ru": "Центральный нападающий",
+  "main_position": "CF",
+  "birth_date": "14.11.1997",
+  "age": 28,
+  "nationality": "France",
+  "nationality_ru": "Франция",
+  "nationality_code": "FR",
+  "nationality_fifa_code": "FRA",
+  "nationality_flag_aliases": [
+    "FR",
+    "FRA",
+    "France",
+    "flag-fr",
+    "fr",
+    "fra",
+    "france"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€25 млн",
+  "market_value_display": "€25 млн",
+  "seo_body_md": "## Christopher Nkunku стал игроком RB Leipzig\n\n**Christopher Nkunku** — центральный нападающий, которому 28 — продолжит карьеру в клубе **RB Leipzig**, покинув **AC Milan**. Переход состоялся **25 августа 2026 года**.\n\n## Карьера до перехода\n\nChristopher Nkunku родился в городе Lagny-sur-Marne (Франция). Путь игрока до нынешнего перехода: AS Marolles (11/2003-09).\n\n## Новый клуб\n\nВ составе клуба RB Leipzig теперь 30 игроков со средним возрастом 24,5 года. Общая стоимость команды по Transfermarkt — €492,95 млн, в среднем €16,43 млн на игрока. Домашние матчи команда проводит в городе Leipzig. В новой команде игрок получил 28-й номер.\n\nКонкуренцию на этой позиции составят ещё 3 игрока: Rômulo, Marc Guiu, Samba Konaté. В рейтинге стоимости состава он занимает 11-е место из 30. В свои 28 лет он моложе 5 партнёров команды.\n\nПо оценке Transfermarkt с 22 июня 2023 года по 29 мая 2026 года стоимость Nkunku снизилась с €80 млн до €25 млн. Максимальная оценка за этот период — €80 млн.\n\n## Профиль игрока\n\n- **Позиция:** центральный нападающий\n- **Прежний клуб:** AC Milan\n- **Новый клуб:** RB Leipzig\n- **Гражданство:** Франция\n- **Дата рождения:** 14.11.1997\n- **Место рождения:** Lagny-sur-Marne\n- **Рост:** 1,77 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 28\n- **Рыночная стоимость Transfermarkt:** €25 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/344381",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-08-25",
+    "effective_transfer_date": "2026-08-25",
+    "parser_result": "official_permanent_transfer",
+    "player": "Christopher Nkunku",
+    "from_club": "AC Milan",
+    "to_club": "RB Leipzig",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "AC Milan": 489,
+      "RB Leipzig": 173
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "nkunku__ac-milan__rb-leipzig",
+    "built_at": "2026-09-05T13:39:00.456191+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2023-06-22",
+        "value_eur_m": 80.0
+      },
+      {
+        "date": "2026-03-24",
+        "value_eur_m": 28.0
+      },
+      {
+        "date": "2026-05-29",
+        "value_eur_m": 25.0
+      }
+    ]
+  }
+}

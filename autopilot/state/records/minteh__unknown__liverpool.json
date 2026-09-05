@@ -1,0 +1,85 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "minteh__unknown__liverpool",
+  "player": "Minteh",
+  "from_club": "Brighton & Hove Albion",
+  "to_club": "Liverpool",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "PUBLISHED_AS_RUMOR",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cgk5g2z3kyxo?at_medium=RSS&at_campaign=rss",
+    "title": "Liverpool target Minteh can still get dream move - Hurzeler",
+    "published": "Fri, 04 Sep 2026 10:44:37 GMT",
+    "published_iso": "2026-09-04T10:44:37+00:00"
+  },
+  "discovered_at": "2026-09-05T11:51:40.616800+00:00",
+  "enriched_at": "2026-09-05T13:38:23.546030+00:00",
+  "tm_to_club_id": "31",
+  "block_reason": "",
+  "block_detail": "",
+  "tm_from_club_id": "1237",
+  "tm_player_id": "1012534",
+  "player_full_name": "Yankuba Minteh",
+  "birth_date": "2004-07-22",
+  "age": 22,
+  "position": "Right Winger",
+  "position_short": "RW",
+  "preferred_foot": "left",
+  "height": 1.8,
+  "contract_until": "2029-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/1012534-1694774813.jpg",
+  "market_value_points": [
+    {
+      "date": "2025-12-09",
+      "value_eur_m": 40.0
+    },
+    {
+      "date": "2026-06-03",
+      "value_eur_m": 45.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 52,
+    "secondNationalityId": 0
+  },
+  "birth_place": "Serekunda",
+  "former_clubs_note": "Bakoteh United (2009-2021), Steve Biko FC (2021-2022)",
+  "shirt_number": 11,
+  "is_captain": false,
+  "transfer_date": "2024-07-01",
+  "national_team_debut": "2022-11-20",
+  "squad_analysis": {
+    "same_position_count": 1,
+    "same_position_names": [
+      "Federico Chiesa"
+    ],
+    "value_rank": null,
+    "squad_total": 27,
+    "younger_than": 22
+  },
+  "to_club_official_name": "Liverpool FC",
+  "to_club_context": {
+    "squad_size": 27,
+    "average_age": "25.9",
+    "squad_value": {
+      "prefix": "€",
+      "content": "1.03",
+      "suffix": "B"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "38.11",
+      "suffix": "M"
+    },
+    "stadium": "Anfield Road",
+    "city": "Liverpool"
+  },
+  "rumor_slug": "yankuba-minteh-liverpool",
+  "rumor_published_at": "2026-09-05T11:57:21.212631+00:00",
+  "found_in": "local_index"
+}

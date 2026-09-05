@@ -1,0 +1,99 @@
+{
+  "slug": "joao-palhinha-sl-benfica",
+  "player": "João Palhinha",
+  "full_name": "João Palhinha",
+  "transfermarkt_player_id": 257455,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/257455",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/257455",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 47,
+  "from_club_name": "Tottenham Hotspur",
+  "to_club_id": 211,
+  "to_club_name": "SL Benfica",
+  "title": "João Palhinha перешёл из Tottenham Hotspur в SL Benfica",
+  "description": "Клуб SL Benfica подписал João Palhinha из клуба Tottenham Hotspur.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Defensive Midfield",
+  "position_ru": "Опорный полузащитник",
+  "main_position": "DM",
+  "birth_date": "09.07.1995",
+  "age": 31,
+  "nationality": "Portugal",
+  "nationality_ru": "Португалия",
+  "nationality_code": "PT",
+  "nationality_fifa_code": "POR",
+  "nationality_flag_aliases": [
+    "POR",
+    "PT",
+    "Portugal",
+    "flag-pt",
+    "por",
+    "portugal",
+    "pt"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€15 млн",
+  "market_value_display": "€15 млн",
+  "seo_body_md": "## João Palhinha переходит в SL Benfica\n\nКлуб **SL Benfica** объявил о подписании **João Palhinha**. Опорный полузащитник перешёл из клуба **Tottenham Hotspur**. Сделка оформлена **26 августа 2026 года**.\n\n## Детали перехода\n\nПо оценке Transfermarkt с 19 декабря 2023 года по 3 июня 2026 года стоимость Palhinha снизилась с €60 млн до €15 млн. Максимальная оценка за этот период — €60 млн.\n\n## Что получает клуб\n\nВ составе клуба SL Benfica теперь 27 игроков со средним возрастом 25,0 года. Общая стоимость команды по Transfermarkt — €377,05 млн, в среднем €13,96 млн на игрока. Домашние матчи команда проводит в городе Lisboa. В новой команде игрок получил 36-й номер.\n\nКонкуренцию на этой позиции составят ещё 2 игрока: Enzo Barrenechea, Manu Silva. В рейтинге стоимости состава он занимает 11-е место из 27. В свои 31 год он моложе 1 партнёра команды.\n\nJoão Palhinha родился в городе Lisboa (Португалия). Ранее выступал за: UD Alta de Lisboa (2008-2009), SG Sacavenense (2009-2013), Sporting CP (2013-2014). Таким образом, это уже 4-й клуб в карьере Palhinha.\n\n## Карточка игрока\n\n- **Позиция:** опорный полузащитник\n- **Прежний клуб:** Tottenham Hotspur\n- **Новый клуб:** SL Benfica\n- **Гражданство:** Португалия\n- **Дата рождения:** 09.07.1995\n- **Место рождения:** Lisboa\n- **Рост:** 1,9 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 36\n- **Рыночная стоимость Transfermarkt:** €15 млн\n- **Контракт до:** 30.06.2030\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/257455",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-08-26",
+    "effective_transfer_date": "2026-08-26",
+    "parser_result": "official_permanent_transfer",
+    "player": "João Palhinha",
+    "from_club": "Tottenham Hotspur",
+    "to_club": "SL Benfica",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Tottenham Hotspur": 47,
+      "SL Benfica": 211
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "palhinha__tottenham-hotspur__sl-benfica",
+    "built_at": "2026-09-05T13:39:00.459779+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2023-12-19",
+        "value_eur_m": 60.0
+      },
+      {
+        "date": "2026-03-09",
+        "value_eur_m": 18.0
+      },
+      {
+        "date": "2026-06-03",
+        "value_eur_m": 15.0
+      }
+    ]
+  }
+}

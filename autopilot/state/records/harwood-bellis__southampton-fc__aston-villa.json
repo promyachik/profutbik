@@ -1,0 +1,88 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "harwood-bellis__southampton-fc__aston-villa",
+  "player": "Harwood-Bellis",
+  "player_full_name": "Taylor Harwood-Bellis",
+  "from_club": "Southampton FC",
+  "to_club": "Aston Villa",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "pipeline_state": "ENRICHED",
+  "backfill": true,
+  "source": {
+    "publisher": "Transfermarkt",
+    "tier": "reference",
+    "url": "https://www.transfermarkt.com/-/profil/spieler/503977",
+    "title": "Taylor Harwood-Bellis: переход в Aston Villa",
+    "published_iso": "2026-09-01T12:00:00+00:00"
+  },
+  "discovered_at": "2026-09-05T13:29:58.558996+00:00",
+  "enriched_at": "2026-09-05T13:38:08.443770+00:00",
+  "tm_to_club_id": "405",
+  "tm_player_id": "503977",
+  "birth_date": "2002-01-30",
+  "age": 24,
+  "position": "Centre-Back",
+  "position_short": "CB",
+  "preferred_foot": "right",
+  "height": 1.88,
+  "contract_until": "",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/503977-1687975943.jpg",
+  "market_value_points": [
+    {
+      "date": "2024-12-16",
+      "value_eur_m": 25.0
+    },
+    {
+      "date": "2025-12-03",
+      "value_eur_m": 20.0
+    },
+    {
+      "date": "2026-05-28",
+      "value_eur_m": 20.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 189,
+    "secondNationalityId": 0
+  },
+  "birth_place": "Stockport",
+  "former_clubs_note": "Manchester City (2008-2019)",
+  "shirt_number": 4,
+  "is_captain": false,
+  "transfer_date": "2026-09-01",
+  "national_team_debut": "",
+  "squad_analysis": {
+    "same_position_count": 4,
+    "same_position_names": [
+      "Pau Torres",
+      "Modou Kéba Cissé",
+      "Victor Lindelöf",
+      "Tyrone Mings"
+    ],
+    "value_rank": 12,
+    "squad_total": 27,
+    "younger_than": 15
+  },
+  "to_club_official_name": "Aston Villa",
+  "to_club_context": {
+    "squad_size": 27,
+    "average_age": "26.2",
+    "squad_value": {
+      "prefix": "€",
+      "content": "572.30",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "21.20",
+      "suffix": "M"
+    },
+    "stadium": "Villa Park",
+    "city": "Birmingham"
+  },
+  "verdict_reason": "",
+  "block_reason": "",
+  "block_detail": ""
+}

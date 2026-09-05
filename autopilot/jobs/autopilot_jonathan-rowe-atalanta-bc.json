@@ -1,0 +1,95 @@
+{
+  "slug": "jonathan-rowe-atalanta-bc",
+  "player": "Jonathan Rowe",
+  "full_name": "Jonathan Rowe",
+  "transfermarkt_player_id": 672381,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/672381",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/672381",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 500,
+  "from_club_name": "Bologna FC 1909",
+  "to_club_id": 499,
+  "to_club_name": "Atalanta BC",
+  "title": "Jonathan Rowe перешёл из Bologna FC 1909 в Atalanta BC",
+  "description": "Клуб Atalanta BC подписал Jonathan Rowe из клуба Bologna FC 1909.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Left Winger",
+  "position_ru": "Левый вингер",
+  "main_position": "LW",
+  "birth_date": "30.04.2003",
+  "age": 23,
+  "nationality": "England",
+  "nationality_ru": "Англия",
+  "nationality_code": "GB-ENG",
+  "nationality_fifa_code": "ENG",
+  "nationality_flag_aliases": [
+    "ENG",
+    "England",
+    "GB-ENG",
+    "eng",
+    "england",
+    "flag-gb-eng",
+    "gb-eng"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€28 млн",
+  "market_value_display": "€28 млн",
+  "seo_body_md": "## Jonathan Rowe: что известно о переходе в Atalanta BC\n\nКлуб **Atalanta BC** усилил состав и подписал **Jonathan Rowe** из клуба **Bologna FC 1909**. Переход оформлен **1 сентября 2026 года**.\n\n## Динамика стоимости\n\nПо оценке Transfermarkt с 24 марта 2026 года по 29 мая 2026 года стоимость Rowe выросла с €20 млн до €28 млн.\n\n## Клуб назначения\n\nВ составе клуба Atalanta BC теперь 24 игрока со средним возрастом 26,8 года. Общая стоимость команды по Transfermarkt — €436,05 млн, в среднем €18,17 млн на игрока. Домашние матчи команда проводит в городе Bergamo. В новой команде игрок получил 11-й номер.\n\nНа этой же позиции в клубе значится ещё один игрок — Kamaldeen Sulemana. В рейтинге стоимости состава он занимает 6-е место из 24. В свои 23 года он моложе 20 партнёров команды.\n\nJonathan Rowe родился в городе London (Англия). Ранее выступал за: AFC Wembley (2013-14).\n\n## Данные игрока\n\n- **Позиция:** левый вингер\n- **Прежний клуб:** Bologna FC 1909\n- **Новый клуб:** Atalanta BC\n- **Гражданство:** Англия\n- **Дата рождения:** 30.04.2003\n- **Место рождения:** London\n- **Рост:** 1,73 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 11\n- **Рыночная стоимость Transfermarkt:** €28 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/672381",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-01",
+    "effective_transfer_date": "2026-09-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "Jonathan Rowe",
+    "from_club": "Bologna FC 1909",
+    "to_club": "Atalanta BC",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Bologna FC 1909": 500,
+      "Atalanta BC": 499
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "rowe__bologna-fc-1909__atalanta-bc",
+    "built_at": "2026-09-05T13:39:00.461887+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2026-03-24",
+        "value_eur_m": 20.0
+      },
+      {
+        "date": "2026-05-29",
+        "value_eur_m": 28.0
+      }
+    ]
+  }
+}

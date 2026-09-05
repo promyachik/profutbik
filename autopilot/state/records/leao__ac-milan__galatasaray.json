@@ -1,0 +1,86 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "leao__ac-milan__galatasaray",
+  "player": "Leão",
+  "player_full_name": "Rafael Leão",
+  "from_club": "AC Milan",
+  "to_club": "Galatasaray",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "pipeline_state": "ENRICHED",
+  "backfill": true,
+  "source": {
+    "publisher": "Transfermarkt",
+    "tier": "reference",
+    "url": "https://www.transfermarkt.com/-/profil/spieler/357164",
+    "title": "Rafael Leão: переход в Galatasaray",
+    "published_iso": "2026-08-29T12:00:00+00:00"
+  },
+  "discovered_at": "2026-09-05T13:29:58.543815+00:00",
+  "enriched_at": "2026-09-05T13:38:22.041438+00:00",
+  "tm_to_club_id": "141",
+  "tm_player_id": "357164",
+  "birth_date": "1999-06-10",
+  "age": 27,
+  "position": "Left Winger",
+  "position_short": "LW",
+  "preferred_foot": "right",
+  "height": 1.88,
+  "contract_until": "2030-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/357164-1730126553.jpg",
+  "market_value_points": [
+    {
+      "date": "2024-06-05",
+      "value_eur_m": 90.0
+    },
+    {
+      "date": "2026-03-24",
+      "value_eur_m": 65.0
+    },
+    {
+      "date": "2026-05-29",
+      "value_eur_m": 50.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 136,
+    "secondNationalityId": 6
+  },
+  "birth_place": "Almada",
+  "former_clubs_note": "Foot 21 (2007/08), Sporting CP (2008-2018)",
+  "shirt_number": 27,
+  "is_captain": false,
+  "transfer_date": "2026-08-29",
+  "national_team_debut": "2021-10-09",
+  "squad_analysis": {
+    "same_position_count": 2,
+    "same_position_names": [
+      "Barış Alper Yılmaz",
+      "Berat Luş"
+    ],
+    "value_rank": 2,
+    "squad_total": 32,
+    "younger_than": 10
+  },
+  "to_club_official_name": "Galatasaray",
+  "to_club_context": {
+    "squad_size": 32,
+    "average_age": "25.7",
+    "squad_value": {
+      "prefix": "€",
+      "content": "411.60",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "12.86",
+      "suffix": "M"
+    },
+    "stadium": "Rams Park, Huzur Mah. Seyrantepe",
+    "city": "Sarıyer / İstanbul"
+  },
+  "verdict_reason": "",
+  "block_reason": "",
+  "block_detail": ""
+}

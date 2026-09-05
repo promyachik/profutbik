@@ -1,0 +1,88 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "danso__tottenham-hotspur__sunderland-afc",
+  "player": "Danso",
+  "player_full_name": "Kevin Danso",
+  "from_club": "Tottenham Hotspur",
+  "to_club": "Sunderland AFC",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "pipeline_state": "ENRICHED",
+  "backfill": true,
+  "source": {
+    "publisher": "Transfermarkt",
+    "tier": "reference",
+    "url": "https://www.transfermarkt.com/-/profil/spieler/263236",
+    "title": "Kevin Danso: переход в Sunderland AFC",
+    "published_iso": "2026-09-01T12:00:00+00:00"
+  },
+  "discovered_at": "2026-09-05T13:29:58.561944+00:00",
+  "enriched_at": "2026-09-05T13:37:29.427811+00:00",
+  "tm_to_club_id": "289",
+  "tm_player_id": "263236",
+  "birth_date": "1998-09-19",
+  "age": 27,
+  "position": "Centre-Back",
+  "position_short": "CB",
+  "preferred_foot": "right",
+  "height": 1.9,
+  "contract_until": "2027-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/263236-1691217955.png",
+  "market_value_points": [
+    {
+      "date": "2025-05-30",
+      "value_eur_m": 25.0
+    },
+    {
+      "date": "2026-03-09",
+      "value_eur_m": 20.0
+    },
+    {
+      "date": "2026-06-03",
+      "value_eur_m": 20.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 127,
+    "secondNationalityId": 0
+  },
+  "birth_place": "Voitsberg",
+  "former_clubs_note": "Central Milton Keynes (2006-2007), Reading FC (2007-2008), Milton Keynes Dons (2008-2014), FC Augsburg (2014-2017)",
+  "shirt_number": 4,
+  "is_captain": false,
+  "transfer_date": "2026-09-01",
+  "national_team_debut": "2017-09-02",
+  "squad_analysis": {
+    "same_position_count": 4,
+    "same_position_names": [
+      "Dan Ballard",
+      "Omar Alderete",
+      "Luke O'Nien",
+      "Aji Alese"
+    ],
+    "value_rank": 10,
+    "squad_total": 29,
+    "younger_than": 8
+  },
+  "to_club_official_name": "Sunderland AFC",
+  "to_club_context": {
+    "squad_size": 29,
+    "average_age": "25.7",
+    "squad_value": {
+      "prefix": "€",
+      "content": "421.62",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "14.54",
+      "suffix": "M"
+    },
+    "stadium": "Stadium of Light",
+    "city": "Sunderland"
+  },
+  "verdict_reason": "",
+  "block_reason": "",
+  "block_detail": ""
+}

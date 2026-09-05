@@ -1,0 +1,95 @@
+{
+  "slug": "gabriel-mec-fc-porto",
+  "player": "Gabriel Mec",
+  "full_name": "Gabriel Mec",
+  "transfermarkt_player_id": 1228661,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/1228661",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/1228661",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 212,
+  "from_club_name": "Grêmio Foot-Ball Porto Alegrense",
+  "to_club_id": 212,
+  "to_club_name": "FC Porto",
+  "title": "Gabriel Mec перешёл из Grêmio Foot-Ball Porto Alegrense в FC Porto",
+  "description": "Клуб FC Porto подписал Gabriel Mec из клуба Grêmio Foot-Ball Porto Alegrense.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Right Winger",
+  "position_ru": "Правый вингер",
+  "main_position": "RW",
+  "birth_date": "11.04.2008",
+  "age": 18,
+  "nationality": "Brazil",
+  "nationality_ru": "Бразилия",
+  "nationality_code": "BR",
+  "nationality_fifa_code": "BRA",
+  "nationality_flag_aliases": [
+    "BR",
+    "BRA",
+    "Brazil",
+    "br",
+    "bra",
+    "brazil",
+    "flag-br"
+  ],
+  "preferred_foot": "Обе",
+  "market_value": "€16 млн",
+  "market_value_display": "€16 млн",
+  "seo_body_md": "## Gabriel Mec: что известно о переходе в FC Porto\n\nКлуб **FC Porto** усилил состав и подписал **Gabriel Mec** из клуба **Grêmio Foot-Ball Porto Alegrense**. Переход оформлен **2 сентября 2026 года**.\n\n## Динамика стоимости\n\nПо оценке Transfermarkt с 12 марта 2026 года по 26 мая 2026 года стоимость Mec выросла с €12 млн до €16 млн.\n\n## Клуб назначения\n\nВ составе клуба FC Porto теперь 28 игроков со средним возрастом 25,5 года. Общая стоимость команды по Transfermarkt — €464,80 млн, в среднем €16,60 млн на игрока. Домашние матчи команда проводит в городе Porto. В новой команде игрок получил 37-й номер.\n\nКонкуренцию на этой позиции составят ещё 2 игрока: William Gomes, Pepê. В рейтинге стоимости состава он занимает 13-е место из 28. В свои 18 лет он моложе 26 партнёров команды.\n\nGabriel Mec родился в городе Campo dos Goytacazes (Бразилия). Ранее выступал за: Grêmio (2019-2025).\n\n## Данные игрока\n\n- **Позиция:** правый вингер\n- **Прежний клуб:** Grêmio Foot-Ball Porto Alegrense\n- **Новый клуб:** FC Porto\n- **Гражданство:** Бразилия\n- **Дата рождения:** 11.04.2008\n- **Место рождения:** Campo dos Goytacazes\n- **Рост:** 1,73 м\n- **Рабочая нога:** обе\n- **Игровой номер:** 37\n- **Рыночная стоимость Transfermarkt:** €16 млн\n- **Контракт до:** 30.06.2031\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/1228661",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-02",
+    "effective_transfer_date": "2026-09-02",
+    "parser_result": "official_permanent_transfer",
+    "player": "Gabriel Mec",
+    "from_club": "Grêmio Foot-Ball Porto Alegrense",
+    "to_club": "FC Porto",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Grêmio Foot-Ball Porto Alegrense": 212,
+      "FC Porto": 212
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "mec__gremio-foot-ball-porto-alegrense__fc-porto",
+    "built_at": "2026-09-05T13:39:00.451257+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2026-03-12",
+        "value_eur_m": 12.0
+      },
+      {
+        "date": "2026-05-26",
+        "value_eur_m": 16.0
+      }
+    ]
+  }
+}

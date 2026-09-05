@@ -1,0 +1,99 @@
+{
+  "slug": "liam-delap-nottingham-forest",
+  "player": "Liam Delap",
+  "full_name": "Liam Delap",
+  "transfermarkt_player_id": 610849,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/610849",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/610849",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 49,
+  "from_club_name": "Chelsea FC",
+  "to_club_id": 65,
+  "to_club_name": "Nottingham Forest",
+  "title": "Liam Delap перешёл из Chelsea FC в Nottingham Forest",
+  "description": "Клуб Nottingham Forest подписал Liam Delap из клуба Chelsea FC.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Centre-Forward",
+  "position_ru": "Центральный нападающий",
+  "main_position": "CF",
+  "birth_date": "08.02.2003",
+  "age": 23,
+  "nationality": "England",
+  "nationality_ru": "Англия",
+  "nationality_code": "GB-ENG",
+  "nationality_fifa_code": "ENG",
+  "nationality_flag_aliases": [
+    "ENG",
+    "England",
+    "GB-ENG",
+    "eng",
+    "england",
+    "flag-gb-eng",
+    "gb-eng"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€28 млн",
+  "market_value_display": "€28 млн",
+  "seo_body_md": "## Liam Delap переходит в Nottingham Forest\n\nКлуб **Nottingham Forest** объявил о подписании **Liam Delap**. Центральный нападающий перешёл из клуба **Chelsea FC**. Сделка оформлена **27 августа 2026 года**.\n\n## Детали перехода\n\nПо оценке Transfermarkt с 30 мая 2025 года по 3 июня 2026 года стоимость Delap снизилась с €40 млн до €28 млн. Максимальная оценка за этот период — €40 млн.\n\n## Что получает клуб\n\nВ составе клуба Nottingham Forest теперь 24 игрока со средним возрастом 27,0 года. Общая стоимость команды по Transfermarkt — €520,50 млн, в среднем €21,69 млн на игрока. Домашние матчи команда проводит в городе West Bridgford. В новой команде игрок получил 19-й номер.\n\nКонкуренцию на этой позиции составят ещё 3 игрока: Igor Jesus, Arnaud Kalimuendo, Chris Wood. В рейтинге стоимости состава он занимает 8-е место из 24. В свои 23 года он моложе 18 партнёров команды.\n\nLiam Delap родился в городе Winchester (Англия). Ранее выступал за: Derby County (2009-2019), Manchester City (2019-2020).\n\n## Карточка игрока\n\n- **Позиция:** центральный нападающий\n- **Прежний клуб:** Chelsea FC\n- **Новый клуб:** Nottingham Forest\n- **Гражданство:** Англия\n- **Дата рождения:** 08.02.2003\n- **Место рождения:** Winchester\n- **Рост:** 1,86 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 19\n- **Рыночная стоимость Transfermarkt:** €28 млн\n- **Контракт до:** 30.06.2031\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/610849",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-08-27",
+    "effective_transfer_date": "2026-08-27",
+    "parser_result": "official_permanent_transfer",
+    "player": "Liam Delap",
+    "from_club": "Chelsea FC",
+    "to_club": "Nottingham Forest",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Chelsea FC": 49,
+      "Nottingham Forest": 65
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "delap__chelsea-fc__nottingham-forest",
+    "built_at": "2026-09-05T13:39:00.432614+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2025-05-30",
+        "value_eur_m": 40.0
+      },
+      {
+        "date": "2026-03-09",
+        "value_eur_m": 32.0
+      },
+      {
+        "date": "2026-06-03",
+        "value_eur_m": 28.0
+      }
+    ]
+  }
+}

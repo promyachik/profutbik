@@ -1,0 +1,95 @@
+{
+  "slug": "el-hadji-malick-diouf-brentford-fc",
+  "player": "El Hadji Malick Diouf",
+  "full_name": "El Hadji Malick Diouf",
+  "transfermarkt_player_id": 1111589,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/1111589",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/1111589",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 48,
+  "from_club_name": "West Ham United",
+  "to_club_id": 55,
+  "to_club_name": "Brentford FC",
+  "title": "El Hadji Malick Diouf перешёл из West Ham United в Brentford FC",
+  "description": "Клуб Brentford FC подписал El Hadji Malick Diouf из клуба West Ham United.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Left-Back",
+  "position_ru": "Левый защитник",
+  "main_position": "LB",
+  "birth_date": "29.12.2004",
+  "age": 21,
+  "nationality": "Senegal",
+  "nationality_ru": "Сенегал",
+  "nationality_code": "SN",
+  "nationality_fifa_code": "SEN",
+  "nationality_flag_aliases": [
+    "SEN",
+    "SN",
+    "Senegal",
+    "flag-sn",
+    "sen",
+    "senegal",
+    "sn"
+  ],
+  "preferred_foot": "Левая",
+  "market_value": "€28 млн",
+  "market_value_display": "€28 млн",
+  "seo_body_md": "## El Hadji Malick Diouf переходит в Brentford FC\n\nКлуб **Brentford FC** объявил о подписании **El Hadji Malick Diouf**. Левый защитник перешёл из клуба **West Ham United**. Сделка оформлена **28 августа 2026 года**.\n\n## Детали перехода\n\nПо оценке Transfermarkt с 9 декабря 2025 года по 3 июня 2026 года стоимость Diouf не изменилась с €28 млн до €28 млн.\n\n## Что получает клуб\n\nВ составе клуба Brentford FC теперь 29 игроков со средним возрастом 25,0 года. Общая стоимость команды по Transfermarkt — €584,80 млн, в среднем €20,17 млн на игрока. Домашние матчи команда проводит в городе London. В новой команде игрок получил 25-й номер.\n\nНа этой же позиции в клубе значится ещё один игрок — Rico Henry. В рейтинге стоимости состава он занимает 11-е место из 29. В свои 21 год он моложе 22 партнёров команды.\n\nEl Hadji Malick Diouf родился в городе Dakar (Сенегал). Ранее выступал за: Galaxy Football Academy (2018-2022), Académie Mawade Wade (2022-2023).\n\nЗа сборную Сенегала игрок дебютировал 9 сентября 2024 года.\n\n## Карточка игрока\n\n- **Позиция:** левый защитник\n- **Прежний клуб:** West Ham United\n- **Новый клуб:** Brentford FC\n- **Гражданство:** Сенегал\n- **Дата рождения:** 29.12.2004\n- **Место рождения:** Dakar\n- **Рост:** 1,83 м\n- **Рабочая нога:** левая\n- **Игровой номер:** 25\n- **Рыночная стоимость Transfermarkt:** €28 млн\n- **Контракт до:** 30.06.2031\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/1111589",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-08-28",
+    "effective_transfer_date": "2026-08-28",
+    "parser_result": "official_permanent_transfer",
+    "player": "El Hadji Malick Diouf",
+    "from_club": "West Ham United",
+    "to_club": "Brentford FC",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "West Ham United": 48,
+      "Brentford FC": 55
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "diouf__west-ham-united__brentford-fc",
+    "built_at": "2026-09-05T13:39:00.433613+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2025-12-09",
+        "value_eur_m": 28.0
+      },
+      {
+        "date": "2026-06-03",
+        "value_eur_m": 28.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "ibrahim-mbaye-aston-villa",
+  "player": "Ibrahim Mbaye",
+  "full_name": "Ibrahim Mbaye",
+  "transfermarkt_player_id": 1185888,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/1185888",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/1185888",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 85,
+  "from_club_name": "Paris Saint-Germain",
+  "to_club_id": 66,
+  "to_club_name": "Aston Villa",
+  "title": "Ibrahim Mbaye перешёл из Paris Saint-Germain в Aston Villa",
+  "description": "Клуб Aston Villa подписал Ibrahim Mbaye из клуба Paris Saint-Germain.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Right Winger",
+  "position_ru": "Правый вингер",
+  "main_position": "RW",
+  "birth_date": "24.01.2008",
+  "age": 18,
+  "nationality": "Senegal",
+  "nationality_ru": "Сенегал",
+  "nationality_code": "SN",
+  "nationality_fifa_code": "SEN",
+  "nationality_flag_aliases": [
+    "SEN",
+    "SN",
+    "Senegal",
+    "flag-sn",
+    "sen",
+    "senegal",
+    "sn"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€30 млн",
+  "market_value_display": "€30 млн",
+  "seo_body_md": "## Ibrahim Mbaye переходит в Aston Villa\n\nКлуб **Aston Villa** объявил о подписании **Ibrahim Mbaye**. Правый вингер перешёл из клуба **Paris Saint-Germain**. Сделка оформлена **1 сентября 2026 года**.\n\n## Детали перехода\n\nПо оценке Transfermarkt с 27 марта 2026 года по 1 июня 2026 года стоимость Mbaye не изменилась с €30 млн до €30 млн.\n\n## Что получает клуб\n\nВ составе клуба Aston Villa теперь 27 игроков со средним возрастом 26,2 года. Общая стоимость команды по Transfermarkt — €572,30 млн, в среднем €21,20 млн на игрока. Домашние матчи команда проводит в городе Birmingham. В новой команде игрок получил 19-й номер.\n\nНа этой же позиции в клубе значится ещё один игрок — Alysson. В рейтинге стоимости состава он занимает 8-е место из 27. В свои 18 лет он моложе 25 партнёров команды.\n\nIbrahim Mbaye родился в городе Trappes (Сенегал). Ранее выступал за: ES Guyancourt (2013-2015), FC Versailles 78 (2015-2018), Paris Saint-Germain (2018-2024). Таким образом, это уже 4-й клуб в карьере Mbaye.\n\nЗа сборную Сенегала игрок дебютировал 15 ноября 2025 года.\n\n## Карточка игрока\n\n- **Позиция:** правый вингер\n- **Прежний клуб:** Paris Saint-Germain\n- **Новый клуб:** Aston Villa\n- **Гражданство:** Сенегал\n- **Дата рождения:** 24.01.2008\n- **Место рождения:** Trappes\n- **Рост:** 1,75 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 19\n- **Рыночная стоимость Transfermarkt:** €30 млн\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/1185888",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-01",
+    "effective_transfer_date": "2026-09-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "Ibrahim Mbaye",
+    "from_club": "Paris Saint-Germain",
+    "to_club": "Aston Villa",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Paris Saint-Germain": 85,
+      "Aston Villa": 66
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "mbaye__paris-saint-germain__aston-villa",
+    "built_at": "2026-09-05T13:39:00.449963+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2026-03-27",
+        "value_eur_m": 30.0
+      },
+      {
+        "date": "2026-06-01",
+        "value_eur_m": 30.0
+      }
+    ]
+  }
+}

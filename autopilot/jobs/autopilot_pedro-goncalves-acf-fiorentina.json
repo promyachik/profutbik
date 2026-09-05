@@ -1,0 +1,99 @@
+{
+  "slug": "pedro-goncalves-acf-fiorentina",
+  "player": "Pedro Gonçalves",
+  "full_name": "Pedro Gonçalves",
+  "transfermarkt_player_id": 426620,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/426620",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/426620",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 228,
+  "from_club_name": "Sporting CP",
+  "to_club_id": 502,
+  "to_club_name": "ACF Fiorentina",
+  "title": "Pedro Gonçalves перешёл из Sporting CP в ACF Fiorentina",
+  "description": "Клуб ACF Fiorentina подписал Pedro Gonçalves из клуба Sporting CP.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Left Winger",
+  "position_ru": "Левый вингер",
+  "main_position": "LW",
+  "birth_date": "28.06.1998",
+  "age": 28,
+  "nationality": "Portugal",
+  "nationality_ru": "Португалия",
+  "nationality_code": "PT",
+  "nationality_fifa_code": "POR",
+  "nationality_flag_aliases": [
+    "POR",
+    "PT",
+    "Portugal",
+    "flag-pt",
+    "por",
+    "portugal",
+    "pt"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€25 млн",
+  "market_value_display": "€25 млн",
+  "seo_body_md": "## Pedro Gonçalves: что известно о переходе в ACF Fiorentina\n\nКлуб **ACF Fiorentina** усилил состав и подписал **Pedro Gonçalves** из клуба **Sporting CP**. Переход оформлен **1 сентября 2026 года**.\n\n## Динамика стоимости\n\nПо оценке Transfermarkt с 27 декабря 2021 года по 28 мая 2026 года стоимость Gonçalves снизилась с €38 млн до €25 млн. Максимальная оценка за этот период — €38 млн.\n\n## Клуб назначения\n\nВ составе клуба ACF Fiorentina теперь 25 игроков со средним возрастом 25,0 года. Общая стоимость команды по Transfermarkt — €322,75 млн, в среднем €12,91 млн на игрока. Домашние матчи команда проводит в городе Firenze. В новой команде игрок получил 28-й номер.\n\nКонкуренцию на этой позиции составят ещё 3 игрока: Riccardo Sottil, Alieu Njie, Federico Croci. В рейтинге стоимости состава он занимает 4-е место из 25. В свои 28 лет он моложе 2 партнёров команды.\n\nPedro Gonçalves родился в городе Chaves (Португалия). Ранее выступал за: Vidago FC (2006-08).\n\n## Данные игрока\n\n- **Позиция:** левый вингер\n- **Прежний клуб:** Sporting CP\n- **Новый клуб:** ACF Fiorentina\n- **Гражданство:** Португалия\n- **Дата рождения:** 28.06.1998\n- **Место рождения:** Chaves\n- **Рост:** 1,73 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 28\n- **Рыночная стоимость Transfermarkt:** €25 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/426620",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-01",
+    "effective_transfer_date": "2026-09-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "Pedro Gonçalves",
+    "from_club": "Sporting CP",
+    "to_club": "ACF Fiorentina",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Sporting CP": 228,
+      "ACF Fiorentina": 502
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "goncalves__sporting-cp__acf-fiorentina",
+    "built_at": "2026-09-05T13:39:00.441761+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2021-12-27",
+        "value_eur_m": 38.0
+      },
+      {
+        "date": "2026-03-19",
+        "value_eur_m": 28.0
+      },
+      {
+        "date": "2026-05-28",
+        "value_eur_m": 25.0
+      }
+    ]
+  }
+}

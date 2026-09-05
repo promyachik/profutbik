@@ -1,0 +1,65 @@
+name: Autopilot tick
+
+on:
+  schedule:
+    # Раз в 30 минут. Один такт = один трансфер: у него пять обязательных
+    # частей, и при штучной публикации поломка видна сразу, а откатывается
+    # одна транзакция. Плюс домену несколько дней — сайт, получающий десятки
+    # страниц в час, для поиска выглядит свалкой.
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+    inputs:
+      discovery:
+        description: "Читать ленты (нет — работать только с очередью)"
+        type: boolean
+        default: true
+
+concurrency:
+  group: autopilot
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.163.3
+      PROMYACHIK_SITE: ${{ github.workspace }}
+      PROMYACHIK_PARSER: ${{ github.workspace }}/autopilot
+      PROMYACHIK_WORK: ${{ github.workspace }}/autopilot/work
+      PROMYACHIK_ENGINE: ${{ github.workspace }}/autopilot/engine/transfer-news-4-step-pipeline.py
+      API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Hugo
+        run: |
+          wget -q -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+          sudo dpkg -i hugo.deb
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Tick
+        run: |
+          if [ "${{ github.event.inputs.discovery }}" = "false" ]; then
+            python autopilot/bin/autopilot_tick.py --no-discovery
+          else
+            python autopilot/bin/autopilot_tick.py
+          fi
+
+      - name: Commit
+        run: |
+          git config user.name "profutbik-autopilot"
+          git config user.email "autopilot@profutbik.ru"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "изменений нет — такт прошёл вхолостую"
+            exit 0
+          fi
+          NEW=$(git diff --cached --name-only | grep -c '^content/transfers/' || true)
+          git commit -q -m "Автопилот: такт $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push

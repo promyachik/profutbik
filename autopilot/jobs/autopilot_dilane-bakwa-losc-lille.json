@@ -1,0 +1,99 @@
+{
+  "slug": "dilane-bakwa-losc-lille",
+  "player": "Dilane Bakwa",
+  "full_name": "Dilane Bakwa",
+  "transfermarkt_player_id": 540664,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/540664",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/540664",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 65,
+  "from_club_name": "Nottingham Forest",
+  "to_club_id": 79,
+  "to_club_name": "LOSC Lille",
+  "title": "Dilane Bakwa перешёл из Nottingham Forest в LOSC Lille",
+  "description": "Клуб LOSC Lille подписал Dilane Bakwa из клуба Nottingham Forest.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Right Winger",
+  "position_ru": "Правый вингер",
+  "main_position": "RW",
+  "birth_date": "26.08.2002",
+  "age": 24,
+  "nationality": "France",
+  "nationality_ru": "Франция",
+  "nationality_code": "FR",
+  "nationality_fifa_code": "FRA",
+  "nationality_flag_aliases": [
+    "FR",
+    "FRA",
+    "France",
+    "flag-fr",
+    "fr",
+    "fra",
+    "france"
+  ],
+  "preferred_foot": "Левая",
+  "market_value": "€28 млн",
+  "market_value_display": "€28 млн",
+  "seo_body_md": "## Dilane Bakwa: что известно о переходе в LOSC Lille\n\nКлуб **LOSC Lille** усилил состав и подписал **Dilane Bakwa** из клуба **Nottingham Forest**. Переход оформлен **26 августа 2026 года**.\n\n## Динамика стоимости\n\nПо оценке Transfermarkt с 17 октября 2025 года по 3 июня 2026 года стоимость Bakwa снизилась с €35 млн до €28 млн. Максимальная оценка за этот период — €35 млн.\n\n## Клуб назначения\n\nВ составе клуба LOSC Lille теперь 27 игроков со средним возрастом 25,9 года. Общая стоимость команды по Transfermarkt — €245,10 млн, в среднем €9,08 млн на игрока. Домашние матчи команда проводит в городе Camphin-en-Pévèle. В новой команде игрок получил 18-й номер.\n\nКонкуренцию на этой позиции составят ещё 2 игрока: Ethan Mbappé, Gaëtan Perrin. По оценке Transfermarkt это 1-й по стоимости игрок команды из 27. В свои 24 года он моложе 13 партнёров команды.\n\nDilane Bakwa родился в городе Créteil (Франция). Ранее выступал за: FC Boissy (2007-2013), US Lusitanos Saint-Maur (2013-2015), Girondins Bordeaux (2015-2019). Таким образом, это уже 4-й клуб в карьере Bakwa.\n\n## Данные игрока\n\n- **Позиция:** правый вингер\n- **Прежний клуб:** Nottingham Forest\n- **Новый клуб:** LOSC Lille\n- **Гражданство:** Франция\n- **Дата рождения:** 26.08.2002\n- **Место рождения:** Créteil\n- **Рост:** 1,8 м\n- **Рабочая нога:** левая\n- **Игровой номер:** 18\n- **Рыночная стоимость Transfermarkt:** €28 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/540664",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-08-26",
+    "effective_transfer_date": "2026-08-26",
+    "parser_result": "official_permanent_transfer",
+    "player": "Dilane Bakwa",
+    "from_club": "Nottingham Forest",
+    "to_club": "LOSC Lille",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Nottingham Forest": 65,
+      "LOSC Lille": 79
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "bakwa__nottingham-forest__losc-lille",
+    "built_at": "2026-09-05T13:39:00.427329+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2025-10-17",
+        "value_eur_m": 35.0
+      },
+      {
+        "date": "2026-03-09",
+        "value_eur_m": 28.0
+      },
+      {
+        "date": "2026-06-03",
+        "value_eur_m": 28.0
+      }
+    ]
+  }
+}

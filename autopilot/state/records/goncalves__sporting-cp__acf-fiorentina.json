@@ -1,0 +1,87 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "goncalves__sporting-cp__acf-fiorentina",
+  "player": "Gonçalves",
+  "player_full_name": "Pedro Gonçalves",
+  "from_club": "Sporting CP",
+  "to_club": "ACF Fiorentina",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "pipeline_state": "ENRICHED",
+  "backfill": true,
+  "source": {
+    "publisher": "Transfermarkt",
+    "tier": "reference",
+    "url": "https://www.transfermarkt.com/-/profil/spieler/426620",
+    "title": "Pedro Gonçalves: переход в ACF Fiorentina",
+    "published_iso": "2026-09-01T12:00:00+00:00"
+  },
+  "discovered_at": "2026-09-05T13:29:58.552853+00:00",
+  "enriched_at": "2026-09-05T13:38:07.579202+00:00",
+  "tm_to_club_id": "430",
+  "tm_player_id": "426620",
+  "birth_date": "1998-06-28",
+  "age": 28,
+  "position": "Left Winger",
+  "position_short": "LW",
+  "preferred_foot": "right",
+  "height": 1.73,
+  "contract_until": "2027-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/426620-1759778826.jpg",
+  "market_value_points": [
+    {
+      "date": "2021-12-27",
+      "value_eur_m": 38.0
+    },
+    {
+      "date": "2026-03-19",
+      "value_eur_m": 28.0
+    },
+    {
+      "date": "2026-05-28",
+      "value_eur_m": 25.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 136,
+    "secondNationalityId": 0
+  },
+  "birth_place": "Chaves",
+  "former_clubs_note": "Vidago FC (2006-08)",
+  "shirt_number": 28,
+  "is_captain": false,
+  "transfer_date": "2026-09-01",
+  "national_team_debut": "",
+  "squad_analysis": {
+    "same_position_count": 3,
+    "same_position_names": [
+      "Riccardo Sottil",
+      "Alieu Njie",
+      "Federico Croci"
+    ],
+    "value_rank": 4,
+    "squad_total": 25,
+    "younger_than": 2
+  },
+  "to_club_official_name": "ACF Fiorentina",
+  "to_club_context": {
+    "squad_size": 25,
+    "average_age": "25.0",
+    "squad_value": {
+      "prefix": "€",
+      "content": "322.75",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "12.91",
+      "suffix": "M"
+    },
+    "stadium": "Viale Manfredo Fanti, 4",
+    "city": "Firenze"
+  },
+  "verdict_reason": "",
+  "block_reason": "",
+  "block_detail": ""
+}

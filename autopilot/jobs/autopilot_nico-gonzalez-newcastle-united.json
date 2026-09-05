@@ -1,0 +1,95 @@
+{
+  "slug": "nico-gonzalez-newcastle-united",
+  "player": "Nico González",
+  "full_name": "Nico González",
+  "transfermarkt_player_id": 466805,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/466805",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/466805",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 50,
+  "from_club_name": "Manchester City",
+  "to_club_id": 34,
+  "to_club_name": "Newcastle United",
+  "title": "Nico González перешёл из Manchester City в Newcastle United",
+  "description": "Клуб Newcastle United подписал Nico González из клуба Manchester City.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Defensive Midfield",
+  "position_ru": "Опорный полузащитник",
+  "main_position": "DM",
+  "birth_date": "03.01.2002",
+  "age": 24,
+  "nationality": "Spain",
+  "nationality_ru": "Испания",
+  "nationality_code": "ES",
+  "nationality_fifa_code": "ESP",
+  "nationality_flag_aliases": [
+    "ES",
+    "ESP",
+    "Spain",
+    "es",
+    "esp",
+    "flag-es",
+    "spain"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€40 млн",
+  "market_value_display": "€40 млн",
+  "seo_body_md": "## Nico González стал игроком Newcastle United\n\n**Nico González** — опорный полузащитник, которому 24 — продолжит карьеру в клубе **Newcastle United**, покинув **Manchester City**. Переход состоялся **26 августа 2026 года**.\n\n## Карьера до перехода\n\nNico González родился в городе A Coruña (Испания). Путь игрока до нынешнего перехода: Atlético Coruña Montañeros CF (2009-2013), FC Barcelona (2013-2020).\n\n## Новый клуб\n\nВ составе клуба Newcastle United теперь 25 игроков со средним возрастом 26,0 года. Общая стоимость команды по Transfermarkt — €606,10 млн, в среднем €24,24 млн на игрока. Домашние матчи команда проводит в городе Newcastle upon Tyne. В новой команде игрок получил 6-й номер.\n\nНа этой же позиции в клубе значится ещё один игрок — Aladji Bamba. В рейтинге стоимости состава он занимает 5-е место из 25. В свои 24 года он моложе 12 партнёров команды.\n\nПо оценке Transfermarkt с 9 декабря 2025 года по 3 июня 2026 года стоимость González снизилась с €45 млн до €40 млн. Максимальная оценка за этот период — €45 млн.\n\n## Профиль игрока\n\n- **Позиция:** опорный полузащитник\n- **Прежний клуб:** Manchester City\n- **Новый клуб:** Newcastle United\n- **Гражданство:** Испания\n- **Дата рождения:** 03.01.2002\n- **Место рождения:** A Coruña\n- **Рост:** 1,88 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 6\n- **Рыночная стоимость Transfermarkt:** €40 млн\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/466805",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-08-26",
+    "effective_transfer_date": "2026-08-26",
+    "parser_result": "official_permanent_transfer",
+    "player": "Nico González",
+    "from_club": "Manchester City",
+    "to_club": "Newcastle United",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Manchester City": 50,
+      "Newcastle United": 34
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "gonzalez__manchester-city__newcastle-united",
+    "built_at": "2026-09-05T13:39:00.442535+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2025-12-09",
+        "value_eur_m": 45.0
+      },
+      {
+        "date": "2026-06-03",
+        "value_eur_m": 40.0
+      }
+    ]
+  }
+}

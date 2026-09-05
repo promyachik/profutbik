@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "kind": "negotiations",
+  "entity_id": "bissouma__unknown__chelsea",
+  "player": "Bissouma",
+  "from_club": "",
+  "to_club": "Chelsea",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "NEEDS_REVIEW",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c7903g4nvn3o?at_medium=RSS&at_campaign=rss",
+    "title": "Bissouma was offered to Chelsea - Saturday's gossip",
+    "published": "Fri, 04 Sep 2026 21:07:33 GMT",
+    "published_iso": "2026-09-04T21:07:33+00:00"
+  },
+  "discovered_at": "2026-09-05T11:51:40.615429+00:00",
+  "enriched_at": "2026-09-05T13:37:18.771826+00:00",
+  "tm_to_club_id": "631",
+  "block_reason": "RUMOUR_PLAYER_UNKNOWN",
+  "block_detail": "Bissouma не найден ни в составе Chelsea, ни в наших 148 составах — личность не подтверждена"
+}

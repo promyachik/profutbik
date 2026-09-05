@@ -1,0 +1,87 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "savio__manchester-city__tottenham-hotspur",
+  "player": "Sávio",
+  "player_full_name": "Sávio",
+  "from_club": "Manchester City",
+  "to_club": "Tottenham Hotspur",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "pipeline_state": "ENRICHED",
+  "backfill": true,
+  "source": {
+    "publisher": "Transfermarkt",
+    "tier": "reference",
+    "url": "https://www.transfermarkt.com/-/profil/spieler/743591",
+    "title": "Sávio: переход в Tottenham Hotspur",
+    "published_iso": "2026-08-25T12:00:00+00:00"
+  },
+  "discovered_at": "2026-09-05T13:29:58.546992+00:00",
+  "enriched_at": "2026-09-05T13:38:52.700079+00:00",
+  "tm_to_club_id": "148",
+  "tm_player_id": "743591",
+  "birth_date": "2004-04-10",
+  "age": 22,
+  "position": "Left Winger",
+  "position_short": "LW",
+  "preferred_foot": "left",
+  "height": 1.76,
+  "contract_until": "2031-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/743591-1751367497.jpg",
+  "market_value_points": [
+    {
+      "date": "2024-12-16",
+      "value_eur_m": 55.0
+    },
+    {
+      "date": "2026-03-09",
+      "value_eur_m": 40.0
+    },
+    {
+      "date": "2026-06-03",
+      "value_eur_m": 35.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 26,
+    "secondNationalityId": 0
+  },
+  "birth_place": "São Mateus",
+  "former_clubs_note": "Atlético Mineiro (2015-2020)",
+  "shirt_number": 17,
+  "is_captain": false,
+  "transfer_date": "2026-08-25",
+  "national_team_debut": "",
+  "squad_analysis": {
+    "same_position_count": 3,
+    "same_position_names": [
+      "Mathys Tel",
+      "Wilson Odobert",
+      "Mykhaylo Mudryk"
+    ],
+    "value_rank": 11,
+    "squad_total": 28,
+    "younger_than": 22
+  },
+  "to_club_official_name": "Tottenham Hotspur",
+  "to_club_context": {
+    "squad_size": 28,
+    "average_age": "26.6",
+    "squad_value": {
+      "prefix": "€",
+      "content": "824.00",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "29.43",
+      "suffix": "M"
+    },
+    "stadium": "Bill Nicholson Way, 748 High Road",
+    "city": "London"
+  },
+  "verdict_reason": "",
+  "block_reason": "",
+  "block_detail": ""
+}

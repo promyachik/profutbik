@@ -1,0 +1,99 @@
+{
+  "slug": "jean-clair-todibo-rc-lens",
+  "player": "Jean-Clair Todibo",
+  "full_name": "Jean-Clair Todibo",
+  "transfermarkt_player_id": 605184,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/605184",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/605184",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 48,
+  "from_club_name": "West Ham United",
+  "to_club_id": 116,
+  "to_club_name": "RC Lens",
+  "title": "Jean-Clair Todibo перешёл из West Ham United в RC Lens",
+  "description": "Клуб RC Lens подписал Jean-Clair Todibo из клуба West Ham United.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Centre-Back",
+  "position_ru": "Центральный защитник",
+  "main_position": "CB",
+  "birth_date": "30.12.1999",
+  "age": 26,
+  "nationality": "France",
+  "nationality_ru": "Франция",
+  "nationality_code": "FR",
+  "nationality_fifa_code": "FRA",
+  "nationality_flag_aliases": [
+    "FR",
+    "FRA",
+    "France",
+    "flag-fr",
+    "fr",
+    "fra",
+    "france"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€22 млн",
+  "market_value_display": "€22 млн",
+  "seo_body_md": "## Jean-Clair Todibo переходит в RC Lens\n\nКлуб **RC Lens** объявил о подписании **Jean-Clair Todibo**. Центральный защитник перешёл из клуба **West Ham United**. Сделка оформлена **1 сентября 2026 года**.\n\n## Детали перехода\n\nПо оценке Transfermarkt с 3 июня 2024 года по 3 июня 2026 года стоимость Todibo снизилась с €35 млн до €22 млн. Максимальная оценка за этот период — €35 млн.\n\n## Что получает клуб\n\nВ составе клуба RC Lens теперь 29 игроков со средним возрастом 26,4 года. Общая стоимость команды по Transfermarkt — €203,20 млн, в среднем €7,01 млн на игрока. Домашние матчи команда проводит в городе Avion. В новой команде игрок получил 20-й номер.\n\nКонкуренцию на этой позиции составят ещё 7 игроков: Samson Baidoo, Ismaëlo Ganiou, Nidal Celik, Kyllian Antonio. По оценке Transfermarkt это 3-й по стоимости игрок команды из 29. В свои 26 лет он моложе 12 партнёров команды.\n\nJean-Clair Todibo родился в городе Cayenne (Франция). Ранее выступал за: FC Les Lilas (2007-2016), Toulouse FC (2016-2018).\n\n## Карточка игрока\n\n- **Позиция:** центральный защитник\n- **Прежний клуб:** West Ham United\n- **Новый клуб:** RC Lens\n- **Гражданство:** Франция\n- **Дата рождения:** 30.12.1999\n- **Место рождения:** Cayenne\n- **Рост:** 1,9 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 20\n- **Рыночная стоимость Transfermarkt:** €22 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/605184",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-01",
+    "effective_transfer_date": "2026-09-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "Jean-Clair Todibo",
+    "from_club": "West Ham United",
+    "to_club": "RC Lens",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "West Ham United": 48,
+      "RC Lens": 116
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "todibo__west-ham-united__rc-lens",
+    "built_at": "2026-09-05T13:39:00.467822+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2024-06-03",
+        "value_eur_m": 35.0
+      },
+      {
+        "date": "2025-12-09",
+        "value_eur_m": 23.0
+      },
+      {
+        "date": "2026-06-03",
+        "value_eur_m": 22.0
+      }
+    ]
+  }
+}

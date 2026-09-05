@@ -1,0 +1,86 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "essugo__chelsea-fc__rc-strasbourg-alsace",
+  "player": "Essugo",
+  "player_full_name": "Dário Essugo",
+  "from_club": "Chelsea FC",
+  "to_club": "RC Strasbourg Alsace",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "pipeline_state": "ENRICHED",
+  "backfill": true,
+  "source": {
+    "publisher": "Transfermarkt",
+    "tier": "reference",
+    "url": "https://www.transfermarkt.com/-/profil/spieler/670717",
+    "title": "Dário Essugo: переход в RC Strasbourg Alsace",
+    "published_iso": "2026-09-01T12:00:00+00:00"
+  },
+  "discovered_at": "2026-09-05T13:29:58.572464+00:00",
+  "enriched_at": "2026-09-05T13:37:54.050855+00:00",
+  "tm_to_club_id": "667",
+  "tm_player_id": "670717",
+  "birth_date": "2005-03-14",
+  "age": 21,
+  "position": "Defensive Midfield",
+  "position_short": "DM",
+  "preferred_foot": "right",
+  "height": 1.78,
+  "contract_until": "2027-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/670717-1742314930.jpg",
+  "market_value_points": [
+    {
+      "date": "2025-12-09",
+      "value_eur_m": 20.0
+    },
+    {
+      "date": "2026-03-09",
+      "value_eur_m": 17.0
+    },
+    {
+      "date": "2026-06-03",
+      "value_eur_m": 15.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 136,
+    "secondNationalityId": 6
+  },
+  "birth_place": "Lisboa",
+  "former_clubs_note": "UDR Santa Maria (2013-2014), Sporting CP (2014-2021)",
+  "shirt_number": null,
+  "is_captain": false,
+  "transfer_date": "2026-09-01",
+  "national_team_debut": "",
+  "squad_analysis": {
+    "same_position_count": 2,
+    "same_position_names": [
+      "Diogo Sousa",
+      "Maxi Oyedele"
+    ],
+    "value_rank": 9,
+    "squad_total": 29,
+    "younger_than": 10
+  },
+  "to_club_official_name": "RC Strasbourg Alsace",
+  "to_club_context": {
+    "squad_size": 29,
+    "average_age": "21.5",
+    "squad_value": {
+      "prefix": "€",
+      "content": "287.45",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "9.91",
+      "suffix": "M"
+    },
+    "stadium": "12 rue de l’Extenwoerth",
+    "city": "Strasbourg"
+  },
+  "verdict_reason": "",
+  "block_reason": "",
+  "block_detail": ""
+}

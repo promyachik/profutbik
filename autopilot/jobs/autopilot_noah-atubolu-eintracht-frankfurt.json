@@ -1,0 +1,95 @@
+{
+  "slug": "noah-atubolu-eintracht-frankfurt",
+  "player": "Noah Atubolu",
+  "full_name": "Noah Atubolu",
+  "transfermarkt_player_id": 526845,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/526845",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/526845",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 160,
+  "from_club_name": "SC Freiburg",
+  "to_club_id": 169,
+  "to_club_name": "Eintracht Frankfurt",
+  "title": "Noah Atubolu перешёл из SC Freiburg в Eintracht Frankfurt",
+  "description": "Клуб Eintracht Frankfurt подписал Noah Atubolu из клуба SC Freiburg.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Goalkeeper",
+  "position_ru": "Вратарь",
+  "main_position": "GK",
+  "birth_date": "25.05.2002",
+  "age": 24,
+  "nationality": "Germany",
+  "nationality_ru": "Германия",
+  "nationality_code": "DE",
+  "nationality_fifa_code": "GER",
+  "nationality_flag_aliases": [
+    "DE",
+    "GER",
+    "Germany",
+    "de",
+    "flag-de",
+    "ger",
+    "germany"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€25 млн",
+  "market_value_display": "€25 млн",
+  "seo_body_md": "## Noah Atubolu: что известно о переходе в Eintracht Frankfurt\n\nКлуб **Eintracht Frankfurt** усилил состав и подписал **Noah Atubolu** из клуба **SC Freiburg**. Переход оформлен **28 августа 2026 года**.\n\n## Динамика стоимости\n\nПо оценке Transfermarkt с 19 декабря 2025 года по 27 мая 2026 года стоимость Atubolu выросла с €20 млн до €25 млн.\n\n## Клуб назначения\n\nВ составе клуба Eintracht Frankfurt теперь 26 игроков со средним возрастом 24,6 года. Общая стоимость команды по Transfermarkt — €288,25 млн, в среднем €11,09 млн на игрока. Домашние матчи команда проводит в городе Frankfurt am Main. В новой команде игрок получил 1-й номер.\n\nКонкуренцию на этой позиции составят ещё 3 игрока: Kauã Santos, Jens Grahl, Amil Siljevic. По оценке Transfermarkt это 3-й по стоимости игрок команды из 26. В свои 24 года он моложе 9 партнёров команды.\n\nNoah Atubolu родился в городе Freiburg im Breisgau (Германия). Ранее выступал за: Freiburger FC (-2015), SC Freiburg (2015-2020).\n\n## Данные игрока\n\n- **Позиция:** вратарь\n- **Прежний клуб:** SC Freiburg\n- **Новый клуб:** Eintracht Frankfurt\n- **Гражданство:** Германия\n- **Дата рождения:** 25.05.2002\n- **Место рождения:** Freiburg im Breisgau\n- **Рост:** 1,9 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 1\n- **Рыночная стоимость Transfermarkt:** €25 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/526845",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-08-28",
+    "effective_transfer_date": "2026-08-28",
+    "parser_result": "official_permanent_transfer",
+    "player": "Noah Atubolu",
+    "from_club": "SC Freiburg",
+    "to_club": "Eintracht Frankfurt",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "SC Freiburg": 160,
+      "Eintracht Frankfurt": 169
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "atubolu__sc-freiburg__eintracht-frankfurt",
+    "built_at": "2026-09-05T13:39:00.425169+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2025-12-19",
+        "value_eur_m": 20.0
+      },
+      {
+        "date": "2026-05-27",
+        "value_eur_m": 25.0
+      }
+    ]
+  }
+}

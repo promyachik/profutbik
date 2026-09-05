@@ -1,0 +1,82 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "karouani__fc-utrecht__sl-benfica",
+  "player": "Karouani",
+  "player_full_name": "Souffian El Karouani",
+  "from_club": "FC Utrecht",
+  "to_club": "SL Benfica",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "pipeline_state": "ENRICHED",
+  "backfill": true,
+  "source": {
+    "publisher": "Transfermarkt",
+    "tier": "reference",
+    "url": "https://www.transfermarkt.com/-/profil/spieler/541134",
+    "title": "Souffian El Karouani: переход в SL Benfica",
+    "published_iso": "2026-09-01T12:00:00+00:00"
+  },
+  "discovered_at": "2026-09-05T13:29:58.573235+00:00",
+  "enriched_at": "2026-09-05T13:38:18.654580+00:00",
+  "tm_to_club_id": "294",
+  "tm_player_id": "541134",
+  "birth_date": "2000-10-19",
+  "age": 25,
+  "position": "Left-Back",
+  "position_short": "LB",
+  "preferred_foot": "left",
+  "height": 1.78,
+  "contract_until": "2027-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/541134-1723460557.jpg",
+  "market_value_points": [
+    {
+      "date": "2025-12-02",
+      "value_eur_m": 15.0
+    },
+    {
+      "date": "2026-05-28",
+      "value_eur_m": 15.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 107,
+    "secondNationalityId": 122
+  },
+  "birth_place": "Den Bosch",
+  "former_clubs_note": "VV TGG (-2008), FC Den Bosch (2008-), BVV Den Bosch (-2016), Elinkwijk (2016-2017), NEC Nijmegen (2017-2019)",
+  "shirt_number": 34,
+  "is_captain": false,
+  "transfer_date": "2026-09-01",
+  "national_team_debut": "",
+  "squad_analysis": {
+    "same_position_count": 2,
+    "same_position_names": [
+      "Samuel Dahl",
+      "José Neto"
+    ],
+    "value_rank": 10,
+    "squad_total": 27,
+    "younger_than": 9
+  },
+  "to_club_official_name": "SL Benfica",
+  "to_club_context": {
+    "squad_size": 27,
+    "average_age": "25.0",
+    "squad_value": {
+      "prefix": "€",
+      "content": "377.05",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "13.96",
+      "suffix": "M"
+    },
+    "stadium": "Avenida General Norton de Matos 1500",
+    "city": "Lisboa"
+  },
+  "verdict_reason": "",
+  "block_reason": "",
+  "block_detail": ""
+}

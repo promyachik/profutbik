@@ -1,0 +1,79 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "ouahdi__krc-genk__hamburger-sv",
+  "player": "Ouahdi",
+  "player_full_name": "Zakaria El Ouahdi",
+  "from_club": "KRC Genk",
+  "to_club": "Hamburger SV",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "pipeline_state": "ENRICHED",
+  "backfill": true,
+  "source": {
+    "publisher": "Transfermarkt",
+    "tier": "reference",
+    "url": "https://www.transfermarkt.com/-/profil/spieler/820474",
+    "title": "Zakaria El Ouahdi: переход в Hamburger SV",
+    "published_iso": "2026-09-01T12:00:00+00:00"
+  },
+  "discovered_at": "2026-09-05T13:29:58.568194+00:00",
+  "enriched_at": "2026-09-05T13:38:33.800830+00:00",
+  "tm_to_club_id": "41",
+  "tm_player_id": "820474",
+  "birth_date": "2001-12-31",
+  "age": 24,
+  "position": "Right-Back",
+  "position_short": "RB",
+  "preferred_foot": "right",
+  "height": 1.71,
+  "contract_until": "2031-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/820474-1714037470.png",
+  "market_value_points": [
+    {
+      "date": "2025-12-10",
+      "value_eur_m": 15.0
+    },
+    {
+      "date": "2026-06-04",
+      "value_eur_m": 17.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 107,
+    "secondNationalityId": 19
+  },
+  "birth_place": "Hoboken",
+  "former_clubs_note": "Beerschot AC (2010-2011), R Antwerp FC (2011), Chase Antwerpen (zaalvoetbal, 2012-2013), Zulte Waregem (2015-2019), Berchem Sport (2019-2020), FC Rupel Boom (2020)",
+  "shirt_number": 7,
+  "is_captain": false,
+  "transfer_date": "2026-09-01",
+  "national_team_debut": "2025-06-09",
+  "squad_analysis": {
+    "same_position_count": 0,
+    "same_position_names": [],
+    "value_rank": 2,
+    "squad_total": 28,
+    "younger_than": 15
+  },
+  "to_club_official_name": "Hamburger SV",
+  "to_club_context": {
+    "squad_size": 28,
+    "average_age": "24.7",
+    "squad_value": {
+      "prefix": "€",
+      "content": "152.95",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "5.46",
+      "suffix": "M"
+    },
+    "stadium": "Uwe-Seeler-Allee 9",
+    "city": "Hamburg"
+  },
+  "verdict_reason": "",
+  "block_reason": "",
+  "block_detail": ""
+}

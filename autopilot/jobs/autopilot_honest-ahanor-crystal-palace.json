@@ -1,0 +1,95 @@
+{
+  "slug": "honest-ahanor-crystal-palace",
+  "player": "Honest Ahanor",
+  "full_name": "Honest Ahanor",
+  "transfermarkt_player_id": 1077175,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/1077175",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/1077175",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 499,
+  "from_club_name": "Atalanta BC",
+  "to_club_id": 52,
+  "to_club_name": "Crystal Palace",
+  "title": "Honest Ahanor перешёл из Atalanta BC в Crystal Palace",
+  "description": "Клуб Crystal Palace подписал Honest Ahanor из клуба Atalanta BC.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Centre-Back",
+  "position_ru": "Центральный защитник",
+  "main_position": "CB",
+  "birth_date": "23.02.2008",
+  "age": 18,
+  "nationality": "Italy",
+  "nationality_ru": "Италия",
+  "nationality_code": "IT",
+  "nationality_fifa_code": "ITA",
+  "nationality_flag_aliases": [
+    "IT",
+    "ITA",
+    "Italy",
+    "flag-it",
+    "it",
+    "ita",
+    "italy"
+  ],
+  "preferred_foot": "Левая",
+  "market_value": "€30 млн",
+  "market_value_display": "€30 млн",
+  "seo_body_md": "## Honest Ahanor переходит в Crystal Palace\n\nКлуб **Crystal Palace** объявил о подписании **Honest Ahanor**. Центральный защитник перешёл из клуба **Atalanta BC**. Сделка оформлена **1 сентября 2026 года**.\n\n## Детали перехода\n\nПо оценке Transfermarkt с 23 декабря 2025 года по 29 мая 2026 года стоимость Ahanor выросла с €25 млн до €30 млн.\n\n## Что получает клуб\n\nВ составе клуба Crystal Palace теперь 28 игроков со средним возрастом 26,6 года. Общая стоимость команды по Transfermarkt — €579,20 млн, в среднем €20,69 млн на игрока. Домашние матчи команда проводит в городе London. В новой команде игрок получил 21-й номер.\n\nКонкуренцию на этой позиции составят ещё 5 игроков: Jaydee Canvot, Chris Richards, Chadi Riad, Axel Disasi. В рейтинге стоимости состава он занимает 4-е место из 28. В свои 18 лет он моложе 27 партнёров команды.\n\nHonest Ahanor родился в городе Aversa (Италия). Ранее выступал за: Progetto Atletico Genoa (2011-2013).\n\nЗа сборную Италии игрок дебютировал 3 июня 2026 года.\n\n## Карточка игрока\n\n- **Позиция:** центральный защитник\n- **Прежний клуб:** Atalanta BC\n- **Новый клуб:** Crystal Palace\n- **Гражданство:** Италия\n- **Дата рождения:** 23.02.2008\n- **Место рождения:** Aversa\n- **Рост:** 1,84 м\n- **Рабочая нога:** левая\n- **Игровой номер:** 21\n- **Рыночная стоимость Transfermarkt:** €30 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/1077175",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-01",
+    "effective_transfer_date": "2026-09-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "Honest Ahanor",
+    "from_club": "Atalanta BC",
+    "to_club": "Crystal Palace",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Atalanta BC": 499,
+      "Crystal Palace": 52
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "ahanor__atalanta-bc__crystal-palace",
+    "built_at": "2026-09-05T13:39:00.422555+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2025-12-23",
+        "value_eur_m": 25.0
+      },
+      {
+        "date": "2026-05-29",
+        "value_eur_m": 30.0
+      }
+    ]
+  }
+}

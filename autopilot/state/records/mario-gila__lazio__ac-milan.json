@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "entity_id": "mario-gila__lazio__ac-milan",
+  "player": "Mario Gila",
+  "player_display": "Mario Gila",
+  "from_club": "Lazio",
+  "to_club": "AC Milan",
+  "league": "Serie A",
+  "status": "official",
+  "status_display": "ОФИЦИАЛЬНО",
+  "fee": null,
+  "fee_display": "Сумма не раскрыта",
+  "fee_source_status": "not_disclosed_by_official_source",
+  "announced_date": "2026-07-10",
+  "sections": [
+    "news",
+    "transfers"
+  ],
+  "source": {
+    "publisher": "AC Milan",
+    "url": "https://www.acmilan.com/en/news/articles/media/2026-07-10/official-statement-mario-gila",
+    "title": "OFFICIAL STATEMENT: MARIO GILA",
+    "description": "",
+    "image_url": "",
+    "raw_sha256": "7eb9bc0f4d247738efb7d0039e4fe174f157a7dc841da88c894fdbec22f861ab",
+    "raw_file": "C:\\Users\\Dmitrii\\ProFutbik\\parser\\raw\\mario-gila__lazio__ac-milan__7eb9bc0f4d24.html"
+  },
+  "publication": {
+    "site_write_enabled": false,
+    "site_published": false,
+    "admin_required": false,
+    "next_stage": "build_transfer_draft"
+  },
+  "status_history": [
+    {
+      "status": "official",
+      "recorded_at": "2026-07-22T16:47:15.427994+00:00",
+      "source_url": "https://www.acmilan.com/en/news/articles/media/2026-07-10/official-statement-mario-gila"
+    }
+  ],
+  "first_seen_at": "2026-07-22T16:47:15.427994+00:00",
+  "last_seen_at": "2026-07-22T16:47:15.427994+00:00",
+  "fetch_count": 1
+}

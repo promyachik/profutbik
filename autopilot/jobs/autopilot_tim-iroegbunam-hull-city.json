@@ -1,0 +1,95 @@
+{
+  "slug": "tim-iroegbunam-hull-city",
+  "player": "Tim Iroegbunam",
+  "full_name": "Tim Iroegbunam",
+  "transfermarkt_player_id": 696589,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/696589",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/696589",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 45,
+  "from_club_name": "Everton FC",
+  "to_club_id": 64,
+  "to_club_name": "Hull City",
+  "title": "Tim Iroegbunam перешёл из Everton FC в Hull City",
+  "description": "Клуб Hull City подписал Tim Iroegbunam из клуба Everton FC.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Central Midfield",
+  "position_ru": "Центральный полузащитник",
+  "main_position": "CM",
+  "birth_date": "30.06.2003",
+  "age": 23,
+  "nationality": "England",
+  "nationality_ru": "Англия",
+  "nationality_code": "GB-ENG",
+  "nationality_fifa_code": "ENG",
+  "nationality_flag_aliases": [
+    "ENG",
+    "England",
+    "GB-ENG",
+    "eng",
+    "england",
+    "flag-gb-eng",
+    "gb-eng"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€18 млн",
+  "market_value_display": "€18 млн",
+  "seo_body_md": "## Tim Iroegbunam: что известно о переходе в Hull City\n\nКлуб **Hull City** усилил состав и подписал **Tim Iroegbunam** из клуба **Everton FC**. Переход оформлен **1 сентября 2026 года**.\n\n## Динамика стоимости\n\nПо оценке Transfermarkt с 9 марта 2026 года по 3 июня 2026 года стоимость Iroegbunam выросла с €15 млн до €18 млн.\n\n## Клуб назначения\n\nВ составе клуба Hull City теперь 34 игрока со средним возрастом 26,2 года. Общая стоимость команды по Transfermarkt — €252,90 млн, в среднем €7,44 млн на игрока. Домашние матчи команда проводит в городе Hull. В новой команде игрок получил 42-й номер.\n\nКонкуренцию на этой позиции составят ещё 6 игроков: Christos Mouzakitis, Jens Hjertø-Dahl, Hidemasa Morita, Darko Gyabi. По оценке Transfermarkt это 3-й по стоимости игрок команды из 34. В свои 23 года он моложе 20 партнёров команды.\n\nTim Iroegbunam родился в городе Birmingham (Англия). Ранее выступал за: Sutton United (2010-2011), West Bromwich Albion (2011-2021).\n\n## Данные игрока\n\n- **Позиция:** центральный полузащитник\n- **Прежний клуб:** Everton FC\n- **Новый клуб:** Hull City\n- **Гражданство:** Англия\n- **Дата рождения:** 30.06.2003\n- **Место рождения:** Birmingham\n- **Рост:** 1,83 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 42\n- **Рыночная стоимость Transfermarkt:** €18 млн\n- **Контракт до:** 30.06.2031\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/696589",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-01",
+    "effective_transfer_date": "2026-09-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "Tim Iroegbunam",
+    "from_club": "Everton FC",
+    "to_club": "Hull City",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Everton FC": 45,
+      "Hull City": 64
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "iroegbunam__everton-fc__hull-city",
+    "built_at": "2026-09-05T13:39:00.445021+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2026-03-09",
+        "value_eur_m": 15.0
+      },
+      {
+        "date": "2026-06-03",
+        "value_eur_m": 18.0
+      }
+    ]
+  }
+}

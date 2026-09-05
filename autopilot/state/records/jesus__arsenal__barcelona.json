@@ -1,0 +1,83 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "jesus__arsenal__barcelona",
+  "player": "Jesus",
+  "from_club": "Arsenal",
+  "to_club": "Barcelona",
+  "fee_raw": "",
+  "verdict": "DUPLICATE_EXISTING",
+  "verdict_reason": "TM ID 363205 уже на сайте: gabriel-jesus-barcelona",
+  "pipeline_state": "SKIPPED_DUPLICATE",
+  "source": {
+    "publisher": "Sky Sports",
+    "tier": "major_media",
+    "url": "https://news.sky.com/story/gabriel-jesus-arsenal-forward-completes-barcelona-transfer-in-86m-deal-on-deadline-day-13579275",
+    "title": "Jesus joins Barcelona in 'dream' move from Arsenal",
+    "published": "Tue, 01 Sep 2026 13:45:00 +0100",
+    "published_iso": "2026-09-01T12:45:00+00:00"
+  },
+  "discovered_at": "2026-09-01T16:50:02.006995+00:00",
+  "enriched_at": "2026-09-05T13:38:13.970777+00:00",
+  "tm_to_club_id": "131",
+  "tm_player_id": "363205",
+  "player_full_name": "Gabriel Jesus",
+  "birth_date": "1997-04-03",
+  "age": 29,
+  "position": "Centre-Forward",
+  "position_short": "CF",
+  "preferred_foot": "right",
+  "height": 1.75,
+  "contract_until": "2029-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/363205-1669711141.jpg",
+  "market_value_points": [
+    {
+      "date": "2018-05-28",
+      "value_eur_m": 80.0
+    },
+    {
+      "date": "2025-12-09",
+      "value_eur_m": 20.0
+    },
+    {
+      "date": "2026-06-03",
+      "value_eur_m": 17.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 26,
+    "secondNationalityId": 0
+  },
+  "birth_place": "São Paulo",
+  "former_clubs_note": "SE Palmeiras (2013-2015)",
+  "shirt_number": 9,
+  "is_captain": false,
+  "transfer_date": "2026-09-01",
+  "national_team_debut": "",
+  "squad_analysis": {
+    "same_position_count": 1,
+    "same_position_names": [
+      "Hamza Abdelkarim"
+    ],
+    "value_rank": 18,
+    "squad_total": 27,
+    "younger_than": 5
+  },
+  "to_club_official_name": "FC Barcelona",
+  "to_club_context": {
+    "squad_size": 27,
+    "average_age": "25.2",
+    "squad_value": {
+      "prefix": "€",
+      "content": "1.26",
+      "suffix": "B"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "46.76",
+      "suffix": "M"
+    },
+    "stadium": "Avinguda Arístides Maillol ",
+    "city": "Barcelona"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "exequiel-palacios-ipswich-town",
+  "player": "Exequiel Palacios",
+  "full_name": "Exequiel Palacios",
+  "transfermarkt_player_id": 401578,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/401578",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/401578",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 168,
+  "from_club_name": "Bayer 04 Leverkusen",
+  "to_club_id": 57,
+  "to_club_name": "Ipswich Town",
+  "title": "Exequiel Palacios перешёл из Bayer 04 Leverkusen в Ipswich Town",
+  "description": "Клуб Ipswich Town подписал Exequiel Palacios из клуба Bayer 04 Leverkusen.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Central Midfield",
+  "position_ru": "Центральный полузащитник",
+  "main_position": "CM",
+  "birth_date": "05.10.1998",
+  "age": 27,
+  "nationality": "Argentina",
+  "nationality_ru": "Аргентина",
+  "nationality_code": "AR",
+  "nationality_fifa_code": "ARG",
+  "nationality_flag_aliases": [
+    "AR",
+    "ARG",
+    "Argentina",
+    "ar",
+    "arg",
+    "argentina",
+    "flag-ar"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€25 млн",
+  "market_value_display": "€25 млн",
+  "seo_body_md": "## Exequiel Palacios: что известно о переходе в Ipswich Town\n\nКлуб **Ipswich Town** усилил состав и подписал **Exequiel Palacios** из клуба **Bayer 04 Leverkusen**. Переход оформлен **27 августа 2026 года**.\n\n## Динамика стоимости\n\nПо оценке Transfermarkt с 29 мая 2024 года по 27 мая 2026 года стоимость Palacios снизилась с €45 млн до €25 млн. Максимальная оценка за этот период — €45 млн.\n\n## Клуб назначения\n\nВ составе клуба Ipswich Town теперь 28 игроков со средним возрастом 27,2 года. Общая стоимость команды по Transfermarkt — €330,55 млн, в среднем €11,81 млн на игрока. Домашние матчи команда проводит в городе Ipswich. В новой команде игрок получил 25-й номер.\n\nКонкуренцию на этой позиции составят ещё 3 игрока: Marcelino Núñez, Saša Lukić, Jack Taylor. По оценке Transfermarkt это 1-й по стоимости игрок команды из 28. В свои 27 лет он моложе 12 партнёров команды.\n\nExequiel Palacios родился в городе Famaillá (Аргентина). Ранее выступал за: CA River Plate (-2015).\n\nЗа сборную Аргентины игрок дебютировал 8 сентября 2018 года.\n\n## Данные игрока\n\n- **Позиция:** центральный полузащитник\n- **Прежний клуб:** Bayer 04 Leverkusen\n- **Новый клуб:** Ipswich Town\n- **Гражданство:** Аргентина\n- **Дата рождения:** 05.10.1998\n- **Место рождения:** Famaillá\n- **Рост:** 1,77 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 25\n- **Рыночная стоимость Transfermarkt:** €25 млн\n- **Контракт до:** 30.06.2030\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/401578",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-08-27",
+    "effective_transfer_date": "2026-08-27",
+    "parser_result": "official_permanent_transfer",
+    "player": "Exequiel Palacios",
+    "from_club": "Bayer 04 Leverkusen",
+    "to_club": "Ipswich Town",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Bayer 04 Leverkusen": 168,
+      "Ipswich Town": 57
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "palacios__bayer-04-leverkusen__ipswich-town",
+    "built_at": "2026-09-05T13:39:00.458974+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2024-05-29",
+        "value_eur_m": 45.0
+      },
+      {
+        "date": "2025-12-19",
+        "value_eur_m": 30.0
+      },
+      {
+        "date": "2026-05-27",
+        "value_eur_m": 25.0
+      }
+    ]
+  }
+}

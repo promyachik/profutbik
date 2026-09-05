@@ -1,0 +1,99 @@
+{
+  "slug": "omar-marmoush-tottenham-hotspur",
+  "player": "Omar Marmoush",
+  "full_name": "Omar Marmoush",
+  "transfermarkt_player_id": 445939,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/445939",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/445939",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 50,
+  "from_club_name": "Manchester City",
+  "to_club_id": 47,
+  "to_club_name": "Tottenham Hotspur",
+  "title": "Omar Marmoush перешёл из Manchester City в Tottenham Hotspur",
+  "description": "Клуб Tottenham Hotspur подписал Omar Marmoush из клуба Manchester City.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Centre-Forward",
+  "position_ru": "Центральный нападающий",
+  "main_position": "CF",
+  "birth_date": "07.02.1999",
+  "age": 27,
+  "nationality": "Egypt",
+  "nationality_ru": "Египет",
+  "nationality_code": "EG",
+  "nationality_fifa_code": "EGY",
+  "nationality_flag_aliases": [
+    "EG",
+    "EGY",
+    "Egypt",
+    "eg",
+    "egy",
+    "egypt",
+    "flag-eg"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€50 млн",
+  "market_value_display": "€50 млн",
+  "seo_body_md": "## Omar Marmoush стал игроком Tottenham Hotspur\n\n**Omar Marmoush** — центральный нападающий, которому 27 — продолжит карьеру в клубе **Tottenham Hotspur**, покинув **Manchester City**. Переход состоялся **27 августа 2026 года**.\n\n## Карьера до перехода\n\nOmar Marmoush родился в городе Cairo (Египет). Путь игрока до нынешнего перехода: Wadi Degla FC (2005-2016).\n\nЗа сборную Египта игрок дебютировал 8 октября 2021 года.\n\n## Новый клуб\n\nВ составе клуба Tottenham Hotspur теперь 28 игроков со средним возрастом 26,6 года. Общая стоимость команды по Transfermarkt — €824,00 млн, в среднем €29,43 млн на игрока. Домашние матчи команда проводит в городе London. В новой команде игрок получил 22-й номер.\n\nКонкуренцию на этой позиции составят ещё 2 игрока: Dominic Solanke, Richarlison. В рейтинге стоимости состава он занимает 6-е место из 28. В свои 27 лет он моложе 9 партнёров команды.\n\nПо оценке Transfermarkt с 30 мая 2025 года по 3 июня 2026 года стоимость Marmoush снизилась с €75 млн до €50 млн. Максимальная оценка за этот период — €75 млн.\n\n## Профиль игрока\n\n- **Позиция:** центральный нападающий\n- **Прежний клуб:** Manchester City\n- **Новый клуб:** Tottenham Hotspur\n- **Гражданство:** Египет\n- **Дата рождения:** 07.02.1999\n- **Место рождения:** Cairo\n- **Рост:** 1,83 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 22\n- **Рыночная стоимость Transfermarkt:** €50 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/445939",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-08-27",
+    "effective_transfer_date": "2026-08-27",
+    "parser_result": "official_permanent_transfer",
+    "player": "Omar Marmoush",
+    "from_club": "Manchester City",
+    "to_club": "Tottenham Hotspur",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Manchester City": 50,
+      "Tottenham Hotspur": 47
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "marmoush__manchester-city__tottenham-hotspur",
+    "built_at": "2026-09-05T13:39:00.449135+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2025-05-30",
+        "value_eur_m": 75.0
+      },
+      {
+        "date": "2026-03-09",
+        "value_eur_m": 60.0
+      },
+      {
+        "date": "2026-06-03",
+        "value_eur_m": 50.0
+      }
+    ]
+  }
+}

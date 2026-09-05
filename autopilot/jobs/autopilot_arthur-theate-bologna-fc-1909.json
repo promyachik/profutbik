@@ -1,0 +1,99 @@
+{
+  "slug": "arthur-theate-bologna-fc-1909",
+  "player": "Arthur Theate",
+  "full_name": "Arthur Theate",
+  "transfermarkt_player_id": 368891,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/368891",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/368891",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 169,
+  "from_club_name": "Eintracht Frankfurt",
+  "to_club_id": 500,
+  "to_club_name": "Bologna FC 1909",
+  "title": "Arthur Theate перешёл из Eintracht Frankfurt в Bologna FC 1909",
+  "description": "Клуб Bologna FC 1909 подписал Arthur Theate из клуба Eintracht Frankfurt.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Centre-Back",
+  "position_ru": "Центральный защитник",
+  "main_position": "CB",
+  "birth_date": "25.05.2000",
+  "age": 26,
+  "nationality": "Belgium",
+  "nationality_ru": "Бельгия",
+  "nationality_code": "BE",
+  "nationality_fifa_code": "BEL",
+  "nationality_flag_aliases": [
+    "BE",
+    "BEL",
+    "Belgium",
+    "be",
+    "bel",
+    "belgium",
+    "flag-be"
+  ],
+  "preferred_foot": "Левая",
+  "market_value": "€17 млн",
+  "market_value_display": "€17 млн",
+  "seo_body_md": "## Arthur Theate стал игроком Bologna FC 1909\n\n**Arthur Theate** — центральный защитник, которому 26 — продолжит карьеру в клубе **Bologna FC 1909**, покинув **Eintracht Frankfurt**. Переход состоялся **30 августа 2026 года**.\n\n## Карьера до перехода\n\nArthur Theate родился в городе Liège (Бельгия). Путь игрока до нынешнего перехода: Alliance Melen-Micheroux (2005-09).\n\nЗа сборную Бельгии игрок дебютировал 16 ноября 2021 года.\n\n## Новый клуб\n\nВ составе клуба Bologna FC 1909 теперь 27 игроков со средним возрастом 26,6 года. Общая стоимость команды по Transfermarkt — €219,75 млн, в среднем €8,14 млн на игрока. Домашние матчи команда проводит в городе Bologna. В новой команде игрок получил 3-й номер.\n\nКонкуренцию на этой позиции составят ещё 4 игрока: Torbjørn Heggem, Martin Vitík, Eivind Helland, Nicolò Casale. По оценке Transfermarkt это 1-й по стоимости игрок команды из 27. В свои 26 лет он моложе 13 партнёров команды.\n\nПо оценке Transfermarkt с 19 декабря 2025 года по 27 мая 2026 года стоимость Theate снизилась с €24 млн до €17 млн. Максимальная оценка за этот период — €24 млн.\n\n## Профиль игрока\n\n- **Позиция:** центральный защитник\n- **Прежний клуб:** Eintracht Frankfurt\n- **Новый клуб:** Bologna FC 1909\n- **Гражданство:** Бельгия\n- **Дата рождения:** 25.05.2000\n- **Место рождения:** Liège\n- **Рост:** 1,85 м\n- **Рабочая нога:** левая\n- **Игровой номер:** 3\n- **Рыночная стоимость Transfermarkt:** €17 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/368891",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-08-30",
+    "effective_transfer_date": "2026-08-30",
+    "parser_result": "official_permanent_transfer",
+    "player": "Arthur Theate",
+    "from_club": "Eintracht Frankfurt",
+    "to_club": "Bologna FC 1909",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Eintracht Frankfurt": 169,
+      "Bologna FC 1909": 500
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "theate__eintracht-frankfurt__bologna-fc-1909",
+    "built_at": "2026-09-05T13:39:00.466803+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2025-12-19",
+        "value_eur_m": 24.0
+      },
+      {
+        "date": "2026-03-20",
+        "value_eur_m": 20.0
+      },
+      {
+        "date": "2026-05-27",
+        "value_eur_m": 17.0
+      }
+    ]
+  }
+}

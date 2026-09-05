@@ -1,0 +1,150 @@
+{
+  "built_at": "2026-09-01T15:59:31.685294+00:00",
+  "source": "site pages + TM player API",
+  "countries": {
+    "50": {
+      "name": "France",
+      "name_ru": "Франция",
+      "flag_code": "fr",
+      "fifa_code": "FRA"
+    },
+    "9": {
+      "name": "Argentina",
+      "name_ru": "Аргентина",
+      "flag_code": "ar",
+      "fifa_code": "ARG"
+    },
+    "179": {
+      "name": "Uruguay",
+      "name_ru": "Уругвай",
+      "flag_code": "uy",
+      "fifa_code": "URU"
+    },
+    "24": {
+      "name": "Bosnia-Herzegovina",
+      "name_ru": "Босния и Герцеговина",
+      "flag_code": "ba",
+      "fifa_code": "BIH"
+    },
+    "26": {
+      "name": "Brazil",
+      "name_ru": "Бразилия",
+      "flag_code": "br",
+      "fifa_code": "BRA"
+    },
+    "189": {
+      "name": "England",
+      "name_ru": "Англия",
+      "flag_code": "gb-eng",
+      "fifa_code": "ENG"
+    },
+    "38": {
+      "name": "Cote d'Ivoire",
+      "name_ru": "Кот-д’Ивуар",
+      "flag_code": "ci",
+      "fifa_code": "CIV"
+    },
+    "191": {
+      "name": "Wales",
+      "name_ru": "Уэльс",
+      "flag_code": "gb-wls",
+      "fifa_code": "WAL"
+    },
+    "31": {
+      "name": "Cameroon",
+      "name_ru": "Камерун",
+      "flag_code": "cm",
+      "fifa_code": "CMR"
+    },
+    "56": {
+      "name": "Greece",
+      "name_ru": "Греция",
+      "flag_code": "gr",
+      "fifa_code": "GRE"
+    },
+    "157": {
+      "name": "Spain",
+      "name_ru": "Испания",
+      "flag_code": "es",
+      "fifa_code": "ESP"
+    },
+    "75": {
+      "name": "Italy",
+      "name_ru": "Италия",
+      "flag_code": "it",
+      "fifa_code": "ITA"
+    },
+    "148": {
+      "name": "Switzerland",
+      "name_ru": "Швейцария",
+      "flag_code": "ch",
+      "fifa_code": "SUI"
+    },
+    "132": {
+      "name": "Paraguay",
+      "name_ru": "Парагвай",
+      "flag_code": "py",
+      "fifa_code": "PAR"
+    },
+    "37": {
+      "name": "Croatia",
+      "name_ru": "Хорватия",
+      "flag_code": "hr",
+      "fifa_code": "CRO"
+    },
+    "2": {
+      "name": "Egypt",
+      "name_ru": "Египет",
+      "flag_code": "eg",
+      "fifa_code": "EGY"
+    },
+    "136": {
+      "name": "Portugal",
+      "name_ru": "Португалия",
+      "flag_code": "pt",
+      "fifa_code": "POR"
+    },
+    "19": {
+      "name": "Belgium",
+      "name_ru": "Бельгия",
+      "flag_code": "be",
+      "fifa_code": "BEL"
+    },
+    "149": {
+      "name": "Senegal",
+      "name_ru": "Сенегал",
+      "flag_code": "sn",
+      "fifa_code": "SEN"
+    },
+    "135": {
+      "name": "Poland",
+      "name_ru": "Польша",
+      "flag_code": "pl",
+      "fifa_code": "POL"
+    },
+    "44": {
+      "name": "Ecuador",
+      "name_ru": "Эквадор",
+      "flag_code": "ec",
+      "fifa_code": "ECU"
+    },
+    "40": {
+      "name": "Germany",
+      "name_ru": "Германия",
+      "flag_code": "de",
+      "fifa_code": "GER"
+    },
+    "192": {
+      "name": "Northern Ireland",
+      "name_ru": "Северная Ирландия",
+      "flag_code": "gb-nir",
+      "fifa_code": "NIR"
+    },
+    "177": {
+      "name": "Ukraine",
+      "name_ru": "Украина",
+      "flag_code": "ua",
+      "fifa_code": "UKR"
+    }
+  }
+}

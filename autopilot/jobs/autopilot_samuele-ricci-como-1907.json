@@ -1,0 +1,99 @@
+{
+  "slug": "samuele-ricci-como-1907",
+  "player": "Samuele Ricci",
+  "full_name": "Samuele Ricci",
+  "transfermarkt_player_id": 467992,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/467992",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/467992",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 489,
+  "from_club_name": "AC Milan",
+  "to_club_id": 895,
+  "to_club_name": "Como 1907",
+  "title": "Samuele Ricci перешёл из AC Milan в Como 1907",
+  "description": "Клуб Como 1907 подписал Samuele Ricci из клуба AC Milan.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Defensive Midfield",
+  "position_ru": "Опорный полузащитник",
+  "main_position": "DM",
+  "birth_date": "21.08.2001",
+  "age": 25,
+  "nationality": "Italy",
+  "nationality_ru": "Италия",
+  "nationality_code": "IT",
+  "nationality_fifa_code": "ITA",
+  "nationality_flag_aliases": [
+    "IT",
+    "ITA",
+    "Italy",
+    "flag-it",
+    "it",
+    "ita",
+    "italy"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€22 млн",
+  "market_value_display": "€22 млн",
+  "seo_body_md": "## Samuele Ricci: что известно о переходе в Como 1907\n\nКлуб **Como 1907** усилил состав и подписал **Samuele Ricci** из клуба **AC Milan**. Переход оформлен **29 августа 2026 года**.\n\n## Динамика стоимости\n\nПо оценке Transfermarkt с 17 июня 2025 года по 29 мая 2026 года стоимость Ricci снизилась с €30 млн до €22 млн. Максимальная оценка за этот период — €30 млн.\n\n## Клуб назначения\n\nВ составе клуба Como 1907 теперь 27 игроков со средним возрастом 25,5 года. Общая стоимость команды по Transfermarkt — €535,15 млн, в среднем €19,82 млн на игрока. Домашние матчи команда проводит в городе Como. В новой команде игрок получил 14-й номер.\n\nНа этой же позиции в клубе значится ещё один игрок — Máximo Perrone. В рейтинге стоимости состава он занимает 11-е место из 27. В свои 25 лет он моложе 12 партнёров команды.\n\nSamuele Ricci родился в городе Pontedera (Италия).\n\n## Данные игрока\n\n- **Позиция:** опорный полузащитник\n- **Прежний клуб:** AC Milan\n- **Новый клуб:** Como 1907\n- **Гражданство:** Италия\n- **Дата рождения:** 21.08.2001\n- **Место рождения:** Pontedera\n- **Рост:** 1,81 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 14\n- **Рыночная стоимость Transfermarkt:** €22 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/467992",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-08-29",
+    "effective_transfer_date": "2026-08-29",
+    "parser_result": "official_permanent_transfer",
+    "player": "Samuele Ricci",
+    "from_club": "AC Milan",
+    "to_club": "Como 1907",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "AC Milan": 489,
+      "Como 1907": 895
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "ricci__ac-milan__como-1907",
+    "built_at": "2026-09-05T13:39:00.461058+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2025-06-17",
+        "value_eur_m": 30.0
+      },
+      {
+        "date": "2025-12-23",
+        "value_eur_m": 25.0
+      },
+      {
+        "date": "2026-05-29",
+        "value_eur_m": 22.0
+      }
+    ]
+  }
+}

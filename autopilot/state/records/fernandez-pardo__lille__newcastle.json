@@ -1,0 +1,80 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "fernandez-pardo__lille__newcastle",
+  "player": "Fernandez-Pardo",
+  "from_club": "Lille",
+  "to_club": "Newcastle",
+  "fee_raw": "£51m",
+  "verdict": "DUPLICATE_EXISTING",
+  "verdict_reason": "TM ID 724129 уже на сайте: matias-fernandez-pardo-newcastle",
+  "pipeline_state": "SKIPPED_DUPLICATE",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c5ylv97mn58o?at_medium=RSS&at_campaign=rss",
+    "title": "Newcastle sign Fernandez-Pardo from Lille for £51m",
+    "published": "Tue, 01 Sep 2026 14:01:47 GMT",
+    "published_iso": "2026-09-01T14:01:47+00:00"
+  },
+  "discovered_at": "2026-09-01T16:50:00.931411+00:00",
+  "enriched_at": "2026-09-05T13:37:54.364667+00:00",
+  "tm_to_club_id": "762",
+  "tm_player_id": "724129",
+  "player_full_name": "Matias Fernandez-Pardo",
+  "birth_date": "2005-02-03",
+  "age": 21,
+  "position": "Centre-Forward",
+  "position_short": "CF",
+  "preferred_foot": "right",
+  "height": 1.88,
+  "contract_until": "2031-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/724129-1780057362.jpg",
+  "market_value_points": [
+    {
+      "date": "2026-03-27",
+      "value_eur_m": 30.0
+    },
+    {
+      "date": "2026-06-01",
+      "value_eur_m": 35.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 19,
+    "secondNationalityId": 157
+  },
+  "birth_place": "Brussel",
+  "former_clubs_note": "RSC Anderlecht (2011-2013), KV Mechelen (2013-2014), LOSC Lille (2014-2020), KAA Gent (2020-2022)",
+  "shirt_number": 20,
+  "is_captain": false,
+  "transfer_date": "2026-09-01",
+  "national_team_debut": "2026-06-02",
+  "squad_analysis": {
+    "same_position_count": 2,
+    "same_position_names": [
+      "William Osula",
+      "Yoane Wissa"
+    ],
+    "value_rank": 8,
+    "squad_total": 25,
+    "younger_than": 18
+  },
+  "to_club_official_name": "Newcastle United",
+  "to_club_context": {
+    "squad_size": 25,
+    "average_age": "26.0",
+    "squad_value": {
+      "prefix": "€",
+      "content": "606.10",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "24.24",
+      "suffix": "M"
+    },
+    "stadium": "St. James' Park",
+    "city": "Newcastle upon Tyne"
+  }
+}

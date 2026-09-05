@@ -1,0 +1,95 @@
+{
+  "slug": "dayann-methalie-sunderland-afc",
+  "player": "Dayann Méthalie",
+  "full_name": "Dayann Méthalie",
+  "transfermarkt_player_id": 1191444,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/1191444",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/1191444",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 96,
+  "from_club_name": "FC Toulouse",
+  "to_club_id": 746,
+  "to_club_name": "Sunderland AFC",
+  "title": "Dayann Méthalie перешёл из FC Toulouse в Sunderland AFC",
+  "description": "Клуб Sunderland AFC подписал Dayann Méthalie из клуба FC Toulouse.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Left-Back",
+  "position_ru": "Левый защитник",
+  "main_position": "LB",
+  "birth_date": "15.02.2006",
+  "age": 20,
+  "nationality": "France",
+  "nationality_ru": "Франция",
+  "nationality_code": "FR",
+  "nationality_fifa_code": "FRA",
+  "nationality_flag_aliases": [
+    "FR",
+    "FRA",
+    "France",
+    "flag-fr",
+    "fr",
+    "fra",
+    "france"
+  ],
+  "preferred_foot": "Левая",
+  "market_value": "€18 млн",
+  "market_value_display": "€18 млн",
+  "seo_body_md": "## Dayann Méthalie: что известно о переходе в Sunderland AFC\n\nКлуб **Sunderland AFC** усилил состав и подписал **Dayann Méthalie** из клуба **FC Toulouse**. Переход оформлен **21 августа 2026 года**.\n\n## Динамика стоимости\n\nПо оценке Transfermarkt с 27 марта 2026 года по 1 июня 2026 года стоимость Méthalie выросла с €12 млн до €18 млн.\n\n## Клуб назначения\n\nВ составе клуба Sunderland AFC теперь 29 игроков со средним возрастом 25,7 года. Общая стоимость команды по Transfermarkt — €421,62 млн, в среднем €14,54 млн на игрока. Домашние матчи команда проводит в городе Sunderland. В новой команде игрок получил 6-й номер.\n\nНа этой же позиции в клубе значится ещё один игрок — Reinildo Mandava. В рейтинге стоимости состава он занимает 12-е место из 29. В свои 20 лет он моложе 25 партнёров команды.\n\nDayann Méthalie родился в городе Toulouse (Франция). Ранее выступал за: US Colomiers (09/2012-2014), Toulouse FC (2014-2024).\n\n## Данные игрока\n\n- **Позиция:** левый защитник\n- **Прежний клуб:** FC Toulouse\n- **Новый клуб:** Sunderland AFC\n- **Гражданство:** Франция\n- **Дата рождения:** 15.02.2006\n- **Место рождения:** Toulouse\n- **Рост:** 1,88 м\n- **Рабочая нога:** левая\n- **Игровой номер:** 6\n- **Рыночная стоимость Transfermarkt:** €18 млн\n- **Контракт до:** 30.06.2031\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/1191444",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-08-21",
+    "effective_transfer_date": "2026-08-21",
+    "parser_result": "official_permanent_transfer",
+    "player": "Dayann Méthalie",
+    "from_club": "FC Toulouse",
+    "to_club": "Sunderland AFC",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "FC Toulouse": 96,
+      "Sunderland AFC": 746
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "methalie__fc-toulouse__sunderland-afc",
+    "built_at": "2026-09-05T13:39:00.452044+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2026-03-27",
+        "value_eur_m": 12.0
+      },
+      {
+        "date": "2026-06-01",
+        "value_eur_m": 18.0
+      }
+    ]
+  }
+}

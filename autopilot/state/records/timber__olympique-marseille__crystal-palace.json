@@ -1,0 +1,86 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "timber__olympique-marseille__crystal-palace",
+  "player": "Timber",
+  "player_full_name": "Quinten Timber",
+  "from_club": "Olympique Marseille",
+  "to_club": "Crystal Palace",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "pipeline_state": "ENRICHED",
+  "backfill": true,
+  "source": {
+    "publisher": "Transfermarkt",
+    "tier": "reference",
+    "url": "https://www.transfermarkt.com/-/profil/spieler/420213",
+    "title": "Quinten Timber: переход в Crystal Palace",
+    "published_iso": "2026-09-01T12:00:00+00:00"
+  },
+  "discovered_at": "2026-09-05T13:29:58.553972+00:00",
+  "enriched_at": "2026-09-05T13:38:55.823969+00:00",
+  "tm_to_club_id": "873",
+  "tm_player_id": "420213",
+  "birth_date": "2001-06-17",
+  "age": 25,
+  "position": "Central Midfield",
+  "position_short": "CM",
+  "preferred_foot": "right",
+  "height": 1.76,
+  "contract_until": "2031-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/420213-1765214219.jpg",
+  "market_value_points": [
+    {
+      "date": "2024-10-14",
+      "value_eur_m": 35.0
+    },
+    {
+      "date": "2025-12-02",
+      "value_eur_m": 25.0
+    },
+    {
+      "date": "2026-06-01",
+      "value_eur_m": 25.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 122,
+    "secondNationalityId": 260
+  },
+  "birth_place": "Utrecht",
+  "former_clubs_note": "DVSU (2006-2008), Feyenoord (2008-2014), Ajax (2014-2019)",
+  "shirt_number": 23,
+  "is_captain": false,
+  "transfer_date": "2026-09-01",
+  "national_team_debut": "2024-03-26",
+  "squad_analysis": {
+    "same_position_count": 2,
+    "same_position_names": [
+      "Daichi Kamada",
+      "Will Hughes"
+    ],
+    "value_rank": 11,
+    "squad_total": 28,
+    "younger_than": 18
+  },
+  "to_club_official_name": "Crystal Palace",
+  "to_club_context": {
+    "squad_size": 28,
+    "average_age": "26.6",
+    "squad_value": {
+      "prefix": "€",
+      "content": "579.20",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "20.69",
+      "suffix": "M"
+    },
+    "stadium": "Selhurst Park",
+    "city": "London"
+  },
+  "verdict_reason": "",
+  "block_reason": "",
+  "block_detail": ""
+}

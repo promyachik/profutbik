@@ -1,0 +1,84 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "mouzakitis__olympiacos-piraeus__hull-city",
+  "player": "Mouzakitis",
+  "player_full_name": "Christos Mouzakitis",
+  "from_club": "Olympiacos Piraeus",
+  "to_club": "Hull City",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "pipeline_state": "ENRICHED",
+  "backfill": true,
+  "source": {
+    "publisher": "Transfermarkt",
+    "tier": "reference",
+    "url": "https://www.transfermarkt.com/-/profil/spieler/964426",
+    "title": "Christos Mouzakitis: переход в Hull City",
+    "published_iso": "2026-09-01T12:00:00+00:00"
+  },
+  "discovered_at": "2026-09-05T13:29:58.554856+00:00",
+  "enriched_at": "2026-09-05T13:38:29.670744+00:00",
+  "tm_to_club_id": "3008",
+  "tm_player_id": "964426",
+  "birth_date": "2006-12-25",
+  "age": 19,
+  "position": "Central Midfield",
+  "position_short": "CM",
+  "preferred_foot": "left",
+  "height": 1.8,
+  "contract_until": "2031-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/964426-1784902252.png",
+  "market_value_points": [
+    {
+      "date": "2025-12-12",
+      "value_eur_m": 25.0
+    },
+    {
+      "date": "2026-06-04",
+      "value_eur_m": 25.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 56,
+    "secondNationalityId": 0
+  },
+  "birth_place": "Athens",
+  "former_clubs_note": "",
+  "shirt_number": null,
+  "is_captain": false,
+  "transfer_date": "2026-09-01",
+  "national_team_debut": "2024-11-17",
+  "squad_analysis": {
+    "same_position_count": 6,
+    "same_position_names": [
+      "Tim Iroegbunam",
+      "Jens Hjertø-Dahl",
+      "Hidemasa Morita",
+      "Darko Gyabi"
+    ],
+    "value_rank": 1,
+    "squad_total": 34,
+    "younger_than": 31
+  },
+  "to_club_official_name": "Hull City",
+  "to_club_context": {
+    "squad_size": 34,
+    "average_age": "26.2",
+    "squad_value": {
+      "prefix": "€",
+      "content": "252.90",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "7.44",
+      "suffix": "M"
+    },
+    "stadium": "KCOM Stadium",
+    "city": "Hull"
+  },
+  "verdict_reason": "",
+  "block_reason": "",
+  "block_detail": ""
+}

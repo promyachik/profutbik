@@ -1,0 +1,99 @@
+{
+  "slug": "taylor-harwood-bellis-aston-villa",
+  "player": "Taylor Harwood-Bellis",
+  "full_name": "Taylor Harwood-Bellis",
+  "transfermarkt_player_id": 503977,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/503977",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/503977",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 41,
+  "from_club_name": "Southampton FC",
+  "to_club_id": 66,
+  "to_club_name": "Aston Villa",
+  "title": "Taylor Harwood-Bellis перешёл из Southampton FC в Aston Villa",
+  "description": "Клуб Aston Villa подписал Taylor Harwood-Bellis из клуба Southampton FC.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Centre-Back",
+  "position_ru": "Центральный защитник",
+  "main_position": "CB",
+  "birth_date": "30.01.2002",
+  "age": 24,
+  "nationality": "England",
+  "nationality_ru": "Англия",
+  "nationality_code": "GB-ENG",
+  "nationality_fifa_code": "ENG",
+  "nationality_flag_aliases": [
+    "ENG",
+    "England",
+    "GB-ENG",
+    "eng",
+    "england",
+    "flag-gb-eng",
+    "gb-eng"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€20 млн",
+  "market_value_display": "€20 млн",
+  "seo_body_md": "## Taylor Harwood-Bellis переходит в Aston Villa\n\nКлуб **Aston Villa** объявил о подписании **Taylor Harwood-Bellis**. Центральный защитник перешёл из клуба **Southampton FC**. Сделка оформлена **1 сентября 2026 года**.\n\n## Детали перехода\n\nПо оценке Transfermarkt с 16 декабря 2024 года по 28 мая 2026 года стоимость Harwood-Bellis снизилась с €25 млн до €20 млн. Максимальная оценка за этот период — €25 млн.\n\n## Что получает клуб\n\nВ составе клуба Aston Villa теперь 27 игроков со средним возрастом 26,2 года. Общая стоимость команды по Transfermarkt — €572,30 млн, в среднем €21,20 млн на игрока. Домашние матчи команда проводит в городе Birmingham. В новой команде игрок получил 4-й номер.\n\nКонкуренцию на этой позиции составят ещё 4 игрока: Pau Torres, Modou Kéba Cissé, Victor Lindelöf, Tyrone Mings. В рейтинге стоимости состава он занимает 12-е место из 27. В свои 24 года он моложе 15 партнёров команды.\n\nTaylor Harwood-Bellis родился в городе Stockport (Англия). Ранее выступал за: Manchester City (2008-2019).\n\n## Карточка игрока\n\n- **Позиция:** центральный защитник\n- **Прежний клуб:** Southampton FC\n- **Новый клуб:** Aston Villa\n- **Гражданство:** Англия\n- **Дата рождения:** 30.01.2002\n- **Место рождения:** Stockport\n- **Рост:** 1,88 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 4\n- **Рыночная стоимость Transfermarkt:** €20 млн\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/503977",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-01",
+    "effective_transfer_date": "2026-09-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "Taylor Harwood-Bellis",
+    "from_club": "Southampton FC",
+    "to_club": "Aston Villa",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Southampton FC": 41,
+      "Aston Villa": 66
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "harwood-bellis__southampton-fc__aston-villa",
+    "built_at": "2026-09-05T13:39:00.443447+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2024-12-16",
+        "value_eur_m": 25.0
+      },
+      {
+        "date": "2025-12-03",
+        "value_eur_m": 20.0
+      },
+      {
+        "date": "2026-05-28",
+        "value_eur_m": 20.0
+      }
+    ]
+  }
+}

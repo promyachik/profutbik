@@ -1,0 +1,86 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "jackson__bayern-munich__aston-villa",
+  "player": "Jackson",
+  "player_full_name": "Nicolas Jackson",
+  "from_club": "Bayern Munich",
+  "to_club": "Aston Villa",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "pipeline_state": "ENRICHED",
+  "backfill": true,
+  "source": {
+    "publisher": "Transfermarkt",
+    "tier": "reference",
+    "url": "https://www.transfermarkt.com/-/profil/spieler/776890",
+    "title": "Nicolas Jackson: переход в Aston Villa",
+    "published_iso": "2026-08-28T12:00:00+00:00"
+  },
+  "discovered_at": "2026-09-05T13:29:58.545313+00:00",
+  "enriched_at": "2026-09-05T13:38:13.675645+00:00",
+  "tm_to_club_id": "405",
+  "tm_player_id": "776890",
+  "birth_date": "2001-06-20",
+  "age": 25,
+  "position": "Centre-Forward",
+  "position_short": "CF",
+  "preferred_foot": "right",
+  "height": 1.87,
+  "contract_until": "2031-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/776890-1757939139.jpg",
+  "market_value_points": [
+    {
+      "date": "2024-12-16",
+      "value_eur_m": 55.0
+    },
+    {
+      "date": "2026-03-20",
+      "value_eur_m": 40.0
+    },
+    {
+      "date": "2026-05-27",
+      "value_eur_m": 40.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 149,
+    "secondNationalityId": 52
+  },
+  "birth_place": "Banjul",
+  "former_clubs_note": "ASC Tilene (2017-2018), Casa Sports (2018-2019), Villarreal CF (2019-2020)",
+  "shirt_number": 11,
+  "is_captain": false,
+  "transfer_date": "2026-08-28",
+  "national_team_debut": "2022-11-21",
+  "squad_analysis": {
+    "same_position_count": 2,
+    "same_position_names": [
+      "Tammy Abraham",
+      "Brian Madjo"
+    ],
+    "value_rank": 5,
+    "squad_total": 27,
+    "younger_than": 12
+  },
+  "to_club_official_name": "Aston Villa",
+  "to_club_context": {
+    "squad_size": 27,
+    "average_age": "26.2",
+    "squad_value": {
+      "prefix": "€",
+      "content": "572.30",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "21.20",
+      "suffix": "M"
+    },
+    "stadium": "Villa Park",
+    "city": "Birmingham"
+  },
+  "verdict_reason": "",
+  "block_reason": "",
+  "block_detail": ""
+}

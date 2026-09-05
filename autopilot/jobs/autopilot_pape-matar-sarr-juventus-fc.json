@@ -1,0 +1,99 @@
+{
+  "slug": "pape-matar-sarr-juventus-fc",
+  "player": "Pape Matar Sarr",
+  "full_name": "Pape Matar Sarr",
+  "transfermarkt_player_id": 568693,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/568693",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/568693",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 47,
+  "from_club_name": "Tottenham Hotspur",
+  "to_club_id": 496,
+  "to_club_name": "Juventus FC",
+  "title": "Pape Matar Sarr перешёл из Tottenham Hotspur в Juventus FC",
+  "description": "Клуб Juventus FC подписал Pape Matar Sarr из клуба Tottenham Hotspur.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Central Midfield",
+  "position_ru": "Центральный полузащитник",
+  "main_position": "CM",
+  "birth_date": "14.09.2002",
+  "age": 23,
+  "nationality": "Senegal",
+  "nationality_ru": "Сенегал",
+  "nationality_code": "SN",
+  "nationality_fifa_code": "SEN",
+  "nationality_flag_aliases": [
+    "SEN",
+    "SN",
+    "Senegal",
+    "flag-sn",
+    "sen",
+    "senegal",
+    "sn"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€30 млн",
+  "market_value_display": "€30 млн",
+  "seo_body_md": "## Pape Matar Sarr переходит в Juventus FC\n\nКлуб **Juventus FC** объявил о подписании **Pape Matar Sarr**. Центральный полузащитник перешёл из клуба **Tottenham Hotspur**. Сделка оформлена **1 сентября 2026 года**.\n\n## Детали перехода\n\nПо оценке Transfermarkt с 16 декабря 2024 года по 3 июня 2026 года стоимость Sarr снизилась с €45 млн до €30 млн. Максимальная оценка за этот период — €45 млн.\n\n## Что получает клуб\n\nВ составе клуба Juventus FC теперь 28 игроков со средним возрастом 27,3 года. Общая стоимость команды по Transfermarkt — €618,70 млн, в среднем €22,10 млн на игрока. Домашние матчи команда проводит в городе Torino. В новой команде игрок получил 29-й номер.\n\nКонкуренцию на этой позиции составят ещё 3 игрока: Khéphren Thuram, Weston McKennie, Douglas Luiz. В рейтинге стоимости состава он занимает 7-е место из 28. В свои 23 года он моложе 23 партнёров команды.\n\nPape Matar Sarr родился в городе Thiaroye (Сенегал). Ранее выступал за: Génération Foot (2016-2020).\n\nЗа сборную Сенегала игрок дебютировал 26 марта 2021 года.\n\n## Карточка игрока\n\n- **Позиция:** центральный полузащитник\n- **Прежний клуб:** Tottenham Hotspur\n- **Новый клуб:** Juventus FC\n- **Гражданство:** Сенегал\n- **Дата рождения:** 14.09.2002\n- **Место рождения:** Thiaroye\n- **Рост:** 1,85 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 29\n- **Рыночная стоимость Transfermarkt:** €30 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/568693",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-01",
+    "effective_transfer_date": "2026-09-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "Pape Matar Sarr",
+    "from_club": "Tottenham Hotspur",
+    "to_club": "Juventus FC",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Tottenham Hotspur": 47,
+      "Juventus FC": 496
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "sarr__tottenham-hotspur__juventus-fc",
+    "built_at": "2026-09-05T13:39:00.464478+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2024-12-16",
+        "value_eur_m": 45.0
+      },
+      {
+        "date": "2026-03-09",
+        "value_eur_m": 32.0
+      },
+      {
+        "date": "2026-06-03",
+        "value_eur_m": 30.0
+      }
+    ]
+  }
+}

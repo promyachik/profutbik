@@ -1,0 +1,81 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "gboho__fc-toulouse__coventry-city",
+  "player": "Gboho",
+  "player_full_name": "Yann Gboho",
+  "from_club": "FC Toulouse",
+  "to_club": "Coventry City",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "pipeline_state": "ENRICHED",
+  "backfill": true,
+  "source": {
+    "publisher": "Transfermarkt",
+    "tier": "reference",
+    "url": "https://www.transfermarkt.com/-/profil/spieler/463613",
+    "title": "Yann Gboho: переход в Coventry City",
+    "published_iso": "2026-09-01T12:00:00+00:00"
+  },
+  "discovered_at": "2026-09-05T13:29:58.563833+00:00",
+  "enriched_at": "2026-09-05T13:38:02.240197+00:00",
+  "tm_to_club_id": "990",
+  "tm_player_id": "463613",
+  "birth_date": "2001-01-14",
+  "age": 25,
+  "position": "Left Winger",
+  "position_short": "LW",
+  "preferred_foot": "right",
+  "height": 1.78,
+  "contract_until": "",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/463613-1672485001.jpg",
+  "market_value_points": [
+    {
+      "date": "2026-03-27",
+      "value_eur_m": 15.0
+    },
+    {
+      "date": "2026-06-01",
+      "value_eur_m": 18.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 50,
+    "secondNationalityId": 38
+  },
+  "birth_place": "Man",
+  "former_clubs_note": "L'Aiglon du Lamentin FC (10/2010-09/2013), FC Rouen (09/2013-2016), Stade Rennais (2016-2018)",
+  "shirt_number": null,
+  "is_captain": false,
+  "transfer_date": "2026-09-01",
+  "national_team_debut": "",
+  "squad_analysis": {
+    "same_position_count": 1,
+    "same_position_names": [
+      "Ephron Mason-Clark"
+    ],
+    "value_rank": 4,
+    "squad_total": 29,
+    "younger_than": 17
+  },
+  "to_club_official_name": "Coventry City",
+  "to_club_context": {
+    "squad_size": 29,
+    "average_age": "27.0",
+    "squad_value": {
+      "prefix": "€",
+      "content": "296.70",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "10.23",
+      "suffix": "M"
+    },
+    "stadium": "Ricoh Arena",
+    "city": "Coventry"
+  },
+  "verdict_reason": "",
+  "block_reason": "",
+  "block_detail": ""
+}

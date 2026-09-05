@@ -1,0 +1,99 @@
+{
+  "slug": "axel-disasi-crystal-palace",
+  "player": "Axel Disasi",
+  "full_name": "Axel Disasi",
+  "transfermarkt_player_id": 386047,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/386047",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/386047",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 48,
+  "from_club_name": "West Ham United",
+  "to_club_id": 52,
+  "to_club_name": "Crystal Palace",
+  "title": "Axel Disasi перешёл из West Ham United в Crystal Palace",
+  "description": "Клуб Crystal Palace подписал Axel Disasi из клуба West Ham United.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Centre-Back",
+  "position_ru": "Центральный защитник",
+  "main_position": "CB",
+  "birth_date": "11.03.1998",
+  "age": 28,
+  "nationality": "France",
+  "nationality_ru": "Франция",
+  "nationality_code": "FR",
+  "nationality_fifa_code": "FRA",
+  "nationality_flag_aliases": [
+    "FR",
+    "FRA",
+    "France",
+    "flag-fr",
+    "fr",
+    "fra",
+    "france"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€15 млн",
+  "market_value_display": "€15 млн",
+  "seo_body_md": "## Axel Disasi: что известно о переходе в Crystal Palace\n\nКлуб **Crystal Palace** усилил состав и подписал **Axel Disasi** из клуба **West Ham United**. Переход оформлен **26 августа 2026 года**.\n\n## Динамика стоимости\n\nПо оценке Transfermarkt с 19 декабря 2023 года по 3 июня 2026 года стоимость Disasi снизилась с €42 млн до €15 млн. Максимальная оценка за этот период — €42 млн.\n\n## Клуб назначения\n\nВ составе клуба Crystal Palace теперь 28 игроков со средним возрастом 26,6 года. Общая стоимость команды по Transfermarkt — €579,20 млн, в среднем €20,69 млн на игрока. Домашние матчи команда проводит в городе London. В новой команде игрок получил 5-й номер.\n\nКонкуренцию на этой позиции составят ещё 5 игроков: Honest Ahanor, Jaydee Canvot, Chris Richards, Chadi Riad. В рейтинге стоимости состава он занимает 17-е место из 28. В свои 28 лет он моложе 8 партнёров команды.\n\nAxel Disasi родился в городе Gonesse (Франция). Ранее выступал за: Villiers-le-Bel JS (2006-2013), USM Senlis (2013-2014), Paris FC (2014-2015). Таким образом, это уже 4-й клуб в карьере Disasi.\n\n## Данные игрока\n\n- **Позиция:** центральный защитник\n- **Прежний клуб:** West Ham United\n- **Новый клуб:** Crystal Palace\n- **Гражданство:** Франция\n- **Дата рождения:** 11.03.1998\n- **Место рождения:** Gonesse\n- **Рост:** 1,91 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 5\n- **Рыночная стоимость Transfermarkt:** €15 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/386047",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-08-26",
+    "effective_transfer_date": "2026-08-26",
+    "parser_result": "official_permanent_transfer",
+    "player": "Axel Disasi",
+    "from_club": "West Ham United",
+    "to_club": "Crystal Palace",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "West Ham United": 48,
+      "Crystal Palace": 52
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "disasi__west-ham-united__crystal-palace",
+    "built_at": "2026-09-05T13:39:00.434454+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2023-12-19",
+        "value_eur_m": 42.0
+      },
+      {
+        "date": "2025-12-09",
+        "value_eur_m": 15.0
+      },
+      {
+        "date": "2026-06-03",
+        "value_eur_m": 15.0
+      }
+    ]
+  }
+}

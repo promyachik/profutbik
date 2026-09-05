@@ -1,0 +1,95 @@
+{
+  "slug": "guela-doue-bayer-04-leverkusen",
+  "player": "Guéla Doué",
+  "full_name": "Guéla Doué",
+  "transfermarkt_player_id": 711980,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/711980",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/711980",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 95,
+  "from_club_name": "RC Strasbourg Alsace",
+  "to_club_id": 168,
+  "to_club_name": "Bayer 04 Leverkusen",
+  "title": "Guéla Doué перешёл из RC Strasbourg Alsace в Bayer 04 Leverkusen",
+  "description": "Клуб Bayer 04 Leverkusen подписал Guéla Doué из клуба RC Strasbourg Alsace.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Right-Back",
+  "position_ru": "Правый защитник",
+  "main_position": "RB",
+  "birth_date": "17.10.2002",
+  "age": 23,
+  "nationality": "Cote d'Ivoire",
+  "nationality_ru": "Кот-д’Ивуар",
+  "nationality_code": "CI",
+  "nationality_fifa_code": "CIV",
+  "nationality_flag_aliases": [
+    "CI",
+    "CIV",
+    "Cote d'Ivoire",
+    "ci",
+    "civ",
+    "cote d'ivoire",
+    "flag-ci"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€20 млн",
+  "market_value_display": "€20 млн",
+  "seo_body_md": "## Guéla Doué: что известно о переходе в Bayer 04 Leverkusen\n\nКлуб **Bayer 04 Leverkusen** усилил состав и подписал **Guéla Doué** из клуба **RC Strasbourg Alsace**. Переход оформлен **1 сентября 2026 года**.\n\n## Динамика стоимости\n\nПо оценке Transfermarkt с 15 декабря 2025 года по 1 июня 2026 года стоимость Doué выросла с €18 млн до €20 млн.\n\n## Клуб назначения\n\nВ составе клуба Bayer 04 Leverkusen теперь 29 игроков со средним возрастом 26,1 года. Общая стоимость команды по Transfermarkt — €480,95 млн, в среднем €16,58 млн на игрока. Домашние матчи команда проводит в городе Leverkusen. В новой команде игрок получил 20-й номер.\n\nНа этой же позиции в клубе значится ещё один игрок — Lucas Vázquez. В рейтинге стоимости состава он занимает 9-е место из 29. В свои 23 года он моложе 18 партнёров команды.\n\nGuéla Doué родился в городе Angers (Кот-д’Ивуар). Ранее выступал за: Stade Rennais FC (2011-2020).\n\nЗа сборную Кот-д’Ивуара игрок дебютировал 23 марта 2024 года.\n\n## Данные игрока\n\n- **Позиция:** правый защитник\n- **Прежний клуб:** RC Strasbourg Alsace\n- **Новый клуб:** Bayer 04 Leverkusen\n- **Гражданство:** Кот-д’Ивуар\n- **Дата рождения:** 17.10.2002\n- **Место рождения:** Angers\n- **Рост:** 1,87 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 20\n- **Рыночная стоимость Transfermarkt:** €20 млн\n- **Контракт до:** 30.06.2031\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/711980",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-01",
+    "effective_transfer_date": "2026-09-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "Guéla Doué",
+    "from_club": "RC Strasbourg Alsace",
+    "to_club": "Bayer 04 Leverkusen",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "RC Strasbourg Alsace": 95,
+      "Bayer 04 Leverkusen": 168
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "doue__rc-strasbourg-alsace__bayer-04-leverkusen",
+    "built_at": "2026-09-05T13:39:00.435298+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2025-12-15",
+        "value_eur_m": 18.0
+      },
+      {
+        "date": "2026-06-01",
+        "value_eur_m": 20.0
+      }
+    ]
+  }
+}

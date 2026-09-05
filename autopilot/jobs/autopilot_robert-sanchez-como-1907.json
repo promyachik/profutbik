@@ -1,0 +1,99 @@
+{
+  "slug": "robert-sanchez-como-1907",
+  "player": "Robert Sánchez",
+  "full_name": "Robert Sánchez",
+  "transfermarkt_player_id": 403151,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/403151",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/403151",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 49,
+  "from_club_name": "Chelsea FC",
+  "to_club_id": 895,
+  "to_club_name": "Como 1907",
+  "title": "Robert Sánchez перешёл из Chelsea FC в Como 1907",
+  "description": "Клуб Como 1907 подписал Robert Sánchez из клуба Chelsea FC.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Goalkeeper",
+  "position_ru": "Вратарь",
+  "main_position": "GK",
+  "birth_date": "18.11.1997",
+  "age": 28,
+  "nationality": "Spain",
+  "nationality_ru": "Испания",
+  "nationality_code": "ES",
+  "nationality_fifa_code": "ESP",
+  "nationality_flag_aliases": [
+    "ES",
+    "ESP",
+    "Spain",
+    "es",
+    "esp",
+    "flag-es",
+    "spain"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€22 млн",
+  "market_value_display": "€22 млн",
+  "seo_body_md": "## Robert Sánchez стал игроком Como 1907\n\n**Robert Sánchez** — вратарь, которому 28 — продолжит карьеру в клубе **Como 1907**, покинув **Chelsea FC**. Переход состоялся **1 сентября 2026 года**.\n\n## Карьера до перехода\n\nRobert Sánchez родился в городе Cartagena (Испания). Путь игрока до нынешнего перехода: EF Santa Ana (2004-2008), Cartagena FC (2008-2010), Levante UD (2010-2013), Brighton & Hove Albion (2013-2018). Таким образом, это уже 5-й клуб в карьере Sánchez.\n\n## Новый клуб\n\nВ составе клуба Como 1907 теперь 27 игроков со средним возрастом 25,5 года. Общая стоимость команды по Transfermarkt — €535,15 млн, в среднем €19,82 млн на игрока. Домашние матчи команда проводит в городе Como. В новой команде игрок получил 97-й номер.\n\nКонкуренцию на этой позиции составят ещё 2 игрока: Jean Butez, Mauro Vigorito. В рейтинге стоимости состава он занимает 10-е место из 27. В свои 28 лет он моложе 5 партнёров команды.\n\nПо оценке Transfermarkt с 3 ноября 2022 года по 3 июня 2026 года стоимость Sánchez снизилась с €32 млн до €22 млн. Максимальная оценка за этот период — €32 млн.\n\n## Профиль игрока\n\n- **Позиция:** вратарь\n- **Прежний клуб:** Chelsea FC\n- **Новый клуб:** Como 1907\n- **Гражданство:** Испания\n- **Дата рождения:** 18.11.1997\n- **Место рождения:** Cartagena\n- **Рост:** 1,97 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 97\n- **Рыночная стоимость Transfermarkt:** €22 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/403151",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-01",
+    "effective_transfer_date": "2026-09-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "Robert Sánchez",
+    "from_club": "Chelsea FC",
+    "to_club": "Como 1907",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Chelsea FC": 49,
+      "Como 1907": 895
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "sanchez__chelsea-fc__como-1907",
+    "built_at": "2026-09-05T13:39:00.462787+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2022-11-03",
+        "value_eur_m": 32.0
+      },
+      {
+        "date": "2025-12-09",
+        "value_eur_m": 22.0
+      },
+      {
+        "date": "2026-06-03",
+        "value_eur_m": 22.0
+      }
+    ]
+  }
+}

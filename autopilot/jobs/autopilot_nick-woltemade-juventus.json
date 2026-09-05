@@ -1,0 +1,99 @@
+{
+  "slug": "nick-woltemade-juventus",
+  "player": "Nick Woltemade",
+  "full_name": "Nick Woltemade",
+  "transfermarkt_player_id": 455661,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/455661",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/455661",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 34,
+  "from_club_name": "Newcastle",
+  "to_club_id": 496,
+  "to_club_name": "Juventus",
+  "title": "Nick Woltemade перешёл из Newcastle в Juventus",
+  "description": "Клуб Juventus подписал Nick Woltemade из клуба Newcastle.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Centre-Forward",
+  "position_ru": "Центральный нападающий",
+  "main_position": "CF",
+  "birth_date": "14.02.2002",
+  "age": 24,
+  "nationality": "Germany",
+  "nationality_ru": "Германия",
+  "nationality_code": "DE",
+  "nationality_fifa_code": "GER",
+  "nationality_flag_aliases": [
+    "DE",
+    "GER",
+    "Germany",
+    "de",
+    "flag-de",
+    "ger",
+    "germany"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€55 млн",
+  "market_value_display": "€55 млн",
+  "seo_body_md": "## Nick Woltemade: что известно о переходе в Juventus\n\nКлуб **Juventus** усилил состав и подписал **Nick Woltemade** из клуба **Newcastle**. Переход оформлен **1 сентября 2026 года**.\n\n## Динамика стоимости\n\nПо оценке Transfermarkt с 9 декабря 2025 года по 3 июня 2026 года стоимость Woltemade снизилась с €70 млн до €55 млн. Максимальная оценка за этот период — €70 млн.\n\n## Клуб назначения\n\nВ составе клуба Juventus теперь 28 игроков со средним возрастом 27,3 года. Общая стоимость команды по Transfermarkt — €618,70 млн, в среднем €22,10 млн на игрока. Домашние матчи команда проводит в городе Torino. В новой команде игрок получил 27-й номер.\n\nКонкуренцию на этой позиции составят ещё 3 игрока: Randal Kolo Muani, Jeff Ekhator, Arkadiusz Milik. По оценке Transfermarkt это 2-й по стоимости игрок команды из 28. В свои 24 года он моложе 22 партнёров команды.\n\nNick Woltemade родился в городе Bremen (Германия). Ранее выступал за: TS Woltmershausen (2007-10).\n\nЗа сборную Германии игрок дебютировал 4 июня 2025 года.\n\n## Данные игрока\n\n- **Позиция:** центральный нападающий\n- **Прежний клуб:** Newcastle\n- **Новый клуб:** Juventus\n- **Гражданство:** Германия\n- **Дата рождения:** 14.02.2002\n- **Место рождения:** Bremen\n- **Рост:** 1,98 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 27\n- **Рыночная стоимость Transfermarkt:** €55 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** BBC Sport. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "BBC Sport",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.bbc.co.uk/sport/football/articles/c3wj80lw5q2o?at_medium=RSS&at_campaign=rss",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-01",
+    "effective_transfer_date": "2026-09-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "Nick Woltemade",
+    "from_club": "Newcastle",
+    "to_club": "Juventus",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Newcastle": 34,
+      "Juventus": 496
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "woltemade__newcastle__juventus",
+    "built_at": "2026-09-05T13:22:43.121995+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2025-12-09",
+        "value_eur_m": 70.0
+      },
+      {
+        "date": "2026-03-09",
+        "value_eur_m": 65.0
+      },
+      {
+        "date": "2026-06-03",
+        "value_eur_m": 55.0
+      }
+    ]
+  }
+}

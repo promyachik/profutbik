@@ -1,0 +1,99 @@
+{
+  "slug": "tosin-adarabioyo-tottenham-hotspur",
+  "player": "Tosin Adarabioyo",
+  "full_name": "Tosin Adarabioyo",
+  "transfermarkt_player_id": 258878,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/258878",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/258878",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 49,
+  "from_club_name": "Chelsea FC",
+  "to_club_id": 47,
+  "to_club_name": "Tottenham Hotspur",
+  "title": "Tosin Adarabioyo перешёл из Chelsea FC в Tottenham Hotspur",
+  "description": "Клуб Tottenham Hotspur подписал Tosin Adarabioyo из клуба Chelsea FC.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Centre-Back",
+  "position_ru": "Центральный защитник",
+  "main_position": "CB",
+  "birth_date": "24.09.1997",
+  "age": 28,
+  "nationality": "England",
+  "nationality_ru": "Англия",
+  "nationality_code": "GB-ENG",
+  "nationality_fifa_code": "ENG",
+  "nationality_flag_aliases": [
+    "ENG",
+    "England",
+    "GB-ENG",
+    "eng",
+    "england",
+    "flag-gb-eng",
+    "gb-eng"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€16 млн",
+  "market_value_display": "€16 млн",
+  "seo_body_md": "## Tosin Adarabioyo: что известно о переходе в Tottenham Hotspur\n\nКлуб **Tottenham Hotspur** усилил состав и подписал **Tosin Adarabioyo** из клуба **Chelsea FC**. Переход оформлен **1 сентября 2026 года**.\n\n## Динамика стоимости\n\nПо оценке Transfermarkt с 9 декабря 2025 года по 3 июня 2026 года стоимость Adarabioyo снизилась с €20 млн до €16 млн. Максимальная оценка за этот период — €20 млн.\n\n## Клуб назначения\n\nВ составе клуба Tottenham Hotspur теперь 28 игроков со средним возрастом 26,6 года. Общая стоимость команды по Transfermarkt — €824,00 млн, в среднем €29,43 млн на игрока. Домашние матчи команда проводит в городе London. В новой команде игрок получил 4-й номер.\n\nКонкуренцию на этой позиции составят ещё 4 игрока: Jan Paul van Hecke, Micky van de Ven, Marcos Senesi, Ben Davies. В рейтинге стоимости состава он занимает 22-е место из 28. В свои 28 лет он моложе 7 партнёров команды.\n\nTosin Adarabioyo родился в городе London (Англия). Ранее выступал за: Chorlton Sports (2001-2002), Hough End Griffins (2002-2003), Manchester City (2003-2016). Таким образом, это уже 4-й клуб в карьере Adarabioyo.\n\n## Данные игрока\n\n- **Позиция:** центральный защитник\n- **Прежний клуб:** Chelsea FC\n- **Новый клуб:** Tottenham Hotspur\n- **Гражданство:** Англия\n- **Дата рождения:** 24.09.1997\n- **Место рождения:** London\n- **Рост:** 1,97 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 4\n- **Рыночная стоимость Transfermarkt:** €16 млн\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/258878",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-01",
+    "effective_transfer_date": "2026-09-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "Tosin Adarabioyo",
+    "from_club": "Chelsea FC",
+    "to_club": "Tottenham Hotspur",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Chelsea FC": 49,
+      "Tottenham Hotspur": 47
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "adarabioyo__chelsea-fc__tottenham-hotspur",
+    "built_at": "2026-09-05T13:39:00.421299+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2025-12-09",
+        "value_eur_m": 20.0
+      },
+      {
+        "date": "2026-03-09",
+        "value_eur_m": 18.0
+      },
+      {
+        "date": "2026-06-03",
+        "value_eur_m": 16.0
+      }
+    ]
+  }
+}

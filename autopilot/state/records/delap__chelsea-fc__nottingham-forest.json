@@ -1,0 +1,87 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "delap__chelsea-fc__nottingham-forest",
+  "player": "Delap",
+  "player_full_name": "Liam Delap",
+  "from_club": "Chelsea FC",
+  "to_club": "Nottingham Forest",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "pipeline_state": "ENRICHED",
+  "backfill": true,
+  "source": {
+    "publisher": "Transfermarkt",
+    "tier": "reference",
+    "url": "https://www.transfermarkt.com/-/profil/spieler/610849",
+    "title": "Liam Delap: переход в Nottingham Forest",
+    "published_iso": "2026-08-27T12:00:00+00:00"
+  },
+  "discovered_at": "2026-09-05T13:29:58.551988+00:00",
+  "enriched_at": "2026-09-05T13:37:38.024421+00:00",
+  "tm_to_club_id": "703",
+  "tm_player_id": "610849",
+  "birth_date": "2003-02-08",
+  "age": 23,
+  "position": "Centre-Forward",
+  "position_short": "CF",
+  "preferred_foot": "right",
+  "height": 1.86,
+  "contract_until": "2031-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/610849-1746646306.jpg",
+  "market_value_points": [
+    {
+      "date": "2025-05-30",
+      "value_eur_m": 40.0
+    },
+    {
+      "date": "2026-03-09",
+      "value_eur_m": 32.0
+    },
+    {
+      "date": "2026-06-03",
+      "value_eur_m": 28.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 189,
+    "secondNationalityId": 72
+  },
+  "birth_place": "Winchester",
+  "former_clubs_note": "Derby County (2009-2019), Manchester City (2019-2020)",
+  "shirt_number": 19,
+  "is_captain": false,
+  "transfer_date": "2026-08-27",
+  "national_team_debut": "",
+  "squad_analysis": {
+    "same_position_count": 3,
+    "same_position_names": [
+      "Igor Jesus",
+      "Arnaud Kalimuendo",
+      "Chris Wood"
+    ],
+    "value_rank": 8,
+    "squad_total": 24,
+    "younger_than": 18
+  },
+  "to_club_official_name": "Nottingham Forest",
+  "to_club_context": {
+    "squad_size": 24,
+    "average_age": "27.0",
+    "squad_value": {
+      "prefix": "€",
+      "content": "520.50",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "21.69",
+      "suffix": "M"
+    },
+    "stadium": "The City Ground",
+    "city": "West Bridgford"
+  },
+  "verdict_reason": "",
+  "block_reason": "",
+  "block_detail": ""
+}

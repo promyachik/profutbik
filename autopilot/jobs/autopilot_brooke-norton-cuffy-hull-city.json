@@ -1,0 +1,95 @@
+{
+  "slug": "brooke-norton-cuffy-hull-city",
+  "player": "Brooke Norton-Cuffy",
+  "full_name": "Brooke Norton-Cuffy",
+  "transfermarkt_player_id": 728733,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/728733",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/728733",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 495,
+  "from_club_name": "Genoa CFC",
+  "to_club_id": 64,
+  "to_club_name": "Hull City",
+  "title": "Brooke Norton-Cuffy перешёл из Genoa CFC в Hull City",
+  "description": "Клуб Hull City подписал Brooke Norton-Cuffy из клуба Genoa CFC.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Right-Back",
+  "position_ru": "Правый защитник",
+  "main_position": "RB",
+  "birth_date": "12.01.2004",
+  "age": 22,
+  "nationality": "England",
+  "nationality_ru": "Англия",
+  "nationality_code": "GB-ENG",
+  "nationality_fifa_code": "ENG",
+  "nationality_flag_aliases": [
+    "ENG",
+    "England",
+    "GB-ENG",
+    "eng",
+    "england",
+    "flag-gb-eng",
+    "gb-eng"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€15 млн",
+  "market_value_display": "€15 млн",
+  "seo_body_md": "## Brooke Norton-Cuffy стал игроком Hull City\n\n**Brooke Norton-Cuffy** — правый защитник, которому 22 — продолжит карьеру в клубе **Hull City**, покинув **Genoa CFC**. Переход состоялся **1 сентября 2026 года**.\n\n## Карьера до перехода\n\nBrooke Norton-Cuffy родился в городе London (Англия). Путь игрока до нынешнего перехода: Chelsea FC (?-2016).\n\nЗа сборную Англии игрок дебютировал 16 октября 2023 года.\n\n## Новый клуб\n\nВ составе клуба Hull City теперь 34 игрока со средним возрастом 26,2 года. Общая стоимость команды по Transfermarkt — €252,90 млн, в среднем €7,44 млн на игрока. Домашние матчи команда проводит в городе Hull.\n\nНа этой же позиции в клубе значится ещё один игрок — Lewie Coyle. В рейтинге стоимости состава он занимает 5-е место из 34. В свои 22 года он моложе 23 партнёров команды.\n\nПо оценке Transfermarkt с 23 декабря 2025 года по 29 мая 2026 года стоимость Norton-Cuffy снизилась с €16 млн до €15 млн. Максимальная оценка за этот период — €16 млн.\n\n## Профиль игрока\n\n- **Позиция:** правый защитник\n- **Прежний клуб:** Genoa CFC\n- **Новый клуб:** Hull City\n- **Гражданство:** Англия\n- **Дата рождения:** 12.01.2004\n- **Место рождения:** London\n- **Рост:** 1,81 м\n- **Рабочая нога:** правая\n- **Рыночная стоимость Transfermarkt:** €15 млн\n- **Контракт до:** 30.06.2031\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/728733",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-01",
+    "effective_transfer_date": "2026-09-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "Brooke Norton-Cuffy",
+    "from_club": "Genoa CFC",
+    "to_club": "Hull City",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Genoa CFC": 495,
+      "Hull City": 64
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "norton-cuffy__genoa-cfc__hull-city",
+    "built_at": "2026-09-05T13:39:00.457028+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2025-12-23",
+        "value_eur_m": 16.0
+      },
+      {
+        "date": "2026-05-29",
+        "value_eur_m": 15.0
+      }
+    ]
+  }
+}

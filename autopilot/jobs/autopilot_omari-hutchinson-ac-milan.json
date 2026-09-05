@@ -1,0 +1,99 @@
+{
+  "slug": "omari-hutchinson-ac-milan",
+  "player": "Omari Hutchinson",
+  "full_name": "Omari Hutchinson",
+  "transfermarkt_player_id": 741238,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/741238",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/741238",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 65,
+  "from_club_name": "Nottingham Forest",
+  "to_club_id": 489,
+  "to_club_name": "AC Milan",
+  "title": "Omari Hutchinson перешёл из Nottingham Forest в AC Milan",
+  "description": "Клуб AC Milan подписал Omari Hutchinson из клуба Nottingham Forest.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Right Winger",
+  "position_ru": "Правый вингер",
+  "main_position": "RW",
+  "birth_date": "30.10.2003",
+  "age": 22,
+  "nationality": "England",
+  "nationality_ru": "Англия",
+  "nationality_code": "GB-ENG",
+  "nationality_fifa_code": "ENG",
+  "nationality_flag_aliases": [
+    "ENG",
+    "England",
+    "GB-ENG",
+    "eng",
+    "england",
+    "flag-gb-eng",
+    "gb-eng"
+  ],
+  "preferred_foot": "Левая",
+  "market_value": "€30 млн",
+  "market_value_display": "€30 млн",
+  "seo_body_md": "## Omari Hutchinson переходит в AC Milan\n\nКлуб **AC Milan** объявил о подписании **Omari Hutchinson**. Правый вингер перешёл из клуба **Nottingham Forest**. Сделка оформлена **31 августа 2026 года**.\n\n## Детали перехода\n\nПо оценке Transfermarkt с 17 октября 2025 года по 3 июня 2026 года стоимость Hutchinson снизилась с €35 млн до €30 млн. Максимальная оценка за этот период — €35 млн.\n\n## Что получает клуб\n\nВ составе клуба AC Milan теперь 28 игроков со средним возрастом 25,6 года. Общая стоимость команды по Transfermarkt — €474,35 млн, в среднем €16,94 млн на игрока. Домашние матчи команда проводит в городе Milano. В новой команде игрок получил 20-й номер.\n\nКонкуренцию на этой позиции составят ещё 2 игрока: Christian Pulisic, Samuel Chukwueze. В рейтинге стоимости состава он занимает 5-е место из 28. В свои 22 года он моложе 18 партнёров команды.\n\nOmari Hutchinson родился в городе Redhill (Англия). Ранее выступал за: Chelsea (2008-12).\n\n## Карточка игрока\n\n- **Позиция:** правый вингер\n- **Прежний клуб:** Nottingham Forest\n- **Новый клуб:** AC Milan\n- **Гражданство:** Англия\n- **Дата рождения:** 30.10.2003\n- **Место рождения:** Redhill\n- **Рост:** 1,74 м\n- **Рабочая нога:** левая\n- **Игровой номер:** 20\n- **Рыночная стоимость Transfermarkt:** €30 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/741238",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-08-31",
+    "effective_transfer_date": "2026-08-31",
+    "parser_result": "official_permanent_transfer",
+    "player": "Omari Hutchinson",
+    "from_club": "Nottingham Forest",
+    "to_club": "AC Milan",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Nottingham Forest": 65,
+      "AC Milan": 489
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "hutchinson__nottingham-forest__ac-milan",
+    "built_at": "2026-09-05T13:39:00.444230+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2025-10-17",
+        "value_eur_m": 35.0
+      },
+      {
+        "date": "2025-12-09",
+        "value_eur_m": 30.0
+      },
+      {
+        "date": "2026-06-03",
+        "value_eur_m": 30.0
+      }
+    ]
+  }
+}

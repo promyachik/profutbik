@@ -1,0 +1,99 @@
+{
+  "slug": "ethan-nwaneri-borussia-dortmund",
+  "player": "Ethan Nwaneri",
+  "full_name": "Ethan Nwaneri",
+  "transfermarkt_player_id": 890719,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/890719",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/890719",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 81,
+  "from_club_name": "Olympique Marseille",
+  "to_club_id": 165,
+  "to_club_name": "Borussia Dortmund",
+  "title": "Ethan Nwaneri перешёл из Olympique Marseille в Borussia Dortmund",
+  "description": "Клуб Borussia Dortmund подписал Ethan Nwaneri из клуба Olympique Marseille.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Attacking Midfield",
+  "position_ru": "Атакующий полузащитник",
+  "main_position": "AM",
+  "birth_date": "21.03.2007",
+  "age": 19,
+  "nationality": "England",
+  "nationality_ru": "Англия",
+  "nationality_code": "GB-ENG",
+  "nationality_fifa_code": "ENG",
+  "nationality_flag_aliases": [
+    "ENG",
+    "England",
+    "GB-ENG",
+    "eng",
+    "england",
+    "flag-gb-eng",
+    "gb-eng"
+  ],
+  "preferred_foot": "Левая",
+  "market_value": "€35 млн",
+  "market_value_display": "€35 млн",
+  "seo_body_md": "## Ethan Nwaneri: что известно о переходе в Borussia Dortmund\n\nКлуб **Borussia Dortmund** усилил состав и подписал **Ethan Nwaneri** из клуба **Olympique Marseille**. Переход оформлен **1 сентября 2026 года**.\n\n## Динамика стоимости\n\nПо оценке Transfermarkt с 30 мая 2025 года по 1 июня 2026 года стоимость Nwaneri снизилась с €55 млн до €35 млн. Максимальная оценка за этот период — €55 млн.\n\n## Клуб назначения\n\nВ составе клуба Borussia Dortmund теперь 30 игроков со средним возрастом 24,4 года. Общая стоимость команды по Transfermarkt — €564,45 млн, в среднем €18,82 млн на игрока. Домашние матчи команда проводит в городе Dortmund. В новой команде игрок получил 18-й номер.\n\nКонкуренцию на этой позиции составят ещё 3 игрока: Konstantinos Karetsas, Giannis Konstantelias, Justin Lerma. В рейтинге стоимости состава он занимает 6-е место из 30. В свои 19 лет он моложе 20 партнёров команды.\n\nEthan Nwaneri родился в городе London (Англия). Ранее выступал за: Chelsea FC (2013-2015), Arsenal FC (2015-2023).\n\nЗа сборную Англии игрок дебютировал 21 марта 2025 года.\n\n## Данные игрока\n\n- **Позиция:** атакующий полузащитник\n- **Прежний клуб:** Olympique Marseille\n- **Новый клуб:** Borussia Dortmund\n- **Гражданство:** Англия\n- **Дата рождения:** 21.03.2007\n- **Место рождения:** London\n- **Рост:** 1,76 м\n- **Рабочая нога:** левая\n- **Игровой номер:** 18\n- **Рыночная стоимость Transfermarkt:** €35 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/890719",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-01",
+    "effective_transfer_date": "2026-09-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "Ethan Nwaneri",
+    "from_club": "Olympique Marseille",
+    "to_club": "Borussia Dortmund",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Olympique Marseille": 81,
+      "Borussia Dortmund": 165
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "nwaneri__olympique-marseille__borussia-dortmund",
+    "built_at": "2026-09-05T13:39:00.457840+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2025-05-30",
+        "value_eur_m": 55.0
+      },
+      {
+        "date": "2025-12-09",
+        "value_eur_m": 40.0
+      },
+      {
+        "date": "2026-06-01",
+        "value_eur_m": 35.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "iliman-ndiaye-manchester-city",
+  "player": "Iliman Ndiaye",
+  "full_name": "Iliman Ndiaye",
+  "transfermarkt_player_id": 623570,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/623570",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/623570",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 45,
+  "from_club_name": "Everton FC",
+  "to_club_id": 50,
+  "to_club_name": "Manchester City",
+  "title": "Iliman Ndiaye перешёл из Everton FC в Manchester City",
+  "description": "Клуб Manchester City подписал Iliman Ndiaye из клуба Everton FC.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Right Winger",
+  "position_ru": "Правый вингер",
+  "main_position": "RW",
+  "birth_date": "06.03.2000",
+  "age": 26,
+  "nationality": "Senegal",
+  "nationality_ru": "Сенегал",
+  "nationality_code": "SN",
+  "nationality_fifa_code": "SEN",
+  "nationality_flag_aliases": [
+    "SEN",
+    "SN",
+    "Senegal",
+    "flag-sn",
+    "sen",
+    "senegal",
+    "sn"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€55 млн",
+  "market_value_display": "€55 млн",
+  "seo_body_md": "## Iliman Ndiaye: что известно о переходе в Manchester City\n\nКлуб **Manchester City** усилил состав и подписал **Iliman Ndiaye** из клуба **Everton FC**. Переход оформлен **1 сентября 2026 года**.\n\n## Динамика стоимости\n\nПо оценке Transfermarkt с 9 марта 2026 года по 3 июня 2026 года стоимость Ndiaye выросла с €50 млн до €55 млн.\n\n## Клуб назначения\n\nВ составе клуба Manchester City теперь 25 игроков со средним возрастом 25,4 года. Общая стоимость команды по Transfermarkt — €1,43 млрд, в среднем €57,39 млн на игрока. Домашние матчи команда проводит в городе Manchester. В новой команде игрок получил 7-й номер.\n\nКонкуренцию на этой позиции составят ещё 3 игрока: Antoine Semenyo, Allan, Ryan McAidoo. В рейтинге стоимости состава он занимает 13-е место из 25. В свои 26 лет он моложе 6 партнёров команды.\n\nIliman Ndiaye родился в городе Rouen (Сенегал). Ранее выступал за: Rouen Sapins FC (2007-2009), FC Rouen (2009-2010), Olympique de Marseille (2010-2014), Dakar Sacré-Cœur (2014-2016), Boreham Wood (2016-2019), Rising Ballers FC (2019). Таким образом, это уже 7-й клуб в карьере Ndiaye.\n\nЗа сборную Сенегала игрок дебютировал 4 июня 2022 года.\n\n## Данные игрока\n\n- **Позиция:** правый вингер\n- **Прежний клуб:** Everton FC\n- **Новый клуб:** Manchester City\n- **Гражданство:** Сенегал\n- **Дата рождения:** 06.03.2000\n- **Место рождения:** Rouen\n- **Рост:** 1,8 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 7\n- **Рыночная стоимость Transfermarkt:** €55 млн\n- **Контракт до:** 30.06.2031\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/623570",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-01",
+    "effective_transfer_date": "2026-09-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "Iliman Ndiaye",
+    "from_club": "Everton FC",
+    "to_club": "Manchester City",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Everton FC": 45,
+      "Manchester City": 50
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "ndiaye__everton-fc__manchester-city",
+    "built_at": "2026-09-05T13:39:00.455298+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2026-03-09",
+        "value_eur_m": 50.0
+      },
+      {
+        "date": "2026-06-03",
+        "value_eur_m": 55.0
+      }
+    ]
+  }
+}

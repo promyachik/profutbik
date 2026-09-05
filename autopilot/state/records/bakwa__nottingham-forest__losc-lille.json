@@ -1,0 +1,86 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "bakwa__nottingham-forest__losc-lille",
+  "player": "Bakwa",
+  "player_full_name": "Dilane Bakwa",
+  "from_club": "Nottingham Forest",
+  "to_club": "LOSC Lille",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "pipeline_state": "ENRICHED",
+  "backfill": true,
+  "source": {
+    "publisher": "Transfermarkt",
+    "tier": "reference",
+    "url": "https://www.transfermarkt.com/-/profil/spieler/540664",
+    "title": "Dilane Bakwa: переход в LOSC Lille",
+    "published_iso": "2026-08-26T12:00:00+00:00"
+  },
+  "discovered_at": "2026-09-05T13:29:58.551657+00:00",
+  "enriched_at": "2026-09-05T13:37:06.200904+00:00",
+  "tm_to_club_id": "1082",
+  "tm_player_id": "540664",
+  "birth_date": "2002-08-26",
+  "age": 24,
+  "position": "Right Winger",
+  "position_short": "RW",
+  "preferred_foot": "left",
+  "height": 1.8,
+  "contract_until": "2027-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/540664-1775762611.jpg",
+  "market_value_points": [
+    {
+      "date": "2025-10-17",
+      "value_eur_m": 35.0
+    },
+    {
+      "date": "2026-03-09",
+      "value_eur_m": 28.0
+    },
+    {
+      "date": "2026-06-03",
+      "value_eur_m": 28.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 50,
+    "secondNationalityId": 193
+  },
+  "birth_place": "Créteil",
+  "former_clubs_note": "FC Boissy (2007-2013), US Lusitanos Saint-Maur (2013-2015), Girondins Bordeaux (2015-2019)",
+  "shirt_number": 18,
+  "is_captain": false,
+  "transfer_date": "2026-08-26",
+  "national_team_debut": "",
+  "squad_analysis": {
+    "same_position_count": 2,
+    "same_position_names": [
+      "Ethan Mbappé",
+      "Gaëtan Perrin"
+    ],
+    "value_rank": 1,
+    "squad_total": 27,
+    "younger_than": 13
+  },
+  "to_club_official_name": "LOSC Lille",
+  "to_club_context": {
+    "squad_size": 27,
+    "average_age": "25.9",
+    "squad_value": {
+      "prefix": "€",
+      "content": "245.10",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "9.08",
+      "suffix": "M"
+    },
+    "stadium": "Domaine de Luchin",
+    "city": "Camphin-en-Pévèle"
+  },
+  "verdict_reason": "",
+  "block_reason": "",
+  "block_detail": ""
+}

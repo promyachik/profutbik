@@ -1,0 +1,95 @@
+{
+  "slug": "fabio-miretti-besiktas-jk",
+  "player": "Fabio Miretti",
+  "full_name": "Fabio Miretti",
+  "transfermarkt_player_id": 571607,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/571607",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/571607",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 496,
+  "from_club_name": "Juventus FC",
+  "to_club_id": 549,
+  "to_club_name": "Besiktas JK",
+  "title": "Fabio Miretti перешёл из Juventus FC в Besiktas JK",
+  "description": "Клуб Besiktas JK подписал Fabio Miretti из клуба Juventus FC.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Central Midfield",
+  "position_ru": "Центральный полузащитник",
+  "main_position": "CM",
+  "birth_date": "03.08.2003",
+  "age": 23,
+  "nationality": "Italy",
+  "nationality_ru": "Италия",
+  "nationality_code": "IT",
+  "nationality_fifa_code": "ITA",
+  "nationality_flag_aliases": [
+    "IT",
+    "ITA",
+    "Italy",
+    "flag-it",
+    "it",
+    "ita",
+    "italy"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€15 млн",
+  "market_value_display": "€15 млн",
+  "seo_body_md": "## Fabio Miretti стал игроком Besiktas JK\n\n**Fabio Miretti** — центральный полузащитник, которому 23 — продолжит карьеру в клубе **Besiktas JK**, покинув **Juventus FC**. Переход состоялся **28 августа 2026 года**.\n\n## Карьера до перехода\n\nFabio Miretti родился в городе Pinerolo (Италия). Путь игрока до нынешнего перехода: Auxilium Saluzzo (2007-08), Cuneo 1905 (2008-11).\n\n## Новый клуб\n\nВ составе клуба Besiktas JK теперь 31 игрок со средним возрастом 24,7 года. Общая стоимость команды по Transfermarkt — €266,60 млн, в среднем €8,60 млн на игрока. Домашние матчи команда проводит в городе Beşiktaş / İstanbul. В новой команде игрок получил 21-й номер.\n\nНа этой же позиции в клубе значится ещё один игрок — Orkun Kökçü. В рейтинге стоимости состава он занимает 6-е место из 31. В свои 23 года он моложе 17 партнёров команды.\n\nПо оценке Transfermarkt с 24 марта 2026 года по 29 мая 2026 года стоимость Miretti снизилась с €16 млн до €15 млн. Максимальная оценка за этот период — €16 млн.\n\n## Профиль игрока\n\n- **Позиция:** центральный полузащитник\n- **Прежний клуб:** Juventus FC\n- **Новый клуб:** Besiktas JK\n- **Гражданство:** Италия\n- **Дата рождения:** 03.08.2003\n- **Место рождения:** Pinerolo\n- **Рост:** 1,8 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 21\n- **Рыночная стоимость Transfermarkt:** €15 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/571607",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-08-28",
+    "effective_transfer_date": "2026-08-28",
+    "parser_result": "official_permanent_transfer",
+    "player": "Fabio Miretti",
+    "from_club": "Juventus FC",
+    "to_club": "Besiktas JK",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Juventus FC": 496,
+      "Besiktas JK": 549
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "miretti__juventus-fc__besiktas-jk",
+    "built_at": "2026-09-05T13:39:00.452960+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2026-03-24",
+        "value_eur_m": 16.0
+      },
+      {
+        "date": "2026-05-29",
+        "value_eur_m": 15.0
+      }
+    ]
+  }
+}

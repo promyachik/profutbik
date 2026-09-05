@@ -1,0 +1,82 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "cho__ogc-nice__hull-city",
+  "player": "Cho",
+  "player_full_name": "Mohamed-Ali Cho",
+  "from_club": "OGC Nice",
+  "to_club": "Hull City",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "pipeline_state": "ENRICHED",
+  "backfill": true,
+  "source": {
+    "publisher": "Transfermarkt",
+    "tier": "reference",
+    "url": "https://www.transfermarkt.com/-/profil/spieler/670847",
+    "title": "Mohamed-Ali Cho: переход в Hull City",
+    "published_iso": "2026-08-27T12:00:00+00:00"
+  },
+  "discovered_at": "2026-09-05T13:29:58.572092+00:00",
+  "enriched_at": "2026-09-05T13:37:24.033108+00:00",
+  "tm_to_club_id": "3008",
+  "tm_player_id": "670847",
+  "birth_date": "2004-01-19",
+  "age": 22,
+  "position": "Right Winger",
+  "position_short": "RW",
+  "preferred_foot": "left",
+  "height": 1.82,
+  "contract_until": "2031-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/670847-1756824395.jpg",
+  "market_value_points": [
+    {
+      "date": "2026-03-27",
+      "value_eur_m": 15.0
+    },
+    {
+      "date": "2026-06-01",
+      "value_eur_m": 15.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 50,
+    "secondNationalityId": 189
+  },
+  "birth_place": "Stains",
+  "former_clubs_note": "US Chantilly (2010-2011), Paris Saint-Germain (2011-2015), Everton FC (2015-2019), Angers SCO (2020)",
+  "shirt_number": 50,
+  "is_captain": false,
+  "transfer_date": "2026-08-27",
+  "national_team_debut": "",
+  "squad_analysis": {
+    "same_position_count": 2,
+    "same_position_names": [
+      "Mohamed Belloumi",
+      "David Akintola"
+    ],
+    "value_rank": 6,
+    "squad_total": 34,
+    "younger_than": 23
+  },
+  "to_club_official_name": "Hull City",
+  "to_club_context": {
+    "squad_size": 34,
+    "average_age": "26.2",
+    "squad_value": {
+      "prefix": "€",
+      "content": "252.90",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "7.44",
+      "suffix": "M"
+    },
+    "stadium": "KCOM Stadium",
+    "city": "Hull"
+  },
+  "verdict_reason": "",
+  "block_reason": "",
+  "block_detail": ""
+}

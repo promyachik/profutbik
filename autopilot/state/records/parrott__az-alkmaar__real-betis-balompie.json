@@ -1,0 +1,81 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "parrott__az-alkmaar__real-betis-balompie",
+  "player": "Parrott",
+  "player_full_name": "Troy Parrott",
+  "from_club": "AZ Alkmaar",
+  "to_club": "Real Betis Balompié",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "pipeline_state": "ENRICHED",
+  "backfill": true,
+  "source": {
+    "publisher": "Transfermarkt",
+    "tier": "reference",
+    "url": "https://www.transfermarkt.com/-/profil/spieler/552655",
+    "title": "Troy Parrott: переход в Real Betis Balompié",
+    "published_iso": "2026-08-20T12:00:00+00:00"
+  },
+  "discovered_at": "2026-09-05T13:29:58.556261+00:00",
+  "enriched_at": "2026-09-05T13:38:39.081588+00:00",
+  "tm_to_club_id": "150",
+  "tm_player_id": "552655",
+  "birth_date": "2002-02-04",
+  "age": 24,
+  "position": "Centre-Forward",
+  "position_short": "CF",
+  "preferred_foot": "right",
+  "height": 1.85,
+  "contract_until": "2031-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/552655-1721657549.jpg",
+  "market_value_points": [
+    {
+      "date": "2025-12-02",
+      "value_eur_m": 22.0
+    },
+    {
+      "date": "2026-05-28",
+      "value_eur_m": 25.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 72,
+    "secondNationalityId": 0
+  },
+  "birth_place": "Dublin",
+  "former_clubs_note": "Belvedere FC (-2017), Tottenham Hotspur (2017-2019)",
+  "shirt_number": 19,
+  "is_captain": false,
+  "transfer_date": "2026-08-20",
+  "national_team_debut": "2019-11-14",
+  "squad_analysis": {
+    "same_position_count": 1,
+    "same_position_names": [
+      "Cucho Hernández"
+    ],
+    "value_rank": 4,
+    "squad_total": 25,
+    "younger_than": 20
+  },
+  "to_club_official_name": "Real Betis Balompié",
+  "to_club_context": {
+    "squad_size": 25,
+    "average_age": "28.2",
+    "squad_value": {
+      "prefix": "€",
+      "content": "254.60",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "10.18",
+      "suffix": "M"
+    },
+    "stadium": "Avenida Heliópolis",
+    "city": "Sevilla"
+  },
+  "verdict_reason": "",
+  "block_reason": "",
+  "block_detail": ""
+}

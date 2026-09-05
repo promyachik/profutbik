@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "wamser__unknown__manchester-city",
+  "player": "Wamser",
+  "from_club": "",
+  "to_club": "Manchester City",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "NEEDS_REVIEW",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c4g5x8y0n2jo?at_medium=RSS&at_campaign=rss",
+    "title": "Germany's Wamser completes move to Man City",
+    "published": "Mon, 31 Aug 2026 10:30:12 GMT",
+    "published_iso": "2026-08-31T10:30:12+00:00"
+  },
+  "discovered_at": "2026-09-01T16:50:00.937402+00:00",
+  "enriched_at": "2026-09-05T13:38:59.286306+00:00",
+  "tm_to_club_id": "281",
+  "block_reason": "PLAYER_NOT_IN_DESTINATION_SQUAD",
+  "block_detail": "Wamser не числится в составе Manchester City на Transfermarkt - переход не подтверждён"
+}
