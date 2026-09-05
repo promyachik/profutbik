@@ -955,7 +955,16 @@
     </footer>
   </article>
 
-  <article class="pf-home-panel pf-home-panel--rumors">
+  {{/* PF511A: в разметке лежат все слухи, а видно ровно столько же, сколько
+       строк слева. Прятать лишние правилом по номеру строки, а не срезать
+       список в шаблоне, нужно ради перелистывания: скрипт меняет строки
+       местами, и видимыми сами собой становятся те, что оказались вверху. */}}
+  <style id="pf511a-rumors-visible-rows">
+    .pf-home-panel--rumors .pf-home-transfers-table tbody tr:nth-child(n+{{ add $rowsShown 1 }}) {
+      display: none;
+    }
+  </style>
+  <article class="pf-home-panel pf-home-panel--rumors" data-pf-collapsed-rows="{{ $rowsShown }}">
     <header class="pf-home-panel__header">
       <h2 class="pf-home-panel__title"><a class="pf405i-home-panel-title-link" data-pf405i-section="rumors" href="{{ "rumors/" | relURL }}">{{ $data.rumors_title }}</a></h2>
     </header>
@@ -970,7 +979,7 @@
     {{ if gt (len $data.rumors) 0 }}
       <div class="pf508e-rumors-table-wrap"><table class="pf-home-transfers-table pf399x-transfer-table">
         <tbody>
-          {{ range first $rowsShown $data.rumors }}
+          {{ range $data.rumors }}
             <tr>
               <td class="is-player">
                 <a href="{{ .url | relURL }}">{{ .player }}</a>
@@ -1029,7 +1038,8 @@
 /* PF405V_LINK_EXPANDED_HOME_TRANSFER_FEES_END */
 </style>
 
-<script src="{{ "js/home-transfer-show-more.js" | relURL }}?v=pf509c" defer></script>
+<script src="{{ "js/home-transfer-show-more.js" | relURL }}?v=pf511a" defer></script>
+<script src="{{ "js/home-billboard.js" | relURL }}?v=pf511a" defer></script>
 
 <!-- PF403B_HOME_TRANSFER_AMOUNT_CLICK_START -->
 <style>

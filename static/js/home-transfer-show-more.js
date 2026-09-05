@@ -150,7 +150,12 @@
     let resizeFrame = 0;
 
     function visibleRows() {
-      return rows.filter((row) => !row.hidden);
+      // PF511A: порядок читаем из разметки, а не из массива, снятого при
+      // запуске. Перелистывание блоков переставляет строки местами, и
+      // высота свёрнутого вида считалась бы по строке, которая уже уехала
+      // в середину таблицы — блок прыгал бы.
+      return Array.from(table.querySelectorAll("tbody > tr"))
+        .filter((row) => !row.hidden);
     }
 
     function fullHeight() {
