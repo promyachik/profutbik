@@ -60,9 +60,14 @@
   }
 </style>
 
+{{/* PF509B: круг ленты стал длиннее — 64 секунды вместо 42. Прежний темп
+     был таким, что переход успевал уехать раньше, чем глаз его прочитывал:
+     статус, фамилия, два клуба и сумма — это пять вещей, а не одна.
+     Число задаёт время полного круга, поэтому от количества трансферов
+     скорость не зависит: чем их больше, тем быстрее едет лента. */}}
 <div
     class="pf-ticker"
-    data-ticker-duration="42"
+    data-ticker-duration="64"
     aria-label="Последние футбольные трансферы"
 >
     <div class="pf-ticker__badge">
@@ -402,7 +407,7 @@
                 trackSelector: ".pf-ticker__track",
                 groupSelector: ".pf-ticker__group",
                 readyClass: "pf-ticker--drag-ready",
-                defaultDuration: 42
+                defaultDuration: 64
             });
         });
 
@@ -412,7 +417,7 @@
                 trackSelector: ".bottom-transfer-strip-v3__track",
                 groupSelector: ".bottom-transfer-strip-v3__group",
                 readyClass: "bottom-transfer-strip-v3--drag-ready",
-                defaultDuration: 52
+                defaultDuration: 78
             });
         });
     }

@@ -25,6 +25,7 @@ import json
 import re
 import shutil
 import sys
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -262,11 +263,128 @@ def remove_rumor(slug: str) -> list[str]:
     return removed
 
 
+def _front_matter(path: Path) -> dict:
+    """Поля из шапки страницы. Значения простые, разбирать YAML целиком незачем."""
+    text = path.read_text(encoding="utf-8", errors="replace")
+    if not text.startswith("---"):
+        return {}
+    head = text.split("---", 2)[1]
+    out = {}
+    for line in head.splitlines():
+        m = re.match(r'^\s*([a-z_]+)\s*:\s*"?(.*?)"?\s*$', line)
+        if m:
+            out[m.group(1)] = m.group(2)
+    return out
+
+
+def resync_homepage() -> int:
+    """Пересобирает блок слухов на главной из страниц раздела.
+
+    Запись на главную делается при публикации, и слухи, заведённые до того,
+    как этот шаг появился, туда не попали: на сайте страница есть, в блоке её
+    нет. Отсюда и пустые слоты — панель слухов вдвое короче панели трансферов,
+    хотя материала хватает.
+
+    Источник правды здесь — сами страницы: что лежит в content/rumors, то и
+    показываем. Записи, ведущие в раздел трансферов (старые слухи жили там),
+    сохраняются как есть — страницы для них никуда не делись.
+    """
+    homepage = json.loads(HOMEPAGE_JSON.read_text(encoding="utf-8"))
+    existing = {row.get("slug"): row for row in (homepage.get("rumors") or [])}
+    kept_foreign = [row for row in (homepage.get("rumors") or [])
+                    if not str(row.get("url", "")).startswith("rumors/")]
+
+    rows = []
+    for page in sorted(RUMORS_DIR.glob("*/index.md")):
+        slug = page.parent.name
+        fm = _front_matter(page)
+        if not fm.get("player"):
+            continue
+        status = fm.get("status") or "rumour"
+        label, display, css = STATUS_LABELS.get(status, STATUS_LABELS["rumour"])
+        date = fm.get("date") or ""
+        try:
+            ts = datetime.fromisoformat(date).timestamp()
+        except Exception:
+            ts = 0.0
+        previous = existing.get(slug, {})
+        rows.append({
+            "slug": slug,
+            "url": (fm.get("url") or "/rumors/%s/" % slug).lstrip("/"),
+            "title": fm.get("title") or "",
+            "player": fm.get("player"),
+            "status": status,
+            "status_display": display,
+            "status_css": css,
+            "group": "rumor",
+            "date": date,
+            "sort_ts": ts,
+            "from_name": fm.get("from_club") or "",
+            "to_name": fm.get("to_club") or "",
+            "from_logo": fm.get("from_logo") or previous.get("from_logo") or "",
+            "to_logo": fm.get("to_logo") or previous.get("to_logo") or "",
+            "fee": fm.get("fee") or "Сумма не называется",
+            "from_club_id": previous.get("from_club_id", ""),
+            "to_club_id": previous.get("to_club_id", ""),
+        })
+
+    known = {row["slug"] for row in rows}
+    rows.extend(row for row in kept_foreign if row.get("slug") not in known)
+    rows.sort(key=lambda r: -(r.get("sort_ts") or 0))
+
+    # Один игрок — одна строка. Часть слухов живёт двумя страницами: старая
+    # в разделе трансферов и новая в разделе слухов, и без отсева Бернарду
+    # Силва с Альваресом появлялись в блоке дважды. Сравниваем имена без
+    # диакритики: в одной записи «Julián Álvarez», в другой «Julian Alvarez».
+    def key(row: dict) -> str:
+        name = unicodedata.normalize("NFKD", row.get("player") or "")
+        return "".join(c for c in name if not unicodedata.combining(c)).casefold().strip()
+
+    seen: dict[str, dict] = {}
+    for row in rows:
+        k = key(row)
+        if not k:
+            continue
+        # Запись новее — она и остаётся; при равных датах предпочитаем
+        # страницу из раздела слухов, он теперь канонический.
+        old = seen.get(k)
+        if old is None:
+            seen[k] = row
+            continue
+        newer = (row.get("sort_ts") or 0) > (old.get("sort_ts") or 0)
+        same_time = (row.get("sort_ts") or 0) == (old.get("sort_ts") or 0)
+        canonical = str(row.get("url", "")).startswith("rumors/")
+        if newer or (same_time and canonical):
+            seen[k] = row
+    dropped = len(rows) - len(seen)
+    rows = sorted(seen.values(), key=lambda r: -(r.get("sort_ts") or 0))
+    if dropped:
+        print("  снято дублей по игроку: %d" % dropped)
+
+    was = len(homepage.get("rumors") or [])
+    homepage["rumors"] = rows
+    HOMEPAGE_JSON.write_text(
+        json.dumps(homepage, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print("  блок слухов на главной: было %d, стало %d" % (was, len(rows)))
+    for row in rows:
+        print("    %-20s %-24s -> %-22s %s"
+              % (row["player"][:20], row["from_name"][:24],
+                 row["to_name"][:22], row["status_display"]))
+    return len(rows)
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Publish rumours from the queue")
     parser.add_argument("--save", action="store_true", help="реально публиковать")
     parser.add_argument("--network", action="store_true")
+    parser.add_argument("--resync-homepage", action="store_true",
+                        help="пересобрать блок слухов на главной из страниц раздела")
     args = parser.parse_args(argv)
+
+    if args.resync_homepage:
+        print("\n=== ПЕРЕСБОРКА БЛОКА СЛУХОВ ===")
+        resync_homepage()
+        return 0
 
     tm_clubs = build_tm_club_index(verbose=False)
     bridge = load_club_bridge()
