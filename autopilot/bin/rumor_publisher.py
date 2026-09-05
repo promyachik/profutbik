@@ -382,7 +382,9 @@ def publish_rumor(record: dict, tm_clubs: dict, bridge: dict,
     position_ru = POSITIONS.get(record.get("position") or "", ("", ""))[0]
     fee_ru = money_ru(record.get("fee_raw") or "")
 
-    slug = rumor_slug(record)
+    # Усыновлённая страница сохраняет свой адрес: он может быть в индексе,
+    # а два адреса с одним содержимым — дубль, который вредит обоим.
+    slug = record.get("rumor_slug_override") or rumor_slug(record)
     url = "/rumors/%s/" % slug
     league_id, league = LEAGUE_BY_COUNTRY.get(to_info.get("country") or "", ("", ""))
 
@@ -613,6 +615,79 @@ def resync_homepage() -> int:
     return len(rows)
 
 
+def adopt_pages() -> int:
+    """Заводит записи для страниц слухов, у которых их нет.
+
+    Пять июльских страниц сделаны до появления парсера: в разделе они есть,
+    а в очереди их нет, поэтому перевыпустить с нормальным текстом нечем — у
+    них так и остаётся по сорок слов. Собираем запись из шапки страницы и
+    ставим в состояние DISCOVERED: дальше обычное обогащение само найдёт
+    игрока, стоимость и состав, а публикация перезапишет страницу.
+
+    Адрес сохраняется прежним. Он у старых страниц со статусом в хвосте
+    (...-agreement, ...-interest), и менять его нельзя: страница может быть
+    в индексе, а два адреса с одним содержимым — это дубль, который вредит
+    обоим.
+    """
+    known = set()
+    for path in RECORDS_DIR.glob("*.json"):
+        try:
+            slug = json.loads(path.read_text(encoding="utf-8")).get("rumor_slug")
+        except Exception:
+            continue
+        if slug:
+            known.add(slug)
+
+    made = 0
+    for page in sorted(RUMORS_DIR.glob("*/index.md")):
+        slug = page.parent.name
+        if slug in known:
+            continue
+        fm = _front_matter(page)
+        player = fm.get("player")
+        to_club = fm.get("to_club")
+        from_club = fm.get("from_club")
+        if not (player and to_club and from_club):
+            print("  пропуск %s: в шапке нет игрока или клубов" % slug)
+            continue
+
+        status = fm.get("status") or "rumour"
+        kind = {"negotiations": "negotiations",
+                "agreement": "agreement"}.get(status, "rumour")
+        entity = "%s__%s__%s" % (slugify(player.split()[-1]),
+                                 slugify(from_club), slugify(to_club))
+        target = RECORDS_DIR / ("%s.json" % entity)
+        if target.exists():
+            continue
+
+        target.write_text(json.dumps({
+            "schema_version": 2,
+            "kind": kind,
+            "entity_id": entity,
+            "player": player.split()[-1],
+            "player_full_name": player,
+            "from_club": from_club,
+            "to_club": to_club,
+            "fee_raw": fm.get("fee") or "",
+            "verdict": "NEW_CANDIDATE",
+            "pipeline_state": "DISCOVERED",
+            "adopted_from_page": slug,
+            "rumor_slug_override": slug,
+            "source": {
+                "publisher": "СМИ",
+                "tier": "major_media",
+                "url": "",
+                "title": fm.get("title") or "",
+                "published_iso": fm.get("date") or "",
+            },
+            "discovered_at": now_iso(),
+        }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        made += 1
+        print("  усыновлена %-44s %s -> %s" % (slug[:44], from_club, to_club))
+    print("  заведено записей: %d" % made)
+    return made
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Publish rumours from the queue")
     parser.add_argument("--save", action="store_true", help="реально публиковать")
@@ -621,7 +696,14 @@ def main(argv: list[str] | None = None) -> int:
                         help="пересобрать блок слухов на главной из страниц раздела")
     parser.add_argument("--limit", type=int, default=0,
                         help="сколько слухов выпустить за раз (0 — все готовые)")
+    parser.add_argument("--adopt-pages", action="store_true",
+                        help="завести записи для страниц слухов без записи")
     args = parser.parse_args(argv)
+
+    if args.adopt_pages:
+        print("\n=== УСЫНОВЛЕНИЕ СТАРЫХ СТРАНИЦ ===")
+        adopt_pages()
+        return 0
 
     if args.resync_homepage:
         print("\n=== ПЕРЕСБОРКА БЛОКА СЛУХОВ ===")

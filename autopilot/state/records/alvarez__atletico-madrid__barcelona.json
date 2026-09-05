@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "alvarez__atletico-madrid__barcelona",
+  "player": "Alvarez",
+  "player_full_name": "Julian Alvarez",
+  "from_club": "Atlético Madrid",
+  "to_club": "Barcelona",
+  "fee_raw": "€90 млн",
+  "verdict": "NEW_CANDIDATE",
+  "pipeline_state": "NEEDS_REVIEW",
+  "adopted_from_page": "julian-alvarez-barcelona-rumor",
+  "rumor_slug_override": "julian-alvarez-barcelona-rumor",
+  "source": {
+    "publisher": "СМИ",
+    "tier": "major_media",
+    "url": "",
+    "title": "Barcelona связывают с возможным переходом Julian Alvarez",
+    "published_iso": "2026-07-20T16:00:00+03:00"
+  },
+  "discovered_at": "2026-09-05T20:01:34.607417+00:00",
+  "enriched_at": "2026-09-05T20:02:00.080151+00:00",
+  "tm_to_club_id": "131",
+  "block_reason": "AMBIGUOUS_PLAYER",
+  "block_detail": "однофамильцы в наших составах: Yeray Álvarez, Julián Alvarez, Hugo Álvarez, Carlos Álvarez"
+}

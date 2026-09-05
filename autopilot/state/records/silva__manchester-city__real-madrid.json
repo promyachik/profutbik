@@ -1,0 +1,89 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "silva__manchester-city__real-madrid",
+  "player": "Silva",
+  "player_full_name": "Bernardo Silva",
+  "from_club": "Manchester City",
+  "to_club": "Real Madrid",
+  "fee_raw": "€22 млн",
+  "verdict": "NEW_CANDIDATE",
+  "pipeline_state": "ENRICHED",
+  "adopted_from_page": "bernardo-silva-real-madrid-agreement",
+  "rumor_slug_override": "bernardo-silva-real-madrid-agreement",
+  "source": {
+    "publisher": "СМИ",
+    "tier": "major_media",
+    "url": "",
+    "title": "Bernardo Silva согласовал условия с Real Madrid",
+    "published_iso": "2026-07-20T20:00:00+03:00"
+  },
+  "discovered_at": "2026-09-05T20:01:34.605468+00:00",
+  "enriched_at": "2026-09-05T20:04:13.144649+00:00",
+  "tm_to_club_id": "418",
+  "promoted_from_agreement_at": "2026-09-05T20:04:13.144845+00:00",
+  "promotion_evidence": "числится в составе Real Madrid на Transfermarkt",
+  "tm_player_id": "241641",
+  "birth_date": "1994-08-10",
+  "age": 32,
+  "position": "Attacking Midfield",
+  "position_short": "AM",
+  "preferred_foot": "left",
+  "height": 1.73,
+  "contract_until": "2028-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/241641-1684311533.jpg",
+  "market_value_points": [
+    {
+      "date": "2019-12-10",
+      "value_eur_m": 100.0
+    },
+    {
+      "date": "2025-12-09",
+      "value_eur_m": 27.0
+    },
+    {
+      "date": "2026-06-03",
+      "value_eur_m": 22.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 136,
+    "secondNationalityId": 0
+  },
+  "birth_place": "Lisboa",
+  "former_clubs_note": "SL Benfica (2002-2013)",
+  "shirt_number": 20,
+  "is_captain": false,
+  "transfer_date": "2026-07-01",
+  "national_team_debut": "2015-03-31",
+  "squad_analysis": {
+    "same_position_count": 2,
+    "same_position_names": [
+      "Jude Bellingham",
+      "Arda Güler"
+    ],
+    "value_rank": 18,
+    "squad_total": 27,
+    "younger_than": 2
+  },
+  "to_club_official_name": "Real Madrid",
+  "to_club_context": {
+    "squad_size": 27,
+    "average_age": "25.9",
+    "squad_value": {
+      "prefix": "€",
+      "content": "1.46",
+      "suffix": "B"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "53.94",
+      "suffix": "M"
+    },
+    "stadium": "Avenida de Concha Espina 1",
+    "city": "Madrid"
+  },
+  "verdict_reason": "",
+  "block_reason": "",
+  "block_detail": ""
+}

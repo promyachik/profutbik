@@ -18,7 +18,7 @@
     "published_iso": "2026-09-04T10:44:37+00:00"
   },
   "discovered_at": "2026-09-05T11:51:40.616800+00:00",
-  "enriched_at": "2026-09-05T19:32:11.782133+00:00",
+  "enriched_at": "2026-09-05T20:03:43.025489+00:00",
   "tm_to_club_id": "31",
   "block_reason": "",
   "block_detail": "",
@@ -80,6 +80,7 @@
     "city": "Liverpool"
   },
   "rumor_slug": "yankuba-minteh-liverpool",
-  "rumor_published_at": "2026-09-05T11:57:21.212631+00:00",
-  "found_in": "local_index"
+  "found_in": "local_index",
+  "rumor_slug_override": "yankuba-minteh-liverpool",
+  "rumor_published_at": "2026-09-05T20:04:54.961925+00:00"
 }
