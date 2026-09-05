@@ -3,7 +3,18 @@
 
   // PF491A: было 5. После удаления раздела «Новости» блок трансферов
   // на главной смотрелся пустым при своей высоте.
-  const COLLAPSED_ROWS = 7;
+  //
+  // PF509C: число приходит из разметки. Панели стоят рядом и должны быть
+  // одной высоты, а слухов бывает меньше семи — тогда столько же показывает
+  // и левая панель. Семь остаётся значением по умолчанию.
+  const DEFAULT_COLLAPSED_ROWS = 7;
+
+  function collapsedRowsFor(root) {
+    const declared = parseInt(root?.dataset?.pfCollapsedRows || "", 10);
+    return Number.isFinite(declared) && declared > 0
+      ? declared
+      : DEFAULT_COLLAPSED_ROWS;
+  }
   const LEAGUE_BUTTON_SELECTOR = ".pf-league-selector__item";
   const CLUB_ID_TO_LEAGUES = {"157":["78"],"165":["78"],"168":["78"],"211":["94"],"212":["94"],"217":["94"],"228":["94"],"33":["39"],"34":["39"],"40":["39"],"42":["39"],"47":["39"],"489":["135"],"49":["39"],"492":["135"],"496":["135"],"50":["39"],"505":["135"],"529":["140"],"530":["140"],"541":["140"],"549":["203"],"555":["235"],"558":["235"],"560":["235"],"585":["235"],"596":["235"],"597":["235"],"611":["203"],"645":["203"],"81":["61"],"85":["61"],"91":["61"],"998":["203"]};
   const CLUB_NAME_TO_LEAGUES = {"ac milan":["135"],"arsenal":["39"],"atletico madrid":["140"],"barcelona":["140"],"bayer leverkusen":["78"],"bayern munich":["78"],"benfica":["94"],"besiktas":["203"],"borussia dortmund":["78"],"chelsea":["39"],"cska moscow":["235"],"dynamo moscow":["235"],"fc porto":["94"],"fenerbahce":["203"],"galatasaray":["203"],"inter":["135"],"juventus":["135"],"krasnodar":["235"],"liverpool":["39"],"lokomotiv moscow":["235"],"manchester city":["39"],"manchester united":["39"],"marseille":["61"],"monaco":["61"],"napoli":["135"],"newcastle":["39"],"paris saint germain":["61"],"porto":["94"],"real madrid":["140"],"sc braga":["94"],"spartak moscow":["235"],"sporting cp":["94"],"tottenham":["39"],"trabzonspor":["203"],"zenit":["235"]};
@@ -124,6 +135,8 @@
     if (!viewport || !table || !toggle) {
       return null;
     }
+
+    const COLLAPSED_ROWS = collapsedRowsFor(root);
 
     const rows = Array.from(
       table.querySelectorAll("tbody > tr")

@@ -1,4 +1,13 @@
 {{ $data := site.Data.homepage_transfer_rumor }}
+{{/* PF509C: панели стоят рядом и должны быть одной высоты. Раньше слева
+     показывалось семь трансферов (столько разворачивает скрипт), а справа —
+     все слухи, сколько есть; при девяти слухах правая колонка свисала.
+     Считаем общее число строк: не больше семи и не больше того, чего
+     реально меньше. Слева его получает скрипт сворачивания, справа —
+     сам вывод. Остальное открывается кнопками под панелями. */}}
+{{ $rowsShown := 7 }}
+{{ if lt (len $data.rumors) $rowsShown }}{{ $rowsShown = len $data.rumors }}{{ end }}
+{{ if lt (len $data.transfers) $rowsShown }}{{ $rowsShown = len $data.transfers }}{{ end }}
 <section class="pf-home-market-overview" data-pf-home-market-overview>
   <style id="pf-home-transfer-rumor-blocks-style">
     .pf-home-market-overview {
@@ -877,7 +886,7 @@
     /* PF508A_MOBILE_ROWS_HORIZONTAL_END */
   </style>
 
-  <article class="pf-home-panel pf-home-panel--transfers">
+  <article class="pf-home-panel pf-home-panel--transfers" data-pf-collapsed-rows="{{ $rowsShown }}">
     <header class="pf-home-panel__header">
       <h2 class="pf-home-panel__title"><a class="pf405i-home-panel-title-link" data-pf405i-section="transfers" href="{{ "transfers/" | relURL }}">{{ $data.transfers_title }}</a></h2>
     </header>
@@ -961,7 +970,7 @@
     {{ if gt (len $data.rumors) 0 }}
       <div class="pf508e-rumors-table-wrap"><table class="pf-home-transfers-table pf399x-transfer-table">
         <tbody>
-          {{ range $data.rumors }}
+          {{ range first $rowsShown $data.rumors }}
             <tr>
               <td class="is-player">
                 <a href="{{ .url | relURL }}">{{ .player }}</a>
@@ -1020,7 +1029,7 @@
 /* PF405V_LINK_EXPANDED_HOME_TRANSFER_FEES_END */
 </style>
 
-<script src="{{ "js/home-transfer-show-more.js" | relURL }}?v=pf494a" defer></script>
+<script src="{{ "js/home-transfer-show-more.js" | relURL }}?v=pf509c" defer></script>
 
 <!-- PF403B_HOME_TRANSFER_AMOUNT_CLICK_START -->
 <style>
