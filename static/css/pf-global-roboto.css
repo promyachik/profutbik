@@ -1,6 +1,11 @@
 /* PF400F_GLOBAL_ROBOTO_START */
 :root {
   --pf-global-font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+  /* PF512A: заголовочное начертание. Отдельная переменная, а не правка в
+     каждом месте: глобальное правило ниже расставляет Roboto с !important,
+     и без единой точки управления пришлось бы спорить с ним в десятке
+     файлов. Менять шрифт сайта теперь — поменять две строки здесь. */
+  --pf-display-font-family: "Oswald", "Roboto Condensed", "Roboto", sans-serif;
 }
 
 html,
@@ -80,3 +85,24 @@ svg text {
   font-family: var(--pf-global-font-family) !important;
 }
 /* PF400F_GLOBAL_ROBOTO_END */
+
+/* PF512A_DISPLAY_FONT_START
+   Заголовочным набраны те места, где текст называет сущность: фамилия
+   игрока, название раздела, заголовок материала. Всё остальное остаётся
+   нейтральным — иначе характер шрифта из приёма превращается в шум.
+
+   !important здесь не от хорошей жизни: правило выше расставляет Roboto
+   тоже с !important, и без него заголовочный просто не применится. */
+.pf-home-panel__title,
+.pf-home-panel__title a,
+.pf-home-transfers-table tbody td.is-player a,
+.pf405a-title,
+.pf405a-player,
+.pf405a-head-title,
+.transfer-stage__player,
+.transfer-story__header h1,
+body.transfer-page h1 {
+  font-family: var(--pf-display-font-family) !important;
+  letter-spacing: 0.01em;
+}
+/* PF512A_DISPLAY_FONT_END */
