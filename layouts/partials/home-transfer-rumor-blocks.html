@@ -127,12 +127,17 @@
       stroke-width: 3.2;
     }
 
-    /* PF508C: имя игрока — главное в строке, и после удаления колонки с
-       суммой ему досталась вся освободившаяся ширина. Переносов больше нет:
-       «Matias Fernandez-Pardo» стоял в три строки и ломал ритм списка. */
+    /* PF508H: доли колонок заданы явно.
+       Раньше имя занимало всю свободную ширину (`width:100%`), и остальное
+       расталкивалось по краям: между именем и эмблемами зияло полстроки.
+       Теперь ширина поделена, клуб стоит рядом со своей эмблемой, и провалов
+       не остаётся. Имя не переносится: «Matias Fernandez-Pardo» вставал в
+       три строки и ломал ритм списка. */
     .pf-home-transfers-table tbody td.is-player {
-      width: 100%;
+      width: 26%;
       white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
     .pf-home-transfers-table tbody td.is-player a {
@@ -140,11 +145,54 @@
       letter-spacing: 0.01em;
     }
 
-    /* Колонки с эмблемами, стрелкой и статусом занимают ровно своё. */
+    /* Клубы зеркальны относительно стрелки: название «откуда» прижато к ней
+       справа, «куда» — слева. Так стрелка оказывается смысловым центром. */
+    .pf-home-transfers-table tbody td.is-club {
+      width: 25%;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    .pf-home-transfers-table tbody td.is-from {
+      text-align: right;
+    }
+
+    .pf-home-transfers-table tbody td.is-to {
+      text-align: left;
+    }
+
+    .pf-club-name-inline {
+      display: inline-block;
+      max-width: calc(100% - 46px);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      vertical-align: middle;
+      font-size: 14px;
+      color: rgba(220, 229, 241, 0.82);
+    }
+
+    .pf-home-transfers-table tbody td.is-from .pf-club-name-inline {
+      margin-right: 10px;
+    }
+
+    .pf-home-transfers-table tbody td.is-to .pf-club-name-inline {
+      margin-left: 10px;
+    }
+
     .pf-home-transfers-table tbody td.is-center,
-    .pf-home-transfers-table tbody td.is-status {
+    .pf-home-transfers-table tbody td.is-status,
+    .pf-home-transfers-table tbody td.is-date {
       width: 1%;
       white-space: nowrap;
+    }
+
+    .pf-home-transfers-table tbody td.is-date {
+      padding-left: 14px;
+      text-align: right;
+      font-size: 13px;
+      color: rgba(220, 229, 241, 0.55);
+      font-variant-numeric: tabular-nums;
     }
 
     .pf-fee-value {
@@ -629,9 +677,20 @@
       }
 
       .pf-home-transfers-table tbody td.is-center,
-      .pf-home-transfers-table tbody td.is-status {
+      .pf-home-transfers-table tbody td.is-club,
+      .pf-home-transfers-table tbody td.is-status,
+      .pf-home-transfers-table tbody td.is-date {
         width: auto;
         flex: 0 0 auto;
+        padding: 0;
+      }
+
+      /* На широком экране названия клубов и дата закрывают пустоту, на
+         телефоне закрывать нечего — там строка и так плотная, а имена вроде
+         «Brighton & Hove Albion» её порвут. Эмблемы говорят то же короче. */
+      .pf-club-name-inline,
+      .pf-home-transfers-table tbody td.is-date {
+        display: none;
       }
 
       .pf-home-transfers-table .pf-club-logo {
@@ -713,11 +772,15 @@
               <td class="is-player">
                 <a href="{{ .url | relURL }}">{{ .player }}</a>
               </td>
-              <td class="is-center">
-                {{ if .from_logo }}
-                  <img class="pf-club-logo" src="{{ .from_logo | relURL }}" alt="{{ .from_name }}">
-                {{ else }}
-                  <span>{{ .from_name }}</span>
+              {{/* PF508H: название клуба рядом с эмблемой. Без него строка
+                   на широком экране распадалась на три островка с провалами
+                   между ними — Дмитрий назвал их дырками. Здесь не украшение:
+                   эмблему узнаёт не каждый, а место всё равно пустовало.
+                   На телефоне названия скрыты, там ширины нет. */}}
+              <td class="is-club is-from">
+                <span class="pf-club-name-inline">{{ .from_name }}</span>
+                {{ with .from_logo }}
+                  <img class="pf-club-logo" src="{{ . | relURL }}" alt="">
                 {{ end }}
               </td>
               {{/* PF508C: стрелка вместо текстового «→». Глиф тонкий и в
@@ -732,12 +795,11 @@
                   <path d="M32 5 L42 12 L32 19" />
                 </svg>
               </td>
-              <td class="is-center">
-                {{ if .to_logo }}
-                  <img class="pf-club-logo" src="{{ .to_logo | relURL }}" alt="{{ .to_name }}">
-                {{ else }}
-                  <span>{{ .to_name }}</span>
+              <td class="is-club is-to">
+                {{ with .to_logo }}
+                  <img class="pf-club-logo" src="{{ . | relURL }}" alt="">
                 {{ end }}
+                <span class="pf-club-name-inline">{{ .to_name }}</span>
               </td>
               {{/* PF508C: сумма с главной убрана совсем. Она есть внутри
                    новости, а в списке у большинства переходов её нет вовсе —
@@ -746,6 +808,11 @@
                    игрока: оно перестало переноситься на две строки. */}}
               <td class="is-status">
                 <span class="pf-status-pill {{ .status_css }}">{{ .status_display }}</span>
+              </td>
+              {{/* Дата ставит переход во времени: список читается как лента
+                   новостей, а не как справочник. */}}
+              <td class="is-date">
+                {{ with .date }}<time datetime="{{ . }}">{{ (time .).Format "02.01" }}</time>{{ end }}
               </td>
             </tr>
           {{ end }}
@@ -780,11 +847,10 @@
               <td class="is-player">
                 <a href="{{ .url | relURL }}">{{ .player }}</a>
               </td>
-              <td class="is-center">
-                {{ if .from_logo }}
-                  <img class="pf-club-logo" src="{{ .from_logo | relURL }}" alt="{{ .from_name }}" loading="lazy">
-                {{ else }}
-                  <span>{{ .from_name }}</span>
+              <td class="is-club is-from">
+                <span class="pf-club-name-inline">{{ .from_name }}</span>
+                {{ with .from_logo }}
+                  <img class="pf-club-logo" src="{{ . | relURL }}" alt="" loading="lazy">
                 {{ end }}
               </td>
               <td class="is-center is-arrow">
@@ -794,12 +860,11 @@
                   <path d="M32 5 L42 12 L32 19" />
                 </svg>
               </td>
-              <td class="is-center">
-                {{ if .to_logo }}
-                  <img class="pf-club-logo" src="{{ .to_logo | relURL }}" alt="{{ .to_name }}" loading="lazy">
-                {{ else }}
-                  <span>{{ .to_name }}</span>
+              <td class="is-club is-to">
+                {{ with .to_logo }}
+                  <img class="pf-club-logo" src="{{ . | relURL }}" alt="" loading="lazy">
                 {{ end }}
+                <span class="pf-club-name-inline">{{ .to_name }}</span>
               </td>
               <td class="is-status">
                 <span class="pf-status-pill {{ .status_css }}">{{ .status_display }}</span>
