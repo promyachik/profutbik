@@ -619,11 +619,19 @@
     }
     /* PF400B_HOME_BUTTONS_ROBOTO_END */
 
-    /* PF400C_TRANSFER_PLAYERS_FEES_ROBOTO_START */
+    /* PF400C_TRANSFER_PLAYERS_FEES_ROBOTO_START
+       PF512A: правило просило "Roboto Condensed", но этот шрифт никогда не
+       подключался — браузер молча откатывался к обычному Roboto, и замысел
+       набрать фамилии узким начертанием не работал ни дня. Теперь берём
+       заголовочный из переменной, и он действительно загружается.
+       Слухи добавлены сюда же: фамилия — это фамилия, в каком бы блоке она
+       ни стояла. */
     .pf-home-panel--transfers .pf-home-transfers-table td.is-player a,
+    .pf-home-panel--rumors .pf-home-transfers-table td.is-player a,
     .pf-home-panel--transfers .pf-fee-value {
-      font-family: "Roboto Condensed", "Roboto", "Segoe UI", sans-serif;
+      font-family: var(--pf-display-font-family) !important;
       font-style: normal;
+      letter-spacing: 0.012em;
     }
     /* PF400C_TRANSFER_PLAYERS_FEES_ROBOTO_END */
 
