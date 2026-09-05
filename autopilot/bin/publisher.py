@@ -117,7 +117,7 @@ def run_engine(job_path: Path) -> None:
         capture_output=True, text=True, encoding="utf-8", errors="replace",
         timeout=900)
     if result.returncode != 0:
-        tail = (result.stdout or "")[-800:] + (result.stderr or "")[-800:]
+        tail = (result.stdout or "")[-6000:] + (result.stderr or "")[-6000:]
         raise PublishError("движок вернул код %d: %s" % (result.returncode, tail))
     if "transfer_news_4_step_pipeline_applied" not in (result.stdout or ""):
         raise PublishError("движок не подтвердил применение изменений")
@@ -411,7 +411,11 @@ def publish(job_path: Path, dry_run: bool = False) -> dict:
 
     except Exception as error:
         restored = transaction.rollback() if transaction.started else []
-        log("ОШИБКА: %s" % str(error)[:200])
+        # Обрезка на 200 символах экономила место в консоли и стоила разбора:
+        # причина отказа движка всегда в хвосте его вывода, а именно он и
+        # отрезался. В облаке лог читать больше неоткуда — печатаем целиком.
+        for line in str(error).replace("\\n", "\n").split("\n"):
+            log("ОШИБКА: %s" % line)
         log("ОТКАТ ВЫПОЛНЕН, восстановлено объектов: %d" % len(restored))
         return {"slug": slug, "site_changed": False, "rolled_back": True,
                 "error": str(error), "restored": restored,
