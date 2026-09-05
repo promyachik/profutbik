@@ -10,34 +10,29 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Probe
+      - name: Probe mirrors
         run: |
           python - <<'PY'
-          import json, ssl, time, urllib.request, urllib.error
+          import ssl, time, re, urllib.request, urllib.error
           ctx = ssl.create_default_context()
-          UA = {"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
-
-          def get(label, url, js=False):
+          UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                              "(KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+                "Accept-Language": "en-US,en;q=0.9"}
+          MIRRORS = ["com","de","co.uk","es","it","fr","com.tr","com.br","nl","pl","at","ch",
+                     "be","pt","com.ar","co.id","us","world","jp","in","gr","dk","se","no",
+                     "ru","cz","hu","ro","rs","bg","fi","co.kr","cn","mx","com.co"]
+          for m in MIRRORS:
+              url = "https://www.transfermarkt.%s/-/profil/spieler/342229" % m
               t0 = time.time()
               try:
                   with urllib.request.urlopen(urllib.request.Request(url, headers=UA),
-                                              timeout=35, context=ctx) as r:
+                                              timeout=20, context=ctx) as r:
                       b = r.read()
-                  ms = int((time.time() - t0) * 1000)
-                  print("RESULT OK %s | %s | %dms | %d KB" % (label, r.status, ms, len(b) // 1024))
-                  return json.loads(b) if js else b
+                  n = len(re.findall(rb'img\.a\.transfermarkt\.technology/portrait/', b))
+                  print("MIRROR %-8s %s %5dKB %4dms portrait_links=%d" %
+                        (m, r.status, len(b)//1024, int((time.time()-t0)*1000), n))
               except urllib.error.HTTPError as e:
-                  print("RESULT HTTP %s | %s %s" % (label, e.code, e.reason))
+                  print("MIRROR %-8s HTTP %s" % (m, e.code))
               except Exception as e:
-                  print("RESULT FAIL %s | %s" % (label, str(e)[:80]))
-              return None
-
-          API = "https://tmapi-alpha.transfermarkt.technology"
-          for pid in ("342229", "724129", "357565"):
-              d = get("player-%s" % pid, "%s/player/%s" % (API, pid), js=True)
-              if d:
-                  u = (d.get("data") or {}).get("portraitUrl")
-                  print("RESULT INFO portraitUrl %s | %s" % (pid, u))
-                  if u:
-                      get("portrait-%s" % pid, u)
+                  print("MIRROR %-8s FAIL %s" % (m, str(e)[:50]))
           PY
