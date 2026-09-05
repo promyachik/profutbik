@@ -1855,3 +1855,44 @@ a.pf405i-home-panel-title-link:focus-visible {
     }
 </style>
 <!-- PF486A_HOME_RUMOR_PANEL_NO_STRETCH_END -->
+
+<!-- PF508B_MOBILE_RUMOR_ROUTE_WRAP_START -->
+<style>
+  /* Название клуба со своей эмблемой лежит в .pf403c-rumor-club-with-logo,
+     а тот блок задан ниже по документу и с !important: display:inline-flex,
+     white-space:nowrap. Правило из медиазапроса выше по файлу его не
+     перебивает — при равной силе побеждает то, что идёт последним. Поэтому
+     мобильная отмена nowrap живёт здесь, в самом конце партиала.
+
+     Смысл: nowrap писался ради того, чтобы длинный маршрут держался в одну
+     строку на широком экране. На телефоне он даёт обратное — «Brighton &
+     Hove Albion» не переносится и уезжает за край экрана. */
+  @media (max-width: 720px) {
+    .pf-home-panel--rumors .pf403c-rumor-club-with-logo {
+      white-space: normal !important;
+      min-width: 0 !important;
+      max-width: 100% !important;
+      overflow: hidden !important;
+    }
+
+    .pf-home-panel--rumors .pf-home-rumors-route {
+      flex-wrap: wrap !important;
+      row-gap: 4px !important;
+    }
+
+    .pf-home-panel--rumors .pf-home-rumors-route > span:first-child,
+    .pf-home-panel--rumors .pf-home-rumors-route > span:last-child {
+      white-space: normal !important;
+      flex: 0 1 auto !important;
+      min-width: 0 !important;
+      max-width: 100% !important;
+    }
+
+    .pf-home-panel--rumors .pf403c-rumor-club-logo {
+      width: 22px !important;
+      height: 22px !important;
+      flex: 0 0 22px !important;
+    }
+  }
+</style>
+<!-- PF508B_MOBILE_RUMOR_ROUTE_WRAP_END -->
