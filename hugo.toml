@@ -1,5 +1,4 @@
 baseURL = "https://profutbik.ru/"
 languageCode = "ru"
 title = "ProFutbik"
-theme = ""
 enableRobotsTXT = true
