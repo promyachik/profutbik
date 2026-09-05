@@ -39,6 +39,13 @@
     .pf-home-transfers-table {
       width: 100%;
       border-collapse: collapse;
+      /* PF508J: раскладка фиксированная, иначе проценты ниже — лишь
+         пожелание. При плавающей раскладке браузер расширяет колонку под
+         самое длинное содержимое, и «Brighton & Hove Albion» растягивал
+         таблицу слухов до 792 пикселей в панели шириной 492 — правый клуб
+         со статусом просто уезжали за край. С фиксированной доли соблюдаются,
+         а длинное название обрезается многоточием. */
+      table-layout: fixed;
     }
 
     .pf-home-transfers-table thead th {
@@ -178,7 +185,7 @@
     /* Клубы зеркальны относительно стрелки: название «откуда» прижато к ней
        справа, «куда» — слева. Так стрелка оказывается смысловым центром. */
     .pf-home-transfers-table tbody td.is-club {
-      width: 25%;
+      width: 23%;
       padding-left: 8px;
       padding-right: 8px;
     }
@@ -216,6 +223,7 @@
     }
 
     .pf-club-name-inline {
+      flex: 0 1 auto;
       min-width: 0;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -224,10 +232,19 @@
       color: rgba(220, 229, 241, 0.82);
     }
 
-    .pf-home-transfers-table tbody td.is-center,
-    .pf-home-transfers-table tbody td.is-status,
+    .pf-home-transfers-table tbody td.is-arrow {
+      width: 64px;
+    }
+
+    .pf-home-transfers-table tbody td.is-status {
+      width: 16%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
     .pf-home-transfers-table tbody td.is-date {
-      width: 1%;
+      width: 58px;
       white-space: nowrap;
     }
 
