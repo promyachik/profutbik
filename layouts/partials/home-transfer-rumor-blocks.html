@@ -564,14 +564,17 @@
         flex: 0 0 100%;
       }
 
+      /* Ни сумма, ни статус не растягиваются и не жмутся к краю: иначе у
+         трансферов без суммы между логотипами и статусом зияла бы дыра во
+         всю строку. Всё собрано влево, строка ровно такой длины, сколько в
+         ней содержания. */
       .pf-home-transfers-table tbody td.is-fee {
-        flex: 1 1 auto;
+        flex: 0 1 auto;
         min-width: 0;
       }
 
       .pf-home-transfers-table tbody td.is-status {
         flex: 0 0 auto;
-        margin-left: auto;
       }
 
       .pf-home-transfers-table .pf-club-logo {
