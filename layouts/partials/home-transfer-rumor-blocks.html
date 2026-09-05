@@ -612,6 +612,18 @@
         row-gap: 4px !important;
       }
 
+      /* PF401L держит названия клубов в nowrap с overflow:visible — он писался
+         ради того, чтобы длинный маршрут влезал в одну строку на широком
+         экране. На телефоне это даёт обратное: «Brighton & Hove Albion»
+         не переносится и выходит за край. Здесь перенос разрешён. */
+      .pf-home-panel--rumors .pf-home-rumors-route > span:first-child,
+      .pf-home-panel--rumors .pf-home-rumors-route > span:last-child {
+        white-space: normal !important;
+        flex: 0 1 auto !important;
+        min-width: 0 !important;
+        overflow: hidden !important;
+      }
+
       .pf-home-rumors-side {
         grid-column: 1;
         display: flex;
