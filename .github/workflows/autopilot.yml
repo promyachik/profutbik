@@ -76,4 +76,20 @@ jobs:
           fi
           NEW=$(git diff --cached --name-only | grep -c '^content/transfers/' || true)
           git commit -q -m "Автопилот: такт $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push
+
+          # Раннер одноразовый: если push не прошёл, вся работа такта пропадает
+          # вместе с ним. А не пройти он может запросто — достаточно, чтобы в
+          # эти же секунды кто-то запушил своё, и ветка уедет вперёд. Именно так
+          # 2026-09-05 потерялись два опубликованных трансфера и слух: движок
+          # отработал начисто, а push отклонили.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "запушено с попытки $attempt"
+              exit 0
+            fi
+            echo "push отклонён, подтягиваю чужие изменения (попытка $attempt)"
+            git pull --rebase --autostash origin main || exit 1
+            sleep $((attempt * 5))
+          done
+          echo "не удалось запушить за пять попыток"
+          exit 1
