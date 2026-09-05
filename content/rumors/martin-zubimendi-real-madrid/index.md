@@ -1,7 +1,7 @@
 ---
 title: "Martín Zubimendi и Real Madrid: слух"
 description: "Что известно о возможном переходе Martín Zubimendi из клуба Arsenal FC в клуб Real Madrid."
-date: "2026-09-05T23:04:21+03:00"
+date: "2026-09-05T23:18:46+03:00"
 url: "/rumors/martin-zubimendi-real-madrid/"
 draft: false
 type: "rumors"
@@ -19,6 +19,8 @@ league_id: "140"
 league: "La Liga"
 transfermarkt_player_id: 423440
 autopilot_entity_id: "martin-zubimendi__unknown__real-madrid"
+share_image: "images/rumors/cards/martin-zubimendi-real-madrid.jpg"
+player_photo: "images/players/rumors/martin-zubimendi-real-madrid.jpg"
 ---
 ## Martín Zubimendi и клуб Real Madrid: что известно
 

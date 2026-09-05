@@ -1,7 +1,7 @@
 ---
 title: "Ibrahima Konaté и Real Madrid: переговоры"
 description: "Что известно о возможном переходе Ibrahima Konaté из клуба Liverpool в клуб Real Madrid."
-date: "2026-09-05T23:04:21+03:00"
+date: "2026-09-05T23:18:45+03:00"
 url: "/rumors/ibrahima-konate-real-madrid-rumor/"
 draft: false
 type: "rumors"
@@ -19,6 +19,8 @@ league_id: "140"
 league: "La Liga"
 transfermarkt_player_id: 357119
 autopilot_entity_id: "konate__liverpool__real-madrid"
+share_image: "images/rumors/cards/ibrahima-konate-real-madrid-rumor.jpg"
+player_photo: "images/players/rumors/ibrahima-konate-real-madrid-rumor.jpg"
 ---
 ## Ibrahima Konaté и клуб Real Madrid: что известно
 

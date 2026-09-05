@@ -1,7 +1,7 @@
 ---
 title: "Marc Cucurella и Real Madrid: слух"
 description: "Что известно о возможном переходе Marc Cucurella из клуба Chelsea в клуб Real Madrid."
-date: "2026-09-05T23:04:21+03:00"
+date: "2026-09-05T23:18:44+03:00"
 url: "/rumors/marc-cucurella-real-madrid-interest/"
 draft: false
 type: "rumors"
@@ -19,6 +19,8 @@ league_id: "140"
 league: "La Liga"
 transfermarkt_player_id: 284857
 autopilot_entity_id: "cucurella__chelsea__real-madrid"
+share_image: "images/rumors/cards/marc-cucurella-real-madrid-interest.jpg"
+player_photo: "images/players/rumors/marc-cucurella-real-madrid-interest.jpg"
 ---
 ## Marc Cucurella и клуб Real Madrid: что известно
 

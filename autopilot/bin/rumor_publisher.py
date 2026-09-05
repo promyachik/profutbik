@@ -34,6 +34,7 @@ sys.path.insert(0, str(BIN))
 from transfer_discovery import ACTIVE_PROJECT, PARSER_ROOT, RECORDS_DIR, slugify  # noqa: E402
 from transfer_enrichment import build_tm_club_index  # noqa: E402
 from reference_bridge import load_club_bridge, load_country_map, POSITIONS  # noqa: E402
+import rumor_card  # noqa: E402
 from job_builder import (  # noqa: E402
     club_word, country_genitive, dotted_date, euro, money_ru,
     parse_former_clubs, resolve_api_id, ru_date,
@@ -393,6 +394,12 @@ def publish_rumor(record: dict, tm_clubs: dict, bridge: dict,
                    % (player, club_word(from_club, "gen"),
                       club_word(to_club, "acc")))
 
+    # Портрет и карточка для репостов. Отказ здесь не должен ронять
+    # публикацию: страница без картинки хуже, чем с картинкой, но лучше,
+    # чем ненаписанная.
+    art = rumor_card.make(slug, record.get("portrait_url") or "",
+                          from_info.get("logo") or "", to_info.get("logo") or "")
+
     front = [
         "---",
         'title: "%s"' % title,
@@ -415,6 +422,10 @@ def publish_rumor(record: dict, tm_clubs: dict, bridge: dict,
         'league: "%s"' % league,
         'transfermarkt_player_id: %s' % (record.get("tm_player_id") or 0),
         'autopilot_entity_id: "%s"' % record.get("entity_id", ""),
+        # share_image читает seo-head и отдаёт мессенджерам; player_photo
+        # показывается на самой странице.
+        'share_image: "%s"' % art.get("card", ""),
+        'player_photo: "%s"' % art.get("portrait", ""),
         "---",
         "",
     ]

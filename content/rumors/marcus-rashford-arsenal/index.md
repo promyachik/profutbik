@@ -1,7 +1,7 @@
 ---
 title: "Marcus Rashford и Arsenal: слух"
 description: "Что известно о возможном переходе Marcus Rashford из клуба Manchester United в клуб Arsenal."
-date: "2026-09-05T23:04:21+03:00"
+date: "2026-09-05T23:18:46+03:00"
 url: "/rumors/marcus-rashford-arsenal/"
 draft: false
 type: "rumors"
@@ -19,6 +19,8 @@ league_id: "39"
 league: "Premier League"
 transfermarkt_player_id: 258923
 autopilot_entity_id: "marcus-rashford__unknown__arsenal"
+share_image: "images/rumors/cards/marcus-rashford-arsenal.jpg"
+player_photo: "images/players/rumors/marcus-rashford-arsenal.jpg"
 ---
 ## Marcus Rashford и клуб Arsenal: что известно
 

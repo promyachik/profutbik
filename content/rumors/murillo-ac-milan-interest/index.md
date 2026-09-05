@@ -1,7 +1,7 @@
 ---
 title: "Murillo и AC Milan: слух"
 description: "Что известно о возможном переходе Murillo из клуба Nottingham Forest в клуб AC Milan."
-date: "2026-09-05T23:04:21+03:00"
+date: "2026-09-05T23:18:48+03:00"
 url: "/rumors/murillo-ac-milan-interest/"
 draft: false
 type: "rumors"
@@ -19,6 +19,8 @@ league_id: "135"
 league: "Serie A"
 transfermarkt_player_id: 1005649
 autopilot_entity_id: "murillo__nottingham-forest__ac-milan"
+share_image: "images/rumors/cards/murillo-ac-milan-interest.jpg"
+player_photo: "images/players/rumors/murillo-ac-milan-interest.jpg"
 ---
 ## Murillo и клуб AC Milan: что известно
 

@@ -1,7 +1,7 @@
 ---
 title: "Jean-Philippe Mateta и Aston Villa: переговоры"
 description: "Что известно о возможном переходе Jean-Philippe Mateta из клуба Crystal Palace в клуб Aston Villa."
-date: "2026-09-05T23:04:21+03:00"
+date: "2026-09-05T23:18:47+03:00"
 url: "/rumors/jean-philippe-mateta-aston-villa/"
 draft: false
 type: "rumors"
@@ -19,6 +19,8 @@ league_id: "39"
 league: "Premier League"
 transfermarkt_player_id: 420002
 autopilot_entity_id: "mateta__unknown__aston-villa"
+share_image: "images/rumors/cards/jean-philippe-mateta-aston-villa.jpg"
+player_photo: "images/players/rumors/jean-philippe-mateta-aston-villa.jpg"
 ---
 ## Jean-Philippe Mateta и клуб Aston Villa: что известно
 

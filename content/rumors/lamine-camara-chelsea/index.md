@@ -1,7 +1,7 @@
 ---
 title: "Lamine Camara и Chelsea: слух"
 description: "Что известно о возможном переходе Lamine Camara из клуба AS Monaco в клуб Chelsea."
-date: "2026-09-05T22:59:51+03:00"
+date: "2026-09-05T23:18:45+03:00"
 url: "/rumors/lamine-camara-chelsea/"
 draft: false
 type: "rumors"
@@ -19,6 +19,8 @@ league_id: "39"
 league: "Premier League"
 transfermarkt_player_id: 918969
 autopilot_entity_id: "lamine-camara__unknown__chelsea"
+share_image: "images/rumors/cards/lamine-camara-chelsea.jpg"
+player_photo: "images/players/rumors/lamine-camara-chelsea.jpg"
 ---
 ## Lamine Camara и клуб Chelsea: что известно
 

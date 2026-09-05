@@ -11,8 +11,18 @@
 {{- $desc := "" -}}
 {{- with .Description }}{{ $desc = . }}{{ end -}}
 
+{{- /* PF510A: share_image — готовая карточка 1200x630 для мессенджеров.
+     У страниц слухов картинки не было вовсе: og:image здесь завязан на
+     player_image, а он есть только у трансферов. Ссылка на слух
+     разворачивалась голой строкой без превью, и это прямая потеря переходов
+     там, где на них и рассчитываем — в пересылках.
+     Портрет Transfermarkt для этой роли мал (300x390), поэтому карточка
+     собирается отдельно: rumor_card.py. */ -}}
 {{- $img := "" -}}
-{{- with .Params.player_image }}{{ $img = . | absURL }}{{ end -}}
+{{- $imgW := "700" -}}
+{{- $imgH := "900" -}}
+{{- with .Params.share_image }}{{ $img = . | absURL }}{{ $imgW = "1200" }}{{ $imgH = "630" }}{{ end -}}
+{{- if not $img }}{{ with .Params.player_image }}{{ $img = . | absURL }}{{ end }}{{ end -}}
 {{- if and (not $img) .Params.club_logo }}{{ $img = .Params.club_logo | absURL }}{{ end -}}
 {{- if not $img }}{{ $img = "images/players/transfermarkt/og-default.png" | absURL }}{{ end -}}
 
@@ -24,9 +34,9 @@
 <meta property="og:title" content="{{ $title }}">
 {{ with $desc }}<meta property="og:description" content="{{ . }}">{{ end }}
 <meta property="og:url" content="{{ .Permalink }}">
-{{ with .Params.player_image }}<meta property="og:image" content="{{ $img }}">
-<meta property="og:image:width" content="700">
-<meta property="og:image:height" content="900">
+{{ if or .Params.share_image .Params.player_image }}<meta property="og:image" content="{{ $img }}">
+<meta property="og:image:width" content="{{ $imgW }}">
+<meta property="og:image:height" content="{{ $imgH }}">
 <meta property="og:image:alt" content="{{ $.Params.player | default $.Title }}">{{ end }}
 {{ if and $isClub .Params.club_logo }}<meta property="og:image" content="{{ $img }}">
 <meta property="og:image:alt" content="{{ .Params.club_name }}">{{ end }}
@@ -34,10 +44,10 @@
 <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
 <meta property="article:section" content="{{ .Section }}">{{ end }}
 
-<meta name="twitter:card" content="{{ cond (ne .Params.player_image nil) "summary_large_image" "summary" }}">
+<meta name="twitter:card" content="{{ cond (or (ne .Params.share_image nil) (ne .Params.player_image nil)) "summary_large_image" "summary" }}">
 <meta name="twitter:title" content="{{ $title }}">
 {{ with $desc }}<meta name="twitter:description" content="{{ . }}">{{ end }}
-{{ with .Params.player_image }}<meta name="twitter:image" content="{{ $img }}">{{ end }}
+{{ if or .Params.share_image .Params.player_image }}<meta name="twitter:image" content="{{ $img }}">{{ end }}
 
 {{- $org := dict "@type" "Organization" "name" $site.Title "url" $site.BaseURL -}}
 

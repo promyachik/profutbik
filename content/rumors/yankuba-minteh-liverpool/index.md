@@ -1,7 +1,7 @@
 ---
 title: "Yankuba Minteh и Liverpool: слух"
 description: "Что известно о возможном переходе Yankuba Minteh из клуба Brighton & Hove Albion в клуб Liverpool."
-date: "2026-09-05T23:04:54+03:00"
+date: "2026-09-05T23:18:47+03:00"
 url: "/rumors/yankuba-minteh-liverpool/"
 draft: false
 type: "rumors"
@@ -19,6 +19,8 @@ league_id: "39"
 league: "Premier League"
 transfermarkt_player_id: 1012534
 autopilot_entity_id: "minteh__unknown__liverpool"
+share_image: "images/rumors/cards/yankuba-minteh-liverpool.jpg"
+player_photo: "images/players/rumors/yankuba-minteh-liverpool.jpg"
 ---
 ## Yankuba Minteh и клуб Liverpool: что известно
 
