@@ -289,6 +289,25 @@ def resync_homepage() -> int:
     показываем. Записи, ведущие в раздел трансферов (старые слухи жили там),
     сохраняются как есть — страницы для них никуда не делись.
     """
+    # Старые страницы ссылаются на сырые выгрузки API-Football
+    # (images/clubs/api/530.png), новые — на обработанные, обрезанные по
+    # краям. В строке это заметно: у «Атлетико» сырой файл весит 70 КБ и
+    # почти весь состоит из прозрачных полей, поэтому знак выходит мелким
+    # рядом с соседями. Подменяем на обработанный, когда он есть в каталоге.
+    catalog = {}
+    try:
+        raw = json.loads(CLUB_LOGOS.read_text(encoding="utf-8"))
+        catalog = raw.get("clubs", raw) or {}
+    except Exception:
+        pass
+
+    def best_logo(path: str) -> str:
+        match = re.search(r"/(\d+)\.png$", path or "")
+        if not match:
+            return path
+        better = (catalog.get(match.group(1)) or {}).get("logo") or ""
+        return better or path
+
     homepage = json.loads(HOMEPAGE_JSON.read_text(encoding="utf-8"))
     existing = {row.get("slug"): row for row in (homepage.get("rumors") or [])}
     kept_foreign = [row for row in (homepage.get("rumors") or [])
@@ -321,8 +340,8 @@ def resync_homepage() -> int:
             "sort_ts": ts,
             "from_name": fm.get("from_club") or "",
             "to_name": fm.get("to_club") or "",
-            "from_logo": fm.get("from_logo") or previous.get("from_logo") or "",
-            "to_logo": fm.get("to_logo") or previous.get("to_logo") or "",
+            "from_logo": best_logo(fm.get("from_logo") or previous.get("from_logo") or ""),
+            "to_logo": best_logo(fm.get("to_logo") or previous.get("to_logo") or ""),
             "fee": fm.get("fee") or "Сумма не называется",
             "from_club_id": previous.get("from_club_id", ""),
             "to_club_id": previous.get("to_club_id", ""),

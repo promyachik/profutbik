@@ -1748,8 +1748,8 @@
       "sort_ts": 1784646000.0,
       "from_name": "Liverpool",
       "to_name": "Real Madrid",
-      "from_logo": "images/clubs/api/40.png",
-      "to_logo": "images/clubs/api/541.png",
+      "from_logo": "images/clubs/api/rendered/40-c3b13021c1ab.png",
+      "to_logo": "images/clubs/api/rendered/541-9a1b10dacb76.png",
       "fee": "€50 млн",
       "from_club_id": "",
       "to_club_id": ""
@@ -1767,8 +1767,8 @@
       "sort_ts": 1784642400.0,
       "from_name": "Chelsea",
       "to_name": "Real Madrid",
-      "from_logo": "images/clubs/api/49.png",
-      "to_logo": "images/clubs/api/541.png",
+      "from_logo": "images/clubs/api/rendered/49-a4353df0d456.png",
+      "to_logo": "images/clubs/api/rendered/541-9a1b10dacb76.png",
       "fee": "€40 млн",
       "from_club_id": "",
       "to_club_id": ""
@@ -1786,8 +1786,8 @@
       "sort_ts": 1784566800.0,
       "from_name": "Manchester City",
       "to_name": "Real Madrid",
-      "from_logo": "images/clubs/api/50.png",
-      "to_logo": "images/clubs/api/541.png",
+      "from_logo": "images/clubs/api/rendered/50-448f2e57b69e.png",
+      "to_logo": "images/clubs/api/rendered/541-9a1b10dacb76.png",
       "fee": "€22 млн",
       "from_club_id": "",
       "to_club_id": ""
@@ -1805,8 +1805,8 @@
       "sort_ts": 1784552400.0,
       "from_name": "Atlético Madrid",
       "to_name": "Barcelona",
-      "from_logo": "images/clubs/api/530.png",
-      "to_logo": "images/clubs/api/529.png",
+      "from_logo": "images/clubs/api/rendered/530-33037c80387a.png",
+      "to_logo": "images/clubs/api/rendered/529-921329187f25.png",
       "fee": "€90 млн",
       "from_club_id": "",
       "to_club_id": ""
@@ -1825,7 +1825,7 @@
       "from_name": "Nottingham Forest",
       "to_name": "AC Milan",
       "from_logo": "images/clubs/api/65.png",
-      "to_logo": "images/clubs/api/489.png",
+      "to_logo": "images/clubs/api/rendered/489-dcceb506e62c.png",
       "fee": "€55 млн",
       "from_club_id": "",
       "to_club_id": ""
