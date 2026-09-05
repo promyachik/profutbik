@@ -330,28 +330,28 @@
       text-overflow: ellipsis;
     }
 
-    /* PF513B: кружок с галочкой держит ту же зелёную линию, что и шевроны
-       в маршруте — это один визуальный язык, а не набор значков. */
+    /* PF513C: обводка снята, сама галочка крупнее. В кружке она читалась
+       как кнопка, которую хочется нажать, — а это не кнопка, а отметка.
+       Зелёная линия та же, что у шевронов маршрута: один визуальный язык. */
     .pf-status-done {
       display: grid;
       place-items: center;
-      width: 28px;
-      height: 28px;
-      border-radius: 50%;
-      border: 1.5px solid rgba(41, 214, 95, 0.55);
-      background: rgba(41, 214, 95, 0.10);
+      width: 26px;
+      height: 26px;
     }
 
     .pf-status-done svg {
       display: block;
-      width: 16px;
-      height: 16px;
+      width: 24px;
+      height: 24px;
     }
 
     .pf-status-done path {
       fill: none;
       stroke: #29d65f;
-      stroke-width: 2.6;
+      /* Без кружка линия должна быть чуть плотнее, иначе значок выглядит
+         недорисованным. */
+      stroke-width: 2.9;
       stroke-linecap: round;
       stroke-linejoin: round;
     }

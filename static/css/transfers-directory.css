@@ -45,10 +45,9 @@
 /* PF513A: вместо слова «СОСТОЯЛСЯ» — галочка. Слово повторялось в каждой
    строке раздела, который и так называется «Трансферы»: места занимало
    много, сообщало ноль. Кружок держит ту же зелёную линию, что и шевроны. */
-.pf-transfer-done{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;
-  border:1.5px solid rgba(41,214,95,.55);background:rgba(41,214,95,.10)}
-.pf-transfer-done svg{display:block;width:17px;height:17px}
-.pf-transfer-done path{fill:none;stroke:#29d65f;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.pf-transfer-done{display:grid;place-items:center;width:28px;height:28px}
+.pf-transfer-done svg{display:block;width:26px;height:26px}
+.pf-transfer-done path{fill:none;stroke:#29d65f;stroke-width:2.9;stroke-linecap:round;stroke-linejoin:round}
 .pf-transfer-loan{color:#f1bd29;font-size:12px;font-weight:800;letter-spacing:.04em}
 @media(prefers-reduced-motion:reduce){.pf-transfer-arrow path{animation:none}
   .pf-transfer-arrow path:nth-child(1){opacity:.45}.pf-transfer-arrow path:nth-child(2){opacity:.72}}
