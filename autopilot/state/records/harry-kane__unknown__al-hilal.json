@@ -17,9 +17,10 @@
     "published": "Tue, 18 Aug 2026 21:02:44 GMT",
     "published_iso": "2026-08-18T21:02:44+00:00"
   },
-  "discovered_at": "2026-09-05T19:24:40.436970+00:00",
-  "enriched_at": "2026-09-05T20:03:22.883571+00:00",
+  "discovered_at": "2026-09-05T22:38:00.989169+00:00",
+  "enriched_at": "2026-09-05T22:38:50.485319+00:00",
   "tm_to_club_id": "1114",
+  "found_in": "local_index",
   "tm_from_club_id": "27",
   "tm_player_id": "132098",
   "player_full_name": "Harry Kane",
@@ -83,6 +84,5 @@
     "city": "Benghazi"
   },
   "block_reason": "",
-  "block_detail": "",
-  "found_in": "local_index"
+  "block_detail": ""
 }

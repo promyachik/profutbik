@@ -1,0 +1,100 @@
+{
+  "slug": "bernardo-silva-real-madrid",
+  "player": "Bernardo Silva",
+  "full_name": "Bernardo Silva",
+  "transfermarkt_player_id": 241641,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/241641",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/241641",
+  "transfermarkt_photo_url": "https://img.a.transfermarkt.technology/portrait/big/241641-1684311533.jpg",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 50,
+  "from_club_name": "Manchester City",
+  "to_club_id": 541,
+  "to_club_name": "Real Madrid",
+  "title": "Bernardo Silva перешёл из Manchester City в Real Madrid",
+  "description": "Клуб Real Madrid подписал Bernardo Silva из клуба Manchester City. Сумма трансфера составила €22 млн.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "€22 млн",
+  "draft": false,
+  "test_mode": false,
+  "position": "Attacking Midfield",
+  "position_ru": "Атакующий полузащитник",
+  "main_position": "AM",
+  "birth_date": "10.08.1994",
+  "age": 32,
+  "nationality": "Portugal",
+  "nationality_ru": "Португалия",
+  "nationality_code": "PT",
+  "nationality_fifa_code": "POR",
+  "nationality_flag_aliases": [
+    "POR",
+    "PT",
+    "Portugal",
+    "flag-pt",
+    "por",
+    "portugal",
+    "pt"
+  ],
+  "preferred_foot": "Левая",
+  "market_value": "€22 млн",
+  "market_value_display": "€22 млн",
+  "seo_body_md": "## Bernardo Silva: что известно о переходе в Real Madrid\n\nКлуб **Real Madrid** усилил состав и подписал **Bernardo Silva** из клуба **Manchester City**. Стоимость перехода составила **€22 млн**. Переход оформлен **1 июля 2026 года**.\n\n## Динамика стоимости\n\nПо оценке Transfermarkt с 10 декабря 2019 года по 3 июня 2026 года стоимость Silva снизилась с €100 млн до €22 млн. Максимальная оценка за этот период — €100 млн.\n\n## Клуб назначения\n\nВ составе клуба Real Madrid теперь 27 игроков со средним возрастом 25,9 года. Общая стоимость команды по Transfermarkt — €1,46 млрд, в среднем €53,94 млн на игрока. Домашние матчи команда проводит в городе Madrid. В новой команде игрок получил 20-й номер.\n\nКонкуренцию на этой позиции составят ещё 2 игрока: Jude Bellingham, Arda Güler. В рейтинге стоимости состава он занимает 18-е место из 27. В свои 32 года он моложе 2 партнёров команды.\n\nBernardo Silva родился в городе Lisboa (Португалия). Ранее выступал за: SL Benfica (2002-2013).\n\nЗа сборную Португалии игрок дебютировал 31 марта 2015 года.\n\n## Данные игрока\n\n- **Позиция:** атакующий полузащитник\n- **Прежний клуб:** Manchester City\n- **Новый клуб:** Real Madrid\n- **Гражданство:** Португалия\n- **Дата рождения:** 10.08.1994\n- **Место рождения:** Lisboa\n- **Рост:** 1,73 м\n- **Рабочая нога:** левая\n- **Игровой номер:** 20\n- **Рыночная стоимость Transfermarkt:** €22 млн\n- **Сумма трансфера:** €22 млн\n- **Контракт до:** 30.06.2028\n- **Статус:** официальный переход\n\n---\n\n**Источник:** СМИ. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "СМИ",
+  "source_status": "official_permanent_transfer",
+  "source_url": "",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-07-01",
+    "effective_transfer_date": "2026-07-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "Bernardo Silva",
+    "from_club": "Manchester City",
+    "to_club": "Real Madrid",
+    "status": "official",
+    "fee": "€22 млн",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Manchester City": 50,
+      "Real Madrid": 541
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "silva__manchester-city__real-madrid",
+    "built_at": "2026-09-05T22:39:16.223640+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2019-12-10",
+        "value_eur_m": 100.0
+      },
+      {
+        "date": "2025-12-09",
+        "value_eur_m": 27.0
+      },
+      {
+        "date": "2026-06-03",
+        "value_eur_m": 22.0
+      }
+    ]
+  }
+}

@@ -1,117 +1,108 @@
 ---
-concept_art_image: "images/homepage/featured/bernardo-silva-real-madrid-hero.png"
-title: "Bernardo Silva переходит в «Реал»: соглашение с «Манчестер Сити» и сумма сделки"
-seo_title: "Bernardo Silva → Real Madrid: трансфер из Manchester City, сумма €22 млн"
-description: "Bernardo Silva согласовал переход из Manchester City в Real Madrid. Детали сделки, сумма трансфера, позиция, гражданство, рабочая нога и динамика рыночной стоимости."
-date: 2026-06-21T12:00:00+02:00
-lastmod: 2026-07-04T12:00:00+02:00
+title: "Bernardo Silva перешёл из Manchester City в Real Madrid"
+seo_title: "Bernardo Silva перешёл из Manchester City в Real Madrid"
+description: "Клуб Real Madrid подписал Bernardo Silva из клуба Manchester City. Сумма трансфера составила €22 млн."
+date: "2026-09-05T22:40:08+00:00"
+lastmod: "2026-09-05T22:40:08+00:00"
 draft: false
 type: "transfers"
 layout: "single"
-status: "agreement"
-status_label: "СОГЛАСОВАНО"
-
+test_mode: false
+pipeline_generated: true
 player: "Bernardo Silva"
 player_name: "Bernardo Silva"
-full_name: "Bernardo Mota Veiga de Carvalho e Silva"
+full_name: "Bernardo Silva"
 player_initials: "BS"
-player_id: 636
 player_slug: "bernardo-silva"
-
-market_value_display: "€22 млн"
-market_value: "€22 млн"
-player_market_value_display: "€22 млн"
-player_brief_market_value_display: "€22 млн"
-market_value_url: "/transfers/bernardo-silva-real-madrid/#market-value"
-
-player_image: "images/players/custom/bernardo-silva-real-madrid-black.png"
-ticker_image: "images/players/custom/bernardo-silva-real-madrid-black.png"
-cutout_player_image: "images/players/custom/bernardo-silva-real-madrid-black.png"
-api_player_image: "images/players/custom/bernardo-silva-real-madrid-black.png"
-player_image_source_name: "Generated black-background player photo"
-player_image_source_url: "https://www.transfermarkt.com/bernardo-silva/profil/spieler/241641"
-player_image_background_removed: true
-player_image_processor: "black-background-ready"
-
-position: "Атакующий полузащитник"
-position_ru: "Атакующий полузащитник"
-main_position: "AM"
-age: 31
-age_at_transfer: 31
-birth_date: "10.08.1994"
-nationality: "Португалия"
-nationality_name: "Португалия"
-nationality_flag: "images/flags/countries/pt.svg"
-preferred_foot: "Левая"
-height: "1.73 м"
-
-from_club_id: 50
-from_club_name: "Manchester City"
-to_club_id: 541
-to_club_name: "Real Madrid"
-from_name: "Manchester City"
-to_name: "Real Madrid"
-from_team: "Manchester City"
-to_team: "Real Madrid"
-
+player_id: 241641
+transfermarkt_player_id: 241641
+status: "official"
+status_label: "ОФИЦИАЛЬНО"
 fee: "€22 млн"
 amount: "€22 млн"
 transfer_fee: "€22 млн"
-
-source_name: "Fabrizio Romano"
-source_url: ""
-
-homepage_image: "images/homepage/featured/bernardo-silva-real-madrid-card.png"
-concept_art: "images/homepage/featured/bernardo-silva-real-madrid-card.png"
-hero_image: "images/homepage/featured/bernardo-silva-real-madrid-hero.png"
-card_image: "images/homepage/featured/bernardo-silva-real-madrid-card.png"
-
+from_club_id: 50
+from_club_name: "Manchester City"
+from_club_logo: "images/clubs/api/rendered/50-448f2e57b69e.png"
+from_logo: "images/clubs/api/rendered/50-448f2e57b69e.png"
+from_name: "Manchester City"
+from_team: "Manchester City"
+to_club_id: 541
+to_club_name: "Real Madrid"
+to_club_logo: "images/clubs/api/rendered/541-9a600f047317.png"
+to_logo: "images/clubs/api/rendered/541-9a600f047317.png"
+to_name: "Real Madrid"
+to_team: "Real Madrid"
+player_image: "images/players/transfermarkt/bernardo-silva-real-madrid-241641-black.png"
+ticker_image: "images/players/transfermarkt/bernardo-silva-real-madrid-241641-black.png"
+cutout_player_image: "images/players/transfermarkt/bernardo-silva-real-madrid-241641-black.png"
+api_player_image: "images/players/transfermarkt/bernardo-silva-real-madrid-241641-black.png"
+player_image_fallback: "images/players/transfermarkt/bernardo-silva-real-madrid-241641-black.png"
+player_image_source_name: "Transfermarkt"
+player_image_source_url: "https://www.transfermarkt.com/-/profil/spieler/241641"
+transfermarkt_photo_url: "https://img.a.transfermarkt.technology/portrait/big/241641-1684311533.jpg"
+player_image_background_removed: true
+player_image_black_background: true
+player_image_processor: "rembg"
+position: "Attacking Midfield"
+position_ru: "Атакующий полузащитник"
+main_position: "AM"
+birth_date: "10.08.1994"
+age: 32
+age_at_transfer: 32
+nationality: "Portugal"
+nationality_ru: "Португалия"
+nationality_name: "Португалия"
+nationality_flag: "images/flags/countries/pt.svg"
+nationality_flag_image: "images/flags/countries/pt.svg"
+preferred_foot: "Левая"
+market_value: "€22 млн"
+market_value_display: "€22 млн"
+player_market_value_display: "€22 млн"
+player_brief_market_value_display: "€22 млн"
+market_value_url: "/transfers/bernardo-silva-real-madrid/#market-value"
 show_in_top_ticker: true
 show_in_footer_ticker: true
-
-previous_club_stats:
-  label: "Manchester City · сезон 2025/26"
-  matches: "TBA"
-  goals: "TBA"
-  assists: "TBA"
-  minutes: "TBA"
-  yellow_cards: "TBA"
-  red_cards: "TBA"
-  season: "2025/26"
-  source_note: "Данные будут заполнены после синхронизации API-Football."
-
-keywords:
-  - Bernardo Silva
-  - Bernardo Silva
-  - Real Madrid
-  - Manchester City
-  - трансферы
-  - La Liga
-  - Premier League
-nationality_flag_image: "images/flags/countries/pt.svg"
+show_in_transfers_page: true
+source_name: "СМИ"
+source_url: "https://www.transfermarkt.com/-/profil/spieler/241641"
+source_status: "official_permanent_transfer"
 ---
 
-Bernardo Silva готовится к переходу из Manchester City в Real Madrid. Сделка находится в статусе согласования, а сумма трансфера, рыночная стоимость и последняя точка графика синхронизированы на уровне **€22 млн**.
+## Bernardo Silva: что известно о переходе в Real Madrid
 
-## Главные факты о трансфере Бернарду Силвы
+Клуб **Real Madrid** усилил состав и подписал **Bernardo Silva** из клуба **Manchester City**. Стоимость перехода составила **€22 млн**. Переход оформлен **1 июля 2026 года**.
 
-- **Игрок:** Bernardo Silva
-- **Предыдущий клуб:** Manchester City
-- **Новый клуб:** Real Madrid
-- **Статус:** согласовано
-- **Сумма:** €22 млн
+## Динамика стоимости
+
+По оценке Transfermarkt с 10 декабря 2019 года по 3 июня 2026 года стоимость Silva снизилась с €100 млн до €22 млн. Максимальная оценка за этот период — €100 млн.
+
+## Клуб назначения
+
+В составе клуба Real Madrid теперь 27 игроков со средним возрастом 25,9 года. Общая стоимость команды по Transfermarkt — €1,46 млрд, в среднем €53,94 млн на игрока. Домашние матчи команда проводит в городе Madrid. В новой команде игрок получил 20-й номер.
+
+Конкуренцию на этой позиции составят ещё 2 игрока: Jude Bellingham, Arda Güler. В рейтинге стоимости состава он занимает 18-е место из 27. В свои 32 года он моложе 2 партнёров команды.
+
+Bernardo Silva родился в городе Lisboa (Португалия). Ранее выступал за: SL Benfica (2002-2013).
+
+За сборную Португалии игрок дебютировал 31 марта 2015 года.
+
+## Данные игрока
+
 - **Позиция:** атакующий полузащитник
+- **Прежний клуб:** Manchester City
+- **Новый клуб:** Real Madrid
 - **Гражданство:** Португалия
-- **Рабочая нога:** Левая
-
-## Сумма сделки
-
-В текущей версии страницы сумма трансфера указана как **€22 млн**. Это же значение используется в блоке «Рыночная стоимость» и как последняя точка графика.
-
-## Что даст Real Madrid
-
-Bernardo Silva может играть в центре атаки, под нападающим и на полуфлангах. Его сильные качества — контроль мяча, короткий пас, игра между линиями и умение удерживать темп атаки.
+- **Дата рождения:** 10.08.1994
+- **Место рождения:** Lisboa
+- **Рост:** 1,73 м
+- **Рабочая нога:** левая
+- **Игровой номер:** 20
+- **Рыночная стоимость Transfermarkt:** €22 млн
+- **Сумма трансфера:** €22 млн
+- **Контракт до:** 30.06.2028
+- **Статус:** официальный переход
 
 ---
 
-**Источник:** Fabrizio Romano.
+**Источник:** СМИ. Данные игрока и рыночная стоимость — Transfermarkt.

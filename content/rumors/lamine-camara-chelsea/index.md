@@ -1,7 +1,7 @@
 ---
 title: "Lamine Camara и Chelsea: слух"
 description: "Что известно о возможном переходе Lamine Camara из клуба AS Monaco в клуб Chelsea."
-date: "2026-09-05T23:18:45+03:00"
+date: "2026-09-05T22:40:43+00:00"
 url: "/rumors/lamine-camara-chelsea/"
 draft: false
 type: "rumors"

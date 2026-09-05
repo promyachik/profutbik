@@ -17,9 +17,10 @@
     "published": "Fri, 28 Aug 2026 20:48:59 GMT",
     "published_iso": "2026-08-28T20:48:59+00:00"
   },
-  "discovered_at": "2026-09-05T19:24:40.427975+00:00",
-  "enriched_at": "2026-09-05T20:03:38.490360+00:00",
+  "discovered_at": "2026-09-05T22:38:00.981889+00:00",
+  "enriched_at": "2026-09-05T22:38:57.772803+00:00",
   "tm_to_club_id": "631",
+  "found_in": "local_index",
   "tm_from_club_id": "162",
   "tm_player_id": "918969",
   "player_full_name": "Lamine Camara",
@@ -81,7 +82,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "lamine-camara-chelsea",
-  "rumor_published_at": "2026-09-05T20:18:45.586016+00:00",
-  "found_in": "local_index",
-  "rumor_slug_override": "lamine-camara-chelsea"
+  "rumor_published_at": "2026-09-05T22:40:43.330373+00:00"
 }

@@ -241,7 +241,7 @@
     "42": {
       "id": 42,
       "name": "Arsenal",
-      "configured_name": "Arsenal",
+      "configured_name": "Arsenal FC",
       "code": "ARS",
       "country": "England",
       "league_id": 39,
@@ -249,7 +249,7 @@
       "season": 2024,
       "founded": 1886,
       "national": false,
-      "logo": "images/clubs/api/rendered/42-ba273b85e8fe.png",
+      "logo": "images/clubs/api/rendered/42-0c79196470d9.png",
       "api_logo": "https://media.api-sports.io/football/teams/42.png",
       "venue": {
         "id": 494,
@@ -485,7 +485,7 @@
       "season": 2024,
       "founded": 1878,
       "national": false,
-      "logo": "images/clubs/api/rendered/57-1362c589ddf7.png",
+      "logo": "images/clubs/api/rendered/57-0ef2a5986208.png",
       "api_logo": "https://media.api-sports.io/football/teams/57.png",
       "venue": {
         "id": 545,
@@ -529,7 +529,7 @@
       "season": 2024,
       "founded": 1874,
       "national": false,
-      "logo": "images/clubs/api/rendered/66-15f20ce5969b.png",
+      "logo": "images/clubs/api/rendered/66-562d1984169e.png",
       "api_logo": "https://media.api-sports.io/football/teams/66.png",
       "venue": {
         "id": 495,
@@ -1129,7 +1129,7 @@
     "168": {
       "id": 168,
       "name": "Bayer Leverkusen",
-      "configured_name": "Bayer Leverkusen",
+      "configured_name": "Bayer 04 Leverkusen",
       "code": "BAY",
       "country": "Germany",
       "league_id": 78,
@@ -1137,7 +1137,7 @@
       "season": 2024,
       "founded": 1904,
       "national": false,
-      "logo": "images/clubs/api/rendered/168-780bfce19ea9.png",
+      "logo": "images/clubs/api/rendered/168-09eb1c899095.png",
       "api_logo": "https://media.api-sports.io/football/teams/168.png",
       "venue": {
         "id": 699,
@@ -1837,7 +1837,7 @@
     "502": {
       "id": 502,
       "name": "Fiorentina",
-      "configured_name": "Fiorentina",
+      "configured_name": "ACF Fiorentina",
       "code": "FIO",
       "country": "Italy",
       "league_id": 135,
@@ -1845,13 +1845,17 @@
       "season": 2024,
       "founded": 1926,
       "national": false,
-      "logo": "images/clubs/api/502.png",
+      "logo": "images/clubs/api/rendered/502-5b4622c73c0c.png",
       "api_logo": "https://media.api-sports.io/football/teams/502.png",
       "venue": {
         "id": 902,
         "name": "Stadio Artemio Franchi",
         "city": "Firenze",
         "capacity": 43147
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "503": {
@@ -2197,7 +2201,7 @@
       "season": 2024,
       "founded": 1902,
       "national": false,
-      "logo": "images/clubs/api/rendered/541-9a1b10dacb76.png",
+      "logo": "images/clubs/api/rendered/541-9a600f047317.png",
       "api_logo": "https://media.api-sports.io/football/teams/541.png",
       "venue": {
         "id": 1456,
@@ -2207,7 +2211,7 @@
       },
       "logo_validation": {
         "mode": "content_hashed_local_png",
-        "engine_version": "3.3"
+        "engine_version": "3.4"
       }
     },
     "542": {
@@ -2689,7 +2693,7 @@
     "895": {
       "id": 895,
       "name": "Como",
-      "configured_name": "Como",
+      "configured_name": "Como 1907",
       "code": "COM",
       "country": "Italy",
       "league_id": 135,
@@ -2697,13 +2701,17 @@
       "season": 2024,
       "founded": 1907,
       "national": false,
-      "logo": "images/clubs/api/895.png",
+      "logo": "images/clubs/api/rendered/895-f0bdbbdff2b1.png",
       "api_logo": "https://media.api-sports.io/football/teams/895.png",
       "venue": {
         "id": 892,
         "name": "Stadio Giuseppe Sinigaglia",
         "city": "Como",
         "capacity": 13602
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "994": {

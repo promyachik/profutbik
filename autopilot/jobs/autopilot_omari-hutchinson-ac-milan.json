@@ -77,7 +77,7 @@
   "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
   "_autopilot": {
     "entity_id": "hutchinson__nottingham-forest__ac-milan",
-    "built_at": "2026-09-05T19:32:38.764713+00:00",
+    "built_at": "2026-09-05T22:39:16.212143+00:00",
     "api_id_resolution": {
       "from": "bridge",
       "to": "bridge"

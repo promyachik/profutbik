@@ -8,7 +8,7 @@
   "fee_raw": "",
   "verdict": "NEW_CANDIDATE",
   "verdict_reason": "",
-  "pipeline_state": "PUBLISHED_AS_RUMOR",
+  "pipeline_state": "RUMOR_READY",
   "source": {
     "publisher": "BBC Sport",
     "tier": "major_media",
@@ -17,9 +17,10 @@
     "published": "Mon, 17 Aug 2026 09:12:54 GMT",
     "published_iso": "2026-08-17T09:12:54+00:00"
   },
-  "discovered_at": "2026-09-05T19:24:40.438419+00:00",
-  "enriched_at": "2026-09-05T20:03:40.874052+00:00",
+  "discovered_at": "2026-09-05T22:38:00.989990+00:00",
+  "enriched_at": "2026-09-05T22:38:58.442088+00:00",
   "tm_to_club_id": "418",
+  "found_in": "local_index",
   "tm_from_club_id": "11",
   "tm_player_id": "423440",
   "player_full_name": "Martín Zubimendi",
@@ -78,9 +79,5 @@
     "city": "Madrid"
   },
   "block_reason": "",
-  "block_detail": "",
-  "found_in": "local_index",
-  "rumor_slug": "martin-zubimendi-real-madrid",
-  "rumor_published_at": "2026-09-05T20:18:46.583759+00:00",
-  "rumor_slug_override": "martin-zubimendi-real-madrid"
+  "block_detail": ""
 }
