@@ -170,8 +170,13 @@
        Теперь ширина поделена, клуб стоит рядом со своей эмблемой, и провалов
        не остаётся. Имя не переносится: «Matias Fernandez-Pardo» вставал в
        три строки и ломал ритм списка. */
+    /* Отступы у ячейки по 18 пикселей с каждой стороны, и содержимому
+       оставалось меньше, чем ему нужно: «Matias Fernandez-Pardo» требует 193,
+       а получал 158 — отсюда многоточие при формально достаточной колонке.
+       Справа отступ убран: между именем и клубом и так есть воздух. */
     .pf-home-transfers-table tbody td.is-player {
-      width: 24%;
+      width: 28%;
+      padding-right: 4px;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -198,7 +203,7 @@
     }
 
     .pf-home-panel--transfers .pf-home-transfers-table tbody td.is-club {
-      width: 24% !important;
+      width: 21% !important;
     }
 
     .pf-home-panel--rumors .pf-home-transfers-table tbody td.is-club {
@@ -289,7 +294,9 @@
     }
 
     .pf-home-transfers-table tbody td.is-status {
-      width: 15%;
+      width: 16%;
+      padding-left: 10px;
+      padding-right: 8px;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
