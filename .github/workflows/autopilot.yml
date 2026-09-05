@@ -43,6 +43,9 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install dependencies
+        run: pip install -q -r autopilot/requirements.txt
+
       - name: Tick
         run: |
           if [ "${{ github.event.inputs.discovery }}" = "false" ]; then
