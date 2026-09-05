@@ -184,6 +184,27 @@
 
     /* Клубы зеркальны относительно стрелки: название «откуда» прижато к ней
        справа, «куда» — слева. Так стрелка оказывается смысловым центром. */
+    /* PF446F зажимает вторую и четвёртую колонки в 52 пикселя с !important —
+       он писался, когда там стояли только эмблемы. Теперь в этих ячейках
+       ещё и название клуба, и 52 пикселя им мало: название сжималось до
+       «RB Leipz…». Отменяем адресно, длиннее его селектора: у него три
+       класса и псевдокласс, у нас три класса и два элемента. */
+    .pf-home-panel--transfers .pf-home-transfers-table tbody td.is-club,
+    .pf-home-panel--rumors .pf-home-transfers-table tbody td.is-club {
+      min-width: 0 !important;
+      max-width: none !important;
+      padding-left: 8px !important;
+      padding-right: 8px !important;
+    }
+
+    .pf-home-panel--transfers .pf-home-transfers-table tbody td.is-club {
+      width: 24% !important;
+    }
+
+    .pf-home-panel--rumors .pf-home-transfers-table tbody td.is-club {
+      width: 14% !important;
+    }
+
     .pf-home-transfers-table tbody td.is-club {
       width: 24%;
       padding-left: 8px;
@@ -230,6 +251,17 @@
       white-space: nowrap;
       font-size: 14px;
       color: rgba(220, 229, 241, 0.82);
+    }
+
+    .pf-home-panel--transfers .pf-home-transfers-table tbody td.is-arrow,
+    .pf-home-panel--rumors .pf-home-transfers-table tbody td.is-arrow {
+      width: 56px !important;
+      min-width: 0 !important;
+      max-width: none !important;
+    }
+
+    .pf-home-panel--transfers .pf-home-transfers-table tbody td.is-date {
+      width: 52px !important;
     }
 
     .pf-home-transfers-table tbody td.is-arrow {
