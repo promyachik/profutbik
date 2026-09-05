@@ -5,6 +5,7 @@
   "transfermarkt_player_id": 696589,
   "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/696589",
   "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/696589",
+  "transfermarkt_photo_url": "https://img.a.transfermarkt.technology/portrait/big/696589-1650877564.jpg",
   "photo_required": true,
   "on_photo_missing": "block_without_site_publish",
   "batch_continue_after_photo_block": false,
@@ -76,7 +77,7 @@
   "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
   "_autopilot": {
     "entity_id": "iroegbunam__everton-fc__hull-city",
-    "built_at": "2026-09-05T13:39:00.445021+00:00",
+    "built_at": "2026-09-05T13:49:59.859022+00:00",
     "api_id_resolution": {
       "from": "bridge",
       "to": "bridge"

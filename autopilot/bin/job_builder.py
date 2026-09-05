@@ -687,6 +687,12 @@ def build_job(record: dict, tm_clubs: dict, bridge: dict, countries: dict,
             "https://www.transfermarkt.com/-/profil/spieler/%s" % record["tm_player_id"],
         "transfermarkt_data_profile_url":
             "https://tmapi-alpha.transfermarkt.technology/player/%s" % record["tm_player_id"],
+        # Портрет отдаём готовым. Движок начинает поиск с HTML-профиля, а он
+        # с чужих IP (GitHub Actions) закрыт WAF: приходит 202 с пустым телом,
+        # кандидатов ноль, публикация валится. Обогащение уже получило адрес
+        # из открытого JSON-API, который с раннеров работает, — и движок
+        # штатным полем берёт его первым, не трогая HTML вовсе.
+        "transfermarkt_photo_url": record.get("portrait_url") or "",
         "photo_required": True,
         "on_photo_missing": "block_without_site_publish",
         "batch_continue_after_photo_block": False,

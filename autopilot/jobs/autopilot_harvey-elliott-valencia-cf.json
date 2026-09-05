@@ -5,6 +5,7 @@
   "transfermarkt_player_id": 565822,
   "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/565822",
   "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/565822",
+  "transfermarkt_photo_url": "https://img.a.transfermarkt.technology/portrait/big/565822-1665128076.jpg",
   "photo_required": true,
   "on_photo_missing": "block_without_site_publish",
   "batch_continue_after_photo_block": false,
@@ -76,7 +77,7 @@
   "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
   "_autopilot": {
     "entity_id": "elliott__aston-villa__valencia-cf",
-    "built_at": "2026-09-05T13:39:00.436782+00:00",
+    "built_at": "2026-09-05T13:49:59.795656+00:00",
     "api_id_resolution": {
       "from": "bridge",
       "to": "bridge"

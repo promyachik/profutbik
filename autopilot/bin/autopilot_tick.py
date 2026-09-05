@@ -87,6 +87,27 @@ def next_job() -> Path | None:
             job = json.loads(path.read_text(encoding="utf-8"))
         except Exception:
             continue
+        # Job — это снимок записи, и он переживает её. Запись могли снять
+        # как негодную («Эвертон -> Эвертон»), а после публикации обогащение
+        # само помечает её SKIPPED_DUPLICATE, увидев готовую страницу. В обоих
+        # случаях файл job остаётся и каждый такт выбирается снова, роняя
+        # публикацию. Условие простое: годен job, за которым стоит живая
+        # обогащённая запись. Иначе снимаем.
+        entity = (job.get("_autopilot") or {}).get("entity_id")
+        if entity:
+            record_path = RECORDS_DIR / ("%s.json" % entity)
+            state = None
+            if record_path.exists():
+                try:
+                    state = json.loads(
+                        record_path.read_text(encoding="utf-8")).get("pipeline_state")
+                except Exception:
+                    state = None
+            if state != "ENRICHED":
+                print("  снят %s: запись %s — %s" % (
+                    path.name, entity, state or "удалена"))
+                path.unlink()
+                continue
         points = (job.get("market_value_points") or
                   ((job.get("_autopilot") or {}).get("market_value_points")) or [])
         value = max([p.get("value_eur_m") or 0 for p in points] or [0])

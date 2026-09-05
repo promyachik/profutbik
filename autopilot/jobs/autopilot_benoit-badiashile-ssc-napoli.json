@@ -5,6 +5,7 @@
   "transfermarkt_player_id": 463603,
   "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/463603",
   "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/463603",
+  "transfermarkt_photo_url": "https://img.a.transfermarkt.technology/portrait/big/463603-1714721596.jpg",
   "photo_required": true,
   "on_photo_missing": "block_without_site_publish",
   "batch_continue_after_photo_block": false,
@@ -76,7 +77,7 @@
   "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
   "_autopilot": {
     "entity_id": "badiashile__chelsea-fc__ssc-napoli",
-    "built_at": "2026-09-05T13:39:00.426320+00:00",
+    "built_at": "2026-09-05T13:49:59.710681+00:00",
     "api_id_resolution": {
       "from": "bridge",
       "to": "bridge"
