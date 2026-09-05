@@ -16,7 +16,7 @@ select,
 textarea,
 optgroup,
 option {
-  font-family: var(--pf-global-font-family) !important;
+  font-family: var(--pf-font-here, var(--pf-global-font-family)) !important;
 }
 
 body :where(
@@ -69,7 +69,7 @@ body :where(
   sub,
   sup
 ):not(.fa):not(.fas):not(.far):not(.fab):not(.fal):not(.fad):not(.fat):not(.fa-solid):not(.fa-regular):not(.fa-brands) {
-  font-family: var(--pf-global-font-family) !important;
+  font-family: var(--pf-font-here, var(--pf-global-font-family)) !important;
 }
 
 button,
@@ -78,11 +78,11 @@ select,
 textarea,
 input::placeholder,
 textarea::placeholder {
-  font-family: var(--pf-global-font-family) !important;
+  font-family: var(--pf-font-here, var(--pf-global-font-family)) !important;
 }
 
 svg text {
-  font-family: var(--pf-global-font-family) !important;
+  font-family: var(--pf-font-here, var(--pf-global-font-family)) !important;
 }
 /* PF400F_GLOBAL_ROBOTO_END */
 
@@ -93,6 +93,15 @@ svg text {
 
    !important здесь не от хорошей жизни: правило выше расставляет Roboto
    тоже с !important, и без него заголовочный просто не применится. */
+/* Глобальное правило выше заканчивается одиннадцатью :not(). В отличие от
+   :where(), они специфичность дают — у него получается (0,11,1). Никакое
+   разумное правило столько не наберёт, поэтому прежняя попытка задать
+   заголовочный шрифт напрямую проигрывала молча, как и PF400C до неё.
+
+   Поэтому не спорим, а подставляем: глобальное правило читает --pf-font-here
+   и лишь при её отсутствии берёт основной шрифт. Переменная наследуется, ей
+   специфичность не нужна, и достаточно объявить её там, где нужен другой
+   шрифт. */
 .pf-home-panel__title,
 .pf-home-panel__title a,
 .pf-home-transfers-table tbody td.is-player a,
@@ -102,7 +111,7 @@ svg text {
 .transfer-stage__player,
 .transfer-story__header h1,
 body.transfer-page h1 {
-  font-family: var(--pf-display-font-family) !important;
+  --pf-font-here: var(--pf-display-font-family);
   letter-spacing: 0.01em;
 }
 /* PF512A_DISPLAY_FONT_END */
