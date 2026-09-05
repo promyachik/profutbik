@@ -1870,14 +1870,24 @@ a.pf405i-home-panel-title-link:focus-visible {
   @media (max-width: 720px) {
     .pf-home-panel--rumors .pf403c-rumor-club-with-logo {
       white-space: normal !important;
+      flex-wrap: wrap !important;
       min-width: 0 !important;
       max-width: 100% !important;
       overflow: hidden !important;
     }
 
+    /* Маршрут вычисляется как grid из трёх колонок (PF400P), поэтому
+       flex-wrap на нём был бесполезен: колонка выходит около 148 пикселей,
+       а «Brighton & Hove Albion» с эмблемой требует 170 и вылезает наружу.
+       На телефоне это должна быть обычная гибкая строка с переносом. */
     .pf-home-panel--rumors .pf-home-rumors-route {
-      flex-wrap: wrap !important;
-      row-gap: 4px !important;
+      display: flex !important;
+      flex-flow: row wrap !important;
+      align-items: center !important;
+      justify-content: flex-start !important;
+      gap: 4px 6px !important;
+      width: 100% !important;
+      max-width: 100% !important;
     }
 
     .pf-home-panel--rumors .pf-home-rumors-route > span:first-child,
