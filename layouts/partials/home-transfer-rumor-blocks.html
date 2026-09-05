@@ -191,23 +191,37 @@
       text-align: left;
     }
 
+    /* Название и эмблема живут в одной гибкой строке, а не просто лежат
+       рядом в ячейке. Так надо: `.pf-club-logo` ниже по документу получает
+       `display:block` от другой правки и уводил бы название на свою строку,
+       а ячейке кто-то задаёт `text-align:center`. Внутри flex-контейнера ни
+       то, ни другое роли не играет. */
+    .pf-club-cell {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+    }
+
+    .pf-home-transfers-table tbody td.is-from .pf-club-cell {
+      justify-content: flex-end;
+    }
+
+    .pf-home-transfers-table tbody td.is-to .pf-club-cell {
+      justify-content: flex-start;
+    }
+
+    .pf-club-cell .pf-club-logo {
+      flex: 0 0 auto;
+    }
+
     .pf-club-name-inline {
-      display: inline-block;
-      max-width: calc(100% - 46px);
+      min-width: 0;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
-      vertical-align: middle;
       font-size: 14px;
       color: rgba(220, 229, 241, 0.82);
-    }
-
-    .pf-home-transfers-table tbody td.is-from .pf-club-name-inline {
-      margin-right: 10px;
-    }
-
-    .pf-home-transfers-table tbody td.is-to .pf-club-name-inline {
-      margin-left: 10px;
     }
 
     .pf-home-transfers-table tbody td.is-center,
@@ -808,10 +822,10 @@
                    эмблему узнаёт не каждый, а место всё равно пустовало.
                    На телефоне названия скрыты, там ширины нет. */}}
               <td class="is-club is-from">
-                <span class="pf-club-name-inline">{{ .from_name }}</span>
-                {{ with .from_logo }}
-                  <img class="pf-club-logo" src="{{ . | relURL }}" alt="">
-                {{ end }}
+                <span class="pf-club-cell">
+                  <span class="pf-club-name-inline">{{ .from_name }}</span>
+                  {{ with .from_logo }}<img class="pf-club-logo" src="{{ . | relURL }}" alt="">{{ end }}
+                </span>
               </td>
               {{/* PF508C: стрелка вместо текстового «→». Глиф тонкий и в
                    строке с эмблемами теряется. Три шеврона рисуются вектором,
@@ -826,10 +840,10 @@
                 </svg>
               </td>
               <td class="is-club is-to">
-                {{ with .to_logo }}
-                  <img class="pf-club-logo" src="{{ . | relURL }}" alt="">
-                {{ end }}
-                <span class="pf-club-name-inline">{{ .to_name }}</span>
+                <span class="pf-club-cell">
+                  {{ with .to_logo }}<img class="pf-club-logo" src="{{ . | relURL }}" alt="">{{ end }}
+                  <span class="pf-club-name-inline">{{ .to_name }}</span>
+                </span>
               </td>
               {{/* PF508C: сумма с главной убрана совсем. Она есть внутри
                    новости, а в списке у большинства переходов её нет вовсе —
@@ -878,10 +892,10 @@
                 <a href="{{ .url | relURL }}">{{ .player }}</a>
               </td>
               <td class="is-club is-from">
-                <span class="pf-club-name-inline">{{ .from_name }}</span>
-                {{ with .from_logo }}
-                  <img class="pf-club-logo" src="{{ . | relURL }}" alt="" loading="lazy">
-                {{ end }}
+                <span class="pf-club-cell">
+                  <span class="pf-club-name-inline">{{ .from_name }}</span>
+                  {{ with .from_logo }}<img class="pf-club-logo" src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}
+                </span>
               </td>
               <td class="is-center is-arrow">
                 <svg class="pf-arrow-chevrons" viewBox="0 0 46 24" aria-hidden="true" focusable="false">
@@ -891,10 +905,10 @@
                 </svg>
               </td>
               <td class="is-club is-to">
-                {{ with .to_logo }}
-                  <img class="pf-club-logo" src="{{ . | relURL }}" alt="" loading="lazy">
-                {{ end }}
-                <span class="pf-club-name-inline">{{ .to_name }}</span>
+                <span class="pf-club-cell">
+                  {{ with .to_logo }}<img class="pf-club-logo" src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}
+                  <span class="pf-club-name-inline">{{ .to_name }}</span>
+                </span>
               </td>
               <td class="is-status">
                 <span class="pf-status-pill {{ .status_css }}">{{ .status_display }}</span>
