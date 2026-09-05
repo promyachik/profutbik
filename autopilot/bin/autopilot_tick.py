@@ -27,6 +27,7 @@ import argparse
 import json
 import subprocess
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 BIN = Path(__file__).resolve().parent
@@ -60,6 +61,57 @@ def remember(name: str) -> None:
     done.add(name)
     PUBLISHED_LOG.write_text(json.dumps(sorted(done), ensure_ascii=False, indent=1),
                              encoding="utf-8")
+
+
+PACE_MINUTES = 30
+MAX_PER_TICK = 4
+LAST_PUBLISH = PARSER_ROOT / "state" / "last_publish.txt"
+
+
+def _last_publish() -> "datetime | None":
+    if not LAST_PUBLISH.exists():
+        return None
+    try:
+        return datetime.fromisoformat(LAST_PUBLISH.read_text(encoding="utf-8").strip())
+    except Exception:
+        return None
+
+
+def note_publish() -> None:
+    LAST_PUBLISH.write_text(datetime.now(timezone.utc).isoformat(), encoding="utf-8")
+
+
+def elapsed_text() -> str:
+    last = _last_publish()
+    if last is None:
+        return "неизвестно (первая публикация)"
+    minutes = (datetime.now(timezone.utc) - last).total_seconds() / 60
+    if minutes < 90:
+        return "%d мин" % round(minutes)
+    return "%.1f ч" % (minutes / 60)
+
+
+def publish_quota() -> int:
+    """Сколько трансферов уместно выпустить в этом такте.
+
+    Задумано было по одному раз в полчаса, но расписание GitHub этого не
+    держит: оно объявлено «по возможности» и слоты роняет — за два часа
+    приходило два прогона вместо пяти. Если публиковать строго по одному за
+    такт, темп проседает вдвое-втрое и очередь растягивается на дни.
+
+    Поэтому считаем не такты, а время: сколько получасовых окон прошло с
+    прошлой публикации, столько и выпускаем. Средний темп остаётся прежним,
+    просто пропущенное навёрстывается.
+
+    Потолок нужен на случай долгого простоя: после суток тишины иначе
+    вывалится полсотни страниц разом, а для поиска это выглядит свалкой —
+    ровно то, чего мы избегали, когда выбирали штучную публикацию.
+    """
+    last = _last_publish()
+    if last is None:
+        return 1
+    minutes = (datetime.now(timezone.utc) - last).total_seconds() / 60
+    return max(1, min(MAX_PER_TICK, int(minutes // PACE_MINUTES)))
 
 
 def enriched_count() -> int:
@@ -141,22 +193,38 @@ def main(argv: list[str] | None = None) -> int:
         run("job_builder.py", "--save")
 
     print("\n[4] публикация")
-    job = next_job()
-    if not job:
-        print("  публиковать нечего — такт завершён без изменений")
-        return 0
+    quota = publish_quota()
+    print("  с прошлой публикации прошло %s; норма на такт: %d"
+          % (elapsed_text(), quota))
 
-    print("  выбран: %s" % job.name)
-    if args.dry_run:
-        run("publisher.py", "--job", str(job), "--dry-run")
-        return 0
+    published_now = 0
+    code = 0
+    while published_now < quota:
+        job = next_job()
+        if not job:
+            print("  публиковать больше нечего")
+            break
 
-    code = run("publisher.py", "--job", str(job))
-    if code == 0:
+        print("\n  выбран: %s" % job.name)
+        if args.dry_run:
+            run("publisher.py", "--job", str(job), "--dry-run")
+            return 0
+
+        code = run("publisher.py", "--job", str(job))
+        if code != 0:
+            print("  публикация не прошла (код %d) — сайт откачен движком" % code)
+            break
+
         remember(job.name)
-        print("\n  опубликован один трансфер, такт завершён")
-    else:
-        print("\n  публикация не прошла (код %d) — сайт откачен движком" % code)
+        published_now += 1
+        note_publish()
+
+    if published_now:
+        print("\n  опубликовано за такт: %d" % published_now)
+        return 0
+    if code == 0:
+        print("\n  такт завершён без изменений")
+    return code
     return code
 
 
