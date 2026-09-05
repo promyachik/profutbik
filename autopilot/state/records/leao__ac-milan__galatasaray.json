@@ -7,8 +7,8 @@
   "from_club": "AC Milan",
   "to_club": "Galatasaray",
   "fee_raw": "",
-  "verdict": "NEW_CANDIDATE",
-  "pipeline_state": "ENRICHED",
+  "verdict": "DUPLICATE_EXISTING",
+  "pipeline_state": "SKIPPED_DUPLICATE",
   "backfill": true,
   "source": {
     "publisher": "Transfermarkt",
@@ -18,7 +18,7 @@
     "published_iso": "2026-08-29T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.543815+00:00",
-  "enriched_at": "2026-09-05T13:38:22.041438+00:00",
+  "enriched_at": "2026-09-05T19:32:08.778544+00:00",
   "tm_to_club_id": "141",
   "tm_player_id": "357164",
   "birth_date": "1999-06-10",
@@ -80,7 +80,7 @@
     "stadium": "Rams Park, Huzur Mah. Seyrantepe",
     "city": "Sarıyer / İstanbul"
   },
-  "verdict_reason": "",
+  "verdict_reason": "TM ID 357164 уже на сайте: rafael-leao-galatasaray",
   "block_reason": "",
   "block_detail": ""
 }

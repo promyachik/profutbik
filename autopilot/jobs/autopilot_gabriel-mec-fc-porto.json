@@ -77,7 +77,7 @@
   "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
   "_autopilot": {
     "entity_id": "mec__gremio-foot-ball-porto-alegrense__fc-porto",
-    "built_at": "2026-09-05T13:49:59.899311+00:00",
+    "built_at": "2026-09-05T19:32:38.768375+00:00",
     "api_id_resolution": {
       "from": "bridge",
       "to": "bridge"

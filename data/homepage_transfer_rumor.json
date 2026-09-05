@@ -1,9 +1,35 @@
 {
-  "generated_at": "2026-09-05T19:21:47+00:00",
+  "generated_at": "2026-09-05T19:33:32+00:00",
   "source_mode": "full_published_archive_no_fillers",
   "transfers_title": "ТРАНСФЕРЫ",
   "rumors_title": "СЛУХИ",
   "transfers": [
+    {
+      "entity_id": "savio-tottenham-hotspur__50__47",
+      "date": "2026-09-05T19:33:32+00:00",
+      "fee": "Сумма не разглашается",
+      "from_club_id": "50",
+      "from_club_name_en": "Manchester City",
+      "from_logo": "images/clubs/api/rendered/50-448f2e57b69e.png",
+      "from_name": "Manchester City",
+      "group": "transfer",
+      "parser_generated": true,
+      "pipeline_generated": true,
+      "player": "Sávio",
+      "player_name_en": "Sávio",
+      "slug": "savio-tottenham-hotspur",
+      "sort_ts": 1788636812.717165,
+      "status": "official",
+      "status_css": "is-done",
+      "status_display": "состоялся",
+      "test_mode": false,
+      "title": "Sávio перешёл из Manchester City в Tottenham Hotspur",
+      "to_club_id": "47",
+      "to_club_name_en": "Tottenham Hotspur",
+      "to_logo": "images/clubs/api/rendered/47-96683ae591e9.png",
+      "to_name": "Tottenham Hotspur",
+      "url": "transfers/savio-tottenham-hotspur/"
+    },
     {
       "entity_id": "iliman-ndiaye-manchester-city__45__50",
       "date": "2026-09-05T19:21:47+00:00",
@@ -1671,6 +1697,25 @@
     }
   ],
   "rumors": [
+    {
+      "slug": "lamine-camara-chelsea",
+      "url": "rumors/lamine-camara-chelsea/",
+      "title": "Lamine Camara и Chelsea: слух",
+      "player": "Lamine Camara",
+      "status": "rumour",
+      "status_display": "слух",
+      "status_css": "is-rumor",
+      "group": "rumor",
+      "date": "2026-09-05T19:33:39+00:00",
+      "sort_ts": 1788636819.0,
+      "from_name": "AS Monaco",
+      "to_name": "Chelsea",
+      "from_logo": "images/clubs/api/rendered/91-371080d3fd97.png",
+      "to_logo": "images/clubs/api/rendered/49-a4353df0d456.png",
+      "fee": "Сумма не называется",
+      "from_club_id": "91",
+      "to_club_id": "49"
+    },
     {
       "slug": "yankuba-minteh-liverpool",
       "url": "rumors/yankuba-minteh-liverpool/",

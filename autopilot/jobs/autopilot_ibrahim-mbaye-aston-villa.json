@@ -77,7 +77,7 @@
   "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
   "_autopilot": {
     "entity_id": "mbaye__paris-saint-germain__aston-villa",
-    "built_at": "2026-09-05T13:49:59.894386+00:00",
+    "built_at": "2026-09-05T19:32:38.767353+00:00",
     "api_id_resolution": {
       "from": "bridge",
       "to": "bridge"

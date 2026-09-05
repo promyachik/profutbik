@@ -77,7 +77,7 @@
   "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
   "_autopilot": {
     "entity_id": "goncalves__sporting-cp__acf-fiorentina",
-    "built_at": "2026-09-05T13:49:59.837524+00:00",
+    "built_at": "2026-09-05T19:32:38.763138+00:00",
     "api_id_resolution": {
       "from": "bridge",
       "to": "bridge"

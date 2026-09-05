@@ -18,7 +18,7 @@
     "published_iso": "2026-09-01T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.560536+00:00",
-  "enriched_at": "2026-09-05T13:36:43.686964+00:00",
+  "enriched_at": "2026-09-05T19:30:45.715585+00:00",
   "tm_to_club_id": "931",
   "tm_player_id": "452483",
   "birth_date": "2001-03-19",
@@ -50,15 +50,14 @@
   "transfer_date": "2026-09-01",
   "national_team_debut": "2026-03-27",
   "squad_analysis": {
-    "same_position_count": 4,
+    "same_position_count": 3,
     "same_position_names": [
       "Calvin Bassey",
       "Joachim Andersen",
-      "Jorge Cuenca",
-      "Luc De Fougerolles"
+      "Jorge Cuenca"
     ],
     "value_rank": 11,
-    "squad_total": 27,
+    "squad_total": 26,
     "younger_than": 14
   },
   "to_club_official_name": "Fulham FC",
