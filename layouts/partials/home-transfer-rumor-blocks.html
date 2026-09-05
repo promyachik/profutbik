@@ -212,7 +212,7 @@
     }
 
     .pf-home-panel--transfers .pf-home-transfers-table tbody td.is-club {
-      width: 24% !important;
+      width: 29% !important;
     }
 
     .pf-home-panel--rumors .pf-home-transfers-table tbody td.is-club {
@@ -328,6 +328,38 @@
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
+    }
+
+    /* PF513B: кружок с галочкой держит ту же зелёную линию, что и шевроны
+       в маршруте — это один визуальный язык, а не набор значков. */
+    .pf-status-done {
+      display: grid;
+      place-items: center;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      border: 1.5px solid rgba(41, 214, 95, 0.55);
+      background: rgba(41, 214, 95, 0.10);
+    }
+
+    .pf-status-done svg {
+      display: block;
+      width: 16px;
+      height: 16px;
+    }
+
+    .pf-status-done path {
+      fill: none;
+      stroke: #29d65f;
+      stroke-width: 2.6;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* Под галочку прежней ширины не нужно, освободившееся уходит клубам:
+       «Borussia Mönchengladbach» упиралось в край. */
+    .pf-home-panel--transfers .pf-home-transfers-table tbody td.is-status {
+      width: 62px !important;
     }
 
     .pf-fee-value {
@@ -953,8 +985,20 @@
                    колонка стояла пустой и растаскивала строку по ширине,
                    оставляя посередине дыру. Освободившееся место отдано имени
                    игрока: оно перестало переноситься на две строки. */}}
+              {{/* PF513B: у состоявшегося перехода вместо слова — галочка.
+                   «Состоялся» повторялось в каждой строке блока, который и так
+                   называется «Трансферы»: занимало треть ширины, сообщало ноль.
+                   Остальные ступени — переговоры, согласовано, слух — словом и
+                   остаются: их значение из значка не прочитать. Смысл сохранён
+                   подписью для чтения с экрана. */}}
               <td class="is-status">
-                <span class="pf-status-pill {{ .status_css }}">{{ .status_display }}</span>
+                {{ if eq .status_css "is-done" }}
+                  <span class="pf-status-done" role="img" aria-label="Переход состоялся" title="Переход состоялся">
+                    <svg viewBox="0 0 24 24" focusable="false"><path d="M5 12.5 L10 17.5 L19 7"/></svg>
+                  </span>
+                {{ else }}
+                  <span class="pf-status-pill {{ .status_css }}">{{ .status_display }}</span>
+                {{ end }}
               </td>
             </tr>
           {{ end }}
