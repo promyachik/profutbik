@@ -155,6 +155,56 @@
 <!-- PF487A_SEO_FOUNDATION_START -->
 {{ partial "seo-head.html" . }}
 <!-- PF487A_SEO_FOUNDATION_END -->
+<style id="pf509a-mobile-article-order">
+/* PF509A_MOBILE_ARTICLE_ORDER_START
+   Три правки по замечаниям Дмитрия с телефона. */
+
+/* 1. Белая полоса при оттягивании страницы вниз.
+   Фон у body задан двумя градиентами и ни одним сплошным цветом: у
+   сокращённой записи background последний слой — картинка, а не цвет,
+   поэтому background-color остаётся прозрачным. Резиновую зону прокрутки
+   браузер красит именно им — отсюда белое. Берём тот же оттенок, которым
+   градиент заканчивается внизу. */
+html {
+    background-color: #07090c;
+}
+
+@media (max-width: 720px) {
+    /* 2. Сначала игрок и график, потом текст.
+       На телефоне колонки становятся одна под другой, и до фотографии с
+       графиком приходилось листать 2355 пикселей статьи. Порядок в сетке
+       меняется свойством order, разметку трогать не нужно — в поиске и в
+       чтении с экрана она остаётся прежней. */
+    body.transfer-page .transfer-side-column {
+        order: -1 !important;
+    }
+
+    body.transfer-page .transfer-story {
+        order: 0 !important;
+    }
+
+    /* 3. Подписи в увеличенном графике.
+       В модальном окне они остаются 14 пикселей, как на широком экране. При
+       семи точках на 375 пикселях соседние суммы налезают друг на друга —
+       «€ 35 млн€ 35 млн». Уменьшаем и убираем свечение: на мелком кегле оно
+       размывает цифры сильнее, чем помогает. */
+    .player-market-chart-modal
+    .player-market-chart--enlarged
+    .player-market-chart__point strong {
+        font-size: 10px !important;
+        text-shadow: none !important;
+    }
+
+    .player-market-chart-modal
+    .player-market-chart--enlarged
+    .player-market-chart__point small {
+        font-size: 9px !important;
+        text-shadow: none !important;
+    }
+}
+/* PF509A_MOBILE_ARTICLE_ORDER_END */
+</style>
+
 <style id="pf508f-transfer-route-horizontal">
 /* PF508F_TRANSFER_ROUTE_HORIZONTAL_START
    Маршрут «клуб → клуб» на телефоне схлопывался в одну колонку, а стрелку

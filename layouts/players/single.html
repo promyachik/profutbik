@@ -38,6 +38,11 @@
 <!-- PF487A_SEO_FOUNDATION_START -->
 {{ partial "seo-head.html" . }}
 <!-- PF487A_SEO_FOUNDATION_END -->
+    {{/* PF509A: белая полоса при оттягивании страницы. Фон у body задан
+         сокращённой записью background, где последний слой — градиент, то
+         есть картинка, а не цвет; background-color при этом остаётся
+         прозрачным. Резиновую зону прокрутки браузер красит именно им. */}}
+    <style id="pf509a-overscroll-background">html{background-color:#0b0d10}</style>
 </head>
 
 
