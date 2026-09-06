@@ -111,10 +111,16 @@
      .pf-club-logo`. По нему сразу видно, какое правило править, — тогда как
      `tr:nth-of-type(1) > td:nth-of-type(2) > a > img` не говорит даже, в
      каком из двух блоков главной поставлена точка. */
+  // Крупные ориентиры страницы. Без них путь обрезается на середине и
+  // теряет главное: в каком блоке поставлена точка.
+  const LANDMARK = ".pf-home-panel--transfers, .pf-home-panel--rumors,"
+    + " .pf-transfer-page, .pf-rumor-page, .player-brief, header, footer,"
+    + " .home-player-bottom-strip, .bottom-transfer-strip-v3";
+
   const whereFor = (element) => {
     const steps = [];
     let current = element;
-    while (current && current !== document.body && steps.length < 4) {
+    while (current && current !== document.body && steps.length < 3) {
       const cls = classesOf(current).filter((c) => /^pf/i.test(c));
       if (current.id) {
         steps.unshift("#" + current.id);
@@ -123,20 +129,39 @@
       }
       current = current.parentElement;
     }
+
+    const landmark = element.closest && element.closest(LANDMARK);
+    if (landmark) {
+      const name = landmark.id
+        ? "#" + landmark.id
+        : "." + (classesOf(landmark).filter((c) => /^pf/i.test(c))[0]
+                 || landmark.tagName.toLowerCase());
+      if (steps[0] !== name) steps.unshift(name);
+    }
     if (!steps.length) steps.push("<" + element.tagName.toLowerCase() + ">");
     return steps.join(" › ");
   };
 
-  const describe = (element) => {
-    const text = (element.textContent || "").replace(/\s+/g, " ").trim();
-    return {
-      selector: selectorFor(element),
-      where: whereFor(element),
-      classes: classesOf(element).join(" "),
-      label: text.slice(0, 90),
-      html: (element.outerHTML || "").replace(/\s+/g, " ").slice(0, 320),
-    };
+  /* Подпись «рядом текст». У картинки своего текста нет, а у контейнера его
+     бывает на пол-экрана — и то и другое бесполезно. Берём короткий текст
+     самого элемента, а если его нет, короткую подпись ближайшей строки:
+     «Marcus Rashford Manchester United Arsenal» говорит, о какой именно
+     строке речь, а первые девяносто символов таблицы — ни о чём. */
+  const labelFor = (element) => {
+    const own = (element.textContent || "").replace(/\s+/g, " ").trim();
+    if (own && own.length <= 120) return own;
+    const row = element.closest && element.closest("tr, li, article, figure, h1, h2, h3");
+    const near = row ? (row.textContent || "").replace(/\s+/g, " ").trim() : "";
+    return near && near.length <= 160 ? near : "";
   };
+
+  const describe = (element) => ({
+    selector: selectorFor(element),
+    where: whereFor(element),
+    classes: classesOf(element).join(" "),
+    label: labelFor(element),
+    html: (element.outerHTML || "").replace(/\s+/g, " ").slice(0, 320),
+  });
 
   /* ------------------------------------------------------------------ разметка */
 
