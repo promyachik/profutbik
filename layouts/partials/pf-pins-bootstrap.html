@@ -10,7 +10,7 @@
   function load(){
     if(window.__pfPins){window.__pfPins.toggle();return;}
     var s=document.createElement("script");
-    s.src="{{ "js/pf-pins.js" | relURL }}?v=pf519a";
+    s.src="{{ "js/pf-pins.js" | relURL }}?v=pf519c";
     document.body.appendChild(s);
   }
   if(/[?&]pins=1/.test(location.search)){try{localStorage.setItem(KEY,"1");}catch(e){}}

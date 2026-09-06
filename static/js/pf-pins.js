@@ -55,7 +55,9 @@
   };
 
   let pins = load();
-  const here = () => location.pathname + location.search;
+  // Ключ страницы — только путь. С хвостом запроса точка, поставленная на
+  // /?pins=1, не нашлась бы на / — а это одна и та же страница.
+  const here = () => location.pathname;
 
   /* ------------------------------------------------- к чему цепляется точка */
 
@@ -73,16 +75,24 @@
     return node && node !== document.body ? node : document.body;
   };
 
+  const classesOf = (element) =>
+    (typeof element.className === "string" ? element.className : "")
+      .trim().split(/\s+/).filter(Boolean);
+
+  /* Точный путь — чтобы точка нашлась на своём месте после перезагрузки.
+     Читать его человеку не обязательно, этим занят `where` ниже. */
   const selectorFor = (element) => {
     if (!element || element === document.body) return "body";
-    if (element.id) return "#" + CSS.escape(element.id);
 
     const parts = [];
     let current = element;
-    for (let depth = 0; current && current !== document.body && depth < 4; depth += 1) {
+    for (let depth = 0; current && current !== document.body && depth < 5; depth += 1) {
+      if (current.id) {
+        parts.unshift("#" + CSS.escape(current.id));
+        break;
+      }
       let part = current.tagName.toLowerCase();
-      const cls = (typeof current.className === "string" ? current.className : "")
-        .trim().split(/\s+/).filter(Boolean).slice(0, 3);
+      const cls = classesOf(current).slice(0, 3);
       if (cls.length) part += "." + cls.map((c) => CSS.escape(c)).join(".");
       const siblings = current.parentElement
         ? [...current.parentElement.children].filter((n) => n.tagName === current.tagName)
@@ -91,20 +101,38 @@
         part += ":nth-of-type(" + (siblings.indexOf(current) + 1) + ")";
       }
       parts.unshift(part);
-      if (current.id) {
-        parts[0] = "#" + CSS.escape(current.id);
-        break;
-      }
       current = current.parentElement;
     }
     return parts.join(" > ");
+  };
+
+  /* PF519C: а вот это — главное, ради чего всё затевалось. Путь из ближайших
+     осмысленных предков: `.pf-home-panel--rumors › .pf-club-cell ›
+     .pf-club-logo`. По нему сразу видно, какое правило править, — тогда как
+     `tr:nth-of-type(1) > td:nth-of-type(2) > a > img` не говорит даже, в
+     каком из двух блоков главной поставлена точка. */
+  const whereFor = (element) => {
+    const steps = [];
+    let current = element;
+    while (current && current !== document.body && steps.length < 4) {
+      const cls = classesOf(current).filter((c) => /^pf/i.test(c));
+      if (current.id) {
+        steps.unshift("#" + current.id);
+      } else if (cls.length) {
+        steps.unshift("." + cls.slice(0, 2).join("."));
+      }
+      current = current.parentElement;
+    }
+    if (!steps.length) steps.push("<" + element.tagName.toLowerCase() + ">");
+    return steps.join(" › ");
   };
 
   const describe = (element) => {
     const text = (element.textContent || "").replace(/\s+/g, " ").trim();
     return {
       selector: selectorFor(element),
-      classes: (typeof element.className === "string" ? element.className : "").trim(),
+      where: whereFor(element),
+      classes: classesOf(element).join(" "),
       label: text.slice(0, 90),
       html: (element.outerHTML || "").replace(/\s+/g, " ").slice(0, 320),
     };
@@ -332,9 +360,9 @@
       lines.push("");
       lines.push((index + 1) + ". " + location.origin + pin.page
                  + "   (окно " + pin.viewport + "px)");
-      lines.push("   куда: " + pin.selector);
-      if (pin.classes) lines.push("   классы: " + pin.classes);
+      lines.push("   куда: " + (pin.where || pin.selector));
       if (pin.label) lines.push("   рядом текст: «" + pin.label + "»");
+      lines.push("   точный путь: " + pin.selector);
       lines.push("   что сделать: " + (pin.note || "— комментарий не написан —"));
     });
     return lines.join("\n");
@@ -371,7 +399,8 @@
       item.className = "pfp-item";
       item.innerHTML = "<b>" + (index + 1) + ".</b> "
         + (pin.note ? pin.note.replace(/</g, "&lt;") : "<i>без комментария</i>")
-        + "<span>" + pin.page + " · " + pin.selector.replace(/</g, "&lt;") + "</span>";
+        + "<span>" + pin.page + " · "
+        + (pin.where || pin.selector).replace(/</g, "&lt;") + "</span>";
       item.addEventListener("click", () => {
         if (pin.page !== here()) { location.href = pin.page; return; }
         const target = document.querySelector(pin.selector);
