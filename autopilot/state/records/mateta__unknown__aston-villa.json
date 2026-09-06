@@ -17,8 +17,8 @@
     "published": "Wed, 26 Aug 2026 09:07:26 GMT",
     "published_iso": "2026-08-26T09:07:26+00:00"
   },
-  "discovered_at": "2026-09-06T20:46:37.471958+00:00",
-  "enriched_at": "2026-09-06T20:47:42.536496+00:00",
+  "discovered_at": "2026-09-06T22:52:04.606540+00:00",
+  "enriched_at": "2026-09-06T22:53:32.781810+00:00",
   "tm_to_club_id": "405",
   "found_in": "local_index",
   "tm_from_club_id": "873",
@@ -64,21 +64,21 @@
       "Brian Madjo"
     ],
     "value_rank": null,
-    "squad_total": 27,
+    "squad_total": 28,
     "younger_than": 6
   },
   "to_club_official_name": "Aston Villa",
   "to_club_context": {
-    "squad_size": 27,
-    "average_age": "26.2",
+    "squad_size": 28,
+    "average_age": "26.0",
     "squad_value": {
       "prefix": "€",
-      "content": "572.30",
+      "content": "572.50",
       "suffix": "M"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "21.20",
+      "content": "20.45",
       "suffix": "M"
     },
     "stadium": "Villa Park",
@@ -87,5 +87,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "jean-philippe-mateta-aston-villa",
-  "rumor_published_at": "2026-09-06T20:49:43.328859+00:00"
+  "rumor_published_at": "2026-09-06T22:55:44.769858+00:00"
 }

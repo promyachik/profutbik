@@ -405,7 +405,7 @@
     "51": {
       "id": 51,
       "name": "Brighton",
-      "configured_name": "Brighton",
+      "configured_name": "Brighton & Hove Albion",
       "code": "BRI",
       "country": "England",
       "league_id": 39,
@@ -413,7 +413,7 @@
       "season": 2024,
       "founded": 1901,
       "national": false,
-      "logo": "images/clubs/api/rendered/51-d9b536ef13f9.png",
+      "logo": "images/clubs/api/rendered/51-f4b263d89e88.png",
       "api_logo": "https://media.api-sports.io/football/teams/51.png",
       "venue": {
         "id": 508,
@@ -1217,13 +1217,17 @@
       "season": 2024,
       "founded": 1893,
       "national": false,
-      "logo": "images/clubs/api/172.png",
+      "logo": "images/clubs/api/rendered/172-ad1e71efa42d.png",
       "api_logo": "https://media.api-sports.io/football/teams/172.png",
       "venue": {
         "id": 20473,
         "name": "MHPArena",
         "city": "Stuttgart",
         "capacity": 60469
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "173": {
@@ -1801,13 +1805,17 @@
       "season": 2024,
       "founded": 1927,
       "national": false,
-      "logo": "images/clubs/api/497.png",
+      "logo": "images/clubs/api/rendered/497-6cabff0fac32.png",
       "api_logo": "https://media.api-sports.io/football/teams/497.png",
       "venue": {
         "id": 910,
         "name": "Stadio Olimpico",
         "city": "Roma",
         "capacity": 68530
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "499": {

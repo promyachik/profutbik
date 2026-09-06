@@ -7,8 +7,8 @@
   "from_club": "Southampton FC",
   "to_club": "Aston Villa",
   "fee_raw": "",
-  "verdict": "NEW_CANDIDATE",
-  "pipeline_state": "ENRICHED",
+  "verdict": "DUPLICATE_EXISTING",
+  "pipeline_state": "SKIPPED_DUPLICATE",
   "backfill": true,
   "source": {
     "publisher": "Transfermarkt",
@@ -18,7 +18,7 @@
     "published_iso": "2026-09-01T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.558996+00:00",
-  "enriched_at": "2026-09-06T20:47:32.772590+00:00",
+  "enriched_at": "2026-09-06T22:53:20.946339+00:00",
   "tm_to_club_id": "405",
   "tm_player_id": "503977",
   "birth_date": "2002-01-30",
@@ -62,27 +62,27 @@
       "Tyrone Mings"
     ],
     "value_rank": 12,
-    "squad_total": 27,
+    "squad_total": 28,
     "younger_than": 15
   },
   "to_club_official_name": "Aston Villa",
   "to_club_context": {
-    "squad_size": 27,
-    "average_age": "26.2",
+    "squad_size": 28,
+    "average_age": "26.0",
     "squad_value": {
       "prefix": "€",
-      "content": "572.30",
+      "content": "572.50",
       "suffix": "M"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "21.20",
+      "content": "20.45",
       "suffix": "M"
     },
     "stadium": "Villa Park",
     "city": "Birmingham"
   },
-  "verdict_reason": "",
+  "verdict_reason": "TM ID 503977 уже на сайте: taylor-harwood-bellis-aston-villa",
   "block_reason": "",
   "block_detail": ""
 }
