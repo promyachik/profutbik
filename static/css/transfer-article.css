@@ -1083,9 +1083,13 @@ body.transfer-page {
         font-size: 18px;
     }
 
+    /* PF526B: столбиком, но по центру. Прижатая влево зелёная плашка
+       «ОФИЦИАЛЬНО» висела сбоку под именем игрока, которое стоит по центру, —
+       и вся шапка выглядела съехавшей. */
     .transfer-stage__meta {
-        align-items: flex-start;
+        align-items: center;
         flex-direction: column;
+        text-align: center;
     }
 
     .transfer-stage__meta time::before,

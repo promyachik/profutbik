@@ -46,7 +46,7 @@ previous_club_stats:
   season: "2025/26"
   source_note: "Данные будут заполнены после синхронизации API-Football."
 nationality_flag_image: "images/flags/countries/nl.svg"
-concept_art_image: "/promyachik/images/homepage/featured/denzel-dumfries-real-madrid-hero.png"
+concept_art_image: "/images/homepage/featured/denzel-dumfries-real-madrid-hero.png"
 ---
 
 Дензел Дюмфрис **подписал контракт с мадридским «Реалом» после прохождения медицинского обследования**, сообщил Фабрицио Романо. Соглашение рассчитано на четыре года.

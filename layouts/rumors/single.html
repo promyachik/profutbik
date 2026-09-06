@@ -3,9 +3,26 @@
 <style id="pf405a-rumor-article-style">
 .pf405a-rumor-article{width:min(980px,calc(100% - 28px));margin:0 auto;padding:34px 0 54px;font-family:Roboto,Arial,sans-serif;color:#edf1f4}
 .pf405a-rumor-article *{box-sizing:border-box}.pf405a-back{display:inline-flex;margin-bottom:26px;color:#ffd400;font-size:14px;font-weight:700;text-decoration:none}
-.pf405a-head{display:grid;grid-template-columns:84px minmax(0,1fr) 84px;gap:22px;align-items:center;padding:28px;border:1px solid rgba(130,145,160,.24);background:rgba(8,13,18,.42)}
-.pf405a-head-logo{width:78px;height:78px;display:grid;place-items:center}.pf405a-head-logo img{display:block;max-width:74px;max-height:74px;width:auto;height:auto;object-fit:contain}
-.pf405a-head-copy{text-align:center}.pf405a-head-date{display:block;margin-bottom:9px;color:#aeb8c2;font-size:13px}.pf405a-head-title{margin:0;font-size:clamp(27px,4vw,44px);line-height:1.08;font-weight:850}.pf405a-head-desc{margin:16px 0 0;color:#bcc5ce;font-size:16px;line-height:1.5}
+/* PF526A: шапка слуха — только маршрут: эмблема, шеврон, эмблема.
+   Было: три колонки 84px / остаток / 84px, и в среднюю набивались дата,
+   заголовок «Игрок и Клуб: слух» и фраза «Что известно о возможном переходе
+   такого-то из клуба А в клуб Б». На широком экране это ещё держалось, на
+   телефоне средней колонке доставалось 77 пикселей — и текст сыпался
+   по одному слову в строку. Сетка была жёсткой и на телефоне не
+   перестраивалась вовсе.
+   Дата, заголовок и подводка убраны с глаз по просьбе Дмитрия: всё это
+   повторяет то, что и так написано ниже в самой статье. Заголовок остаётся
+   в разметке, но невидимым — он нужен поиску, а не читателю. */
+.pf405a-head{display:flex;align-items:center;justify-content:center;gap:clamp(16px,7vw,52px);padding:30px 18px;border:1px solid rgba(130,145,160,.24);background:rgba(8,13,18,.42)}
+.pf405a-head-logo{width:78px;height:78px;display:grid;place-items:center;flex:0 0 auto}.pf405a-head-logo img{display:block;max-width:74px;max-height:74px;width:auto;height:auto;object-fit:contain}
+.pf405a-head-arrow{flex:0 0 auto;display:block;width:clamp(46px,14vw,72px)}
+.pf405a-head-arrow svg{display:block;width:100%;height:auto;overflow:visible}
+.pf405a-head-arrow path{fill:none;stroke:#34d058;stroke-width:3.6;stroke-linecap:round;stroke-linejoin:round}
+.pf405a-head-arrow path:nth-child(1){opacity:.42}.pf405a-head-arrow path:nth-child(2){opacity:.7}
+/* Заголовок для поиска и для чтения с экрана: из потока убран, но в
+   разметке есть. Это не пряталки от поисковика — текст тот же, что в
+   <title> и в описании страницы. */
+.pf405a-head-title{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
 .pf405a-body{padding:30px 28px 8px;border:1px solid rgba(130,145,160,.24);border-top:0;background:rgba(8,13,18,.25)}.pf405a-body p{margin:0 0 22px;color:#d7dde2;font-size:17px;line-height:1.72}
 
 .pf510a-rumor-photo{float:right;width:200px;margin:0 0 20px 26px;padding:0}
@@ -19,7 +36,7 @@ body:has(.pf405a-rumor-article) .bottom-transfer-strip-v3:not(.home-player-botto
 body:has(.pf405a-rumor-article) .home-player-bottom-strip{position:relative!important;left:auto!important;width:100vw!important;max-width:100vw!important;margin-left:calc(50% - 50vw)!important;transform:none!important}
 </style>
 <a class="pf405a-back" href="{{ "rumors/" | relURL }}">← Все слухи</a>
-<header class="pf405a-head"><span class="pf405a-head-logo"><img src="{{ .Params.from_logo | relURL }}" alt="{{ .Params.from_club }}"></span><span class="pf405a-head-copy"><time class="pf405a-head-date">{{ .Params.display_date }}</time><h1 class="pf405a-head-title">{{ .Title }}</h1><p class="pf405a-head-desc">{{ .Description }}</p></span><span class="pf405a-head-logo"><img src="{{ .Params.to_logo | relURL }}" alt="{{ .Params.to_club }}"></span></header>
+<header class="pf405a-head"><h1 class="pf405a-head-title">{{ .Title }}</h1><span class="pf405a-head-logo"><img src="{{ .Params.from_logo | relURL }}" alt="{{ .Params.from_club }}"></span><span class="pf405a-head-arrow" aria-hidden="true"><svg viewBox="0 0 46 24" focusable="false"><path d="M4 5 L14 12 L4 19"/><path d="M18 5 L28 12 L18 19"/><path d="M32 5 L42 12 L32 19"/></svg></span><span class="pf405a-head-logo"><img src="{{ .Params.to_logo | relURL }}" alt="{{ .Params.to_club }}"></span></header>
 {{/* PF510A: портрет игрока на странице слуха. Раньше здесь был только текст,
      и материал выглядел заметкой без лица — при том что портрет у нас есть,
      он же идёт в карточку для мессенджеров. */}}

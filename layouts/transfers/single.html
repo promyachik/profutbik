@@ -28,7 +28,7 @@
 
     <link
         rel="stylesheet"
-        href="{{ "css/transfer-article.css" | relURL }}"
+        href="{{ "css/transfer-article.css" | relURL }}?v=pf526b"
     >
 {{ partial "favicon.html" . }}
     <link rel="stylesheet" href="{{ "css/transfer-player-market-value-chart.css" | relURL }}?v=448l1">
@@ -637,9 +637,16 @@ body.transfer-page .transfer-stage__arrow .pf-arrow-chevrons path:nth-child(3) {
 
         </div>
 {{/* PF_TRANSFER_CONCEPT_ART_START */}}
+{{/* PF526C: страховка от старого адреса. Сайт переехал с /promyachik/ на
+     свой домен, но в одной статье путь к рисунку остался прежним — картинка
+     отдавала 404, а высота у неё задана в CSS, и на месте иллюстрации зияла
+     пустая область 1120 на 620. Пустоту нашёл Дмитрий точкой замечаний.
+     Значение из front matter чиним на лету: одна такая страница уже была,
+     значит могут всплыть и другие из старых выгрузок. */}}
 {{ with .Params.concept_art_image }}
+{{ $src := strings.TrimPrefix "/promyachik" . }}
 <figure class="transfer-concept-art">
-    <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="eager" decoding="async">
+    <img src="{{ $src | relURL }}" alt="{{ $.Title }}" loading="eager" decoding="async">
 </figure>
 {{ end }}
 {{/* PF_TRANSFER_CONCEPT_ART_END */}}
