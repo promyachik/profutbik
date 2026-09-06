@@ -77,7 +77,7 @@
   "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
   "_autopilot": {
     "entity_id": "harwood-bellis__southampton-fc__aston-villa",
-    "built_at": "2026-09-06T00:34:29.365763+00:00",
+    "built_at": "2026-09-06T05:30:01.154442+00:00",
     "api_id_resolution": {
       "from": "bridge",
       "to": "bridge"

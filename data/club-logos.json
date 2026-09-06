@@ -365,7 +365,7 @@
       "season": 2024,
       "founded": 1905,
       "national": false,
-      "logo": "images/clubs/api/rendered/49-a4353df0d456.png",
+      "logo": "images/clubs/api/rendered/49-ae568c1935d8.png",
       "api_logo": "https://media.api-sports.io/football/teams/49.png",
       "venue": {
         "id": 519,
@@ -509,13 +509,17 @@
       "season": 2024,
       "founded": 1865,
       "national": false,
-      "logo": "images/clubs/api/65.png",
+      "logo": "images/clubs/api/rendered/65-ac04faa7320d.png",
       "api_logo": "https://media.api-sports.io/football/teams/65.png",
       "venue": {
         "id": 566,
         "name": "The City Ground",
         "city": "Nottingham, Nottinghamshire",
         "capacity": 30576
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "66": {
@@ -565,7 +569,7 @@
     "79": {
       "id": 79,
       "name": "Lille",
-      "configured_name": "Lille",
+      "configured_name": "LOSC Lille",
       "code": "LIL",
       "country": "France",
       "league_id": 61,
@@ -573,7 +577,7 @@
       "season": 2024,
       "founded": 1944,
       "national": false,
-      "logo": "images/clubs/api/rendered/79-021579263933.png",
+      "logo": "images/clubs/api/rendered/79-e7bfb84f3598.png",
       "api_logo": "https://media.api-sports.io/football/teams/79.png",
       "venue": {
         "id": 22783,
@@ -1533,13 +1537,17 @@
       "season": 2024,
       "founded": 1906,
       "national": false,
-      "logo": "images/clubs/api/228.png",
+      "logo": "images/clubs/api/rendered/228-1325ce024b92.png",
       "api_logo": "https://media.api-sports.io/football/teams/228.png",
       "venue": {
         "id": 1293,
         "name": "Estádio José Alvalade",
         "city": "Lisboa",
         "capacity": 50466
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "230": {
@@ -1689,7 +1697,7 @@
     "492": {
       "id": 492,
       "name": "Napoli",
-      "configured_name": "Napoli",
+      "configured_name": "SSC Napoli",
       "code": "NAP",
       "country": "Italy",
       "league_id": 135,
@@ -1697,7 +1705,7 @@
       "season": 2024,
       "founded": 1904,
       "national": false,
-      "logo": "images/clubs/api/rendered/492-1ca3923a25a9.png",
+      "logo": "images/clubs/api/rendered/492-6c966f5bc9a8.png",
       "api_logo": "https://media.api-sports.io/football/teams/492.png",
       "venue": {
         "id": 11904,

@@ -77,7 +77,7 @@
   "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
   "_autopilot": {
     "entity_id": "essugo__chelsea-fc__rc-strasbourg-alsace",
-    "built_at": "2026-09-06T00:34:29.362736+00:00",
+    "built_at": "2026-09-06T05:30:01.152266+00:00",
     "api_id_resolution": {
       "from": "bridge",
       "to": "bridge"

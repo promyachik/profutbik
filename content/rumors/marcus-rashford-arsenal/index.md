@@ -1,7 +1,7 @@
 ---
 title: "Marcus Rashford и Arsenal: слух"
 description: "Что известно о возможном переходе Marcus Rashford из клуба Manchester United в клуб Arsenal."
-date: "2026-09-06T00:35:50+00:00"
+date: "2026-09-06T05:31:20+00:00"
 url: "/rumors/marcus-rashford-arsenal/"
 draft: false
 type: "rumors"
