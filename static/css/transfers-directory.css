@@ -15,7 +15,20 @@
 .pf-transfer-filters button{padding:0 18px;cursor:pointer}
 .pf-transfer-filters button.is-active{border-color:#e3bd00;color:#ffd400;background:rgba(255,212,0,.06)}
 .pf-transfer-toolbar select{min-width:170px;padding:0 14px}
-.pf-transfer-head,.pf-transfer-row__summary{display:grid;grid-template-columns:minmax(220px,1.35fr) minmax(190px,1fr) 58px minmax(190px,1fr) 96px;align-items:center}
+/* PF515A: строка собрана плотнее. Была растянута на всю ширину страницы:
+   имя прижималось влево, эмблемы стояли по центру своих широких ячеек, и
+   посередине зияло больше двухсот пикселей пустоты.
+
+   Теперь колонки клубов тянутся к стрелке — «откуда» прижат вправо, «куда»
+   влево, — а лишняя ширина уходит в правое поле, где читается как отступ,
+   а не как дыра. */
+.pf-transfer-row__summary{display:grid;grid-template-columns:minmax(200px,300px) minmax(0,1fr) 58px minmax(0,1fr) 64px;align-items:center;column-gap:14px}
+.pf-transfer-row__summary>.pf-transfer-club:first-of-type{justify-self:end}
+.pf-transfer-row__summary>.pf-transfer-club:last-of-type{justify-self:start}
+/* PF515A: шапка «Игрок / Из клуба / В клуб / Статус» убрана. Колонки и так
+   читаются: слева имя, дальше маршрут, справа отметка. Подпись над каждой
+   только добавляла ряд серого текста. */
+.pf-transfer-head{display:none!important}
 .pf-transfer-head{padding:0 18px 10px;color:#6f7a86;font-size:12px;font-weight:700;text-transform:uppercase}
 .pf-transfer-list{display:grid;gap:8px}
 .pf-transfer-row{position:relative;overflow:hidden;border:1px solid #1b2835;border-radius:9px;background:linear-gradient(100deg,#08111b,#0b131d)}
@@ -27,7 +40,7 @@
 .pf-transfer-player strong{color:#ffd400;font-size:18px}
 .pf-transfer-player span{color:#9ba4ae;font-size:12px}
 .pf-transfer-player b{margin:0 6px;color:#586471}
-.pf-transfer-club{display:grid;justify-items:center;gap:6px;text-align:center}
+.pf-transfer-club{display:grid;justify-items:center;gap:6px;text-align:center;max-width:260px}
 .pf-transfer-club__logo{width:54px;height:54px;display:grid;place-items:center}
 .pf-transfer-club__logo img{max-width:54px;max-height:54px;object-fit:contain}
 .pf-transfer-club__logo span{width:44px;height:44px;display:grid;place-items:center;border:1px solid #263543;border-radius:50%;color:#6f7a86;font-weight:900}

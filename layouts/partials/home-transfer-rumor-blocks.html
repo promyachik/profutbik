@@ -216,7 +216,9 @@
     }
 
     .pf-home-panel--rumors .pf-home-transfers-table tbody td.is-club {
-      width: 25% !important;
+      width: 31% !important;
+      padding-left: 6px !important;
+      padding-right: 6px !important;
     }
 
     .pf-home-transfers-table tbody td.is-club {
@@ -305,12 +307,27 @@
        обрезались бы до «Bright…» и «Manchester …», а обрубок хуже, чем его
        отсутствие. Эмблема говорит то же и целиком; освободившееся место
        отдано имени игрока и статусу, так что провалов не возникает. */
+    /* PF515B: названия клубов в слухах вернулись. Прятали их, когда панель
+       делила ширину с колонкой статуса и «Manchester City» обрезалось до
+       «Manchester …». Колонку статуса убрали — место появилось, а без
+       названия эмблема висела у края ячейки, и между ней и именем игрока
+       зияла пустота. Кегль и эмблема здесь чуть меньше, чем в трансферах:
+       панель вдвое уже. */
     .pf-home-panel--rumors .pf-club-name-inline {
-      display: none;
+      font-size: 12.5px;
+    }
+
+    .pf-home-panel--rumors .pf-club-logo {
+      width: 24px;
+      height: 24px;
+    }
+
+    .pf-home-panel--rumors .pf-club-cell {
+      gap: 7px;
     }
 
     .pf-home-panel--rumors .pf-home-transfers-table tbody td.is-player {
-      width: 46%;
+      width: 31%;
     }
 
     .pf-home-panel--rumors .pf-home-transfers-table tbody td.is-club {
