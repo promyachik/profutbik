@@ -77,7 +77,7 @@
   "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
   "_autopilot": {
     "entity_id": "cho__ogc-nice__hull-city",
-    "built_at": "2026-09-06T18:37:50.452121+00:00",
+    "built_at": "2026-09-06T20:48:02.012006+00:00",
     "api_id_resolution": {
       "from": "bridge",
       "to": "bridge"

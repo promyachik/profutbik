@@ -217,7 +217,7 @@
     "41": {
       "id": 41,
       "name": "Southampton",
-      "configured_name": "Southampton",
+      "configured_name": "Southampton FC",
       "code": "SOU",
       "country": "England",
       "league_id": 39,
@@ -225,7 +225,7 @@
       "season": 2024,
       "founded": 1885,
       "national": false,
-      "logo": "images/clubs/api/rendered/41-48793bd6be9f.png",
+      "logo": "images/clubs/api/rendered/41-28fa5f8b1bc0.png",
       "api_logo": "https://media.api-sports.io/football/teams/41.png",
       "venue": {
         "id": 585,
@@ -981,7 +981,7 @@
     "160": {
       "id": 160,
       "name": "SC Freiburg",
-      "configured_name": "Freiburg",
+      "configured_name": "SC Freiburg",
       "code": "FRE",
       "country": "Germany",
       "league_id": 78,
@@ -989,7 +989,7 @@
       "season": 2024,
       "founded": 1904,
       "national": false,
-      "logo": "images/clubs/api/rendered/160-54f643a63e51.png",
+      "logo": "images/clubs/api/rendered/160-fbd03ce298b1.png",
       "api_logo": "https://media.api-sports.io/football/teams/160.png",
       "venue": {
         "id": 12717,
@@ -1173,7 +1173,7 @@
       "season": 2024,
       "founded": 1899,
       "national": false,
-      "logo": "images/clubs/api/rendered/169-bdd9ff4272f0.png",
+      "logo": "images/clubs/api/rendered/169-3890f4d4e1c0.png",
       "api_logo": "https://media.api-sports.io/football/teams/169.png",
       "venue": {
         "id": 10491,
@@ -2341,13 +2341,17 @@
       "season": 2024,
       "founded": 1909,
       "national": false,
-      "logo": "images/clubs/api/548.png",
+      "logo": "images/clubs/api/rendered/548-78f3268cf3c6.png",
       "api_logo": "https://media.api-sports.io/football/teams/548.png",
       "venue": {
         "id": 1491,
         "name": "Reale Arena",
         "city": "Donostia-San Sebastián",
         "capacity": 40000
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "549": {

@@ -1,4 +1,5 @@
 [
+ "autopilot_arthur-theate-bologna-fc-1909.json",
  "autopilot_axel-disasi-crystal-palace.json",
  "autopilot_benoit-badiashile-ssc-napoli.json",
  "autopilot_bernardo-silva-real-madrid.json",
@@ -19,8 +20,10 @@
  "autopilot_karim-coulibaly-rc-strasbourg-alsace.json",
  "autopilot_liam-delap-nottingham-forest.json",
  "autopilot_malick-fofana-sunderland-afc.json",
+ "autopilot_mamadou-sarr-real-sociedad.json",
  "autopilot_moise-kean-como-1907.json",
  "autopilot_nico-gonzalez-newcastle-united.json",
+ "autopilot_noah-atubolu-eintracht-frankfurt.json",
  "autopilot_omar-marmoush-tottenham-hotspur.json",
  "autopilot_omari-hutchinson-ac-milan.json",
  "autopilot_pape-matar-sarr-juventus-fc.json",
@@ -29,5 +32,6 @@
  "autopilot_robert-sanchez-como-1907.json",
  "autopilot_samuele-ricci-como-1907.json",
  "autopilot_savio-tottenham-hotspur.json",
+ "autopilot_taylor-harwood-bellis-aston-villa.json",
  "autopilot_youssouf-fofana-sevilla-fc.json"
 ]

@@ -7,8 +7,8 @@
   "from_club": "West Ham United",
   "to_club": "Brentford FC",
   "fee_raw": "",
-  "verdict": "NEW_CANDIDATE",
-  "pipeline_state": "ENRICHED",
+  "verdict": "DUPLICATE_EXISTING",
+  "pipeline_state": "SKIPPED_DUPLICATE",
   "backfill": true,
   "source": {
     "publisher": "Transfermarkt",
@@ -18,7 +18,7 @@
     "published_iso": "2026-08-28T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.550637+00:00",
-  "enriched_at": "2026-09-06T18:37:01.893856+00:00",
+  "enriched_at": "2026-09-06T20:47:16.305836+00:00",
   "tm_to_club_id": "1148",
   "tm_player_id": "1111589",
   "birth_date": "2004-12-29",
@@ -75,7 +75,7 @@
     "stadium": "Vantage London, Great West Road",
     "city": "London"
   },
-  "verdict_reason": "",
+  "verdict_reason": "TM ID 1111589 уже на сайте: el-hadji-malick-diouf-brentford-fc",
   "block_reason": "",
   "block_detail": ""
 }

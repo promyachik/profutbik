@@ -7,8 +7,8 @@
   "from_club": "SV Werder Bremen",
   "to_club": "RC Strasbourg Alsace",
   "fee_raw": "",
-  "verdict": "NEW_CANDIDATE",
-  "pipeline_state": "ENRICHED",
+  "verdict": "DUPLICATE_EXISTING",
+  "pipeline_state": "SKIPPED_DUPLICATE",
   "backfill": true,
   "source": {
     "publisher": "Transfermarkt",
@@ -18,7 +18,7 @@
     "published_iso": "2026-08-21T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.552344+00:00",
-  "enriched_at": "2026-09-06T18:36:50.111550+00:00",
+  "enriched_at": "2026-09-06T20:47:05.805283+00:00",
   "tm_to_club_id": "667",
   "tm_player_id": "1084638",
   "birth_date": "2007-05-23",
@@ -78,7 +78,7 @@
     "stadium": "12 rue de l’Extenwoerth",
     "city": "Strasbourg"
   },
-  "verdict_reason": "",
+  "verdict_reason": "TM ID 1084638 уже на сайте: karim-coulibaly-rc-strasbourg-alsace",
   "block_reason": "",
   "block_detail": ""
 }

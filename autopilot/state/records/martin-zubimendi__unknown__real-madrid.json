@@ -17,8 +17,8 @@
     "published": "Mon, 17 Aug 2026 09:12:54 GMT",
     "published_iso": "2026-08-17T09:12:54+00:00"
   },
-  "discovered_at": "2026-09-06T18:36:20.726370+00:00",
-  "enriched_at": "2026-09-06T18:37:28.606341+00:00",
+  "discovered_at": "2026-09-06T20:46:37.474938+00:00",
+  "enriched_at": "2026-09-06T20:47:42.458809+00:00",
   "tm_to_club_id": "418",
   "found_in": "local_index",
   "tm_from_club_id": "11",
@@ -81,5 +81,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "martin-zubimendi-real-madrid",
-  "rumor_published_at": "2026-09-06T18:39:29.401728+00:00"
+  "rumor_published_at": "2026-09-06T20:49:43.328576+00:00"
 }
