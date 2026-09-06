@@ -1,21 +1,81 @@
 {
- "schema_version": 2,
- "kind": "official",
- "entity_id": "karpukas__lokomotiv-moscow__zenit-st-petersburg",
- "player": "Karpukas",
- "player_full_name": "Artem Karpukas",
- "from_club": "Lokomotiv Moscow",
- "to_club": "Zenit St. Petersburg",
- "fee_raw": "",
- "verdict": "NEW_CANDIDATE",
- "pipeline_state": "DISCOVERED",
- "backfill": true,
- "source": {
-  "publisher": "Transfermarkt",
-  "tier": "reference",
-  "url": "https://www.transfermarkt.com/-/profil/spieler/691920",
-  "title": "Artem Karpukas: переход в Zenit St. Petersburg",
-  "published_iso": "2026-08-21T12:00:00+00:00"
- },
- "discovered_at": "2026-09-06T17:26:39.114112+00:00"
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "karpukas__lokomotiv-moscow__zenit-st-petersburg",
+  "player": "Karpukas",
+  "player_full_name": "Artem Karpukas",
+  "from_club": "Lokomotiv Moscow",
+  "to_club": "Zenit St. Petersburg",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "pipeline_state": "ENRICHED",
+  "backfill": true,
+  "source": {
+    "publisher": "Transfermarkt",
+    "tier": "reference",
+    "url": "https://www.transfermarkt.com/-/profil/spieler/691920",
+    "title": "Artem Karpukas: переход в Zenit St. Petersburg",
+    "published_iso": "2026-08-21T12:00:00+00:00"
+  },
+  "discovered_at": "2026-09-06T17:26:39.114112+00:00",
+  "enriched_at": "2026-09-06T18:37:24.491118+00:00",
+  "tm_to_club_id": "964",
+  "tm_player_id": "691920",
+  "birth_date": "2002-06-13",
+  "age": 24,
+  "position": "Defensive Midfield",
+  "position_short": "DM",
+  "preferred_foot": "right",
+  "height": 1.84,
+  "contract_until": "2031-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/691920-1721715789.png",
+  "market_value_points": [
+    {
+      "date": "2025-12-16",
+      "value_eur_m": 6.0
+    },
+    {
+      "date": "2026-05-26",
+      "value_eur_m": 7.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 141,
+    "secondNationalityId": 0
+  },
+  "birth_place": "Biysk, Altai Region",
+  "former_clubs_note": "",
+  "shirt_number": 93,
+  "is_captain": false,
+  "transfer_date": "2026-08-21",
+  "national_team_debut": "2024-06-07",
+  "squad_analysis": {
+    "same_position_count": 1,
+    "same_position_names": [
+      "Wilmar Barrios"
+    ],
+    "value_rank": 10,
+    "squad_total": 24,
+    "younger_than": 14
+  },
+  "to_club_official_name": "Zenit St. Petersburg",
+  "to_club_context": {
+    "squad_size": 24,
+    "average_age": "26.3",
+    "squad_value": {
+      "prefix": "€",
+      "content": "176.60",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "7.36",
+      "suffix": "M"
+    },
+    "stadium": "Prospekt Dobrolyubova, 16, building 2A",
+    "city": "Sankt Petersburg"
+  },
+  "verdict_reason": "",
+  "block_reason": "",
+  "block_detail": ""
 }

@@ -453,7 +453,7 @@
     "55": {
       "id": 55,
       "name": "Brentford",
-      "configured_name": "Brentford",
+      "configured_name": "Brentford FC",
       "code": "BRE",
       "country": "England",
       "league_id": 39,
@@ -461,7 +461,7 @@
       "season": 2024,
       "founded": 1889,
       "national": false,
-      "logo": "images/clubs/api/rendered/55-69278a7461b2.png",
+      "logo": "images/clubs/api/rendered/55-1e74d7350dc6.png",
       "api_logo": "https://media.api-sports.io/football/teams/55.png",
       "venue": {
         "id": 10503,
@@ -793,7 +793,7 @@
     "95": {
       "id": 95,
       "name": "Strasbourg",
-      "configured_name": "Strasbourg",
+      "configured_name": "RC Strasbourg Alsace",
       "code": "STR",
       "country": "France",
       "league_id": 61,
@@ -801,7 +801,7 @@
       "season": 2024,
       "founded": 1906,
       "national": false,
-      "logo": "images/clubs/api/rendered/95-94fa45143780.png",
+      "logo": "images/clubs/api/rendered/95-1c1712e0defa.png",
       "api_logo": "https://media.api-sports.io/football/teams/95.png",
       "venue": {
         "id": 681,
@@ -1025,7 +1025,7 @@
     "162": {
       "id": 162,
       "name": "Werder Bremen",
-      "configured_name": "Werder Bremen",
+      "configured_name": "SV Werder Bremen",
       "code": "WER",
       "country": "Germany",
       "league_id": 78,
@@ -1033,7 +1033,7 @@
       "season": 2024,
       "founded": 1899,
       "national": false,
-      "logo": "images/clubs/api/rendered/162-076ca6ba9cbf.png",
+      "logo": "images/clubs/api/rendered/162-206cdafebf73.png",
       "api_logo": "https://media.api-sports.io/football/teams/162.png",
       "venue": {
         "id": 22796,
@@ -1837,7 +1837,7 @@
     "500": {
       "id": 500,
       "name": "Bologna",
-      "configured_name": "Bologna",
+      "configured_name": "Bologna FC 1909",
       "code": "BOL",
       "country": "Italy",
       "league_id": 135,
@@ -1845,13 +1845,17 @@
       "season": 2024,
       "founded": 1909,
       "national": false,
-      "logo": "images/clubs/api/500.png",
+      "logo": "images/clubs/api/rendered/500-0f5e2d2fd511.png",
       "api_logo": "https://media.api-sports.io/football/teams/500.png",
       "venue": {
         "id": 881,
         "name": "Stadio Renato Dall'Ara",
         "city": "Bologna",
         "capacity": 39279
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "502": {
@@ -2137,7 +2141,7 @@
     "536": {
       "id": 536,
       "name": "Sevilla",
-      "configured_name": "Sevilla",
+      "configured_name": "Sevilla FC",
       "code": "SEV",
       "country": "Spain",
       "league_id": 140,
@@ -2145,13 +2149,17 @@
       "season": 2024,
       "founded": 1890,
       "national": false,
-      "logo": "images/clubs/api/536.png",
+      "logo": "images/clubs/api/rendered/536-b7b86f0496cd.png",
       "api_logo": "https://media.api-sports.io/football/teams/536.png",
       "venue": {
         "id": 1494,
         "name": "Estadio Ramón Sánchez Pizjuán",
         "city": "Sevilla",
         "capacity": 48649
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "537": {
