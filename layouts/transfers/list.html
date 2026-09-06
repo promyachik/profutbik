@@ -28,6 +28,14 @@ html body button[data-filter="loan"]:focus-visible {
 {{/* Справочник клубов: id -> {league_id, name, ...}. Через index, потому что
      в имени файла дефис и точечная запись site.Data.club-logos не разбирается. */}}
 {{ $clubDirectory := default dict (index (index site.Data "club-logos") "clubs") }}
+{{/* PF517C: составы восьми лиг на текущий сезон, id клуба -> id лиги. Файл
+     собирает parser/bin/refresh_club_leagues.py по открытому API
+     Transfermarkt: у API-Football бесплатный план отдаёт составы только по
+     2024 год, из-за чего справочник выше и застрял на позапрошлом сезоне и не
+     знал ни «Сандерленда», ни «Кочелиспора». Здесь он главнее; клуба нет в
+     нём — берётся прежнее league_id, то есть промах сопоставления оставляет
+     клубу старую лигу, а не отнимает всякую. */}}
+{{ $clubLeagues := default dict site.Data.club_leagues.clubs }}
 {{ $items := slice }}
 {{ with $data.transfers }}{{ $items = . }}{{ end }}
 {{ if eq (len $items) 0 }}{{ with $data.items }}{{ $items = . }}{{ end }}{{ end }}
@@ -84,11 +92,16 @@ html body button[data-filter="loan"]:focus-visible {
              членству в списке. */}}
         {{ $leagueIds := slice }}
         {{ range (slice $item.from_club_id $item.to_club_id) }}
-          {{ with (index $clubDirectory (printf "%v" .)) }}
-            {{ with .league_id }}
-              {{ $id := printf "%v" . }}
-              {{ if not (in $leagueIds $id) }}{{ $leagueIds = $leagueIds | append $id }}{{ end }}
+          {{ $clubKey := printf "%v" . }}
+          {{ $id := "" }}
+          {{ with (index $clubLeagues $clubKey) }}{{ $id = printf "%v" . }}{{ end }}
+          {{ if eq $id "" }}
+            {{ with (index $clubDirectory $clubKey) }}
+              {{ with .league_id }}{{ $id = printf "%v" . }}{{ end }}
             {{ end }}
+          {{ end }}
+          {{ if and (ne $id "") (not (in $leagueIds $id)) }}
+            {{ $leagueIds = $leagueIds | append $id }}
           {{ end }}
         {{ end }}
         {{ $league := delimit $leagueIds " " }}
