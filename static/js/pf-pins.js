@@ -79,31 +79,44 @@
     (typeof element.className === "string" ? element.className : "")
       .trim().split(/\s+/).filter(Boolean);
 
-  /* Точный путь — чтобы точка нашлась на своём месте после перезагрузки.
-     Читать его человеку не обязательно, этим занят `where` ниже. */
+  const stepFor = (element) => {
+    if (element.id) return "#" + CSS.escape(element.id);
+    let part = element.tagName.toLowerCase();
+    const cls = classesOf(element).slice(0, 3);
+    if (cls.length) part += "." + cls.map((c) => CSS.escape(c)).join(".");
+    const siblings = element.parentElement
+      ? [...element.parentElement.children].filter((n) => n.tagName === element.tagName)
+      : [];
+    if (siblings.length > 1) {
+      part += ":nth-of-type(" + (siblings.indexOf(element) + 1) + ")";
+    }
+    return part;
+  };
+
+  /* Точный путь — чтобы точка после перезагрузки села на своё место.
+     Растём вверх, пока путь не станет единственным на странице, и на этом
+     останавливаемся. Обрезать по числу уровней нельзя: путь
+     `tr:nth-of-type(1) > td.is-from > a > img.pf-club-logo` описывает первую
+     строку и в трансферах, и в слухах, querySelector берёт первую — и точка,
+     поставленная в слухах, всплывала слева, в трансферах. Уникальным он
+     становится, когда доходит до `.pf-home-panel--rumors`. */
   const selectorFor = (element) => {
     if (!element || element === document.body) return "body";
 
     const parts = [];
     let current = element;
-    for (let depth = 0; current && current !== document.body && depth < 5; depth += 1) {
-      if (current.id) {
-        parts.unshift("#" + CSS.escape(current.id));
-        break;
+    while (current && current !== document.body) {
+      parts.unshift(stepFor(current));
+      const path = parts.join(" > ");
+      try {
+        if (document.querySelectorAll(path).length === 1) return path;
+      } catch (error) {
+        return path;
       }
-      let part = current.tagName.toLowerCase();
-      const cls = classesOf(current).slice(0, 3);
-      if (cls.length) part += "." + cls.map((c) => CSS.escape(c)).join(".");
-      const siblings = current.parentElement
-        ? [...current.parentElement.children].filter((n) => n.tagName === current.tagName)
-        : [];
-      if (siblings.length > 1) {
-        part += ":nth-of-type(" + (siblings.indexOf(current) + 1) + ")";
-      }
-      parts.unshift(part);
+      if (current.id) return path;
       current = current.parentElement;
     }
-    return parts.join(" > ");
+    return "body > " + parts.join(" > ");
   };
 
   /* PF519C: а вот это — главное, ради чего всё затевалось. Путь из ближайших
