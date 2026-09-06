@@ -31,6 +31,11 @@ from paths import PARSER_ROOT, SITE, ensure_dirs  # noqa: E402
 from transfer_discovery import slugify  # noqa: E402
 from transfer_enrichment import api, squad_players, site_tm_ids  # noqa: E402
 
+# Консоль на машине Дмитрия работает в cp1251 и падает на «Mickaël Nadé» —
+# прогон обрывался на середине списка из-за одной буквы в имени.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 SCAN_FILE = PARSER_ROOT / "state" / "backfill_scan.json"
 RECORDS_DIR = PARSER_ROOT / "state" / "records"
 
@@ -116,14 +121,43 @@ def previous_club(tm_player_id: str, current_club_id: str) -> str:
     return ""
 
 
+# PF528A — ПОРОГ РАЗНЫЙ ДЛЯ РАЗНЫХ ЛИГ
+#
+# Решение Дмитрия: «в РПЛ нет дорогих трансферов, там они просто есть, можно
+# от 2 миллионов». Общий порог в 15 млн отсекал русскую колонку начисто —
+# самый дорогой переход окна, Карпукас в «Зенит» за 7 млн, до него не дотягивал
+# вдвое, и на сайте не было ни одного российского трансфера.
+#
+# Опускать порог до двух для всех нельзя: из восьми лиг посыпались бы сотни
+# проходных сделок, и сайт превратился бы в свалку — ровно то, чего мы
+# избегаем штучной публикацией. Поэтому порог свой для России.
+#
+# Метка лиги берётся из страницы клуба (`league:` во front matter), обход её
+# уже записывает — угадывать ничего не нужно.
+LEAGUE_MIN_VALUE_M = {"РПЛ": 2.0}
+
+
+def threshold_for(row: dict, default_m: float) -> float:
+    return LEAGUE_MIN_VALUE_M.get(row.get("league") or "", default_m)
+
+
 def seed(min_value_m: float) -> int:
     """Из результатов обхода делает записи в том же виде, что даёт разведка."""
     if not SCAN_FILE.exists():
         print("  сначала нужен --scan")
         return 0
     rows = json.loads(SCAN_FILE.read_text(encoding="utf-8"))
-    todo = [r for r in rows if not r["on_site"] and r["value_eur"] >= min_value_m * 1e6]
-    print("  подходит под порог €%g млн: %d" % (min_value_m, len(todo)))
+    todo = [r for r in rows
+            if not r["on_site"]
+            and r["value_eur"] >= threshold_for(r, min_value_m) * 1e6]
+    print("  подходит под порог €%g млн (для РПЛ €%g): %d"
+          % (min_value_m, LEAGUE_MIN_VALUE_M["РПЛ"], len(todo)))
+    by_league: dict[str, int] = {}
+    for row in todo:
+        key = row.get("league") or "без лиги"
+        by_league[key] = by_league.get(key, 0) + 1
+    for key, count in sorted(by_league.items(), key=lambda x: -x[1]):
+        print("     %-16s %d" % (key, count))
 
     with ThreadPoolExecutor(max_workers=6) as pool:
         prev = list(pool.map(

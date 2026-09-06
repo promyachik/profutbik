@@ -188,6 +188,58 @@ def club_asset(api_id: int, fallback_name: str) -> tuple[str, str]:
     return logo, code
 
 
+def full_history_points(job: dict) -> list[dict] | None:
+    """PF527A — настоящий путь игрока вместо двух клубов.
+
+    Раньше точки графика собирались так: все, кроме последней, приписывались
+    клубу «откуда», последняя — клубу «куда». То есть путь у любого игрока
+    состоял ровно из двух клубов, даже если он сменил пять. Дмитрий это и
+    заметил: у Аханора на графике «Аталанта → Кристал Пэлас», а «Дженоа», где
+    он играл между ними, нет вовсе.
+
+    Причина глубже отрисовки. Обогащение брало у Transfermarkt только три
+    поля — пик, предыдущую и текущую оценку, — и в записи оказывалось две-три
+    точки. Полная история лежит по другому адресу и содержит клуб на каждой
+    дате: у того же Аханора там семь точек.
+
+    Здесь берём именно её и отдаём каждой точке её собственный клуб. Всю
+    работу делает market_value_chart — он умеет и отбирать значимые точки, и
+    доставать эмблемы клубов вне наших восьми лиг с CDN Transfermarkt.
+
+    Если сеть подвела — возвращаем None, и публикация идёт по прежнему пути.
+    График с двумя клубами хуже полного, но лучше сорванной публикации.
+    """
+    player_id = job.get("transfermarkt_player_id")
+    if not player_id:
+        return None
+    try:
+        import market_value_chart as mvc
+
+        history = mvc.market_history(str(player_id))
+        if len(history) < 2:
+            return None
+        chosen = mvc.select_points(history)
+        labels = mvc.label_points(chosen)
+        index = mvc.club_index()
+        clubs: dict[str, dict] = {}
+        points = []
+        for row, label in zip(chosen, labels):
+            value_label = mvc.money_label(row["compact"])
+            if not value_label:
+                continue
+            club_id = row["club_id"]
+            if club_id not in clubs:
+                clubs[club_id] = mvc.resolve_club(club_id, history, index)
+            points.append({"label": label, "value_label": value_label,
+                           "value": round(row["value"] / 1_000_000, 2),
+                           "club": clubs[club_id]})
+        return points if len(points) >= 2 else None
+    except Exception as error:  # noqa: BLE001
+        log("полная история не получена (%s) — график по двум клубам"
+            % str(error)[:120])
+        return None
+
+
 def inject_graph(job: dict, points: list[dict]) -> None:
     if not points:
         raise PublishError("нет точек рыночной стоимости для графика")
@@ -198,6 +250,19 @@ def inject_graph(job: dict, points: list[dict]) -> None:
 
     slug = job["slug"]
     key = "%s-step4" % slug
+
+    built = full_history_points(job)
+    if built:
+        clubs_seen = len({point["club"]["name"] for point in built})
+        log("график: точек %d, клубов в пути %d" % (len(built), clubs_seen))
+        array = [p for p in array if p.get("key") != key]
+        array.append({"key": key, "name": job["player"],
+                      "paths": ["/transfers/%s/" % slug], "points": built})
+        updated = text[:start] + json.dumps(array, ensure_ascii=False) + text[end:]
+        if renderer_fingerprint(updated) != before:
+            raise PublishError("отпечаток рендерера графика изменился")
+        CHART_JS.write_text(updated, encoding="utf-8", newline="")
+        return
     from_logo, from_code = club_asset(job["from_club_id"], job["from_club_name"])
     to_logo, to_code = club_asset(job["to_club_id"], job["to_club_name"])
     from_club = {

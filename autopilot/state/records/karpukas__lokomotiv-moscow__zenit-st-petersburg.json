@@ -1,0 +1,21 @@
+{
+ "schema_version": 2,
+ "kind": "official",
+ "entity_id": "karpukas__lokomotiv-moscow__zenit-st-petersburg",
+ "player": "Karpukas",
+ "player_full_name": "Artem Karpukas",
+ "from_club": "Lokomotiv Moscow",
+ "to_club": "Zenit St. Petersburg",
+ "fee_raw": "",
+ "verdict": "NEW_CANDIDATE",
+ "pipeline_state": "DISCOVERED",
+ "backfill": true,
+ "source": {
+  "publisher": "Transfermarkt",
+  "tier": "reference",
+  "url": "https://www.transfermarkt.com/-/profil/spieler/691920",
+  "title": "Artem Karpukas: переход в Zenit St. Petersburg",
+  "published_iso": "2026-08-21T12:00:00+00:00"
+ },
+ "discovered_at": "2026-09-06T17:26:39.114112+00:00"
+}

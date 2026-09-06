@@ -1,0 +1,21 @@
+{
+ "schema_version": 2,
+ "kind": "official",
+ "entity_id": "babkin__krylya-sovetov-samara__lokomotiv-moscow",
+ "player": "Babkin",
+ "player_full_name": "Sergey Babkin",
+ "from_club": "Krylya Sovetov Samara",
+ "to_club": "Lokomotiv Moscow",
+ "fee_raw": "",
+ "verdict": "NEW_CANDIDATE",
+ "pipeline_state": "DISCOVERED",
+ "backfill": true,
+ "source": {
+  "publisher": "Transfermarkt",
+  "tier": "reference",
+  "url": "https://www.transfermarkt.com/-/profil/spieler/622461",
+  "title": "Sergey Babkin: переход в Lokomotiv Moscow",
+  "published_iso": "2026-08-21T12:00:00+00:00"
+ },
+ "discovered_at": "2026-09-06T17:26:39.115402+00:00"
+}

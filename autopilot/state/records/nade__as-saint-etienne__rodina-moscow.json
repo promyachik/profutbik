@@ -1,0 +1,21 @@
+{
+ "schema_version": 2,
+ "kind": "official",
+ "entity_id": "nade__as-saint-etienne__rodina-moscow",
+ "player": "Nadé",
+ "player_full_name": "Mickaël Nadé",
+ "from_club": "AS Saint-Étienne",
+ "to_club": "Rodina Moscow",
+ "fee_raw": "",
+ "verdict": "NEW_CANDIDATE",
+ "pipeline_state": "DISCOVERED",
+ "backfill": true,
+ "source": {
+  "publisher": "Transfermarkt",
+  "tier": "reference",
+  "url": "https://www.transfermarkt.com/-/profil/spieler/494586",
+  "title": "Mickaël Nadé: переход в Rodina Moscow",
+  "published_iso": "2026-08-27T12:00:00+00:00"
+ },
+ "discovered_at": "2026-09-06T17:26:39.114814+00:00"
+}
