@@ -1,205 +1,11 @@
 {{ define "main" }}
-<!-- PF404F_TRANSFER_LEAGUE_QUERY_START -->
-<style id="pf404f-transfer-league-query-style">
-[data-pf-league-hidden="1"] {
-  display: none !important;
-}
-</style>
-
-<script id="pf404f-transfer-league-query-script">
-(function () {
-  "use strict";
-
-  var params = new URLSearchParams(window.location.search);
-  var leagueId = params.get("league");
-
-  var leagueTeams = {
-    "39": [
-      "Arsenal", "Aston Villa", "Bournemouth", "Brentford",
-      "Brighton", "Burnley", "Chelsea", "Crystal Palace",
-      "Everton", "Fulham", "Leeds United", "Liverpool",
-      "Manchester City", "Manchester United", "Newcastle",
-      "Nottingham Forest", "Sunderland", "Tottenham",
-      "West Ham", "Wolverhampton", "Wolves"
-    ],
-    "140": [
-      "Athletic Club", "Athletic Bilbao", "Atletico Madrid",
-      "Atlético Madrid", "Barcelona", "Celta Vigo", "Elche",
-      "Espanyol", "Getafe", "Girona", "Levante", "Mallorca",
-      "Osasuna", "Rayo Vallecano", "Real Betis", "Real Madrid",
-      "Real Oviedo", "Real Sociedad", "Sevilla", "Valencia",
-      "Villarreal"
-    ],
-    "135": [
-      "Atalanta", "Bologna", "Cagliari", "Como", "Cremonese",
-      "Fiorentina", "Genoa", "Hellas Verona", "Inter",
-      "Inter Milan", "Juventus", "Lazio", "Lecce", "AC Milan",
-      "Milan", "Napoli", "Parma", "Pisa", "Roma", "Sassuolo",
-      "Torino", "Udinese"
-    ],
-    "78": [
-      "Augsburg", "Bayer Leverkusen", "Bayern Munich",
-      "Bayern München", "Borussia Dortmund",
-      "Borussia Monchengladbach", "Borussia Mönchengladbach",
-      "Eintracht Frankfurt", "Freiburg", "Hamburg",
-      "Heidenheim", "Hoffenheim", "Koln", "Köln",
-      "Mainz", "RB Leipzig", "St. Pauli", "Stuttgart",
-      "Union Berlin", "Werder Bremen", "Wolfsburg"
-    ],
-    "61": [
-      "Auxerre", "Brest", "Lens", "Le Havre", "Lille",
-      "Lorient", "Lyon", "Marseille", "Metz", "Monaco",
-      "Nantes", "Nice", "Paris FC", "Paris Saint-Germain",
-      "PSG", "Rennes", "Strasbourg", "Toulouse"
-    ],
-    "203": [
-      "Alanyaspor", "Antalyaspor", "Başakşehir",
-      "Basaksehir", "Beşiktaş", "Besiktas", "Eyüpspor",
-      "Fenerbahçe", "Fenerbahce", "Galatasaray",
-      "Gaziantep", "Gençlerbirliği", "Goztepe", "Göztepe",
-      "Kasımpaşa", "Kasimpasa", "Kayserispor", "Kocaelispor",
-      "Konyaspor", "Rizespor", "Samsunspor", "Trabzonspor"
-    ],
-    "94": [
-      "Arouca", "AVS", "Benfica", "Boavista", "Braga",
-      "Casa Pia", "Estoril", "Estrela Amadora", "Famalicão",
-      "Famalicao", "Farense", "Gil Vicente", "Moreirense",
-      "Nacional", "Porto", "Rio Ave", "Santa Clara",
-      "Sporting CP", "Sporting Lisbon", "Vitoria Guimaraes",
-      "Vitória Guimarães"
-    ],
-    "235": [
-      "Akron", "Baltika", "CSKA Moscow", "Dynamo Makhachkala",
-      "Dynamo Moscow", "Krasnodar", "Krylia Sovetov",
-      "Lokomotiv Moscow", "Nizhny Novgorod", "Orenburg",
-      "Pari NN", "Rostov", "Rubin Kazan", "Sochi",
-      "Spartak Moscow", "Zenit"
-    ]
-  };
-
-  if (!leagueId || !leagueTeams[leagueId]) {
-    return;
-  }
-
-  function normalize(value) {
-    return String(value || "")
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .toLowerCase()
-      .replace(/\s+/g, " ")
-      .trim();
-  }
-
-  function isStoryLink(link) {
-    try {
-      var path = new URL(
-        link.href,
-        window.location.href
-      ).pathname;
-
-      return /\/transfers\/[^\/?#]+\/?$/.test(path);
-    } catch (error) {
-      return false;
-    }
-  }
-
-  function findRow(link) {
-    var node = link;
-
-    while (node && node !== document.body) {
-      if (
-        node.closest &&
-        node.closest(
-          "header, nav, footer, " +
-          ".home-player-bottom-strip, " +
-          ".bottom-transfer-strip-v3"
-        )
-      ) {
-        return null;
-      }
-
-      var className =
-        String(node.className || "").toLowerCase();
-
-      if (
-        node.hasAttribute("data-pf-league-ids") ||
-        node.hasAttribute("data-league-id") ||
-        node.hasAttribute("data-league") ||
-        (
-          className.indexOf("transfer") !== -1 &&
-          (
-            className.indexOf("row") !== -1 ||
-            className.indexOf("item") !== -1 ||
-            className.indexOf("card") !== -1
-          )
-        ) ||
-        node.tagName === "TR" ||
-        node.tagName === "LI" ||
-        node.tagName === "ARTICLE"
-      ) {
-        return node;
-      }
-
-      node = node.parentElement;
-    }
-
-    return link;
-  }
-
-  var links = Array.prototype.slice
-    .call(document.querySelectorAll("a[href]"))
-    .filter(isStoryLink);
-
-  var rows = [];
-
-  links.forEach(function (link) {
-    var row = findRow(link);
-
-    if (row && rows.indexOf(row) === -1) {
-      rows.push(row);
-    }
-  });
-
-  var teamNames =
-    leagueTeams[leagueId].map(normalize);
-
-  rows.forEach(function (row) {
-    var explicitIds = [
-      row.getAttribute("data-pf-league-ids"),
-      row.getAttribute("data-league-id"),
-      row.getAttribute("data-league")
-    ]
-      .filter(Boolean)
-      .join(",")
-      .split(/[\s,;|]+/)
-      .filter(Boolean);
-
-    var explicitMatch =
-      explicitIds.indexOf(leagueId) !== -1;
-
-    var rowText = normalize(row.textContent);
-
-    var textMatch = teamNames.some(
-      function (teamName) {
-        return rowText.indexOf(teamName) !== -1;
-      }
-    );
-
-    if (!explicitMatch && !textMatch) {
-      row.setAttribute(
-        "data-pf-league-hidden",
-        "1"
-      );
-    }
-  });
-
-  document.documentElement.setAttribute(
-    "data-pf-active-transfer-league",
-    leagueId
-  );
-})();
-</script>
-<!-- PF404F_TRANSFER_LEAGUE_QUERY_END -->
+{{/* PF517B: здесь стоял PF404F — он читал ?league= из адреса и прятал
+     строки, чей текст не совпал с его собственным перечнем названий клубов.
+     Перечень был на сезон 2024 и вручную; «Sunderland» в нём есть,
+     «Kocaelispor» нет, а «Milan» находился внутри «AC Milan» и внутри
+     «Milanese». Теперь лига у строки берётся из справочника клубов по id,
+     а адрес просто выставляет значение в выпадающем списке — один механизм
+     вместо двух, считавших по-разному. */}}
 
 <style id="pf403m-transfer-button-hover">
 html body a[href="/promyachik/transfers/"]:hover,
@@ -219,6 +25,9 @@ html body button[data-filter="loan"]:focus-visible {
 <link rel="stylesheet" href="{{ "css/transfers-directory.css" | relURL }}?v=pf515a">
 
 {{ $data := site.Data.homepage_transfer_rumor }}
+{{/* Справочник клубов: id -> {league_id, name, ...}. Через index, потому что
+     в имени файла дефис и точечная запись site.Data.club-logos не разбирается. */}}
+{{ $clubDirectory := default dict (index (index site.Data "club-logos") "clubs") }}
 {{ $items := slice }}
 {{ with $data.transfers }}{{ $items = . }}{{ end }}
 {{ if eq (len $items) 0 }}{{ with $data.items }}{{ $items = . }}{{ end }}{{ end }}
@@ -236,16 +45,19 @@ html body button[data-filter="loan"]:focus-visible {
         <button type="button" data-filter="completed">Состоялся</button>
         <button type="button" data-filter="loan">Аренда</button>
       </div>
+      {{/* PF517B: значения — id лиг API-Football. Ими же говорят эмблемы лиг
+           на главной (?league=39) и селектор на странице слухов, так что
+           переход с главной и выбор в списке теперь означают одно и то же. */}}
       <select data-league-filter>
         <option value="all">Все лиги</option>
-        <option value="premier-league">Premier League</option>
-        <option value="la-liga">La Liga</option>
-        <option value="serie-a">Serie A</option>
-        <option value="bundesliga">Bundesliga</option>
-        <option value="ligue-1">Ligue 1</option>
-        <option value="super-lig">Süper Lig</option>
-        <option value="primeira-liga">Primeira Liga</option>
-        <option value="rpl">РПЛ</option>
+        <option value="39">Premier League</option>
+        <option value="140">La Liga</option>
+        <option value="135">Serie A</option>
+        <option value="78">Bundesliga</option>
+        <option value="61">Ligue 1</option>
+        <option value="203">Süper Lig</option>
+        <option value="94">Primeira Liga</option>
+        <option value="235">РПЛ</option>
       </select>
     </div>
 
@@ -261,7 +73,25 @@ html body button[data-filter="loan"]:focus-visible {
         {{ $to := default "" (or $item.to_club_name_en $item.to_name_en $item.to_club_en $item.to_club_name $item.to_club $item.to_name $item.to_team) }}
         {{ $fee := default "" (or $item.fee $item.amount $item.transfer_fee) }}
         {{ $date := default "" (or $item.date $item.published_at $item.transfer_date) }}
-        {{ $league := lower (default "" (or $item.league_slug $item.league $item.to_league)) }}
+        {{/* PF517B: лига берётся из карты клубов по id, а не из полей
+             league_slug / league / to_league — их в data/homepage_transfer_rumor.json
+             нет ни у одной записи. Атрибут выходил пустым у всех 77 строк, и
+             выпадающий список прятал вообще всё, кроме «Все лиги».
+
+             Лиг у перехода две: откуда и куда. Обе идут в атрибут, иначе уход
+             из «Манчестер Сити» в «Аль-Хиляль» не попадал бы в Премьер-лигу,
+             хотя для читателя это её новость. Разделитель — пробел, поиск по
+             членству в списке. */}}
+        {{ $leagueIds := slice }}
+        {{ range (slice $item.from_club_id $item.to_club_id) }}
+          {{ with (index $clubDirectory (printf "%v" .)) }}
+            {{ with .league_id }}
+              {{ $id := printf "%v" . }}
+              {{ if not (in $leagueIds $id) }}{{ $leagueIds = $leagueIds | append $id }}{{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        {{ $league := delimit $leagueIds " " }}
         {{ $fromLogo := default "" (or $item.from_logo $item.from_club_logo) }}
         {{ $toLogo := default "" (or $item.to_logo $item.to_club_logo) }}
         {{/* PF405T_RESOLVE_EXISTING_TRANSFER_ARTICLE_START */}}
@@ -407,11 +237,16 @@ body {
   let expanded = false;
   const limit = 10;
 
+  // PF517B: у строки может быть две лиги — откуда и куда, — поэтому сравнение
+  // по членству в списке, а не на равенство целой строке.
+  const inLeague = (row, value) =>
+    (row.dataset.league || '').split(/\s+/).indexOf(value) !== -1;
+
   const render = () => {
     const leagueValue = league ? league.value : 'all';
     const matched = rows.filter(row =>
       (active === 'all' || row.dataset.type === active) &&
-      (leagueValue === 'all' || row.dataset.league === leagueValue)
+      (leagueValue === 'all' || inLeague(row, leagueValue))
     );
     rows.forEach(row => row.hidden = true);
     matched.forEach((row, index) => row.hidden = !expanded && index >= limit);
@@ -438,6 +273,15 @@ body {
     expanded = !expanded;
     render();
   });
+
+  // PF517B: приход с главной по эмблеме лиги (?league=39) должен показывать в
+  // списке ту же лигу. Раньше адрес обрабатывал отдельный скрипт PF404F,
+  // сверявший названия клубов со своим перечнем, а выпадающий список при этом
+  // оставался на «Все лиги» — два механизма считали по-разному.
+  const wanted = new URLSearchParams(window.location.search).get('league');
+  if (league && wanted && [...league.options].some(o => o.value === wanted)) {
+    league.value = wanted;
+  }
 
   render();
 })();
