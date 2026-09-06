@@ -97,7 +97,7 @@
     "34": {
       "id": 34,
       "name": "Newcastle",
-      "configured_name": "Newcastle",
+      "configured_name": "Newcastle United",
       "code": "NEW",
       "country": "England",
       "league_id": 39,
@@ -105,7 +105,7 @@
       "season": 2024,
       "founded": 1892,
       "national": false,
-      "logo": "images/clubs/api/rendered/34-2cdfd5d4d0e6.png",
+      "logo": "images/clubs/api/rendered/34-7cda9da7ec14.png",
       "api_logo": "https://media.api-sports.io/football/teams/34.png",
       "venue": {
         "id": 562,
@@ -333,7 +333,7 @@
     "48": {
       "id": 48,
       "name": "West Ham",
-      "configured_name": "West Ham",
+      "configured_name": "West Ham United",
       "code": "WES",
       "country": "England",
       "league_id": 39,
@@ -341,7 +341,7 @@
       "season": 2024,
       "founded": 1895,
       "national": false,
-      "logo": "images/clubs/api/rendered/48-5e9cf3eda820.png",
+      "logo": "images/clubs/api/rendered/48-f8fccb3a7935.png",
       "api_logo": "https://media.api-sports.io/football/teams/48.png",
       "venue": {
         "id": 598,
@@ -351,7 +351,7 @@
       },
       "logo_validation": {
         "mode": "content_hashed_local_png",
-        "engine_version": "3.3"
+        "engine_version": "3.4"
       }
     },
     "49": {
@@ -437,7 +437,7 @@
       "season": 2024,
       "founded": 1861,
       "national": false,
-      "logo": "images/clubs/api/rendered/52-3a5b60eb010b.png",
+      "logo": "images/clubs/api/rendered/52-28d340ff0fec.png",
       "api_logo": "https://media.api-sports.io/football/teams/52.png",
       "venue": {
         "id": 525,
@@ -1753,7 +1753,7 @@
     "496": {
       "id": 496,
       "name": "Juventus",
-      "configured_name": "Juventus",
+      "configured_name": "Juventus FC",
       "code": "JUV",
       "country": "Italy",
       "league_id": 135,
@@ -1761,7 +1761,7 @@
       "season": 2024,
       "founded": 1897,
       "national": false,
-      "logo": "images/clubs/api/rendered/496-ea0cc8953697.png",
+      "logo": "images/clubs/api/rendered/496-c2b524a66b15.png",
       "api_logo": "https://media.api-sports.io/football/teams/496.png",
       "venue": {
         "id": 909,

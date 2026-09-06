@@ -7,8 +7,8 @@
   "from_club": "Manchester City",
   "to_club": "Real Madrid",
   "fee_raw": "€22 млн",
-  "verdict": "NEW_CANDIDATE",
-  "pipeline_state": "ENRICHED",
+  "verdict": "DUPLICATE_EXISTING",
+  "pipeline_state": "SKIPPED_DUPLICATE",
   "adopted_from_page": "bernardo-silva-real-madrid-agreement",
   "rumor_slug_override": "bernardo-silva-real-madrid-agreement",
   "source": {
@@ -19,7 +19,7 @@
     "published_iso": "2026-07-20T20:00:00+03:00"
   },
   "discovered_at": "2026-09-05T20:01:34.605468+00:00",
-  "enriched_at": "2026-09-05T22:39:12.794100+00:00",
+  "enriched_at": "2026-09-06T00:34:24.024268+00:00",
   "tm_to_club_id": "418",
   "promoted_from_agreement_at": "2026-09-05T20:04:13.144845+00:00",
   "promotion_evidence": "числится в составе Real Madrid на Transfermarkt",
@@ -83,7 +83,7 @@
     "stadium": "Avenida de Concha Espina 1",
     "city": "Madrid"
   },
-  "verdict_reason": "",
+  "verdict_reason": "TM ID 241641 уже на сайте: bernardo-silva-real-madrid",
   "block_reason": "",
   "block_detail": ""
 }

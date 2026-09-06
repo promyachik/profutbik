@@ -77,7 +77,7 @@
   "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
   "_autopilot": {
     "entity_id": "disasi__west-ham-united__crystal-palace",
-    "built_at": "2026-09-05T22:39:16.206166+00:00",
+    "built_at": "2026-09-06T00:34:29.360582+00:00",
     "api_id_resolution": {
       "from": "bridge",
       "to": "bridge"
