@@ -593,7 +593,7 @@
     "80": {
       "id": 80,
       "name": "Lyon",
-      "configured_name": "Lyon",
+      "configured_name": "Olympique Lyon",
       "code": "LYO",
       "country": "France",
       "league_id": 61,
@@ -601,13 +601,17 @@
       "season": 2024,
       "founded": 1950,
       "national": false,
-      "logo": "images/clubs/api/80.png",
+      "logo": "images/clubs/api/rendered/80-f7473a489061.png",
       "api_logo": "https://media.api-sports.io/football/teams/80.png",
       "venue": {
         "id": 666,
         "name": "Groupama Stadium",
         "city": "Décines-Charpieu",
         "capacity": 61556
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "81": {
@@ -1809,7 +1813,7 @@
     "499": {
       "id": 499,
       "name": "Atalanta",
-      "configured_name": "Atalanta",
+      "configured_name": "Atalanta BC",
       "code": "ATA",
       "country": "Italy",
       "league_id": 135,
@@ -1817,13 +1821,17 @@
       "season": 2024,
       "founded": 1907,
       "national": false,
-      "logo": "images/clubs/api/499.png",
+      "logo": "images/clubs/api/rendered/499-65b996ca025b.png",
       "api_logo": "https://media.api-sports.io/football/teams/499.png",
       "venue": {
         "id": 879,
         "name": "Gewiss Stadium",
         "city": "Bergamo",
         "capacity": 21300
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "500": {
@@ -3575,8 +3583,8 @@
     "746": {
       "id": 746,
       "name": "Sunderland",
-      "configured_name": "Sunderland",
-      "logo": "images/clubs/api/rendered/746-4ebea02c3573.png",
+      "configured_name": "Sunderland AFC",
+      "logo": "images/clubs/api/rendered/746-dc4d5014919a.png",
       "api_logo": "https://media.api-sports.io/football/teams/746.png",
       "logo_validation": {
         "mode": "content_hashed_local_png",
