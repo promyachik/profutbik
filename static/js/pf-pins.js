@@ -460,12 +460,22 @@
     listBox.className = "pfp-list";
     if (!pins.length) listBox.textContent = "Пока ни одной точки.";
     pins.forEach((pin, index) => {
+      /* PF520B: собираем узлами, а не строкой. Раньше в innerHTML уходил
+         `pin.page` без обработки — а он берётся из адреса страницы. Дыра
+         невелика: чтобы ей воспользоваться, надо самому включить точки и
+         самому поставить точку на подсунутом адресе. Но пока в коде есть
+         склейка HTML из данных, отвечать «сломать ничего нельзя» приходится
+         со звёздочкой. Теперь можно без неё. */
       const item = document.createElement("div");
       item.className = "pfp-item";
-      item.innerHTML = "<b>" + (index + 1) + ".</b> "
-        + (pin.note ? pin.note.replace(/</g, "&lt;") : "<i>без комментария</i>")
-        + "<span>" + pin.page + " · "
-        + (pin.where || pin.selector).replace(/</g, "&lt;") + "</span>";
+      const num = document.createElement("b");
+      num.textContent = (index + 1) + ".";
+      const note = document.createElement("span");
+      note.textContent = " " + (pin.note || "без комментария");
+      if (!pin.note) note.style.opacity = ".6";
+      const meta = document.createElement("span");
+      meta.textContent = pin.page + " · " + (pin.where || pin.selector);
+      item.append(num, note, meta);
       item.addEventListener("click", () => {
         if (pin.page !== here()) { location.href = pin.page; return; }
         const target = document.querySelector(pin.selector);
