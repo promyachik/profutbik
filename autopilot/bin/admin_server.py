@@ -472,10 +472,48 @@ class Handler(BaseHTTPRequestHandler):
         self.end_headers()
 
 
+def refusals_since_last_start() -> list[dict]:
+    """Что отбили с прошлого запуска.
+
+    PF522A. Дмитрий спросил про письмо на почту при входе в админку. Письмо
+    потребовало бы хранить у него на машине пароль от ящика — новый настоящий
+    секрет ради инструмента, который он не открывает. Размен плохой.
+
+    Замок и так стоит: чужой запрос получает 403 и попадает в журнал. Не
+    хватало только одного — чтобы Дмитрий об этом узнал. Узнать ему это надо
+    ровно в ту секунду, когда он админку открывает; вот тогда и показываем.
+    """
+    if not ACTION_LOG.exists():
+        return []
+    refused, since_start = [], []
+    for line in ACTION_LOG.read_text(encoding="utf-8").splitlines():
+        try:
+            row = json.loads(line)
+        except Exception:  # noqa: BLE001
+            continue
+        if row.get("action") == "запуск":
+            since_start = []
+        elif row.get("action") == "отказано":
+            since_start.append(row)
+    refused.extend(since_start)
+    return refused
+
+
 def main() -> int:
     server = ThreadingHTTPServer((HOST, PORT), Handler)
+
+    refused = refusals_since_last_start()
+    log_action("-", "запуск", "админка открыта")
+
     print("\n  Админка запущена: http://%s:%d" % (HOST, PORT))
     print("  Публикация автоматическая. Здесь — только разбор исключений.")
+    if refused:
+        print("\n  !! С прошлого запуска отбито чужих запросов: %d" % len(refused))
+        for row in refused[-5:]:
+            print("     %s  %s" % (row.get("at"), str(row.get("result"))[:90]))
+        print("     Полный список: state/admin_actions.jsonl")
+    else:
+        print("  Чужих запросов с прошлого запуска не было.")
     print("  Остановить: Ctrl+C\n")
     try:
         server.serve_forever()
