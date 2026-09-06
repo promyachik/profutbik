@@ -1,13 +1,21 @@
 <!-- PF400F_GLOBAL_ROBOTO_FONT -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<!-- PF512A: было объявлено четырнадцать начертаний Roboto — семь весов и
-     столько же курсивов. Браузер тянул тридцать файлов, а сайт использует
-     четыре веса, курсив не встречается нигде. Оставлено только нужное.
+{{/* PF516B: шрифты со своего домена. Раньше тянулись с fonts.gstatic.com,
+     и пока они ехали, текст рисовался системным, а потом подменялся — это
+     мерцание Дмитрий видел при каждом обновлении. Со своего домена файлы
+     приходят вместе со страницей.
 
-     Oswald — заголовочный: фамилии игроков и названия разделов. До этого всё
-     на сайте было набрано одним Roboto, и разница между заголовком и
-     подписью сводилась к весу; иерархии это не давало. Узкое начертание
-     заодно экономит ширину там, где длинные названия упираются в край. -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800&amp;family=Oswald:wght@500;600;700&amp;display=swap">
-<link rel="stylesheet" href="{{ "css/pf-global-roboto.css" | relURL }}?v=pf512c">
+     Заодно снята зависимость от Google: у русской аудитории доступ туда
+     бывает медленным или закрытым, и сайт молча оставался бы на системном
+     шрифте.
+
+     Предзагружаем только то, что видно сразу: обычный и жирный Roboto и
+     жирный Oswald, кириллица с латиницей. Остальные начертания браузер
+     возьмёт сам, когда они понадобятся. */}}
+{{ $preload := slice
+  "fonts/roboto-400-cyrillic.woff2" "fonts/roboto-400-latin.woff2"
+  "fonts/roboto-700-cyrillic.woff2" "fonts/roboto-700-latin.woff2"
+  "fonts/oswald-700-cyrillic.woff2" "fonts/oswald-700-latin.woff2" }}
+{{ range $preload }}<link rel="preload" as="font" type="font/woff2" crossorigin href="{{ . | relURL }}">
+{{ end }}
+<link rel="stylesheet" href="{{ "css/pf-fonts.css" | relURL }}?v=pf516b">
+<link rel="stylesheet" href="{{ "css/pf-global-roboto.css" | relURL }}?v=pf516b">
