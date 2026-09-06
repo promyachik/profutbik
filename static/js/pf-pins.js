@@ -46,9 +46,12 @@
     }
   };
 
-  const save = (pins) => {
+  const save = (list) => {
     try {
-      localStorage.setItem(STORE, JSON.stringify(pins));
+      // `node` — живая ссылка на элемент, она нужна только в памяти: в JSON
+      // это циклическая структура, и сериализация упала бы.
+      localStorage.setItem(STORE, JSON.stringify(list, (key, value) =>
+        (key === "node" ? undefined : value)));
     } catch (error) {
       alert("Не удалось сохранить точку: в браузере кончилось место.");
     }
@@ -79,10 +82,22 @@
     (typeof element.className === "string" ? element.className : "")
       .trim().split(/\s+/).filter(Boolean);
 
+  /* Классы-состояния в путь не годятся: `is-measuring` живёт полсекунды,
+     пока скрипт разворачивания меряет высоту таблицы, а `is-active` меняется
+     от щелчка по фильтру. Путь с таким классом наутро уже ни к чему не
+     ведёт. Структурные `is-player`, `is-club`, `is-status` оставляем — они
+     от состояния не зависят. */
+  const TRANSIENT = new Set([
+    "is-measuring", "is-active", "is-open", "is-expanded", "is-collapsed",
+    "is-hidden", "is-visible", "is-lost", "is-current", "is-selected",
+  ]);
+
   const stepFor = (element) => {
     if (element.id) return "#" + CSS.escape(element.id);
     let part = element.tagName.toLowerCase();
-    const cls = classesOf(element).slice(0, 3);
+    const cls = classesOf(element)
+      .filter((c) => !TRANSIENT.has(c) && !/^pfp-/.test(c))
+      .slice(0, 3);
     if (cls.length) part += "." + cls.map((c) => CSS.escape(c)).join(".");
     const siblings = element.parentElement
       ? [...element.parentElement.children].filter((n) => n.tagName === element.tagName)
@@ -242,13 +257,23 @@
     const mine = pins.filter((p) => p.page === here());
 
     mine.forEach((pin) => {
-      const target = (() => {
+      let target = (() => {
         try {
           return document.querySelector(pin.selector);
         } catch (error) {
           return null;
         }
       })();
+
+      // Самолечение: пока живая ссылка на элемент при нас, а путь к нему
+      // перестал вести — перевязываем. Так точка переживает правку вёрстки,
+      // случившуюся у неё на глазах, а не только перезагрузку.
+      if (!target && pin.node && pin.node.isConnected) {
+        target = pin.node;
+        pin.selector = selectorFor(target);
+        save(pins);
+      }
+      if (target) pin.node = target;
 
       const dot = document.createElement("div");
       dot.className = "pfp-dot" + (target ? "" : " is-lost");
