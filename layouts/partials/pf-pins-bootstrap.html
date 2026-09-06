@@ -1,0 +1,27 @@
+{{/* PF519A: включатель точек замечаний.
+
+     Сам оверлей весит около десяти килобайт и посетителям не нужен ни на
+     байт, поэтому здесь только триста символов: слушаем Ctrl+Alt+P и адрес
+     с ?pins=1, и лишь тогда подтягиваем скрипт. Один раз включив, Дмитрий
+     получает точки на всех страницах — флаг лежит в localStorage. */}}
+<script>
+(function(){
+  var KEY="pf-pins-on";
+  function load(){
+    if(window.__pfPins){window.__pfPins.toggle();return;}
+    var s=document.createElement("script");
+    s.src="{{ "js/pf-pins.js" | relURL }}?v=pf519a";
+    document.body.appendChild(s);
+  }
+  if(/[?&]pins=1/.test(location.search)){try{localStorage.setItem(KEY,"1");}catch(e){}}
+  if(/[?&]pins=0/.test(location.search)){try{localStorage.removeItem(KEY);}catch(e){}}
+  try{if(localStorage.getItem(KEY))load();}catch(e){}
+  document.addEventListener("keydown",function(e){
+    if(e.ctrlKey&&e.altKey&&(e.code==="KeyP")){
+      e.preventDefault();
+      try{localStorage.setItem(KEY,"1");}catch(err){}
+      load();
+    }
+  });
+})();
+</script>
