@@ -510,6 +510,18 @@
     paint();
   });
   button("Спрятать панель", () => toggle());
+  /* PF519H: явный выход. Сочетание клавиш свободно в браузере, и попасть по
+     нему случайно может кто угодно; человеку, который не понял, что это
+     такое, нужна очевидная дверь наружу, а не догадка про ?pins=0. */
+  button("Выключить точки", () => {
+    try {
+      localStorage.removeItem("pf-pins-on");
+    } catch (error) { /* приватный режим — флага и так нет */ }
+    delete window.__pfPins;
+    root.remove();
+    document.removeEventListener("click", place, true);
+    document.documentElement.classList.remove("pfp-placing");
+  });
   root.appendChild(bar);
 
   /* ------------------------------------------------------------- пересчёт мест */
