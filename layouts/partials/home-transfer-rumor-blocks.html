@@ -275,9 +275,17 @@
        На Windows выйдет Segoe UI, на маке San Francisco, на андроиде Roboto.
        Списки будут выглядеть по-разному на разных устройствах — если это
        смутит, вернём один веб-шрифт одной строкой. */
+    /* PF530B: шрифт клубов вынесен в переменную. Был прибит стопкой прямо
+       здесь, и примерочная его не брала — единственное место на сайте,
+       которое нельзя было переодеть. А это как раз латиница, то есть то,
+       что Дмитрий и хотел посмотреть. Значение по умолчанию прежнее. */
+    :root {
+      --pf-club-font-family: "Segoe UI", -apple-system, BlinkMacSystemFont,
+                             "Helvetica Neue", Arial, sans-serif;
+    }
+
     .pf-club-name-inline {
-      --pf-font-here: "Segoe UI", -apple-system, BlinkMacSystemFont,
-                      "Helvetica Neue", Arial, sans-serif;
+      --pf-font-here: var(--pf-club-font-family);
       flex: 0 1 auto;
       min-width: 0;
       overflow: hidden;

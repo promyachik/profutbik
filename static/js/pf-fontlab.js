@@ -62,23 +62,54 @@
   const state = (() => {
     try {
       return JSON.parse(localStorage.getItem(STORE) || "null")
-        || { text: "", display: "" };
+        || { text: "", display: "", club: "" };
     } catch (error) {
-      return { text: "", display: "" };
+      return { text: "", display: "", club: "" };
     }
   })();
 
   let target = "text";   // что сейчас подбираем: текст или заголовки
 
+  /* Кто есть кто на сайте. Роли перечислены явно, потому что подмены одних
+     переменных не хватает: за годы в CSS накопились правила со своими
+     стопками — Impact, Arial Narrow, Trebuchet MS, часть с !important. Их
+     примерочная обязана перебить, иначе половина страницы не переоденется и
+     будет казаться, что выбор не работает.
+
+     !important здесь уместен: это инструмент на вечер, а не вёрстка. Когда
+     шрифт выберем, править будем сами правила, а не давить их силой. */
+  const DISPLAY = [
+    ".pf-home-transfers-table tbody td.is-player a", ".pf405a-player",
+    ".transfer-stage__player", ".pf-transfer-player strong",
+    ".pf-home-panel__title", ".pf405a-head-title",
+    "h1", "h2", "h3",
+  ].join(",");
+
+  const CLUB = [
+    ".pf-club-name-inline", ".pf-transfer-club strong",
+    ".transfer-stage__club-name", ".pf405a-league__name",
+  ].join(",");
+
   const apply = () => {
-    const lines = [];
+    const vars = [];
+    const rules = [];
     if (state.text) {
-      lines.push(`--pf-global-font-family:"${state.text}",sans-serif`);
+      vars.push(`--pf-global-font-family:"${state.text}",sans-serif`);
+      rules.push(`body,body *{font-family:"${state.text}",sans-serif !important}`);
     }
     if (state.display) {
-      lines.push(`--pf-display-font-family:"${state.display}",sans-serif`);
+      vars.push(`--pf-display-font-family:"${state.display}",sans-serif`);
+      rules.push(`${DISPLAY}{font-family:"${state.display}",sans-serif !important}`);
     }
-    override.textContent = lines.length ? `:root{${lines.join(";")}}` : "";
+    if (state.club) {
+      vars.push(`--pf-club-font-family:"${state.club}",sans-serif`);
+      rules.push(`${CLUB}{font-family:"${state.club}",sans-serif !important}`);
+    }
+    // Саму панель под подмену не пускаем: иначе список перестанет показывать
+    // каждый шрифт им самим, а ради этого он и нужен.
+    rules.push('#pf-fontlab,#pf-fontlab *{font-family:"Segoe UI",Arial,sans-serif !important}');
+    override.textContent =
+      (vars.length ? `:root{${vars.join(";")}}` : "") + rules.join("");
     try {
       localStorage.setItem(STORE, JSON.stringify(state));
     } catch (error) { /* приватный режим — просто не запомним */ }
@@ -137,6 +168,7 @@
   <div class="pfl-tabs">
     <button type="button" data-target="text" class="on">Текст</button>
     <button type="button" data-target="display">Заголовки</button>
+    <button type="button" data-target="club">Клубы</button>
   </div>
   <div class="pfl-now">Сейчас: <b data-pfl-now>как на сайте</b></div>
   <div class="pfl-list"></div>
@@ -153,7 +185,7 @@
     button.type = "button";
     button.dataset.name = name;
     button.dataset.kind = kind;
-    button.style.fontFamily = `'${name}',sans-serif`;
+    button.style.setProperty('font-family', `'${name}',sans-serif`, 'important');
     button.innerHTML = `${name}<small></small>`;
     button.addEventListener("click", () => {
       state[target] = name;
@@ -194,6 +226,7 @@
   root.querySelector(".pfl-reset").addEventListener("click", () => {
     state.text = "";
     state.display = "";
+    state.club = "";
     apply();
   });
 
