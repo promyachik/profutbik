@@ -77,7 +77,7 @@
   "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
   "_autopilot": {
     "entity_id": "diouf__west-ham-united__brentford-fc",
-    "built_at": "2026-09-06T05:30:01.150386+00:00",
+    "built_at": "2026-09-06T12:51:37.989858+00:00",
     "api_id_resolution": {
       "from": "bridge",
       "to": "bridge"

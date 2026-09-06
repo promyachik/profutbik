@@ -77,7 +77,7 @@
   "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
   "_autopilot": {
     "entity_id": "ricci__ac-milan__como-1907",
-    "built_at": "2026-09-06T05:30:01.160215+00:00",
+    "built_at": "2026-09-06T12:51:38.004221+00:00",
     "api_id_resolution": {
       "from": "bridge",
       "to": "bridge"

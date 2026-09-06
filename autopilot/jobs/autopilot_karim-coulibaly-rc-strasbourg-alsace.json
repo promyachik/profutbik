@@ -77,7 +77,7 @@
   "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
   "_autopilot": {
     "entity_id": "coulibaly__sv-werder-bremen__rc-strasbourg-alsace",
-    "built_at": "2026-09-06T05:30:01.149306+00:00",
+    "built_at": "2026-09-06T12:51:37.988995+00:00",
     "api_id_resolution": {
       "from": "bridge",
       "to": "bridge"

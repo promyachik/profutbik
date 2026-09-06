@@ -17,8 +17,8 @@
     "published": "Tue, 18 Aug 2026 21:02:44 GMT",
     "published_iso": "2026-08-18T21:02:44+00:00"
   },
-  "discovered_at": "2026-09-06T05:28:00.637369+00:00",
-  "enriched_at": "2026-09-06T05:29:28.204025+00:00",
+  "discovered_at": "2026-09-06T12:50:15.984957+00:00",
+  "enriched_at": "2026-09-06T12:51:15.782915+00:00",
   "tm_to_club_id": "1114",
   "found_in": "local_index",
   "tm_from_club_id": "27",
@@ -84,5 +84,6 @@
     "city": "Benghazi"
   },
   "block_reason": "",
-  "block_detail": ""
+  "block_detail": "",
+  "rumor_attempts": 1
 }

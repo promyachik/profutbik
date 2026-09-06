@@ -913,7 +913,7 @@
     "116": {
       "id": 116,
       "name": "Lens",
-      "configured_name": "Lens",
+      "configured_name": "RC Lens",
       "code": "LEN",
       "country": "France",
       "league_id": 61,
@@ -921,13 +921,17 @@
       "season": 2024,
       "founded": 1906,
       "national": false,
-      "logo": "images/clubs/api/116.png",
+      "logo": "images/clubs/api/rendered/116-c14b904b0a3b.png",
       "api_logo": "https://media.api-sports.io/football/teams/116.png",
       "venue": {
         "id": 654,
         "name": "Stade Bollaert-Delelis",
         "city": "Lens",
         "capacity": 41233
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "121": {
@@ -1661,7 +1665,7 @@
       "season": 2024,
       "founded": 1899,
       "national": false,
-      "logo": "images/clubs/api/rendered/489-dcceb506e62c.png",
+      "logo": "images/clubs/api/rendered/489-a0582d29e9a1.png",
       "api_logo": "https://media.api-sports.io/football/teams/489.png",
       "venue": {
         "id": 907,
@@ -2061,7 +2065,7 @@
     "532": {
       "id": 532,
       "name": "Valencia",
-      "configured_name": "Valencia",
+      "configured_name": "Valencia CF",
       "code": "VAL",
       "country": "Spain",
       "league_id": 140,
@@ -2069,13 +2073,17 @@
       "season": 2024,
       "founded": 1919,
       "national": false,
-      "logo": "images/clubs/api/532.png",
+      "logo": "images/clubs/api/rendered/532-8f02024c96b8.png",
       "api_logo": "https://media.api-sports.io/football/teams/532.png",
       "venue": {
         "id": 1497,
         "name": "Estadio de Mestalla",
         "city": "Valencia",
         "capacity": 55000
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "533": {
