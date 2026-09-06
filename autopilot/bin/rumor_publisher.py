@@ -741,6 +741,22 @@ def main(argv: list[str] | None = None) -> int:
                 record.get("to_club")))
             continue
 
+        # PF518A: слух, чья страница уже стоит на сайте, норму такта тратить
+        # не должен. 2026-09-06 в 05:31 такт нашёл четыре свежих слуха с BBC, а
+        # норму в две штуки истратил на перезапись «Камара» и «Рэшфорда» —
+        # их страницы уже были. Число страниц не выросло, такт отчитался
+        # «новых слухов нет», отметку времени не поставил, и свежие четыре
+        # остались ждать. Записываем адрес и идём дальше, не считая за выпуск.
+        existing = record.get("rumor_slug_override") or rumor_slug(record)
+        if (RUMORS_DIR / existing).exists():
+            print("  уже на сайте, норму не трогаем: /rumors/%s/" % existing)
+            record["pipeline_state"] = "PUBLISHED_AS_RUMOR"
+            record["rumor_slug"] = existing
+            record.setdefault("rumor_published_at", now_iso())
+            path.write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n",
+                            encoding="utf-8")
+            continue
+
         if args.limit and published >= args.limit:
             print("  норма такта исчерпана, остальные ждут следующего")
             break
@@ -756,8 +772,21 @@ def main(argv: list[str] | None = None) -> int:
             print("  ОПУБЛИКОВАН СЛУХ  %s  (%d слов)"
                   % (result["url"], result["words"]))
         else:
-            print("  НЕ ПОЛУЧИЛОСЬ  %s : %s"
-                  % (record.get("player"), result.get("error")))
+            # PF518A: неудача не бесконечная. «Аль-Хиляль» не разрешится
+            # никогда — он не в наших восьми лигах, — и такая запись иначе
+            # пробуется каждые полчаса до скончания века. Три попытки на
+            # случай разовой осечки, дальше в разбор руками.
+            attempts = int(record.get("rumor_attempts") or 0) + 1
+            record["rumor_attempts"] = attempts
+            print("  НЕ ПОЛУЧИЛОСЬ  %s : %s (попытка %d)"
+                  % (record.get("player"), result.get("error"), attempts))
+            if attempts >= 3:
+                record["pipeline_state"] = "NEEDS_REVIEW"
+                record["block_reason"] = "слух не публикуется"
+                record["block_detail"] = str(result.get("error") or "")
+                print("    три осечки подряд — уходит в NEEDS_REVIEW")
+            path.write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n",
+                            encoding="utf-8")
 
     print("\n  опубликовано слухов: %d\n" % published)
     return 0
