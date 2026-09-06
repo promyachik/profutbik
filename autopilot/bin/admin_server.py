@@ -17,6 +17,8 @@ from __future__ import annotations
 
 import html
 import json
+import re
+import secrets
 import subprocess
 import sys
 import threading
@@ -33,6 +35,30 @@ HOST = "127.0.0.1"
 PORT = 8788
 JOBS_DIR = PARSER_ROOT / "jobs"
 ACTION_LOG = PARSER_ROOT / "state" / "admin_actions.jsonl"
+
+# PF520A — ЗАЩИТА ОТ ЧУЖОЙ СТРАНИЦЫ
+#
+# Сервер слушает 127.0.0.1, то есть из интернета и даже из домашней сети до
+# него не достучаться. Но это защищает не от всего. Пока админка запущена,
+# ЛЮБОЙ сайт, открытый в том же браузере, мог отправить сюда обычную форму:
+# браузер послушно шлёт её на localhost вместе с запросом. Проверок не было
+# никаких, а действия здесь настоящие — «unpublish» снимает статью с сайта,
+# и слуг для него брать неоткуда не нужно, он и есть публичный адрес
+# страницы. То есть чужая страница могла удалять наши материалы, зная только
+# ссылку на них.
+#
+# Три замка, каждый закрывает свою щель:
+#   1. одноразовый ключ, живущий с запуска сервера. Чужая страница его не
+#      знает: чтобы прочитать, нужно уметь читать ответ с localhost, а этого
+#      кросс-доменные правила браузера не дают;
+#   2. проверка, откуда пришёл запрос. Современный браузер честно пишет в
+#      Origin и Sec-Fetch-Site, что форма чужая;
+#   3. разбор параметров. entity_id раньше уходил прямо в имя файла, а слуг —
+#      в аргумент publisher.py.
+ADMIN_KEY = secrets.token_urlsafe(24)
+SAFE_ID = re.compile(r"^[A-Za-z0-9._-]{1,120}$")
+ALLOWED_ACTIONS = {"reject", "unpublish", "retry", "republish"}
+SELF_ORIGINS = {"http://%s:%d" % (HOST, PORT), "http://localhost:%d" % PORT}
 
 # Что означает каждое состояние и что с ним делать.
 STATE_INFO = {
@@ -248,7 +274,8 @@ function act(entity, action, slug, label){
   f.method='POST'; f.action='/action';
   f.innerHTML='<input name=entity_id value="'+entity+'">'
             + '<input name=action value="'+action+'">'
-            + '<input name=slug value="'+slug+'">';
+            + '<input name=slug value="'+slug+'">'
+            + '<input name=key value="__ADMIN_KEY__">';
   document.body.appendChild(f); f.submit();
 }
 """
@@ -374,7 +401,7 @@ def render_page() -> str:
 <span class="sub">на сайте %d %s · обновлено %s</span></header>
 <main>%s</main><script>%s</script></body></html>""" % (
         STYLE, total, plural_ru(total, "трансфер", "трансфера", "трансферов"),
-        now(), "".join(body), SCRIPT)
+        now(), "".join(body), SCRIPT.replace("__ADMIN_KEY__", ADMIN_KEY))
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -399,14 +426,47 @@ class Handler(BaseHTTPRequestHandler):
         else:
             self._send(404, "not found")
 
+    def _refuse(self, why: str) -> None:
+        """Отказ пишем в журнал: если такое придёт, надо знать откуда."""
+        log_action("-", "отказано", "%s | origin=%s | referer=%s" % (
+            why, self.headers.get("Origin") or "нет",
+            self.headers.get("Referer") or "нет"))
+        self._send(403, "нет")
+
     def do_POST(self):
+        # Замок 2: чужая форма. Браузер сам сообщает, что запрос кросс-доменный.
+        origin = self.headers.get("Origin")
+        if origin and origin not in SELF_ORIGINS:
+            return self._refuse("чужой Origin")
+        if (self.headers.get("Sec-Fetch-Site") or "same-origin") != "same-origin":
+            return self._refuse("кросс-доменный запрос")
+
         length = int(self.headers.get("Content-Length") or 0)
+        if length > 8192:
+            return self._refuse("слишком большое тело")
         data = urllib.parse.parse_qs(self.rfile.read(length).decode("utf-8"))
+
+        # Замок 1: ключ этого запуска. Чужая страница его не прочитает.
+        if not secrets.compare_digest((data.get("key") or [""])[0], ADMIN_KEY):
+            return self._refuse("неверный ключ")
+
         entity_id = (data.get("entity_id") or [""])[0]
         action = (data.get("action") or [""])[0]
         slug = (data.get("slug") or [""])[0]
-        if entity_id and action:
-            start_action(entity_id, action, slug)
+
+        # Замок 3: разбор параметров. entity_id уходит в имя файла, slug — в
+        # аргумент publisher.py; ни там, ни там косой черте и точкам делать
+        # нечего.
+        if action not in ALLOWED_ACTIONS:
+            return self._refuse("неизвестное действие %r" % action)
+        if not SAFE_ID.match(entity_id) or ".." in entity_id:
+            return self._refuse("подозрительный entity_id")
+        if slug and (not SAFE_ID.match(slug) or ".." in slug):
+            return self._refuse("подозрительный slug")
+        if not (RECORDS_DIR / ("%s.json" % entity_id)).exists():
+            return self._refuse("записи нет: %s" % entity_id)
+
+        start_action(entity_id, action, slug)
         self.send_response(303)
         self.send_header("Location", "/")
         self.end_headers()
