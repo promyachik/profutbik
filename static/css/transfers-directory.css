@@ -79,9 +79,23 @@
 @media(max-width:900px){
 .pf-transfer-head{display:none}
 .pf-transfer-row__summary{grid-template-columns:1fr 34px 1fr 42px;min-height:auto;padding:16px}
-.pf-transfer-player{grid-column:1/-1;padding-bottom:10px;border-bottom:1px solid #17222d}
+/* PF524A: имя игрока по центру блока. На узком экране оно занимает всю
+   первую строку, и прижатое влево выглядит обрывком, а не заголовком
+   карточки: под ним симметричный маршрут из двух эмблем со стрелкой. */
+.pf-transfer-player{grid-column:1/-1;padding-bottom:10px;border-bottom:1px solid #17222d;justify-items:center;text-align:center}
 .pf-transfer-meta{grid-column:1/4;grid-row:3;display:flex;justify-content:flex-start;gap:10px;margin-top:8px}
 .pf-transfer-expand{grid-column:4;grid-row:3}
+/* PF524A: галочка с телефона убрана. На широком экране она стоит в своей
+   колонке и читается как отметка, а здесь съезжает под маршрут и висит
+   отдельной зелёной птицей посреди карточки — не к месту. Смысл её и так
+   дублируется: раздел называется «Трансферы», в нём всё состоявшееся.
+   «АРЕНДА» остаётся: это не отметка, а другой тип сделки. */
+.pf-transfer-done{display:none}
+/* Убрать надо не только галочку, но и строку, в которой она одна и стояла,
+   иначе от неё останется пустой отступ. `:empty` тут не годится: между
+   тегами есть переносы строк, и для CSS элемент не пуст. Проверяем по
+   содержимому: строка нужна только ради «АРЕНДЫ». */
+.pf-transfer-meta:not(:has(.pf-transfer-loan)){display:none}
 }
 @media(max-width:640px){
 
