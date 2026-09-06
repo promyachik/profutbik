@@ -117,29 +117,31 @@
     + " .pf-transfer-page, .pf-rumor-page, .player-brief, header, footer,"
     + " .home-player-bottom-strip, .bottom-transfer-strip-v3";
 
+  /* Имя элемента для чтения. Из нескольких классов берём самый говорящий:
+     модификатор с двумя дефисами, если он есть. `.pf-home-panel` есть у обоих
+     блоков главной и не различает их, а `.pf-home-panel--rumors` различает. */
+  const nameOf = (element) => {
+    if (element.id) return "#" + element.id;
+    const pf = classesOf(element).filter((c) => /^pf/i.test(c));
+    if (!pf.length) return element.tagName.toLowerCase();
+    const modifier = pf.find((c) => c.includes("--"));
+    return "." + (modifier || pf.slice(0, 2).join("."));
+  };
+
   const whereFor = (element) => {
-    const steps = [];
+    const chain = [];
     let current = element;
-    while (current && current !== document.body && steps.length < 3) {
-      const cls = classesOf(current).filter((c) => /^pf/i.test(c));
-      if (current.id) {
-        steps.unshift("#" + current.id);
-      } else if (cls.length) {
-        steps.unshift("." + cls.slice(0, 2).join("."));
+    while (current && current !== document.body && chain.length < 3) {
+      if (current.id || classesOf(current).some((c) => /^pf/i.test(c))) {
+        chain.unshift(current);
       }
       current = current.parentElement;
     }
 
     const landmark = element.closest && element.closest(LANDMARK);
-    if (landmark) {
-      const name = landmark.id
-        ? "#" + landmark.id
-        : "." + (classesOf(landmark).filter((c) => /^pf/i.test(c))[0]
-                 || landmark.tagName.toLowerCase());
-      if (steps[0] !== name) steps.unshift(name);
-    }
-    if (!steps.length) steps.push("<" + element.tagName.toLowerCase() + ">");
-    return steps.join(" › ");
+    if (landmark && chain.indexOf(landmark) === -1) chain.unshift(landmark);
+    if (!chain.length) return "<" + element.tagName.toLowerCase() + ">";
+    return chain.map(nameOf).join(" › ");
   };
 
   /* Подпись «рядом текст». У картинки своего текста нет, а у контейнера его
