@@ -27,9 +27,20 @@
     s.src="{{ "js/pf-pins.js" | relURL }}?v=pf521a";
     document.body.appendChild(s);
   }
+  /* PF530A: примерочная шрифтов. Тот же принцип — грузится только по
+     требованию, посетителям не достаётся ни байта. Alt+F или ?fonts=1. */
+  function fonts(){
+    if(window.__pfFontLab){window.__pfFontLab.toggle();return;}
+    var s=document.createElement("script");
+    s.src="{{ "js/pf-fontlab.js" | relURL }}?v=pf530a";
+    document.body.appendChild(s);
+  }
   if(/[?&]pins=1/.test(location.search))load();
+  if(/[?&]fonts=1/.test(location.search))fonts();
   document.addEventListener("keydown",function(e){
     if(e.ctrlKey&&e.altKey&&(e.code==="KeyP")){e.preventDefault();load();}
+    /* code, а не key: с зажатым Alt раскладка отдаёт посторонний символ. */
+    if(e.altKey&&!e.ctrlKey&&!e.metaKey&&e.code==="KeyF"){e.preventDefault();fonts();}
   });
 })();
 </script>
