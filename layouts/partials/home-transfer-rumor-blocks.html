@@ -893,27 +893,69 @@
       }
 
       .pf-home-transfers-table tbody td.is-center,
-      .pf-home-transfers-table tbody td.is-club,
       .pf-home-transfers-table tbody td.is-status {
         width: auto;
         flex: 0 0 auto;
         padding: 0;
       }
 
-      /* На широком экране названия клубов и дата закрывают пустоту, на
-         телефоне закрывать нечего — там строка и так плотная, а имена вроде
-         «Brighton & Hove Albion» её порвут. Эмблемы говорят то же короче. */
-      .pf-club-name-inline {
-        display: none;
+      /* PF525A: клубная ячейка на телефоне устроена так же, как карточка в
+         списке /transfers/: эмблема, под ней название. Дмитрий попросил
+         одинаково — и правильно, это одна и та же мысль «откуда и куда», а она
+         не должна выглядеть в двух местах по-разному.
+
+         Две колонки делят строку поровну и тянутся, чтобы длинное название
+         переносилось, а не обрезалось: «Paris Saint-Germain» встаёт в две
+         строки, как и в списке. */
+      .pf-home-transfers-table tbody td.is-club {
+        flex: 1 1 0;
+        min-width: 0;
+        max-width: 42%;
+        padding: 0;
+        text-align: center !important;
       }
 
-      /* PF524A: эмблемы крупнее — 34 вместо 26. Освободилось место: колонка
-         статуса на телефоне больше не рисуется, а названия клубов здесь и так
-         скрыты. Маршрут из двух гербов — единственное, что несёт смысл в этой
-         строке, ему и место. */
+      /* Порядок в разметке зеркальный: слева сначала название, потом эмблема,
+         справа наоборот. Столбиком нужен один вид — эмблема сверху, — поэтому
+         левая колонка разворачивается. */
+      .pf-home-transfers-table tbody td.is-club .pf-club-cell {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 6px;
+      }
+
+      .pf-home-transfers-table tbody td.is-from .pf-club-cell {
+        flex-direction: column-reverse;
+      }
+
+      /* Названия клубов на телефоне вернулись. Прятали их, когда маршрут стоял
+         одной строкой и «Brighton & Hove Albion» её рвал. Столбиком под
+         эмблемой рвать нечего: название переносится вниз, как в списке. */
+      .pf-home-panel--transfers .pf-club-name-inline,
+      .pf-home-panel--rumors .pf-club-name-inline {
+        display: block;
+        max-width: 100%;
+        overflow: visible;
+        white-space: normal;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 1.25;
+        text-transform: uppercase;
+        color: #c7ced5;
+      }
+
+      /* PF525A: эмблемы 46 пикселей — ровно как в списке трансферов. */
       .pf-home-transfers-table .pf-club-logo {
-        width: 34px;
-        height: 34px;
+        width: 46px;
+        height: 46px;
+      }
+
+      /* Имя игрока отделено линией от маршрута — как в карточке списка. */
+      .pf-home-transfers-table tbody td.is-player {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #17222d;
       }
 
       /* PF524A: галочка с телефона убрана совсем.
