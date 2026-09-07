@@ -6,10 +6,12 @@
  * подбирал шрифт глазами на живых страницах, а не по описаниям.
  *
  * Почему меняются переменные, а не правила. Весь шрифтовой слой сайта сведён
- * к двум значениям в pf-global-roboto.css:
+ * к четырём значениям (PF531D):
  *
  *     --pf-global-font-family    основной текст
- *     --pf-display-font-family   имена игроков и заголовки
+ *     --pf-display-font-family   заголовки разделов и h1-h3
+ *     --pf-player-font-family    фамилии игроков и сумма сделки
+ *     --pf-club-font-family      названия клубов
  *
  * Подменяя их на :root, мы попадаем во все правила разом, включая написанные
  * с !important, — спорить о специфичности не приходится. Именно ради этого
@@ -52,22 +54,24 @@
      Android нет ни Georgia, ни Segoe UI, на Windows нет San Francisco.
      Значит запасной — не имя, а короткая стопка, из которой каждая система
      берёт своё. Arial на Android подставляется системной таблицей замен
-     (fonts.xml), это его собственное поведение, а не наша надежда. */
+     (fonts.xml), это его собственное поведение, а не наша надежда.
+
+     PF531D: каждая стопка кончается родным шрифтом устройства — так решил
+     Дмитрий: нет основного, нет запасного, дальше пусть система берёт своё.
+     Раньше хвостом стояли Tahoma и DejaVu Sans, то есть очередная догадка. */
+  /* Roboto из хвоста убран намеренно: сайт раздаёт его со своего домена
+     (@font-face в pf-fonts.css), и упоминание имени заставило бы Android
+     качать наш файл вместо своего родного. Родовое sans-serif там и есть
+     Roboto, только бесплатно. */
+  const SYS_TAIL = 'system-ui,-apple-system,"Segoe UI",sans-serif';
   const SAFE = [
-    ["Системный", 'system-ui,-apple-system,"Segoe UI",Roboto,sans-serif',
-      "родной шрифт устройства"],
-    ["Arial", 'Arial,"Helvetica Neue",Helvetica,sans-serif',
-      "на Android — Roboto"],
-    ["Verdana", 'Verdana,Tahoma,"DejaVu Sans",sans-serif',
-      "шире и крупнее"],
-    ["Tahoma", 'Tahoma,Verdana,"DejaVu Sans",sans-serif',
-      "плотнее Verdana"],
-    ["Trebuchet MS", '"Trebuchet MS",Tahoma,"DejaVu Sans",sans-serif',
-      "мягче, ближе к Corbel"],
-    ["Georgia", 'Georgia,"Times New Roman",Times,serif',
-      "с засечками"],
-    ["Times New Roman", '"Times New Roman",Times,serif',
-      "классические засечки"],
+    ["Системный", SYS_TAIL, "родной шрифт устройства"],
+    ["Arial", `Arial,"Helvetica Neue",Helvetica,${SYS_TAIL}`, "на Android — Roboto"],
+    ["Verdana", `Verdana,${SYS_TAIL}`, "шире и крупнее"],
+    ["Tahoma", `Tahoma,${SYS_TAIL}`, "плотнее Verdana"],
+    ["Trebuchet MS", `"Trebuchet MS",${SYS_TAIL}`, "мягче, ближе к Corbel"],
+    ["Georgia", 'Georgia,"Times New Roman",Times,serif', "с засечками"],
+    ["Times New Roman", '"Times New Roman",Times,serif', "классические засечки"],
   ];
 
   const stackOf = (name) => {
@@ -105,8 +109,8 @@
   document.head.appendChild(override);
 
   const EMPTY = {
-    text: "", display: "", club: "",
-    textAlt: "", displayAlt: "", clubAlt: "",
+    text: "", display: "", player: "", club: "",
+    textAlt: "", displayAlt: "", playerAlt: "", clubAlt: "",
   };
 
   const state = (() => {
@@ -117,7 +121,7 @@
     const next = Object.assign({}, EMPTY, saved);
     // Запасной, выбранный до PF531C, мог оказаться веб-шрифтом. Тихо забываем:
     // иначе выбор выглядит сделанным, а посетителю грузить нечего.
-    ["textAlt", "displayAlt", "clubAlt"].forEach((key) => {
+    ["textAlt", "displayAlt", "playerAlt", "clubAlt"].forEach((key) => {
       if (next[key] && !SAFE.some(([label]) => label === next[key])) next[key] = "";
     });
     return next;
@@ -134,11 +138,23 @@
 
      !important здесь уместен: это инструмент на вечер, а не вёрстка. Когда
      шрифт выберем, править будем сами правила, а не давить их силой. */
+  /* PF531D: заголовки и фамилии разведены по разным вкладкам. Так попросил
+     Дмитрий, и так честнее: на фамилиях шрифт выбирается не только по
+     характеру, но и по ширине — «Jean-Philippe Mateta» в широком начертании
+     обрезается, а в заголовке та же ширина безразлична.
+
+     Списки повторяют настоящие правила в pf-global-roboto.css. Расходиться им
+     нельзя: примерочная, показывающая не то, что делает сайт, хуже, чем её
+     отсутствие. */
   const DISPLAY = [
-    ".pf-home-transfers-table tbody td.is-player a", ".pf405a-player",
-    ".transfer-stage__player", ".pf-transfer-player strong",
-    ".pf-home-panel__title", ".pf405a-head-title",
     "h1", "h2", "h3",
+    ".pf-home-panel__title", ".pf405a-head-title",
+  ].join(",");
+
+  const PLAYER = [
+    ".pf-home-transfers-table tbody td.is-player a",
+    ".pf-home-panel--transfers .pf-fee-value",
+    ".pf405a-player", ".transfer-stage__player", ".pf-transfer-player strong",
   ].join(",");
 
   const CLUB = [
@@ -185,6 +201,7 @@
     };
     put("text", "--pf-global-font-family", "body,body *", false);
     put("display", "--pf-display-font-family", DISPLAY, true);
+    put("player", "--pf-player-font-family", PLAYER, true);
     put("club", "--pf-club-font-family", CLUB, true);
     // Саму панель под подмену не пускаем: иначе список перестанет показывать
     // каждый шрифт им самим, а ради этого он и нужен.
@@ -216,7 +233,8 @@
   #pf-fontlab{position:fixed;inset:0;z-index:2147483000;pointer-events:none;
     font:400 14px/1.4 "Segoe UI",Arial,sans-serif}
   #pf-fontlab *{box-sizing:border-box}
-  .pfl-box{position:absolute;right:18px;top:18px;width:min(280px,90vw);
+  /* PF531D: вкладок стало четыре, 280px им уже тесно — «Заголовки» переносилось. */
+  .pfl-box{position:absolute;right:18px;top:18px;width:min(304px,92vw);
     max-height:calc(100vh - 36px);pointer-events:auto;display:flex;
     flex-direction:column;border:1px solid #2b3542;border-radius:14px;
     background:#0d1117;box-shadow:0 24px 70px rgba(0,0,0,.7)}
@@ -229,8 +247,9 @@
     border:0;background:none;color:#7d8794;font-size:17px;cursor:pointer;z-index:2}
   .pfl-close:hover{color:#e8edf3}
   .pfl-tabs{display:flex;gap:4px;padding:8px 8px 6px}
-  .pfl-tabs button{flex:1;padding:7px;border:1px solid #2b3542;border-radius:8px;
-    background:#121923;color:#8d99a8;font:inherit;font-size:12px;cursor:pointer}
+  .pfl-tabs button{flex:1;padding:7px 2px;border:1px solid #2b3542;border-radius:8px;
+    background:#121923;color:#8d99a8;font:inherit;font-size:11px;cursor:pointer;
+    white-space:nowrap}
   .pfl-tabs button.on{border-color:${GOLD};color:${GOLD};background:#1a1508}
   .pfl-slot{display:flex;gap:4px;padding:0 8px 6px}
   .pfl-slot button{flex:1;padding:5px;border:1px solid #232c38;border-radius:8px;
@@ -262,6 +281,7 @@
   <div class="pfl-tabs">
     <button type="button" data-target="text" class="on">Текст</button>
     <button type="button" data-target="display">Заголовки</button>
+    <button type="button" data-target="player">Игроки</button>
     <button type="button" data-target="club">Клубы</button>
   </div>
   <div class="pfl-slot">

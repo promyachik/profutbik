@@ -279,9 +279,13 @@
        здесь, и примерочная его не брала — единственное место на сайте,
        которое нельзя было переодеть. А это как раз латиница, то есть то,
        что Дмитрий и хотел посмотреть. Значение по умолчанию прежнее. */
+    /* PF531D: выбор Дмитрия — Trebuchet MS, дальше родной шрифт устройства.
+       Стопка написана целиком, а не через --pf-system-font-family: порядок
+       загрузки стилей тут не гарантирован, и пустая переменная обрушила бы
+       названия клубов в безымянный sans-serif. */
     :root {
-      --pf-club-font-family: "Segoe UI", -apple-system, BlinkMacSystemFont,
-                             "Helvetica Neue", Arial, sans-serif;
+      --pf-club-font-family: "Trebuchet MS", system-ui, -apple-system,
+                             "Segoe UI", sans-serif;
     }
 
     .pf-club-name-inline {
@@ -698,10 +702,15 @@
        заголовочный из переменной, и он действительно загружается.
        Слухи добавлены сюда же: фамилия — это фамилия, в каком бы блоке она
        ни стояла. */
+    /* PF531D: фамилии на главной переведены на свою переменную — именно их
+       Дмитрий хотел подбирать отдельной вкладкой. Сумма сделки оставлена в
+       той же строке намеренно: она стоит вплотную к фамилии, и разъехавшись
+       по разным шрифтам, эти два столбца перестанут читаться как одна
+       таблица. */
     .pf-home-panel--transfers .pf-home-transfers-table td.is-player a,
     .pf-home-panel--rumors .pf-home-transfers-table td.is-player a,
     .pf-home-panel--transfers .pf-fee-value {
-      --pf-font-here: var(--pf-display-font-family);
+      --pf-font-here: var(--pf-player-font-family);
       font-style: normal;
       letter-spacing: 0.012em;
     }
