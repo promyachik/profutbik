@@ -39,8 +39,15 @@
   if(/[?&]fonts=1/.test(location.search))fonts();
   document.addEventListener("keydown",function(e){
     if(e.ctrlKey&&e.altKey&&(e.code==="KeyP")){e.preventDefault();load();}
-    /* code, а не key: с зажатым Alt раскладка отдаёт посторонний символ. */
-    if(e.altKey&&!e.ctrlKey&&!e.metaKey&&e.code==="KeyF"){e.preventDefault();fonts();}
+    /* code, а не key: с зажатым Alt раскладка отдаёт посторонний символ.
+
+       PF531A: Alt+A — второй вход в ту же примерочную. В журнале этим
+       сочетанием открываются точки замечаний, и рука жмёт его по привычке
+       здесь тоже. На ProFutbik точки живут на Ctrl+Alt+P, так что Alt+A был
+       свободен: пусть открывает то, чего от него ждут, а не молчит. */
+    if(e.altKey&&!e.ctrlKey&&!e.metaKey&&(e.code==="KeyF"||e.code==="KeyA")){
+      e.preventDefault();fonts();
+    }
   });
 })();
 </script>
