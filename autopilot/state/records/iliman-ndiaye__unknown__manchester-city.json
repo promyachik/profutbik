@@ -17,15 +17,15 @@
     "published": "Thu, 27 Aug 2026 21:33:44 GMT",
     "published_iso": "2026-08-27T21:33:44+00:00"
   },
-  "discovered_at": "2026-09-07T12:19:43.888993+00:00",
-  "enriched_at": "2026-09-07T12:21:00.599498+00:00",
+  "discovered_at": "2026-09-07T17:53:40.652347+00:00",
+  "enriched_at": "2026-09-07T17:54:39.976026+00:00",
   "tm_to_club_id": "281",
   "tm_player_id": "623570",
   "player_full_name": "Iliman Ndiaye",
   "birth_date": "2000-03-06",
   "age": 26,
-  "position": "Right Winger",
-  "position_short": "RW",
+  "position": "Left Winger",
+  "position_short": "LW",
   "preferred_foot": "right",
   "height": 1.8,
   "contract_until": "2031-06-30",
@@ -51,11 +51,9 @@
   "transfer_date": "2026-09-01",
   "national_team_debut": "2022-06-04",
   "squad_analysis": {
-    "same_position_count": 3,
+    "same_position_count": 1,
     "same_position_names": [
-      "Antoine Semenyo",
-      "Allan",
-      "Ryan McAidoo"
+      "Jérémy Doku"
     ],
     "value_rank": 13,
     "squad_total": 25,
