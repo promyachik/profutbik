@@ -17,8 +17,8 @@
     "published": "Mon, 17 Aug 2026 09:12:54 GMT",
     "published_iso": "2026-08-17T09:12:54+00:00"
   },
-  "discovered_at": "2026-09-06T22:52:04.609665+00:00",
-  "enriched_at": "2026-09-06T22:53:32.515809+00:00",
+  "discovered_at": "2026-09-07T00:53:28.694251+00:00",
+  "enriched_at": "2026-09-07T00:55:07.788147+00:00",
   "tm_to_club_id": "418",
   "found_in": "local_index",
   "tm_from_club_id": "11",
@@ -64,7 +64,7 @@
   "to_club_official_name": "Real Madrid",
   "to_club_context": {
     "squad_size": 27,
-    "average_age": "25.9",
+    "average_age": "26.0",
     "squad_value": {
       "prefix": "€",
       "content": "1.46",
@@ -81,5 +81,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "martin-zubimendi-real-madrid",
-  "rumor_published_at": "2026-09-06T22:55:44.769598+00:00"
+  "rumor_published_at": "2026-09-07T00:57:09.612381+00:00"
 }

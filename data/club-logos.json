@@ -817,7 +817,7 @@
     "96": {
       "id": 96,
       "name": "Toulouse",
-      "configured_name": "Toulouse",
+      "configured_name": "FC Toulouse",
       "code": "TOU",
       "country": "France",
       "league_id": 61,
@@ -825,13 +825,17 @@
       "season": 2024,
       "founded": 1937,
       "national": false,
-      "logo": "images/clubs/api/96.png",
+      "logo": "images/clubs/api/rendered/96-47f735ea56d0.png",
       "api_logo": "https://media.api-sports.io/football/teams/96.png",
       "venue": {
         "id": 682,
         "name": "Stadium de Toulouse",
         "city": "Toulouse",
         "capacity": 33150
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "106": {
@@ -1241,7 +1245,7 @@
       "season": 2024,
       "founded": 2009,
       "national": false,
-      "logo": "images/clubs/api/rendered/173-d38d0dff9d91.png",
+      "logo": "images/clubs/api/rendered/173-7440f550b015.png",
       "api_logo": "https://media.api-sports.io/football/teams/173.png",
       "venue": {
         "id": 738,

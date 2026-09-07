@@ -7,8 +7,8 @@
   "from_club": "VfB Stuttgart",
   "to_club": "Brighton & Hove Albion",
   "fee_raw": "",
-  "verdict": "NEW_CANDIDATE",
-  "pipeline_state": "ENRICHED",
+  "verdict": "DUPLICATE_EXISTING",
+  "pipeline_state": "SKIPPED_DUPLICATE",
   "backfill": true,
   "source": {
     "publisher": "Transfermarkt",
@@ -18,7 +18,7 @@
     "published_iso": "2026-09-01T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.559774+00:00",
-  "enriched_at": "2026-09-06T22:52:16.247537+00:00",
+  "enriched_at": "2026-09-07T00:53:42.979647+00:00",
   "tm_to_club_id": "1237",
   "tm_player_id": "948279",
   "birth_date": "2005-04-25",
@@ -75,7 +75,7 @@
     "stadium": "Village Way",
     "city": "Brighton"
   },
-  "verdict_reason": "",
+  "verdict_reason": "TM ID 948279 уже на сайте: chema-andres-brighton-hove-albion",
   "block_reason": "",
   "block_detail": ""
 }
