@@ -8,14 +8,19 @@
      бывает медленным или закрытым, и сайт молча оставался бы на системном
      шрифте.
 
-     Предзагружаем только то, что видно сразу: обычный и жирный Roboto и
-     жирный Oswald, кириллица с латиницей. Остальные начертания браузер
-     возьмёт сам, когда они понадобятся. */}}
+     Предзагружаем только то, что видно сразу: обычный и жирный Roboto,
+     кириллица с латиницей. Остальные начертания браузер возьмёт сам, когда
+     они понадобятся.
+
+     PF531E: предзагрузка Oswald убрана. Фамилии игроков были последним, что
+     его просило, и они переведены на Trebuchet MS — теперь Oswald не нужен
+     ни одному правилу на сайте, а предзагрузка тянула бы два файла на каждой
+     странице просто так. Сами @font-face в pf-fonts.css оставлены: неиспользуемый
+     шрифт не качается, зато вернуть его — снова одна строка. */}}
 {{ $preload := slice
   "fonts/roboto-400-cyrillic.woff2" "fonts/roboto-400-latin.woff2"
-  "fonts/roboto-700-cyrillic.woff2" "fonts/roboto-700-latin.woff2"
-  "fonts/oswald-700-cyrillic.woff2" "fonts/oswald-700-latin.woff2" }}
+  "fonts/roboto-700-cyrillic.woff2" "fonts/roboto-700-latin.woff2" }}
 {{ range $preload }}<link rel="preload" as="font" type="font/woff2" crossorigin href="{{ . | relURL }}">
 {{ end }}
 <link rel="stylesheet" href="{{ "css/pf-fonts.css" | relURL }}?v=pf516b">
-<link rel="stylesheet" href="{{ "css/pf-global-roboto.css" | relURL }}?v=pf531d">
+<link rel="stylesheet" href="{{ "css/pf-global-roboto.css" | relURL }}?v=pf531e">
