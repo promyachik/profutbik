@@ -218,8 +218,17 @@ club_transfers:
     other_club: "Chelsea"
     fee: "около £50 млн"
 ---
+
 В заявке клуба Manchester United — 30 игроков со средним возрастом 25,9 года. Общая стоимость команды по оценке Transfermarkt — €924,30 млн, в среднем €30,81 млн на игрока.
 
 Самый дорогой игрок состава — Bryan Mbeumo (правый вингер), его стоимость оценивается в €75 млн.
 
-Трансферы клуба, о которых мы писали: пришли 3.
+Самый молодой в заявке — Ayden Heaven, ему 19 лет; самый возрастной — Tom Heaton, 40. Молодых и опытных в составе так: до 21 года — 8 игроков, тридцать и старше — 5.
+
+По линиям заявка разложена так: вратарей 4, защитников 9, полузащитников 9, нападающих 8. Дороже всего клубу обходится атака — €370 млн, это 40% стоимости состава.
+
+Пятеро самых дорогих — Bryan Mbeumo, Matheus Cunha, Benjamin Sesko, Kobbie Mainoo, Carlos Baleba — стоят вместе €350 млн, то есть 38% всей команды.
+
+По стоимости состава клуб идёт 5-м из 20 в лиге «Премьер-лига». Средний состав турнира оценён в €661,90 млн.
+
+Переходы, о которых мы писали, — пришли: [Carlos Baleba](/transfers/carlos-baleba-manchester-united/) (из Brighton), [Youri Tielemans](/transfers/youri-tielemans-manchester-united/) (из Aston Villa), [Andrey Santos](/transfers/andrey-santos-manchester-united/) (из Chelsea).

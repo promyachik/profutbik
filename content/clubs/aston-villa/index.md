@@ -221,8 +221,17 @@ club_transfers:
     other_club: "Wolves"
     fee: "£34 млн + до £4 млн бонусами"
 ---
+
 В заявке клуба Aston Villa — 28 игроков со средним возрастом 26,3 года. Общая стоимость команды по оценке Transfermarkt — €586,30 млн, в среднем €20,94 млн на игрока.
 
 Самый дорогой игрок состава — Johan Manzambi (атакующий полузащитник), его стоимость оценивается в €65 млн.
 
-Трансферы клуба, о которых мы писали: пришли 3, ушли 3.
+Самый молодой в заявке — Brian Madjo, ему 17 лет; самый возрастной — Marco Bizot, 35. Молодых и опытных в составе так: до 21 года — 6 игроков, тридцать и старше — 6.
+
+По линиям заявка разложена так: вратарей 2, защитников 9, полузащитников 10, нападающих 7. Дороже всего клубу обходится полузащита — €253,80 млн, это 43% стоимости состава.
+
+Пятеро самых дорогих — Johan Manzambi, Amadou Onana, Boubacar Kamara, João Gomes, Nicolas Jackson — стоят вместе €230 млн, то есть 39% всей команды.
+
+По стоимости состава клуб идёт 10-м из 20 в лиге «Премьер-лига». Средний состав турнира оценён в €661,90 млн.
+
+Переходы, о которых мы писали, — пришли: [Alejandro Garnacho](/transfers/alejandro-garnacho-aston-villa/) (из Chelsea), [Johan Manzambi](/transfers/johan-manzambi-aston-villa/) (из Freiburg), [João Gomes](/transfers/joao-gomes-aston-villa/) (из Wolves); ушли: [Ollie Watkins](/transfers/ollie-watkins-al-hilal/) (в Al-Hilal), [Youri Tielemans](/transfers/youri-tielemans-manchester-united/) (в Manchester United), [Morgan Rogers](/transfers/morgan-rogers-chelsea/) (в Chelsea).

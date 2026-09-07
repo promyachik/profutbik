@@ -216,8 +216,17 @@ club_transfers:
     other_club: "Brighton"
     fee: "£46 млн + до £4 млн бонусами"
 ---
+
 В заявке клуба Tottenham Hotspur — 28 игроков со средним возрастом 26,6 года. Общая стоимость команды по оценке Transfermarkt — €809,00 млн, в среднем €28,89 млн на игрока.
 
 Самый дорогой игрок состава — Sandro Tonali (опорный полузащитник), его стоимость оценивается в €80 млн.
 
-Трансферы клуба, о которых мы писали: пришли 1, ушли 4.
+Самый молодой в заявке — Archie Gray, ему 20 лет; самый возрастной — Martin Dúbravka, 37. Молодых и опытных в составе так: до 21 года — 4 игрока, тридцать и старше — 3.
+
+По линиям заявка разложена так: вратарей 3, защитников 9, полузащитников 8, нападающих 8. Дороже всего клубу обходится полузащита — €294 млн, это 36% стоимости состава.
+
+Пятеро самых дорогих — Sandro Tonali, Jan Paul van Hecke, Micky van de Ven, Mateus Fernandes, Mohammed Kudus — стоят вместе €290 млн, то есть 36% всей команды.
+
+По стоимости состава клуб идёт 6-м из 20 в лиге «Премьер-лига». Средний состав турнира оценён в €661,90 млн.
+
+Переходы, о которых мы писали, — пришли: [Mateus Fernandes](/transfers/mateus-fernandes-tottenham/) (из West Ham); ушли: [Guglielmo Vicario](/transfers/guglielmo-vicario-juventus/) (в Juventus), [Djed Spence](/transfers/djed-spence-inter/) (в Inter), [Cristian Romero](/transfers/cristian-romero-atletico-madrid/) (в Atletico Madrid), [Luka Vušković](/transfers/luka-vuskovic-brighton/) (в Brighton).

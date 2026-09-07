@@ -198,8 +198,17 @@ club_transfers:
     other_club: "Newcastle"
     fee: "сумма не разглашается"
 ---
+
 В заявке клуба RCD Espanyol Barcelona — 25 игроков со средним возрастом 26,8 года. Общая стоимость команды по оценке Transfermarkt — €127,80 млн, в среднем €5,11 млн на игрока.
 
 Самый дорогой игрок состава — Quilindschy Hartman (левый защитник), его стоимость оценивается в €16 млн.
 
-Трансферы клуба, о которых мы писали: пришли 3, ушли 2.
+Самый молодой в заявке — Gabriel Moscardo, ему 20 лет; самый возрастной — Kike García, 36. Молодых и опытных в составе так: до 21 года — 3 игрока, тридцать и старше — 6.
+
+По линиям заявка разложена так: вратарей 2, защитников 8, полузащитников 7, нападающих 8. Дороже всего клубу обходится оборона — €48,40 млн, это 38% стоимости состава.
+
+Пятеро самых дорогих — Quilindschy Hartman, Omar El Hilali, Urko González de Zárate, Tyrhys Dolan, Roberto Fernández — стоят вместе €63 млн, то есть 49% всей команды.
+
+По стоимости состава клуб идёт 11-м из 20 в лиге «Ла Лига». Средний состав турнира оценён в €294,67 млн.
+
+Переходы, о которых мы писали, — пришли: [Gabriel Jesus](/transfers/gabriel-jesus-barcelona/) (из Arsenal), [Karim Adeyemi](/transfers/karim-adeyemi-barcelona/) (из Borussia Dortmund), [Anthony Gordon](/transfers/anthony-gordon-barcelona/) (из Newcastle); ушли: [Ferran Torres](/transfers/ferran-torres-psg/) (в Paris Saint-Germain), [Ansu Fati](/transfers/ansu-fati-monaco/) (в Monaco).

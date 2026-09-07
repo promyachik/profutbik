@@ -208,8 +208,17 @@ club_transfers:
     other_club: "Monaco"
     fee: "£30 млн + £5,5 млн бонусами"
 ---
+
 В заявке клуба Newcastle United — 26 игроков со средним возрастом 25,8 года. Общая стоимость команды по оценке Transfermarkt — €606,10 млн, в среднем €23,31 млн на игрока.
 
 Самый дорогой игрок состава — Bazoumana Touré (левый вингер), его стоимость оценивается в €50 млн.
 
-Трансферы клуба, о которых мы писали: пришли 4, ушли 2.
+Самый молодой в заявке — Sean Steur, ему 18 лет; самый возрастной — Nick Pope, 34. Молодых и опытных в составе так: до 21 года — 8 игроков, тридцать и старше — 6.
+
+По линиям заявка разложена так: вратарей 4, защитников 8, полузащитников 7, нападающих 7. Дороже всего клубу обходится атака — €214 млн, это 35% стоимости состава.
+
+Пятеро самых дорогих — Bazoumana Touré, Malick Thiaw, Tino Livramento, Lewis Hall, Nico González — стоят вместе €220 млн, то есть 36% всей команды.
+
+По стоимости состава клуб идёт 7-м из 20 в лиге «Премьер-лига». Средний состав турнира оценён в €661,90 млн.
+
+Переходы, о которых мы писали, — пришли: [Matias Fernandez-Pardo](/transfers/matias-fernandez-pardo-newcastle/) (из Lille), [Amar Dedić](/transfers/amar-dedic-newcastle/) (из Benfica), [Bazoumana Touré](/transfers/bazoumana-toure-newcastle-united/) (из Hoffenheim), [Aladji Bamba](/transfers/aladji-bamba-newcastle/) (из Monaco); ушли: [Bruno Guimarães](/transfers/bruno-guimaraes-arsenal/) (в Arsenal), [Anthony Gordon](/transfers/anthony-gordon-barcelona/) (в Barcelona).

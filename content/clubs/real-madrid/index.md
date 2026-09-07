@@ -205,8 +205,17 @@ club_transfers:
     other_club: "RB Leipzig"
     fee: "€120 млн"
 ---
+
 В заявке клуба Real Madrid — 27 игроков со средним возрастом 25,9 года. Общая стоимость команды по оценке Transfermarkt — €1,46 млрд, в среднем €53,94 млн на игрока.
 
 Самый дорогой игрок состава — Kylian Mbappé (центральный нападающий), его стоимость оценивается в €200 млн.
 
-Трансферы клуба, о которых мы писали: пришли 4.
+Самый молодой в заявке — Yan Diomande, ему 19 лет; самый возрастной — Thibaut Courtois, 34. Молодых и опытных в составе так: до 21 года — 7 игроков, тридцать и старше — 5.
+
+По линиям заявка разложена так: вратарей 2, защитников 10, полузащитников 8, нападающих 7. Дороже всего клубу обходится атака — €570 млн, это 39% стоимости состава.
+
+Пятеро самых дорогих — Kylian Mbappé, Jude Bellingham, Vinicius Junior, Federico Valverde, Arda Güler — стоят вместе €680 млн, то есть 47% всей команды.
+
+По стоимости состава клуб идёт 1-м из 20 в лиге «Ла Лига». Средний состав турнира оценён в €294,67 млн. Дороже в лиге нет никого.
+
+Переходы, о которых мы писали, — пришли: [Rodri](/transfers/rodri-real-madrid/) (из Manchester City), [Michael Olise](/transfers/michael-olise-real-madrid/) (из Bayern Munich), [Bernardo Silva](/transfers/bernardo-silva-real-madrid/) (из Manchester City), [Yan Diomande](/transfers/yan-diomande-real-madrid/) (из RB Leipzig).

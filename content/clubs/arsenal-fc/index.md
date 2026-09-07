@@ -193,8 +193,17 @@ club_transfers:
     other_club: "Bayer Leverkusen"
     fee: "Обязательный выкуп; сумма не раскрывается"
 ---
+
 В заявке клуба Arsenal FC — 25 игроков со средним возрастом 26,4 года. Общая стоимость команды по оценке Transfermarkt — €1,37 млрд, в среднем €54,92 млн на игрока.
 
 Самый дорогой игрок состава — Declan Rice (центральный полузащитник), его стоимость оценивается в €120 млн.
 
-Трансферы клуба, о которых мы писали: пришли 3, ушли 1.
+Самый молодой в заявке — Max Dowman, ему 16 лет; самый возрастной — Kepa Arrizabalaga, 31. Молодых и опытных в составе так: до 21 года — 2 игрока, тридцать и старше — 3.
+
+По линиям заявка разложена так: вратарей 3, защитников 9, полузащитников 6, нападающих 7. Дороже всего клубу обходится оборона — €510 млн, это 37% стоимости состава.
+
+Пятеро самых дорогих — Declan Rice, Bukayo Saka, William Saliba, Gabriel, Martín Zubimendi — стоят вместе €480 млн, то есть 35% всей команды.
+
+По стоимости состава клуб идёт 2-м из 20 в лиге «Премьер-лига». Средний состав турнира оценён в €661,90 млн.
+
+Переходы, о которых мы писали, — пришли: [Bruno Guimarães](/transfers/bruno-guimaraes-arsenal/) (из Newcastle United), [Christos Tzolis](/transfers/christos-tzolis-arsenal/) (из Club Brugge), [Piero Hincapié](/transfers/piero-hincapie-arsenal/) (из Bayer Leverkusen); ушли: [Gabriel Jesus](/transfers/gabriel-jesus-barcelona/) (в Barcelona).

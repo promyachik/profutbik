@@ -30,6 +30,7 @@ from transfer_enrichment import (  # noqa: E402
     api, build_tm_club_index, club_tokens, resolve_tm_club, squad_players,
 )
 from reference_bridge import POSITIONS, load_club_bridge  # noqa: E402
+import club_prose  # noqa: E402
 from job_builder import (  # noqa: E402
     ApiFootballQuotaExceeded, api_football_lookup, club_word,
     compact_money, plural_ru,
@@ -385,35 +386,33 @@ def render_page(club: dict) -> str:
     front.append("---")
     front.append("")
 
-    top = club["squad"][0] if club["squad"] else None
-    body = []
-    lead = "В заявке %s — %d %s" % (
-        club_word(club["name"], "gen"), club["squad_size"],
-        plural_ru(club["squad_size"], "игрок", "игрока", "игроков"))
-    if club["average_age"]:
-        lead += " со средним возрастом %s года" % club["average_age"]
-    lead += "."
-    if club["squad_value"]:
-        lead += " Общая стоимость команды по оценке Transfermarkt — %s" % club["squad_value"]
-        if club["average_value"]:
-            lead += ", в среднем %s на игрока" % club["average_value"]
-        lead += "."
-    body.append(lead)
-
-    if top and top["value_display"]:
-        body.append("Самый дорогой игрок состава — %s (%s), его стоимость оценивается "
-                    "в %s." % (top["name"], top["position_ru"].lower(),
-                               top["value_display"]))
-
-    incoming = [t for t in club["transfers"] if t["direction"] == "in"]
-    outgoing = [t for t in club["transfers"] if t["direction"] == "out"]
-    if incoming or outgoing:
-        parts = []
-        if incoming:
-            parts.append("пришли %d" % len(incoming))
-        if outgoing:
-            parts.append("ушли %d" % len(outgoing))
-        body.append("Трансферы клуба, о которых мы писали: %s." % ", ".join(parts))
+    # PF531K: текст страницы собирает club_prose — тот же код, что переписал
+    # 148 существующих страниц. Держать две версии текста значит однажды
+    # откатить одну другой.
+    body = club_prose.build({
+        "name": club["name"],
+        "league_id": club["league_id"],
+        "league_ru": club["league_ru"],
+        "squad_size": club["squad_size"],
+        "average_age": club["average_age"],
+        "squad_value": club["squad_value"],
+        "average_value": club["average_value"],
+        "squad_value_eur": club["squad_value_eur"],
+        "squad": [{
+            "name": p["name"], "position": p["position_ru"],
+            "position_short": p["position_short"], "age": p["age"],
+            "value": p["value"], "value_display": p["value_display"],
+        } for p in club["squad"]],
+        "transfers": [{
+            "player": (t["row"].get("player") or t["row"].get("player_name") or ""),
+            "slug": t["row"].get("slug") or "",
+            "direction": t["direction"],
+            "other_club": ((t["row"].get("from_club_name") or t["row"].get("from_name") or "")
+                           if t["direction"] == "in"
+                           else (t["row"].get("to_club_name") or t["row"].get("to_name") or "")),
+            "fee": t["row"].get("fee") or "",
+        } for t in club["transfers"]],
+    })
 
     return "\n".join(front) + "\n\n".join(body) + "\n"
 

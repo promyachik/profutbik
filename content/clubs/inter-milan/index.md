@@ -187,8 +187,17 @@ club_transfers:
     other_club: "Troyes"
     fee: "€3 млн + бонусы"
 ---
+
 В заявке клуба Inter Milan — 24 игрока со средним возрастом 28,1 года. Общая стоимость команды по оценке Transfermarkt — €730,30 млн, в среднем €30,43 млн на игрока.
 
 Самый дорогой игрок состава — Lautaro Martínez (центральный нападающий), его стоимость оценивается в €85 млн.
 
-Трансферы клуба, о которых мы писали: пришли 4.
+Самый молодой в заявке — Pio Esposito, ему 21 год; самый возрастной — Henrikh Mkhitaryan, 37. Молодых и опытных в составе так: до 21 года — 2 игрока, тридцать и старше — 8.
+
+По линиям заявка разложена так: вратарей 3, защитников 8, полузащитников 9, нападающих 4. Дороже всего клубу обходится оборона — €269 млн, это 37% стоимости состава.
+
+Пятеро самых дорогих — Lautaro Martínez, Alessandro Bastoni, Yann Bisseck, Federico Dimarco, Nicolò Barella — стоят вместе €300 млн, то есть 41% всей команды.
+
+По стоимости состава клуб идёт 1-м из 20 в лиге «Серия А». Средний состав турнира оценён в €293,81 млн. Дороже в лиге нет никого.
+
+Переходы, о которых мы писали, — пришли: [Djed Spence](/transfers/djed-spence-inter/) (из Tottenham), [Mario Gila](/transfers/mario-gila-ac-milan/) (из Lazio), [Gonçalo Ramos](/transfers/goncalo-ramos-ac-milan/) (из Paris Saint Germain), [Sankhoun Diawara](/transfers/sankhoun-diawara-ac-milan/) (из Troyes).

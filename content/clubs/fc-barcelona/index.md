@@ -210,8 +210,17 @@ club_transfers:
     other_club: "Newcastle"
     fee: "сумма не разглашается"
 ---
+
 В заявке клуба FC Barcelona — 27 игроков со средним возрастом 25,2 года. Общая стоимость команды по оценке Transfermarkt — €1,26 млрд, в среднем €46,76 млн на игрока.
 
 Самый дорогой игрок состава — Lamine Yamal (правый вингер), его стоимость оценивается в €220 млн.
 
-Трансферы клуба, о которых мы писали: пришли 3, ушли 2.
+Самый молодой в заявке — Hamza Abdelkarim, ему 18 лет; самый возрастной — Wojciech Szczesny, 36. Молодых и опытных в составе так: до 21 года — 8 игроков, тридцать и старше — 5.
+
+По линиям заявка разложена так: вратарей 3, защитников 8, полузащитников 8, нападающих 8. Дороже всего клубу обходится полузащита — €462,50 млн, это 37% стоимости состава.
+
+Пятеро самых дорогих — Lamine Yamal, Pedri, Pau Cubarsí, Fermín López, Anthony Gordon — стоят вместе €650 млн, то есть 51% всей команды.
+
+По стоимости состава клуб идёт 2-м из 20 в лиге «Ла Лига». Средний состав турнира оценён в €294,67 млн.
+
+Переходы, о которых мы писали, — пришли: [Gabriel Jesus](/transfers/gabriel-jesus-barcelona/) (из Arsenal), [Karim Adeyemi](/transfers/karim-adeyemi-barcelona/) (из Borussia Dortmund), [Anthony Gordon](/transfers/anthony-gordon-barcelona/) (из Newcastle); ушли: [Ferran Torres](/transfers/ferran-torres-psg/) (в Paris Saint-Germain), [Ansu Fati](/transfers/ansu-fati-monaco/) (в Monaco).
