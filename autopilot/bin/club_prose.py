@@ -186,10 +186,26 @@ def _league_paragraph(name: str, league_id: str, league_ru: str,
     return text
 
 
+def _page_live(slug: str) -> bool:
+    """Есть ли такая страница трансфера и не черновик ли она.
+
+    Иначе клубная страница уводит в 404. Именно так и вышло с «Марио Гилой»:
+    страница помечена draft, Hugo её не собирает, а ссылка с «Милана» на неё
+    стояла. Проверять по собранному public нельзя - Hugo не подчищает старые
+    файлы, и удалённая страница остаётся там лежать, создавая видимость.
+    """
+    page = ACTIVE_PROJECT / "content" / "transfers" / slug / "index.md"
+    if not page.is_file():
+        return False
+    head = page.read_text(encoding="utf-8", errors="replace").split("---", 2)
+    return len(head) > 1 and not re.search(r"(?m)^draft:\s*true\s*$", head[1])
+
+
 def _transfers_paragraph(transfers: list[dict]) -> str:
     """Переходы со ссылками. Ради них абзац и написан: до сих пор клубная
     страница не вела никуда, и обходу некуда было идти."""
-    rows = [t for t in transfers if t.get("slug") and t.get("player")]
+    rows = [t for t in transfers
+            if t.get("slug") and t.get("player") and _page_live(t["slug"])]
     if not rows:
         return ""
     incoming = [t for t in rows if t.get("direction") == "in"]

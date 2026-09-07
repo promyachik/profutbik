@@ -200,4 +200,4 @@ club_transfers:
 
 По стоимости состава клуб идёт 1-м из 20 в лиге «Серия А». Средний состав турнира оценён в €293,81 млн. Дороже в лиге нет никого.
 
-Переходы, о которых мы писали, — пришли: [Djed Spence](/transfers/djed-spence-inter/) (из Tottenham), [Mario Gila](/transfers/mario-gila-ac-milan/) (из Lazio), [Gonçalo Ramos](/transfers/goncalo-ramos-ac-milan/) (из Paris Saint Germain), [Sankhoun Diawara](/transfers/sankhoun-diawara-ac-milan/) (из Troyes).
+Переходы, о которых мы писали, — пришли: [Djed Spence](/transfers/djed-spence-inter/) (из Tottenham), [Gonçalo Ramos](/transfers/goncalo-ramos-ac-milan/) (из Paris Saint Germain), [Sankhoun Diawara](/transfers/sankhoun-diawara-ac-milan/) (из Troyes).

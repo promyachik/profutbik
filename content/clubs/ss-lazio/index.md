@@ -238,5 +238,3 @@ club_transfers:
 Пятеро самых дорогих — Kenneth Taylor, Nicolò Rovella, Davide Frattesi, Oliver Provstgaard, Gustav Isaksen — стоят вместе €101 млн, то есть 40% всей команды.
 
 По стоимости состава клуб идёт 9-м из 20 в лиге «Серия А». Средний состав турнира оценён в €293,81 млн.
-
-Переходы, о которых мы писали, — ушли: [Mario Gila](/transfers/mario-gila-ac-milan/) (в AC Milan).

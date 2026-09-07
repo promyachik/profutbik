@@ -213,4 +213,4 @@ club_transfers:
 
 По стоимости состава клуб идёт 5-м из 20 в лиге «Серия А». Средний состав турнира оценён в €293,81 млн.
 
-Переходы, о которых мы писали, — пришли: [Mario Gila](/transfers/mario-gila-ac-milan/) (из Lazio), [Gonçalo Ramos](/transfers/goncalo-ramos-ac-milan/) (из Paris Saint Germain), [Sankhoun Diawara](/transfers/sankhoun-diawara-ac-milan/) (из Troyes).
+Переходы, о которых мы писали, — пришли: [Gonçalo Ramos](/transfers/goncalo-ramos-ac-milan/) (из Paris Saint Germain), [Sankhoun Diawara](/transfers/sankhoun-diawara-ac-milan/) (из Troyes).
