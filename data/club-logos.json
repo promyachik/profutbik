@@ -1757,7 +1757,7 @@
     "495": {
       "id": 495,
       "name": "Genoa",
-      "configured_name": "Genoa",
+      "configured_name": "Genoa CFC",
       "code": "GEN",
       "country": "Italy",
       "league_id": 135,
@@ -1765,13 +1765,17 @@
       "season": 2024,
       "founded": 1893,
       "national": false,
-      "logo": "images/clubs/api/495.png",
+      "logo": "images/clubs/api/rendered/495-f1de202a3538.png",
       "api_logo": "https://media.api-sports.io/football/teams/495.png",
       "venue": {
         "id": 905,
         "name": "Stadio Comunale Luigi Ferraris",
         "city": "Genova",
         "capacity": 36703
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "496": {
@@ -2369,7 +2373,7 @@
     "549": {
       "id": 549,
       "name": "Beşiktaş",
-      "configured_name": "Besiktas",
+      "configured_name": "Besiktas JK",
       "code": "BES",
       "country": "Turkey",
       "league_id": 203,
@@ -2377,13 +2381,17 @@
       "season": 2024,
       "founded": 1903,
       "national": false,
-      "logo": "images/clubs/api/549.png",
+      "logo": "images/clubs/api/rendered/549-653f8a3ec38a.png",
       "api_logo": "https://media.api-sports.io/football/teams/549.png",
       "venue": {
         "id": 20423,
         "name": "Tüpraş Stadyumu",
         "city": "İstanbul",
         "capacity": 43500
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "555": {
