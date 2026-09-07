@@ -42,9 +42,38 @@
      Поэтому у каждой роли две ячейки: основной и запасной. Переключатель
      «Запасной» выбрасывает основной из стопки и показывает страницу ровно
      так, как её видит человек без него, — иначе на своём Windows выбираешь
-     вслепую. */
-  const SYSTEM = "Системный";
-  const SYSTEM_STACK = 'system-ui,-apple-system,"Segoe UI",Roboto';
+     вслепую.
+
+     PF531C, правило Дмитрия: основной берёт тот, у кого он есть, а запасной
+     обязан быть у всех и не грузиться. Поэтому в запасные веб-шрифты не
+     пускаются вовсе.
+
+     Шрифта с одним именем, который есть абсолютно везде, не существует: на
+     Android нет ни Georgia, ни Segoe UI, на Windows нет San Francisco.
+     Значит запасной — не имя, а короткая стопка, из которой каждая система
+     берёт своё. Arial на Android подставляется системной таблицей замен
+     (fonts.xml), это его собственное поведение, а не наша надежда. */
+  const SAFE = [
+    ["Системный", 'system-ui,-apple-system,"Segoe UI",Roboto,sans-serif',
+      "родной шрифт устройства"],
+    ["Arial", 'Arial,"Helvetica Neue",Helvetica,sans-serif',
+      "на Android — Roboto"],
+    ["Verdana", 'Verdana,Tahoma,"DejaVu Sans",sans-serif',
+      "шире и крупнее"],
+    ["Tahoma", 'Tahoma,Verdana,"DejaVu Sans",sans-serif',
+      "плотнее Verdana"],
+    ["Trebuchet MS", '"Trebuchet MS",Tahoma,"DejaVu Sans",sans-serif',
+      "мягче, ближе к Corbel"],
+    ["Georgia", 'Georgia,"Times New Roman",Times,serif',
+      "с засечками"],
+    ["Times New Roman", '"Times New Roman",Times,serif',
+      "классические засечки"],
+  ];
+
+  const stackOf = (name) => {
+    const found = SAFE.find(([label]) => label === name);
+    return found ? found[1] : `"${name}"`;
+  };
 
   // Только с кириллицей: сайт русский, и шрифт без неё отвалится на первом же
   // слове. Подмена происходит молча, поэтому проверять надо заранее.
@@ -81,12 +110,17 @@
   };
 
   const state = (() => {
+    let saved = null;
     try {
-      return Object.assign({}, EMPTY,
-        JSON.parse(localStorage.getItem(STORE) || "null"));
-    } catch (error) {
-      return Object.assign({}, EMPTY);
-    }
+      saved = JSON.parse(localStorage.getItem(STORE) || "null");
+    } catch (error) { /* мусор в хранилище — начнём с чистого */ }
+    const next = Object.assign({}, EMPTY, saved);
+    // Запасной, выбранный до PF531C, мог оказаться веб-шрифтом. Тихо забываем:
+    // иначе выбор выглядит сделанным, а посетителю грузить нечего.
+    ["textAlt", "displayAlt", "clubAlt"].forEach((key) => {
+      if (next[key] && !SAFE.some(([label]) => label === next[key])) next[key] = "";
+    });
+    return next;
   })();
 
   let target = "text";   // что сейчас подбираем: текст, заголовки или клубы
@@ -122,8 +156,8 @@
     if (!main && !alt) return "";
     const parts = [];
     if (slot === "main" && main) parts.push(`"${main}"`);
-    if (alt) parts.push(alt === SYSTEM ? SYSTEM_STACK : `"${alt}"`);
-    parts.push("sans-serif");
+    // Стопка запасного уже заканчивается родовым именем, добавлять нечего.
+    parts.push(alt ? stackOf(alt) : "sans-serif");
     return parts.join(",");
   };
 
@@ -234,8 +268,9 @@
     <button type="button" data-slot="main" class="on">Основной</button>
     <button type="button" data-slot="alt">Запасной</button>
   </div>
-  <div class="pfl-hint" hidden>Страница показана без основного шрифта — так её
-    видят с телефона, Mac без Office и Linux.</div>
+  <div class="pfl-hint" hidden>Страница без основного шрифта — так её видят с
+    телефона, Mac без Office и Linux. В списке только то, что есть у всех и
+    ничего не грузит.</div>
   <div class="pfl-now">Сейчас: <b data-pfl-now>как на сайте</b></div>
   <div class="pfl-list"></div>
   <button class="pfl-reset" type="button">Вернуть как было</button>
@@ -245,16 +280,20 @@
   const box = root.querySelector(".pfl-box");
   const list = root.querySelector(".pfl-list");
 
-  const addItem = (name, kind, extra) => {
+  // Два списка в одном: строки основного и строки запасного. Показывается тот
+  // набор, чья ячейка сейчас выбрана.
+  const addItem = (name, scope, kind, family, note) => {
     const button = document.createElement("button");
-    button.className = "pfl-item" + (extra ? " " + extra : "");
+    button.className = "pfl-item";
     button.type = "button";
     button.dataset.name = name;
+    button.dataset.scope = scope;
     button.dataset.kind = kind;
-    button.style.setProperty("font-family",
-      kind === "any" ? SYSTEM_STACK + ",sans-serif" : `'${name}',sans-serif`,
-      "important");
-    button.innerHTML = `${name}<small></small>`;
+    button.style.setProperty("font-family", family, "important");
+    button.appendChild(document.createTextNode(name));
+    const small = document.createElement("small");
+    small.textContent = note || "";
+    button.appendChild(small);
     button.addEventListener("click", () => {
       state[keyOf(target)] = name;
       apply();
@@ -262,11 +301,8 @@
     list.appendChild(button);
   };
 
-  // «Системный» — законный выбор запасного: ничего не грузится, у каждого
-  // читается родным шрифтом его системы. Основным быть не может, поэтому в
-  // режиме «Основной» строка спрятана.
-  addItem(SYSTEM, "any", "pfl-sys");
-  FONTS.forEach(([name, kind]) => addItem(name, kind));
+  FONTS.forEach(([name, kind]) => addItem(name, "main", kind, `'${name}',sans-serif`));
+  SAFE.forEach(([name, family, note]) => addItem(name, "alt", "safe", family, note));
 
   /* Есть ли шрифт у человека. Меряем ширину строки: совпала с запасным —
      значит подстановки не было и шрифта нет. Веб-шрифты приезжают всем. */
@@ -281,17 +317,21 @@
 
   const mark = () => {
     root.querySelectorAll(".pfl-item").forEach((button) => {
-      const kind = button.dataset.kind;
-      // В запасные системные шрифты не годятся: весь смысл запасного в том,
-      // что он есть у всех, а Candara или Trebuchet есть не везде.
-      const banned = slot === "alt" && kind === "sys";
-      const ok = !banned && (kind !== "sys" || has(button.dataset.name));
+      const isAlt = button.dataset.scope === "alt";
+      button.hidden = isAlt !== (slot === "alt");
+      if (button.hidden) return;
+      // У запасных проверять нечего: каждая стопка кончается родовым именем,
+      // подписи у них свои и меняться не должны.
+      if (isAlt) {
+        button.disabled = false;
+        button.classList.remove("gone");
+        return;
+      }
+      const ok = button.dataset.kind === "web" || has(button.dataset.name);
       button.classList.toggle("gone", !ok);
       button.disabled = !ok;
-      button.querySelector("small").textContent =
-        banned ? "не у всех" : (ok ? "" : "нет в системе");
+      button.querySelector("small").textContent = ok ? "" : "нет в системе";
     });
-    root.querySelector(".pfl-sys").hidden = slot !== "alt";
   };
 
   root.querySelectorAll(".pfl-tabs button").forEach((tab) => {
