@@ -65,6 +65,11 @@ MAX_ERROR = 3.0
 # Экономия меньше этой доли не стоит перезаписи файла.
 MIN_GAIN = 0.15
 
+# Файлы меньше этого размера уже сжаты как надо: логотип 150x150 в палитре
+# весит 3-7 КБ. Проверять их на каждом такте незачем - именно этот порог
+# превращает шаг из «пережать всё» в «пережать только что скачанное».
+SKIP_BELOW = 12 * 1024
+
 
 def encode(image: Image.Image, palette: bool) -> bytes:
     buffer = io.BytesIO()
@@ -121,6 +126,8 @@ def main() -> int:
     plan: list[dict] = []
     skipped_quality = 0
     for path in files:
+        if path.stat().st_size < SKIP_BELOW:
+            continue
         try:
             result = best_for(path)
         except Exception as error:
