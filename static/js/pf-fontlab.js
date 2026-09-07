@@ -130,15 +130,28 @@
   const apply = () => {
     const vars = [];
     const rules = [];
-    const put = (role, name, selector) => {
+    /* PF531B: почему тут ещё и --pf-font-here.
+
+       Глобальное правило в pf-global-roboto.css заканчивается одиннадцатью
+       :not() — его специфичность (0,11,1), и никакое наше правило её не
+       наберёт, даже с !important. Пока примерочная давила силой, она молча
+       проигрывала: менялись только фамилии игроков, потому что они эту
+       переменную объявляют сами. Заголовки разделов не двигались вовсе, а
+       выглядело это как «шрифт выбран».
+
+       Поэтому не спорим, а подставляемся: переменная наследуется,
+       специфичность ей не нужна. !important оставлен для мест, до которых
+       глобальное правило не дотягивается. */
+    const put = (role, name, selector, here) => {
       const family = familyFor(role);
       if (!family) return;
       vars.push(`${name}:${family}`);
-      rules.push(`${selector}{font-family:${family} !important}`);
+      rules.push(`${selector}{${here ? `--pf-font-here:${family};` : ""}`
+        + `font-family:${family} !important}`);
     };
-    put("text", "--pf-global-font-family", "body,body *");
-    put("display", "--pf-display-font-family", DISPLAY);
-    put("club", "--pf-club-font-family", CLUB);
+    put("text", "--pf-global-font-family", "body,body *", false);
+    put("display", "--pf-display-font-family", DISPLAY, true);
+    put("club", "--pf-club-font-family", CLUB, true);
     // Саму панель под подмену не пускаем: иначе список перестанет показывать
     // каждый шрифт им самим, а ради этого он и нужен.
     rules.push('#pf-fontlab,#pf-fontlab *{font-family:"Segoe UI",Arial,sans-serif !important}');
