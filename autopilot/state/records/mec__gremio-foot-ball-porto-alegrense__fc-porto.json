@@ -18,7 +18,7 @@
     "published_iso": "2026-09-02T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.569289+00:00",
-  "enriched_at": "2026-09-07T05:59:32.285846+00:00",
+  "enriched_at": "2026-09-07T12:21:08.884246+00:00",
   "tm_to_club_id": "720",
   "tm_player_id": "1228661",
   "birth_date": "2008-04-11",
@@ -50,19 +50,20 @@
   "transfer_date": "2026-09-02",
   "national_team_debut": "",
   "squad_analysis": {
-    "same_position_count": 2,
+    "same_position_count": 3,
     "same_position_names": [
       "William Gomes",
-      "Pepê"
+      "Pepê",
+      "Duarte Cunha"
     ],
     "value_rank": 13,
     "squad_total": 28,
-    "younger_than": 26
+    "younger_than": 25
   },
   "to_club_official_name": "FC Porto",
   "to_club_context": {
     "squad_size": 28,
-    "average_age": "25.5",
+    "average_age": "25.4",
     "squad_value": {
       "prefix": "€",
       "content": "464.80",

@@ -681,7 +681,7 @@
     "84": {
       "id": 84,
       "name": "Nice",
-      "configured_name": "Nice",
+      "configured_name": "OGC Nice",
       "code": "NIC",
       "country": "France",
       "league_id": 61,
@@ -689,13 +689,17 @@
       "season": 2024,
       "founded": 1904,
       "national": false,
-      "logo": "images/clubs/api/84.png",
+      "logo": "images/clubs/api/rendered/84-34771020f52b.png",
       "api_logo": "https://media.api-sports.io/football/teams/84.png",
       "venue": {
         "id": 663,
         "name": "Allianz Riviera",
         "city": "Nice",
         "capacity": 35624
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "85": {
@@ -1393,13 +1397,17 @@
       "season": 2024,
       "founded": 1893,
       "national": false,
-      "logo": "images/clubs/api/212.png",
+      "logo": "images/clubs/api/rendered/212-ed689a28b696.png",
       "api_logo": "https://media.api-sports.io/football/teams/212.png",
       "venue": {
         "id": 1286,
         "name": "Estádio Do Dragão",
         "city": "Porto",
         "capacity": 50399
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "215": {
