@@ -27,27 +27,17 @@
     s.src="{{ "js/pf-pins.js" | relURL }}?v=pf521a";
     document.body.appendChild(s);
   }
-  /* PF530A: примерочная шрифтов. Тот же принцип — грузится только по
-     требованию, посетителям не достаётся ни байта. Alt+F или ?fonts=1. */
-  function fonts(){
-    if(window.__pfFontLab){window.__pfFontLab.toggle();return;}
-    var s=document.createElement("script");
-    s.src="{{ "js/pf-fontlab.js" | relURL }}?v=pf531f";
-    document.body.appendChild(s);
-  }
-  if(/[?&]pins=1/.test(location.search))load();
-  if(/[?&]fonts=1/.test(location.search))fonts();
-  document.addEventListener("keydown",function(e){
-    if(e.ctrlKey&&e.altKey&&(e.code==="KeyP")){e.preventDefault();load();}
-    /* code, а не key: с зажатым Alt раскладка отдаёт посторонний символ.
+  /* PF531H: вызов примерочной шрифтов убран — шрифты выбраны и записаны в
+     `static/css/pf-global-roboto.css`, инструмент своё отработал.
 
-       PF531A: Alt+A — второй вход в ту же примерочную. В журнале этим
-       сочетанием открываются точки замечаний, и рука жмёт его по привычке
-       здесь тоже. На ProFutbik точки живут на Ctrl+Alt+P, так что Alt+A был
-       свободен: пусть открывает то, чего от него ждут, а не молчит. */
-    if(e.altKey&&!e.ctrlKey&&!e.metaKey&&(e.code==="KeyF"||e.code==="KeyA")){
-      e.preventDefault();fonts();
-    }
+     Сам `static/js/pf-fontlab.js` оставлен на месте: он никому не грузится,
+     пока его не позвали, а вернуть примерочную — снова три строки здесь.
+     Выбранное когда-то значение лежало в localStorage браузера Дмитрия и
+     теперь просто не читается: на сайт оно и раньше не влияло. */
+  if(/[?&]pins=1/.test(location.search))load();
+  document.addEventListener("keydown",function(e){
+    /* code, а не key: с зажатым Alt раскладка отдаёт посторонний символ. */
+    if(e.ctrlKey&&e.altKey&&(e.code==="KeyP")){e.preventDefault();load();}
   });
 })();
 </script>
