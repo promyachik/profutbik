@@ -46,6 +46,7 @@ previous_club_stats:
   season: "2025/26"
   source_note: "Данные будут заполнены после синхронизации API-Football."
 nationality_flag_image: "images/flags/countries/fr.svg"
+aliases: ["/rumors/ibrahima-konate-real-madrid-rumor/"]
 ---
 
 Ibrahima Konaté **официально стал игроком мадридского «Реала» 18 июня 2026 года**. Испанский клуб сообщил о соглашении с французским центральным защитником на четыре сезона — до 30 июня 2030 года.

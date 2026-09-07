@@ -47,6 +47,7 @@ previous_club_stats:
   season: "2025/26"
   source_note: "Данные будут заполнены после синхронизации API-Football."
 nationality_flag_image: "images/flags/countries/es.svg"
+aliases: ["/rumors/marc-cucurella-real-madrid-interest/"]
 ---
 
 Marc Cucurella **официально перешёл из «Челси» в мадридский «Реал» 15 июня 2026 года**. Испанский клуб подтвердил трансфер и сообщил, что защитник подписал контракт на шесть сезонов — до 30 июня 2032 года.

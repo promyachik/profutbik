@@ -67,6 +67,7 @@ show_in_transfers_page: true
 source_name: "СМИ"
 source_url: "https://www.transfermarkt.com/-/profil/spieler/241641"
 source_status: "official_permanent_transfer"
+aliases: ["/rumors/bernardo-silva-real-madrid-agreement/"]
 ---
 
 ## Bernardo Silva: что известно о переходе в Real Madrid
