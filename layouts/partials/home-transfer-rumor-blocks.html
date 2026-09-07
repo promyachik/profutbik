@@ -1065,7 +1065,12 @@
     {{ if gt (len $data.transfers) 0 }}
       <div class="pf-home-transfers-expand" data-pf-transfer-expand><table class="pf-home-transfers-table pf399x-transfer-table">
 <tbody>
-          {{ range $data.transfers }}
+          {{/* PF531J: индекс строки нужен ради отсрочки картинок ниже.
+               Видно только первые $rowsShown строк, остальные скрыты правилом
+               nth-child и раскрываются кнопкой. Браузер при этом качал эмблемы
+               всех 104 переходов — 208 файлов ради четырнадцати видимых. */}}
+          {{ range $rowIndex, $row := $data.transfers }}
+            {{ with $row }}
             <tr>
               <td class="is-player">
                 <a href="{{ .url | relURL }}">{{ partial "pf-player-short-name.html" .player }}</a>
@@ -1082,7 +1087,7 @@
               <td class="is-club is-from">
                 <a class="pf-club-cell pf-route-link" href="{{ .url | relURL }}" tabindex="-1" aria-hidden="true">
                   <span class="pf-club-name-inline" data-pf403c-logo-ready="true">{{ .from_name }}</span>
-                  {{ with .from_logo }}<img class="pf-club-logo" src="{{ . | relURL }}" alt="">{{ end }}
+                  {{ with .from_logo }}<img class="pf-club-logo" src="{{ . | relURL }}" alt=""{{ if ge $rowIndex $rowsShown }} loading="lazy"{{ end }}>{{ end }}
                 </a>
               </td>
               {{/* PF508C: стрелка вместо текстового «→». Глиф тонкий и в
@@ -1101,7 +1106,7 @@
               </td>
               <td class="is-club is-to">
                 <a class="pf-club-cell pf-route-link" href="{{ .url | relURL }}" tabindex="-1" aria-hidden="true">
-                  {{ with .to_logo }}<img class="pf-club-logo" src="{{ . | relURL }}" alt="">{{ end }}
+                  {{ with .to_logo }}<img class="pf-club-logo" src="{{ . | relURL }}" alt=""{{ if ge $rowIndex $rowsShown }} loading="lazy"{{ end }}>{{ end }}
                   <span class="pf-club-name-inline" data-pf403c-logo-ready="true">{{ .to_name }}</span>
                 </a>
               </td>
@@ -1136,6 +1141,7 @@
                 {{ end }}
               </td>
             </tr>
+            {{ end }}
           {{ end }}
         </tbody>
       </table></div>
