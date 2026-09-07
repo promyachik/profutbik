@@ -127,7 +127,8 @@ svg text {
 .pf405a-player,
 .transfer-stage__player {
   --pf-font-here: var(--pf-player-font-family);
-  letter-spacing: 0.01em;
+  /* PF531F: разрядка была под Oswald, Trebuchet в ней не нуждается. */
+  letter-spacing: normal;
 }
 /* PF512A_DISPLAY_FONT_END */
 

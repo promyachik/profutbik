@@ -184,7 +184,9 @@
        а получал 158 — отсюда многоточие при формально достаточной колонке.
        Справа отступ убран: между именем и клубом и так есть воздух. */
     .pf-home-transfers-table tbody td.is-player {
-      width: 28%;
+      /* PF531F: 28% не хватало трём символам «Fernandez-Pardo». Двойную
+         фамилию сокращать нельзя, поэтому расширена колонка. */
+      width: 31%;
       padding-right: 4px;
       white-space: nowrap;
       overflow: hidden;
@@ -712,7 +714,9 @@
     .pf-home-panel--transfers .pf-fee-value {
       --pf-font-here: var(--pf-player-font-family);
       font-style: normal;
-      letter-spacing: 0.012em;
+      /* PF531F: разрядка ставилась под узкий Oswald. С Trebuchet она только
+         отъедает ширину, из-за неё «Matias Fernandez-Pardo» не влезал. */
+      letter-spacing: normal;
     }
     /* PF400C_TRANSFER_PLAYERS_FEES_ROBOTO_END */
 
@@ -1064,7 +1068,7 @@
           {{ range $data.transfers }}
             <tr>
               <td class="is-player">
-                <a href="{{ .url | relURL }}">{{ .player }}</a>
+                <a href="{{ .url | relURL }}">{{ partial "pf-player-short-name.html" .player }}</a>
               </td>
               {{/* PF508H: название клуба рядом с эмблемой. Без него строка
                    на широком экране распадалась на три островка с провалами
@@ -1171,7 +1175,7 @@
           {{ range $data.rumors }}
             <tr>
               <td class="is-player">
-                <a href="{{ .url | relURL }}">{{ .player }}</a>
+                <a href="{{ .url | relURL }}">{{ partial "pf-player-short-name.html" .player }}</a>
               </td>
               <td class="is-club is-from">
                 <a class="pf-club-cell pf-route-link" href="{{ .url | relURL }}" tabindex="-1" aria-hidden="true">
