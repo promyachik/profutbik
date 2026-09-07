@@ -15,7 +15,10 @@
  * с !important, — спорить о специфичности не приходится. Именно ради этого
  * шрифты в своё время и вынесли в переменные.
  *
- * Посетителям не грузится: включается Alt+F или адресом ?fonts=1.
+ * PF531A: у каждой роли теперь две ячейки — основной шрифт и запасной, на
+ * случай, когда основного у читателя нет. Смотри константу SYSTEM ниже.
+ *
+ * Посетителям не грузится: включается Alt+F, Alt+A или адресом ?fonts=1.
  * Выбор живёт только в браузере Дмитрия, на сайт он не влияет, пока мы не
  * пропишем его в CSS руками.
  */
@@ -29,6 +32,19 @@
 
   const STORE = "pf-fontlab";
   const GOLD = "#f1bd29";
+
+  /* Запасной шрифт — не формальность. Corbel, Candara, Constantia и прочая
+     подборка ClearType есть на Windows и на Mac с установленным Office, но её
+     нет ни на одном телефоне: iOS, Android и Linux о ней не знают. На
+     футбольном сайте читают в основном с телефона, то есть запасной увидит не
+     край выборки, а большинство.
+
+     Поэтому у каждой роли две ячейки: основной и запасной. Переключатель
+     «Запасной» выбрасывает основной из стопки и показывает страницу ровно
+     так, как её видит человек без него, — иначе на своём Windows выбираешь
+     вслепую. */
+  const SYSTEM = "Системный";
+  const SYSTEM_STACK = 'system-ui,-apple-system,"Segoe UI",Roboto';
 
   // Только с кириллицей: сайт русский, и шрифт без неё отвалится на первом же
   // слове. Подмена происходит молча, поэтому проверять надо заранее.
@@ -59,16 +75,22 @@
   override.id = "pf-fontlab-override";
   document.head.appendChild(override);
 
+  const EMPTY = {
+    text: "", display: "", club: "",
+    textAlt: "", displayAlt: "", clubAlt: "",
+  };
+
   const state = (() => {
     try {
-      return JSON.parse(localStorage.getItem(STORE) || "null")
-        || { text: "", display: "", club: "" };
+      return Object.assign({}, EMPTY,
+        JSON.parse(localStorage.getItem(STORE) || "null"));
     } catch (error) {
-      return { text: "", display: "", club: "" };
+      return Object.assign({}, EMPTY);
     }
   })();
 
-  let target = "text";   // что сейчас подбираем: текст или заголовки
+  let target = "text";   // что сейчас подбираем: текст, заголовки или клубы
+  let slot = "main";     // какую ячейку роли: основную или запасную
 
   /* Кто есть кто на сайте. Роли перечислены явно, потому что подмены одних
      переменных не хватает: за годы в CSS накопились правила со своими
@@ -90,21 +112,33 @@
     ".transfer-stage__club-name", ".pf405a-league__name",
   ].join(",");
 
+  const keyOf = (role) => (slot === "alt" ? role + "Alt" : role);
+
+  // Стопка для роли. В режиме «Запасной» основной шрифт из неё выброшен — это
+  // и есть весь смысл режима.
+  const familyFor = (role) => {
+    const main = state[role];
+    const alt = state[role + "Alt"];
+    if (!main && !alt) return "";
+    const parts = [];
+    if (slot === "main" && main) parts.push(`"${main}"`);
+    if (alt) parts.push(alt === SYSTEM ? SYSTEM_STACK : `"${alt}"`);
+    parts.push("sans-serif");
+    return parts.join(",");
+  };
+
   const apply = () => {
     const vars = [];
     const rules = [];
-    if (state.text) {
-      vars.push(`--pf-global-font-family:"${state.text}",sans-serif`);
-      rules.push(`body,body *{font-family:"${state.text}",sans-serif !important}`);
-    }
-    if (state.display) {
-      vars.push(`--pf-display-font-family:"${state.display}",sans-serif`);
-      rules.push(`${DISPLAY}{font-family:"${state.display}",sans-serif !important}`);
-    }
-    if (state.club) {
-      vars.push(`--pf-club-font-family:"${state.club}",sans-serif`);
-      rules.push(`${CLUB}{font-family:"${state.club}",sans-serif !important}`);
-    }
+    const put = (role, name, selector) => {
+      const family = familyFor(role);
+      if (!family) return;
+      vars.push(`${name}:${family}`);
+      rules.push(`${selector}{font-family:${family} !important}`);
+    };
+    put("text", "--pf-global-font-family", "body,body *");
+    put("display", "--pf-display-font-family", DISPLAY);
+    put("club", "--pf-club-font-family", CLUB);
     // Саму панель под подмену не пускаем: иначе список перестанет показывать
     // каждый шрифт им самим, а ради этого он и нужен.
     rules.push('#pf-fontlab,#pf-fontlab *{font-family:"Segoe UI",Arial,sans-serif !important}');
@@ -114,11 +148,16 @@
       localStorage.setItem(STORE, JSON.stringify(state));
     } catch (error) { /* приватный режим — просто не запомним */ }
 
+    const chosen = state[keyOf(target)];
     root.querySelectorAll(".pfl-item").forEach((button) => {
-      button.classList.toggle("on", button.dataset.name === state[target]);
+      button.classList.toggle("on", button.dataset.name === chosen);
     });
+    const main = state[target];
+    const alt = state[target + "Alt"];
     root.querySelector("[data-pfl-now]").textContent =
-      state[target] || "как на сайте";
+      main && alt ? `${main} → ${alt}`
+        : main || (alt ? `как на сайте → ${alt}` : "как на сайте");
+    mark();
   };
 
   /* ------------------------------------------------------------- разметка */
@@ -146,6 +185,12 @@
   .pfl-tabs button{flex:1;padding:7px;border:1px solid #2b3542;border-radius:8px;
     background:#121923;color:#8d99a8;font:inherit;font-size:12px;cursor:pointer}
   .pfl-tabs button.on{border-color:${GOLD};color:${GOLD};background:#1a1508}
+  .pfl-slot{display:flex;gap:4px;padding:0 8px 6px}
+  .pfl-slot button{flex:1;padding:5px;border:1px solid #232c38;border-radius:8px;
+    background:#0f151d;color:#77818e;font:inherit;font-size:11px;cursor:pointer}
+  .pfl-slot button.on{border-color:#3d7dd8;color:#8fbcff;background:#0e1724}
+  .pfl-hint{padding:0 12px 8px;color:#5e6874;font-size:10px;line-height:1.4}
+  .pfl-hint[hidden]{display:none}
   .pfl-now{padding:0 12px 8px;color:#6f7a86;font-size:11px}
   .pfl-now b{color:#c9d2dc;font-weight:600}
   .pfl-list{overflow:auto;padding:0 6px 8px}
@@ -158,6 +203,8 @@
     font-family:"Segoe UI",Arial,sans-serif}
   .pfl-item small:empty{display:none}
   .pfl-item.gone{opacity:.32;cursor:not-allowed}
+  /* display:flex у строки перебивает служебный [hidden] — гасим явно. */
+  .pfl-item[hidden]{display:none}
   .pfl-reset{margin:0 6px 8px;padding:7px;border:1px solid #2b3542;border-radius:8px;
     background:none;color:#8d99a8;font:inherit;font-size:12px;cursor:pointer}
   .pfl-reset:hover{color:#e8edf3;border-color:#3d4756}
@@ -170,6 +217,12 @@
     <button type="button" data-target="display">Заголовки</button>
     <button type="button" data-target="club">Клубы</button>
   </div>
+  <div class="pfl-slot">
+    <button type="button" data-slot="main" class="on">Основной</button>
+    <button type="button" data-slot="alt">Запасной</button>
+  </div>
+  <div class="pfl-hint" hidden>Страница показана без основного шрифта — так её
+    видят с телефона, Mac без Office и Linux.</div>
   <div class="pfl-now">Сейчас: <b data-pfl-now>как на сайте</b></div>
   <div class="pfl-list"></div>
   <button class="pfl-reset" type="button">Вернуть как было</button>
@@ -179,20 +232,28 @@
   const box = root.querySelector(".pfl-box");
   const list = root.querySelector(".pfl-list");
 
-  FONTS.forEach(([name, kind]) => {
+  const addItem = (name, kind, extra) => {
     const button = document.createElement("button");
-    button.className = "pfl-item";
+    button.className = "pfl-item" + (extra ? " " + extra : "");
     button.type = "button";
     button.dataset.name = name;
     button.dataset.kind = kind;
-    button.style.setProperty('font-family', `'${name}',sans-serif`, 'important');
+    button.style.setProperty("font-family",
+      kind === "any" ? SYSTEM_STACK + ",sans-serif" : `'${name}',sans-serif`,
+      "important");
     button.innerHTML = `${name}<small></small>`;
     button.addEventListener("click", () => {
-      state[target] = name;
+      state[keyOf(target)] = name;
       apply();
     });
     list.appendChild(button);
-  });
+  };
+
+  // «Системный» — законный выбор запасного: ничего не грузится, у каждого
+  // читается родным шрифтом его системы. Основным быть не может, поэтому в
+  // режиме «Основной» строка спрятана.
+  addItem(SYSTEM, "any", "pfl-sys");
+  FONTS.forEach(([name, kind]) => addItem(name, kind));
 
   /* Есть ли шрифт у человека. Меряем ширину строки: совпала с запасным —
      значит подстановки не было и шрифта нет. Веб-шрифты приезжают всем. */
@@ -207,11 +268,17 @@
 
   const mark = () => {
     root.querySelectorAll(".pfl-item").forEach((button) => {
-      const ok = button.dataset.kind === "web" || has(button.dataset.name);
+      const kind = button.dataset.kind;
+      // В запасные системные шрифты не годятся: весь смысл запасного в том,
+      // что он есть у всех, а Candara или Trebuchet есть не везде.
+      const banned = slot === "alt" && kind === "sys";
+      const ok = !banned && (kind !== "sys" || has(button.dataset.name));
       button.classList.toggle("gone", !ok);
       button.disabled = !ok;
-      button.querySelector("small").textContent = ok ? "" : "нет в системе";
+      button.querySelector("small").textContent =
+        banned ? "не у всех" : (ok ? "" : "нет в системе");
     });
+    root.querySelector(".pfl-sys").hidden = slot !== "alt";
   };
 
   root.querySelectorAll(".pfl-tabs button").forEach((tab) => {
@@ -223,10 +290,18 @@
     });
   });
 
+  root.querySelectorAll(".pfl-slot button").forEach((pill) => {
+    pill.addEventListener("click", () => {
+      slot = pill.dataset.slot;
+      root.querySelectorAll(".pfl-slot button")
+        .forEach((other) => other.classList.toggle("on", other === pill));
+      root.querySelector(".pfl-hint").hidden = slot !== "alt";
+      apply();
+    });
+  });
+
   root.querySelector(".pfl-reset").addEventListener("click", () => {
-    state.text = "";
-    state.display = "";
-    state.club = "";
+    Object.assign(state, EMPTY);
     apply();
   });
 
