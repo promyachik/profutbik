@@ -17,8 +17,8 @@
     "published": "Fri, 28 Aug 2026 20:48:59 GMT",
     "published_iso": "2026-08-28T20:48:59+00:00"
   },
-  "discovered_at": "2026-09-08T04:24:32.436368+00:00",
-  "enriched_at": "2026-09-08T04:25:52.885017+00:00",
+  "discovered_at": "2026-09-08T09:02:19.011129+00:00",
+  "enriched_at": "2026-09-08T09:03:42.318139+00:00",
   "tm_to_club_id": "631",
   "found_in": "local_index",
   "tm_from_club_id": "162",
@@ -82,5 +82,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "lamine-camara-chelsea",
-  "rumor_published_at": "2026-09-08T04:26:27.027899+00:00"
+  "rumor_published_at": "2026-09-08T09:04:11.738974+00:00"
 }
