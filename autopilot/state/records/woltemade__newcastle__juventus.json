@@ -18,7 +18,7 @@
     "published_iso": "2026-09-01T08:03:16+00:00"
   },
   "discovered_at": "2026-09-01T16:00:52.894966+00:00",
-  "enriched_at": "2026-09-08T20:13:29.250329+00:00",
+  "enriched_at": "2026-09-08T22:58:13.208321+00:00",
   "tm_to_club_id": "506",
   "block_reason": "",
   "block_detail": "",
@@ -70,16 +70,16 @@
   },
   "to_club_official_name": "Juventus FC",
   "to_club_context": {
-    "squad_size": 28,
-    "average_age": "27.4",
+    "squad_size": 29,
+    "average_age": "27.2",
     "squad_value": {
       "prefix": "€",
-      "content": "618.70",
+      "content": "619.30",
       "suffix": "M"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "22.10",
+      "content": "21.36",
       "suffix": "M"
     },
     "stadium": "Via Druento, 175",
