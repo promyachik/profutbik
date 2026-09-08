@@ -18,7 +18,7 @@
     "published_iso": "2026-09-01T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.559391+00:00",
-  "enriched_at": "2026-09-08T09:03:12.993049+00:00",
+  "enriched_at": "2026-09-08T13:31:39.383931+00:00",
   "tm_to_club_id": "15",
   "tm_player_id": "711980",
   "birth_date": "2002-10-17",
@@ -60,8 +60,8 @@
   },
   "to_club_official_name": "Bayer 04 Leverkusen",
   "to_club_context": {
-    "squad_size": 29,
-    "average_age": "26.1",
+    "squad_size": 28,
+    "average_age": "26.3",
     "squad_value": {
       "prefix": "€",
       "content": "480.95",
@@ -69,7 +69,7 @@
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "16.58",
+      "content": "17.18",
       "suffix": "M"
     },
     "stadium": "Bismarckstraße 122-124",
