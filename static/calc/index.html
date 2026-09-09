@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#12100e">
+<title>Калькулятор лимитки</title>
+<style>
+:root{
+  --bg:#12100e; --ink:#d9d2c9; --ink-strong:#f2ece4; --ink-soft:#8b8279;
+  --ink-faint:#6f6760; --line:rgba(255,255,255,.055); --line-hover:rgba(255,255,255,.11);
+  --card:linear-gradient(180deg,rgba(255,255,255,.032),rgba(255,255,255,.012));
+  --win:#7fe0b0; --loss:#ff8f7a; --win-glow:rgba(80,220,160,.42);
+  --loss-glow:rgba(255,110,86,.42); --accent:#ffc27a;
+  --accent-line:rgba(255,176,92,.38);
+  --accent-fill:linear-gradient(180deg,rgba(255,176,92,.11),rgba(255,176,92,.03));
+}
+*{-webkit-tap-highlight-color:transparent}
+body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
+  font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+</style>
+</head><body>
+
+<section class="calc">
+  <h2 class="calc__h">Калькулятор лимитки</h2>
+  <p class="calc__lead">
+    Введи, где зашёл бы по рынку и где твой структурный стоп. Лимитка встанет на
+    <b>0.5</b> расстояния между ними. <b>1R</b> — от лимитки до стопа,
+    это и есть твой процент риска.
+  </p>
+
+  <div class="calc__pick">
+    <div class="calc__grp"><span>Инструмент</span><div><button type="button" class="calc__ins on" data-ins="EURUSD">EURUSD</button><button type="button" class="calc__ins" data-ins="XAUUSD">XAUUSD</button></div></div>
+    <div class="calc__grp"><span>Счёт</span><div><button type="button" class="calc__acc" data-acc="5000">5k</button><button type="button" class="calc__acc on" data-acc="6000">6k</button><button type="button" class="calc__acc" data-acc="10000">10k</button><button type="button" class="calc__acc" data-acc="15000">15k</button><button type="button" class="calc__acc" data-acc="25000">25k</button></div></div>
+    <div class="calc__grp"><span>Валюта счёта</span><div>
+      <button type="button" class="calc__cur" data-cur="EUR">EUR</button>
+      <button type="button" class="calc__cur on" data-cur="USD">USD</button>
+    </div></div>
+  </div>
+
+  <div class="calc__in">
+    <label>Зашёл бы по рынку<input id="c-e" inputmode="decimal" placeholder="1.13600"></label>
+    <label>Твой стоп<input id="c-s" inputmode="decimal" placeholder="1.13500"></label>
+    <label>Риск, %<input id="c-r" inputmode="decimal" value="1.0"></label>
+    <!-- Курс нужен только для золота на евровом счёте. Спрятан прямо в
+         разметке, а не только скриптом: если JS почему-то не выполнится,
+         поле не должно висеть без дела. Именно так 9 сентября обнаружилось,
+         что просмотрщик на телефоне вырезает скрипты. -->
+    <label id="c-fx-wrap" style="display:none">Курс EURUSD<input id="c-fx" inputmode="decimal" value="1.1600"></label>
+  </div>
+
+  <div class="calc__out" id="c-out"></div>
+
+  <p class="calc__note">
+    В окно Buy&nbsp;Limit вписывай <b>лимитку, стоп и тейк сразу</b> — отложенный
+    ордер несёт их с собой. Перетяжку делаешь потом и только если цена подошла:
+    это разрешение, а не план.
+  </p>
+</section>
+
+<style>
+.calc{max-width:960px;margin:0 auto 46px;padding:26px 30px 22px;
+  border:1px solid var(--line);border-radius:16px;background:var(--card)}
+.calc__h{margin:0 0 6px;font-size:19px;color:var(--ink-strong);font-weight:600}
+.calc__lead{margin:0 0 20px;font-size:13.5px;line-height:1.6;color:var(--ink-soft)}
+.calc__lead b{color:var(--accent);font-weight:600}
+.calc__pick{display:flex;flex-wrap:wrap;gap:26px;margin-bottom:20px;
+  padding-bottom:18px;border-bottom:1px solid var(--line)}
+.calc__grp{display:flex;flex-direction:column;gap:7px}
+.calc__grp>span{font-size:11px;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--ink-faint)}
+.calc__grp>div{display:flex;gap:6px}
+.calc__pick button{padding:7px 13px;border:1px solid var(--line-hover);border-radius:8px;
+  background:transparent;color:var(--ink-soft);font:500 13px/1 inherit;cursor:pointer;
+  transition:border-color .15s,color .15s,background .15s}
+.calc__pick button:hover{border-color:var(--accent-line);color:var(--ink)}
+.calc__pick button.on{border-color:var(--accent-line);background:var(--accent-fill);
+  color:var(--accent)}
+.calc__in{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:22px}
+.calc__in label{display:flex;flex-direction:column;gap:6px;
+  font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint)}
+.calc__in input{padding:9px 11px;border:1px solid var(--line-hover);border-radius:9px;
+  background:transparent;color:var(--ink-strong);font:15px/1.2 ui-monospace,monospace;
+  outline:none;transition:border-color .15s;width:100%;box-sizing:border-box}
+.calc__in input:focus{border-color:var(--accent-line)}
+/* Подсказка обязана отличаться от значения. 9 сентября Дмитрий смотрел на
+   серое «1.13500» в пустом поле стопа, считал его введённым и не понимал,
+   почему калькулятор ничего не выдаёт. Курсив и низкая непрозрачность — чтобы
+   пустое поле нельзя было спутать с заполненным. */
+.calc__in input::placeholder{color:var(--ink-faint);opacity:.42;font-style:italic}
+.calc__in label.need input{border-color:var(--loss-glow)}
+.calc__in label.need{color:var(--loss)}
+/* Рамка вокруг лимитки. Это единственное число, которое Дмитрий переносит в
+   терминал первым, и оно обязано читаться раньше всего остального. */
+.calc__big{display:flex;flex-direction:column;align-items:center;gap:8px;
+  margin:0 0 20px;padding:20px 24px;border:2px solid var(--accent-line);
+  border-radius:14px;background:var(--accent-fill);text-align:center}
+.calc__big span{font-size:11px;letter-spacing:.14em;color:var(--accent);
+  font-weight:600}
+.calc__big b{font:700 40px/1 ui-monospace,monospace;color:var(--accent);
+  letter-spacing:.02em}
+.calc__big em{font-style:normal;font-size:12px;color:var(--ink-soft)}
+.calc__row{display:flex;justify-content:space-between;align-items:baseline;gap:16px;
+  padding:9px 0;border-bottom:1px solid var(--line)}
+.calc__row:last-child{border-bottom:0}
+.calc__row i{font-style:normal;font-size:13px;color:var(--ink-soft)}
+.calc__row b{font:600 16px/1 ui-monospace,monospace;color:var(--ink-strong);
+  letter-spacing:.01em;white-space:nowrap}
+.calc__row.key b{font-size:22px;color:var(--accent)}
+.calc__row.key i{color:var(--ink)}
+.calc__row.warnrow b{color:var(--loss)}
+.calc__row small{display:block;margin-top:3px;font-size:11.5px;color:var(--ink-faint)}
+.calc__warn{margin-top:16px;padding:11px 14px;border-radius:10px;
+  border:1px solid var(--loss-glow);color:var(--loss);font-size:13px;line-height:1.55}
+.calc__ok{margin-top:16px;padding:11px 14px;border-radius:10px;
+  border:1px solid var(--win-glow);color:var(--win);font-size:13px;line-height:1.55}
+.calc__note{margin:20px 0 0;font-size:12px;line-height:1.6;color:var(--ink-faint)}
+.calc__note b{color:var(--ink-soft)}
+.calc__empty{padding:26px 0;text-align:center;font-size:13.5px;color:var(--ink-faint)}
+.calc__empty b{color:var(--loss);font-weight:600}
+@media(max-width:820px){.calc__in{grid-template-columns:repeat(2,1fr)}}
+</style>
+
+<script>
+(function(){
+  var SPEC={"EURUSD": {"size": 100000, "dec": 5, "hint": "1.13600", "tested": true}, "XAUUSD": {"size": 100, "dec": 2, "hint": "2650.00", "tested": false}}, PB=0.5, ST=0.5;
+  // USD по умолчанию: пропы у Дмитрия долларовые. С EUR он получал 58 вместо
+  // 50 и решил, что объём посчитан неверно.
+  var ins='EURUSD', acc=6000, cur='USD';
+  var out=document.getElementById('c-out');
+
+  function num(id){
+    var el=document.getElementById(id); if(!el) return null;
+    var n=parseFloat((el.value||'').trim().replace(',','.'));
+    return isFinite(n)?n:null;
+  }
+  function row(label,value,hint,cls){
+    return '<div class="calc__row '+(cls||'')+'"><i>'+label+
+      (hint?'<small>'+hint+'</small>':'')+'</i><b>'+value+'</b></div>';
+  }
+  function pick(sel,attr,set){
+    document.querySelectorAll(sel).forEach(function(b){
+      b.addEventListener('click',function(){
+        document.querySelectorAll(sel).forEach(function(x){x.classList.remove('on');});
+        b.classList.add('on'); set(b.getAttribute(attr)); draw();
+      });
+    });
+  }
+
+  function draw(){
+    var S=SPEC[ins], d=S.dec;
+    // Курс нужен только чтобы перевести доллары в евро. Для EURUSD он и есть
+    // цена входа — отдельное поле там лишнее и только даёт повод ошибиться.
+    document.getElementById('c-fx-wrap').style.display=
+      (cur==='EUR'&&ins!=='EURUSD')?'':'none';
+    document.getElementById('c-e').placeholder=S.hint;
+
+    var e=num('c-e'), s=num('c-s'), rp=num('c-r');
+    // Называем недостающее поле по имени и подсвечиваем его. Сообщение «введи
+    // точку входа и стоп» бесполезно, когда одно из двух уже введено: человек
+    // смотрит на подсказку в пустом поле и считает его заполненным.
+    var miss=[];
+    if(e===null) miss.push(['c-e','точку входа']);
+    if(s===null) miss.push(['c-s','свой стоп']);
+    ['c-e','c-s'].forEach(function(id){
+      document.getElementById(id).parentNode.classList.remove('need');
+    });
+    miss.forEach(function(m){
+      document.getElementById(m[0]).parentNode.classList.add('need');
+    });
+    if(miss.length){
+      out.innerHTML='<div class="calc__empty">Не хватает: <b>'+
+        miss.map(function(m){return m[1];}).join('</b> и <b>')+
+        '</b>. Считает сразу при вводе, кнопки нет.</div>';
+      return;
+    }
+    if(e===s){
+      out.innerHTML='<div class="calc__empty">Стоп совпал с точкой входа.</div>';
+      return;
+    }
+    var buy = s<e;                       // стоп ниже входа значит покупка
+    var gap = Math.abs(e-s);             // расстояние вход → стоп
+    var lim = buy ? e-PB*gap : e+PB*gap; // лимитка
+    var R   = Math.abs(lim-s);           // ЕДИНИЦА РИСКА: лимитка → стоп = 1%
+    var slw = buy ? s-ST*R : s+ST*R;     // куда стоп уедет после перетяжки
+
+    // Лимитка вынесена в рамку и оторвана от остальных строк. 9 сентября
+    // Дмитрий сказал прямо: «заебало путаться, у меня точка входа
+    // потенциальная, а должно быть лимитка». Он вводит одну цену и видит
+    // рядом другую — в одинаковых строках они сливаются. Здесь это главное
+    // число страницы, всё остальное вокруг него.
+    var html='';
+    html+='<div class="calc__big"><span>СТАВИТЬ ОРДЕР СЮДА</span>'+
+          '<b>'+lim.toFixed(d)+'</b>'+
+          '<em>'+(buy?'Buy Limit':'Sell Limit')+
+          ' · на 0,5 расстояния от твоей точки входа '+e.toFixed(d)+'</em></div>';
+    html+=row('Стоп', s.toFixed(d), 'твой уровень — это 1R','key');
+    html+=row('Перетяжка, крайний уровень', slw.toFixed(d),
+              'это '+(1+ST).toFixed(1)+'R — дальше не двигать','warnrow');
+
+    if(rp!==null){
+      var money=acc*rp/100;
+      // Инструменты котируются в долларах. Счёт в евро — переводим: для EURUSD
+      // курс это сама цена, для остального берём поле.
+      var fx=(cur==='USD')?1:(ins==='EURUSD'?lim:(num('c-fx')||1.16));
+      var lots=money/(R*S.size/fx);
+      html+=row('Риск', money.toFixed(2)+' '+cur,
+                rp+'% от '+acc.toLocaleString('ru-RU')+' — станет '+
+                (money*(1+ST)).toFixed(2)+' если сдвинешь стоп');
+      html+=row('Объём','≈ '+lots.toFixed(2)+' лота','сверь в терминале','key');
+      // Здесь стояла строка «Терминал покажет» с риском от текущей цены. Она
+      // была построена на моей догадке о том, что MT5 рисует для отложенного
+      // ордера, — а он до исполнения не показывает ничего. Дмитрий это увидел
+      // сразу. Не возвращать: страница показывает только то, что посчитано
+      // здесь, и не берётся предсказывать чужой интерфейс.
+    }
+
+    // Тейка здесь нет вообще. 9 сентября Дмитрий сначала попросил не предлагать
+    // цель, а следом убрать и поле: решение о ней принимает он, и калькулятору
+    // о ней знать незачем. Считаются только вход, стоп и объём.
+
+    if(!S.tested){
+      html+='<div class="calc__warn"><b>По золоту это допущение.</b> '+
+        'Схема проверена на 96 сделках EURUSD, данных по XAUUSD нет. '+
+        'Геометрия перенесена как есть — набирай статистику, пересчитаем.</div>';
+    }
+    out.innerHTML=html;
+  }
+
+  pick('.calc__ins','data-ins',function(v){ins=v;});
+  pick('.calc__acc','data-acc',function(v){acc=parseFloat(v);});
+  pick('.calc__cur','data-cur',function(v){cur=v;});
+  ['c-e','c-s','c-r','c-fx'].forEach(function(id){
+    var el=document.getElementById(id);
+    if(el) el.addEventListener('input',draw);
+  });
+  draw();
+})();
+</script>
+
+<style>
+/* Идёт ПОСЛЕ стилей калькулятора и потому перекрывает их. Если поставить
+   выше, .calc из section() выиграет по порядку и телефон получит поля
+   рабочего стола. */
+.calc{max-width:640px;margin:0 auto;padding:16px 14px 12px;border-radius:14px}
+.calc__h{font-size:17px}
+.calc__lead{font-size:12.5px;margin-bottom:16px}
+.calc__pick{gap:16px;margin-bottom:16px;padding-bottom:14px}
+.calc__pick button{padding:9px 12px;font-size:14px}
+.calc__in{grid-template-columns:repeat(2,1fr);gap:10px}
+/* На телефоне поле должно быть не меньше 16px, иначе Safari зумит страницу
+   при фокусе и вёрстка уезжает. */
+.calc__in input{font-size:16px;padding:11px}
+.calc__big{padding:18px 14px}
+.calc__big b{font-size:34px}
+.calc__row b{font-size:15px}
+.calc__row.key b{font-size:19px}
+@media(max-width:400px){.calc__big b{font-size:29px}}
+</style>
+</body></html>
