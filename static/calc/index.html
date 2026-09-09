@@ -40,7 +40,10 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
   <div class="calc__in">
     <label>Зашёл бы по рынку<input id="c-e" inputmode="decimal" placeholder="1.13600"></label>
     <label>Твой стоп<input id="c-s" inputmode="decimal" placeholder="1.13500"></label>
-    <label><span class="calc__lbl">Риск, %<b id="c-money"></b></span><input id="c-r" inputmode="decimal" value="1.0"></label>
+    <label>Риск, %<input id="c-r" inputmode="decimal" value="1.0"></label>
+    <!-- Сумма риска — своя ячейка рядом с процентом, а не подпись мелочью.
+         Выглядит как поле ввода, но не редактируется: это результат. -->
+    <label>Риск в деньгах<div id="c-money" class="calc__val">—</div></label>
     <!-- Курс нужен только для золота на евровом счёте. Спрятан прямо в
          разметке, а не только скриптом: если JS почему-то не выполнится,
          поле не должно висеть без дела. Именно так 9 сентября обнаружилось,
@@ -52,8 +55,8 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
 
   <p class="calc__note">
     В окно Buy&nbsp;Limit вписывай <b>лимитку, стоп и тейк сразу</b> — отложенный
-    ордер несёт их с собой. Перетяжку делаешь потом и только если цена подошла:
-    это разрешение, а не план.
+    ордер несёт их с собой, ждать исполнения и двигать что-то потом не нужно.
+    Не взяло к 18:00 — снимаешь ордер и ждёшь следующего дня.
   </p>
 </section>
 
@@ -78,11 +81,13 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
 .calc__in{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:22px}
 .calc__in label{display:flex;flex-direction:column;gap:6px;
   font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint)}
-/* Сумма риска стоит справа от подписи «Риск, %» — рядом с процентом, из
-   которого она посчитана, а не отдельной строкой в самом низу выдачи. */
-.calc__lbl{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
-.calc__lbl b{color:var(--accent);font-weight:600;letter-spacing:0;
-  font:600 12px/1 ui-monospace,monospace}
+/* Ячейка суммы риска. Повторяет геометрию поля ввода, чтобы стояла с ним в
+   одну линию, но подчёркнуто не редактируется: рамка приглушена, цвет
+   акцентный — это результат, а не то, что вводят. */
+.calc__val{padding:9px 11px;border:1px dashed var(--line-hover);border-radius:9px;
+  color:var(--accent);font:600 15px/1.2 ui-monospace,monospace;
+  letter-spacing:.01em;box-sizing:border-box;white-space:nowrap;
+  overflow:hidden;text-overflow:ellipsis}
 .calc__in input{padding:9px 11px;border:1px solid var(--line-hover);border-radius:9px;
   background:transparent;color:var(--ink-strong);font:15px/1.2 ui-monospace,monospace;
   outline:none;transition:border-color .15s;width:100%;box-sizing:border-box}
@@ -174,7 +179,7 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
     });
     // Сумма риска живёт вне блока выдачи, поэтому её надо гасить самому:
     // иначе при очистке поля рядом с процентом останется старое число.
-    if(miss.length||e===s) document.getElementById('c-money').textContent='';
+    if(miss.length||e===s) document.getElementById('c-money').textContent='—';
     if(miss.length){
       out.innerHTML='<div class="calc__empty">Не хватает: <b>'+
         miss.map(function(m){return m[1];}).join('</b> и <b>')+
@@ -197,7 +202,7 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
     // рядом другую — в одинаковых строках они сливаются. Здесь это главное
     // число страницы, всё остальное вокруг него.
     var html='';
-    html+='<div class="calc__big"><span>СТАВИТЬ ОРДЕР СЮДА</span>'+
+    html+='<div class="calc__big"><span>ЛИМИТКА ЗДЕСЬ</span>'+
           '<b>'+lim.toFixed(d)+'</b>'+
           '<em>'+(buy?'Buy Limit':'Sell Limit')+
           ' · на 0,5 расстояния от твоей точки входа '+e.toFixed(d)+'</em></div>';
@@ -205,7 +210,7 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
     // дублировать введённое им же — только повод перепутать поля.
     // В ордер идёт сразу дальний уровень: тянет стоп он всегда при
     // исполнении, значит нет смысла сначала ставить ближний.
-    html+=row('Ставить стоп сюда', slw.toFixed(d),
+    html+=row('Лимитный стоп', slw.toFixed(d),
               (1+ST).toFixed(1)+'R от лимитки — дальше не двигать','key');
 
     if(rp!==null){
@@ -262,7 +267,7 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
 .calc__in{grid-template-columns:repeat(2,1fr);gap:10px}
 /* На телефоне поле должно быть не меньше 16px, иначе Safari зумит страницу
    при фокусе и вёрстка уезжает. */
-.calc__in input{font-size:16px;padding:11px}
+.calc__in input,.calc__val{font-size:16px;padding:11px}
 .calc__big{padding:18px 14px}
 .calc__big b{font-size:34px}
 .calc__row b{font-size:15px}
