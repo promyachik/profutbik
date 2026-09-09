@@ -18,7 +18,7 @@
     "published_iso": "2026-08-27T12:00:00+00:00"
   },
   "discovered_at": "2026-09-06T17:26:39.114814+00:00",
-  "enriched_at": "2026-09-09T16:33:32.005991+00:00",
+  "enriched_at": "2026-09-09T19:28:06.099986+00:00",
   "tm_to_club_id": "59024",
   "tm_player_id": "494586",
   "birth_date": "1999-03-04",
@@ -50,15 +50,16 @@
   "transfer_date": "2026-08-27",
   "national_team_debut": "",
   "squad_analysis": {
-    "same_position_count": 3,
+    "same_position_count": 4,
     "same_position_names": [
+      "Rodrigo Becão",
       "Mitja Krizan",
       "Artem Meshchaninov",
       "Dmitriy Tananeev"
     ],
     "value_rank": 1,
-    "squad_total": 27,
-    "younger_than": 13
+    "squad_total": 28,
+    "younger_than": 14
   },
   "to_club_official_name": "Rodina Moscow",
   "to_club_context": {
