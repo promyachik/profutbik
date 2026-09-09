@@ -17,8 +17,8 @@
     "published": "Fri, 28 Aug 2026 20:48:59 GMT",
     "published_iso": "2026-08-28T20:48:59+00:00"
   },
-  "discovered_at": "2026-09-09T06:37:25.894623+00:00",
-  "enriched_at": "2026-09-09T06:39:00.043822+00:00",
+  "discovered_at": "2026-09-09T11:48:50.152096+00:00",
+  "enriched_at": "2026-09-09T11:49:52.105972+00:00",
   "tm_to_club_id": "631",
   "found_in": "local_index",
   "tm_from_club_id": "162",
@@ -59,13 +59,13 @@
       "Jordan Henderson"
     ],
     "value_rank": null,
-    "squad_total": 28,
+    "squad_total": 27,
     "younger_than": 16
   },
   "to_club_official_name": "Chelsea FC",
   "to_club_context": {
-    "squad_size": 28,
-    "average_age": "24.5",
+    "squad_size": 27,
+    "average_age": "24.6",
     "squad_value": {
       "prefix": "€",
       "content": "1.08",
@@ -73,7 +73,7 @@
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "38.74",
+      "content": "39.88",
       "suffix": "M"
     },
     "stadium": "Fulham Road",
@@ -82,5 +82,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "lamine-camara-chelsea",
-  "rumor_published_at": "2026-09-09T06:39:30.979084+00:00"
+  "rumor_published_at": "2026-09-09T11:50:13.000117+00:00"
 }
