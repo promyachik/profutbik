@@ -40,7 +40,7 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
   <div class="calc__in">
     <label>Зашёл бы по рынку<input id="c-e" inputmode="decimal" placeholder="1.13600"></label>
     <label>Твой стоп<input id="c-s" inputmode="decimal" placeholder="1.13500"></label>
-    <label>Риск, %<input id="c-r" inputmode="decimal" value="1.0"></label>
+    <label><span class="calc__lbl">Риск, %<b id="c-money"></b></span><input id="c-r" inputmode="decimal" value="1.0"></label>
     <!-- Курс нужен только для золота на евровом счёте. Спрятан прямо в
          разметке, а не только скриптом: если JS почему-то не выполнится,
          поле не должно висеть без дела. Именно так 9 сентября обнаружилось,
@@ -78,6 +78,11 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
 .calc__in{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:22px}
 .calc__in label{display:flex;flex-direction:column;gap:6px;
   font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint)}
+/* Сумма риска стоит справа от подписи «Риск, %» — рядом с процентом, из
+   которого она посчитана, а не отдельной строкой в самом низу выдачи. */
+.calc__lbl{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.calc__lbl b{color:var(--accent);font-weight:600;letter-spacing:0;
+  font:600 12px/1 ui-monospace,monospace}
 .calc__in input{padding:9px 11px;border:1px solid var(--line-hover);border-radius:9px;
   background:transparent;color:var(--ink-strong);font:15px/1.2 ui-monospace,monospace;
   outline:none;transition:border-color .15s;width:100%;box-sizing:border-box}
@@ -167,6 +172,9 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
     miss.forEach(function(m){
       document.getElementById(m[0]).parentNode.classList.add('need');
     });
+    // Сумма риска живёт вне блока выдачи, поэтому её надо гасить самому:
+    // иначе при очистке поля рядом с процентом останется старое число.
+    if(miss.length||e===s) document.getElementById('c-money').textContent='';
     if(miss.length){
       out.innerHTML='<div class="calc__empty">Не хватает: <b>'+
         miss.map(function(m){return m[1];}).join('</b> и <b>')+
@@ -193,9 +201,12 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
           '<b>'+lim.toFixed(d)+'</b>'+
           '<em>'+(buy?'Buy Limit':'Sell Limit')+
           ' · на 0,5 расстояния от твоей точки входа '+e.toFixed(d)+'</em></div>';
-    html+=row('Стоп', s.toFixed(d), 'твой уровень — это 1R','key');
-    html+=row('Перетяжка, крайний уровень', slw.toFixed(d),
-              'это '+(1+ST).toFixed(1)+'R — дальше не двигать','warnrow');
+    // Строки «Стоп» здесь нет: этот уровень Дмитрий сам вводит выше, и
+    // дублировать введённое им же — только повод перепутать поля.
+    // В ордер идёт сразу дальний уровень: тянет стоп он всегда при
+    // исполнении, значит нет смысла сначала ставить ближний.
+    html+=row('Ставить стоп сюда', slw.toFixed(d),
+              (1+ST).toFixed(1)+'R от лимитки — дальше не двигать','key');
 
     if(rp!==null){
       var money=acc*rp/100;
@@ -203,10 +214,12 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
       // курс это сама цена, для остального берём поле.
       var fx=(cur==='USD')?1:(ins==='EURUSD'?lim:(num('c-fx')||1.16));
       var lots=money/(R*S.size/fx);
-      html+=row('Риск', money.toFixed(2)+' '+cur,
-                rp+'% от '+acc.toLocaleString('ru-RU')+' — станет '+
-                (money*(1+ST)).toFixed(2)+' если сдвинешь стоп');
-      html+=row('Объём','≈ '+lots.toFixed(2)+' лота','сверь в терминале','key');
+      // Сумма риска переехала наверх, к полю процента: там её видно рядом с
+      // тем числом, из которого она берётся. Отдельной строки внизу больше нет.
+      document.getElementById('c-money').textContent=money.toFixed(2)+' '+cur;
+      html+=row('Объём','≈ '+lots.toFixed(2)+' лота',
+                'посчитан под '+money.toFixed(2)+' '+cur+
+                ' — на стопе 1,5R потеряешь '+(money*(1+ST)).toFixed(2),'key');
       // Здесь стояла строка «Терминал покажет» с риском от текущей цены. Она
       // была построена на моей догадке о том, что MT5 рисует для отложенного
       // ордера, — а он до исполнения не показывает ничего. Дмитрий это увидел
