@@ -18,7 +18,7 @@
     "published_iso": "2026-08-30T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.567838+00:00",
-  "enriched_at": "2026-09-09T11:50:09.448874+00:00",
+  "enriched_at": "2026-09-09T16:33:49.353118+00:00",
   "tm_to_club_id": "1025",
   "tm_player_id": "368891",
   "birth_date": "2000-05-25",
@@ -62,13 +62,13 @@
       "Nicolò Casale"
     ],
     "value_rank": 1,
-    "squad_total": 26,
+    "squad_total": 27,
     "younger_than": 12
   },
   "to_club_official_name": "Bologna FC 1909",
   "to_club_context": {
-    "squad_size": 26,
-    "average_age": "26.6",
+    "squad_size": 27,
+    "average_age": "26.3",
     "squad_value": {
       "prefix": "€",
       "content": "216.75",
@@ -76,7 +76,7 @@
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "8.34",
+      "content": "8.03",
       "suffix": "M"
     },
     "stadium": "Via Casteldebole 10",
