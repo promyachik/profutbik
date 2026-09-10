@@ -1,3 +1,19 @@
+{{/* 120×120 стоит первой намеренно: Яндекс.Вебмастер 5 сентября прислал
+     замечание, что на сайте нет иконки в SVG или размером 120×120, и брал
+     он только ту единственную, что была подключена в шапке. Файл получен
+     уменьшением apple-touch-icon.png — рисунок тот же, перерисовки нет. */}}
+<link
+    rel="icon"
+    type="image/png"
+    sizes="120x120"
+    href="{{ "favicon-120x120.png" | relURL }}"
+>
+<link
+    rel="icon"
+    type="image/png"
+    sizes="192x192"
+    href="{{ "favicon-192x192.png" | relURL }}"
+>
 <link
     rel="icon"
     type="image/png"
