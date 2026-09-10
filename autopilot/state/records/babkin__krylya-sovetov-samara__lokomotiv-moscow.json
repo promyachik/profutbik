@@ -18,7 +18,7 @@
     "published_iso": "2026-08-21T12:00:00+00:00"
   },
   "discovered_at": "2026-09-06T17:26:39.115402+00:00",
-  "enriched_at": "2026-09-10T04:31:13.569061+00:00",
+  "enriched_at": "2026-09-10T09:07:23.585770+00:00",
   "tm_to_club_id": "932",
   "tm_player_id": "622461",
   "birth_date": "2002-09-25",
@@ -50,16 +50,16 @@
   "transfer_date": "2026-08-21",
   "national_team_debut": "",
   "squad_analysis": {
-    "same_position_count": 4,
+    "same_position_count": 5,
     "same_position_names": [
       "Lucas Vera",
       "Aleksandr Kovalenko",
-      "Danila Godyaev",
-      "Ilya Eremeev"
+      "Nikolay Titkov",
+      "Danila Godyaev"
     ],
     "value_rank": 15,
     "squad_total": 28,
-    "younger_than": 15
+    "younger_than": 16
   },
   "to_club_official_name": "Lokomotiv Moscow",
   "to_club_context": {

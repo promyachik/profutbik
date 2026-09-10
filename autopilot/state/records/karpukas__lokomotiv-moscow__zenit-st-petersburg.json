@@ -18,7 +18,7 @@
     "published_iso": "2026-08-21T12:00:00+00:00"
   },
   "discovered_at": "2026-09-06T17:26:39.114112+00:00",
-  "enriched_at": "2026-09-10T04:32:27.452120+00:00",
+  "enriched_at": "2026-09-10T09:08:11.729743+00:00",
   "tm_to_club_id": "964",
   "tm_player_id": "691920",
   "birth_date": "2002-06-13",
@@ -55,7 +55,7 @@
       "Wilmar Barrios"
     ],
     "value_rank": 10,
-    "squad_total": 25,
+    "squad_total": 24,
     "younger_than": 14
   },
   "to_club_official_name": "Zenit St. Petersburg",
