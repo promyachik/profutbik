@@ -17,8 +17,8 @@
     "published": "Tue, 18 Aug 2026 21:02:44 GMT",
     "published_iso": "2026-08-18T21:02:44+00:00"
   },
-  "discovered_at": "2026-09-09T21:55:22.228861+00:00",
-  "enriched_at": "2026-09-09T21:56:48.688287+00:00",
+  "discovered_at": "2026-09-10T00:06:07.984636+00:00",
+  "enriched_at": "2026-09-10T00:07:23.846210+00:00",
   "tm_to_club_id": "1114",
   "found_in": "local_index",
   "tm_from_club_id": "27",
@@ -69,7 +69,7 @@
   "to_club_official_name": "Al-Hilal SFC",
   "to_club_context": {
     "squad_size": 28,
-    "average_age": "27.3",
+    "average_age": "27.4",
     "squad_value": {
       "prefix": "€",
       "content": "239.88",
