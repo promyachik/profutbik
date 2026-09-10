@@ -132,7 +132,7 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
 
 <script>
 (function(){
-  var SPEC={"EURUSD": {"size": 100000, "dec": 5, "hint": "1.13600", "tested": true, "spec": true, "lo": 0.4, "hi": 3.0}, "XAUUSD": {"size": 100, "dec": 2, "hint": "2650.00", "tested": false, "spec": false, "lo": 800, "hi": 6000}, "SPX500": {"size": 10, "dec": 2, "hint": "7638.00", "tested": false, "spec": true, "lo": 3000, "hi": 20000}}, PB=0.5, ST=0.5;
+  var SPEC={"EURUSD": {"size": 100000, "dec": 5, "hint": "1.13600", "hint_s": "1.13500", "tested": true, "spec": true, "lo": 0.4, "hi": 3.0}, "XAUUSD": {"size": 100, "dec": 2, "hint": "2650.00", "hint_s": "2645.00", "tested": false, "spec": false, "lo": 800, "hi": 6000}, "SPX500": {"size": 10, "dec": 2, "hint": "7638.00", "hint_s": "7620.00", "tested": false, "spec": true, "lo": 3000, "hi": 20000}}, PB=0.5, ST=0.5;
   // USD по умолчанию: пропы у Дмитрия долларовые. С EUR он получал 58 вместо
   // 50 и решил, что объём посчитан неверно.
   var ins='EURUSD', acc=6000, cur='USD';
@@ -162,7 +162,11 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
     // цена входа — отдельное поле там лишнее и только даёт повод ошибиться.
     document.getElementById('c-fx-wrap').style.display=
       (cur==='EUR'&&ins!=='EURUSD')?'':'none';
+    // Подсказки обоих полей меняются вместе с инструментом. Раньше менялась
+    // только первая, и при выбранном золоте в поле стопа висела цена
+    // евродоллара — 10 сентября Дмитрий на это и указал.
     document.getElementById('c-e').placeholder=S.hint;
+    document.getElementById('c-s').placeholder=S.hint_s;
 
     var e=num('c-e'), s=num('c-s'), rp=num('c-r');
     // Называем недостающее поле по имени и подсвечиваем его. Сообщение «введи
