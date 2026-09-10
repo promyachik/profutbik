@@ -132,7 +132,7 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
 
 <script>
 (function(){
-  var SPEC={"EURUSD": {"size": 100000, "dec": 5, "hint": "1.13600", "tested": true, "spec": true}, "XAUUSD": {"size": 100, "dec": 2, "hint": "2650.00", "tested": false, "spec": false}, "SPX500": {"size": 10, "dec": 2, "hint": "7638.00", "tested": false, "spec": true}}, PB=0.5, ST=0.5;
+  var SPEC={"EURUSD": {"size": 100000, "dec": 5, "hint": "1.13600", "tested": true, "spec": true, "lo": 0.4, "hi": 3.0}, "XAUUSD": {"size": 100, "dec": 2, "hint": "2650.00", "tested": false, "spec": false, "lo": 800, "hi": 6000}, "SPX500": {"size": 10, "dec": 2, "hint": "7638.00", "tested": false, "spec": true, "lo": 3000, "hi": 20000}}, PB=0.5, ST=0.5;
   // USD по умолчанию: пропы у Дмитрия долларовые. С EUR он получал 58 вместо
   // 50 и решил, что объём посчитан неверно.
   var ins='EURUSD', acc=6000, cur='USD';
@@ -188,6 +188,22 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
     }
     if(e===s){
       out.innerHTML='<div class="calc__empty">Стоп совпал с точкой входа.</div>';
+      return;
+    }
+    // Инструмент забыть переключить легко: цены у трёх инструментов
+    // различаются на порядки, а поля выглядят одинаково. 10 сентября Дмитрий
+    // ввёл индексные цены при выбранном EURUSD и получил объём 0.00 без
+    // единого слова о причине. Считать в такой ситуации нельзя — можно только
+    // сказать, что не так.
+    if(e<S.lo||e>S.hi){
+      var fits=Object.keys(SPEC).filter(function(k){
+        return e>=SPEC[k].lo && e<=SPEC[k].hi;
+      });
+      out.innerHTML='<div class="calc__warn"><b>Цена не похожа на '+ins+'.</b> '+
+        (fits.length ? 'Это цена '+fits.join(' или ')+' — переключи инструмент сверху.'
+                     : 'Для '+ins+' ожидается что-то между '+S.lo+' и '+S.hi+'.')+
+        '</div>';
+      document.getElementById('c-money').textContent='—';
       return;
     }
     var buy = s<e;                       // стоп ниже входа значит покупка
