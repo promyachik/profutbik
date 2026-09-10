@@ -29,7 +29,7 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
   </p>
 
   <div class="calc__pick">
-    <div class="calc__grp"><span>Инструмент</span><div><button type="button" class="calc__ins on" data-ins="EURUSD">EURUSD</button><button type="button" class="calc__ins" data-ins="XAUUSD">XAUUSD</button><button type="button" class="calc__ins" data-ins="SPX500USD">SPX500USD</button></div></div>
+    <div class="calc__grp"><span>Инструмент</span><div><button type="button" class="calc__ins on" data-ins="EURUSD">EURUSD</button><button type="button" class="calc__ins" data-ins="XAUUSD">XAUUSD</button><button type="button" class="calc__ins" data-ins="SPX500">SPX500</button></div></div>
     <div class="calc__grp"><span>Счёт</span><div><button type="button" class="calc__acc" data-acc="5000">5k</button><button type="button" class="calc__acc on" data-acc="6000">6k</button><button type="button" class="calc__acc" data-acc="10000">10k</button><button type="button" class="calc__acc" data-acc="15000">15k</button><button type="button" class="calc__acc" data-acc="25000">25k</button></div></div>
     <div class="calc__grp"><span>Валюта счёта</span><div>
       <button type="button" class="calc__cur" data-cur="EUR">EUR</button>
@@ -132,7 +132,7 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
 
 <script>
 (function(){
-  var SPEC={"EURUSD": {"size": 100000, "dec": 5, "hint": "1.13600", "tested": true, "spec": true}, "XAUUSD": {"size": 100, "dec": 2, "hint": "2650.00", "tested": false, "spec": false}, "SPX500USD": {"size": 1, "dec": 2, "hint": "5480.00", "tested": false, "spec": true}}, PB=0.5, ST=0.5;
+  var SPEC={"EURUSD": {"size": 100000, "dec": 5, "hint": "1.13600", "tested": true, "spec": true}, "XAUUSD": {"size": 100, "dec": 2, "hint": "2650.00", "tested": false, "spec": false}, "SPX500": {"size": 10, "dec": 2, "hint": "7638.00", "tested": false, "spec": true}}, PB=0.5, ST=0.5;
   // USD по умолчанию: пропы у Дмитрия долларовые. С EUR он получал 58 вместо
   // 50 и решил, что объём посчитан неверно.
   var ins='EURUSD', acc=6000, cur='USD';
