@@ -29,7 +29,7 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
   </p>
 
   <div class="calc__pick">
-    <div class="calc__grp"><span>Инструмент</span><div><button type="button" class="calc__ins on" data-ins="EURUSD">EURUSD</button><button type="button" class="calc__ins" data-ins="XAUUSD">XAUUSD</button></div></div>
+    <div class="calc__grp"><span>Инструмент</span><div><button type="button" class="calc__ins on" data-ins="EURUSD">EURUSD</button><button type="button" class="calc__ins" data-ins="XAUUSD">XAUUSD</button><button type="button" class="calc__ins" data-ins="SPX500USD">SPX500USD</button></div></div>
     <div class="calc__grp"><span>Счёт</span><div><button type="button" class="calc__acc" data-acc="5000">5k</button><button type="button" class="calc__acc on" data-acc="6000">6k</button><button type="button" class="calc__acc" data-acc="10000">10k</button><button type="button" class="calc__acc" data-acc="15000">15k</button><button type="button" class="calc__acc" data-acc="25000">25k</button></div></div>
     <div class="calc__grp"><span>Валюта счёта</span><div>
       <button type="button" class="calc__cur" data-cur="EUR">EUR</button>
@@ -132,7 +132,7 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
 
 <script>
 (function(){
-  var SPEC={"EURUSD": {"size": 100000, "dec": 5, "hint": "1.13600", "tested": true}, "XAUUSD": {"size": 100, "dec": 2, "hint": "2650.00", "tested": false}}, PB=0.5, ST=0.5;
+  var SPEC={"EURUSD": {"size": 100000, "dec": 5, "hint": "1.13600", "tested": true}, "XAUUSD": {"size": 100, "dec": 2, "hint": "2650.00", "tested": false}, "SPX500USD": {"size": 1, "dec": 2, "hint": "5480.00", "tested": false}}, PB=0.5, ST=0.5;
   // USD по умолчанию: пропы у Дмитрия долларовые. С EUR он получал 58 вместо
   // 50 и решил, что объём посчитан неверно.
   var ins='EURUSD', acc=6000, cur='USD';
@@ -225,6 +225,15 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
       html+=row('Объём','≈ '+lots.toFixed(2)+' лота',
                 'посчитан под '+money.toFixed(2)+' '+cur+
                 ' — на стопе 1,5R потеряешь '+(money*(1+ST)).toFixed(2),'key');
+      // Цена одного пункта на лот. Единственное число, по которому Дмитрий
+      // может за секунду поймать неверный размер контракта: если в терминале
+      // не так, объём врёт во столько же раз.
+      if(!S.tested){
+        html+=row('Размер контракта', S.size.toLocaleString('ru-RU'),
+                  'MT5 → правой по символу → Спецификация. Не сходится — '+
+                  'объём врёт во столько же раз. 1 пункт на лоте = '+
+                  (S.size/fx).toFixed(2)+' '+cur);
+      }
       // Здесь стояла строка «Терминал покажет» с риском от текущей цены. Она
       // была построена на моей догадке о том, что MT5 рисует для отложенного
       // ордера, — а он до исполнения не показывает ничего. Дмитрий это увидел
@@ -237,9 +246,10 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
     // о ней знать незачем. Считаются только вход, стоп и объём.
 
     if(!S.tested){
-      html+='<div class="calc__warn"><b>По золоту это допущение.</b> '+
-        'Схема проверена на 96 сделках EURUSD, данных по XAUUSD нет. '+
-        'Геометрия перенесена как есть — набирай статистику, пересчитаем.</div>';
+      html+='<div class="calc__warn"><b>По '+ins+' это допущение.</b> '+
+        'Схема проверена на 96 сделках EURUSD, других данных нет. '+
+        'И размер контракта здесь не сверен с твоим пропом — проверь строку '+
+        'выше, прежде чем ставить объём.</div>';
     }
     out.innerHTML=html;
   }
