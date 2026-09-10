@@ -132,7 +132,7 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
 
 <script>
 (function(){
-  var SPEC={"EURUSD": {"size": 100000, "dec": 5, "hint": "1.13600", "tested": true}, "XAUUSD": {"size": 100, "dec": 2, "hint": "2650.00", "tested": false}, "SPX500USD": {"size": 1, "dec": 2, "hint": "5480.00", "tested": false}}, PB=0.5, ST=0.5;
+  var SPEC={"EURUSD": {"size": 100000, "dec": 5, "hint": "1.13600", "tested": true, "spec": true}, "XAUUSD": {"size": 100, "dec": 2, "hint": "2650.00", "tested": false, "spec": false}, "SPX500USD": {"size": 1, "dec": 2, "hint": "5480.00", "tested": false, "spec": true}}, PB=0.5, ST=0.5;
   // USD по умолчанию: пропы у Дмитрия долларовые. С EUR он получал 58 вместо
   // 50 и решил, что объём посчитан неверно.
   var ins='EURUSD', acc=6000, cur='USD';
@@ -228,7 +228,7 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
       // Цена одного пункта на лот. Единственное число, по которому Дмитрий
       // может за секунду поймать неверный размер контракта: если в терминале
       // не так, объём врёт во столько же раз.
-      if(!S.tested){
+      if(!S.spec){
         html+=row('Размер контракта', S.size.toLocaleString('ru-RU'),
                   'MT5 → правой по символу → Спецификация. Не сходится — '+
                   'объём врёт во столько же раз. 1 пункт на лоте = '+
@@ -248,8 +248,9 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
     if(!S.tested){
       html+='<div class="calc__warn"><b>По '+ins+' это допущение.</b> '+
         'Схема проверена на 96 сделках EURUSD, других данных нет. '+
-        'И размер контракта здесь не сверен с твоим пропом — проверь строку '+
-        'выше, прежде чем ставить объём.</div>';
+        (S.spec?'Размер контракта сверен с твоим пропом, объём верный.'
+              :'И размер контракта не сверен — проверь строку выше, '+
+               'прежде чем ставить объём.')+'</div>';
     }
     out.innerHTML=html;
   }
