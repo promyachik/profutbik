@@ -7,8 +7,8 @@
   "from_club": "LOSC Lille",
   "to_club": "Manchester City",
   "fee_raw": "",
-  "verdict": "NEW_CANDIDATE",
-  "pipeline_state": "ENRICHED",
+  "verdict": "DUPLICATE_EXISTING",
+  "pipeline_state": "SKIPPED_DUPLICATE",
   "backfill": true,
   "source": {
     "publisher": "Transfermarkt",
@@ -18,7 +18,7 @@
     "published_iso": "2026-08-26T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.542347+00:00",
-  "enriched_at": "2026-09-11T13:30:44.467778+00:00",
+  "enriched_at": "2026-09-11T17:09:33.289122+00:00",
   "tm_to_club_id": "281",
   "tm_player_id": "1097139",
   "birth_date": "2007-10-02",
@@ -73,7 +73,7 @@
     "stadium": "Etihad Stadium, Etihad Campus",
     "city": "Manchester"
   },
-  "verdict_reason": "",
+  "verdict_reason": "TM ID 1097139 уже на сайте: ayyoub-bouaddi-manchester-city",
   "block_reason": "",
   "block_detail": ""
 }

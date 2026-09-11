@@ -8,7 +8,7 @@
   "fee_raw": "",
   "verdict": "NEW_CANDIDATE",
   "verdict_reason": "",
-  "pipeline_state": "RUMOR_READY",
+  "pipeline_state": "PUBLISHED_AS_RUMOR",
   "source": {
     "publisher": "BBC Sport",
     "tier": "major_media",
@@ -17,8 +17,8 @@
     "published": "Tue, 01 Sep 2026 05:43:23 GMT",
     "published_iso": "2026-09-01T05:43:23+00:00"
   },
-  "discovered_at": "2026-09-11T13:30:07.722965+00:00",
-  "enriched_at": "2026-09-11T13:31:31.782503+00:00",
+  "discovered_at": "2026-09-11T17:09:07.899852+00:00",
+  "enriched_at": "2026-09-11T17:10:05.649076+00:00",
   "tm_to_club_id": "11",
   "found_in": "local_index",
   "tm_from_club_id": "13",
@@ -80,5 +80,7 @@
     "city": "London"
   },
   "block_reason": "",
-  "block_detail": ""
+  "block_detail": "",
+  "rumor_slug": "julian-alvarez-arsenal",
+  "rumor_published_at": "2026-09-11T17:12:26.649450+00:00"
 }

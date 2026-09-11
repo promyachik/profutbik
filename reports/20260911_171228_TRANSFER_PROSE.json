@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-09-11T17:12:28.039251+00:00",
+  "backup": "/home/runner/work/profutbik/profutbik/patch-backups/20260911_171228_TRANSFER_PROSE",
+  "words_before": 896,
+  "words_after": 1053,
+  "pages": [
+    {
+      "page": "aleksey-batrakov-galatasaray",
+      "was": 207,
+      "now": 237,
+      "added": 1
+    },
+    {
+      "page": "beto-acf-fiorentina",
+      "was": 221,
+      "now": 260,
+      "added": 1
+    },
+    {
+      "page": "david-affengruber-fulham-fc",
+      "was": 217,
+      "now": 259,
+      "added": 1
+    },
+    {
+      "page": "kevin-danso-sunderland-afc",
+      "was": 251,
+      "now": 297,
+      "added": 1
+    }
+  ]
+}

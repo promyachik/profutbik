@@ -145,7 +145,7 @@
     "36": {
       "id": 36,
       "name": "Fulham",
-      "configured_name": "Fulham",
+      "configured_name": "Fulham FC",
       "code": "FUL",
       "country": "England",
       "league_id": 39,
@@ -153,7 +153,7 @@
       "season": 2024,
       "founded": 1879,
       "national": false,
-      "logo": "images/clubs/api/rendered/36-3735bd31a6c7.png",
+      "logo": "images/clubs/api/rendered/36-045eb5922693.png",
       "api_logo": "https://media.api-sports.io/football/teams/36.png",
       "venue": {
         "id": 535,
@@ -2489,7 +2489,7 @@
     "597": {
       "id": 597,
       "name": "Lokomotiv",
-      "configured_name": "Lokomotiv",
+      "configured_name": "Lokomotiv Moscow",
       "code": "LOK",
       "country": "Russia",
       "league_id": 235,
@@ -2497,13 +2497,17 @@
       "season": 2024,
       "founded": 1923,
       "national": false,
-      "logo": "images/clubs/api/597.png",
+      "logo": "images/clubs/api/rendered/597-e48b2db7f8ae.png",
       "api_logo": "https://media.api-sports.io/football/teams/597.png",
       "venue": {
         "id": 1327,
         "name": "RZD Arena",
         "city": "Moskva",
         "capacity": 28800
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "607": {
@@ -2581,7 +2585,7 @@
       "season": 2024,
       "founded": 1905,
       "national": false,
-      "logo": "images/clubs/api/rendered/645-4722b4796f98.png",
+      "logo": "images/clubs/api/rendered/645-886f11d6fb8e.png",
       "api_logo": "https://media.api-sports.io/football/teams/645.png",
       "venue": {
         "id": 22761,
@@ -3484,8 +3488,8 @@
     "797": {
       "id": 797,
       "name": "Elche",
-      "configured_name": "Elche",
-      "logo": "images/clubs/api/rendered/797-f8f6e27d0845.png",
+      "configured_name": "Elche CF",
+      "logo": "images/clubs/api/rendered/797-14e5f82ff1ba.png",
       "api_logo": "https://media.api-sports.io/football/teams/797.png",
       "logo_validation": {
         "mode": "content_hashed_local_png",
