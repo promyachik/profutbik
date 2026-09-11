@@ -1,4 +1,40 @@
 {{ $data := site.Data.homepage_transfer_rumor }}
+
+{{/* PF533C: лига строки считается здесь, а не угадывается скриптом.
+     Раньше home-transfer-show-more.js доставал id клуба из адреса эмблемы по
+     образцу `/clubs/api/84.png`, а эмблемы давно лежат как
+     `/clubs/api/rendered/84-<хэш>.png`; запасной путь шёл по атрибуту alt, а
+     он пустой. Обе дороги вели в никуда, и кнопки лиг на главной нажимались
+     без последствий.
+
+     Справочники те же, что на странице трансферов: club_leagues главнее,
+     club-logos остаётся запасом. Лиг у перехода ДВЕ — откуда и куда, обе идут
+     в атрибут. Иначе уход Батракова из «Локомотива» в «Галатасарай» не попал
+     бы в российскую лигу, хотя для читателя это её новость. */}}
+{{ $clubDirectory := default dict (index (index site.Data "club-logos") "clubs") }}
+{{ $clubLeagues := default dict site.Data.club_leagues.clubs }}
+{{ $rowLeagues := dict }}
+{{ range (append (default slice $data.rumors) (default slice $data.transfers)) }}
+  {{ $ids := slice }}
+  {{ range (slice .from_club_id .to_club_id) }}
+    {{ $key := printf "%v" . }}
+    {{ $id := "" }}
+    {{ with (index $clubLeagues $key) }}{{ $id = printf "%v" . }}{{ end }}
+    {{ if eq $id "" }}
+      {{ with (index $clubDirectory $key) }}
+        {{ with .league_id }}{{ $id = printf "%v" . }}{{ end }}
+      {{ end }}
+    {{ end }}
+    {{ if and (ne $id "") (ne $id "<no value>") (not (in $ids $id)) }}
+      {{ $ids = $ids | append $id }}
+    {{ end }}
+  {{ end }}
+  {{/* Ключ — slug: он есть и у переходов, и у слухов. entity_id здесь не
+       годится, у строк слухов его просто нет, и словарь их не находил. */}}
+  {{ with .slug }}
+    {{ $rowLeagues = merge $rowLeagues (dict (printf "%v" .) (delimit $ids " ")) }}
+  {{ end }}
+{{ end }}
 {{/* PF509C: панели стоят рядом и должны быть одной высоты. Раньше слева
      показывалось семь трансферов (столько разворачивает скрипт), а справа —
      все слухи, сколько есть; при девяти слухах правая колонка свисала.
@@ -1071,7 +1107,7 @@
                всех 104 переходов — 208 файлов ради четырнадцати видимых. */}}
           {{ range $rowIndex, $row := $data.transfers }}
             {{ with $row }}
-            <tr>
+            <tr data-league="{{ index $rowLeagues (printf "%v" .slug) }}">
               <td class="is-player">
                 <a href="{{ .url | relURL }}">{{ partial "pf-player-short-name.html" .player }}</a>
               </td>
@@ -1179,7 +1215,7 @@
       <div class="pf508e-rumors-table-wrap"><table class="pf-home-transfers-table pf399x-transfer-table">
         <tbody>
           {{ range $data.rumors }}
-            <tr>
+            <tr data-league="{{ index $rowLeagues (printf "%v" .slug) }}">
               <td class="is-player">
                 <a href="{{ .url | relURL }}">{{ partial "pf-player-short-name.html" .player }}</a>
               </td>
@@ -1241,7 +1277,7 @@
 /* PF405V_LINK_EXPANDED_HOME_TRANSFER_FEES_END */
 </style>
 
-<script src="{{ "js/home-transfer-show-more.js" | relURL }}?v=pf511a" defer></script>
+<script src="{{ "js/home-transfer-show-more.js" | relURL }}?v=pf533c" defer></script>
 <script src="{{ "js/home-billboard.js" | relURL }}?v=pf511a" defer></script>
 
 <!-- PF403B_HOME_TRANSFER_AMOUNT_CLICK_START -->

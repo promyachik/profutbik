@@ -47,7 +47,39 @@
     });
   }
 
+  // PF533C: лига берётся из атрибута строки, который ставит Hugo по
+  // справочникам клубов. Ниже остался прежний разбор — по адресу эмблемы и по
+  // названию клуба, — но он теперь только запас для старой разметки.
+  //
+  // Почему так: разбор адреса искал `/clubs/api/84.png`, а эмблемы давно
+  // лежат как `/clubs/api/rendered/84-<хэш>.png`, и атрибут alt у них пустой.
+  // Обе дороги вели в никуда, поэтому кнопки лиг на главной нажимались без
+  // последствий, хотя внешне работали.
+  function leaguesFromAttribute(row) {
+    const raw = String(row?.dataset?.league || "").trim();
+    return raw ? new Set(raw.split(/\s+/).filter(Boolean)) : null;
+  }
+
+  // Запас на случай пустого атрибута: у части слухов в данных нет id клубов —
+  // «Atlético Madrid → Barcelona» пришёл без номеров, — и лигу тогда можно
+  // взять только по названию, которое в строке напечатано.
+  function leaguesFromClubNames(row) {
+    const result = new Set();
+    row.querySelectorAll(".pf-club-name-inline").forEach((span) => {
+      addMappedLeagues(result, "", span.textContent);
+    });
+    return result;
+  }
+
   function transferLeagueIds(row) {
+    const declared = leaguesFromAttribute(row);
+    if (declared) {
+      return declared;
+    }
+    const byName = leaguesFromClubNames(row);
+    if (byName.size) {
+      return byName;
+    }
     const result = new Set();
     const images = Array.from(
       row.querySelectorAll("img.pf-club-logo")
@@ -79,6 +111,14 @@
   }
 
   function rumorLeagueIds(item) {
+    const declared = leaguesFromAttribute(item);
+    if (declared) {
+      return declared;
+    }
+    const byName = leaguesFromClubNames(item);
+    if (byName.size) {
+      return byName;
+    }
     const result = new Set();
     const route = item.querySelector(".pf-home-rumors-route");
 
@@ -346,16 +386,24 @@
   }
 
   function initRumorPanel(root) {
-    const list = root.querySelector(".pf-home-rumors-list");
     const empty = ensureEmptyState(root, "rumor");
 
-    if (!list) {
-      return null;
+    // PF533C: слухи рисуются таблицей с правки PF508E, а здесь по-прежнему
+    // искались элементы списка — `.pf-home-rumors-list > li`. Их там больше
+    // нет, поэтому фильтровать было нечего: кнопки лиг меняли трансферы и не
+    // касались слухов. Оба вида разметки поддерживаются: старый список ради
+    // страниц, собранных раньше, и нынешние строки таблицы.
+    let items = Array.from(
+      root.querySelectorAll(".pf-home-rumors-list > li")
+    );
+
+    if (!items.length) {
+      items = Array.from(root.querySelectorAll("table tbody > tr"));
     }
 
-    const items = Array.from(
-      list.querySelectorAll(":scope > li")
-    );
+    if (!items.length) {
+      return null;
+    }
 
     const itemLeagueMap = new Map(
       items.map((item) => [item, rumorLeagueIds(item)])
