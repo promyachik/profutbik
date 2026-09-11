@@ -8,7 +8,7 @@
   "fee_raw": "",
   "verdict": "NEW_CANDIDATE",
   "verdict_reason": "",
-  "pipeline_state": "RUMOR_READY",
+  "pipeline_state": "PUBLISHED_AS_RUMOR",
   "source": {
     "publisher": "BBC Sport",
     "tier": "major_media",
@@ -17,8 +17,8 @@
     "published": "Thu, 10 Sep 2026 20:13:27 GMT",
     "published_iso": "2026-09-10T20:13:27+00:00"
   },
-  "discovered_at": "2026-09-11T19:39:35.402910+00:00",
-  "enriched_at": "2026-09-11T19:41:38.752360+00:00",
+  "discovered_at": "2026-09-11T21:54:24.557754+00:00",
+  "enriched_at": "2026-09-11T21:56:17.359201+00:00",
   "tm_to_club_id": "631",
   "found_in": "local_index",
   "tm_from_club_id": "11",
@@ -80,5 +80,7 @@
     "city": "London"
   },
   "block_reason": "",
-  "block_detail": ""
+  "block_detail": "",
+  "rumor_slug": "martin-zubimendi-chelsea",
+  "rumor_published_at": "2026-09-11T21:56:20.579642+00:00"
 }
