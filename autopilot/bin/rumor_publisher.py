@@ -566,6 +566,10 @@ def resync_homepage() -> int:
             "url": (fm.get("url") or "/rumors/%s/" % slug).lstrip("/"),
             "title": fm.get("title") or "",
             "player": fm.get("player"),
+            # Номер Transfermarkt нужен для отсева дублей: один игрок может
+            # прийти двумя заголовками — «Rashford» и «Marcus Rashford», — и
+            # по именам они не совпадут.
+            "tm_id": str(fm.get("transfermarkt_player_id") or "").strip(),
             "status": status,
             "status_display": display,
             "status_css": css,
@@ -590,6 +594,12 @@ def resync_homepage() -> int:
     # Силва с Альваресом появлялись в блоке дважды. Сравниваем имена без
     # диакритики: в одной записи «Julián Álvarez», в другой «Julian Alvarez».
     def key(row: dict) -> str:
+        # Сначала номер Transfermarkt: он один у игрока при любом написании
+        # имени. Имя остаётся запасным — у старых страниц номера может не
+        # быть, а без ключа строка выпала бы из отсева совсем.
+        tm_id = str(row.get("tm_id") or "").strip()
+        if tm_id and tm_id != "0":
+            return "tm:%s" % tm_id
         name = unicodedata.normalize("NFKD", row.get("player") or "")
         return "".join(c for c in name if not unicodedata.combining(c)).casefold().strip()
 

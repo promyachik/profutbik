@@ -64,8 +64,8 @@ FEEDS = [
 # Обороты, за которыми перехода нет. «Клуб хочет удержать игрока» — это
 # ровно противоположность слуху о переходе, а «plus more» — хвост анонса.
 GOSSIP_NOISE = re.compile(
-    r"(want[s]?\s+to\s+keep|keen\s+to\s+keep|play\s+down|rule[sd]?\s+out|"
-    r"not\s+for\s+sale|stay\s+at|contract\s+talks|new\s+deal|plus\s+more)",
+    r"\b(want[s]?\s+to\s+keep|keen\s+to\s+keep|play\s+down|rule[sd]?\s+out|"
+    r"not\s+for\s+sale|stay\s+at|contract\s+talks|new\s+deal|plus\s+more)\b",
     re.I)
 
 _POSITION = (r"(?:midfielder|striker|defender|forward|winger|goalkeeper|attacker|"
@@ -81,11 +81,11 @@ def strip_descriptors(text: str) -> str:
     представления легко принять за клуб назначения. Проще снять его заранее,
     чем городить оговорки в каждом правиле.
     """
-    text = re.sub(r"[A-Z][\w.-]*(?:\s+[A-Z][\w.-]*){0,2}'s\s+", "", text)
-    text = re.sub(r"(?:ex-|former\s+)?[A-Z][\w.-]*(?:\s+[A-Z][\w.-]*){0,2}\s+%s\s+"
+    text = re.sub(r"\b[A-Z][\w.-]*(?:\s+[A-Z][\w.-]*){0,2}'s\s+", "", text)
+    text = re.sub(r"\b(?:ex-|former\s+)?[A-Z][\w.-]*(?:\s+[A-Z][\w.-]*){0,2}\s+%s\s+"
                   % _POSITION, "", text)
-    text = re.sub(r"%s\s+" % _POSITION, "", text)
-    text = re.sub(r"(?:free\s+agent|free\s+transfer)\s+", "", text, flags=re.I)
+    text = re.sub(r"\b%s\s+" % _POSITION, "", text)
+    text = re.sub(r"\b(?:free\s+agent|free\s+transfer)\s+", "", text, flags=re.I)
     return re.sub(r"\s+", " ", text).strip()
 
 
@@ -328,36 +328,46 @@ EXTRACT_PATTERNS = [
 _NAME = r"[A-Z][\w'’\-]+(?:\s+[A-Z][\w'’\-]+){0,2}"
 _CLUB = r"[A-Z][\w'’&\.\-]*(?:\s+[A-Z][\w'’&\.\-]*){0,3}"
 
+# Слова, которыми в заголовке разбавляют «move for»: «plot early move»,
+# «make January move», «launch fresh bid». Между глаголом и существительным
+# их бывает несколько подряд.
+_MOVE = r"(?:\s+(?:a|an|the|early|late|new|fresh|January|summer|shock|surprise))*"
+
+# «Chelsea and Real Madrid keen on …», «Arsenal & Barca monitor …» — в сводках
+# клубы перечисляют. Берём первый: он назван первым и обычно основной
+# претендент, а второй всё равно некуда положить — у слуха один клуб-адресат.
+CLUB_LIST_RE = re.compile(r"^(%s)\s*(?:&|and)\s+%s\s+" % (_CLUB, _CLUB))
+
 RUMOUR_PATTERNS = [
     # Обороты из ежедневных сводок BBC. Проверены на живой ленте: из 55
     # оговорок разбирается 13 и ещё 13 отсеиваются как заведомо не о переходе.
     # Остальное — обрывки вроде «plus more», за ними сущностей нет.
     (re.compile(r"^(?P<to>%s)\s+(?:were|was|have\s+been|has\s+been)\s+offered\s+"
-                r"(?P<player>%s)" % (_CLUB, _NAME)), "negotiations"),
+                r"(?P<player>%s)\b" % (_CLUB, _NAME)), "negotiations"),
     (re.compile(r"^(?P<to>%s)\s+(?:showed?|show)\s+interest\s+in\s+"
-                r"(?P<player>%s)" % (_CLUB, _NAME)), "rumour"),
+                r"(?P<player>%s)\b" % (_CLUB, _NAME)), "rumour"),
     (re.compile(r"^(?P<to>%s)\s+(?:are\s+|is\s+)?(?:still\s+)?interested\s+in\s+"
-                r"(?:signing\s+)?(?P<player>%s)" % (_CLUB, _NAME)), "rumour"),
+                r"(?:signing\s+)?(?P<player>%s)\b" % (_CLUB, _NAME)), "rumour"),
     (re.compile(r"^(?P<to>%s)\s+(?:are\s+)?consider(?:ing|s)?\s+(?:a\s+)?move\s+for\s+"
-                r"(?P<player>%s)" % (_CLUB, _NAME)), "rumour"),
+                r"(?P<player>%s)\b" % (_CLUB, _NAME)), "rumour"),
     (re.compile(r"^(?P<to>%s)\s+weigh(?:ing)?\s+up\s+(?:a\s+)?moves?\s+for\s+"
-                r"(?P<player>%s)" % (_CLUB, _NAME)), "rumour"),
+                r"(?P<player>%s)\b" % (_CLUB, _NAME)), "rumour"),
     (re.compile(r"^(?P<to>%s)\s+(?:make|makes|made)\s+contact\s+with\s+"
-                r"(?P<player>%s)" % (_CLUB, _NAME)), "negotiations"),
+                r"(?P<player>%s)\b" % (_CLUB, _NAME)), "negotiations"),
     (re.compile(r"^(?P<to>%s)\s+(?:explore|explores|explored)\s+(?:a\s+)?(?:late\s+)?"
-                r"move\s+for\s+(?P<player>%s)" % (_CLUB, _NAME)), "rumour"),
-    (re.compile(r"^(?P<to>%s)\s+monitor(?:ing|s)?\s+(?P<player>%s)"
+                r"move\s+for\s+(?P<player>%s)\b" % (_CLUB, _NAME)), "rumour"),
+    (re.compile(r"^(?P<to>%s)\s+monitor(?:ing|s)?\s+(?P<player>%s)\b"
                 % (_CLUB, _NAME)), "rumour"),
     (re.compile(r"^(?P<to>%s)\s+(?:enquire|enquires|enquired)\s+about\s+"
-                r"(?P<player>%s)" % (_CLUB, _NAME)), "rumour"),
+                r"(?P<player>%s)\b" % (_CLUB, _NAME)), "rumour"),
     (re.compile(r"^(?P<to>%s)\s+(?:tried|try|attempt(?:ed)?)\s+to\s+sign\s+"
-                r"(?P<player>%s)" % (_CLUB, _NAME)), "rumour"),
-    (re.compile(r"^(?P<player>%s)\s+could\s+join\s+(?P<to>%s)"
+                r"(?P<player>%s)\b" % (_CLUB, _NAME)), "rumour"),
+    (re.compile(r"^(?P<player>%s)\s+could\s+join\s+(?P<to>%s)\b"
                 % (_NAME, _CLUB)), "rumour"),
     # «Liverpool reject £30m bid from Nottingham Forest for Trey Nyoni»:
     # отказ — тоже свидетельство интереса, и направление здесь названо прямо.
     (re.compile(r"^(?P<from>%s)\s+reject\w*\s+(?:a\s+)?(?:\W?\d[\d.,]*m\s+)?"
-                r"bid\s+from\s+(?P<to>%s)\s+for\s+(?P<player>%s)"
+                r"bid\s+from\s+(?P<to>%s)\s+for\s+(?P<player>%s)\b"
                 % (_CLUB, _CLUB, _NAME)), "negotiations"),
 
     # "Bissouma was offered to Chelsea"
@@ -382,6 +392,42 @@ RUMOUR_PATTERNS = [
     # "Rangers failed to pursue Ferguson"
     (re.compile(r"^(?P<to>%s)\s+(?:failed\s+to\s+)?pursue\s+"
                 r"(?P<player>%s)\b" % (_CLUB, _NAME)), "rumour"),
+
+    # PF533B: обороты, собранные с живой ленты BBC 11 сентября. Каждый взят
+    # из настоящего заголовка, который до этого отбрасывался, — выдуманных
+    # здесь нет.
+
+    # "Chelsea plot early move for Scott" / "Chelsea line up move for ..."
+    (re.compile(r"^(?P<to>%s)\s+(?:plot|plots|plotting|line\s+up|lines\s+up|"
+                r"prepare|prepares|preparing|plan|plans|planning|"
+                r"ready|readies|weigh|weighs|mull|mulls|eyeing)"
+                r"%s\s+(?:move|bid|offer|approach|swoop|deal)\s+for\s+"
+                r"(?P<player>%s)\b" % (_CLUB, _MOVE, _NAME)), "rumour"),
+
+    # "Liverpool may make January move for Sarr"
+    (re.compile(r"^(?P<to>%s)\s+(?:may|might|could|will|set\s+to|"
+                r"expected\s+to|poised\s+to)\s+(?:make|launch|table|submit)"
+                r"%s\s+(?:move|bid|offer|approach|swoop)\s+for\s+"
+                r"(?P<player>%s)\b" % (_CLUB, _MOVE, _NAME)), "rumour"),
+
+    # "Chelsea line up Bournemouth's Scott" — без слова «move».
+    (re.compile(r"^(?P<to>%s)\s+(?:line\s+up|lines\s+up|eye\s+up|eyes\s+up)\s+"
+                r"(?P<player>%s)\b" % (_CLUB, _NAME)), "rumour"),
+
+    # "Arsenal continue Alvarez pursuit" — имя стоит перед словом-маркером.
+    (re.compile(r"^(?P<to>%s)\s+(?:continue|continues|step\s+up|steps\s+up|"
+                r"renew|renews|revive|revives)\s+(?P<player>%s)\s+"
+                r"(?:pursuit|interest|chase|move|bid)\b" % (_CLUB, _NAME)), "rumour"),
+
+    # "Chelsea and Real Madrid keen on Arsenal's Zubimendi" — берём первый
+    # клуб: он назван первым и в сводке обычно основной претендент.
+    (re.compile(r"^(?P<to>%s)\s+(?:keen|hot)\s+on\s+"
+                r"(?P<player>%s)\b" % (_CLUB, _NAME)), "rumour"),
+
+    # "Napoli interested in Woltemade loan" — аренда тоже интерес.
+    (re.compile(r"^(?P<to>%s)\s+(?:are\s+|is\s+)?(?:keen\s+on|open\s+to)\s+"
+                r"(?:signing\s+|a\s+move\s+for\s+)?(?P<player>%s)\b"
+                % (_CLUB, _NAME)), "rumour"),
 ]
 
 
@@ -398,29 +444,42 @@ def classify_rumour(text: str, index: dict[str, str]) -> tuple[str, dict | None,
     # Сначала как есть, затем без представления игрока: «Arsenal eye
     # Bournemouth striker Eli Junior Kroupi» разбирается только во втором
     # проходе, а привычные заголовки — в первом.
-    variants = [text]
-    stripped = strip_descriptors(text)
-    if stripped != text:
-        variants.append(stripped)
+    # Варианты идут от самого обработанного к сырому. Порядок важен: разбор
+    # берёт первый годный, и если сырой текст стоит раньше очищенного, в
+    # игроки попадает приставка. Так «Manchester City and Chelsea showed
+    # interest in Crystal Palace's Adam Wharton» давало игрока
+    # «Crystal Palace's Adam».
+    variants = []
+    for base in (text, CLUB_LIST_RE.sub(r"\1 ", text, count=1)):
+        for candidate in (strip_descriptors(base), base):
+            if candidate not in variants:
+                variants.insert(0, candidate)
+    variants.sort(key=len)
 
+    # Вариант выбирается по годности разбора, а не по тому, какой совпал
+    # первым. Разница видна на «Arsenal eye Bournemouth striker Eli Junior
+    # Kroupi»: сырой текст совпадает раньше очищенного и отдаёт игрока
+    # «Bournemouth». Раньше на этом образец бросался целиком, хотя очищенный
+    # вариант разбирался правильно.
     for pattern, stage in RUMOUR_PATTERNS:
-        match = next((m for m in (pattern.match(v) for v in variants) if m), None)
-        if not match:
-            continue
-        groups = match.groupdict()
-        player = clean_player(groups.get("player") or "")
-        if not looks_like_person(player, index):
-            continue
-        to_club = resolve_club(groups.get("to") or "", index)
-        if not to_club:
-            continue
-        fee_match = FEE_RE.search(text)
-        return stage, {
-            "player": player,
-            "from_club": "",
-            "to_club": to_club,
-            "fee_raw": fee_match.group(0) if fee_match else "",
-        }, ""
+        for variant in variants:
+            match = pattern.match(variant)
+            if not match:
+                continue
+            groups = match.groupdict()
+            player = clean_player(groups.get("player") or "")
+            if not looks_like_person(player, index):
+                continue
+            to_club = resolve_club(groups.get("to") or "", index)
+            if not to_club:
+                continue
+            fee_match = FEE_RE.search(text)
+            return stage, {
+                "player": player,
+                "from_club": "",
+                "to_club": to_club,
+                "fee_raw": fee_match.group(0) if fee_match else "",
+            }, ""
     return "rumour", None, "слух без разбираемой структуры"
 
 
