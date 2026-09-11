@@ -3653,8 +3653,8 @@
     "58": {
       "id": 58,
       "name": "Millwall",
-      "configured_name": "Millwall",
-      "logo": "images/clubs/api/rendered/58-efc3a3c31918.png",
+      "configured_name": "Millwall FC",
+      "logo": "images/clubs/api/rendered/58-8589ac7db372.png",
       "api_logo": "https://media.api-sports.io/football/teams/58.png",
       "logo_validation": {
         "mode": "content_hashed_local_png",

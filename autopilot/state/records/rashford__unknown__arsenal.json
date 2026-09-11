@@ -8,7 +8,7 @@
   "fee_raw": "",
   "verdict": "NEW_CANDIDATE",
   "verdict_reason": "",
-  "pipeline_state": "RUMOR_READY",
+  "pipeline_state": "PUBLISHED_AS_RUMOR",
   "source": {
     "publisher": "BBC Sport",
     "tier": "major_media",
@@ -17,8 +17,8 @@
     "published": "Fri, 28 Aug 2026 20:48:59 GMT",
     "published_iso": "2026-08-28T20:48:59+00:00"
   },
-  "discovered_at": "2026-09-11T17:09:07.902528+00:00",
-  "enriched_at": "2026-09-11T17:10:22.707142+00:00",
+  "discovered_at": "2026-09-11T19:39:38.100718+00:00",
+  "enriched_at": "2026-09-11T19:41:25.373114+00:00",
   "tm_to_club_id": "11",
   "found_in": "local_index",
   "tm_from_club_id": "985",
@@ -83,5 +83,7 @@
     "city": "London"
   },
   "block_reason": "",
-  "block_detail": ""
+  "block_detail": "",
+  "rumor_slug": "marcus-rashford-arsenal",
+  "rumor_published_at": "2026-09-11T19:42:50.525310+00:00"
 }

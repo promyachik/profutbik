@@ -8,7 +8,7 @@
   "fee_raw": "",
   "verdict": "NEW_CANDIDATE",
   "verdict_reason": "",
-  "pipeline_state": "RUMOR_READY",
+  "pipeline_state": "PUBLISHED_AS_RUMOR",
   "source": {
     "publisher": "BBC Sport",
     "tier": "major_media",
@@ -17,8 +17,8 @@
     "published": "Sun, 30 Aug 2026 20:59:21 GMT",
     "published_iso": "2026-08-30T20:59:21+00:00"
   },
-  "discovered_at": "2026-09-11T17:09:07.900577+00:00",
-  "enriched_at": "2026-09-11T17:10:22.501430+00:00",
+  "discovered_at": "2026-09-11T19:39:38.098747+00:00",
+  "enriched_at": "2026-09-11T19:41:25.157175+00:00",
   "tm_to_club_id": "148",
   "found_in": "local_index",
   "tm_from_club_id": "5",
@@ -83,5 +83,7 @@
     "city": "London"
   },
   "block_reason": "",
-  "block_detail": ""
+  "block_detail": "",
+  "rumor_slug": "christian-pulisic-tottenham",
+  "rumor_published_at": "2026-09-11T19:42:50.524993+00:00"
 }
