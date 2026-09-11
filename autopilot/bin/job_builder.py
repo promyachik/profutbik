@@ -646,13 +646,24 @@ def build_job(record: dict, tm_clubs: dict, bridge: dict, countries: dict,
     if not position_ru:
         return None, "позиция %r не переведена" % position_en
 
+    # PF533A: незнакомое гражданство больше не отменяет переход.
+    #
+    # Справочник стран собирался из УЖЕ опубликованных страниц сайта, и это
+    # замкнутый круг: новая страна попадёт в него, только если игрок оттуда уже
+    # на сайте, а он туда не попадёт, потому что страны нет в справочнике. К
+    # 11 сентября так встали 22 готовых перехода — с портретом, графиком и
+    # текстом, — из-за одной строки с флагом. Такты шли зелёными, ошибок не
+    # было, записи копились.
+    #
+    # Правило проекта говорит «нет данных — блок не выводится», а не «страница
+    # не выходит». Поэтому страна теперь необязательна: без неё пропадает
+    # строка гражданства, а переход публикуется. Дмитрий, увидев такую
+    # страницу, называет страну, и она добавляется в справочник.
+    #
+    # Код ФИФА необязателен по той же причине: флаг берётся из flag_code, а не
+    # из него, и блокировать публикацию ради второстепенного поля незачем.
     nationalities = record.get("nationality_ids") or {}
-    country = countries.get(str(nationalities.get("nationalityId") or ""))
-    if not country:
-        return None, "гражданство id=%s отсутствует в справочнике" % (
-            nationalities.get("nationalityId"))
-    if not country.get("fifa_code"):
-        return None, "нет кода ФИФА для страны %r" % country["name"]
+    country = countries.get(str(nationalities.get("nationalityId") or "")) or {}
 
     to_api, to_how = resolve_api_id(to_club, tm_clubs, bridge, allow_network)
     from_api, from_how = resolve_api_id(from_club, tm_clubs, bridge, allow_network)
@@ -663,7 +674,7 @@ def build_job(record: dict, tm_clubs: dict, bridge: dict, countries: dict,
 
     fee_ru = money_ru(record.get("fee_raw") or "")
     slug = "%s-%s" % (slugify(player), slugify(to_club))
-    flag = country["flag_code"]
+    flag = country.get("flag_code") or ""
     date_iso = (record.get("transfer_date")
                 or (record.get("source") or {}).get("published_iso") or "")
 
@@ -712,19 +723,20 @@ def build_job(record: dict, tm_clubs: dict, bridge: dict, countries: dict,
         "main_position": record.get("position_short") or position_short,
         "birth_date": dotted_date(record.get("birth_date") or ""),
         "age": record.get("age"),
-        "nationality": country["name"],
-        "nationality_ru": country["name_ru"],
+        "nationality": country.get("name") or "",
+        "nationality_ru": country.get("name_ru") or "",
         "nationality_code": flag.upper(),
-        "nationality_fifa_code": country["fifa_code"],
+        "nationality_fifa_code": country.get("fifa_code") or "",
         "nationality_flag_aliases": sorted({
-            country["name"], country["name"].lower(), flag, flag.upper(),
-            country["fifa_code"], country["fifa_code"].lower(),
+            country.get("name") or "", (country.get("name") or "").lower(),
+            flag, flag.upper(),
+            country.get("fifa_code") or "", (country.get("fifa_code") or "").lower(),
             "flag-%s" % flag,
         }),
         "preferred_foot": FOOT_RU.get((record.get("preferred_foot") or "").lower(), ""),
         "market_value": market,
         "market_value_display": market,
-        "seo_body_md": build_body(record, fee_ru, position_ru, country["name_ru"]),
+        "seo_body_md": build_body(record, fee_ru, position_ru, country.get("name_ru") or ""),
         "source_name": (record.get("source") or {}).get("publisher") or "",
         "source_status": "official_permanent_transfer",
         "source_url": (record.get("source") or {}).get("url") or "",

@@ -1,6 +1,6 @@
 {
-  "built_at": "2026-09-01T15:59:31.685294+00:00",
-  "source": "site pages + TM player API",
+  "built_at": "2026-09-11T09:28:01.830780+00:00",
+  "source": "site pages + TM national teams (2026-09-11)",
   "countries": {
     "50": {
       "name": "France",
@@ -145,6 +145,258 @@
       "name_ru": "Украина",
       "flag_code": "ua",
       "fifa_code": "UKR"
+    },
+    "4": {
+      "name": "Algeria",
+      "flag_code": "dz",
+      "fifa_code": "ALG",
+      "name_ru": "Алжир"
+    },
+    "105": {
+      "name": "Mali",
+      "flag_code": "ml",
+      "fifa_code": "MLI",
+      "name_ru": "Мали"
+    },
+    "6": {
+      "name": "Angola",
+      "flag_code": "ao",
+      "fifa_code": "",
+      "name_ru": "Ангола"
+    },
+    "72": {
+      "name": "Ireland",
+      "flag_code": "ie",
+      "fifa_code": "IRL",
+      "name_ru": "Ирландия"
+    },
+    "187": {
+      "name": "Zimbabwe",
+      "flag_code": "zw",
+      "fifa_code": "",
+      "name_ru": "Зимбабве"
+    },
+    "49": {
+      "name": "Finland",
+      "flag_code": "fi",
+      "fifa_code": "FIN",
+      "name_ru": "Финляндия"
+    },
+    "125": {
+      "name": "Norway",
+      "flag_code": "no",
+      "fifa_code": "NOR",
+      "name_ru": "Норвегия"
+    },
+    "123": {
+      "name": "Niger",
+      "flag_code": "ne",
+      "fifa_code": "",
+      "name_ru": "Нигер"
+    },
+    "120": {
+      "name": "New Zealand",
+      "flag_code": "nz",
+      "fifa_code": "",
+      "name_ru": "Новая Зеландия"
+    },
+    "29": {
+      "name": "Burkina Faso",
+      "flag_code": "bf",
+      "fifa_code": "",
+      "name_ru": "Буркина-Фасо"
+    },
+    "173": {
+      "name": "Tunisia",
+      "flag_code": "tn",
+      "fifa_code": "TUN",
+      "name_ru": "Тунис"
+    },
+    "140": {
+      "name": "Romania",
+      "flag_code": "ro",
+      "fifa_code": "ROU",
+      "name_ru": "Румыния"
+    },
+    "85": {
+      "name": "Congo",
+      "flag_code": "cg",
+      "fifa_code": "CGO",
+      "name_ru": "Конго"
+    },
+    "100": {
+      "name": "North Macedonia",
+      "flag_code": "mk",
+      "fifa_code": "",
+      "name_ru": "Северная Македония"
+    },
+    "32": {
+      "name": "Cape Verde",
+      "flag_code": "cv",
+      "fifa_code": "",
+      "name_ru": "Кабо-Верде"
+    },
+    "184": {
+      "name": "United States",
+      "flag_code": "us",
+      "fifa_code": "USA",
+      "name_ru": "США"
+    },
+    "147": {
+      "name": "Sweden",
+      "flag_code": "se",
+      "fifa_code": "SWE",
+      "name_ru": "Швеция"
+    },
+    "193": {
+      "name": "DR Congo",
+      "flag_code": "cd",
+      "fifa_code": "COD",
+      "name_ru": "ДР Конго"
+    },
+    "165": {
+      "name": "Tajikistan",
+      "flag_code": "tj",
+      "fifa_code": "",
+      "name_ru": "Таджикистан"
+    },
+    "141": {
+      "name": "Russia",
+      "flag_code": "ru",
+      "fifa_code": "RUS",
+      "name_ru": "Россия"
+    },
+    "107": {
+      "name": "Morocco",
+      "flag_code": "ma",
+      "fifa_code": "MAR",
+      "name_ru": "Марокко"
+    },
+    "77": {
+      "name": "Japan",
+      "flag_code": "jp",
+      "fifa_code": "JPN",
+      "name_ru": "Япония"
+    },
+    "73": {
+      "name": "Iceland",
+      "flag_code": "is",
+      "fifa_code": "ISL",
+      "name_ru": "Исландия"
+    },
+    "87": {
+      "name": "Korea Republic",
+      "flag_code": "kr",
+      "fifa_code": "",
+      "name_ru": "Южная Корея"
+    },
+    "155": {
+      "name": "Slovenia",
+      "flag_code": "si",
+      "fifa_code": "SVN",
+      "name_ru": "Словения"
+    },
+    "161": {
+      "name": "Suriname",
+      "flag_code": "sr",
+      "fifa_code": "",
+      "name_ru": "Суринам"
+    },
+    "122": {
+      "name": "Netherlands",
+      "flag_code": "nl",
+      "fifa_code": "NED",
+      "name_ru": "Нидерланды"
+    },
+    "127": {
+      "name": "Austria",
+      "flag_code": "at",
+      "fifa_code": "AUT",
+      "name_ru": "Австрия"
+    },
+    "174": {
+      "name": "Turkey",
+      "flag_code": "tr",
+      "fifa_code": "TUR",
+      "name_ru": "Турция"
+    },
+    "59": {
+      "name": "Guinea",
+      "flag_code": "gn",
+      "fifa_code": "GUI",
+      "name_ru": "Гвинея"
+    },
+    "82": {
+      "name": "Kenya",
+      "flag_code": "ke",
+      "fifa_code": "",
+      "name_ru": "Кения"
+    },
+    "260": {
+      "name": "Curaçao",
+      "flag_code": "cw",
+      "fifa_code": "",
+      "name_ru": "Кюрасао"
+    },
+    "115": {
+      "name": "Mozambique",
+      "flag_code": "mz",
+      "fifa_code": "",
+      "name_ru": "Мозамбик"
+    },
+    "39": {
+      "name": "Denmark",
+      "flag_code": "dk",
+      "fifa_code": "DEN",
+      "name_ru": "Дания"
+    },
+    "3": {
+      "name": "Albania",
+      "flag_code": "al",
+      "fifa_code": "ALB",
+      "name_ru": "Албания"
+    },
+    "83": {
+      "name": "Colombia",
+      "flag_code": "co",
+      "fifa_code": "COL",
+      "name_ru": "Колумбия"
+    },
+    "154": {
+      "name": "Slovakia",
+      "flag_code": "sk",
+      "fifa_code": "SVK",
+      "name_ru": "Словакия"
+    },
+    "33": {
+      "name": "Chile",
+      "flag_code": "cl",
+      "fifa_code": "CHI",
+      "name_ru": "Чили"
+    },
+    "60": {
+      "name": "Guinea-Bissau",
+      "flag_code": "gw",
+      "fifa_code": "",
+      "name_ru": "Гвинея-Бисау"
+    },
+    "80": {
+      "name": "Canada",
+      "flag_code": "ca",
+      "fifa_code": "CAN",
+      "name_ru": "Канада"
+    },
+    "110": {
+      "name": "Mexico",
+      "flag_code": "mx",
+      "fifa_code": "MEX",
+      "name_ru": "Мексика"
+    },
+    "124": {
+      "name": "Nigeria",
+      "flag_code": "ng",
+      "fifa_code": "NGA",
+      "name_ru": "Нигерия"
     }
   }
 }
