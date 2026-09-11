@@ -1,0 +1,96 @@
+{
+  "slug": "david-affengruber-fulham-fc",
+  "player": "David Affengruber",
+  "full_name": "David Affengruber",
+  "transfermarkt_player_id": 452483,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/452483",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/452483",
+  "transfermarkt_photo_url": "https://img.a.transfermarkt.technology/portrait/big/452483-1779272314.jpg",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 797,
+  "from_club_name": "Elche CF",
+  "to_club_id": 36,
+  "to_club_name": "Fulham FC",
+  "title": "David Affengruber перешёл из Elche CF в Fulham FC",
+  "description": "Клуб Fulham FC подписал David Affengruber из клуба Elche CF.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Centre-Back",
+  "position_ru": "Центральный защитник",
+  "main_position": "CB",
+  "birth_date": "19.03.2001",
+  "age": 25,
+  "nationality": "Austria",
+  "nationality_ru": "Австрия",
+  "nationality_code": "AT",
+  "nationality_fifa_code": "AUT",
+  "nationality_flag_aliases": [
+    "AT",
+    "AUT",
+    "Austria",
+    "at",
+    "austria",
+    "aut",
+    "flag-at"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€20 млн",
+  "market_value_display": "€20 млн",
+  "seo_body_md": "## David Affengruber: что известно о переходе в Fulham FC\n\nКлуб **Fulham FC** усилил состав и подписал **David Affengruber** из клуба **Elche CF**. Переход оформлен **1 сентября 2026 года**.\n\n## Динамика стоимости\n\nПо оценке Transfermarkt с 12 декабря 2025 года по 5 июня 2026 года стоимость Affengruber выросла с €9 млн до €20 млн.\n\n## Клуб назначения\n\nВ составе клуба Fulham FC теперь 26 игроков со средним возрастом 26,7 года. Общая стоимость команды по Transfermarkt — €396,80 млн, в среднем €15,26 млн на игрока. Домашние матчи команда проводит в городе London. В новой команде игрок получил 22-й номер.\n\nКонкуренцию на этой позиции составят ещё 3 игрока: Calvin Bassey, Joachim Andersen, Jorge Cuenca. В рейтинге стоимости состава он занимает 11-е место из 26. В свои 25 лет он моложе 14 партнёров команды.\n\nDavid Affengruber родился в городе Scheibbs (Австрия). Ранее выступал за: SC Wieselburg (2007-).\n\nЗа сборную Австрии игрок дебютировал 27 марта 2026 года.\n\n## Данные игрока\n\n- **Позиция:** центральный защитник\n- **Прежний клуб:** Elche CF\n- **Новый клуб:** Fulham FC\n- **Гражданство:** Австрия\n- **Дата рождения:** 19.03.2001\n- **Место рождения:** Scheibbs\n- **Рост:** 1,85 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 22\n- **Рыночная стоимость Transfermarkt:** €20 млн\n- **Контракт до:** 30.06.2030\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/452483",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-01",
+    "effective_transfer_date": "2026-09-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "David Affengruber",
+    "from_club": "Elche CF",
+    "to_club": "Fulham FC",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Elche CF": 797,
+      "Fulham FC": 36
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "affengruber__elche-cf__fulham-fc",
+    "built_at": "2026-09-11T13:32:09.810140+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2025-12-12",
+        "value_eur_m": 9.0
+      },
+      {
+        "date": "2026-06-05",
+        "value_eur_m": 20.0
+      }
+    ]
+  }
+}

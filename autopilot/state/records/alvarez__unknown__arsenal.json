@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "alvarez__unknown__arsenal",
+  "player": "Alvarez",
+  "from_club": "",
+  "to_club": "Arsenal",
+  "fee_raw": "",
+  "verdict": "POSSIBLE_DUPLICATE",
+  "verdict_reason": "совпала фамилия с: Julián Álvarez -> Barcelona",
+  "pipeline_state": "NEEDS_REVIEW",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwyz130nxkro?at_medium=RSS&at_campaign=rss",
+    "title": "Arsenal explore late move for Alvarez - Tuesday gossip",
+    "published": "Tue, 01 Sep 2026 05:43:23 GMT",
+    "published_iso": "2026-09-01T05:43:23+00:00"
+  },
+  "discovered_at": "2026-09-11T13:30:07.722850+00:00",
+  "enriched_at": "2026-09-11T13:30:18.696555+00:00",
+  "tm_to_club_id": "11",
+  "block_reason": "AMBIGUOUS_PLAYER",
+  "block_detail": "однофамильцы в наших составах: Yeray Álvarez, Julián Alvarez, Hugo Álvarez, Carlos Álvarez"
+}

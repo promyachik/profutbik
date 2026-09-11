@@ -1,0 +1,96 @@
+{
+  "slug": "neil-el-aynaoui-rb-leipzig",
+  "player": "Neil El Aynaoui",
+  "full_name": "Neil El Aynaoui",
+  "transfermarkt_player_id": 901019,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/901019",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/901019",
+  "transfermarkt_photo_url": "https://img.a.transfermarkt.technology/portrait/big/901019-1757603917.jpg",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 497,
+  "from_club_name": "AS Roma",
+  "to_club_id": 173,
+  "to_club_name": "RB Leipzig",
+  "title": "Neil El Aynaoui перешёл из AS Roma в RB Leipzig",
+  "description": "Клуб RB Leipzig подписал Neil El Aynaoui из клуба AS Roma.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Central Midfield",
+  "position_ru": "Центральный полузащитник",
+  "main_position": "CM",
+  "birth_date": "02.07.2001",
+  "age": 25,
+  "nationality": "Morocco",
+  "nationality_ru": "Марокко",
+  "nationality_code": "MA",
+  "nationality_fifa_code": "MAR",
+  "nationality_flag_aliases": [
+    "MA",
+    "MAR",
+    "Morocco",
+    "flag-ma",
+    "ma",
+    "mar",
+    "morocco"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€30 млн",
+  "market_value_display": "€30 млн",
+  "seo_body_md": "## Neil El Aynaoui: что известно о переходе в RB Leipzig\n\nКлуб **RB Leipzig** усилил состав и подписал **Neil El Aynaoui** из клуба **AS Roma**. Переход оформлен **1 сентября 2026 года**.\n\n## Динамика стоимости\n\nПо оценке Transfermarkt с 29 мая 2026 года по 22 июля 2026 года стоимость Aynaoui выросла с €23 млн до €30 млн.\n\n## Клуб назначения\n\nВ составе клуба RB Leipzig теперь 29 игроков со средним возрастом 24,7 года. Общая стоимость команды по Transfermarkt — €487,95 млн, в среднем €16,83 млн на игрока. Домашние матчи команда проводит в городе Leipzig. В новой команде игрок получил 21-й номер.\n\nКонкуренцию на этой позиции составят ещё 3 игрока: Assan Ouédraogo, Rocco Reitz, Ezechiel Banzuzi. В рейтинге стоимости состава он занимает 4-е место из 29. В свои 25 лет он моложе 9 партнёров команды.\n\nNeil El Aynaoui родился в городе Nancy (Марокко). Ранее выступал за: CF Gavà (2008-2009).\n\nЗа сборную Мароккоа игрок дебютировал 5 сентября 2025 года.\n\n## Данные игрока\n\n- **Позиция:** центральный полузащитник\n- **Прежний клуб:** AS Roma\n- **Новый клуб:** RB Leipzig\n- **Гражданство:** Марокко\n- **Дата рождения:** 02.07.2001\n- **Место рождения:** Nancy\n- **Рост:** 1,85 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 21\n- **Рыночная стоимость Transfermarkt:** €30 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/901019",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-01",
+    "effective_transfer_date": "2026-09-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "Neil El Aynaoui",
+    "from_club": "AS Roma",
+    "to_club": "RB Leipzig",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "AS Roma": 497,
+      "RB Leipzig": 173
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "aynaoui__as-roma__rb-leipzig",
+    "built_at": "2026-09-11T13:32:10.498540+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2026-05-29",
+        "value_eur_m": 23.0
+      },
+      {
+        "date": "2026-07-22",
+        "value_eur_m": 30.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "scott__unknown__chelsea",
+  "player": "Scott",
+  "from_club": "",
+  "to_club": "Chelsea",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "NEEDS_REVIEW",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cj3dj6djrd3o?at_medium=RSS&at_campaign=rss",
+    "title": "Chelsea plot early move for Scott - Monday's gossip",
+    "published": "Sun, 06 Sep 2026 20:54:40 GMT",
+    "published_iso": "2026-09-06T20:54:40+00:00"
+  },
+  "discovered_at": "2026-09-11T13:30:07.719453+00:00",
+  "enriched_at": "2026-09-11T13:32:01.937934+00:00",
+  "tm_to_club_id": "631",
+  "block_reason": "AMBIGUOUS_PLAYER",
+  "block_detail": "однофамильцы в наших составах: Alex Scott, Elijah Scott"
+}

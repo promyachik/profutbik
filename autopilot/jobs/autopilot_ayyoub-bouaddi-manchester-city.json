@@ -1,0 +1,96 @@
+{
+  "slug": "ayyoub-bouaddi-manchester-city",
+  "player": "Ayyoub Bouaddi",
+  "full_name": "Ayyoub Bouaddi",
+  "transfermarkt_player_id": 1097139,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/1097139",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/1097139",
+  "transfermarkt_photo_url": "https://img.a.transfermarkt.technology/portrait/big/1097139-1741119960.jpg",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 79,
+  "from_club_name": "LOSC Lille",
+  "to_club_id": 50,
+  "to_club_name": "Manchester City",
+  "title": "Ayyoub Bouaddi перешёл из LOSC Lille в Manchester City",
+  "description": "Клуб Manchester City подписал Ayyoub Bouaddi из клуба LOSC Lille.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Defensive Midfield",
+  "position_ru": "Опорный полузащитник",
+  "main_position": "DM",
+  "birth_date": "02.10.2007",
+  "age": 18,
+  "nationality": "Morocco",
+  "nationality_ru": "Марокко",
+  "nationality_code": "MA",
+  "nationality_fifa_code": "MAR",
+  "nationality_flag_aliases": [
+    "MA",
+    "MAR",
+    "Morocco",
+    "flag-ma",
+    "ma",
+    "mar",
+    "morocco"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€80 млн",
+  "market_value_display": "€80 млн",
+  "seo_body_md": "## Ayyoub Bouaddi стал игроком Manchester City\n\n**Ayyoub Bouaddi** — опорный полузащитник, которому 18 — продолжит карьеру в клубе **Manchester City**, покинув **LOSC Lille**. Переход состоялся **26 августа 2026 года**.\n\n## Карьера до перехода\n\nAyyoub Bouaddi родился в городе Senlis (Марокко). Путь игрока до нынешнего перехода: AFC Creil (2012-2021), LOSC Lille (2021-2023).\n\nЗа сборную Мароккоа игрок дебютировал 26 мая 2026 года.\n\n## Новый клуб\n\nВ составе клуба Manchester City теперь 25 игроков со средним возрастом 25,4 года. Общая стоимость команды по Transfermarkt — €1,43 млрд, в среднем €57,39 млн на игрока. Домашние матчи команда проводит в городе Manchester. В новой команде игрок получил 32-й номер.\n\nДругих игроков этого амплуа в заявке клуба нет. В рейтинге стоимости состава он занимает 5-е место из 25. В свои 18 лет он моложе 23 партнёров команды.\n\nПо оценке Transfermarkt с 1 июня 2026 года по 22 июля 2026 года стоимость Bouaddi выросла с €50 млн до €80 млн.\n\n## Профиль игрока\n\n- **Позиция:** опорный полузащитник\n- **Прежний клуб:** LOSC Lille\n- **Новый клуб:** Manchester City\n- **Гражданство:** Марокко\n- **Дата рождения:** 02.10.2007\n- **Место рождения:** Senlis\n- **Рост:** 1,85 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 32\n- **Рыночная стоимость Transfermarkt:** €80 млн\n- **Контракт до:** 30.06.2031\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/1097139",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-08-26",
+    "effective_transfer_date": "2026-08-26",
+    "parser_result": "official_permanent_transfer",
+    "player": "Ayyoub Bouaddi",
+    "from_club": "LOSC Lille",
+    "to_club": "Manchester City",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "LOSC Lille": 79,
+      "Manchester City": 50
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "bouaddi__losc-lille__manchester-city",
+    "built_at": "2026-09-11T13:32:11.310397+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2026-06-01",
+        "value_eur_m": 50.0
+      },
+      {
+        "date": "2026-07-22",
+        "value_eur_m": 80.0
+      }
+    ]
+  }
+}

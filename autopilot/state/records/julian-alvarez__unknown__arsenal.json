@@ -1,0 +1,84 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "julian-alvarez__unknown__arsenal",
+  "player": "Julian Alvarez",
+  "from_club": "Atlético de Madrid",
+  "to_club": "Arsenal",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "RUMOR_READY",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwyz130nxkro?at_medium=RSS&at_campaign=rss",
+    "title": "Arsenal still interested in signing Julian Alvarez",
+    "published": "Tue, 01 Sep 2026 05:43:23 GMT",
+    "published_iso": "2026-09-01T05:43:23+00:00"
+  },
+  "discovered_at": "2026-09-11T13:30:07.722965+00:00",
+  "enriched_at": "2026-09-11T13:31:31.782503+00:00",
+  "tm_to_club_id": "11",
+  "found_in": "local_index",
+  "tm_from_club_id": "13",
+  "tm_player_id": "576024",
+  "player_full_name": "Julián Alvarez",
+  "birth_date": "2000-01-31",
+  "age": 26,
+  "position": "Centre-Forward",
+  "position_short": "CF",
+  "preferred_foot": "right",
+  "height": 1.7,
+  "contract_until": "2030-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/576024-1684920938.jpg",
+  "market_value_points": [
+    {
+      "date": "2026-06-05",
+      "value_eur_m": 100.0
+    },
+    {
+      "date": "2026-07-22",
+      "value_eur_m": 120.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 9,
+    "secondNationalityId": 75
+  },
+  "birth_place": "Calchín",
+  "former_clubs_note": "Atlético Calchín (-2016)",
+  "shirt_number": 19,
+  "is_captain": false,
+  "transfer_date": "2024-08-12",
+  "national_team_debut": "2021-06-04",
+  "squad_analysis": {
+    "same_position_count": 2,
+    "same_position_names": [
+      "Viktor Gyökeres",
+      "Kai Havertz"
+    ],
+    "value_rank": null,
+    "squad_total": 24,
+    "younger_than": 13
+  },
+  "to_club_official_name": "Arsenal FC",
+  "to_club_context": {
+    "squad_size": 24,
+    "average_age": "26.5",
+    "squad_value": {
+      "prefix": "€",
+      "content": "1.33",
+      "suffix": "B"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "55.33",
+      "suffix": "M"
+    },
+    "stadium": "Highbury House, 75 Drayton Park",
+    "city": "London"
+  },
+  "block_reason": "",
+  "block_detail": ""
+}

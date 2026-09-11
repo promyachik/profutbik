@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-09-11T13:33:41.762820+00:00",
+  "backup": "/home/runner/work/profutbik/profutbik/patch-backups/20260911_133341_TRANSFER_PROSE",
+  "words_before": 693,
+  "words_after": 851,
+  "pages": [
+    {
+      "page": "jonathan-david-atletico-de-madrid",
+      "was": 253,
+      "now": 297,
+      "added": 1
+    },
+    {
+      "page": "mohamed-amoura-ogc-nice",
+      "was": 220,
+      "now": 300,
+      "added": 2
+    },
+    {
+      "page": "neil-el-aynaoui-rb-leipzig",
+      "was": 220,
+      "now": 254,
+      "added": 1
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "beto-acf-fiorentina",
+  "player": "Beto",
+  "full_name": "Beto",
+  "transfermarkt_player_id": 595809,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/595809",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/595809",
+  "transfermarkt_photo_url": "https://img.a.transfermarkt.technology/portrait/big/595809-1711746870.jpg",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 45,
+  "from_club_name": "Everton FC",
+  "to_club_id": 502,
+  "to_club_name": "ACF Fiorentina",
+  "title": "Beto перешёл из Everton FC в ACF Fiorentina",
+  "description": "Клуб ACF Fiorentina подписал Beto из клуба Everton FC.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Centre-Forward",
+  "position_ru": "Центральный нападающий",
+  "main_position": "CF",
+  "birth_date": "31.01.1998",
+  "age": 28,
+  "nationality": "Guinea-Bissau",
+  "nationality_ru": "Гвинея-Бисау",
+  "nationality_code": "GW",
+  "nationality_fifa_code": "",
+  "nationality_flag_aliases": [
+    "",
+    "GW",
+    "Guinea-Bissau",
+    "flag-gw",
+    "guinea-bissau",
+    "gw"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€18 млн",
+  "market_value_display": "€18 млн",
+  "seo_body_md": "## Beto переходит в ACF Fiorentina\n\nКлуб **ACF Fiorentina** объявил о подписании **Beto**. Центральный нападающий перешёл из клуба **Everton FC**. Сделка оформлена **1 сентября 2026 года**.\n\n## Детали перехода\n\nПо оценке Transfermarkt с 15 июня 2023 года по 3 июня 2026 года стоимость Beto снизилась с €25 млн до €18 млн. Максимальная оценка за этот период — €25 млн.\n\n## Что получает клуб\n\nВ составе клуба ACF Fiorentina теперь 25 игроков со средним возрастом 25,1 года. Общая стоимость команды по Transfermarkt — €322,75 млн, в среднем €12,91 млн на игрока. Домашние матчи команда проводит в городе Firenze. В новой команде игрок получил 23-й номер.\n\nНа этой же позиции в клубе значится ещё один игрок — Mateo Pellegrino. В рейтинге стоимости состава он занимает 7-е место из 25. В свои 28 лет он моложе 3 партнёров команды.\n\nBeto родился в городе Lisboa (Гвинея-Бисау). Ранее выступал за: URD Tires (2007-2011).\n\nЗа сборную Гвинея-Бисауа игрок дебютировал 11 октября 2024 года.\n\n## Карточка игрока\n\n- **Позиция:** центральный нападающий\n- **Прежний клуб:** Everton FC\n- **Новый клуб:** ACF Fiorentina\n- **Гражданство:** Гвинея-Бисау\n- **Дата рождения:** 31.01.1998\n- **Место рождения:** Lisboa\n- **Рост:** 1,94 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 23\n- **Рыночная стоимость Transfermarkt:** €18 млн\n- **Контракт до:** 30.06.2030\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/595809",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-01",
+    "effective_transfer_date": "2026-09-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "Beto",
+    "from_club": "Everton FC",
+    "to_club": "ACF Fiorentina",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Everton FC": 45,
+      "ACF Fiorentina": 502
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "beto__everton-fc__acf-fiorentina",
+    "built_at": "2026-09-11T13:32:11.309949+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2023-06-15",
+        "value_eur_m": 25.0
+      },
+      {
+        "date": "2025-12-09",
+        "value_eur_m": 20.0
+      },
+      {
+        "date": "2026-06-03",
+        "value_eur_m": 18.0
+      }
+    ]
+  }
+}

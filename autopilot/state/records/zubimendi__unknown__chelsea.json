@@ -1,0 +1,84 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "zubimendi__unknown__chelsea",
+  "player": "Zubimendi",
+  "from_club": "Arsenal FC",
+  "to_club": "Chelsea",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "RUMOR_READY",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cd68352z4vjo?at_medium=RSS&at_campaign=rss",
+    "title": "Chelsea and Real Madrid keen on Arsenal's Zubimendi - Friday's gossip",
+    "published": "Thu, 10 Sep 2026 20:13:27 GMT",
+    "published_iso": "2026-09-10T20:13:27+00:00"
+  },
+  "discovered_at": "2026-09-11T13:30:04.990413+00:00",
+  "enriched_at": "2026-09-11T13:32:09.581445+00:00",
+  "tm_to_club_id": "631",
+  "found_in": "local_index",
+  "tm_from_club_id": "11",
+  "tm_player_id": "423440",
+  "player_full_name": "Martín Zubimendi",
+  "birth_date": "1999-02-02",
+  "age": 27,
+  "position": "Defensive Midfield",
+  "position_short": "DM",
+  "preferred_foot": "right",
+  "height": 1.81,
+  "contract_until": "2030-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/423440-1684149419.jpg",
+  "market_value_points": [
+    {
+      "date": "2026-03-09",
+      "value_eur_m": 80.0
+    },
+    {
+      "date": "2026-06-03",
+      "value_eur_m": 75.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 157,
+    "secondNationalityId": 0
+  },
+  "birth_place": "Donostia-San Sebastián",
+  "former_clubs_note": "Antiguoko (2006-2011), Real Sociedad (2011-2019)",
+  "shirt_number": 36,
+  "is_captain": false,
+  "transfer_date": "2025-07-06",
+  "national_team_debut": "2021-06-08",
+  "squad_analysis": {
+    "same_position_count": 2,
+    "same_position_names": [
+      "Moisés Caicedo",
+      "Roméo Lavia"
+    ],
+    "value_rank": null,
+    "squad_total": 27,
+    "younger_than": 4
+  },
+  "to_club_official_name": "Chelsea FC",
+  "to_club_context": {
+    "squad_size": 27,
+    "average_age": "24.7",
+    "squad_value": {
+      "prefix": "€",
+      "content": "1.08",
+      "suffix": "B"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "39.88",
+      "suffix": "M"
+    },
+    "stadium": "Fulham Road",
+    "city": "London"
+  },
+  "block_reason": "",
+  "block_detail": ""
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "mohamed-amoura-ogc-nice",
+  "player": "Mohamed Amoura",
+  "full_name": "Mohamed Amoura",
+  "transfermarkt_player_id": 746910,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/746910",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/746910",
+  "transfermarkt_photo_url": "https://img.a.transfermarkt.technology/portrait/big/746910-1724771303.jpg",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 161,
+  "from_club_name": "VfL Wolfsburg",
+  "to_club_id": 84,
+  "to_club_name": "OGC Nice",
+  "title": "Mohamed Amoura перешёл из VfL Wolfsburg в OGC Nice",
+  "description": "Клуб OGC Nice подписал Mohamed Amoura из клуба VfL Wolfsburg.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Centre-Forward",
+  "position_ru": "Центральный нападающий",
+  "main_position": "CF",
+  "birth_date": "09.05.2000",
+  "age": 26,
+  "nationality": "Algeria",
+  "nationality_ru": "Алжир",
+  "nationality_code": "DZ",
+  "nationality_fifa_code": "ALG",
+  "nationality_flag_aliases": [
+    "ALG",
+    "Algeria",
+    "DZ",
+    "alg",
+    "algeria",
+    "dz",
+    "flag-dz"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€20 млн",
+  "market_value_display": "€20 млн",
+  "seo_body_md": "## Mohamed Amoura стал игроком OGC Nice\n\n**Mohamed Amoura** — центральный нападающий, которому 26 — продолжит карьеру в клубе **OGC Nice**, покинув **VfL Wolfsburg**. Переход состоялся **31 августа 2026 года**.\n\n## Карьера до перехода\n\nMohamed Amoura родился в городе Tahir (Алжир).\n\nЗа сборную Алжира игрок дебютировал 8 октября 2021 года.\n\n## Новый клуб\n\nВ составе клуба OGC Nice теперь 28 игроков со средним возрастом 25,6 года. Общая стоимость команды по Transfermarkt — €139,60 млн, в среднем €4,99 млн на игрока. Домашние матчи команда проводит в городе Nice. В новой команде игрок получил 9-й номер.\n\nКонкуренцию на этой позиции составят ещё 2 игрока: Elye Wahi, Zoumana Diallo. По оценке Transfermarkt это 1-й по стоимости игрок команды из 28. В свои 26 лет он моложе 8 партнёров команды.\n\nПо оценке Transfermarkt с 19 декабря 2025 года по 27 мая 2026 года стоимость Amoura снизилась с €32 млн до €20 млн. Максимальная оценка за этот период — €32 млн.\n\n## Профиль игрока\n\n- **Позиция:** центральный нападающий\n- **Прежний клуб:** VfL Wolfsburg\n- **Новый клуб:** OGC Nice\n- **Гражданство:** Алжир\n- **Дата рождения:** 09.05.2000\n- **Место рождения:** Tahir\n- **Рост:** 1,7 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 9\n- **Рыночная стоимость Transfermarkt:** €20 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/746910",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-08-31",
+    "effective_transfer_date": "2026-08-31",
+    "parser_result": "official_permanent_transfer",
+    "player": "Mohamed Amoura",
+    "from_club": "VfL Wolfsburg",
+    "to_club": "OGC Nice",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "VfL Wolfsburg": 161,
+      "OGC Nice": 84
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "amoura__vfl-wolfsburg__ogc-nice",
+    "built_at": "2026-09-11T13:32:10.497889+00:00",
+    "api_id_resolution": {
+      "from": "api_lookup",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2025-12-19",
+        "value_eur_m": 32.0
+      },
+      {
+        "date": "2026-03-20",
+        "value_eur_m": 27.0
+      },
+      {
+        "date": "2026-05-27",
+        "value_eur_m": 20.0
+      }
+    ]
+  }
+}

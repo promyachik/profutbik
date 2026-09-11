@@ -18,7 +18,7 @@
     "published_iso": "2026-09-01T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.568194+00:00",
-  "enriched_at": "2026-09-11T09:07:05.194263+00:00",
+  "enriched_at": "2026-09-11T13:31:48.256924+00:00",
   "tm_to_club_id": "41",
   "tm_player_id": "820474",
   "birth_date": "2001-12-31",
@@ -53,21 +53,21 @@
     "same_position_count": 0,
     "same_position_names": [],
     "value_rank": 2,
-    "squad_total": 28,
+    "squad_total": 27,
     "younger_than": 15
   },
   "to_club_official_name": "Hamburger SV",
   "to_club_context": {
-    "squad_size": 28,
-    "average_age": "24.8",
+    "squad_size": 27,
+    "average_age": "24.9",
     "squad_value": {
       "prefix": "€",
-      "content": "152.95",
+      "content": "152.80",
       "suffix": "M"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "5.46",
+      "content": "5.66",
       "suffix": "M"
     },
     "stadium": "Uwe-Seeler-Allee 9",

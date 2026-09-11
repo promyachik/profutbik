@@ -1,0 +1,100 @@
+{
+  "slug": "kevin-danso-sunderland-afc",
+  "player": "Kevin Danso",
+  "full_name": "Kevin Danso",
+  "transfermarkt_player_id": 263236,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/263236",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/263236",
+  "transfermarkt_photo_url": "https://img.a.transfermarkt.technology/portrait/big/263236-1691217955.png",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 47,
+  "from_club_name": "Tottenham Hotspur",
+  "to_club_id": 746,
+  "to_club_name": "Sunderland AFC",
+  "title": "Kevin Danso перешёл из Tottenham Hotspur в Sunderland AFC",
+  "description": "Клуб Sunderland AFC подписал Kevin Danso из клуба Tottenham Hotspur.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Centre-Back",
+  "position_ru": "Центральный защитник",
+  "main_position": "CB",
+  "birth_date": "19.09.1998",
+  "age": 27,
+  "nationality": "Austria",
+  "nationality_ru": "Австрия",
+  "nationality_code": "AT",
+  "nationality_fifa_code": "AUT",
+  "nationality_flag_aliases": [
+    "AT",
+    "AUT",
+    "Austria",
+    "at",
+    "austria",
+    "aut",
+    "flag-at"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€20 млн",
+  "market_value_display": "€20 млн",
+  "seo_body_md": "## Kevin Danso стал игроком Sunderland AFC\n\n**Kevin Danso** — центральный защитник, которому 27 — продолжит карьеру в клубе **Sunderland AFC**, покинув **Tottenham Hotspur**. Переход состоялся **1 сентября 2026 года**.\n\n## Карьера до перехода\n\nKevin Danso родился в городе Voitsberg (Австрия). Путь игрока до нынешнего перехода: Central Milton Keynes (2006-2007), Reading FC (2007-2008), Milton Keynes Dons (2008-2014), FC Augsburg (2014-2017). Таким образом, это уже 5-й клуб в карьере Danso.\n\nЗа сборную Австрии игрок дебютировал 2 сентября 2017 года.\n\n## Новый клуб\n\nВ составе клуба Sunderland AFC теперь 29 игроков со средним возрастом 25,8 года. Общая стоимость команды по Transfermarkt — €421,62 млн, в среднем €14,54 млн на игрока. Домашние матчи команда проводит в городе Sunderland. В новой команде игрок получил 4-й номер.\n\nКонкуренцию на этой позиции составят ещё 4 игрока: Dan Ballard, Omar Alderete, Luke O'Nien, Aji Alese. В рейтинге стоимости состава он занимает 10-е место из 29. В свои 27 лет он моложе 8 партнёров команды.\n\nПо оценке Transfermarkt с 30 мая 2025 года по 3 июня 2026 года стоимость Danso снизилась с €25 млн до €20 млн. Максимальная оценка за этот период — €25 млн.\n\n## Профиль игрока\n\n- **Позиция:** центральный защитник\n- **Прежний клуб:** Tottenham Hotspur\n- **Новый клуб:** Sunderland AFC\n- **Гражданство:** Австрия\n- **Дата рождения:** 19.09.1998\n- **Место рождения:** Voitsberg\n- **Рост:** 1,9 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 4\n- **Рыночная стоимость Transfermarkt:** €20 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/263236",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-01",
+    "effective_transfer_date": "2026-09-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "Kevin Danso",
+    "from_club": "Tottenham Hotspur",
+    "to_club": "Sunderland AFC",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Tottenham Hotspur": 47,
+      "Sunderland AFC": 746
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "danso__tottenham-hotspur__sunderland-afc",
+    "built_at": "2026-09-11T13:32:11.727458+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2025-05-30",
+        "value_eur_m": 25.0
+      },
+      {
+        "date": "2026-03-09",
+        "value_eur_m": 20.0
+      },
+      {
+        "date": "2026-06-03",
+        "value_eur_m": 20.0
+      }
+    ]
+  }
+}

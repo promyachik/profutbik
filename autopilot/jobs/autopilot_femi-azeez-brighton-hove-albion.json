@@ -1,0 +1,96 @@
+{
+  "slug": "femi-azeez-brighton-hove-albion",
+  "player": "Femi Azeez",
+  "full_name": "Femi Azeez",
+  "transfermarkt_player_id": 703408,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/703408",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/703408",
+  "transfermarkt_photo_url": "https://img.a.transfermarkt.technology/portrait/big/703408-1732031406.jpg",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 58,
+  "from_club_name": "Millwall FC",
+  "to_club_id": 51,
+  "to_club_name": "Brighton & Hove Albion",
+  "title": "Femi Azeez перешёл из Millwall FC в Brighton & Hove Albion",
+  "description": "Клуб Brighton & Hove Albion подписал Femi Azeez из клуба Millwall FC.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Right Midfield",
+  "position_ru": "Правый полузащитник",
+  "main_position": "RM",
+  "birth_date": "05.06.2001",
+  "age": 25,
+  "nationality": "Nigeria",
+  "nationality_ru": "Нигерия",
+  "nationality_code": "NG",
+  "nationality_fifa_code": "NGA",
+  "nationality_flag_aliases": [
+    "NG",
+    "NGA",
+    "Nigeria",
+    "flag-ng",
+    "ng",
+    "nga",
+    "nigeria"
+  ],
+  "preferred_foot": "Левая",
+  "market_value": "€15 млн",
+  "market_value_display": "€15 млн",
+  "seo_body_md": "## Femi Azeez: что известно о переходе в Brighton & Hove Albion\n\nКлуб **Brighton & Hove Albion** усилил состав и подписал **Femi Azeez** из клуба **Millwall FC**. Переход оформлен **1 сентября 2026 года**.\n\n## Динамика стоимости\n\nПо оценке Transfermarkt с 3 марта 2026 года по 28 мая 2026 года стоимость Azeez выросла с €5 млн до €15 млн.\n\n## Клуб назначения\n\nВ составе клуба Brighton & Hove Albion теперь 30 игроков со средним возрастом 25,2 года. Общая стоимость команды по Transfermarkt — €603,50 млн, в среднем €20,12 млн на игрока. Домашние матчи команда проводит в городе Brighton. В новой команде игрок получил 39-й номер.\n\nДругих игроков этого амплуа в заявке клуба нет. В рейтинге стоимости состава он занимает 21-е место из 30. В свои 25 лет он моложе 11 партнёров команды.\n\nFemi Azeez родился в городе London (Нигерия).\n\n## Данные игрока\n\n- **Позиция:** правый полузащитник\n- **Прежний клуб:** Millwall FC\n- **Новый клуб:** Brighton & Hove Albion\n- **Гражданство:** Нигерия\n- **Дата рождения:** 05.06.2001\n- **Место рождения:** London\n- **Рост:** 1,81 м\n- **Рабочая нога:** левая\n- **Игровой номер:** 39\n- **Рыночная стоимость Transfermarkt:** €15 млн\n- **Контракт до:** 30.06.2030\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/703408",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-01",
+    "effective_transfer_date": "2026-09-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "Femi Azeez",
+    "from_club": "Millwall FC",
+    "to_club": "Brighton & Hove Albion",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Millwall FC": 58,
+      "Brighton & Hove Albion": 51
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "azeez__millwall-fc__brighton-hove-albion",
+    "built_at": "2026-09-11T13:32:10.498914+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2026-03-03",
+        "value_eur_m": 5.0
+      },
+      {
+        "date": "2026-05-28",
+        "value_eur_m": 15.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "pulisic__unknown__tottenham",
+  "player": "Pulisic",
+  "from_club": "AC Milan",
+  "to_club": "Tottenham",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "RUMOR_READY",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c89jxnelpywo?at_medium=RSS&at_campaign=rss",
+    "title": "Tottenham enquire about Pulisic - Monday's gossip",
+    "published": "Sun, 30 Aug 2026 20:59:21 GMT",
+    "published_iso": "2026-08-30T20:59:21+00:00"
+  },
+  "discovered_at": "2026-09-11T13:30:07.723453+00:00",
+  "enriched_at": "2026-09-11T13:31:55.874866+00:00",
+  "tm_to_club_id": "148",
+  "found_in": "local_index",
+  "tm_from_club_id": "5",
+  "tm_player_id": "315779",
+  "player_full_name": "Christian Pulisic",
+  "birth_date": "1998-09-18",
+  "age": 27,
+  "position": "Right Winger",
+  "position_short": "RW",
+  "preferred_foot": "right",
+  "height": 1.77,
+  "contract_until": "2027-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/315779-1691696699.jpg",
+  "market_value_points": [
+    {
+      "date": "2025-12-23",
+      "value_eur_m": 60.0
+    },
+    {
+      "date": "2026-03-24",
+      "value_eur_m": 50.0
+    },
+    {
+      "date": "2026-05-29",
+      "value_eur_m": 40.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 184,
+    "secondNationalityId": 37
+  },
+  "birth_place": "Hershey, Pennsylvania",
+  "former_clubs_note": "Brackley Town (2005-2006), \r\nMichigan Rush (2006-2007), \r\nPennsylvania Classics (2008-2015), \r\nBorussia Dortmund (2015-2016)",
+  "shirt_number": 11,
+  "is_captain": false,
+  "transfer_date": "2023-07-13",
+  "national_team_debut": "2016-03-30",
+  "squad_analysis": {
+    "same_position_count": 1,
+    "same_position_names": [
+      "Mohammed Kudus"
+    ],
+    "value_rank": null,
+    "squad_total": 28,
+    "younger_than": 9
+  },
+  "to_club_official_name": "Tottenham Hotspur",
+  "to_club_context": {
+    "squad_size": 28,
+    "average_age": "26.6",
+    "squad_value": {
+      "prefix": "€",
+      "content": "824.00",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "29.43",
+      "suffix": "M"
+    },
+    "stadium": "Bill Nicholson Way, 748 High Road",
+    "city": "London"
+  },
+  "block_reason": "",
+  "block_detail": ""
+}

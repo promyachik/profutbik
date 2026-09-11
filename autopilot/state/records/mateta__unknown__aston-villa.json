@@ -8,7 +8,7 @@
   "fee_raw": "",
   "verdict": "NEW_CANDIDATE",
   "verdict_reason": "",
-  "pipeline_state": "PUBLISHED_AS_RUMOR",
+  "pipeline_state": "RUMOR_READY",
   "source": {
     "publisher": "BBC Sport",
     "tier": "major_media",
@@ -17,8 +17,8 @@
     "published": "Wed, 26 Aug 2026 09:07:26 GMT",
     "published_iso": "2026-08-26T09:07:26+00:00"
   },
-  "discovered_at": "2026-09-11T09:05:29.751718+00:00",
-  "enriched_at": "2026-09-11T09:06:55.873732+00:00",
+  "discovered_at": "2026-09-11T13:30:07.731597+00:00",
+  "enriched_at": "2026-09-11T13:31:38.338272+00:00",
   "tm_to_club_id": "405",
   "found_in": "local_index",
   "tm_from_club_id": "873",
@@ -85,7 +85,5 @@
     "city": "Birmingham"
   },
   "block_reason": "",
-  "block_detail": "",
-  "rumor_slug": "jean-philippe-mateta-aston-villa",
-  "rumor_published_at": "2026-09-11T09:07:23.677092+00:00"
+  "block_detail": ""
 }

@@ -1,0 +1,84 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "gusto__unknown__liverpool",
+  "player": "Gusto",
+  "from_club": "Chelsea FC",
+  "to_club": "Liverpool",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "RUMOR_READY",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c9qr4vw9eqgo?at_medium=RSS&at_campaign=rss",
+    "title": "Liverpool tried to sign Gusto - Wednesday's gossip",
+    "published": "Tue, 01 Sep 2026 22:40:28 GMT",
+    "published_iso": "2026-09-01T22:40:28+00:00"
+  },
+  "discovered_at": "2026-09-11T13:30:07.722087+00:00",
+  "enriched_at": "2026-09-11T13:31:22.539790+00:00",
+  "tm_to_club_id": "31",
+  "found_in": "local_index",
+  "tm_from_club_id": "631",
+  "tm_player_id": "620322",
+  "player_full_name": "Malo Gusto",
+  "birth_date": "2003-05-19",
+  "age": 23,
+  "position": "Right-Back",
+  "position_short": "RB",
+  "preferred_foot": "right",
+  "height": 1.78,
+  "contract_until": "2030-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/620322-1752061866.jpg",
+  "market_value_points": [
+    {
+      "date": "2025-12-09",
+      "value_eur_m": 35.0
+    },
+    {
+      "date": "2026-06-03",
+      "value_eur_m": 35.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 50,
+    "secondNationalityId": 207
+  },
+  "birth_place": "Décines-Charpieu",
+  "former_clubs_note": "AS Villefontaine (2012-2015), FC Bourgoin-Jallieu (2015-2016), Olympique Lyonnais (2016-2020)",
+  "shirt_number": 27,
+  "is_captain": false,
+  "transfer_date": "2023-01-29",
+  "national_team_debut": "2023-10-13",
+  "squad_analysis": {
+    "same_position_count": 2,
+    "same_position_names": [
+      "Jeremie Frimpong",
+      "Conor Bradley"
+    ],
+    "value_rank": null,
+    "squad_total": 27,
+    "younger_than": 18
+  },
+  "to_club_official_name": "Liverpool FC",
+  "to_club_context": {
+    "squad_size": 27,
+    "average_age": "25.9",
+    "squad_value": {
+      "prefix": "€",
+      "content": "1.03",
+      "suffix": "B"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "38.11",
+      "suffix": "M"
+    },
+    "stadium": "Anfield Road",
+    "city": "Liverpool"
+  },
+  "block_reason": "",
+  "block_detail": ""
+}

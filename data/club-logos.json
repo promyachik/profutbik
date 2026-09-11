@@ -1021,13 +1021,17 @@
       "season": 2024,
       "founded": 1945,
       "national": false,
-      "logo": "images/clubs/api/161.png",
+      "logo": "images/clubs/api/rendered/161-45483e6b0086.png",
       "api_logo": "https://media.api-sports.io/football/teams/161.png",
       "venue": {
         "id": 752,
         "name": "Volkswagen Arena",
         "city": "Wolfsburg",
         "capacity": 30000
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "162": {
@@ -2057,7 +2061,7 @@
     "530": {
       "id": 530,
       "name": "Atletico Madrid",
-      "configured_name": "Atletico Madrid",
+      "configured_name": "Atlético de Madrid",
       "code": "ATM",
       "country": "Spain",
       "league_id": 140,
@@ -2065,7 +2069,7 @@
       "season": 2024,
       "founded": 1903,
       "national": false,
-      "logo": "images/clubs/api/rendered/530-33037c80387a.png",
+      "logo": "images/clubs/api/rendered/530-e8b0b14d1d87.png",
       "api_logo": "https://media.api-sports.io/football/teams/530.png",
       "venue": {
         "id": 19217,
