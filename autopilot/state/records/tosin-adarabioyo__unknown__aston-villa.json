@@ -18,9 +18,8 @@
     "published_iso": "2026-08-20T08:59:24+00:00"
   },
   "discovered_at": "2026-09-12T21:24:03.471289+00:00",
-  "enriched_at": "2026-09-12T21:26:02.945015+00:00",
+  "enriched_at": "2026-09-12T23:17:21.410306+00:00",
   "tm_to_club_id": "405",
-  "found_in": "local_index",
   "tm_from_club_id": "148",
   "tm_player_id": "258878",
   "player_full_name": "Tosin Adarabioyo",
@@ -84,5 +83,6 @@
     },
     "stadium": "Villa Park",
     "city": "Birmingham"
-  }
+  },
+  "found_in": "local_index"
 }
