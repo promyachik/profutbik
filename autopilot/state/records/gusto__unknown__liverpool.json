@@ -17,8 +17,8 @@
     "published": "Tue, 01 Sep 2026 22:40:28 GMT",
     "published_iso": "2026-09-01T22:40:28+00:00"
   },
-  "discovered_at": "2026-09-12T18:41:16.090641+00:00",
-  "enriched_at": "2026-09-12T18:42:12.265596+00:00",
+  "discovered_at": "2026-09-12T21:24:03.462521+00:00",
+  "enriched_at": "2026-09-12T21:25:20.112856+00:00",
   "tm_to_club_id": "31",
   "found_in": "local_index",
   "tm_from_club_id": "631",
@@ -82,5 +82,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "malo-gusto-liverpool",
-  "rumor_published_at": "2026-09-12T18:42:48.042769+00:00"
+  "rumor_published_at": "2026-09-12T21:26:08.891012+00:00"
 }

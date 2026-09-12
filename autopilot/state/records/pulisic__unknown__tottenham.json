@@ -17,8 +17,8 @@
     "published": "Sun, 30 Aug 2026 20:59:21 GMT",
     "published_iso": "2026-08-30T20:59:21+00:00"
   },
-  "discovered_at": "2026-09-12T18:41:16.092431+00:00",
-  "enriched_at": "2026-09-12T18:42:35.669072+00:00",
+  "discovered_at": "2026-09-12T21:24:03.463775+00:00",
+  "enriched_at": "2026-09-12T21:25:52.891185+00:00",
   "tm_to_club_id": "148",
   "found_in": "local_index",
   "tm_from_club_id": "5",
@@ -85,5 +85,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "christian-pulisic-tottenham",
-  "rumor_published_at": "2026-09-12T18:42:48.047229+00:00"
+  "rumor_published_at": "2026-09-12T21:26:08.893851+00:00"
 }
