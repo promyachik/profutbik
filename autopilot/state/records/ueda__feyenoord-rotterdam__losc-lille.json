@@ -18,7 +18,7 @@
     "published_iso": "2026-08-31T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.560887+00:00",
-  "enriched_at": "2026-09-12T13:06:57.939141+00:00",
+  "enriched_at": "2026-09-12T16:14:25.349095+00:00",
   "tm_to_club_id": "1082",
   "tm_player_id": "589128",
   "birth_date": "1998-08-28",
@@ -56,7 +56,7 @@
       "Olivier Giroud"
     ],
     "value_rank": 4,
-    "squad_total": 26,
+    "squad_total": 27,
     "younger_than": 5
   },
   "to_club_official_name": "LOSC Lille",
