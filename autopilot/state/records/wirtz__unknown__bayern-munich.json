@@ -1,0 +1,90 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "wirtz__unknown__bayern-munich",
+  "player": "Wirtz",
+  "from_club": "Liverpool FC",
+  "to_club": "Bayern Munich",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "RUMOR_READY",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cr4v345pdq0o?at_medium=RSS&at_campaign=rss",
+    "title": "Bayern monitoring Wirtz - Monday's gossip",
+    "published": "Sun, 13 Sep 2026 20:23:02 GMT",
+    "published_iso": "2026-09-13T20:23:02+00:00"
+  },
+  "discovered_at": "2026-09-13T21:37:23.685704+00:00",
+  "enriched_at": "2026-09-13T21:39:20.478854+00:00",
+  "tm_to_club_id": "27",
+  "found_in": "local_index",
+  "tm_from_club_id": "31",
+  "tm_player_id": "598577",
+  "player_full_name": "Florian Wirtz",
+  "birth_date": "2003-05-03",
+  "age": 23,
+  "position": "Attacking Midfield",
+  "position_short": "AM",
+  "preferred_foot": "right",
+  "height": 1.77,
+  "contract_until": "2030-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/598577-1781163178.jpg",
+  "market_value_points": [
+    {
+      "date": "2025-06-05",
+      "value_eur_m": 140.0
+    },
+    {
+      "date": "2025-12-09",
+      "value_eur_m": 110.0
+    },
+    {
+      "date": "2026-06-03",
+      "value_eur_m": 100.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 40,
+    "secondNationalityId": 0
+  },
+  "birth_place": "Pulheim",
+  "former_clubs_note": "SV Grün-Weiss Brauweiler (2008-2010), 1.FC Köln (2010-2020), Bayer 04 Leverkusen (2020)",
+  "shirt_number": 7,
+  "is_captain": false,
+  "transfer_date": "2025-07-01",
+  "national_team_debut": "2021-09-02",
+  "squad_analysis": {
+    "same_position_count": 3,
+    "same_position_names": [
+      "Jamal Musiala",
+      "Lennart Karl",
+      "Ismael Saibari"
+    ],
+    "value_rank": null,
+    "squad_total": 23,
+    "younger_than": 16
+  },
+  "to_club_official_name": "Bayern Munich",
+  "to_club_context": {
+    "squad_size": 23,
+    "average_age": "27.3",
+    "squad_value": {
+      "prefix": "€",
+      "content": "1.04",
+      "suffix": "B"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "45.11",
+      "suffix": "M"
+    },
+    "stadium": "Säbener Straße 51-57",
+    "city": "München"
+  },
+  "block_reason": "",
+  "block_detail": "",
+  "rumor_attempts": 1
+}
