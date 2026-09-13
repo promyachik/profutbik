@@ -17,8 +17,8 @@
     "published": "Tue, 08 Sep 2026 20:45:07 GMT",
     "published_iso": "2026-09-08T20:45:07+00:00"
   },
-  "discovered_at": "2026-09-13T01:22:41.769045+00:00",
-  "enriched_at": "2026-09-13T01:24:35.913452+00:00",
+  "discovered_at": "2026-09-13T06:44:06.209600+00:00",
+  "enriched_at": "2026-09-13T06:45:31.246930+00:00",
   "tm_to_club_id": "31",
   "found_in": "local_index",
   "tm_from_club_id": "762",
@@ -84,5 +84,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "malick-thiaw-liverpool",
-  "rumor_published_at": "2026-09-13T01:24:44.394416+00:00"
+  "rumor_published_at": "2026-09-13T06:45:37.297045+00:00"
 }
