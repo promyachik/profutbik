@@ -1,5 +1,12 @@
 {{- /* pf-transfer-four-step-footer-canonical */ -}}
 {{ $bottomTransfers := where .Site.Data.transfers "show_in_footer_ticker" true }}
+{{/* PF533D: нижнюю строку рисует ЭТОТ партиал, а не footer-transfer-ticker —
+     на главной подключён он. Ограничение сначала попало не туда, и в разметке
+     оставалось 103 сделки в двух копиях, то есть 209 карточек.
+
+     Двадцать, как и у верхней: одновременно видно три-четыре, остальное за
+     кадром. */}}
+{{ $bottomTransfers = first 20 (sort $bottomTransfers "date" "desc") }}
 
 {{ if gt (len $bottomTransfers) 0 }}<style>
         .transfer-status--confirmed {
@@ -398,7 +405,22 @@
 }
 /* PF401Y_PLAYER_IMAGE_DOWN_5PX_END */
 </style>
-<section class="bottom-transfer-strip-v3 home-player-bottom-strip" aria-label="Transfer ticker">
+{{/* Время прохода объявлено в разметке, а не взято из defaultDuration в
+     скрипте: скоростью нижней строки надо управлять относительно верхней.
+
+     Дмитрий просил нижнюю чуть быстрее верхней. Сравнивать надо не время, а
+     пиксели в секунду: карточки внизу с фотографиями и дорожка шире. Замер в
+     браузере при двадцати сделках в каждой строке:
+
+         верхняя   9071 px / 128 с = 70.9 px/с
+         нижняя   12064 px / 128 с = 94.3 px/с   — на треть быстрее, не «чуть»
+
+     152 секунды дают 79.4 px/с, то есть на 12% быстрее верхней. Менять число
+     сделок в строках — значит менять и ширину дорожки: скорость придётся
+     пересчитать, иначе разрыв уедет. */}}
+<section class="bottom-transfer-strip-v3 home-player-bottom-strip"
+         data-ticker-duration="152"
+         aria-label="Transfer ticker">
     <div class="bottom-transfer-strip-v3__viewport">
         <div class="bottom-transfer-strip-v3__track">
             {{ range $groupNumber := seq 2 }}
