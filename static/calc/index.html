@@ -41,10 +41,6 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
     <label>Зашёл бы по рынку<input id="c-e" inputmode="decimal" placeholder="1.13600"></label>
     <label>Твой стоп<input id="c-s" inputmode="decimal" placeholder="1.13500"></label>
         <label>Твой тейк<input id="c-t" inputmode="decimal" placeholder="не обязательно"></label>
-    <label>Риск, %<input id="c-r" inputmode="decimal" value="1.0"></label>
-    <!-- Сумма риска — своя ячейка рядом с процентом, а не подпись мелочью.
-         Выглядит как поле ввода, но не редактируется: это результат. -->
-    <label>Риск в деньгах<div id="c-money" class="calc__val">—</div></label>
     <!-- Курс нужен только для золота на евровом счёте. Спрятан прямо в
          разметке, а не только скриптом: если JS почему-то не выполнится,
          поле не должно висеть без дела. Именно так 9 сентября обнаружилось,
@@ -87,13 +83,6 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
   gap:12px;margin-bottom:22px}
 .calc__in label{display:flex;flex-direction:column;gap:6px;
   font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint)}
-/* Ячейка суммы риска. Повторяет геометрию поля ввода, чтобы стояла с ним в
-   одну линию, но подчёркнуто не редактируется: рамка приглушена, цвет
-   акцентный — это результат, а не то, что вводят. */
-.calc__val{padding:9px 11px;border:1px dashed var(--line-hover);border-radius:9px;
-  color:var(--accent);font:600 15px/1.2 ui-monospace,monospace;
-  letter-spacing:.01em;box-sizing:border-box;white-space:nowrap;
-  overflow:hidden;text-overflow:ellipsis}
 .calc__in input{padding:9px 11px;border:1px solid var(--line-hover);border-radius:9px;
   background:transparent;color:var(--ink-strong);font:15px/1.2 ui-monospace,monospace;
   outline:none;transition:border-color .15s;width:100%;box-sizing:border-box}
@@ -103,8 +92,12 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
    почему калькулятор ничего не выдаёт. Курсив и низкая непрозрачность — чтобы
    пустое поле нельзя было спутать с заполненным. */
 .calc__in input::placeholder{color:var(--ink-faint);opacity:.42;font-style:italic}
+/* Окантовка полей цены говорит о состоянии, а не о правильности: пусто —
+   красная, введено — зелёная. Дмитрий попросил это для поля тейка, но
+   держать три поля цены в разной логике значило бы сбивать глаз. */
 .calc__in label.need input{border-color:var(--loss-glow)}
 .calc__in label.need{color:var(--loss)}
+.calc__in label.filled input{border-color:var(--win-glow)}
 /* Рамка вокруг лимитки. Это единственное число, которое Дмитрий переносит в
    терминал первым, и оно обязано читаться раньше всего остального. */
 .calc__big{display:flex;flex-direction:column;align-items:center;gap:8px;
@@ -144,7 +137,7 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
 
 <script>
 (function(){
-  var SPEC={"EURUSD": {"size": 100000, "dec": 5, "hint": "1.13600", "hint_s": "1.13500", "tested": true, "spec": true, "lo": 0.4, "hi": 3.0}, "XAUUSD": {"size": 100, "dec": 2, "hint": "2650.00", "hint_s": "2645.00", "tested": false, "spec": false, "lo": 800, "hi": 6000}, "SPX500": {"size": 10, "dec": 2, "hint": "7638.00", "hint_s": "7620.00", "tested": false, "spec": true, "lo": 3000, "hi": 20000}, "DXY": {"size": 0, "dec": 3, "hint": "97.394", "hint_s": "97.640", "tested": false, "spec": true, "index": true, "lo": 70, "hi": 130}}, PB=0.5, ST=0.5;
+  var SPEC={"EURUSD": {"size": 100000, "dec": 5, "hint": "1.13600", "hint_s": "1.13500", "tested": true, "spec": true, "lo": 0.4, "hi": 3.0}, "XAUUSD": {"size": 100, "dec": 2, "hint": "2650.00", "hint_s": "2645.00", "tested": false, "spec": false, "lo": 800, "hi": 6000}, "SPX500": {"size": 10, "dec": 2, "hint": "7638.00", "hint_s": "7620.00", "tested": false, "spec": true, "lo": 3000, "hi": 20000}, "DXY": {"size": 0, "dec": 3, "hint": "97.394", "hint_s": "97.640", "tested": false, "spec": true, "index": true, "lo": 70, "hi": 130}}, PB=0.5, ST=0.5, RISK_PCT=1.0;
   // USD по умолчанию: пропы у Дмитрия долларовые. С EUR он получал 58 вместо
   // 50 и решил, что объём посчитан неверно.
   var ins='EURUSD', acc=6000, cur='USD';
@@ -177,18 +170,11 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
     // Подсказки обоих полей меняются вместе с инструментом. Раньше менялась
     // только первая, и при выбранном золоте в поле стопа висела цена
     // евродоллара — 10 сентября Дмитрий на это и указал.
-    // У индекса нет ни лота, ни размера контракта — считать объём не от чего.
-    // Поля риска и суммы для него прячутся целиком, а не показываются
-    // пустыми: пустая графа выглядит поломкой, а тут её и не должно быть.
     var isIndex = !!S.index;
-    ['c-r','c-money'].forEach(function(id){
-      var el=document.getElementById(id);
-      if(el && el.parentNode) el.parentNode.style.display = isIndex ? 'none' : '';
-    });
     document.getElementById('c-e').placeholder=S.hint;
     document.getElementById('c-s').placeholder=S.hint_s;
 
-    var e=num('c-e'), s=num('c-s'), t=num('c-t'), rp=num('c-r');
+    var e=num('c-e'), s=num('c-s'), t=num('c-t');
     // Называем недостающее поле по имени и подсвечиваем его. Сообщение «введи
     // точку входа и стоп» бесполезно, когда одно из двух уже введено: человек
     // смотрит на подсказку в пустом поле и считает его заполненным.
@@ -201,9 +187,17 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
     miss.forEach(function(m){
       document.getElementById(m[0]).parentNode.classList.add('need');
     });
+    // Тейк не обязателен для лимитки, но без него не считается потенциал
+    // сделки — поэтому пустым он тоже красный, а не просто бледный.
+    ['c-e','c-s','c-t'].forEach(function(id){
+      var el=document.getElementById(id), box=el && el.parentNode;
+      if(!box) return;
+      var filled = num(id)!==null;
+      box.classList.toggle('filled', filled);
+      if(id==='c-t') box.classList.toggle('need', !filled);
+    });
     // Сумма риска живёт вне блока выдачи, поэтому её надо гасить самому:
     // иначе при очистке поля рядом с процентом останется старое число.
-    if(miss.length||e===s) document.getElementById('c-money').textContent='—';
     if(miss.length){
       out.innerHTML='<div class="calc__empty">Не хватает: <b>'+
         miss.map(function(m){return m[1];}).join('</b> и <b>')+
@@ -227,7 +221,6 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
         (fits.length ? 'Это цена '+fits.join(' или ')+' — переключи инструмент сверху.'
                      : 'Для '+ins+' ожидается что-то между '+S.lo+' и '+S.hi+'.')+
         '</div>';
-      document.getElementById('c-money').textContent='—';
       return;
     }
     var buy = s<e;                       // стоп ниже входа значит покупка
@@ -253,15 +246,14 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
     html+=row('Лимитный стоп', slw.toFixed(d),
               (1+ST).toFixed(1)+'R от лимитки — дальше не двигать','key');
 
-    if(rp!==null && !isIndex){
-      var money=acc*rp/100;
+    if(!isIndex){
+      var money=acc*RISK_PCT/100;
       // Инструменты котируются в долларах. Счёт в евро — переводим: для EURUSD
       // курс это сама цена, для остального берём поле.
       var fx=(cur==='USD')?1:(ins==='EURUSD'?lim:(num('c-fx')||1.16));
       var lots=money/(R*S.size/fx);
       // Сумма риска переехала наверх, к полю процента: там её видно рядом с
       // тем числом, из которого она берётся. Отдельной строки внизу больше нет.
-      document.getElementById('c-money').textContent=money.toFixed(2)+' '+cur;
       html+=row('Объём','≈ '+lots.toFixed(2)+' лота',
                 'посчитан под '+money.toFixed(2)+' '+cur+
                 ' — на стопе 1,5R потеряешь '+(money*(1+ST)).toFixed(2),'key');
@@ -365,7 +357,7 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
   pick('.calc__cur','data-cur',function(v){cur=v;});
   // 'c-t' в списке обязателен: без него ввод цели не перерисовывает выдачу,
   // и блок потенциала молча не появляется — ни ошибки, ни следа.
-  ['c-e','c-s','c-t','c-r','c-fx'].forEach(function(id){
+  ['c-e','c-s','c-t','c-fx'].forEach(function(id){
     var el=document.getElementById(id);
     if(el) el.addEventListener('input',draw);
   });
@@ -385,7 +377,7 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
 .calc__in{gap:10px}
 /* На телефоне поле должно быть не меньше 16px, иначе Safari зумит страницу
    при фокусе и вёрстка уезжает. */
-.calc__in input,.calc__val{font-size:16px;padding:11px}
+.calc__in input{font-size:16px;padding:11px}
 .calc__big{padding:18px 14px}
 .calc__big b{font-size:34px}
 .calc__row b{font-size:15px}
