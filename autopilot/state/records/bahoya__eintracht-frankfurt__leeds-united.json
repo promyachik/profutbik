@@ -18,7 +18,7 @@
     "published_iso": "2026-09-01T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.555556+00:00",
-  "enriched_at": "2026-09-14T19:16:23.371521+00:00",
+  "enriched_at": "2026-09-14T22:43:34.403436+00:00",
   "tm_to_club_id": "399",
   "tm_player_id": "939964",
   "birth_date": "2005-05-07",
@@ -61,7 +61,7 @@
   "to_club_official_name": "Leeds United",
   "to_club_context": {
     "squad_size": 24,
-    "average_age": "27.3",
+    "average_age": "27.4",
     "squad_value": {
       "prefix": "€",
       "content": "407.55",
