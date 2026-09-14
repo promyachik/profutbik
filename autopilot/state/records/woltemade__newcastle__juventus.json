@@ -18,7 +18,7 @@
     "published_iso": "2026-09-01T08:03:16+00:00"
   },
   "discovered_at": "2026-09-01T16:00:52.894966+00:00",
-  "enriched_at": "2026-09-14T01:35:19.747944+00:00",
+  "enriched_at": "2026-09-14T06:59:17.850399+00:00",
   "tm_to_club_id": "506",
   "block_reason": "",
   "block_detail": "",
@@ -65,7 +65,7 @@
       "Arkadiusz Milik"
     ],
     "value_rank": 2,
-    "squad_total": 29,
+    "squad_total": 28,
     "younger_than": 22
   },
   "to_club_official_name": "Juventus FC",
