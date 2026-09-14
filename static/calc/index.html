@@ -29,7 +29,7 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
   </p>
 
   <div class="calc__pick">
-    <div class="calc__grp"><span>Инструмент</span><div><button type="button" class="calc__ins on" data-ins="EURUSD">EURUSD</button><button type="button" class="calc__ins" data-ins="XAUUSD">XAUUSD</button><button type="button" class="calc__ins" data-ins="SPX500">SPX500</button></div></div>
+    <div class="calc__grp"><span>Инструмент</span><div><button type="button" class="calc__ins on" data-ins="EURUSD">EURUSD</button><button type="button" class="calc__ins" data-ins="XAUUSD">XAUUSD</button><button type="button" class="calc__ins" data-ins="SPX500">SPX500</button><button type="button" class="calc__ins" data-ins="DXY">DXY</button></div></div>
     <div class="calc__grp"><span>Счёт</span><div><button type="button" class="calc__acc" data-acc="5000">5k</button><button type="button" class="calc__acc on" data-acc="6000">6k</button><button type="button" class="calc__acc" data-acc="10000">10k</button><button type="button" class="calc__acc" data-acc="15000">15k</button><button type="button" class="calc__acc" data-acc="25000">25k</button></div></div>
     <div class="calc__grp"><span>Валюта счёта</span><div>
       <button type="button" class="calc__cur" data-cur="EUR">EUR</button>
@@ -132,7 +132,7 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
 
 <script>
 (function(){
-  var SPEC={"EURUSD": {"size": 100000, "dec": 5, "hint": "1.13600", "hint_s": "1.13500", "tested": true, "spec": true, "lo": 0.4, "hi": 3.0}, "XAUUSD": {"size": 100, "dec": 2, "hint": "2650.00", "hint_s": "2645.00", "tested": false, "spec": false, "lo": 800, "hi": 6000}, "SPX500": {"size": 10, "dec": 2, "hint": "7638.00", "hint_s": "7620.00", "tested": false, "spec": true, "lo": 3000, "hi": 20000}}, PB=0.5, ST=0.5;
+  var SPEC={"EURUSD": {"size": 100000, "dec": 5, "hint": "1.13600", "hint_s": "1.13500", "tested": true, "spec": true, "lo": 0.4, "hi": 3.0}, "XAUUSD": {"size": 100, "dec": 2, "hint": "2650.00", "hint_s": "2645.00", "tested": false, "spec": false, "lo": 800, "hi": 6000}, "SPX500": {"size": 10, "dec": 2, "hint": "7638.00", "hint_s": "7620.00", "tested": false, "spec": true, "lo": 3000, "hi": 20000}, "DXY": {"size": 0, "dec": 3, "hint": "97.394", "hint_s": "97.640", "tested": false, "spec": true, "index": true, "lo": 70, "hi": 130}}, PB=0.5, ST=0.5;
   // USD по умолчанию: пропы у Дмитрия долларовые. С EUR он получал 58 вместо
   // 50 и решил, что объём посчитан неверно.
   var ins='EURUSD', acc=6000, cur='USD';
@@ -165,6 +165,14 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
     // Подсказки обоих полей меняются вместе с инструментом. Раньше менялась
     // только первая, и при выбранном золоте в поле стопа висела цена
     // евродоллара — 10 сентября Дмитрий на это и указал.
+    // У индекса нет ни лота, ни размера контракта — считать объём не от чего.
+    // Поля риска и суммы для него прячутся целиком, а не показываются
+    // пустыми: пустая графа выглядит поломкой, а тут её и не должно быть.
+    var isIndex = !!S.index;
+    ['c-r','c-money'].forEach(function(id){
+      var el=document.getElementById(id);
+      if(el && el.parentNode) el.parentNode.style.display = isIndex ? 'none' : '';
+    });
     document.getElementById('c-e').placeholder=S.hint;
     document.getElementById('c-s').placeholder=S.hint_s;
 
@@ -233,7 +241,7 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
     html+=row('Лимитный стоп', slw.toFixed(d),
               (1+ST).toFixed(1)+'R от лимитки — дальше не двигать','key');
 
-    if(rp!==null){
+    if(rp!==null && !isIndex){
       var money=acc*rp/100;
       // Инструменты котируются в долларах. Счёт в евро — переводим: для EURUSD
       // курс это сама цена, для остального берём поле.
@@ -264,6 +272,14 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
     // Тейка здесь нет вообще. 9 сентября Дмитрий сначала попросил не предлагать
     // цель, а следом убрать и поле: решение о ней принимает он, и калькулятору
     // о ней знать незачем. Считаются только вход, стоп и объём.
+
+    if(isIndex){
+      html+='<div class="calc__note" style="margin-top:14px">'+
+        '<b>'+ins+' — индекс, а не торгуемый инструмент.</b> Лота и размера '+
+        'контракта у него нет, поэтому объём и риск в деньгах не считаются. '+
+        'Уровни выше — полноценные: лимитка и стоп посчитаны так же, как везде.'+
+        '</div>';
+    }
 
     if(!S.tested){
       html+='<div class="calc__warn"><b>По '+ins+' это допущение.</b> '+
