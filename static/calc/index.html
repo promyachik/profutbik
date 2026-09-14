@@ -40,6 +40,12 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
   <div class="calc__in">
     <label>Зашёл бы по рынку<input id="c-e" inputmode="decimal" placeholder="1.13600"></label>
     <label>Твой стоп<input id="c-s" inputmode="decimal" placeholder="1.13500"></label>
+    {/* Поле цели вернулось. 9 сентября Дмитрий просил его убрать, потому что
+         калькулятор тогда СОВЕТОВАЛ, куда ставить тейк, а это его решение.
+         Теперь цель только вводится: по ней считается, на каком уровне лимитка
+         даёт 1:2, 1:3, 1:4. Ничего не предлагается — считается по его числу.
+         Поле необязательное: без него всё остальное работает как прежде. */}
+    <label>Твой тейк<input id="c-t" inputmode="decimal" placeholder="не обязательно"></label>
     <label>Риск, %<input id="c-r" inputmode="decimal" value="1.0"></label>
     <!-- Сумма риска — своя ячейка рядом с процентом, а не подпись мелочью.
          Выглядит как поле ввода, но не редактируется: это результат. -->
@@ -118,6 +124,12 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
 .calc__row.key b{font-size:22px;color:var(--accent)}
 .calc__row.key i{color:var(--ink)}
 .calc__row.warnrow b{color:var(--loss)}
+/* Блок потенциала отделён рамкой: это не продолжение ордера, а прикидка
+   «куда ещё можно было бы поставить лимитку». Путать их нельзя. */
+.calc__pot{margin-top:18px;padding:14px 16px 6px;border:1px solid var(--line-hover);
+  border-radius:12px}
+.calc__pot>span{display:block;margin-bottom:6px;font-size:11px;letter-spacing:.14em;
+  color:var(--ink-faint);font-weight:600}
 .calc__row small{display:block;margin-top:3px;font-size:11.5px;color:var(--ink-faint)}
 .calc__warn{margin-top:16px;padding:11px 14px;border-radius:10px;
   border:1px solid var(--loss-glow);color:var(--loss);font-size:13px;line-height:1.55}
@@ -176,7 +188,7 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
     document.getElementById('c-e').placeholder=S.hint;
     document.getElementById('c-s').placeholder=S.hint_s;
 
-    var e=num('c-e'), s=num('c-s'), rp=num('c-r');
+    var e=num('c-e'), s=num('c-s'), t=num('c-t'), rp=num('c-r');
     // Называем недостающее поле по имени и подсвечиваем его. Сообщение «введи
     // точку входа и стоп» бесполезно, когда одно из двух уже введено: человек
     // смотрит на подсказку в пустом поле и считает его заполненным.
@@ -273,6 +285,60 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
     // цель, а следом убрать и поле: решение о ней принимает он, и калькулятору
     // о ней знать незачем. Считаются только вход, стоп и объём.
 
+    // ПОТЕНЦИАЛ СДЕЛКИ. Дмитрий: «есть сделки где потенциально я вижу что цена
+    // может не вернуться... если всегда брать наше изначальное значение там
+    // может быть и 1 к 7 но цена это не цапанет». То есть жёсткий откат 0,5
+    // иногда просит слишком глубокого возврата, а более скромного соотношения
+    // хватило бы — и лимитку взяли бы.
+    //
+    // Для соотношения k лимитка L решается из k = |T−L| / |L−S|:
+    //
+    //     L = (T + k·S) / (k + 1)
+    //
+    // Формула одна и та же для покупки и продажи — это взвешенное среднее цели
+    // и стопа. Чем выше k, тем ближе вход к стопу, то есть тем глубже откат.
+    //
+    // Глубина отката меряется в долях расстояния вход→стоп: 0,5 — это нынешняя
+    // лимитка, 0 — вход по рынку. Отрицательная означает, что такое соотношение
+    // есть уже по рынку и ждать нечего.
+    if(t!==null && t!==s){
+      var toTarget = buy ? (t - e) : (e - t);
+      if(toTarget <= 0){
+        html+='<div class="calc__warn"><b>Тейк не с той стороны.</b> '+
+          'При '+(buy?'покупке':'продаже')+' цель должна быть '+
+          (buy?'выше':'ниже')+' точки входа.</div>';
+      } else {
+        var rowsP='';
+        var nowRatio = Math.abs(t-lim) / Math.abs(lim-s);
+        rowsP+=row('Сейчас · '+lim.toFixed(d),
+                   '1:'+nowRatio.toFixed(1),
+                   'откат '+PB.toFixed(2)+' — как считает калькулятор');
+        [2,3,4].forEach(function(k){
+          var L=(t + k*s)/(k+1);
+          var depth=(e-L)/(e-s);          // доля расстояния вход→стоп
+          var hint, cls='', shown=L.toFixed(d);
+          if(depth <= 0){
+            // Уровень хуже рыночного: ставить туда лимитку бессмысленно, и
+            // показывать цену — значит приглашать это сделать. Показываем,
+            // что соотношение доступно прямо сейчас.
+            shown='по рынку'; hint='это соотношение есть уже сейчас, ждать нечего';
+          } else if(depth >= 1){
+            shown='—'; hint='требует отката глубже стопа — не бывает'; cls='warnrow';
+          } else {
+            hint='откат '+depth.toFixed(2)+' от расстояния вход→стоп';
+          }
+          rowsP+=row('1:'+k, shown, hint, cls);
+        });
+        var L4=(t + 4*s)/5;
+        var d4=(e-L4)/(e-s);
+        rowsP+=row('Больше 1:4',
+                   d4>0 ? (buy?'ниже ':'выше ')+L4.toFixed(d) : 'по рынку',
+                   d4>0 ? 'всё, что ближе к стопу, чем уровень 1:4'
+                        : 'даже вход по рынку даёт больше 1:4');
+        html+='<div class="calc__pot"><span>ПОТЕНЦИАЛ СДЕЛКИ</span>'+rowsP+'</div>';
+      }
+    }
+
     if(isIndex){
       html+='<div class="calc__note" style="margin-top:14px">'+
         '<b>'+ins+' — индекс, а не торгуемый инструмент.</b> Лота и размера '+
@@ -294,7 +360,9 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
   pick('.calc__ins','data-ins',function(v){ins=v;});
   pick('.calc__acc','data-acc',function(v){acc=parseFloat(v);});
   pick('.calc__cur','data-cur',function(v){cur=v;});
-  ['c-e','c-s','c-r','c-fx'].forEach(function(id){
+  // 'c-t' в списке обязателен: без него ввод цели не перерисовывает выдачу,
+  // и блок потенциала молча не появляется — ни ошибки, ни следа.
+  ['c-e','c-s','c-t','c-r','c-fx'].forEach(function(id){
     var el=document.getElementById(id);
     if(el) el.addEventListener('input',draw);
   });
