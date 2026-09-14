@@ -98,6 +98,10 @@ body{margin:0;padding:14px 12px 40px;background:var(--bg);color:var(--ink);
 .calc__in label.need input{border-color:var(--loss-glow)}
 .calc__in label.need{color:var(--loss)}
 .calc__in label.filled input{border-color:var(--win-glow)}
+/* Подпись меняет цвет вместе с рамкой. Раньше она краснела на пустом поле
+   и возвращалась в серый на заполненном — то есть сигнал был только у
+   одного из двух состояний, и глаз это читал как «ошибка или ничего». */
+.calc__in label.filled{color:var(--win)}
 /* Рамка вокруг лимитки. Это единственное число, которое Дмитрий переносит в
    терминал первым, и оно обязано читаться раньше всего остального. */
 .calc__big{display:flex;flex-direction:column;align-items:center;gap:8px;
