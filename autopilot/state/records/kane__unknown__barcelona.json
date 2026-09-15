@@ -1,25 +1,26 @@
 {
   "schema_version": 2,
-  "kind": "negotiations",
-  "entity_id": "harry-kane__unknown__al-hilal",
-  "player": "Harry Kane",
+  "kind": "rumour",
+  "entity_id": "kane__unknown__barcelona",
+  "player": "Kane",
   "from_club": "Bayern Munich",
-  "to_club": "Al-Hilal",
+  "to_club": "Barcelona",
   "fee_raw": "",
   "verdict": "NEW_CANDIDATE",
   "verdict_reason": "",
-  "pipeline_state": "NEEDS_REVIEW",
+  "pipeline_state": "RUMOR_READY",
   "source": {
     "publisher": "BBC Sport",
     "tier": "major_media",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c70gdd61kk4o?at_medium=RSS&at_campaign=rss",
-    "title": "Al-Hilal in talks with Harry Kane and Ollie Watkins",
-    "published": "Tue, 18 Aug 2026 21:02:44 GMT",
-    "published_iso": "2026-08-18T21:02:44+00:00"
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqzezjn3wzjpo?at_medium=RSS&at_campaign=rss",
+    "title": "Barcelona monitor Kane & Haaland - Wednesday's gossip",
+    "published": "Tue, 15 Sep 2026 20:19:31 GMT",
+    "published_iso": "2026-09-15T20:19:31+00:00"
   },
-  "discovered_at": "2026-09-11T21:54:24.569747+00:00",
-  "enriched_at": "2026-09-15T23:10:17.856168+00:00",
-  "tm_to_club_id": "1114",
+  "discovered_at": "2026-09-15T23:09:02.845739+00:00",
+  "enriched_at": "2026-09-15T23:10:26.754814+00:00",
+  "tm_to_club_id": "131",
+  "found_in": "local_index",
   "tm_from_club_id": "27",
   "tm_player_id": "132098",
   "player_full_name": "Harry Kane",
@@ -58,32 +59,31 @@
   "squad_analysis": {
     "same_position_count": 2,
     "same_position_names": [
-      "Ollie Watkins",
-      "Kader Meïté"
+      "Gabriel Jesus",
+      "Hamza Abdelkarim"
     ],
     "value_rank": null,
-    "squad_total": 28,
-    "younger_than": 4
+    "squad_total": 27,
+    "younger_than": 1
   },
-  "to_club_official_name": "Al-Hilal SFC",
+  "to_club_official_name": "FC Barcelona",
   "to_club_context": {
-    "squad_size": 28,
-    "average_age": "27.4",
+    "squad_size": 27,
+    "average_age": "25.2",
     "squad_value": {
       "prefix": "€",
-      "content": "239.88",
-      "suffix": "M"
+      "content": "1.26",
+      "suffix": "B"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "8.57",
+      "content": "46.76",
       "suffix": "M"
     },
-    "stadium": "",
-    "city": "Riyadh"
+    "stadium": "Avinguda Arístides Maillol ",
+    "city": "Barcelona"
   },
-  "block_reason": "слух не публикуется",
-  "block_detail": "не определены API-Football id клубов",
-  "rumor_attempts": 27,
-  "found_in": "local_index"
+  "block_reason": "",
+  "block_detail": "",
+  "rumor_attempts": 1
 }

@@ -18,7 +18,7 @@
     "published_iso": "2026-08-31T13:01:22+00:00"
   },
   "discovered_at": "2026-09-01T16:50:00.935877+00:00",
-  "enriched_at": "2026-09-15T20:10:48.553792+00:00",
+  "enriched_at": "2026-09-15T23:09:33.517907+00:00",
   "tm_to_club_id": "31",
   "tm_player_id": "708265",
   "player_full_name": "Bradley Barcola",
@@ -51,20 +51,21 @@
   "transfer_date": "2026-08-31",
   "national_team_debut": "2024-06-05",
   "squad_analysis": {
-    "same_position_count": 3,
+    "same_position_count": 4,
     "same_position_names": [
       "Cody Gakpo",
       "Víctor Muñoz",
-      "Rio Ngumoha"
+      "Rio Ngumoha",
+      "Lewis Koumas"
     ],
     "value_rank": 3,
-    "squad_total": 27,
+    "squad_total": 28,
     "younger_than": 15
   },
   "to_club_official_name": "Liverpool FC",
   "to_club_context": {
-    "squad_size": 27,
-    "average_age": "25.9",
+    "squad_size": 28,
+    "average_age": "25.8",
     "squad_value": {
       "prefix": "€",
       "content": "1.03",
@@ -72,7 +73,7 @@
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "38.11",
+      "content": "36.89",
       "suffix": "M"
     },
     "stadium": "Anfield Road",

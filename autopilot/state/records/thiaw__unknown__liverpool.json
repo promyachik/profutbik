@@ -17,8 +17,8 @@
     "published": "Tue, 08 Sep 2026 20:45:07 GMT",
     "published_iso": "2026-09-08T20:45:07+00:00"
   },
-  "discovered_at": "2026-09-15T20:10:05.009794+00:00",
-  "enriched_at": "2026-09-15T20:12:15.080335+00:00",
+  "discovered_at": "2026-09-15T23:09:05.652369+00:00",
+  "enriched_at": "2026-09-15T23:10:59.009609+00:00",
   "tm_to_club_id": "31",
   "found_in": "local_index",
   "tm_from_club_id": "762",
@@ -61,13 +61,13 @@
       "Virgil van Dijk"
     ],
     "value_rank": null,
-    "squad_total": 27,
+    "squad_total": 28,
     "younger_than": 11
   },
   "to_club_official_name": "Liverpool FC",
   "to_club_context": {
-    "squad_size": 27,
-    "average_age": "25.9",
+    "squad_size": 28,
+    "average_age": "25.8",
     "squad_value": {
       "prefix": "€",
       "content": "1.03",
@@ -75,7 +75,7 @@
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "38.11",
+      "content": "36.89",
       "suffix": "M"
     },
     "stadium": "Anfield Road",
@@ -84,5 +84,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "malick-thiaw-liverpool",
-  "rumor_published_at": "2026-09-15T20:12:25.202997+00:00"
+  "rumor_published_at": "2026-09-15T23:11:10.143365+00:00"
 }

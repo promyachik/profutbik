@@ -18,7 +18,7 @@
     "published_iso": "2026-09-04T10:44:37+00:00"
   },
   "discovered_at": "2026-09-05T11:51:40.616800+00:00",
-  "enriched_at": "2026-09-15T20:11:48.664948+00:00",
+  "enriched_at": "2026-09-15T23:10:33.204149+00:00",
   "tm_to_club_id": "31",
   "block_reason": "",
   "block_detail": "",
@@ -59,13 +59,13 @@
       "Federico Chiesa"
     ],
     "value_rank": null,
-    "squad_total": 27,
+    "squad_total": 28,
     "younger_than": 22
   },
   "to_club_official_name": "Liverpool FC",
   "to_club_context": {
-    "squad_size": 27,
-    "average_age": "25.9",
+    "squad_size": 28,
+    "average_age": "25.8",
     "squad_value": {
       "prefix": "€",
       "content": "1.03",
@@ -73,7 +73,7 @@
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "38.11",
+      "content": "36.89",
       "suffix": "M"
     },
     "stadium": "Anfield Road",
