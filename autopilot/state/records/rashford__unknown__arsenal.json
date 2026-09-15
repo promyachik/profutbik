@@ -17,8 +17,8 @@
     "published": "Fri, 28 Aug 2026 20:48:59 GMT",
     "published_iso": "2026-08-28T20:48:59+00:00"
   },
-  "discovered_at": "2026-09-15T01:22:49.402180+00:00",
-  "enriched_at": "2026-09-15T01:24:32.373950+00:00",
+  "discovered_at": "2026-09-15T06:38:07.819588+00:00",
+  "enriched_at": "2026-09-15T06:39:23.649821+00:00",
   "tm_to_club_id": "11",
   "found_in": "local_index",
   "tm_from_club_id": "985",
@@ -85,5 +85,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "marcus-rashford-arsenal",
-  "rumor_published_at": "2026-09-15T01:24:52.031065+00:00"
+  "rumor_published_at": "2026-09-15T06:39:35.832495+00:00"
 }
