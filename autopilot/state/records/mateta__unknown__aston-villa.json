@@ -17,8 +17,8 @@
     "published": "Wed, 26 Aug 2026 09:07:26 GMT",
     "published_iso": "2026-08-26T09:07:26+00:00"
   },
-  "discovered_at": "2026-09-16T06:39:13.654943+00:00",
-  "enriched_at": "2026-09-16T06:40:45.177750+00:00",
+  "discovered_at": "2026-09-16T12:00:52.632142+00:00",
+  "enriched_at": "2026-09-16T12:02:03.926720+00:00",
   "tm_to_club_id": "405",
   "found_in": "local_index",
   "tm_from_club_id": "873",
@@ -87,5 +87,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "jean-philippe-mateta-aston-villa",
-  "rumor_published_at": "2026-09-16T06:41:23.180388+00:00"
+  "rumor_published_at": "2026-09-16T12:02:31.529018+00:00"
 }

@@ -17,8 +17,8 @@
     "published": "Thu, 10 Sep 2026 20:13:27 GMT",
     "published_iso": "2026-09-10T20:13:27+00:00"
   },
-  "discovered_at": "2026-09-16T06:39:13.643242+00:00",
-  "enriched_at": "2026-09-16T06:41:19.526450+00:00",
+  "discovered_at": "2026-09-16T12:00:52.617313+00:00",
+  "enriched_at": "2026-09-16T12:02:29.381414+00:00",
   "tm_to_club_id": "631",
   "found_in": "local_index",
   "tm_from_club_id": "11",
@@ -82,5 +82,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "martin-zubimendi-chelsea",
-  "rumor_published_at": "2026-09-16T06:41:23.182525+00:00"
+  "rumor_published_at": "2026-09-16T12:02:31.532424+00:00"
 }
