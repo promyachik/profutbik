@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "kind": "official",
+  "entity_id": "jj-gabriel__manchester-united__real-madrid",
+  "player": "JJ Gabriel",
+  "from_club": "Manchester United",
+  "to_club": "Real Madrid",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "NEEDS_REVIEW",
+  "source": {
+    "publisher": "The Guardian",
+    "tier": "major_media",
+    "url": "https://www.theguardian.com/football/2026/sep/17/real-madrid-leading-race-sign-jj-gabriel-manchester-united",
+    "title": "Real Madrid leading race to sign JJ Gabriel from Manchester United",
+    "published": "Thu, 17 Sep 2026 11:02:18 GMT",
+    "published_iso": "2026-09-17T11:02:18+00:00"
+  },
+  "discovered_at": "2026-09-17T12:01:50.972576+00:00",
+  "enriched_at": "2026-09-17T12:03:08.528568+00:00",
+  "tm_to_club_id": "418",
+  "block_reason": "PLAYER_NOT_IN_DESTINATION_SQUAD",
+  "block_detail": "JJ Gabriel не числится в составе Real Madrid на Transfermarkt - переход не подтверждён"
+}
