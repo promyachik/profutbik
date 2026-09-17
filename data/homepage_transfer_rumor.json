@@ -2972,6 +2972,26 @@
   ],
   "rumors": [
     {
+      "slug": "jarrad-branthwaite-real-madrid",
+      "url": "rumors/jarrad-branthwaite-real-madrid/",
+      "title": "Jarrad Branthwaite и Real Madrid: слух",
+      "player": "Jarrad Branthwaite",
+      "tm_id": "661053",
+      "status": "rumour",
+      "status_display": "слух",
+      "status_css": "is-rumor",
+      "group": "rumor",
+      "date": "2026-09-17T23:05:06+00:00",
+      "sort_ts": 1789686306.0,
+      "from_name": "Everton FC",
+      "to_name": "Real Madrid",
+      "from_logo": "images/clubs/api/rendered/45-2880cbece686.png",
+      "to_logo": "images/clubs/api/rendered/541-9a600f047317.png",
+      "fee": "Сумма не называется",
+      "from_club_id": "45",
+      "to_club_id": "541"
+    },
+    {
       "slug": "martin-zubimendi-chelsea",
       "url": "rumors/martin-zubimendi-chelsea/",
       "title": "Martín Zubimendi и Chelsea: слух",

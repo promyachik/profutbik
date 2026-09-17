@@ -17,8 +17,8 @@
     "published": "Tue, 01 Sep 2026 05:43:23 GMT",
     "published_iso": "2026-09-01T05:43:23+00:00"
   },
-  "discovered_at": "2026-09-17T20:12:27.948271+00:00",
-  "enriched_at": "2026-09-17T20:13:50.930456+00:00",
+  "discovered_at": "2026-09-17T23:02:55.238816+00:00",
+  "enriched_at": "2026-09-17T23:04:20.131598+00:00",
   "tm_to_club_id": "11",
   "found_in": "local_index",
   "tm_from_club_id": "13",
@@ -82,5 +82,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "julian-alvarez-arsenal",
-  "rumor_published_at": "2026-09-17T20:14:33.094780+00:00"
+  "rumor_published_at": "2026-09-17T23:05:06.292795+00:00"
 }

@@ -17,15 +17,15 @@
     "published": "Sun, 30 Aug 2026 20:59:21 GMT",
     "published_iso": "2026-08-30T20:59:21+00:00"
   },
-  "discovered_at": "2026-09-17T20:12:27.949006+00:00",
-  "enriched_at": "2026-09-17T20:14:14.492561+00:00",
+  "discovered_at": "2026-09-17T23:02:55.239371+00:00",
+  "enriched_at": "2026-09-17T23:04:46.143755+00:00",
   "tm_to_club_id": "148",
   "found_in": "local_index",
   "tm_from_club_id": "5",
   "tm_player_id": "315779",
   "player_full_name": "Christian Pulisic",
   "birth_date": "1998-09-18",
-  "age": 27,
+  "age": 28,
   "position": "Right Winger",
   "position_short": "RW",
   "preferred_foot": "right",
@@ -63,7 +63,7 @@
     ],
     "value_rank": null,
     "squad_total": 28,
-    "younger_than": 9
+    "younger_than": 8
   },
   "to_club_official_name": "Tottenham Hotspur",
   "to_club_context": {
@@ -85,5 +85,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "christian-pulisic-tottenham",
-  "rumor_published_at": "2026-09-17T20:14:33.098713+00:00"
+  "rumor_published_at": "2026-09-17T23:05:06.295899+00:00"
 }
