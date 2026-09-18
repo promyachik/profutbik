@@ -18,7 +18,7 @@
     "published_iso": "2026-08-20T08:59:24+00:00"
   },
   "discovered_at": "2026-09-12T21:24:03.471289+00:00",
-  "enriched_at": "2026-09-18T11:45:15.156410+00:00",
+  "enriched_at": "2026-09-18T16:21:16.884091+00:00",
   "tm_to_club_id": "405",
   "tm_from_club_id": "148",
   "tm_player_id": "258878",
@@ -69,16 +69,16 @@
   },
   "to_club_official_name": "Aston Villa",
   "to_club_context": {
-    "squad_size": 28,
-    "average_age": "26.1",
+    "squad_size": 27,
+    "average_age": "26.2",
     "squad_value": {
       "prefix": "€",
-      "content": "572.50",
+      "content": "572.30",
       "suffix": "M"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "20.45",
+      "content": "21.20",
       "suffix": "M"
     },
     "stadium": "Villa Park",

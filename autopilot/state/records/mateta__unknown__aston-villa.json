@@ -17,8 +17,8 @@
     "published": "Wed, 26 Aug 2026 09:07:26 GMT",
     "published_iso": "2026-08-26T09:07:26+00:00"
   },
-  "discovered_at": "2026-09-18T11:43:20.209778+00:00",
-  "enriched_at": "2026-09-18T11:44:46.491331+00:00",
+  "discovered_at": "2026-09-18T16:19:19.154319+00:00",
+  "enriched_at": "2026-09-18T16:20:48.671142+00:00",
   "tm_to_club_id": "405",
   "found_in": "local_index",
   "tm_from_club_id": "873",
@@ -69,16 +69,16 @@
   },
   "to_club_official_name": "Aston Villa",
   "to_club_context": {
-    "squad_size": 28,
-    "average_age": "26.1",
+    "squad_size": 27,
+    "average_age": "26.2",
     "squad_value": {
       "prefix": "€",
-      "content": "572.50",
+      "content": "572.30",
       "suffix": "M"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "20.45",
+      "content": "21.20",
       "suffix": "M"
     },
     "stadium": "Villa Park",
@@ -87,5 +87,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "jean-philippe-mateta-aston-villa",
-  "rumor_published_at": "2026-09-18T11:46:17.966243+00:00"
+  "rumor_published_at": "2026-09-18T16:21:33.253413+00:00"
 }
