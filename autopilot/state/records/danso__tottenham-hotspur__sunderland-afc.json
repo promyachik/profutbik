@@ -18,11 +18,11 @@
     "published_iso": "2026-09-01T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.561944+00:00",
-  "enriched_at": "2026-09-18T21:39:15.075072+00:00",
+  "enriched_at": "2026-09-18T23:34:26.339975+00:00",
   "tm_to_club_id": "289",
   "tm_player_id": "263236",
   "birth_date": "1998-09-19",
-  "age": 27,
+  "age": 28,
   "position": "Centre-Back",
   "position_short": "CB",
   "preferred_foot": "right",
@@ -63,7 +63,7 @@
     ],
     "value_rank": 10,
     "squad_total": 28,
-    "younger_than": 8
+    "younger_than": 7
   },
   "to_club_official_name": "Sunderland AFC",
   "to_club_context": {
