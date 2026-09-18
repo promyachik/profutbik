@@ -17,8 +17,8 @@
     "published": "Tue, 01 Sep 2026 22:40:28 GMT",
     "published_iso": "2026-09-01T22:40:28+00:00"
   },
-  "discovered_at": "2026-09-18T16:19:19.147459+00:00",
-  "enriched_at": "2026-09-18T16:20:34.250030+00:00",
+  "discovered_at": "2026-09-18T19:09:33.448413+00:00",
+  "enriched_at": "2026-09-18T19:10:44.560791+00:00",
   "tm_to_club_id": "31",
   "found_in": "local_index",
   "tm_from_club_id": "631",
@@ -51,7 +51,7 @@
   "shirt_number": 27,
   "is_captain": false,
   "transfer_date": "2023-01-29",
-  "national_team_debut": "2023-10-13",
+  "national_team_debut": "",
   "squad_analysis": {
     "same_position_count": 2,
     "same_position_names": [
@@ -82,5 +82,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "malo-gusto-liverpool",
-  "rumor_published_at": "2026-09-18T16:21:33.249061+00:00"
+  "rumor_published_at": "2026-09-18T19:11:44.310077+00:00"
 }

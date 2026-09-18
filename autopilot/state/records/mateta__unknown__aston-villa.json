@@ -17,8 +17,8 @@
     "published": "Wed, 26 Aug 2026 09:07:26 GMT",
     "published_iso": "2026-08-26T09:07:26+00:00"
   },
-  "discovered_at": "2026-09-18T16:19:19.154319+00:00",
-  "enriched_at": "2026-09-18T16:20:48.671142+00:00",
+  "discovered_at": "2026-09-18T19:09:33.452739+00:00",
+  "enriched_at": "2026-09-18T19:10:58.248888+00:00",
   "tm_to_club_id": "405",
   "found_in": "local_index",
   "tm_from_club_id": "873",
@@ -55,7 +55,7 @@
   "shirt_number": 14,
   "is_captain": false,
   "transfer_date": "2022-01-31",
-  "national_team_debut": "2025-10-10",
+  "national_team_debut": "",
   "squad_analysis": {
     "same_position_count": 3,
     "same_position_names": [
@@ -87,5 +87,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "jean-philippe-mateta-aston-villa",
-  "rumor_published_at": "2026-09-18T16:21:33.253413+00:00"
+  "rumor_published_at": "2026-09-18T19:11:44.312486+00:00"
 }
