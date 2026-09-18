@@ -1,0 +1,96 @@
+{
+  "slug": "artem-karpukas-zenit-st-petersburg",
+  "player": "Artem Karpukas",
+  "full_name": "Artem Karpukas",
+  "transfermarkt_player_id": 691920,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/691920",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/691920",
+  "transfermarkt_photo_url": "https://img.a.transfermarkt.technology/portrait/big/691920-1789109908.png",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 597,
+  "from_club_name": "Lokomotiv Moscow",
+  "to_club_id": 596,
+  "to_club_name": "Zenit St. Petersburg",
+  "title": "Artem Karpukas перешёл из Lokomotiv Moscow в Zenit St. Petersburg",
+  "description": "Клуб Zenit St. Petersburg подписал Artem Karpukas из клуба Lokomotiv Moscow.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Defensive Midfield",
+  "position_ru": "Опорный полузащитник",
+  "main_position": "DM",
+  "birth_date": "13.06.2002",
+  "age": 24,
+  "nationality": "Russia",
+  "nationality_ru": "Россия",
+  "nationality_code": "RU",
+  "nationality_fifa_code": "RUS",
+  "nationality_flag_aliases": [
+    "RU",
+    "RUS",
+    "Russia",
+    "flag-ru",
+    "ru",
+    "rus",
+    "russia"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€7 млн",
+  "market_value_display": "€7 млн",
+  "seo_body_md": "## Artem Karpukas переходит в Zenit St. Petersburg\n\nКлуб **Zenit St. Petersburg** объявил о подписании **Artem Karpukas**. Опорный полузащитник перешёл из клуба **Lokomotiv Moscow**. Сделка оформлена **21 августа 2026 года**.\n\n## Детали перехода\n\nПо оценке Transfermarkt с 16 декабря 2025 года по 26 мая 2026 года стоимость Karpukas выросла с €6 млн до €7 млн.\n\n## Что получает клуб\n\nВ составе клуба Zenit St. Petersburg теперь 24 игрока со средним возрастом 26,3 года. Общая стоимость команды по Transfermarkt — €176,60 млн, в среднем €7,36 млн на игрока. Домашние матчи команда проводит в городе Sankt Petersburg. В новой команде игрок получил 93-й номер.\n\nНа этой же позиции в клубе значится ещё один игрок — Wilmar Barrios. В рейтинге стоимости состава он занимает 10-е место из 24. В свои 24 года он моложе 14 партнёров команды.\n\nArtem Karpukas родился в городе Biysk, Altai Region (Россия).\n\nЗа сборную России игрок дебютировал 7 июня 2024 года.\n\n## Карточка игрока\n\n- **Позиция:** опорный полузащитник\n- **Прежний клуб:** Lokomotiv Moscow\n- **Новый клуб:** Zenit St. Petersburg\n- **Гражданство:** Россия\n- **Дата рождения:** 13.06.2002\n- **Место рождения:** Biysk, Altai Region\n- **Рост:** 1,84 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 93\n- **Рыночная стоимость Transfermarkt:** €7 млн\n- **Контракт до:** 30.06.2031\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/691920",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-08-21",
+    "effective_transfer_date": "2026-08-21",
+    "parser_result": "official_permanent_transfer",
+    "player": "Artem Karpukas",
+    "from_club": "Lokomotiv Moscow",
+    "to_club": "Zenit St. Petersburg",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Lokomotiv Moscow": 597,
+      "Zenit St. Petersburg": 596
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "karpukas__lokomotiv-moscow__zenit-st-petersburg",
+    "built_at": "2026-09-18T01:15:36.685787+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2025-12-16",
+        "value_eur_m": 6.0
+      },
+      {
+        "date": "2026-05-26",
+        "value_eur_m": 7.0
+      }
+    ]
+  }
+}

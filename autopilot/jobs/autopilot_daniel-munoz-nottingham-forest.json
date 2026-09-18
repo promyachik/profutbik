@@ -1,0 +1,96 @@
+{
+  "slug": "daniel-munoz-nottingham-forest",
+  "player": "Daniel Muñoz",
+  "full_name": "Daniel Muñoz",
+  "transfermarkt_player_id": 493003,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/493003",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/493003",
+  "transfermarkt_photo_url": "https://img.a.transfermarkt.technology/portrait/big/493003-1718642628.jpg",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 52,
+  "from_club_name": "Crystal Palace",
+  "to_club_id": 65,
+  "to_club_name": "Nottingham Forest",
+  "title": "Daniel Muñoz перешёл из Crystal Palace в Nottingham Forest",
+  "description": "Клуб Nottingham Forest подписал Daniel Muñoz из клуба Crystal Palace.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Right-Back",
+  "position_ru": "Правый защитник",
+  "main_position": "RB",
+  "birth_date": "26.05.1996",
+  "age": 30,
+  "nationality": "Colombia",
+  "nationality_ru": "Колумбия",
+  "nationality_code": "CO",
+  "nationality_fifa_code": "COL",
+  "nationality_flag_aliases": [
+    "CO",
+    "COL",
+    "Colombia",
+    "co",
+    "col",
+    "colombia",
+    "flag-co"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€22 млн",
+  "market_value_display": "€22 млн",
+  "seo_body_md": "## Daniel Muñoz стал игроком Nottingham Forest\n\n**Daniel Muñoz** — правый защитник, которому 30 — продолжит карьеру в клубе **Nottingham Forest**, покинув **Crystal Palace**. Переход состоялся **31 августа 2026 года**.\n\n## Карьера до перехода\n\nDaniel Muñoz родился в городе Amalfi (Колумбия). Путь игрока до нынешнего перехода: Cosmos Soccer School (2002-2006), Arco Zaragoza Medellin (2006-2017).\n\nЗа сборную Колумбии игрок дебютировал 4 июня 2021 года.\n\n## Новый клуб\n\nВ составе клуба Nottingham Forest теперь 24 игрока со средним возрастом 27,1 года. Общая стоимость команды по Transfermarkt — €520,50 млн, в среднем €21,69 млн на игрока. Домашние матчи команда проводит в городе West Bridgford. В новой команде игрок получил 27-й номер.\n\nКонкуренцию на этой позиции составят ещё 2 игрока: Ola Aina, Nicolò Savona. В рейтинге стоимости состава он занимает 11-е место из 24. В свои 30 лет он моложе 2 партнёров команды.\n\nПо оценке Transfermarkt с 9 декабря 2025 года по 3 июня 2026 года стоимость Muñoz снизилась с €27 млн до €22 млн. Максимальная оценка за этот период — €27 млн.\n\n## Профиль игрока\n\n- **Позиция:** правый защитник\n- **Прежний клуб:** Crystal Palace\n- **Новый клуб:** Nottingham Forest\n- **Гражданство:** Колумбия\n- **Дата рождения:** 26.05.1996\n- **Место рождения:** Amalfi\n- **Рост:** 1,8 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 27\n- **Рыночная стоимость Transfermarkt:** €22 млн\n- **Контракт до:** 30.06.2029\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/493003",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-08-31",
+    "effective_transfer_date": "2026-08-31",
+    "parser_result": "official_permanent_transfer",
+    "player": "Daniel Muñoz",
+    "from_club": "Crystal Palace",
+    "to_club": "Nottingham Forest",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Crystal Palace": 52,
+      "Nottingham Forest": 65
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "munoz__crystal-palace__nottingham-forest",
+    "built_at": "2026-09-18T01:15:37.800253+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2025-12-09",
+        "value_eur_m": 27.0
+      },
+      {
+        "date": "2026-06-03",
+        "value_eur_m": 22.0
+      }
+    ]
+  }
+}

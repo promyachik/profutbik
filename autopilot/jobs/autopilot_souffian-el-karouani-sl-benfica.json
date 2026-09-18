@@ -1,0 +1,96 @@
+{
+  "slug": "souffian-el-karouani-sl-benfica",
+  "player": "Souffian El Karouani",
+  "full_name": "Souffian El Karouani",
+  "transfermarkt_player_id": 541134,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/541134",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/541134",
+  "transfermarkt_photo_url": "https://img.a.transfermarkt.technology/portrait/big/541134-1723460557.jpg",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 207,
+  "from_club_name": "FC Utrecht",
+  "to_club_id": 211,
+  "to_club_name": "SL Benfica",
+  "title": "Souffian El Karouani перешёл из FC Utrecht в SL Benfica",
+  "description": "Клуб SL Benfica подписал Souffian El Karouani из клуба FC Utrecht.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Left-Back",
+  "position_ru": "Левый защитник",
+  "main_position": "LB",
+  "birth_date": "19.10.2000",
+  "age": 25,
+  "nationality": "Morocco",
+  "nationality_ru": "Марокко",
+  "nationality_code": "MA",
+  "nationality_fifa_code": "MAR",
+  "nationality_flag_aliases": [
+    "MA",
+    "MAR",
+    "Morocco",
+    "flag-ma",
+    "ma",
+    "mar",
+    "morocco"
+  ],
+  "preferred_foot": "Левая",
+  "market_value": "€15 млн",
+  "market_value_display": "€15 млн",
+  "seo_body_md": "## Souffian El Karouani переходит в SL Benfica\n\nКлуб **SL Benfica** объявил о подписании **Souffian El Karouani**. Левый защитник перешёл из клуба **FC Utrecht**. Сделка оформлена **1 сентября 2026 года**.\n\n## Детали перехода\n\nПо оценке Transfermarkt с 2 декабря 2025 года по 28 мая 2026 года стоимость Karouani не изменилась с €15 млн до €15 млн.\n\n## Что получает клуб\n\nВ составе клуба SL Benfica теперь 26 игроков со средним возрастом 24,8 года. Общая стоимость команды по Transfermarkt — €374,05 млн, в среднем €14,39 млн на игрока. Домашние матчи команда проводит в городе Lisboa. В новой команде игрок получил 34-й номер.\n\nКонкуренцию на этой позиции составят ещё 2 игрока: Samuel Dahl, José Neto. В рейтинге стоимости состава он занимает 10-е место из 26. В свои 25 лет он моложе 8 партнёров команды.\n\nSouffian El Karouani родился в городе Den Bosch (Марокко). Ранее выступал за: VV TGG (-2008), FC Den Bosch (2008-), BVV Den Bosch (-2016), Elinkwijk (2016-2017), NEC Nijmegen (2017-2019). Таким образом, это уже 6-й клуб в карьере Karouani.\n\n## Карточка игрока\n\n- **Позиция:** левый защитник\n- **Прежний клуб:** FC Utrecht\n- **Новый клуб:** SL Benfica\n- **Гражданство:** Марокко\n- **Дата рождения:** 19.10.2000\n- **Место рождения:** Den Bosch\n- **Рост:** 1,78 м\n- **Рабочая нога:** левая\n- **Игровой номер:** 34\n- **Рыночная стоимость Transfermarkt:** €15 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/541134",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-01",
+    "effective_transfer_date": "2026-09-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "Souffian El Karouani",
+    "from_club": "FC Utrecht",
+    "to_club": "SL Benfica",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "FC Utrecht": 207,
+      "SL Benfica": 211
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "karouani__fc-utrecht__sl-benfica",
+    "built_at": "2026-09-18T01:15:36.685268+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2025-12-02",
+        "value_eur_m": 15.0
+      },
+      {
+        "date": "2026-05-28",
+        "value_eur_m": 15.0
+      }
+    ]
+  }
+}

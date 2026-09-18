@@ -1,0 +1,96 @@
+{
+  "slug": "ernest-poku-besiktas-jk",
+  "player": "Ernest Poku",
+  "full_name": "Ernest Poku",
+  "transfermarkt_player_id": 718303,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/718303",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/718303",
+  "transfermarkt_photo_url": "https://img.a.transfermarkt.technology/portrait/big/718303-1788353170.jpg",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 168,
+  "from_club_name": "Bayer 04 Leverkusen",
+  "to_club_id": 549,
+  "to_club_name": "Besiktas JK",
+  "title": "Ernest Poku перешёл из Bayer 04 Leverkusen в Besiktas JK",
+  "description": "Клуб Besiktas JK подписал Ernest Poku из клуба Bayer 04 Leverkusen.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Right Winger",
+  "position_ru": "Правый вингер",
+  "main_position": "RW",
+  "birth_date": "28.01.2004",
+  "age": 22,
+  "nationality": "Netherlands",
+  "nationality_ru": "Нидерланды",
+  "nationality_code": "NL",
+  "nationality_fifa_code": "NED",
+  "nationality_flag_aliases": [
+    "NED",
+    "NL",
+    "Netherlands",
+    "flag-nl",
+    "ned",
+    "netherlands",
+    "nl"
+  ],
+  "preferred_foot": "Правая",
+  "market_value": "€25 млн",
+  "market_value_display": "€25 млн",
+  "seo_body_md": "## Ernest Poku стал игроком Besiktas JK\n\n**Ernest Poku** — правый вингер, которому 22 — продолжит карьеру в клубе **Besiktas JK**, покинув **Bayer 04 Leverkusen**. Переход состоялся **26 августа 2026 года**.\n\n## Карьера до перехода\n\nErnest Poku родился в городе Hamburg (Нидерланды). Путь игрока до нынешнего перехода: FC Amsterdam (2018-2019), AZ Alkmaar (2019-2021).\n\nЗа сборную Нидерландыа игрок дебютировал 12 октября 2023 года.\n\n## Новый клуб\n\nВ составе клуба Besiktas JK теперь 31 игрок со средним возрастом 24,7 года. Общая стоимость команды по Transfermarkt — €266,60 млн, в среднем €8,60 млн на игрока. Домашние матчи команда проводит в городе Beşiktaş / İstanbul. В новой команде игрок получил 17-й номер.\n\nКонкуренцию на этой позиции составят ещё 3 игрока: Vaclav Cerny, Milot Rashica, Can Keleş. По оценке Transfermarkt это 3-й по стоимости игрок команды из 31. В свои 22 года он моложе 19 партнёров команды.\n\nПо оценке Transfermarkt с 20 марта 2026 года по 27 мая 2026 года стоимость Poku не изменилась с €25 млн до €25 млн.\n\n## Профиль игрока\n\n- **Позиция:** правый вингер\n- **Прежний клуб:** Bayer 04 Leverkusen\n- **Новый клуб:** Besiktas JK\n- **Гражданство:** Нидерланды\n- **Дата рождения:** 28.01.2004\n- **Место рождения:** Hamburg\n- **Рост:** 1,76 м\n- **Рабочая нога:** правая\n- **Игровой номер:** 17\n- **Рыночная стоимость Transfermarkt:** €25 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/718303",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-08-26",
+    "effective_transfer_date": "2026-08-26",
+    "parser_result": "official_permanent_transfer",
+    "player": "Ernest Poku",
+    "from_club": "Bayer 04 Leverkusen",
+    "to_club": "Besiktas JK",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "Bayer 04 Leverkusen": 168,
+      "Besiktas JK": 549
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "poku__bayer-04-leverkusen__besiktas-jk",
+    "built_at": "2026-09-18T01:15:40.380786+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2026-03-20",
+        "value_eur_m": 25.0
+      },
+      {
+        "date": "2026-05-27",
+        "value_eur_m": 25.0
+      }
+    ]
+  }
+}

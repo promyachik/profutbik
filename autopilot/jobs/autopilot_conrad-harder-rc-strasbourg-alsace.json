@@ -1,0 +1,100 @@
+{
+  "slug": "conrad-harder-rc-strasbourg-alsace",
+  "player": "Conrad Harder",
+  "full_name": "Conrad Harder",
+  "transfermarkt_player_id": 807386,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/807386",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/807386",
+  "transfermarkt_photo_url": "https://img.a.transfermarkt.technology/portrait/big/807386-1785932637.jpg",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 173,
+  "from_club_name": "RB Leipzig",
+  "to_club_id": 95,
+  "to_club_name": "RC Strasbourg Alsace",
+  "title": "Conrad Harder перешёл из RB Leipzig в RC Strasbourg Alsace",
+  "description": "Клуб RC Strasbourg Alsace подписал Conrad Harder из клуба RB Leipzig.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Centre-Forward",
+  "position_ru": "Центральный нападающий",
+  "main_position": "CF",
+  "birth_date": "07.04.2005",
+  "age": 21,
+  "nationality": "Denmark",
+  "nationality_ru": "Дания",
+  "nationality_code": "DK",
+  "nationality_fifa_code": "DEN",
+  "nationality_flag_aliases": [
+    "DEN",
+    "DK",
+    "Denmark",
+    "den",
+    "denmark",
+    "dk",
+    "flag-dk"
+  ],
+  "preferred_foot": "Левая",
+  "market_value": "€17 млн",
+  "market_value_display": "€17 млн",
+  "seo_body_md": "## Conrad Harder стал игроком RC Strasbourg Alsace\n\n**Conrad Harder** — центральный нападающий, которому 21 — продолжит карьеру в клубе **RC Strasbourg Alsace**, покинув **RB Leipzig**. Переход состоялся **1 сентября 2026 года**.\n\n## Карьера до перехода\n\nConrad Harder родился в городе Holte (Дания).\n\nЗа сборную Дании игрок дебютировал 15 октября 2024 года.\n\n## Новый клуб\n\nВ составе клуба RC Strasbourg Alsace теперь 29 игроков со средним возрастом 21,6 года. Общая стоимость команды по Transfermarkt — €287,45 млн, в среднем €9,91 млн на игрока. Домашние матчи команда проводит в городе Strasbourg. В новой команде игрок получил 40-й номер.\n\nКонкуренцию на этой позиции составят ещё 4 игрока: Joaquín Panichelli, Sékou Mara, Deivid Washington, Jacobo Ortega. В рейтинге стоимости состава он занимает 7-е место из 29. В свои 21 год он моложе 10 партнёров команды.\n\nПо оценке Transfermarkt с 19 декабря 2025 года по 27 мая 2026 года стоимость Harder снизилась с €24 млн до €17 млн. Максимальная оценка за этот период — €24 млн.\n\n## Профиль игрока\n\n- **Позиция:** центральный нападающий\n- **Прежний клуб:** RB Leipzig\n- **Новый клуб:** RC Strasbourg Alsace\n- **Гражданство:** Дания\n- **Дата рождения:** 07.04.2005\n- **Место рождения:** Holte\n- **Рост:** 1,85 м\n- **Рабочая нога:** левая\n- **Игровой номер:** 40\n- **Рыночная стоимость Transfermarkt:** €17 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/807386",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-09-01",
+    "effective_transfer_date": "2026-09-01",
+    "parser_result": "official_permanent_transfer",
+    "player": "Conrad Harder",
+    "from_club": "RB Leipzig",
+    "to_club": "RC Strasbourg Alsace",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "RB Leipzig": 173,
+      "RC Strasbourg Alsace": 95
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "harder__rb-leipzig__rc-strasbourg-alsace",
+    "built_at": "2026-09-18T01:15:35.974706+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2025-12-19",
+        "value_eur_m": 24.0
+      },
+      {
+        "date": "2026-03-20",
+        "value_eur_m": 20.0
+      },
+      {
+        "date": "2026-05-27",
+        "value_eur_m": 17.0
+      }
+    ]
+  }
+}

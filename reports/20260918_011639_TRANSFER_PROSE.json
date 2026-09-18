@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-09-18T01:16:39.277492+00:00",
+  "backup": "/home/runner/work/profutbik/profutbik/patch-backups/20260918_011639_TRANSFER_PROSE",
+  "words_before": 917,
+  "words_after": 1114,
+  "pages": [
+    {
+      "page": "aaron-wan-bissaka-aston-villa",
+      "was": 227,
+      "now": 266,
+      "added": 1
+    },
+    {
+      "page": "hugo-larsson-fulham-fc",
+      "was": 236,
+      "now": 306,
+      "added": 2
+    },
+    {
+      "page": "quinten-timber-crystal-palace",
+      "was": 235,
+      "now": 278,
+      "added": 1
+    },
+    {
+      "page": "santiago-gimenez-fc-porto",
+      "was": 219,
+      "now": 264,
+      "added": 1
+    }
+  ]
+}

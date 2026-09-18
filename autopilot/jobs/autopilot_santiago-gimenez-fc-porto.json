@@ -1,0 +1,100 @@
+{
+  "slug": "santiago-gimenez-fc-porto",
+  "player": "Santiago Gimenez",
+  "full_name": "Santiago Gimenez",
+  "transfermarkt_player_id": 552955,
+  "transfermarkt_profile_url": "https://www.transfermarkt.com/-/profil/spieler/552955",
+  "transfermarkt_data_profile_url": "https://tmapi-alpha.transfermarkt.technology/player/552955",
+  "transfermarkt_photo_url": "https://img.a.transfermarkt.technology/portrait/big/552955-1739903736.jpg",
+  "photo_required": true,
+  "on_photo_missing": "block_without_site_publish",
+  "batch_continue_after_photo_block": false,
+  "from_club_id": 489,
+  "from_club_name": "AC Milan",
+  "to_club_id": 212,
+  "to_club_name": "FC Porto",
+  "title": "Santiago Gimenez перешёл из AC Milan в FC Porto",
+  "description": "Клуб FC Porto подписал Santiago Gimenez из клуба AC Milan.",
+  "status": "official",
+  "status_label": "ОФИЦИАЛЬНО",
+  "fee": "Сумма не разглашается",
+  "draft": false,
+  "test_mode": false,
+  "position": "Centre-Forward",
+  "position_ru": "Центральный нападающий",
+  "main_position": "CF",
+  "birth_date": "18.04.2001",
+  "age": 25,
+  "nationality": "Mexico",
+  "nationality_ru": "Мексика",
+  "nationality_code": "MX",
+  "nationality_fifa_code": "MEX",
+  "nationality_flag_aliases": [
+    "MEX",
+    "MX",
+    "Mexico",
+    "flag-mx",
+    "mex",
+    "mexico",
+    "mx"
+  ],
+  "preferred_foot": "Левая",
+  "market_value": "€18 млн",
+  "market_value_display": "€18 млн",
+  "seo_body_md": "## Santiago Gimenez стал игроком FC Porto\n\n**Santiago Gimenez** — центральный нападающий, которому 25 — продолжит карьеру в клубе **FC Porto**, покинув **AC Milan**. Переход состоялся **31 августа 2026 года**.\n\n## Карьера до перехода\n\nSantiago Gimenez родился в городе Resistencia  (Мексика).\n\nЗа сборную Мексики игрок дебютировал 28 октября 2021 года.\n\n## Новый клуб\n\nВ составе клуба FC Porto теперь 28 игроков со средним возрастом 25,5 года. Общая стоимость команды по Transfermarkt — €464,80 млн, в среднем €16,60 млн на игрока. Домашние матчи команда проводит в городе Porto. В новой команде игрок получил 29-й номер.\n\nКонкуренцию на этой позиции составят ещё 2 игрока: Samu Aghehowa, André Silva. В рейтинге стоимости состава он занимает 11-е место из 28. В свои 25 лет он моложе 13 партнёров команды.\n\nПо оценке Transfermarkt с 15 декабря 2023 года по 29 мая 2026 года стоимость Gimenez снизилась с €50 млн до €18 млн. Максимальная оценка за этот период — €50 млн.\n\n## Профиль игрока\n\n- **Позиция:** центральный нападающий\n- **Прежний клуб:** AC Milan\n- **Новый клуб:** FC Porto\n- **Гражданство:** Мексика\n- **Дата рождения:** 18.04.2001\n- **Место рождения:** Resistencia \n- **Рост:** 1,8 м\n- **Рабочая нога:** левая\n- **Игровой номер:** 29\n- **Рыночная стоимость Transfermarkt:** €18 млн\n- **Контракт до:** 30.06.2027\n- **Статус:** официальный переход\n\n---\n\n**Источник:** Transfermarkt. Данные игрока и рыночная стоимость — Transfermarkt.",
+  "source_name": "Transfermarkt",
+  "source_status": "official_permanent_transfer",
+  "source_url": "https://www.transfermarkt.com/-/profil/spieler/552955",
+  "pipeline_engine_version": "3.4",
+  "enabled_modules": [
+    "homepage_transfer",
+    "upper_ticker",
+    "lower_ticker",
+    "player_page"
+  ],
+  "input_mode": "fresh_verified_transfer_news",
+  "fresh_news_parse": {
+    "source_published_date": "2026-08-31",
+    "effective_transfer_date": "2026-08-31",
+    "parser_result": "official_permanent_transfer",
+    "player": "Santiago Gimenez",
+    "from_club": "AC Milan",
+    "to_club": "FC Porto",
+    "status": "official",
+    "fee": "not_disclosed",
+    "not_from_existing_site_database": true
+  },
+  "club_logo_policy": {
+    "mode": "on_demand_cache",
+    "download_missing_known_api_id_clubs": true,
+    "do_not_bulk_download_entire_leagues": true,
+    "historical_graph_clubs_included": true,
+    "verified_api_ids": {
+      "AC Milan": 489,
+      "FC Porto": 212
+    }
+  },
+  "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
+  "_autopilot": {
+    "entity_id": "gimenez__ac-milan__fc-porto",
+    "built_at": "2026-09-18T01:15:35.399310+00:00",
+    "api_id_resolution": {
+      "from": "bridge",
+      "to": "bridge"
+    },
+    "market_value_points": [
+      {
+        "date": "2023-12-15",
+        "value_eur_m": 50.0
+      },
+      {
+        "date": "2025-12-23",
+        "value_eur_m": 20.0
+      },
+      {
+        "date": "2026-05-29",
+        "value_eur_m": 18.0
+      }
+    ]
+  }
+}
