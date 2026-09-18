@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-09-18T06:37:17.707109+00:00",
+  "backup": "/home/runner/work/profutbik/profutbik/patch-backups/20260918_063717_TRANSFER_PROSE",
+  "words_before": 924,
+  "words_after": 1116,
+  "pages": [
+    {
+      "page": "conrad-harder-rc-strasbourg-alsace",
+      "was": 227,
+      "now": 273,
+      "added": 1
+    },
+    {
+      "page": "daniel-munoz-nottingham-forest",
+      "was": 233,
+      "now": 277,
+      "added": 1
+    },
+    {
+      "page": "ernest-poku-besiktas-jk",
+      "was": 230,
+      "now": 304,
+      "added": 2
+    },
+    {
+      "page": "souffian-el-karouani-sl-benfica",
+      "was": 234,
+      "now": 262,
+      "added": 1
+    }
+  ]
+}

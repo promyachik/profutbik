@@ -1377,7 +1377,7 @@
       "season": 2024,
       "founded": 1904,
       "national": false,
-      "logo": "images/clubs/api/rendered/211-2874faa514fa.png",
+      "logo": "images/clubs/api/rendered/211-43a37a15d646.png",
       "api_logo": "https://media.api-sports.io/football/teams/211.png",
       "venue": {
         "id": 1265,
@@ -2393,7 +2393,7 @@
       "season": 2024,
       "founded": 1903,
       "national": false,
-      "logo": "images/clubs/api/rendered/549-653f8a3ec38a.png",
+      "logo": "images/clubs/api/rendered/549-85e970f71745.png",
       "api_logo": "https://media.api-sports.io/football/teams/549.png",
       "venue": {
         "id": 20423,
@@ -3500,7 +3500,7 @@
       "id": 207,
       "name": "FC Utrecht",
       "configured_name": "FC Utrecht",
-      "logo": "images/clubs/api/rendered/207-149f6c11cf77.png",
+      "logo": "images/clubs/api/rendered/207-908b8f128bb6.png",
       "api_logo": "https://media.api-sports.io/football/teams/207.png",
       "logo_validation": {
         "mode": "content_hashed_local_png",

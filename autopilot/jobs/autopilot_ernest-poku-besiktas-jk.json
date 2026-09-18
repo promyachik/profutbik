@@ -77,7 +77,7 @@
   "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
   "_autopilot": {
     "entity_id": "poku__bayer-04-leverkusen__besiktas-jk",
-    "built_at": "2026-09-18T01:15:40.380786+00:00",
+    "built_at": "2026-09-18T06:35:47.639651+00:00",
     "api_id_resolution": {
       "from": "bridge",
       "to": "bridge"

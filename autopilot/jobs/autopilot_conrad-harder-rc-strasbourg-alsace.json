@@ -77,7 +77,7 @@
   "package_intent": "autopilot_full_1_2_3_4_plus_lower_ticker",
   "_autopilot": {
     "entity_id": "harder__rb-leipzig__rc-strasbourg-alsace",
-    "built_at": "2026-09-18T01:15:35.974706+00:00",
+    "built_at": "2026-09-18T06:35:44.020501+00:00",
     "api_id_resolution": {
       "from": "bridge",
       "to": "bridge"
