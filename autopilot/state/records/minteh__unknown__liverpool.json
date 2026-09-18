@@ -18,7 +18,7 @@
     "published_iso": "2026-09-04T10:44:37+00:00"
   },
   "discovered_at": "2026-09-05T11:51:40.616800+00:00",
-  "enriched_at": "2026-09-18T06:35:15.828586+00:00",
+  "enriched_at": "2026-09-18T11:44:47.078705+00:00",
   "tm_to_club_id": "31",
   "block_reason": "",
   "block_detail": "",
@@ -52,7 +52,7 @@
   "shirt_number": 11,
   "is_captain": false,
   "transfer_date": "2024-07-01",
-  "national_team_debut": "2022-11-20",
+  "national_team_debut": "",
   "squad_analysis": {
     "same_position_count": 1,
     "same_position_names": [

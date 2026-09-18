@@ -17,8 +17,8 @@
     "published": "Thu, 17 Sep 2026 22:14:43 GMT",
     "published_iso": "2026-09-17T22:14:43+00:00"
   },
-  "discovered_at": "2026-09-18T06:34:08.716136+00:00",
-  "enriched_at": "2026-09-18T06:35:09.512167+00:00",
+  "discovered_at": "2026-09-18T11:43:20.195803+00:00",
+  "enriched_at": "2026-09-18T11:44:38.377535+00:00",
   "tm_to_club_id": "418",
   "found_in": "local_index",
   "tm_from_club_id": "29",
@@ -55,7 +55,7 @@
   "shirt_number": 4,
   "is_captain": false,
   "transfer_date": "2020-01-13",
-  "national_team_debut": "",
+  "national_team_debut": "2024-06-03",
   "squad_analysis": {
     "same_position_count": 5,
     "same_position_names": [
@@ -88,5 +88,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "jarrad-branthwaite-real-madrid",
-  "rumor_published_at": "2026-09-18T06:37:16.349939+00:00"
+  "rumor_published_at": "2026-09-18T11:46:17.964068+00:00"
 }

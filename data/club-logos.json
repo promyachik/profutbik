@@ -2469,7 +2469,7 @@
     "596": {
       "id": 596,
       "name": "Zenit",
-      "configured_name": "Zenit",
+      "configured_name": "Zenit St. Petersburg",
       "code": "ZEN",
       "country": "Russia",
       "league_id": 235,
@@ -2477,13 +2477,17 @@
       "season": 2024,
       "founded": 1925,
       "national": false,
-      "logo": "images/clubs/api/596.png",
+      "logo": "images/clubs/api/rendered/596-c81eaeda000d.png",
       "api_logo": "https://media.api-sports.io/football/teams/596.png",
       "venue": {
         "id": 20984,
         "name": "Gazprom Arena",
         "city": "St. Petersburg",
         "capacity": 68134
+      },
+      "logo_validation": {
+        "mode": "content_hashed_local_png",
+        "engine_version": "3.4"
       }
     },
     "597": {
