@@ -18,7 +18,7 @@
     "published_iso": "2026-08-31T13:01:22+00:00"
   },
   "discovered_at": "2026-09-01T16:50:00.935877+00:00",
-  "enriched_at": "2026-09-20T19:42:35.282661+00:00",
+  "enriched_at": "2026-09-20T22:23:23.873526+00:00",
   "tm_to_club_id": "31",
   "tm_player_id": "708265",
   "player_full_name": "Bradley Barcola",
@@ -63,8 +63,8 @@
   },
   "to_club_official_name": "Liverpool FC",
   "to_club_context": {
-    "squad_size": 28,
-    "average_age": "25.8",
+    "squad_size": 29,
+    "average_age": "25.6",
     "squad_value": {
       "prefix": "€",
       "content": "1.03",
@@ -72,7 +72,7 @@
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "36.89",
+      "content": "35.67",
       "suffix": "M"
     },
     "stadium": "Anfield Road",

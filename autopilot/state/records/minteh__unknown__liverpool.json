@@ -18,7 +18,7 @@
     "published_iso": "2026-09-04T10:44:37+00:00"
   },
   "discovered_at": "2026-09-05T11:51:40.616800+00:00",
-  "enriched_at": "2026-09-20T19:43:34.507837+00:00",
+  "enriched_at": "2026-09-20T22:24:24.700674+00:00",
   "tm_to_club_id": "31",
   "block_reason": "",
   "block_detail": "",
@@ -64,8 +64,8 @@
   },
   "to_club_official_name": "Liverpool FC",
   "to_club_context": {
-    "squad_size": 28,
-    "average_age": "25.8",
+    "squad_size": 29,
+    "average_age": "25.6",
     "squad_value": {
       "prefix": "€",
       "content": "1.03",
@@ -73,7 +73,7 @@
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "36.89",
+      "content": "35.67",
       "suffix": "M"
     },
     "stadium": "Anfield Road",
