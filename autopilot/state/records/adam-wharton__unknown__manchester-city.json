@@ -17,8 +17,8 @@
     "published": "Fri, 04 Sep 2026 21:07:33 GMT",
     "published_iso": "2026-09-04T21:07:33+00:00"
   },
-  "discovered_at": "2026-09-20T05:20:12.788073+00:00",
-  "enriched_at": "2026-09-20T05:20:12.928187+00:00",
+  "discovered_at": "2026-09-20T10:03:50.075850+00:00",
+  "enriched_at": "2026-09-20T10:03:50.181000+00:00",
   "tm_to_club_id": "281",
   "found_in": "local_index",
   "tm_from_club_id": "873",
@@ -81,5 +81,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "adam-wharton-manchester-city",
-  "rumor_published_at": "2026-09-20T05:22:09.544488+00:00"
+  "rumor_published_at": "2026-09-20T10:05:38.512892+00:00"
 }
