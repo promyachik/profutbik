@@ -17,8 +17,8 @@
     "published": "Tue, 01 Sep 2026 22:40:28 GMT",
     "published_iso": "2026-09-01T22:40:28+00:00"
   },
-  "discovered_at": "2026-09-20T17:26:37.525346+00:00",
-  "enriched_at": "2026-09-20T17:27:40.759117+00:00",
+  "discovered_at": "2026-09-20T19:42:07.832192+00:00",
+  "enriched_at": "2026-09-20T19:43:18.786598+00:00",
   "tm_to_club_id": "31",
   "found_in": "local_index",
   "tm_from_club_id": "631",
@@ -59,7 +59,7 @@
       "Conor Bradley"
     ],
     "value_rank": null,
-    "squad_total": 28,
+    "squad_total": 29,
     "younger_than": 18
   },
   "to_club_official_name": "Liverpool FC",
@@ -82,5 +82,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "malo-gusto-liverpool",
-  "rumor_published_at": "2026-09-20T17:28:28.906024+00:00"
+  "rumor_published_at": "2026-09-20T19:44:17.127260+00:00"
 }
