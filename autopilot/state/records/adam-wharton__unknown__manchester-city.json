@@ -17,8 +17,8 @@
     "published": "Fri, 04 Sep 2026 21:07:33 GMT",
     "published_iso": "2026-09-04T21:07:33+00:00"
   },
-  "discovered_at": "2026-09-21T11:03:29.674386+00:00",
-  "enriched_at": "2026-09-21T11:03:29.818895+00:00",
+  "discovered_at": "2026-09-21T16:59:31.218677+00:00",
+  "enriched_at": "2026-09-21T16:59:34.926755+00:00",
   "tm_to_club_id": "281",
   "found_in": "local_index",
   "tm_from_club_id": "873",
@@ -53,8 +53,9 @@
   "transfer_date": "2024-02-01",
   "national_team_debut": "",
   "squad_analysis": {
-    "same_position_count": 1,
+    "same_position_count": 2,
     "same_position_names": [
+      "Elliot Anderson",
       "Ayyoub Bouaddi"
     ],
     "value_rank": null,
@@ -81,5 +82,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "adam-wharton-manchester-city",
-  "rumor_published_at": "2026-09-21T11:05:43.207200+00:00"
+  "rumor_published_at": "2026-09-21T17:01:56.710113+00:00"
 }
