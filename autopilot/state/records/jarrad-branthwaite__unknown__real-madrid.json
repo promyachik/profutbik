@@ -17,8 +17,8 @@
     "published": "Thu, 17 Sep 2026 22:14:43 GMT",
     "published_iso": "2026-09-17T22:14:43+00:00"
   },
-  "discovered_at": "2026-09-21T20:59:06.860595+00:00",
-  "enriched_at": "2026-09-21T21:00:03.431814+00:00",
+  "discovered_at": "2026-09-22T00:01:59.248126+00:00",
+  "enriched_at": "2026-09-22T00:03:14.238029+00:00",
   "tm_to_club_id": "418",
   "found_in": "local_index",
   "tm_from_club_id": "29",
@@ -88,5 +88,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "jarrad-branthwaite-real-madrid",
-  "rumor_published_at": "2026-09-21T21:00:39.289330+00:00"
+  "rumor_published_at": "2026-09-22T00:04:03.182793+00:00"
 }
