@@ -17,8 +17,8 @@
     "published": "Tue, 01 Sep 2026 05:43:23 GMT",
     "published_iso": "2026-09-01T05:43:23+00:00"
   },
-  "discovered_at": "2026-09-22T00:01:59.556183+00:00",
-  "enriched_at": "2026-09-22T00:03:48.730477+00:00",
+  "discovered_at": "2026-09-22T04:42:34.931404+00:00",
+  "enriched_at": "2026-09-22T04:44:29.194922+00:00",
   "tm_to_club_id": "703",
   "found_in": "local_index",
   "tm_from_club_id": "31",
@@ -83,5 +83,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "trey-nyoni-nottingham-forest",
-  "rumor_published_at": "2026-09-22T00:04:03.186519+00:00"
+  "rumor_published_at": "2026-09-22T04:44:43.837601+00:00"
 }
