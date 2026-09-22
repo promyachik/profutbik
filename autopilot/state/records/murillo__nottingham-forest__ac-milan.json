@@ -19,7 +19,7 @@
     "published_iso": "2026-07-19T14:00:00+03:00"
   },
   "discovered_at": "2026-09-05T20:01:34.608725+00:00",
-  "enriched_at": "2026-09-22T09:52:24.544577+00:00",
+  "enriched_at": "2026-09-22T14:43:38.747191+00:00",
   "tm_to_club_id": "5",
   "tm_from_club_id": "703",
   "tm_player_id": "1005649",
@@ -61,7 +61,7 @@
       "Strahinja Pavlović",
       "Mario Gila",
       "Koni De Winter",
-      "Fikayo Tomori"
+      "Matteo Gabbia"
     ],
     "value_rank": null,
     "squad_total": 28,
@@ -73,12 +73,12 @@
     "average_age": "25.6",
     "squad_value": {
       "prefix": "€",
-      "content": "474.35",
+      "content": "503.20",
       "suffix": "M"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "16.94",
+      "content": "17.97",
       "suffix": "M"
     },
     "stadium": "Via Aldo Rossi 8",
