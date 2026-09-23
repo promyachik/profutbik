@@ -18,7 +18,7 @@
     "published_iso": "2026-09-01T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.541685+00:00",
-  "enriched_at": "2026-09-23T05:06:39.792997+00:00",
+  "enriched_at": "2026-09-23T09:54:57.591905+00:00",
   "tm_to_club_id": "281",
   "tm_player_id": "648195",
   "birth_date": "2001-01-17",
@@ -55,7 +55,7 @@
       "Mateo Kovacic"
     ],
     "value_rank": 3,
-    "squad_total": 25,
+    "squad_total": 24,
     "younger_than": 11
   },
   "to_club_official_name": "Manchester City",
