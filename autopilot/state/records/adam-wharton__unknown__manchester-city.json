@@ -17,8 +17,8 @@
     "published": "Fri, 04 Sep 2026 21:07:33 GMT",
     "published_iso": "2026-09-04T21:07:33+00:00"
   },
-  "discovered_at": "2026-09-23T09:53:54.073729+00:00",
-  "enriched_at": "2026-09-23T09:53:54.170412+00:00",
+  "discovered_at": "2026-09-23T14:55:37.320361+00:00",
+  "enriched_at": "2026-09-23T14:55:37.509137+00:00",
   "tm_to_club_id": "281",
   "found_in": "local_index",
   "tm_from_club_id": "873",
@@ -64,8 +64,8 @@
   },
   "to_club_official_name": "Manchester City",
   "to_club_context": {
-    "squad_size": 25,
-    "average_age": "25.4",
+    "squad_size": 24,
+    "average_age": "25.5",
     "squad_value": {
       "prefix": "€",
       "content": "1.43",
@@ -73,7 +73,7 @@
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "57.39",
+      "content": "59.68",
       "suffix": "M"
     },
     "stadium": "Etihad Stadium, Etihad Campus",
@@ -82,5 +82,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "adam-wharton-manchester-city",
-  "rumor_published_at": "2026-09-23T09:56:02.974071+00:00"
+  "rumor_published_at": "2026-09-23T14:57:39.807340+00:00"
 }

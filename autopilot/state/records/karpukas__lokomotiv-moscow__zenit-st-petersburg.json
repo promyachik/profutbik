@@ -18,7 +18,7 @@
     "published_iso": "2026-08-21T12:00:00+00:00"
   },
   "discovered_at": "2026-09-06T17:26:39.114112+00:00",
-  "enriched_at": "2026-09-23T09:55:14.057786+00:00",
+  "enriched_at": "2026-09-23T14:56:53.297956+00:00",
   "tm_to_club_id": "964",
   "tm_player_id": "691920",
   "birth_date": "2002-06-13",
@@ -54,7 +54,7 @@
     "same_position_names": [
       "Wilmar Barrios"
     ],
-    "value_rank": 10,
+    "value_rank": 11,
     "squad_total": 24,
     "younger_than": 14
   },
@@ -64,12 +64,12 @@
     "average_age": "26.3",
     "squad_value": {
       "prefix": "€",
-      "content": "176.60",
+      "content": "177.10",
       "suffix": "M"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "7.36",
+      "content": "7.38",
       "suffix": "M"
     },
     "stadium": "Prospekt Dobrolyubova, 16, building 2A",
