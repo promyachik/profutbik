@@ -18,11 +18,11 @@
     "published_iso": "2026-09-01T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.569640+00:00",
-  "enriched_at": "2026-09-23T18:59:26.027075+00:00",
+  "enriched_at": "2026-09-23T22:13:32.113258+00:00",
   "tm_to_club_id": "148",
   "tm_player_id": "258878",
   "birth_date": "1997-09-24",
-  "age": 28,
+  "age": 29,
   "position": "Centre-Back",
   "position_short": "CB",
   "preferred_foot": "right",
@@ -63,7 +63,7 @@
     ],
     "value_rank": 22,
     "squad_total": 28,
-    "younger_than": 8
+    "younger_than": 3
   },
   "to_club_official_name": "Tottenham Hotspur",
   "to_club_context": {

@@ -18,13 +18,13 @@
     "published_iso": "2026-08-20T08:59:24+00:00"
   },
   "discovered_at": "2026-09-12T21:24:03.471289+00:00",
-  "enriched_at": "2026-09-23T19:00:52.870745+00:00",
+  "enriched_at": "2026-09-23T22:15:14.218197+00:00",
   "tm_to_club_id": "405",
   "tm_from_club_id": "148",
   "tm_player_id": "258878",
   "player_full_name": "Tosin Adarabioyo",
   "birth_date": "1997-09-24",
-  "age": 28,
+  "age": 29,
   "position": "Centre-Back",
   "position_short": "CB",
   "preferred_foot": "right",
@@ -65,7 +65,7 @@
     ],
     "value_rank": null,
     "squad_total": 27,
-    "younger_than": 9
+    "younger_than": 6
   },
   "to_club_official_name": "Aston Villa",
   "to_club_context": {
