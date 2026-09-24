@@ -1,0 +1,86 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "alex-scott__unknown__chelsea",
+  "player": "Alex Scott",
+  "from_club": "AFC Bournemouth",
+  "to_club": "Chelsea",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "PUBLISHED_AS_RUMOR",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6eq8eygy4e5o?at_medium=RSS&at_campaign=rss",
+    "title": "Chelsea target Bournemouth's Alex Scott",
+    "published": "Thu, 24 Sep 2026 20:16:58 GMT",
+    "published_iso": "2026-09-24T20:16:58+00:00"
+  },
+  "discovered_at": "2026-09-24T23:10:39.187891+00:00",
+  "enriched_at": "2026-09-24T23:10:45.535800+00:00",
+  "tm_to_club_id": "631",
+  "found_in": "local_index",
+  "tm_from_club_id": "989",
+  "tm_player_id": "855256",
+  "player_full_name": "Alex Scott",
+  "birth_date": "2003-08-21",
+  "age": 23,
+  "position": "Central Midfield",
+  "position_short": "CM",
+  "preferred_foot": "right",
+  "height": 1.78,
+  "contract_until": "2028-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/855256-1656922605.jpg",
+  "market_value_points": [
+    {
+      "date": "2026-03-09",
+      "value_eur_m": 40.0
+    },
+    {
+      "date": "2026-06-03",
+      "value_eur_m": 50.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 189,
+    "secondNationalityId": 271
+  },
+  "birth_place": "Guernsey",
+  "former_clubs_note": "Rangers & St Martin's (2007-2011), Southampton FC (2011-2016), AFC Bournemouth (2016-2017), FC Guernsey (2017-2019), Bristol City (2019-2021)",
+  "shirt_number": 8,
+  "is_captain": false,
+  "transfer_date": "2023-08-10",
+  "national_team_debut": "",
+  "squad_analysis": {
+    "same_position_count": 2,
+    "same_position_names": [
+      "Valentín Barco",
+      "Jordan Henderson"
+    ],
+    "value_rank": null,
+    "squad_total": 27,
+    "younger_than": 12
+  },
+  "to_club_official_name": "Chelsea FC",
+  "to_club_context": {
+    "squad_size": 27,
+    "average_age": "24.7",
+    "squad_value": {
+      "prefix": "€",
+      "content": "1.08",
+      "suffix": "B"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "39.88",
+      "suffix": "M"
+    },
+    "stadium": "Fulham Road",
+    "city": "London"
+  },
+  "block_reason": "",
+  "block_detail": "",
+  "rumor_slug": "alex-scott-chelsea",
+  "rumor_published_at": "2026-09-24T23:12:13.385509+00:00"
+}

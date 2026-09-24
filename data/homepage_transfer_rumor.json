@@ -3206,6 +3206,26 @@
   ],
   "rumors": [
     {
+      "slug": "alex-scott-chelsea",
+      "url": "rumors/alex-scott-chelsea/",
+      "title": "Alex Scott и Chelsea: слух",
+      "player": "Alex Scott",
+      "tm_id": "855256",
+      "status": "rumour",
+      "status_display": "слух",
+      "status_css": "is-rumor",
+      "group": "rumor",
+      "date": "2026-09-24T23:12:13+00:00",
+      "sort_ts": 1790291533.0,
+      "from_name": "AFC Bournemouth",
+      "to_name": "Chelsea",
+      "from_logo": "images/clubs/api/rendered/35-e668d998ce23.png",
+      "to_logo": "images/clubs/api/rendered/49-ae568c1935d8.png",
+      "fee": "Сумма не называется",
+      "from_club_id": "35",
+      "to_club_id": "49"
+    },
+    {
       "slug": "jarrad-branthwaite-real-madrid",
       "url": "rumors/jarrad-branthwaite-real-madrid/",
       "title": "Jarrad Branthwaite и Real Madrid: слух",

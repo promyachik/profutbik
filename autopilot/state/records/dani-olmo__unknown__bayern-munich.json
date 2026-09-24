@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "kind": "rumour",
-  "entity_id": "wirtz__unknown__bayern-munich",
-  "player": "Wirtz",
-  "from_club": "Liverpool FC",
+  "entity_id": "dani-olmo__unknown__bayern-munich",
+  "player": "Dani Olmo",
+  "from_club": "FC Barcelona",
   "to_club": "Bayern Munich",
   "fee_raw": "",
   "verdict": "NEW_CANDIDATE",
@@ -12,50 +12,46 @@
   "source": {
     "publisher": "BBC Sport",
     "tier": "major_media",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cr4v345pdq0o?at_medium=RSS&at_campaign=rss",
-    "title": "Bayern monitoring Wirtz - Monday's gossip",
-    "published": "Sun, 13 Sep 2026 20:23:02 GMT",
-    "published_iso": "2026-09-13T20:23:02+00:00"
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6eq8eygy4e5o?at_medium=RSS&at_campaign=rss",
+    "title": "Bayern Munich are interested in Dani Olmo and Jude Bellingham denies Manchester City interest",
+    "published": "Thu, 24 Sep 2026 20:16:58 GMT",
+    "published_iso": "2026-09-24T20:16:58+00:00"
   },
-  "discovered_at": "2026-09-24T23:10:39.192824+00:00",
-  "enriched_at": "2026-09-24T23:12:05.275421+00:00",
+  "discovered_at": "2026-09-24T23:10:39.188175+00:00",
+  "enriched_at": "2026-09-24T23:11:10.789421+00:00",
   "tm_to_club_id": "27",
   "found_in": "local_index",
-  "tm_from_club_id": "31",
-  "tm_player_id": "598577",
-  "player_full_name": "Florian Wirtz",
-  "birth_date": "2003-05-03",
-  "age": 23,
+  "tm_from_club_id": "131",
+  "tm_player_id": "293385",
+  "player_full_name": "Dani Olmo",
+  "birth_date": "1998-05-07",
+  "age": 28,
   "position": "Attacking Midfield",
   "position_short": "AM",
   "preferred_foot": "right",
-  "height": 1.77,
+  "height": 1.79,
   "contract_until": "2030-06-30",
-  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/598577-1781163178.jpg",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/293385-1780663091.jpg",
   "market_value_points": [
     {
-      "date": "2025-06-05",
-      "value_eur_m": 140.0
+      "date": "2025-12-12",
+      "value_eur_m": 60.0
     },
     {
-      "date": "2025-12-09",
-      "value_eur_m": 110.0
-    },
-    {
-      "date": "2026-06-03",
-      "value_eur_m": 100.0
+      "date": "2026-06-05",
+      "value_eur_m": 60.0
     }
   ],
   "nationality_ids": {
-    "nationalityId": 40,
+    "nationalityId": 157,
     "secondNationalityId": 0
   },
-  "birth_place": "Pulheim",
-  "former_clubs_note": "SV Grün-Weiss Brauweiler (2008-2010), 1.FC Köln (2010-2020), Bayer 04 Leverkusen (2020)",
-  "shirt_number": 7,
+  "birth_place": "Terrassa",
+  "former_clubs_note": "RCD Espanyol (2006–2007), FC Barcelona (2007–2014), GNK Dinamo Zagreb (2014–2015)",
+  "shirt_number": 20,
   "is_captain": false,
-  "transfer_date": "2025-07-01",
-  "national_team_debut": "2021-09-02",
+  "transfer_date": "2024-08-09",
+  "national_team_debut": "2019-11-15",
   "squad_analysis": {
     "same_position_count": 3,
     "same_position_names": [
@@ -65,7 +61,7 @@
     ],
     "value_rank": null,
     "squad_total": 23,
-    "younger_than": 16
+    "younger_than": 9
   },
   "to_club_official_name": "Bayern Munich",
   "to_club_context": {

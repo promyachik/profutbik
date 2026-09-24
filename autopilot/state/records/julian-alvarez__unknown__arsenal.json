@@ -18,9 +18,8 @@
     "published_iso": "2026-09-01T05:43:23+00:00"
   },
   "discovered_at": "2026-09-24T19:57:18.288038+00:00",
-  "enriched_at": "2026-09-24T19:58:17.713233+00:00",
+  "enriched_at": "2026-09-24T23:11:39.470201+00:00",
   "tm_to_club_id": "11",
-  "found_in": "local_index",
   "tm_from_club_id": "13",
   "tm_player_id": "576024",
   "player_full_name": "Julián Alvarez",
@@ -82,5 +81,6 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "julian-alvarez-arsenal",
-  "rumor_published_at": "2026-09-24T19:58:52.542858+00:00"
+  "rumor_published_at": "2026-09-24T19:58:52.542858+00:00",
+  "found_in": "local_index"
 }

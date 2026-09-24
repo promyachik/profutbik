@@ -18,9 +18,8 @@
     "published_iso": "2026-09-01T05:43:23+00:00"
   },
   "discovered_at": "2026-09-24T19:57:18.288224+00:00",
-  "enriched_at": "2026-09-24T19:58:42.137848+00:00",
+  "enriched_at": "2026-09-24T23:12:03.896373+00:00",
   "tm_to_club_id": "703",
-  "found_in": "local_index",
   "tm_from_club_id": "31",
   "tm_player_id": "1045123",
   "player_full_name": "Trey Nyoni",
@@ -83,5 +82,6 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "trey-nyoni-nottingham-forest",
-  "rumor_published_at": "2026-09-24T19:58:52.547693+00:00"
+  "rumor_published_at": "2026-09-24T19:58:52.547693+00:00",
+  "found_in": "local_index"
 }
