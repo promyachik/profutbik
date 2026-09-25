@@ -18,9 +18,8 @@
     "published_iso": "2026-09-01T22:40:28+00:00"
   },
   "discovered_at": "2026-09-25T18:03:49.290226+00:00",
-  "enriched_at": "2026-09-25T18:04:43.613496+00:00",
+  "enriched_at": "2026-09-25T21:29:24.419534+00:00",
   "tm_to_club_id": "31",
-  "found_in": "local_index",
   "tm_from_club_id": "631",
   "tm_player_id": "620322",
   "player_full_name": "Malo Gusto",
@@ -82,5 +81,6 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "malo-gusto-liverpool",
-  "rumor_published_at": "2026-09-25T18:05:25.307631+00:00"
+  "rumor_published_at": "2026-09-25T18:05:25.307631+00:00",
+  "found_in": "local_index"
 }
