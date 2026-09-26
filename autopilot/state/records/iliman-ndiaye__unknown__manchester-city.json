@@ -18,7 +18,7 @@
     "published_iso": "2026-08-27T21:33:44+00:00"
   },
   "discovered_at": "2026-09-20T19:42:07.839196+00:00",
-  "enriched_at": "2026-09-25T21:29:28.531581+00:00",
+  "enriched_at": "2026-09-26T00:08:20.343944+00:00",
   "tm_to_club_id": "281",
   "tm_player_id": "623570",
   "player_full_name": "Iliman Ndiaye",
@@ -49,7 +49,7 @@
   "shirt_number": 7,
   "is_captain": false,
   "transfer_date": "2026-09-01",
-  "national_team_debut": "2022-06-04",
+  "national_team_debut": "",
   "squad_analysis": {
     "same_position_count": 1,
     "same_position_names": [

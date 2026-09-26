@@ -18,7 +18,7 @@
     "published_iso": "2026-08-20T08:59:24+00:00"
   },
   "discovered_at": "2026-09-12T21:24:03.471289+00:00",
-  "enriched_at": "2026-09-25T21:29:54.970108+00:00",
+  "enriched_at": "2026-09-26T00:08:48.686509+00:00",
   "tm_to_club_id": "405",
   "tm_from_club_id": "148",
   "tm_player_id": "258878",
@@ -29,7 +29,7 @@
   "position_short": "CB",
   "preferred_foot": "right",
   "height": 1.97,
-  "contract_until": "",
+  "contract_until": "2029-06-30",
   "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/258878-1646903871.jpg",
   "market_value_points": [
     {

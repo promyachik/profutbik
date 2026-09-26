@@ -18,7 +18,7 @@
     "published_iso": "2026-08-26T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.545761+00:00",
-  "enriched_at": "2026-09-25T21:29:24.383376+00:00",
+  "enriched_at": "2026-09-26T00:08:15.902146+00:00",
   "tm_to_club_id": "762",
   "tm_player_id": "466805",
   "birth_date": "2002-01-03",
@@ -27,7 +27,7 @@
   "position_short": "DM",
   "preferred_foot": "right",
   "height": 1.88,
-  "contract_until": "",
+  "contract_until": "2031-06-30",
   "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/466805-1743669968.jpg",
   "market_value_points": [
     {
