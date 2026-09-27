@@ -3206,6 +3206,26 @@
   ],
   "rumors": [
     {
+      "slug": "estevao-barcelona",
+      "url": "rumors/estevao-barcelona/",
+      "title": "Estêvão и Barcelona: слух",
+      "player": "Estêvão",
+      "tm_id": "1056993",
+      "status": "rumour",
+      "status_display": "слух",
+      "status_css": "is-rumor",
+      "group": "rumor",
+      "date": "2026-09-27T21:36:10+00:00",
+      "sort_ts": 1790544970.0,
+      "from_name": "Chelsea FC",
+      "to_name": "Barcelona",
+      "from_logo": "images/clubs/api/rendered/49-ae568c1935d8.png",
+      "to_logo": "images/clubs/api/rendered/529-921329187f25.png",
+      "fee": "Сумма не называется",
+      "from_club_id": "49",
+      "to_club_id": "529"
+    },
+    {
       "slug": "alex-scott-chelsea",
       "url": "rumors/alex-scott-chelsea/",
       "title": "Alex Scott и Chelsea: слух",
