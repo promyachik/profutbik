@@ -18,7 +18,7 @@
     "published_iso": "2026-08-27T12:00:00+00:00"
   },
   "discovered_at": "2026-09-06T17:26:39.114814+00:00",
-  "enriched_at": "2026-09-27T01:45:26.161181+00:00",
+  "enriched_at": "2026-09-27T08:02:44.777786+00:00",
   "tm_to_club_id": "59024",
   "tm_player_id": "494586",
   "birth_date": "1999-03-04",
@@ -58,8 +58,8 @@
       "Dmitriy Tananeev"
     ],
     "value_rank": 1,
-    "squad_total": 29,
-    "younger_than": 15
+    "squad_total": 30,
+    "younger_than": 16
   },
   "to_club_official_name": "Rodina Moscow",
   "to_club_context": {
