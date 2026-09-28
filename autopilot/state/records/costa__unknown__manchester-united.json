@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "costa__unknown__manchester-united",
+  "player": "Costa",
+  "from_club": "",
+  "to_club": "Manchester United",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "NEEDS_REVIEW",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cked73ppgql3o?at_medium=RSS&at_campaign=rss",
+    "title": "Man Utd & Arsenal eye Porto's Costa - Tuesday's gossip",
+    "published": "Mon, 28 Sep 2026 21:10:44 GMT",
+    "published_iso": "2026-09-28T21:10:44+00:00"
+  },
+  "discovered_at": "2026-09-28T23:54:40.268060+00:00",
+  "enriched_at": "2026-09-28T23:55:19.053891+00:00",
+  "tm_to_club_id": "985",
+  "block_reason": "AMBIGUOUS_PLAYER",
+  "block_detail": "однофамильцы в наших составах: Danny da Costa, Gu Costa, Nuno da Costa, João Costa, David Costa, Diego Costa, Diogo Costa, Alberto Costa, João Costa, Gonçalo Costa, Logan Costa"
+}

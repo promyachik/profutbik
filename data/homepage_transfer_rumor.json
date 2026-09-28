@@ -3206,6 +3206,26 @@
   ],
   "rumors": [
     {
+      "slug": "alberto-costa-arsenal",
+      "url": "rumors/alberto-costa-arsenal/",
+      "title": "Alberto Costa и Arsenal: слух",
+      "player": "Alberto Costa",
+      "tm_id": "877139",
+      "status": "rumour",
+      "status_display": "слух",
+      "status_css": "is-rumor",
+      "group": "rumor",
+      "date": "2026-09-28T23:56:47+00:00",
+      "sort_ts": 1790639807.0,
+      "from_name": "FC Porto",
+      "to_name": "Arsenal",
+      "from_logo": "images/clubs/api/rendered/212-ed689a28b696.png",
+      "to_logo": "images/clubs/api/rendered/42-0c79196470d9.png",
+      "fee": "Сумма не называется",
+      "from_club_id": "212",
+      "to_club_id": "42"
+    },
+    {
       "slug": "estevao-barcelona",
       "url": "rumors/estevao-barcelona/",
       "title": "Estêvão и Barcelona: слух",

@@ -18,9 +18,8 @@
     "published_iso": "2026-09-04T21:07:33+00:00"
   },
   "discovered_at": "2026-09-28T19:36:43.354379+00:00",
-  "enriched_at": "2026-09-28T19:36:43.492862+00:00",
+  "enriched_at": "2026-09-28T23:54:42.655252+00:00",
   "tm_to_club_id": "281",
-  "found_in": "local_index",
   "tm_from_club_id": "873",
   "tm_player_id": "744149",
   "player_full_name": "Adam Wharton",
@@ -82,5 +81,6 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "adam-wharton-manchester-city",
-  "rumor_published_at": "2026-09-28T19:38:24.692530+00:00"
+  "rumor_published_at": "2026-09-28T19:38:24.692530+00:00",
+  "found_in": "local_index"
 }

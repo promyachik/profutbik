@@ -18,7 +18,7 @@
     "published_iso": "2026-09-01T08:03:16+00:00"
   },
   "discovered_at": "2026-09-01T16:00:52.894966+00:00",
-  "enriched_at": "2026-09-28T19:38:16.655257+00:00",
+  "enriched_at": "2026-09-28T23:56:35.917251+00:00",
   "tm_to_club_id": "506",
   "block_reason": "",
   "block_detail": "",
@@ -71,7 +71,7 @@
   "to_club_official_name": "Juventus FC",
   "to_club_context": {
     "squad_size": 29,
-    "average_age": "27.7",
+    "average_age": "27.8",
     "squad_value": {
       "prefix": "€",
       "content": "613.60",

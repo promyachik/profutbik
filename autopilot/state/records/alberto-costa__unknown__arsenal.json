@@ -1,0 +1,86 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "alberto-costa__unknown__arsenal",
+  "player": "Alberto Costa",
+  "from_club": "FC Porto",
+  "to_club": "Arsenal",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "PUBLISHED_AS_RUMOR",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cked73ppgql3o?at_medium=RSS&at_campaign=rss",
+    "title": "Arsenal and Manchester United eye Porto defender Alberto Costa",
+    "published": "Mon, 28 Sep 2026 21:10:44 GMT",
+    "published_iso": "2026-09-28T21:10:44+00:00"
+  },
+  "discovered_at": "2026-09-28T23:54:42.534483+00:00",
+  "enriched_at": "2026-09-28T23:54:49.848372+00:00",
+  "tm_to_club_id": "11",
+  "found_in": "local_index",
+  "tm_from_club_id": "720",
+  "tm_player_id": "877139",
+  "player_full_name": "Alberto Costa",
+  "birth_date": "2003-09-29",
+  "age": 23,
+  "position": "Right-Back",
+  "position_short": "RB",
+  "preferred_foot": "right",
+  "height": 1.86,
+  "contract_until": "2030-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/877139-1739281459.jpg",
+  "market_value_points": [
+    {
+      "date": "2025-12-18",
+      "value_eur_m": 15.0
+    },
+    {
+      "date": "2026-05-28",
+      "value_eur_m": 18.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 136,
+    "secondNationalityId": 0
+  },
+  "birth_place": "Santo Tirso",
+  "former_clubs_note": "FC Tirsense (2011-13), Vitória SC (2013-22)",
+  "shirt_number": 20,
+  "is_captain": false,
+  "transfer_date": "2025-07-24",
+  "national_team_debut": "",
+  "squad_analysis": {
+    "same_position_count": 2,
+    "same_position_names": [
+      "Jurriën Timber",
+      "Ben White"
+    ],
+    "value_rank": null,
+    "squad_total": 24,
+    "younger_than": 21
+  },
+  "to_club_official_name": "Arsenal FC",
+  "to_club_context": {
+    "squad_size": 24,
+    "average_age": "26.5",
+    "squad_value": {
+      "prefix": "€",
+      "content": "1.33",
+      "suffix": "B"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "55.33",
+      "suffix": "M"
+    },
+    "stadium": "Highbury House, 75 Drayton Park",
+    "city": "London"
+  },
+  "block_reason": "",
+  "block_detail": "",
+  "rumor_slug": "alberto-costa-arsenal",
+  "rumor_published_at": "2026-09-28T23:56:47.103438+00:00"
+}
