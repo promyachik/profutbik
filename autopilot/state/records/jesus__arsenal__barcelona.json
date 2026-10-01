@@ -18,7 +18,7 @@
     "published_iso": "2026-09-01T12:45:00+00:00"
   },
   "discovered_at": "2026-09-01T16:50:02.006995+00:00",
-  "enriched_at": "2026-09-30T22:33:39.659782+00:00",
+  "enriched_at": "2026-10-01T01:31:05.357687+00:00",
   "tm_to_club_id": "131",
   "tm_player_id": "363205",
   "player_full_name": "Gabriel Jesus",
@@ -67,7 +67,7 @@
   "to_club_official_name": "FC Barcelona",
   "to_club_context": {
     "squad_size": 27,
-    "average_age": "25.2",
+    "average_age": "25.3",
     "squad_value": {
       "prefix": "€",
       "content": "1.26",
