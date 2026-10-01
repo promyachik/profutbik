@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "kind": "rumour",
-  "entity_id": "jarrad-branthwaite__unknown__real-madrid",
-  "player": "Jarrad Branthwaite",
-  "from_club": "Everton FC",
+  "entity_id": "quansah__unknown__real-madrid",
+  "player": "Quansah",
+  "from_club": "Bayer 04 Leverkusen",
   "to_club": "Real Madrid",
   "fee_raw": "",
   "verdict": "NEW_CANDIDATE",
@@ -12,50 +12,46 @@
   "source": {
     "publisher": "BBC Sport",
     "tier": "major_media",
-    "url": "https://www.bbc.co.uk/sport/football/articles/crn8ez44ywqdo?at_medium=RSS&at_campaign=rss",
-    "title": "Real Madrid are considering a move for Everton's Jarrad Branthwaite",
-    "published": "Thu, 17 Sep 2026 22:14:43 GMT",
-    "published_iso": "2026-09-17T22:14:43+00:00"
+    "url": "https://www.bbc.co.uk/sport/football/articles/cw8r6r0pdkyzo?at_medium=RSS&at_campaign=rss",
+    "title": "Real Madrid keen on Quansah - Friday's gossip",
+    "published": "Thu, 01 Oct 2026 19:45:16 GMT",
+    "published_iso": "2026-10-01T19:45:16+00:00"
   },
-  "discovered_at": "2026-10-01T20:28:39.873043+00:00",
-  "enriched_at": "2026-10-01T20:30:08.217984+00:00",
+  "discovered_at": "2026-10-01T20:28:36.846022+00:00",
+  "enriched_at": "2026-10-01T20:30:34.976068+00:00",
   "tm_to_club_id": "418",
   "found_in": "local_index",
-  "tm_from_club_id": "29",
-  "tm_player_id": "661053",
-  "player_full_name": "Jarrad Branthwaite",
-  "birth_date": "2002-06-27",
-  "age": 24,
+  "tm_from_club_id": "15",
+  "tm_player_id": "632349",
+  "player_full_name": "Jarell Quansah",
+  "birth_date": "2003-01-29",
+  "age": 23,
   "position": "Centre-Back",
   "position_short": "CB",
-  "preferred_foot": "left",
-  "height": 1.95,
+  "preferred_foot": "right",
+  "height": 1.9,
   "contract_until": "2030-06-30",
-  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/661053-1687975679.jpg",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/632349-1758704191.jpg",
   "market_value_points": [
     {
-      "date": "2025-05-30",
-      "value_eur_m": 50.0
-    },
-    {
-      "date": "2025-12-09",
+      "date": "2026-03-20",
       "value_eur_m": 45.0
     },
     {
-      "date": "2026-06-03",
-      "value_eur_m": 40.0
+      "date": "2026-05-27",
+      "value_eur_m": 45.0
     }
   ],
   "nationality_ids": {
     "nationalityId": 189,
-    "secondNationalityId": 0
+    "secondNationalityId": 190
   },
-  "birth_place": "Carlisle",
-  "former_clubs_note": "Carlisle United (2003–2019)",
+  "birth_place": "Warrington",
+  "former_clubs_note": "Woolston Rovers, Liverpool FC (2008-2021)",
   "shirt_number": 4,
   "is_captain": false,
-  "transfer_date": "2020-01-13",
-  "national_team_debut": "2024-06-03",
+  "transfer_date": "2025-07-02",
+  "national_team_debut": "2025-11-16",
   "squad_analysis": {
     "same_position_count": 5,
     "same_position_names": [
@@ -87,6 +83,6 @@
   },
   "block_reason": "",
   "block_detail": "",
-  "rumor_slug": "jarrad-branthwaite-real-madrid",
-  "rumor_published_at": "2026-10-01T20:31:08.085187+00:00"
+  "rumor_slug": "jarell-quansah-real-madrid",
+  "rumor_published_at": "2026-10-01T20:31:08.867760+00:00"
 }

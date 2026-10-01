@@ -3206,6 +3206,26 @@
   ],
   "rumors": [
     {
+      "slug": "jarell-quansah-real-madrid",
+      "url": "rumors/jarell-quansah-real-madrid/",
+      "title": "Jarell Quansah и Real Madrid: слух",
+      "player": "Jarell Quansah",
+      "tm_id": "632349",
+      "status": "rumour",
+      "status_display": "слух",
+      "status_css": "is-rumor",
+      "group": "rumor",
+      "date": "2026-10-01T20:31:08+00:00",
+      "sort_ts": 1790886668.0,
+      "from_name": "Bayer 04 Leverkusen",
+      "to_name": "Real Madrid",
+      "from_logo": "images/clubs/api/rendered/168-09eb1c899095.png",
+      "to_logo": "images/clubs/api/rendered/541-9a600f047317.png",
+      "fee": "Сумма не называется",
+      "from_club_id": "168",
+      "to_club_id": "541"
+    },
+    {
       "slug": "alberto-costa-arsenal",
       "url": "rumors/alberto-costa-arsenal/",
       "title": "Alberto Costa и Arsenal: слух",
