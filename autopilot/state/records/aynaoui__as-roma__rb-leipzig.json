@@ -18,7 +18,7 @@
     "published_iso": "2026-09-01T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.549605+00:00",
-  "enriched_at": "2026-10-02T05:28:18.442405+00:00",
+  "enriched_at": "2026-10-02T11:18:30.997368+00:00",
   "tm_to_club_id": "23826",
   "tm_player_id": "901019",
   "birth_date": "2001-07-02",
@@ -52,9 +52,9 @@
   "squad_analysis": {
     "same_position_count": 3,
     "same_position_names": [
+      "Ezechiel Banzuzi",
       "Assan Ouédraogo",
-      "Rocco Reitz",
-      "Ezechiel Banzuzi"
+      "Rocco Reitz"
     ],
     "value_rank": 4,
     "squad_total": 29,
