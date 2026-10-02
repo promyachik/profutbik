@@ -17,8 +17,8 @@
     "published": "Sun, 13 Sep 2026 20:23:02 GMT",
     "published_iso": "2026-09-13T20:23:02+00:00"
   },
-  "discovered_at": "2026-10-02T11:18:15.686639+00:00",
-  "enriched_at": "2026-10-02T11:19:50.892615+00:00",
+  "discovered_at": "2026-10-02T16:48:45.842377+00:00",
+  "enriched_at": "2026-10-02T16:50:52.823077+00:00",
   "tm_to_club_id": "27",
   "found_in": "local_index",
   "tm_from_club_id": "31",
@@ -78,7 +78,7 @@
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "45.11",
+      "content": "45.15",
       "suffix": "M"
     },
     "stadium": "Säbener Straße 51-57",
