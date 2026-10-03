@@ -3206,6 +3206,26 @@
   ],
   "rumors": [
     {
+      "slug": "giovanni-leoni-juventus",
+      "url": "rumors/giovanni-leoni-juventus/",
+      "title": "Giovanni Leoni и Juventus: слух",
+      "player": "Giovanni Leoni",
+      "tm_id": "1086619",
+      "status": "rumour",
+      "status_display": "слух",
+      "status_css": "is-rumor",
+      "group": "rumor",
+      "date": "2026-10-03T22:26:04+00:00",
+      "sort_ts": 1791066364.0,
+      "from_name": "Liverpool FC",
+      "to_name": "Juventus",
+      "from_logo": "images/clubs/api/rendered/40-c3b13021c1ab.png",
+      "to_logo": "images/clubs/api/rendered/496-c2b524a66b15.png",
+      "fee": "Сумма не называется",
+      "from_club_id": "40",
+      "to_club_id": "496"
+    },
+    {
       "slug": "jarell-quansah-real-madrid",
       "url": "rumors/jarell-quansah-real-madrid/",
       "title": "Jarell Quansah и Real Madrid: слух",
