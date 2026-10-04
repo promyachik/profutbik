@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "kenan-yildiz__unknown__arsenal",
+  "player": "Kenan Yildiz",
+  "from_club": "",
+  "to_club": "Arsenal",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "NEEDS_REVIEW",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cke8r1v3jndlo?at_medium=RSS&at_campaign=rss",
+    "title": "Arsenal show interest in Juventus winger Kenan Yildiz",
+    "published": "Sun, 04 Oct 2026 20:24:19 GMT",
+    "published_iso": "2026-10-04T20:24:19+00:00"
+  },
+  "discovered_at": "2026-10-04T21:52:41.653912+00:00",
+  "enriched_at": "2026-10-04T21:53:53.067579+00:00",
+  "tm_to_club_id": "11",
+  "block_reason": "RUMOUR_PLAYER_UNKNOWN",
+  "block_detail": "Kenan Yildiz не найден ни в составе Arsenal, ни в наших 148 составах — личность не подтверждена"
+}
