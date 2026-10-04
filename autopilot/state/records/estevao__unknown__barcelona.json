@@ -17,8 +17,8 @@
     "published": "Sun, 27 Sep 2026 21:19:02 GMT",
     "published_iso": "2026-09-27T21:19:02+00:00"
   },
-  "discovered_at": "2026-10-04T01:57:40.954224+00:00",
-  "enriched_at": "2026-10-04T01:58:44.536136+00:00",
+  "discovered_at": "2026-10-04T08:20:16.650243+00:00",
+  "enriched_at": "2026-10-04T08:21:26.180197+00:00",
   "tm_to_club_id": "131",
   "found_in": "local_index",
   "tm_from_club_id": "631",
@@ -83,5 +83,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "estevao-barcelona",
-  "rumor_published_at": "2026-10-04T01:59:50.924420+00:00"
+  "rumor_published_at": "2026-10-04T08:22:38.751163+00:00"
 }
