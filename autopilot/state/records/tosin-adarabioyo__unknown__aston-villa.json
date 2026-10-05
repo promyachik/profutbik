@@ -18,7 +18,7 @@
     "published_iso": "2026-08-20T08:59:24+00:00"
   },
   "discovered_at": "2026-09-12T21:24:03.471289+00:00",
-  "enriched_at": "2026-10-05T06:55:05.476637+00:00",
+  "enriched_at": "2026-10-05T15:55:11.408670+00:00",
   "tm_to_club_id": "405",
   "tm_from_club_id": "148",
   "tm_player_id": "258878",
@@ -64,7 +64,7 @@
       "Victor Lindelöf"
     ],
     "value_rank": null,
-    "squad_total": 27,
+    "squad_total": 28,
     "younger_than": 6
   },
   "to_club_official_name": "Aston Villa",

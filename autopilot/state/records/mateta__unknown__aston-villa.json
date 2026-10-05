@@ -18,7 +18,7 @@
     "published_iso": "2026-08-26T09:07:26+00:00"
   },
   "discovered_at": "2026-09-18T19:09:33.452739+00:00",
-  "enriched_at": "2026-10-05T06:54:40.555079+00:00",
+  "enriched_at": "2026-10-05T15:54:52.469403+00:00",
   "tm_to_club_id": "405",
   "tm_from_club_id": "873",
   "tm_player_id": "420002",
@@ -63,7 +63,7 @@
       "Brian Madjo"
     ],
     "value_rank": null,
-    "squad_total": 27,
+    "squad_total": 28,
     "younger_than": 6
   },
   "to_club_official_name": "Aston Villa",

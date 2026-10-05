@@ -17,8 +17,8 @@
     "published": "Thu, 17 Sep 2026 22:14:43 GMT",
     "published_iso": "2026-09-17T22:14:43+00:00"
   },
-  "discovered_at": "2026-10-05T06:53:15.003398+00:00",
-  "enriched_at": "2026-10-05T06:54:33.363927+00:00",
+  "discovered_at": "2026-10-05T15:53:43.074171+00:00",
+  "enriched_at": "2026-10-05T15:54:46.804737+00:00",
   "tm_to_club_id": "418",
   "found_in": "local_index",
   "tm_from_club_id": "29",
@@ -74,12 +74,12 @@
     "average_age": "26.0",
     "squad_value": {
       "prefix": "€",
-      "content": "1.46",
+      "content": "1.50",
       "suffix": "B"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "53.94",
+      "content": "55.65",
       "suffix": "M"
     },
     "stadium": "Avenida de Concha Espina 1",
@@ -88,5 +88,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "jarrad-branthwaite-real-madrid",
-  "rumor_published_at": "2026-10-05T06:55:17.674486+00:00"
+  "rumor_published_at": "2026-10-05T15:55:21.050968+00:00"
 }
