@@ -1,0 +1,86 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "madueke__unknown__juventus",
+  "player": "Madueke",
+  "from_club": "Arsenal FC",
+  "to_club": "Juventus",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "PUBLISHED_AS_RUMOR",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cw203mjx7r46o?at_medium=RSS&at_campaign=rss",
+    "title": "Juventus & Atletico Madrid eye Madueke - Tuesday's gossip",
+    "published": "Mon, 05 Oct 2026 20:38:51 GMT",
+    "published_iso": "2026-10-05T20:38:51+00:00"
+  },
+  "discovered_at": "2026-10-05T22:32:49.532896+00:00",
+  "enriched_at": "2026-10-05T22:34:22.521565+00:00",
+  "tm_to_club_id": "506",
+  "found_in": "local_index",
+  "tm_from_club_id": "11",
+  "tm_player_id": "503987",
+  "player_full_name": "Noni Madueke",
+  "birth_date": "2002-03-10",
+  "age": 24,
+  "position": "Right Winger",
+  "position_short": "RW",
+  "preferred_foot": "left",
+  "height": 1.82,
+  "contract_until": "2030-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/503987-1788426614.jpg",
+  "market_value_points": [
+    {
+      "date": "2025-12-09",
+      "value_eur_m": 50.0
+    },
+    {
+      "date": "2026-06-03",
+      "value_eur_m": 50.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 189,
+    "secondNationalityId": 124
+  },
+  "birth_place": "London",
+  "former_clubs_note": "King George FC (-2011), Crystal Palace (2011-2014), Tottenham Hotspur (2014-2018), PSV Eindhoven (2018-2020)",
+  "shirt_number": 20,
+  "is_captain": false,
+  "transfer_date": "2025-07-18",
+  "national_team_debut": "",
+  "squad_analysis": {
+    "same_position_count": 2,
+    "same_position_names": [
+      "Francisco Conceição",
+      "Edon Zhegrova"
+    ],
+    "value_rank": null,
+    "squad_total": 29,
+    "younger_than": 23
+  },
+  "to_club_official_name": "Juventus FC",
+  "to_club_context": {
+    "squad_size": 29,
+    "average_age": "27.8",
+    "squad_value": {
+      "prefix": "€",
+      "content": "613.60",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "21.16",
+      "suffix": "M"
+    },
+    "stadium": "Via Druento, 175",
+    "city": "Torino"
+  },
+  "block_reason": "",
+  "block_detail": "",
+  "rumor_slug": "noni-madueke-juventus",
+  "rumor_published_at": "2026-10-05T22:35:03.534918+00:00"
+}

@@ -3206,6 +3206,26 @@
   ],
   "rumors": [
     {
+      "slug": "noni-madueke-juventus",
+      "url": "rumors/noni-madueke-juventus/",
+      "title": "Noni Madueke и Juventus: слух",
+      "player": "Noni Madueke",
+      "tm_id": "503987",
+      "status": "rumour",
+      "status_display": "слух",
+      "status_css": "is-rumor",
+      "group": "rumor",
+      "date": "2026-10-05T22:35:03+00:00",
+      "sort_ts": 1791239703.0,
+      "from_name": "Arsenal FC",
+      "to_name": "Juventus",
+      "from_logo": "images/clubs/api/rendered/42-0c79196470d9.png",
+      "to_logo": "images/clubs/api/rendered/496-c2b524a66b15.png",
+      "fee": "Сумма не называется",
+      "from_club_id": "42",
+      "to_club_id": "496"
+    },
+    {
       "slug": "giovanni-leoni-juventus",
       "url": "rumors/giovanni-leoni-juventus/",
       "title": "Giovanni Leoni и Juventus: слух",
