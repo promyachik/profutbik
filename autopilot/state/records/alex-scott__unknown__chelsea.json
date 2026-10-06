@@ -17,8 +17,8 @@
     "published": "Thu, 24 Sep 2026 20:16:58 GMT",
     "published_iso": "2026-09-24T20:16:58+00:00"
   },
-  "discovered_at": "2026-10-06T09:20:40.207407+00:00",
-  "enriched_at": "2026-10-06T09:20:47.792319+00:00",
+  "discovered_at": "2026-10-06T16:13:56.811668+00:00",
+  "enriched_at": "2026-10-06T16:14:08.187107+00:00",
   "tm_to_club_id": "631",
   "found_in": "local_index",
   "tm_from_club_id": "989",
@@ -53,13 +53,14 @@
   "transfer_date": "2023-08-10",
   "national_team_debut": "2026-09-29",
   "squad_analysis": {
-    "same_position_count": 2,
+    "same_position_count": 3,
     "same_position_names": [
       "Valentín Barco",
-      "Jordan Henderson"
+      "Jordan Henderson",
+      "Mahdi Nicoll-Jazuli"
     ],
     "value_rank": null,
-    "squad_total": 27,
+    "squad_total": 28,
     "younger_than": 12
   },
   "to_club_official_name": "Chelsea FC",
@@ -82,5 +83,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "alex-scott-chelsea",
-  "rumor_published_at": "2026-10-06T09:22:15.048477+00:00"
+  "rumor_published_at": "2026-10-06T16:16:17.697927+00:00"
 }
