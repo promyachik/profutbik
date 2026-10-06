@@ -1,0 +1,91 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "endrick__unknown__aston-villa",
+  "player": "Endrick",
+  "from_club": "Real Madrid",
+  "to_club": "Aston Villa",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "PUBLISHED_AS_RUMOR",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cm75pl4dw5rpo?at_medium=RSS&at_campaign=rss",
+    "title": "Villa eye Endrick loan deal - Wednesday's gossip",
+    "published": "Tue, 06 Oct 2026 20:20:01 GMT",
+    "published_iso": "2026-10-06T20:20:01+00:00"
+  },
+  "discovered_at": "2026-10-06T21:11:43.724809+00:00",
+  "enriched_at": "2026-10-06T21:12:50.259887+00:00",
+  "tm_to_club_id": "405",
+  "found_in": "local_index",
+  "tm_from_club_id": "418",
+  "tm_player_id": "971570",
+  "player_full_name": "Endrick",
+  "birth_date": "2006-07-21",
+  "age": 20,
+  "position": "Centre-Forward",
+  "position_short": "CF",
+  "preferred_foot": "left",
+  "height": 1.72,
+  "contract_until": "2030-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/971570-1782847902.jpg",
+  "market_value_points": [
+    {
+      "date": "2024-06-17",
+      "value_eur_m": 60.0
+    },
+    {
+      "date": "2026-03-27",
+      "value_eur_m": 35.0
+    },
+    {
+      "date": "2026-06-01",
+      "value_eur_m": 40.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 26,
+    "secondNationalityId": 0
+  },
+  "birth_place": "Taguatinga",
+  "former_clubs_note": "SE Palmeiras (2017-2022)",
+  "shirt_number": 9,
+  "is_captain": false,
+  "transfer_date": "2024-07-21",
+  "national_team_debut": "2023-11-17",
+  "squad_analysis": {
+    "same_position_count": 3,
+    "same_position_names": [
+      "Nicolas Jackson",
+      "Tammy Abraham",
+      "Brian Madjo"
+    ],
+    "value_rank": null,
+    "squad_total": 28,
+    "younger_than": 23
+  },
+  "to_club_official_name": "Aston Villa",
+  "to_club_context": {
+    "squad_size": 28,
+    "average_age": "26.1",
+    "squad_value": {
+      "prefix": "€",
+      "content": "572.50",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "20.45",
+      "suffix": "M"
+    },
+    "stadium": "Villa Park",
+    "city": "Birmingham"
+  },
+  "block_reason": "",
+  "block_detail": "",
+  "rumor_slug": "endrick-aston-villa",
+  "rumor_published_at": "2026-10-06T21:14:03.739285+00:00"
+}

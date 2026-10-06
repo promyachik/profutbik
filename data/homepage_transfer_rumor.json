@@ -3206,6 +3206,26 @@
   ],
   "rumors": [
     {
+      "slug": "endrick-aston-villa",
+      "url": "rumors/endrick-aston-villa/",
+      "title": "Endrick и Aston Villa: слух",
+      "player": "Endrick",
+      "tm_id": "971570",
+      "status": "rumour",
+      "status_display": "слух",
+      "status_css": "is-rumor",
+      "group": "rumor",
+      "date": "2026-10-06T21:14:03+00:00",
+      "sort_ts": 1791321243.0,
+      "from_name": "Real Madrid",
+      "to_name": "Aston Villa",
+      "from_logo": "images/clubs/api/rendered/541-9a600f047317.png",
+      "to_logo": "images/clubs/api/rendered/66-562d1984169e.png",
+      "fee": "Сумма не называется",
+      "from_club_id": "541",
+      "to_club_id": "66"
+    },
+    {
       "slug": "noni-madueke-juventus",
       "url": "rumors/noni-madueke-juventus/",
       "title": "Noni Madueke и Juventus: слух",
