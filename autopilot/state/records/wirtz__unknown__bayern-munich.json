@@ -17,8 +17,8 @@
     "published": "Sun, 13 Sep 2026 20:23:02 GMT",
     "published_iso": "2026-09-13T20:23:02+00:00"
   },
-  "discovered_at": "2026-10-07T07:08:36.087112+00:00",
-  "enriched_at": "2026-10-07T07:10:24.979085+00:00",
+  "discovered_at": "2026-10-07T14:27:53.959395+00:00",
+  "enriched_at": "2026-10-07T14:30:00.004964+00:00",
   "tm_to_club_id": "27",
   "found_in": "local_index",
   "tm_from_club_id": "31",
@@ -38,12 +38,12 @@
       "value_eur_m": 140.0
     },
     {
-      "date": "2025-12-09",
-      "value_eur_m": 110.0
-    },
-    {
       "date": "2026-06-03",
       "value_eur_m": 100.0
+    },
+    {
+      "date": "2026-10-07",
+      "value_eur_m": 85.0
     }
   ],
   "nationality_ids": {

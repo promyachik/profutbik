@@ -18,7 +18,7 @@
     "published_iso": "2026-08-31T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.561250+00:00",
-  "enriched_at": "2026-10-07T07:08:47.213211+00:00",
+  "enriched_at": "2026-10-07T14:28:07.138388+00:00",
   "tm_to_club_id": "281",
   "tm_player_id": "1082631",
   "birth_date": "2004-04-19",
@@ -31,12 +31,12 @@
   "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/1082631-1788354346.jpg",
   "market_value_points": [
     {
-      "date": "2026-03-12",
-      "value_eur_m": 15.0
-    },
-    {
       "date": "2026-05-26",
       "value_eur_m": 20.0
+    },
+    {
+      "date": "2026-10-07",
+      "value_eur_m": 30.0
     }
   ],
   "nationality_ids": {
@@ -55,7 +55,7 @@
       "Antoine Semenyo",
       "Ryan McAidoo"
     ],
-    "value_rank": 20,
+    "value_rank": 19,
     "squad_total": 24,
     "younger_than": 17
   },
@@ -65,12 +65,12 @@
     "average_age": "25.5",
     "squad_value": {
       "prefix": "€",
-      "content": "1.43",
+      "content": "1.50",
       "suffix": "B"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "59.68",
+      "content": "62.43",
       "suffix": "M"
     },
     "stadium": "Etihad Stadium, Etihad Campus",

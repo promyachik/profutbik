@@ -18,7 +18,7 @@
     "published_iso": "2026-08-30T20:59:21+00:00"
   },
   "discovered_at": "2026-09-23T18:59:23.749401+00:00",
-  "enriched_at": "2026-10-07T07:10:14.542929+00:00",
+  "enriched_at": "2026-10-07T14:29:48.671035+00:00",
   "tm_to_club_id": "148",
   "tm_from_club_id": "5",
   "tm_player_id": "315779",
@@ -70,12 +70,12 @@
     "average_age": "26.7",
     "squad_value": {
       "prefix": "€",
-      "content": "824.00",
+      "content": "836.00",
       "suffix": "M"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "29.43",
+      "content": "29.86",
       "suffix": "M"
     },
     "stadium": "Bill Nicholson Way, 748 High Road",

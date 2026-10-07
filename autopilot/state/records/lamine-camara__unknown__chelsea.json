@@ -18,7 +18,7 @@
     "published_iso": "2026-08-28T20:48:59+00:00"
   },
   "discovered_at": "2026-09-11T09:05:29.746578+00:00",
-  "enriched_at": "2026-10-07T07:09:56.415052+00:00",
+  "enriched_at": "2026-10-07T14:29:27.680780+00:00",
   "tm_to_club_id": "631",
   "tm_from_club_id": "162",
   "tm_player_id": "918969",
@@ -55,8 +55,8 @@
     "same_position_count": 3,
     "same_position_names": [
       "Valentín Barco",
-      "Jordan Henderson",
-      "Mahdi Nicoll-Jazuli"
+      "Mahdi Nicoll-Jazuli",
+      "Jordan Henderson"
     ],
     "value_rank": null,
     "squad_total": 28,
@@ -68,12 +68,12 @@
     "average_age": "24.4",
     "squad_value": {
       "prefix": "€",
-      "content": "1.08",
+      "content": "1.15",
       "suffix": "B"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "38.49",
+      "content": "41.13",
       "suffix": "M"
     },
     "stadium": "Fulham Road",

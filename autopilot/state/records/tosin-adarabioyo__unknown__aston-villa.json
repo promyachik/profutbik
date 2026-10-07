@@ -18,7 +18,7 @@
     "published_iso": "2026-08-20T08:59:24+00:00"
   },
   "discovered_at": "2026-09-12T21:24:03.471289+00:00",
-  "enriched_at": "2026-10-07T07:10:22.606022+00:00",
+  "enriched_at": "2026-10-07T14:29:57.295679+00:00",
   "tm_to_club_id": "405",
   "tm_from_club_id": "148",
   "tm_player_id": "258878",
@@ -37,12 +37,12 @@
       "value_eur_m": 20.0
     },
     {
-      "date": "2026-03-09",
-      "value_eur_m": 18.0
-    },
-    {
       "date": "2026-06-03",
       "value_eur_m": 16.0
+    },
+    {
+      "date": "2026-10-07",
+      "value_eur_m": 13.0
     }
   ],
   "nationality_ids": {
@@ -73,12 +73,12 @@
     "average_age": "26.1",
     "squad_value": {
       "prefix": "€",
-      "content": "572.50",
+      "content": "633.70",
       "suffix": "M"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "20.45",
+      "content": "22.63",
       "suffix": "M"
     },
     "stadium": "Villa Park",

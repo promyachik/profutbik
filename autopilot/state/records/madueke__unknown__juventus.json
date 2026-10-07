@@ -17,8 +17,8 @@
     "published": "Mon, 05 Oct 2026 20:38:51 GMT",
     "published_iso": "2026-10-05T20:38:51+00:00"
   },
-  "discovered_at": "2026-10-07T07:08:36.073707+00:00",
-  "enriched_at": "2026-10-07T07:09:57.085741+00:00",
+  "discovered_at": "2026-10-07T14:27:53.942491+00:00",
+  "enriched_at": "2026-10-07T14:29:28.536038+00:00",
   "tm_to_club_id": "506",
   "found_in": "local_index",
   "tm_from_club_id": "11",
@@ -34,12 +34,12 @@
   "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/503987-1788426614.jpg",
   "market_value_points": [
     {
-      "date": "2025-12-09",
+      "date": "2026-06-03",
       "value_eur_m": 50.0
     },
     {
-      "date": "2026-06-03",
-      "value_eur_m": 50.0
+      "date": "2026-10-07",
+      "value_eur_m": 45.0
     }
   ],
   "nationality_ids": {
@@ -82,5 +82,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "noni-madueke-juventus",
-  "rumor_published_at": "2026-10-07T07:10:35.110643+00:00"
+  "rumor_published_at": "2026-10-07T14:30:15.817027+00:00"
 }

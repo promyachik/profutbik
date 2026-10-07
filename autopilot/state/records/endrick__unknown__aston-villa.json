@@ -17,8 +17,8 @@
     "published": "Tue, 06 Oct 2026 20:20:01 GMT",
     "published_iso": "2026-10-06T20:20:01+00:00"
   },
-  "discovered_at": "2026-10-07T07:08:34.132539+00:00",
-  "enriched_at": "2026-10-07T07:09:30.882871+00:00",
+  "discovered_at": "2026-10-07T14:27:50.889825+00:00",
+  "enriched_at": "2026-10-07T14:28:57.919752+00:00",
   "tm_to_club_id": "405",
   "found_in": "local_index",
   "tm_from_club_id": "418",
@@ -60,8 +60,8 @@
     "same_position_count": 3,
     "same_position_names": [
       "Nicolas Jackson",
-      "Tammy Abraham",
-      "Brian Madjo"
+      "Brian Madjo",
+      "Tammy Abraham"
     ],
     "value_rank": null,
     "squad_total": 28,
@@ -73,12 +73,12 @@
     "average_age": "26.1",
     "squad_value": {
       "prefix": "€",
-      "content": "572.50",
+      "content": "633.70",
       "suffix": "M"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "20.45",
+      "content": "22.63",
       "suffix": "M"
     },
     "stadium": "Villa Park",
@@ -87,5 +87,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "endrick-aston-villa",
-  "rumor_published_at": "2026-10-07T07:10:35.104854+00:00"
+  "rumor_published_at": "2026-10-07T14:30:15.811205+00:00"
 }

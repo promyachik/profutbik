@@ -18,7 +18,7 @@
     "published_iso": "2026-09-01T05:43:23+00:00"
   },
   "discovered_at": "2026-09-24T19:57:18.288224+00:00",
-  "enriched_at": "2026-10-07T07:10:22.907099+00:00",
+  "enriched_at": "2026-10-07T14:29:57.606678+00:00",
   "tm_to_club_id": "703",
   "tm_from_club_id": "31",
   "tm_player_id": "1045123",
@@ -33,12 +33,12 @@
   "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/1045123-1708933240.jpg",
   "market_value_points": [
     {
-      "date": "2025-12-09",
-      "value_eur_m": 6.0
-    },
-    {
       "date": "2026-06-03",
       "value_eur_m": 8.0
+    },
+    {
+      "date": "2026-10-07",
+      "value_eur_m": 18.0
     }
   ],
   "nationality_ids": {
@@ -54,8 +54,8 @@
   "squad_analysis": {
     "same_position_count": 3,
     "same_position_names": [
-      "Nicolás Domínguez",
       "Xaver Schlager",
+      "Nicolás Domínguez",
       "Ryan Yates"
     ],
     "value_rank": null,
@@ -68,12 +68,12 @@
     "average_age": "27.1",
     "squad_value": {
       "prefix": "€",
-      "content": "520.50",
+      "content": "554.00",
       "suffix": "M"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "21.69",
+      "content": "23.08",
       "suffix": "M"
     },
     "stadium": "The City Ground",

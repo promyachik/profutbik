@@ -18,7 +18,7 @@
     "published_iso": "2026-09-04T10:44:37+00:00"
   },
   "discovered_at": "2026-09-05T11:51:40.616800+00:00",
-  "enriched_at": "2026-10-07T07:09:58.541163+00:00",
+  "enriched_at": "2026-10-07T14:29:30.079726+00:00",
   "tm_to_club_id": "31",
   "block_reason": "",
   "block_detail": "",
@@ -35,12 +35,12 @@
   "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/1012534-1694774813.jpg",
   "market_value_points": [
     {
-      "date": "2025-12-09",
-      "value_eur_m": 40.0
-    },
-    {
       "date": "2026-06-03",
       "value_eur_m": 45.0
+    },
+    {
+      "date": "2026-10-07",
+      "value_eur_m": 55.0
     }
   ],
   "nationality_ids": {
@@ -68,12 +68,12 @@
     "average_age": "25.7",
     "squad_value": {
       "prefix": "€",
-      "content": "1.03",
+      "content": "1.09",
       "suffix": "B"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "35.67",
+      "content": "37.50",
       "suffix": "M"
     },
     "stadium": "Anfield Road",

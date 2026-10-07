@@ -18,7 +18,7 @@
     "published_iso": "2026-09-10T20:13:27+00:00"
   },
   "discovered_at": "2026-10-04T18:20:33.496131+00:00",
-  "enriched_at": "2026-10-07T07:10:25.746488+00:00",
+  "enriched_at": "2026-10-07T14:30:00.756777+00:00",
   "tm_to_club_id": "631",
   "tm_from_club_id": "11",
   "tm_player_id": "423440",
@@ -39,6 +39,10 @@
     {
       "date": "2026-06-03",
       "value_eur_m": 75.0
+    },
+    {
+      "date": "2026-10-07",
+      "value_eur_m": 65.0
     }
   ],
   "nationality_ids": {
@@ -67,12 +71,12 @@
     "average_age": "24.4",
     "squad_value": {
       "prefix": "€",
-      "content": "1.08",
+      "content": "1.15",
       "suffix": "B"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "38.49",
+      "content": "41.13",
       "suffix": "M"
     },
     "stadium": "Fulham Road",

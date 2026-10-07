@@ -18,7 +18,7 @@
     "published_iso": "2026-09-01T22:40:28+00:00"
   },
   "discovered_at": "2026-09-25T18:03:49.290226+00:00",
-  "enriched_at": "2026-10-07T07:09:46.700724+00:00",
+  "enriched_at": "2026-10-07T14:29:16.750687+00:00",
   "tm_to_club_id": "31",
   "tm_from_club_id": "631",
   "tm_player_id": "620322",
@@ -67,12 +67,12 @@
     "average_age": "25.7",
     "squad_value": {
       "prefix": "€",
-      "content": "1.03",
+      "content": "1.09",
       "suffix": "B"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "35.67",
+      "content": "37.50",
       "suffix": "M"
     },
     "stadium": "Anfield Road",

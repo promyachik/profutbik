@@ -18,7 +18,7 @@
     "published_iso": "2026-08-26T09:07:26+00:00"
   },
   "discovered_at": "2026-09-18T19:09:33.452739+00:00",
-  "enriched_at": "2026-10-07T07:09:58.023106+00:00",
+  "enriched_at": "2026-10-07T14:29:29.571488+00:00",
   "tm_to_club_id": "405",
   "tm_from_club_id": "873",
   "tm_player_id": "420002",
@@ -59,8 +59,8 @@
     "same_position_count": 3,
     "same_position_names": [
       "Nicolas Jackson",
-      "Tammy Abraham",
-      "Brian Madjo"
+      "Brian Madjo",
+      "Tammy Abraham"
     ],
     "value_rank": null,
     "squad_total": 28,
@@ -72,12 +72,12 @@
     "average_age": "26.1",
     "squad_value": {
       "prefix": "€",
-      "content": "572.50",
+      "content": "633.70",
       "suffix": "M"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "20.45",
+      "content": "22.63",
       "suffix": "M"
     },
     "stadium": "Villa Park",

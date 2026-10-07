@@ -18,7 +18,7 @@
     "published_iso": "2026-09-01T14:01:47+00:00"
   },
   "discovered_at": "2026-09-01T16:50:00.931411+00:00",
-  "enriched_at": "2026-10-07T07:09:36.552847+00:00",
+  "enriched_at": "2026-10-07T14:29:04.650859+00:00",
   "tm_to_club_id": "762",
   "tm_player_id": "724129",
   "player_full_name": "Matias Fernandez-Pardo",
@@ -32,12 +32,12 @@
   "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/724129-1780057362.jpg",
   "market_value_points": [
     {
-      "date": "2026-03-27",
-      "value_eur_m": 30.0
-    },
-    {
       "date": "2026-06-01",
       "value_eur_m": 35.0
+    },
+    {
+      "date": "2026-10-07",
+      "value_eur_m": 55.0
     }
   ],
   "nationality_ids": {
@@ -56,7 +56,7 @@
       "William Osula",
       "Yoane Wissa"
     ],
-    "value_rank": 8,
+    "value_rank": 2,
     "squad_total": 25,
     "younger_than": 19
   },
@@ -66,12 +66,12 @@
     "average_age": "26.1",
     "squad_value": {
       "prefix": "€",
-      "content": "606.10",
+      "content": "712.10",
       "suffix": "M"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "24.24",
+      "content": "28.48",
       "suffix": "M"
     },
     "stadium": "St. James' Park",

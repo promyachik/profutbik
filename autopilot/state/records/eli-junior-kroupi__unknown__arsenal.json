@@ -18,7 +18,7 @@
     "published_iso": "2026-09-02T21:36:32+00:00"
   },
   "discovered_at": "2026-09-26T17:58:11.615179+00:00",
-  "enriched_at": "2026-10-07T07:09:28.917420+00:00",
+  "enriched_at": "2026-10-07T14:28:55.707481+00:00",
   "tm_to_club_id": "11",
   "tm_from_club_id": "989",
   "tm_player_id": "955357",
@@ -54,8 +54,8 @@
   "squad_analysis": {
     "same_position_count": 2,
     "same_position_names": [
-      "Viktor Gyökeres",
-      "Kai Havertz"
+      "Kai Havertz",
+      "Viktor Gyökeres"
     ],
     "value_rank": null,
     "squad_total": 24,
@@ -67,12 +67,12 @@
     "average_age": "26.5",
     "squad_value": {
       "prefix": "€",
-      "content": "1.33",
+      "content": "1.38",
       "suffix": "B"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "55.33",
+      "content": "57.33",
       "suffix": "M"
     },
     "stadium": "Highbury House, 75 Drayton Park",

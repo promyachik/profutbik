@@ -18,7 +18,7 @@
     "published_iso": "2026-09-01T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.549950+00:00",
-  "enriched_at": "2026-10-07T07:09:39.948075+00:00",
+  "enriched_at": "2026-10-07T14:29:08.571901+00:00",
   "tm_to_club_id": "289",
   "tm_player_id": "743386",
   "birth_date": "2005-03-31",
@@ -55,7 +55,7 @@
       "Nilson Angulo",
       "Romaine Mundle"
     ],
-    "value_rank": 4,
+    "value_rank": 6,
     "squad_total": 28,
     "younger_than": 21
   },
@@ -65,12 +65,12 @@
     "average_age": "26.1",
     "squad_value": {
       "prefix": "€",
-      "content": "421.28",
+      "content": "458.28",
       "suffix": "M"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "15.05",
+      "content": "16.37",
       "suffix": "M"
     },
     "stadium": "Stadium of Light",
