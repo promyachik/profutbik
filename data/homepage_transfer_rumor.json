@@ -3206,6 +3206,26 @@
   ],
   "rumors": [
     {
+      "slug": "adrien-truffert-manchester-united",
+      "url": "rumors/adrien-truffert-manchester-united/",
+      "title": "Adrien Truffert и Manchester United: слух",
+      "player": "Adrien Truffert",
+      "tm_id": "654539",
+      "status": "rumour",
+      "status_display": "слух",
+      "status_css": "is-rumor",
+      "group": "rumor",
+      "date": "2026-10-08T00:11:23+00:00",
+      "sort_ts": 1791418283.0,
+      "from_name": "AFC Bournemouth",
+      "to_name": "Manchester United",
+      "from_logo": "images/clubs/api/rendered/35-e668d998ce23.png",
+      "to_logo": "images/clubs/api/rendered/33-6dff7e1a3d7d.png",
+      "fee": "Сумма не называется",
+      "from_club_id": "35",
+      "to_club_id": "33"
+    },
+    {
       "slug": "endrick-aston-villa",
       "url": "rumors/endrick-aston-villa/",
       "title": "Endrick и Aston Villa: слух",

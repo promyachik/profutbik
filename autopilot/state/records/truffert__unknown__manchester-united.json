@@ -1,0 +1,86 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "truffert__unknown__manchester-united",
+  "player": "Truffert",
+  "from_club": "AFC Bournemouth",
+  "to_club": "Manchester United",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "PUBLISHED_AS_RUMOR",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cr2ke0k8g7xeo?at_medium=RSS&at_campaign=rss",
+    "title": "Man Utd and Liverpool eye Truffert - Thursday's gossip",
+    "published": "Wed, 07 Oct 2026 20:56:06 GMT",
+    "published_iso": "2026-10-07T20:56:06+00:00"
+  },
+  "discovered_at": "2026-10-08T00:08:56.765192+00:00",
+  "enriched_at": "2026-10-08T00:11:08.735405+00:00",
+  "tm_to_club_id": "985",
+  "found_in": "local_index",
+  "tm_from_club_id": "989",
+  "tm_player_id": "654539",
+  "player_full_name": "Adrien Truffert",
+  "birth_date": "2001-11-20",
+  "age": 24,
+  "position": "Left-Back",
+  "position_short": "LB",
+  "preferred_foot": "left",
+  "height": 1.76,
+  "contract_until": "2030-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/654539-1754901329.jpg",
+  "market_value_points": [
+    {
+      "date": "2026-06-03",
+      "value_eur_m": 30.0
+    },
+    {
+      "date": "2026-10-07",
+      "value_eur_m": 35.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 50,
+    "secondNationalityId": 19
+  },
+  "birth_place": "Liège",
+  "former_clubs_note": "ES Jouy Saint-Prest (2007-2011), C'Chartres Football (2011-2015), Stade Rennais FC (2015-2019)",
+  "shirt_number": 3,
+  "is_captain": false,
+  "transfer_date": "2025-07-01",
+  "national_team_debut": "2022-09-25",
+  "squad_analysis": {
+    "same_position_count": 2,
+    "same_position_names": [
+      "Luke Shaw",
+      "Harry Amass"
+    ],
+    "value_rank": null,
+    "squad_total": 29,
+    "younger_than": 16
+  },
+  "to_club_official_name": "Manchester United",
+  "to_club_context": {
+    "squad_size": 29,
+    "average_age": "26.3",
+    "squad_value": {
+      "prefix": "€",
+      "content": "928.80",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "32.03",
+      "suffix": "M"
+    },
+    "stadium": "Sir Matt Busby Way",
+    "city": "Manchester"
+  },
+  "block_reason": "",
+  "block_detail": "",
+  "rumor_slug": "adrien-truffert-manchester-united",
+  "rumor_published_at": "2026-10-08T00:11:23.398605+00:00"
+}
