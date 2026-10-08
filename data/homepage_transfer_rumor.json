@@ -3206,6 +3206,26 @@
   ],
   "rumors": [
     {
+      "slug": "scott-mctominay-real-madrid",
+      "url": "rumors/scott-mctominay-real-madrid/",
+      "title": "Scott McTominay и Real Madrid: слух",
+      "player": "Scott McTominay",
+      "tm_id": "315969",
+      "status": "rumour",
+      "status_display": "слух",
+      "status_css": "is-rumor",
+      "group": "rumor",
+      "date": "2026-10-08T23:56:32+00:00",
+      "sort_ts": 1791503792.0,
+      "from_name": "SSC Napoli",
+      "to_name": "Real Madrid",
+      "from_logo": "images/clubs/api/rendered/492-6c966f5bc9a8.png",
+      "to_logo": "images/clubs/api/rendered/541-9a600f047317.png",
+      "fee": "Сумма не называется",
+      "from_club_id": "492",
+      "to_club_id": "541"
+    },
+    {
       "slug": "adrien-truffert-manchester-united",
       "url": "rumors/adrien-truffert-manchester-united/",
       "title": "Adrien Truffert и Manchester United: слух",

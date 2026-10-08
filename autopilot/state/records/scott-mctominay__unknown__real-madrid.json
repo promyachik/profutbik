@@ -1,0 +1,92 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "scott-mctominay__unknown__real-madrid",
+  "player": "Scott McTominay",
+  "from_club": "SSC Napoli",
+  "to_club": "Real Madrid",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "PUBLISHED_AS_RUMOR",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/crgj96ww6x4eo?at_medium=RSS&at_campaign=rss",
+    "title": "Real Madrid are interested in former Manchester United midfielder Scott McTominay and France forward Michael Olise, while Chelsea are keen on Frenkie de Jong",
+    "published": "Thu, 08 Oct 2026 21:10:23 GMT",
+    "published_iso": "2026-10-08T21:10:23+00:00"
+  },
+  "discovered_at": "2026-10-08T23:54:41.239253+00:00",
+  "enriched_at": "2026-10-08T23:56:18.662152+00:00",
+  "tm_to_club_id": "418",
+  "found_in": "local_index",
+  "tm_from_club_id": "6195",
+  "tm_player_id": "315969",
+  "player_full_name": "Scott McTominay",
+  "birth_date": "1996-12-08",
+  "age": 29,
+  "position": "Central Midfield",
+  "position_short": "CM",
+  "preferred_foot": "right",
+  "height": 1.93,
+  "contract_until": "2028-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/315969-1780932470.jpg",
+  "market_value_points": [
+    {
+      "date": "2025-06-17",
+      "value_eur_m": 50.0
+    },
+    {
+      "date": "2025-12-23",
+      "value_eur_m": 45.0
+    },
+    {
+      "date": "2026-05-29",
+      "value_eur_m": 40.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 190,
+    "secondNationalityId": 189
+  },
+  "birth_place": "Lancaster",
+  "former_clubs_note": "Manchester United (2002-2017)",
+  "shirt_number": 8,
+  "is_captain": false,
+  "transfer_date": "2024-08-30",
+  "national_team_debut": "",
+  "squad_analysis": {
+    "same_position_count": 4,
+    "same_position_names": [
+      "Federico Valverde",
+      "Eduardo Camavinga",
+      "Thiago Pitarch",
+      "Jorge Cestero"
+    ],
+    "value_rank": null,
+    "squad_total": 27,
+    "younger_than": 5
+  },
+  "to_club_official_name": "Real Madrid",
+  "to_club_context": {
+    "squad_size": 27,
+    "average_age": "26.0",
+    "squad_value": {
+      "prefix": "€",
+      "content": "1.50",
+      "suffix": "B"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "55.65",
+      "suffix": "M"
+    },
+    "stadium": "Avenida de Concha Espina 1",
+    "city": "Madrid"
+  },
+  "block_reason": "",
+  "block_detail": "",
+  "rumor_slug": "scott-mctominay-real-madrid",
+  "rumor_published_at": "2026-10-08T23:56:32.718388+00:00"
+}
