@@ -8,7 +8,7 @@
   "fee_raw": "",
   "verdict": "NEW_CANDIDATE",
   "verdict_reason": "",
-  "pipeline_state": "RUMOR_READY",
+  "pipeline_state": "NEEDS_REVIEW",
   "source": {
     "publisher": "BBC Sport",
     "tier": "major_media",
@@ -18,7 +18,7 @@
     "published_iso": "2026-09-13T20:23:02+00:00"
   },
   "discovered_at": "2026-10-07T20:07:34.842271+00:00",
-  "enriched_at": "2026-10-08T00:11:11.180380+00:00",
+  "enriched_at": "2026-10-08T05:57:49.509174+00:00",
   "tm_to_club_id": "27",
   "tm_from_club_id": "31",
   "tm_player_id": "598577",
@@ -83,8 +83,8 @@
     "stadium": "Säbener Straße 51-57",
     "city": "München"
   },
-  "block_reason": "",
-  "block_detail": "",
-  "rumor_attempts": 2,
+  "block_reason": "слух не публикуется",
+  "block_detail": "не определены API-Football id клубов",
+  "rumor_attempts": 3,
   "found_in": "local_index"
 }
