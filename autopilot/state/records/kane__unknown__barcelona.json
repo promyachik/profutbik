@@ -18,9 +18,8 @@
     "published_iso": "2026-09-15T20:19:31+00:00"
   },
   "discovered_at": "2026-10-09T18:46:27.376122+00:00",
-  "enriched_at": "2026-10-09T18:48:15.555868+00:00",
+  "enriched_at": "2026-10-09T23:12:02.249847+00:00",
   "tm_to_club_id": "131",
-  "found_in": "local_index",
   "tm_from_club_id": "27",
   "tm_player_id": "132098",
   "player_full_name": "Harry Kane",
@@ -86,5 +85,6 @@
   },
   "block_reason": "",
   "block_detail": "",
-  "rumor_attempts": 1
+  "rumor_attempts": 2,
+  "found_in": "local_index"
 }
