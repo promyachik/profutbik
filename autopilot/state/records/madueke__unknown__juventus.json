@@ -17,8 +17,8 @@
     "published": "Mon, 05 Oct 2026 20:38:51 GMT",
     "published_iso": "2026-10-05T20:38:51+00:00"
   },
-  "discovered_at": "2026-10-10T09:43:04.190909+00:00",
-  "enriched_at": "2026-10-10T09:44:38.483340+00:00",
+  "discovered_at": "2026-10-10T15:50:27.077959+00:00",
+  "enriched_at": "2026-10-10T15:52:26.743654+00:00",
   "tm_to_club_id": "506",
   "found_in": "local_index",
   "tm_from_club_id": "11",
@@ -82,5 +82,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "noni-madueke-juventus",
-  "rumor_published_at": "2026-10-10T09:45:22.767130+00:00"
+  "rumor_published_at": "2026-10-10T15:53:39.258588+00:00"
 }
