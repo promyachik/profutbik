@@ -18,7 +18,7 @@
     "published_iso": "2026-09-01T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.570694+00:00",
-  "enriched_at": "2026-10-11T19:41:36.972075+00:00",
+  "enriched_at": "2026-10-11T23:37:24.415308+00:00",
   "tm_to_club_id": "1237",
   "tm_player_id": "703408",
   "birth_date": "2001-06-05",
@@ -62,7 +62,7 @@
   "to_club_official_name": "Brighton & Hove Albion",
   "to_club_context": {
     "squad_size": 30,
-    "average_age": "25.2",
+    "average_age": "25.3",
     "squad_value": {
       "prefix": "€",
       "content": "700.00",

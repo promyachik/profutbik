@@ -18,9 +18,8 @@
     "published_iso": "2026-09-17T22:14:43+00:00"
   },
   "discovered_at": "2026-10-11T19:41:08.481187+00:00",
-  "enriched_at": "2026-10-11T19:42:55.653583+00:00",
+  "enriched_at": "2026-10-11T23:38:35.398083+00:00",
   "tm_to_club_id": "418",
-  "found_in": "local_index",
   "tm_from_club_id": "29",
   "tm_player_id": "661053",
   "player_full_name": "Jarrad Branthwaite",
@@ -88,5 +87,6 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "jarrad-branthwaite-real-madrid",
-  "rumor_published_at": "2026-10-11T19:43:55.929753+00:00"
+  "rumor_published_at": "2026-10-11T19:43:55.929753+00:00",
+  "found_in": "local_index"
 }
