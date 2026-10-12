@@ -17,8 +17,8 @@
     "published": "Tue, 06 Oct 2026 20:20:01 GMT",
     "published_iso": "2026-10-06T20:20:01+00:00"
   },
-  "discovered_at": "2026-10-11T23:36:56.941390+00:00",
-  "enriched_at": "2026-10-11T23:38:08.222451+00:00",
+  "discovered_at": "2026-10-12T02:38:15.704142+00:00",
+  "enriched_at": "2026-10-12T02:39:31.244881+00:00",
   "tm_to_club_id": "405",
   "found_in": "local_index",
   "tm_from_club_id": "418",
@@ -87,5 +87,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "endrick-aston-villa",
-  "rumor_published_at": "2026-10-11T23:39:29.887037+00:00"
+  "rumor_published_at": "2026-10-12T02:40:54.658922+00:00"
 }
