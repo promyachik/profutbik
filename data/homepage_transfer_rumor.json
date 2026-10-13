@@ -3206,6 +3206,26 @@
   ],
   "rumors": [
     {
+      "slug": "giuliano-simeone-manchester-united",
+      "url": "rumors/giuliano-simeone-manchester-united/",
+      "title": "Giuliano Simeone и Manchester United: слух",
+      "player": "Giuliano Simeone",
+      "tm_id": "742201",
+      "status": "rumour",
+      "status_display": "слух",
+      "status_css": "is-rumor",
+      "group": "rumor",
+      "date": "2026-10-13T02:00:29+00:00",
+      "sort_ts": 1791856829.0,
+      "from_name": "Atlético de Madrid",
+      "to_name": "Manchester United",
+      "from_logo": "images/clubs/api/rendered/530-e8b0b14d1d87.png",
+      "to_logo": "images/clubs/api/rendered/33-6dff7e1a3d7d.png",
+      "fee": "Сумма не называется",
+      "from_club_id": "530",
+      "to_club_id": "33"
+    },
+    {
       "slug": "scott-mctominay-real-madrid",
       "url": "rumors/scott-mctominay-real-madrid/",
       "title": "Scott McTominay и Real Madrid: слух",

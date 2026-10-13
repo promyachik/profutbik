@@ -1,0 +1,87 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "giuliano-simeone__unknown__manchester-united",
+  "player": "Giuliano Simeone",
+  "from_club": "Atlético de Madrid",
+  "to_club": "Manchester United",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "PUBLISHED_AS_RUMOR",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmy8376gz5nvo?at_medium=RSS&at_campaign=rss",
+    "title": "Manchester United interested in Atletico Madrid's Giuliano Simeone",
+    "published": "Mon, 12 Oct 2026 20:49:48 GMT",
+    "published_iso": "2026-10-12T20:49:48+00:00"
+  },
+  "discovered_at": "2026-10-13T01:58:33.327290+00:00",
+  "enriched_at": "2026-10-13T01:59:39.793711+00:00",
+  "tm_to_club_id": "985",
+  "found_in": "local_index",
+  "tm_from_club_id": "13",
+  "tm_player_id": "742201",
+  "player_full_name": "Giuliano Simeone",
+  "birth_date": "2002-12-18",
+  "age": 23,
+  "position": "Right Winger",
+  "position_short": "RW",
+  "preferred_foot": "right",
+  "height": 1.74,
+  "contract_until": "2030-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/742201-1741120599.jpg",
+  "market_value_points": [
+    {
+      "date": "2025-12-12",
+      "value_eur_m": 40.0
+    },
+    {
+      "date": "2026-06-05",
+      "value_eur_m": 40.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 9,
+    "secondNationalityId": 75
+  },
+  "birth_place": "Roma",
+  "former_clubs_note": "CA River Plate (2007-2019)",
+  "shirt_number": 20,
+  "is_captain": false,
+  "transfer_date": "2022-07-01",
+  "national_team_debut": "2024-11-20",
+  "squad_analysis": {
+    "same_position_count": 3,
+    "same_position_names": [
+      "Bryan Mbeumo",
+      "Amad Diallo",
+      "Shea Lacey"
+    ],
+    "value_rank": null,
+    "squad_total": 29,
+    "younger_than": 18
+  },
+  "to_club_official_name": "Manchester United",
+  "to_club_context": {
+    "squad_size": 29,
+    "average_age": "26.3",
+    "squad_value": {
+      "prefix": "€",
+      "content": "928.80",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "32.03",
+      "suffix": "M"
+    },
+    "stadium": "Sir Matt Busby Way",
+    "city": "Manchester"
+  },
+  "block_reason": "",
+  "block_detail": "",
+  "rumor_slug": "giuliano-simeone-manchester-united",
+  "rumor_published_at": "2026-10-13T02:00:29.055093+00:00"
+}
