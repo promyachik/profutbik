@@ -18,7 +18,7 @@
     "published_iso": "2026-09-04T10:44:37+00:00"
   },
   "discovered_at": "2026-09-05T11:51:40.616800+00:00",
-  "enriched_at": "2026-10-14T11:43:43.990361+00:00",
+  "enriched_at": "2026-10-14T17:04:15.946809+00:00",
   "tm_to_club_id": "31",
   "block_reason": "",
   "block_detail": "",
@@ -59,7 +59,7 @@
       "Federico Chiesa"
     ],
     "value_rank": null,
-    "squad_total": 29,
+    "squad_total": 31,
     "younger_than": 22
   },
   "to_club_official_name": "Liverpool FC",

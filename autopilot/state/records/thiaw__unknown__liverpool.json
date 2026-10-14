@@ -18,7 +18,7 @@
     "published_iso": "2026-09-08T20:45:07+00:00"
   },
   "discovered_at": "2026-10-02T16:48:45.845116+00:00",
-  "enriched_at": "2026-10-14T11:44:00.662139+00:00",
+  "enriched_at": "2026-10-14T17:04:40.852885+00:00",
   "tm_to_club_id": "31",
   "tm_from_club_id": "762",
   "tm_player_id": "521964",
@@ -56,11 +56,11 @@
     "same_position_names": [
       "Jérémy Jacquet",
       "Giovanni Leoni",
-      "Ronald Araujo",
+      "Ronald Araújo",
       "Virgil van Dijk"
     ],
     "value_rank": null,
-    "squad_total": 29,
+    "squad_total": 31,
     "younger_than": 12
   },
   "to_club_official_name": "Liverpool FC",
