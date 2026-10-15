@@ -18,7 +18,7 @@
     "published_iso": "2026-09-01T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.561944+00:00",
-  "enriched_at": "2026-10-15T17:44:12.927758+00:00",
+  "enriched_at": "2026-10-15T21:17:18.023852+00:00",
   "tm_to_club_id": "289",
   "tm_player_id": "263236",
   "birth_date": "1998-09-19",
@@ -62,7 +62,7 @@
       "Aji Alese"
     ],
     "value_rank": 12,
-    "squad_total": 28,
+    "squad_total": 29,
     "younger_than": 7
   },
   "to_club_official_name": "Sunderland AFC",
