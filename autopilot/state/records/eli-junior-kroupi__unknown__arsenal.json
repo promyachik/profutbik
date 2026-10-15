@@ -18,7 +18,7 @@
     "published_iso": "2026-09-02T21:36:32+00:00"
   },
   "discovered_at": "2026-09-26T17:58:11.615179+00:00",
-  "enriched_at": "2026-10-14T23:25:50.537350+00:00",
+  "enriched_at": "2026-10-15T01:46:29.078523+00:00",
   "tm_to_club_id": "11",
   "tm_from_club_id": "989",
   "tm_player_id": "955357",
@@ -64,7 +64,7 @@
   "to_club_official_name": "Arsenal FC",
   "to_club_context": {
     "squad_size": 24,
-    "average_age": "26.5",
+    "average_age": "26.6",
     "squad_value": {
       "prefix": "€",
       "content": "1.38",
