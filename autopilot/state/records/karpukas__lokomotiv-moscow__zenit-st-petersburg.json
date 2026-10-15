@@ -18,7 +18,7 @@
     "published_iso": "2026-08-21T12:00:00+00:00"
   },
   "discovered_at": "2026-09-06T17:26:39.114112+00:00",
-  "enriched_at": "2026-10-15T12:51:31.963125+00:00",
+  "enriched_at": "2026-10-15T17:44:43.880349+00:00",
   "tm_to_club_id": "964",
   "tm_player_id": "691920",
   "birth_date": "2002-06-13",
@@ -55,21 +55,21 @@
       "Wilmar Barrios"
     ],
     "value_rank": 11,
-    "squad_total": 24,
+    "squad_total": 25,
     "younger_than": 14
   },
   "to_club_official_name": "Zenit St. Petersburg",
   "to_club_context": {
-    "squad_size": 24,
-    "average_age": "26.4",
+    "squad_size": 25,
+    "average_age": "26.0",
     "squad_value": {
       "prefix": "€",
-      "content": "177.10",
+      "content": "177.50",
       "suffix": "M"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "7.38",
+      "content": "7.10",
       "suffix": "M"
     },
     "stadium": "Prospekt Dobrolyubova, 16, building 2A",
