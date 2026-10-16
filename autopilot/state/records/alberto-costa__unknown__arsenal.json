@@ -17,8 +17,8 @@
     "published": "Mon, 28 Sep 2026 21:10:44 GMT",
     "published_iso": "2026-09-28T21:10:44+00:00"
   },
-  "discovered_at": "2026-10-16T14:11:38.253449+00:00",
-  "enriched_at": "2026-10-16T14:11:52.559976+00:00",
+  "discovered_at": "2026-10-16T18:19:02.095858+00:00",
+  "enriched_at": "2026-10-16T18:19:12.809737+00:00",
   "tm_to_club_id": "11",
   "found_in": "local_index",
   "tm_from_club_id": "720",
@@ -82,5 +82,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "alberto-costa-arsenal",
-  "rumor_published_at": "2026-10-16T14:14:44.346709+00:00"
+  "rumor_published_at": "2026-10-16T18:21:26.560392+00:00"
 }

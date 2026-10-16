@@ -18,7 +18,7 @@
     "published_iso": "2026-08-18T21:02:44+00:00"
   },
   "discovered_at": "2026-09-11T21:54:24.569676+00:00",
-  "enriched_at": "2026-10-16T14:13:35.943292+00:00",
+  "enriched_at": "2026-10-16T18:20:32.983929+00:00",
   "tm_to_club_id": "1114",
   "tm_from_club_id": "27",
   "tm_player_id": "132098",
@@ -62,21 +62,21 @@
       "Kader Meïté"
     ],
     "value_rank": null,
-    "squad_total": 28,
+    "squad_total": 29,
     "younger_than": 4
   },
   "to_club_official_name": "Al-Hilal SFC",
   "to_club_context": {
-    "squad_size": 28,
-    "average_age": "27.5",
+    "squad_size": 29,
+    "average_age": "27.3",
     "squad_value": {
       "prefix": "€",
-      "content": "239.88",
+      "content": "240.02",
       "suffix": "M"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "8.57",
+      "content": "8.28",
       "suffix": "M"
     },
     "stadium": "",
@@ -84,6 +84,6 @@
   },
   "block_reason": "слух не публикуется",
   "block_detail": "не определены API-Football id клубов",
-  "rumor_attempts": 187,
+  "rumor_attempts": 188,
   "found_in": "local_index"
 }
