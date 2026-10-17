@@ -18,7 +18,7 @@
     "published_iso": "2026-09-01T14:01:47+00:00"
   },
   "discovered_at": "2026-09-01T16:50:00.931411+00:00",
-  "enriched_at": "2026-10-17T21:25:09.997706+00:00",
+  "enriched_at": "2026-10-17T23:22:17.779280+00:00",
   "tm_to_club_id": "762",
   "tm_player_id": "724129",
   "player_full_name": "Matias Fernandez-Pardo",
@@ -63,7 +63,7 @@
   "to_club_official_name": "Newcastle United",
   "to_club_context": {
     "squad_size": 25,
-    "average_age": "26.1",
+    "average_age": "26.2",
     "squad_value": {
       "prefix": "€",
       "content": "712.10",

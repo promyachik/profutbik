@@ -17,8 +17,8 @@
     "published": "Thu, 24 Sep 2026 20:16:58 GMT",
     "published_iso": "2026-09-24T20:16:58+00:00"
   },
-  "discovered_at": "2026-10-17T21:23:48.803398+00:00",
-  "enriched_at": "2026-10-17T21:24:15.940325+00:00",
+  "discovered_at": "2026-10-17T23:21:27.127071+00:00",
+  "enriched_at": "2026-10-17T23:21:36.802261+00:00",
   "tm_to_club_id": "631",
   "found_in": "local_index",
   "tm_from_club_id": "989",
@@ -83,5 +83,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "alex-scott-chelsea",
-  "rumor_published_at": "2026-10-17T21:26:15.158798+00:00"
+  "rumor_published_at": "2026-10-17T23:23:02.659005+00:00"
 }
