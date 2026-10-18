@@ -17,8 +17,8 @@
     "published": "Thu, 01 Oct 2026 19:45:16 GMT",
     "published_iso": "2026-10-01T19:45:16+00:00"
   },
-  "discovered_at": "2026-10-17T23:21:27.120707+00:00",
-  "enriched_at": "2026-10-17T23:22:46.635047+00:00",
+  "discovered_at": "2026-10-18T01:28:39.871400+00:00",
+  "enriched_at": "2026-10-18T01:30:27.370039+00:00",
   "tm_to_club_id": "418",
   "found_in": "local_index",
   "tm_from_club_id": "15",
@@ -84,5 +84,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "jarell-quansah-real-madrid",
-  "rumor_published_at": "2026-10-17T23:23:02.671739+00:00"
+  "rumor_published_at": "2026-10-18T01:30:49.866366+00:00"
 }
