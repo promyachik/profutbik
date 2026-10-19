@@ -18,7 +18,7 @@
     "published_iso": "2026-09-04T10:44:37+00:00"
   },
   "discovered_at": "2026-09-05T11:51:40.616800+00:00",
-  "enriched_at": "2026-10-18T22:35:12.269634+00:00",
+  "enriched_at": "2026-10-19T00:27:47.003241+00:00",
   "tm_to_club_id": "31",
   "block_reason": "",
   "block_detail": "",
@@ -65,7 +65,7 @@
   "to_club_official_name": "Liverpool FC",
   "to_club_context": {
     "squad_size": 31,
-    "average_age": "25.4",
+    "average_age": "25.5",
     "squad_value": {
       "prefix": "€",
       "content": "1.09",
