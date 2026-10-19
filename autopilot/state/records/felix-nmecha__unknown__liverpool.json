@@ -1,0 +1,87 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "felix-nmecha__unknown__liverpool",
+  "player": "Felix Nmecha",
+  "from_club": "Borussia Dortmund",
+  "to_club": "Liverpool",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "PUBLISHED_AS_RUMOR",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/crjwe6wyjeqwo?at_medium=RSS&at_campaign=rss",
+    "title": "Liverpool and Manchester United are interested in Borussia Dortmund midfielder Felix Nmecha, plus the rest of Tuesday's gossip",
+    "published": "Mon, 19 Oct 2026 22:01:39 GMT",
+    "published_iso": "2026-10-19T22:01:39+00:00"
+  },
+  "discovered_at": "2026-10-19T22:16:49.558529+00:00",
+  "enriched_at": "2026-10-19T22:17:42.451106+00:00",
+  "tm_to_club_id": "31",
+  "found_in": "local_index",
+  "tm_from_club_id": "16",
+  "tm_player_id": "406640",
+  "player_full_name": "Felix Nmecha",
+  "birth_date": "2000-10-10",
+  "age": 26,
+  "position": "Central Midfield",
+  "position_short": "CM",
+  "preferred_foot": "right",
+  "height": 1.9,
+  "contract_until": "2030-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/406640-1790591745.jpg",
+  "market_value_points": [
+    {
+      "date": "2026-07-22",
+      "value_eur_m": 55.0
+    },
+    {
+      "date": "2026-10-02",
+      "value_eur_m": 65.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 40,
+    "secondNationalityId": 189
+  },
+  "birth_place": "Hamburg",
+  "former_clubs_note": "Manchester City (2008-2018)",
+  "shirt_number": 8,
+  "is_captain": false,
+  "transfer_date": "2023-07-03",
+  "national_team_debut": "2023-03-28",
+  "squad_analysis": {
+    "same_position_count": 3,
+    "same_position_names": [
+      "Alexis Mac Allister",
+      "Trey Nyoni",
+      "James McConnell"
+    ],
+    "value_rank": null,
+    "squad_total": 31,
+    "younger_than": 11
+  },
+  "to_club_official_name": "Liverpool FC",
+  "to_club_context": {
+    "squad_size": 31,
+    "average_age": "25.5",
+    "squad_value": {
+      "prefix": "€",
+      "content": "1.09",
+      "suffix": "B"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "35.14",
+      "suffix": "M"
+    },
+    "stadium": "Anfield Road",
+    "city": "Liverpool"
+  },
+  "block_reason": "",
+  "block_detail": "",
+  "rumor_slug": "felix-nmecha-liverpool",
+  "rumor_published_at": "2026-10-19T22:18:31.101338+00:00"
+}

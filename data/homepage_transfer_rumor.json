@@ -3206,6 +3206,26 @@
   ],
   "rumors": [
     {
+      "slug": "felix-nmecha-liverpool",
+      "url": "rumors/felix-nmecha-liverpool/",
+      "title": "Felix Nmecha и Liverpool: слух",
+      "player": "Felix Nmecha",
+      "tm_id": "406640",
+      "status": "rumour",
+      "status_display": "слух",
+      "status_css": "is-rumor",
+      "group": "rumor",
+      "date": "2026-10-19T22:18:31+00:00",
+      "sort_ts": 1792448311.0,
+      "from_name": "Borussia Dortmund",
+      "to_name": "Liverpool",
+      "from_logo": "images/clubs/api/rendered/165-17e1ca84f0e3.png",
+      "to_logo": "images/clubs/api/rendered/40-c3b13021c1ab.png",
+      "fee": "Сумма не называется",
+      "from_club_id": "165",
+      "to_club_id": "40"
+    },
+    {
       "slug": "giuliano-simeone-manchester-united",
       "url": "rumors/giuliano-simeone-manchester-united/",
       "title": "Giuliano Simeone и Manchester United: слух",
