@@ -18,9 +18,8 @@
     "published_iso": "2026-09-26T20:54:18+00:00"
   },
   "discovered_at": "2026-10-20T16:49:42.753515+00:00",
-  "enriched_at": "2026-10-20T16:50:52.240994+00:00",
+  "enriched_at": "2026-10-20T20:29:24.532765+00:00",
   "tm_to_club_id": "27",
-  "found_in": "local_index",
   "tm_from_club_id": "131",
   "tm_player_id": "293385",
   "player_full_name": "Dani Olmo",
@@ -82,5 +81,6 @@
   },
   "block_reason": "",
   "block_detail": "",
-  "rumor_attempts": 1
+  "rumor_attempts": 2,
+  "found_in": "local_index"
 }
