@@ -17,8 +17,8 @@
     "published": "Thu, 08 Oct 2026 21:10:23 GMT",
     "published_iso": "2026-10-08T21:10:23+00:00"
   },
-  "discovered_at": "2026-10-20T01:12:54.854062+00:00",
-  "enriched_at": "2026-10-20T01:14:46.293009+00:00",
+  "discovered_at": "2026-10-20T06:31:09.490891+00:00",
+  "enriched_at": "2026-10-20T06:33:11.710307+00:00",
   "tm_to_club_id": "418",
   "found_in": "local_index",
   "tm_from_club_id": "6195",
@@ -88,5 +88,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "scott-mctominay-real-madrid",
-  "rumor_published_at": "2026-10-20T01:15:06.633998+00:00"
+  "rumor_published_at": "2026-10-20T06:33:40.600268+00:00"
 }
