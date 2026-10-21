@@ -3206,6 +3206,26 @@
   ],
   "rumors": [
     {
+      "slug": "yasin-ayari-chelsea",
+      "url": "rumors/yasin-ayari-chelsea/",
+      "title": "Yasin Ayari и Chelsea: слух",
+      "player": "Yasin Ayari",
+      "tm_id": "667287",
+      "status": "rumour",
+      "status_display": "слух",
+      "status_css": "is-rumor",
+      "group": "rumor",
+      "date": "2026-10-21T21:58:20+00:00",
+      "sort_ts": 1792619900.0,
+      "from_name": "Brighton & Hove Albion",
+      "to_name": "Chelsea",
+      "from_logo": "images/clubs/api/rendered/51-f4b263d89e88.png",
+      "to_logo": "images/clubs/api/rendered/49-ae568c1935d8.png",
+      "fee": "Сумма не называется",
+      "from_club_id": "51",
+      "to_club_id": "49"
+    },
+    {
       "slug": "felix-nmecha-liverpool",
       "url": "rumors/felix-nmecha-liverpool/",
       "title": "Felix Nmecha и Liverpool: слух",
