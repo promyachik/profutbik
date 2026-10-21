@@ -18,7 +18,7 @@
     "published_iso": "2026-09-26T20:54:18+00:00"
   },
   "discovered_at": "2026-10-20T16:49:42.753840+00:00",
-  "enriched_at": "2026-10-20T23:22:03.502426+00:00",
+  "enriched_at": "2026-10-21T01:58:41.989866+00:00",
   "tm_to_club_id": "27",
   "tm_from_club_id": "131",
   "tm_player_id": "293385",
@@ -65,7 +65,7 @@
   "to_club_official_name": "FC Bayern Munich",
   "to_club_context": {
     "squad_size": 23,
-    "average_age": "27.4",
+    "average_age": "27.5",
     "squad_value": {
       "prefix": "€",
       "content": "1.04",
@@ -81,6 +81,6 @@
   },
   "block_reason": "слух не публикуется",
   "block_detail": "не определены API-Football id клубов",
-  "rumor_attempts": 3,
+  "rumor_attempts": 4,
   "found_in": "local_index"
 }
