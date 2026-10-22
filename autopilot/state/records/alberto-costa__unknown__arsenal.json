@@ -18,9 +18,8 @@
     "published_iso": "2026-09-28T21:10:44+00:00"
   },
   "discovered_at": "2026-10-22T19:25:09.452255+00:00",
-  "enriched_at": "2026-10-22T19:25:16.876560+00:00",
+  "enriched_at": "2026-10-22T22:41:40.734091+00:00",
   "tm_to_club_id": "11",
-  "found_in": "local_index",
   "tm_from_club_id": "720",
   "tm_player_id": "877139",
   "player_full_name": "Alberto Costa",
@@ -82,5 +81,6 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "alberto-costa-arsenal",
-  "rumor_published_at": "2026-10-22T19:26:41.484613+00:00"
+  "rumor_published_at": "2026-10-22T19:26:41.484613+00:00",
+  "found_in": "local_index"
 }
