@@ -17,8 +17,8 @@
     "published": "Tue, 06 Oct 2026 20:20:01 GMT",
     "published_iso": "2026-10-06T20:20:01+00:00"
   },
-  "discovered_at": "2026-10-21T21:56:57.514116+00:00",
-  "enriched_at": "2026-10-21T21:57:36.858853+00:00",
+  "discovered_at": "2026-10-22T00:36:28.989575+00:00",
+  "enriched_at": "2026-10-22T00:37:30.515051+00:00",
   "tm_to_club_id": "405",
   "found_in": "local_index",
   "tm_from_club_id": "418",
@@ -70,7 +70,7 @@
   "to_club_official_name": "Aston Villa",
   "to_club_context": {
     "squad_size": 28,
-    "average_age": "26.1",
+    "average_age": "26.2",
     "squad_value": {
       "prefix": "€",
       "content": "633.70",
@@ -87,5 +87,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "endrick-aston-villa",
-  "rumor_published_at": "2026-10-21T21:58:20.710984+00:00"
+  "rumor_published_at": "2026-10-22T00:38:48.078369+00:00"
 }

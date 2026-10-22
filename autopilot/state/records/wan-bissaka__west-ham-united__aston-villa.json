@@ -18,7 +18,7 @@
     "published_iso": "2026-08-21T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.569983+00:00",
-  "enriched_at": "2026-10-21T21:58:13.635522+00:00",
+  "enriched_at": "2026-10-22T00:38:34.940529+00:00",
   "tm_to_club_id": "405",
   "tm_player_id": "477758",
   "birth_date": "1997-11-26",
@@ -65,7 +65,7 @@
   "to_club_official_name": "Aston Villa",
   "to_club_context": {
     "squad_size": 28,
-    "average_age": "26.1",
+    "average_age": "26.2",
     "squad_value": {
       "prefix": "€",
       "content": "633.70",
