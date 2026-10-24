@@ -18,7 +18,7 @@
     "published_iso": "2026-09-08T20:45:07+00:00"
   },
   "discovered_at": "2026-10-02T16:48:45.845116+00:00",
-  "enriched_at": "2026-10-24T21:33:09.361655+00:00",
+  "enriched_at": "2026-10-24T23:39:50.972666+00:00",
   "tm_to_club_id": "31",
   "tm_from_club_id": "762",
   "tm_player_id": "521964",
@@ -61,7 +61,7 @@
     ],
     "value_rank": null,
     "squad_total": 31,
-    "younger_than": 12
+    "younger_than": 13
   },
   "to_club_official_name": "Liverpool FC",
   "to_club_context": {
