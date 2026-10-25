@@ -18,7 +18,7 @@
     "published_iso": "2026-09-01T12:45:00+00:00"
   },
   "discovered_at": "2026-09-01T16:50:02.006995+00:00",
-  "enriched_at": "2026-10-25T01:36:03.133686+00:00",
+  "enriched_at": "2026-10-25T06:45:26.973649+00:00",
   "tm_to_club_id": "131",
   "tm_player_id": "363205",
   "player_full_name": "Gabriel Jesus",
@@ -68,7 +68,11 @@
   "to_club_context": {
     "squad_size": 27,
     "average_age": "25.3",
-    "squad_value": {},
+    "squad_value": {
+      "prefix": "€",
+      "content": "1.30",
+      "suffix": "B"
+    },
     "average_player_value": {
       "prefix": "€",
       "content": "47.99",

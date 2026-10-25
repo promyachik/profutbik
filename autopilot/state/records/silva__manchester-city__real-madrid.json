@@ -19,7 +19,7 @@
     "published_iso": "2026-07-20T20:00:00+03:00"
   },
   "discovered_at": "2026-09-05T20:01:34.605468+00:00",
-  "enriched_at": "2026-10-25T01:36:23.735969+00:00",
+  "enriched_at": "2026-10-25T06:45:49.612382+00:00",
   "tm_to_club_id": "418",
   "promoted_from_agreement_at": "2026-09-05T20:04:13.144845+00:00",
   "promotion_evidence": "числится в составе Real Madrid на Transfermarkt",
@@ -70,7 +70,11 @@
   "to_club_context": {
     "squad_size": 27,
     "average_age": "26.1",
-    "squad_value": {},
+    "squad_value": {
+      "prefix": "€",
+      "content": "1.50",
+      "suffix": "B"
+    },
     "average_player_value": {
       "prefix": "€",
       "content": "55.65",

@@ -18,7 +18,7 @@
     "published_iso": "2026-08-27T21:33:44+00:00"
   },
   "discovered_at": "2026-09-20T19:42:07.839196+00:00",
-  "enriched_at": "2026-10-25T01:36:02.633851+00:00",
+  "enriched_at": "2026-10-25T06:45:26.496295+00:00",
   "tm_to_club_id": "281",
   "tm_player_id": "623570",
   "player_full_name": "Iliman Ndiaye",
@@ -63,7 +63,11 @@
   "to_club_context": {
     "squad_size": 24,
     "average_age": "25.6",
-    "squad_value": {},
+    "squad_value": {
+      "prefix": "€",
+      "content": "1.50",
+      "suffix": "B"
+    },
     "average_player_value": {
       "prefix": "€",
       "content": "62.43",
