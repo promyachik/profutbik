@@ -18,7 +18,7 @@
     "published_iso": "2026-09-24T20:16:58+00:00"
   },
   "discovered_at": "2026-10-18T18:01:29.942595+00:00",
-  "enriched_at": "2026-10-24T23:37:58.041427+00:00",
+  "enriched_at": "2026-10-25T01:35:09.409383+00:00",
   "tm_to_club_id": "631",
   "tm_from_club_id": "989",
   "tm_player_id": "855256",
@@ -66,11 +66,7 @@
   "to_club_context": {
     "squad_size": 28,
     "average_age": "24.5",
-    "squad_value": {
-      "prefix": "€",
-      "content": "1.15",
-      "suffix": "B"
-    },
+    "squad_value": {},
     "average_player_value": {
       "prefix": "€",
       "content": "41.13",

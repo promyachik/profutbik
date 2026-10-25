@@ -17,8 +17,8 @@
     "published": "Thu, 08 Oct 2026 21:10:23 GMT",
     "published_iso": "2026-10-08T21:10:23+00:00"
   },
-  "discovered_at": "2026-10-24T23:37:44.619585+00:00",
-  "enriched_at": "2026-10-24T23:39:48.770002+00:00",
+  "discovered_at": "2026-10-25T01:35:00.390692+00:00",
+  "enriched_at": "2026-10-25T01:36:23.507276+00:00",
   "tm_to_club_id": "418",
   "found_in": "local_index",
   "tm_from_club_id": "6195",
@@ -72,11 +72,7 @@
   "to_club_context": {
     "squad_size": 27,
     "average_age": "26.1",
-    "squad_value": {
-      "prefix": "€",
-      "content": "1.50",
-      "suffix": "B"
-    },
+    "squad_value": {},
     "average_player_value": {
       "prefix": "€",
       "content": "55.65",
@@ -88,5 +84,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "scott-mctominay-real-madrid",
-  "rumor_published_at": "2026-10-24T23:40:07.690047+00:00"
+  "rumor_published_at": "2026-10-25T01:36:36.320479+00:00"
 }
