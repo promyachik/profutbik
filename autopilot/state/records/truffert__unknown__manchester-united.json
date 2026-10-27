@@ -17,8 +17,8 @@
     "published": "Wed, 07 Oct 2026 20:56:06 GMT",
     "published_iso": "2026-10-07T20:56:06+00:00"
   },
-  "discovered_at": "2026-10-27T12:37:08.412522+00:00",
-  "enriched_at": "2026-10-27T12:38:29.400243+00:00",
+  "discovered_at": "2026-10-27T18:14:20.718532+00:00",
+  "enriched_at": "2026-10-27T18:15:42.521522+00:00",
   "tm_to_club_id": "985",
   "found_in": "local_index",
   "tm_from_club_id": "989",
@@ -82,5 +82,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "adrien-truffert-manchester-united",
-  "rumor_published_at": "2026-10-27T12:38:37.982907+00:00"
+  "rumor_published_at": "2026-10-27T18:15:52.261187+00:00"
 }
