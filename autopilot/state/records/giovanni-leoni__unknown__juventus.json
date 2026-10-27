@@ -17,8 +17,8 @@
     "published": "Sat, 03 Oct 2026 20:32:45 GMT",
     "published_iso": "2026-10-03T20:32:45+00:00"
   },
-  "discovered_at": "2026-10-27T06:11:24.928030+00:00",
-  "enriched_at": "2026-10-27T06:12:41.247587+00:00",
+  "discovered_at": "2026-10-27T12:37:08.419739+00:00",
+  "enriched_at": "2026-10-27T12:38:02.694569+00:00",
   "tm_to_club_id": "506",
   "found_in": "local_index",
   "tm_from_club_id": "31",
@@ -84,5 +84,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "giovanni-leoni-juventus",
-  "rumor_published_at": "2026-10-27T06:13:36.585802+00:00"
+  "rumor_published_at": "2026-10-27T12:38:37.973659+00:00"
 }
