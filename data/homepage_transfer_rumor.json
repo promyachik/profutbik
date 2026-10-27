@@ -3206,6 +3206,26 @@
   ],
   "rumors": [
     {
+      "slug": "finn-jeltsch-liverpool",
+      "url": "rumors/finn-jeltsch-liverpool/",
+      "title": "Finn Jeltsch и Liverpool: слух",
+      "player": "Finn Jeltsch",
+      "tm_id": "924117",
+      "status": "rumour",
+      "status_display": "слух",
+      "status_css": "is-rumor",
+      "group": "rumor",
+      "date": "2026-10-27T22:35:45+00:00",
+      "sort_ts": 1793140545.0,
+      "from_name": "VfB Stuttgart",
+      "to_name": "Liverpool",
+      "from_logo": "images/clubs/api/rendered/172-ad1e71efa42d.png",
+      "to_logo": "images/clubs/api/rendered/40-c3b13021c1ab.png",
+      "fee": "Сумма не называется",
+      "from_club_id": "172",
+      "to_club_id": "40"
+    },
+    {
       "slug": "yasin-ayari-chelsea",
       "url": "rumors/yasin-ayari-chelsea/",
       "title": "Yasin Ayari и Chelsea: слух",
