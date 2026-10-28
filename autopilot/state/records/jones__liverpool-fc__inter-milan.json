@@ -18,7 +18,7 @@
     "published_iso": "2026-08-21T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.546610+00:00",
-  "enriched_at": "2026-10-28T14:26:55.729030+00:00",
+  "enriched_at": "2026-10-28T19:50:06.443332+00:00",
   "tm_to_club_id": "46",
   "tm_player_id": "433188",
   "birth_date": "2001-01-30",
@@ -62,8 +62,8 @@
       "Piotr Zieliński"
     ],
     "value_rank": 10,
-    "squad_total": 23,
-    "younger_than": 15
+    "squad_total": 24,
+    "younger_than": 16
   },
   "to_club_official_name": "Inter Milan",
   "to_club_context": {

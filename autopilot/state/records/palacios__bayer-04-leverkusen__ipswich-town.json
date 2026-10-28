@@ -18,7 +18,7 @@
     "published_iso": "2026-08-27T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.555212+00:00",
-  "enriched_at": "2026-10-28T14:27:09.973766+00:00",
+  "enriched_at": "2026-10-28T19:50:25.573171+00:00",
   "tm_to_club_id": "677",
   "tm_player_id": "401578",
   "birth_date": "1998-10-05",
@@ -61,7 +61,7 @@
       "Jack Taylor"
     ],
     "value_rank": 3,
-    "squad_total": 27,
+    "squad_total": 28,
     "younger_than": 9
   },
   "to_club_official_name": "Ipswich Town",
