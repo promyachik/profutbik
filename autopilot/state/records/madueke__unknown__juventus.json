@@ -18,9 +18,8 @@
     "published_iso": "2026-10-05T20:38:51+00:00"
   },
   "discovered_at": "2026-10-29T18:24:09.753208+00:00",
-  "enriched_at": "2026-10-29T18:25:42.177980+00:00",
+  "enriched_at": "2026-10-29T22:58:16.138943+00:00",
   "tm_to_club_id": "506",
-  "found_in": "local_index",
   "tm_from_club_id": "11",
   "tm_player_id": "503987",
   "player_full_name": "Noni Madueke",
@@ -82,5 +81,6 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "noni-madueke-juventus",
-  "rumor_published_at": "2026-10-29T18:26:22.922868+00:00"
+  "rumor_published_at": "2026-10-29T18:26:22.922868+00:00",
+  "found_in": "local_index"
 }
