@@ -17,8 +17,8 @@
     "published": "Mon, 12 Oct 2026 20:49:48 GMT",
     "published_iso": "2026-10-12T20:49:48+00:00"
   },
-  "discovered_at": "2026-10-28T19:48:47.894849+00:00",
-  "enriched_at": "2026-10-28T19:50:01.096928+00:00",
+  "discovered_at": "2026-10-28T23:58:44.364430+00:00",
+  "enriched_at": "2026-10-29T00:00:04.189369+00:00",
   "tm_to_club_id": "985",
   "found_in": "local_index",
   "tm_from_club_id": "13",
@@ -83,5 +83,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "giuliano-simeone-manchester-united",
-  "rumor_published_at": "2026-10-28T19:50:58.040972+00:00"
+  "rumor_published_at": "2026-10-29T00:01:06.405634+00:00"
 }
