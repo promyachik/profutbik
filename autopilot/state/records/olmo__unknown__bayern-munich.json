@@ -18,7 +18,7 @@
     "published_iso": "2026-09-26T20:54:18+00:00"
   },
   "discovered_at": "2026-10-20T16:49:42.753515+00:00",
-  "enriched_at": "2026-10-29T05:37:11.336692+00:00",
+  "enriched_at": "2026-10-29T11:43:40.577280+00:00",
   "tm_to_club_id": "27",
   "tm_from_club_id": "131",
   "tm_player_id": "293385",
@@ -59,7 +59,7 @@
       "Ismael Saibari"
     ],
     "value_rank": null,
-    "squad_total": 23,
+    "squad_total": 24,
     "younger_than": 9
   },
   "to_club_official_name": "FC Bayern Munich",
@@ -81,6 +81,6 @@
   },
   "block_reason": "слух не публикуется",
   "block_detail": "не определены API-Football id клубов",
-  "rumor_attempts": 49,
+  "rumor_attempts": 50,
   "found_in": "local_index"
 }
