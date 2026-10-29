@@ -18,7 +18,7 @@
     "published_iso": "2026-09-13T20:23:02+00:00"
   },
   "discovered_at": "2026-10-07T20:07:34.842271+00:00",
-  "enriched_at": "2026-10-29T11:43:53.581599+00:00",
+  "enriched_at": "2026-10-29T18:26:11.307489+00:00",
   "tm_to_club_id": "27",
   "tm_from_club_id": "31",
   "tm_player_id": "598577",
@@ -68,8 +68,8 @@
   },
   "to_club_official_name": "FC Bayern Munich",
   "to_club_context": {
-    "squad_size": 23,
-    "average_age": "27.5",
+    "squad_size": 24,
+    "average_age": "27.2",
     "squad_value": {
       "prefix": "€",
       "content": "1.04",
@@ -77,7 +77,7 @@
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "45.15",
+      "content": "43.40",
       "suffix": "M"
     },
     "stadium": "Säbener Straße 51-57",
@@ -85,6 +85,6 @@
   },
   "block_reason": "слух не публикуется",
   "block_detail": "не определены API-Football id клубов",
-  "rumor_attempts": 117,
+  "rumor_attempts": 118,
   "found_in": "local_index"
 }
