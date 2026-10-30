@@ -17,8 +17,8 @@
     "published": "Wed, 21 Oct 2026 20:17:45 GMT",
     "published_iso": "2026-10-21T20:17:45+00:00"
   },
-  "discovered_at": "2026-10-30T08:56:24.316182+00:00",
-  "enriched_at": "2026-10-30T08:56:38.836651+00:00",
+  "discovered_at": "2026-10-30T15:49:38.080201+00:00",
+  "enriched_at": "2026-10-30T15:49:52.970652+00:00",
   "tm_to_club_id": "631",
   "found_in": "local_index",
   "tm_from_club_id": "1237",
@@ -83,5 +83,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "yasin-ayari-chelsea",
-  "rumor_published_at": "2026-10-30T08:57:50.682169+00:00"
+  "rumor_published_at": "2026-10-30T15:51:10.375429+00:00"
 }
