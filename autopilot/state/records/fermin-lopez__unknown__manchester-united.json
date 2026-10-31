@@ -1,0 +1,86 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "fermin-lopez__unknown__manchester-united",
+  "player": "Fermin Lopez",
+  "from_club": "FC Barcelona",
+  "to_club": "Manchester United",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "PUBLISHED_AS_RUMOR",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ck3r52vn758xo?at_medium=RSS&at_campaign=rss",
+    "title": "Manchester United target Barcelona's Fermin Lopez",
+    "published": "Fri, 30 Oct 2026 23:08:16 GMT",
+    "published_iso": "2026-10-30T23:08:16+00:00"
+  },
+  "discovered_at": "2026-10-31T00:41:27.817370+00:00",
+  "enriched_at": "2026-10-31T00:42:36.508753+00:00",
+  "tm_to_club_id": "985",
+  "found_in": "local_index",
+  "tm_from_club_id": "131",
+  "tm_player_id": "636703",
+  "player_full_name": "Fermín López",
+  "birth_date": "2003-05-11",
+  "age": 23,
+  "position": "Attacking Midfield",
+  "position_short": "AM",
+  "preferred_foot": "right",
+  "height": 1.76,
+  "contract_until": "2031-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/636703-1698086824.jpg",
+  "market_value_points": [
+    {
+      "date": "2026-06-05",
+      "value_eur_m": 100.0
+    },
+    {
+      "date": "2026-10-05",
+      "value_eur_m": 110.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 157,
+    "secondNationalityId": 0
+  },
+  "birth_place": "El Campillo",
+  "former_clubs_note": "El Campillo (2010-2011), Recreativo de Huelva (2011-2012), Real Betis (2012-2016)",
+  "shirt_number": 7,
+  "is_captain": false,
+  "transfer_date": "2023-07-01",
+  "national_team_debut": "2024-06-05",
+  "squad_analysis": {
+    "same_position_count": 2,
+    "same_position_names": [
+      "Bruno Fernandes",
+      "Mason Mount"
+    ],
+    "value_rank": null,
+    "squad_total": 29,
+    "younger_than": 18
+  },
+  "to_club_official_name": "Manchester United",
+  "to_club_context": {
+    "squad_size": 29,
+    "average_age": "26.3",
+    "squad_value": {
+      "prefix": "€",
+      "content": "928.80",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "32.03",
+      "suffix": "M"
+    },
+    "stadium": "Sir Matt Busby Way",
+    "city": "Manchester"
+  },
+  "block_reason": "",
+  "block_detail": "",
+  "rumor_slug": "fermin-lopez-manchester-united",
+  "rumor_published_at": "2026-10-31T00:43:40.375864+00:00"
+}

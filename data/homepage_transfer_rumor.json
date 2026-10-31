@@ -3206,6 +3206,26 @@
   ],
   "rumors": [
     {
+      "slug": "fermin-lopez-manchester-united",
+      "url": "rumors/fermin-lopez-manchester-united/",
+      "title": "Fermín López и Manchester United: слух",
+      "player": "Fermín López",
+      "tm_id": "636703",
+      "status": "rumour",
+      "status_display": "слух",
+      "status_css": "is-rumor",
+      "group": "rumor",
+      "date": "2026-10-31T00:43:40+00:00",
+      "sort_ts": 1793407420.0,
+      "from_name": "FC Barcelona",
+      "to_name": "Manchester United",
+      "from_logo": "images/clubs/api/rendered/529-921329187f25.png",
+      "to_logo": "images/clubs/api/rendered/33-6dff7e1a3d7d.png",
+      "fee": "Сумма не называется",
+      "from_club_id": "529",
+      "to_club_id": "33"
+    },
+    {
       "slug": "finn-jeltsch-liverpool",
       "url": "rumors/finn-jeltsch-liverpool/",
       "title": "Finn Jeltsch и Liverpool: слух",
