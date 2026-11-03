@@ -1,0 +1,86 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "ait-nouri__unknown__manchester-united",
+  "player": "Ait-Nouri",
+  "from_club": "Manchester City",
+  "to_club": "Manchester United",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "PUBLISHED_AS_RUMOR",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c3vgx8qkqx4jo?at_medium=RSS&at_campaign=rss",
+    "title": "Man Utd eye Man City's Ait-Nouri - Wednesday's gossip",
+    "published": "Tue, 03 Nov 2026 22:55:00 GMT",
+    "published_iso": "2026-11-03T22:55:00+00:00"
+  },
+  "discovered_at": "2026-11-03T23:15:04.109144+00:00",
+  "enriched_at": "2026-11-03T23:15:14.482793+00:00",
+  "tm_to_club_id": "985",
+  "found_in": "local_index",
+  "tm_from_club_id": "281",
+  "tm_player_id": "578391",
+  "player_full_name": "Rayan Aït-Nouri",
+  "birth_date": "2001-06-06",
+  "age": 25,
+  "position": "Left-Back",
+  "position_short": "LB",
+  "preferred_foot": "left",
+  "height": 1.8,
+  "contract_until": "2030-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/578391-1761076429.jpg",
+  "market_value_points": [
+    {
+      "date": "2026-06-03",
+      "value_eur_m": 40.0
+    },
+    {
+      "date": "2026-10-07",
+      "value_eur_m": 35.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 4,
+    "secondNationalityId": 50
+  },
+  "birth_place": "Montreuil",
+  "former_clubs_note": "AS Val de Fontenay (2009-2012), ASF Le Perreux 94 (2012-2014), Paris FC (2014-2016), Angers SCO (2016-2018)",
+  "shirt_number": 21,
+  "is_captain": false,
+  "transfer_date": "2025-06-09",
+  "national_team_debut": "2023-03-23",
+  "squad_analysis": {
+    "same_position_count": 2,
+    "same_position_names": [
+      "Luke Shaw",
+      "Harry Amass"
+    ],
+    "value_rank": null,
+    "squad_total": 29,
+    "younger_than": 14
+  },
+  "to_club_official_name": "Manchester United",
+  "to_club_context": {
+    "squad_size": 29,
+    "average_age": "26.3",
+    "squad_value": {
+      "prefix": "€",
+      "content": "928.80",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "32.03",
+      "suffix": "M"
+    },
+    "stadium": "Sir Matt Busby Way",
+    "city": "Manchester"
+  },
+  "block_reason": "",
+  "block_detail": "",
+  "rumor_slug": "rayan-ait-nouri-manchester-united",
+  "rumor_published_at": "2026-11-03T23:16:44.415509+00:00"
+}

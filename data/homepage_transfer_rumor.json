@@ -3206,6 +3206,26 @@
   ],
   "rumors": [
     {
+      "slug": "rayan-ait-nouri-manchester-united",
+      "url": "rumors/rayan-ait-nouri-manchester-united/",
+      "title": "Rayan Aït-Nouri и Manchester United: слух",
+      "player": "Rayan Aït-Nouri",
+      "tm_id": "578391",
+      "status": "rumour",
+      "status_display": "слух",
+      "status_css": "is-rumor",
+      "group": "rumor",
+      "date": "2026-11-03T23:16:43+00:00",
+      "sort_ts": 1793747803.0,
+      "from_name": "Manchester City",
+      "to_name": "Manchester United",
+      "from_logo": "images/clubs/api/rendered/50-448f2e57b69e.png",
+      "to_logo": "images/clubs/api/rendered/33-6dff7e1a3d7d.png",
+      "fee": "Сумма не называется",
+      "from_club_id": "50",
+      "to_club_id": "33"
+    },
+    {
       "slug": "fermin-lopez-manchester-united",
       "url": "rumors/fermin-lopez-manchester-united/",
       "title": "Fermín López и Manchester United: слух",
