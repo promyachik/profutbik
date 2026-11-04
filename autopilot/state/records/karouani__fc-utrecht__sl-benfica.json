@@ -18,7 +18,7 @@
     "published_iso": "2026-09-01T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.573235+00:00",
-  "enriched_at": "2026-11-04T11:30:48.619994+00:00",
+  "enriched_at": "2026-11-04T18:51:24.317225+00:00",
   "tm_to_club_id": "294",
   "tm_player_id": "541134",
   "birth_date": "2000-10-19",
@@ -48,7 +48,7 @@
   "shirt_number": 34,
   "is_captain": false,
   "transfer_date": "2026-09-01",
-  "national_team_debut": "",
+  "national_team_debut": "2021-10-09",
   "squad_analysis": {
     "same_position_count": 2,
     "same_position_names": [

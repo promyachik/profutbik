@@ -17,8 +17,8 @@
     "published": "Fri, 30 Oct 2026 23:08:16 GMT",
     "published_iso": "2026-10-30T23:08:16+00:00"
   },
-  "discovered_at": "2026-11-04T11:29:39.662269+00:00",
-  "enriched_at": "2026-11-04T11:30:37.509122+00:00",
+  "discovered_at": "2026-11-04T18:50:05.295523+00:00",
+  "enriched_at": "2026-11-04T18:51:06.888030+00:00",
   "tm_to_club_id": "985",
   "found_in": "local_index",
   "tm_from_club_id": "131",
@@ -82,5 +82,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "fermin-lopez-manchester-united",
-  "rumor_published_at": "2026-11-04T11:31:17.534318+00:00"
+  "rumor_published_at": "2026-11-04T18:52:05.640209+00:00"
 }
