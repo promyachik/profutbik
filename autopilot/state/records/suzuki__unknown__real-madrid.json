@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "suzuki__unknown__real-madrid",
+  "player": "Suzuki",
+  "from_club": "",
+  "to_club": "Real Madrid",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "NEEDS_REVIEW",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c98rzz0rjjvdo?at_medium=RSS&at_campaign=rss",
+    "title": "Real Madrid and PSG keen on Suzuki - Saturday's gossip",
+    "published": "Fri, 06 Nov 2026 21:08:04 GMT",
+    "published_iso": "2026-11-06T21:08:04+00:00"
+  },
+  "discovered_at": "2026-11-06T22:19:41.842044+00:00",
+  "enriched_at": "2026-11-06T22:20:57.486361+00:00",
+  "tm_to_club_id": "418",
+  "block_reason": "AMBIGUOUS_PLAYER",
+  "block_detail": "однофамильцы в наших составах: Zion Suzuki, Yuito Suzuki"
+}
