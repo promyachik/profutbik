@@ -18,7 +18,7 @@
     "published_iso": "2026-09-24T20:16:58+00:00"
   },
   "discovered_at": "2026-10-18T18:01:29.942595+00:00",
-  "enriched_at": "2026-11-06T09:47:07.600545+00:00",
+  "enriched_at": "2026-11-06T17:24:52.608155+00:00",
   "tm_to_club_id": "631",
   "tm_from_club_id": "989",
   "tm_player_id": "855256",
@@ -30,7 +30,7 @@
   "preferred_foot": "right",
   "height": 1.78,
   "contract_until": "2028-06-30",
-  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/855256-1656922605.jpg",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/855256-1793960555.jpg",
   "market_value_points": [
     {
       "date": "2026-06-03",
@@ -50,7 +50,7 @@
   "shirt_number": 8,
   "is_captain": false,
   "transfer_date": "2023-08-10",
-  "national_team_debut": "2026-09-29",
+  "national_team_debut": "",
   "squad_analysis": {
     "same_position_count": 3,
     "same_position_names": [
