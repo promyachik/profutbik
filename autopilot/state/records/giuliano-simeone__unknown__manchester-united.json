@@ -18,7 +18,7 @@
     "published_iso": "2026-10-12T20:49:48+00:00"
   },
   "discovered_at": "2026-11-05T15:45:39.944798+00:00",
-  "enriched_at": "2026-11-06T22:20:36.552053+00:00",
+  "enriched_at": "2026-11-07T02:20:38.258362+00:00",
   "tm_to_club_id": "985",
   "tm_from_club_id": "13",
   "tm_player_id": "742201",
@@ -65,7 +65,7 @@
   "to_club_official_name": "Manchester United",
   "to_club_context": {
     "squad_size": 29,
-    "average_age": "26.3",
+    "average_age": "26.4",
     "squad_value": {
       "prefix": "€",
       "content": "928.80",
