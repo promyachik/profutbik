@@ -17,8 +17,8 @@
     "published": "Tue, 27 Oct 2026 21:10:47 GMT",
     "published_iso": "2026-10-27T21:10:47+00:00"
   },
-  "discovered_at": "2026-11-09T00:45:10.625203+00:00",
-  "enriched_at": "2026-11-09T00:46:31.873683+00:00",
+  "discovered_at": "2026-11-09T07:52:09.289860+00:00",
+  "enriched_at": "2026-11-09T07:53:32.368506+00:00",
   "tm_to_club_id": "31",
   "found_in": "local_index",
   "tm_from_club_id": "79",
@@ -84,5 +84,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "finn-jeltsch-liverpool",
-  "rumor_published_at": "2026-11-09T00:47:17.776449+00:00"
+  "rumor_published_at": "2026-11-09T07:54:16.832652+00:00"
 }
