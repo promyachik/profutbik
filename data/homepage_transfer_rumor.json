@@ -3206,6 +3206,26 @@
   ],
   "rumors": [
     {
+      "slug": "martin-zubimendi-atletico-madrid",
+      "url": "rumors/martin-zubimendi-atletico-madrid/",
+      "title": "Martín Zubimendi и Atletico Madrid: слух",
+      "player": "Martín Zubimendi",
+      "tm_id": "423440",
+      "status": "rumour",
+      "status_display": "слух",
+      "status_css": "is-rumor",
+      "group": "rumor",
+      "date": "2026-11-10T02:01:23+00:00",
+      "sort_ts": 1794276083.0,
+      "from_name": "Arsenal FC",
+      "to_name": "Atletico Madrid",
+      "from_logo": "images/clubs/api/rendered/42-0c79196470d9.png",
+      "to_logo": "images/clubs/api/rendered/530-e8b0b14d1d87.png",
+      "fee": "Сумма не называется",
+      "from_club_id": "42",
+      "to_club_id": "530"
+    },
+    {
       "slug": "rayan-ait-nouri-manchester-united",
       "url": "rumors/rayan-ait-nouri-manchester-united/",
       "title": "Rayan Aït-Nouri и Manchester United: слух",
@@ -3524,26 +3544,6 @@
       "fee": "Сумма не называется",
       "from_club_id": "45",
       "to_club_id": "541"
-    },
-    {
-      "slug": "martin-zubimendi-chelsea",
-      "url": "rumors/martin-zubimendi-chelsea/",
-      "title": "Martín Zubimendi и Chelsea: слух",
-      "player": "Martín Zubimendi",
-      "tm_id": "423440",
-      "status": "rumour",
-      "status_display": "слух",
-      "status_css": "is-rumor",
-      "group": "rumor",
-      "date": "2026-09-11T21:56:20+00:00",
-      "sort_ts": 1789163780.0,
-      "from_name": "Arsenal FC",
-      "to_name": "Chelsea",
-      "from_logo": "images/clubs/api/rendered/42-0c79196470d9.png",
-      "to_logo": "images/clubs/api/rendered/49-ae568c1935d8.png",
-      "fee": "Сумма не называется",
-      "from_club_id": "42",
-      "to_club_id": "49"
     },
     {
       "slug": "trey-nyoni-nottingham-forest",
