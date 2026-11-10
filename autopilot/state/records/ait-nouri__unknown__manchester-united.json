@@ -17,8 +17,8 @@
     "published": "Tue, 03 Nov 2026 22:55:00 GMT",
     "published_iso": "2026-11-03T22:55:00+00:00"
   },
-  "discovered_at": "2026-11-10T09:38:56.478877+00:00",
-  "enriched_at": "2026-11-10T09:39:06.937782+00:00",
+  "discovered_at": "2026-11-10T17:16:25.400468+00:00",
+  "enriched_at": "2026-11-10T17:16:35.091718+00:00",
   "tm_to_club_id": "985",
   "found_in": "local_index",
   "tm_from_club_id": "281",
@@ -51,7 +51,7 @@
   "shirt_number": 21,
   "is_captain": false,
   "transfer_date": "2025-06-09",
-  "national_team_debut": "2023-03-23",
+  "national_team_debut": "",
   "squad_analysis": {
     "same_position_count": 2,
     "same_position_names": [
@@ -82,5 +82,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "rayan-ait-nouri-manchester-united",
-  "rumor_published_at": "2026-11-10T09:41:11.336142+00:00"
+  "rumor_published_at": "2026-11-10T17:18:35.136853+00:00"
 }
