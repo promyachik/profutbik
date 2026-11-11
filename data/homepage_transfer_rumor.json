@@ -3206,6 +3206,26 @@
   ],
   "rumors": [
     {
+      "slug": "endrick-arsenal",
+      "url": "rumors/endrick-arsenal/",
+      "title": "Endrick и Arsenal: слух",
+      "player": "Endrick",
+      "tm_id": "971570",
+      "status": "rumour",
+      "status_display": "слух",
+      "status_css": "is-rumor",
+      "group": "rumor",
+      "date": "2026-11-11T02:13:11+00:00",
+      "sort_ts": 1794363191.0,
+      "from_name": "Real Madrid",
+      "to_name": "Arsenal",
+      "from_logo": "images/clubs/api/rendered/541-9a600f047317.png",
+      "to_logo": "images/clubs/api/rendered/42-0c79196470d9.png",
+      "fee": "Сумма не называется",
+      "from_club_id": "541",
+      "to_club_id": "42"
+    },
+    {
       "slug": "martin-zubimendi-atletico-madrid",
       "url": "rumors/martin-zubimendi-atletico-madrid/",
       "title": "Martín Zubimendi и Atletico Madrid: слух",
@@ -3384,26 +3404,6 @@
       "fee": "Сумма не называется",
       "from_club_id": "35",
       "to_club_id": "33"
-    },
-    {
-      "slug": "endrick-aston-villa",
-      "url": "rumors/endrick-aston-villa/",
-      "title": "Endrick и Aston Villa: слух",
-      "player": "Endrick",
-      "tm_id": "971570",
-      "status": "rumour",
-      "status_display": "слух",
-      "status_css": "is-rumor",
-      "group": "rumor",
-      "date": "2026-10-06T21:14:03+00:00",
-      "sort_ts": 1791321243.0,
-      "from_name": "Real Madrid",
-      "to_name": "Aston Villa",
-      "from_logo": "images/clubs/api/rendered/541-9a600f047317.png",
-      "to_logo": "images/clubs/api/rendered/66-562d1984169e.png",
-      "fee": "Сумма не называется",
-      "from_club_id": "541",
-      "to_club_id": "66"
     },
     {
       "slug": "noni-madueke-juventus",
