@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "kind": "negotiations",
+  "entity_id": "pochettino__unknown__manchester-united",
+  "player": "Pochettino",
+  "from_club": "",
+  "to_club": "Manchester United",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "NEEDS_REVIEW",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqvg25pj36mvo?at_medium=RSS&at_campaign=rss",
+    "title": "Man Utd open talks with Pochettino about replacing Carrick",
+    "published": "Wed, 11 Nov 2026 09:11:28 GMT",
+    "published_iso": "2026-11-11T09:11:28+00:00"
+  },
+  "discovered_at": "2026-11-11T09:48:23.456784+00:00",
+  "enriched_at": "2026-11-11T09:50:22.339378+00:00",
+  "tm_to_club_id": "985",
+  "block_reason": "RUMOUR_PLAYER_UNKNOWN",
+  "block_detail": "Pochettino не найден ни в составе Manchester United, ни в наших 148 составах — личность не подтверждена"
+}
