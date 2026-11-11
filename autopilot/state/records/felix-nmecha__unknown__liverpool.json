@@ -17,8 +17,8 @@
     "published": "Mon, 19 Oct 2026 22:01:39 GMT",
     "published_iso": "2026-10-19T22:01:39+00:00"
   },
-  "discovered_at": "2026-11-11T09:48:25.835541+00:00",
-  "enriched_at": "2026-11-11T09:49:38.627162+00:00",
+  "discovered_at": "2026-11-11T17:50:55.924416+00:00",
+  "enriched_at": "2026-11-11T17:52:13.409016+00:00",
   "tm_to_club_id": "31",
   "found_in": "local_index",
   "tm_from_club_id": "16",
@@ -83,5 +83,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "felix-nmecha-liverpool",
-  "rumor_published_at": "2026-11-11T09:50:47.271434+00:00"
+  "rumor_published_at": "2026-11-11T17:53:19.713315+00:00"
 }
