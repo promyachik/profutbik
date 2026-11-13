@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "paz__unknown__manchester-united",
+  "player": "Paz",
+  "from_club": "",
+  "to_club": "Manchester United",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "NEEDS_REVIEW",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq39glw42xkjo?at_medium=RSS&at_campaign=rss",
+    "title": "Man Utd want Paz, Chelsea target Kounde - Saturday's gossip",
+    "published": "Fri, 13 Nov 2026 22:05:14 GMT",
+    "published_iso": "2026-11-13T22:05:14+00:00"
+  },
+  "discovered_at": "2026-11-13T23:49:38.360396+00:00",
+  "enriched_at": "2026-11-13T23:51:25.972872+00:00",
+  "tm_to_club_id": "985",
+  "block_reason": "AMBIGUOUS_PLAYER",
+  "block_detail": "однофамильцы в наших составах: Nico Paz, Yeferson Paz"
+}
