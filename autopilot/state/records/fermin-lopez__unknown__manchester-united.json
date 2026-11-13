@@ -17,8 +17,8 @@
     "published": "Fri, 30 Oct 2026 23:08:16 GMT",
     "published_iso": "2026-10-30T23:08:16+00:00"
   },
-  "discovered_at": "2026-11-13T02:52:27.694075+00:00",
-  "enriched_at": "2026-11-13T02:53:30.794189+00:00",
+  "discovered_at": "2026-11-13T10:49:44.916999+00:00",
+  "enriched_at": "2026-11-13T10:50:53.599454+00:00",
   "tm_to_club_id": "985",
   "found_in": "local_index",
   "tm_from_club_id": "131",
@@ -31,7 +31,7 @@
   "preferred_foot": "right",
   "height": 1.76,
   "contract_until": "2031-06-30",
-  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/636703-1698086824.jpg",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/636703-1794558826.jpg",
   "market_value_points": [
     {
       "date": "2026-06-05",
@@ -82,5 +82,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "fermin-lopez-manchester-united",
-  "rumor_published_at": "2026-11-13T02:54:30.607891+00:00"
+  "rumor_published_at": "2026-11-13T10:51:56.004602+00:00"
 }
