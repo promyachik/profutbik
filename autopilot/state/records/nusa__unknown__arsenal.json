@@ -1,0 +1,85 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "nusa__unknown__arsenal",
+  "player": "Nusa",
+  "from_club": "RB Leipzig",
+  "to_club": "Arsenal",
+  "fee_raw": "£66m",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "PUBLISHED_AS_RUMOR",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6e9kgn532gxo?at_medium=RSS&at_campaign=rss",
+    "title": "Arsenal target Nusa could cost £66m - Sunday's gossip",
+    "published": "Sat, 14 Nov 2026 21:48:45 GMT",
+    "published_iso": "2026-11-14T21:48:45+00:00"
+  },
+  "discovered_at": "2026-11-14T22:55:59.970951+00:00",
+  "enriched_at": "2026-11-14T22:57:39.845590+00:00",
+  "tm_to_club_id": "11",
+  "found_in": "local_index",
+  "tm_from_club_id": "23826",
+  "tm_player_id": "894914",
+  "player_full_name": "Antonio Nusa",
+  "birth_date": "2005-04-17",
+  "age": 21,
+  "position": "Left Winger",
+  "position_short": "LW",
+  "preferred_foot": "right",
+  "height": 1.83,
+  "contract_until": "2029-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/894914-1724337096.jpg",
+  "market_value_points": [
+    {
+      "date": "2026-05-27",
+      "value_eur_m": 32.0
+    },
+    {
+      "date": "2026-10-02",
+      "value_eur_m": 45.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 125,
+    "secondNationalityId": 124
+  },
+  "birth_place": "Langhus",
+  "former_clubs_note": "Langhus IL (-12/2017), Stabæk IF (01/2018-05/2021)",
+  "shirt_number": 7,
+  "is_captain": false,
+  "transfer_date": "2024-08-13",
+  "national_team_debut": "2023-09-07",
+  "squad_analysis": {
+    "same_position_count": 1,
+    "same_position_names": [
+      "Christos Tzolis"
+    ],
+    "value_rank": null,
+    "squad_total": 24,
+    "younger_than": 22
+  },
+  "to_club_official_name": "Arsenal FC",
+  "to_club_context": {
+    "squad_size": 24,
+    "average_age": "26.6",
+    "squad_value": {
+      "prefix": "€",
+      "content": "1.38",
+      "suffix": "B"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "57.33",
+      "suffix": "M"
+    },
+    "stadium": "Highbury House, 75 Drayton Park",
+    "city": "London"
+  },
+  "block_reason": "",
+  "block_detail": "",
+  "rumor_slug": "antonio-nusa-arsenal",
+  "rumor_published_at": "2026-11-14T22:58:12.047024+00:00"
+}

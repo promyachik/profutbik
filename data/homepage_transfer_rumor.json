@@ -3206,6 +3206,26 @@
   ],
   "rumors": [
     {
+      "slug": "antonio-nusa-arsenal",
+      "url": "rumors/antonio-nusa-arsenal/",
+      "title": "Antonio Nusa и Arsenal: слух",
+      "player": "Antonio Nusa",
+      "tm_id": "894914",
+      "status": "rumour",
+      "status_display": "слух",
+      "status_css": "is-rumor",
+      "group": "rumor",
+      "date": "2026-11-14T22:58:12+00:00",
+      "sort_ts": 1794697092.0,
+      "from_name": "RB Leipzig",
+      "to_name": "Arsenal",
+      "from_logo": "images/clubs/api/rendered/173-7440f550b015.png",
+      "to_logo": "images/clubs/api/rendered/42-0c79196470d9.png",
+      "fee": "£66 млн",
+      "from_club_id": "173",
+      "to_club_id": "42"
+    },
+    {
       "slug": "endrick-arsenal",
       "url": "rumors/endrick-arsenal/",
       "title": "Endrick и Arsenal: слух",
