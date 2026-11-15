@@ -3206,6 +3206,26 @@
   ],
   "rumors": [
     {
+      "slug": "calvin-bassey-manchester-united",
+      "url": "rumors/calvin-bassey-manchester-united/",
+      "title": "Calvin Bassey и Manchester United: слух",
+      "player": "Calvin Bassey",
+      "tm_id": "461883",
+      "status": "rumour",
+      "status_display": "слух",
+      "status_css": "is-rumor",
+      "group": "rumor",
+      "date": "2026-11-15T21:42:23+00:00",
+      "sort_ts": 1794778943.0,
+      "from_name": "Fulham FC",
+      "to_name": "Manchester United",
+      "from_logo": "images/clubs/api/rendered/36-045eb5922693.png",
+      "to_logo": "images/clubs/api/rendered/33-6dff7e1a3d7d.png",
+      "fee": "Сумма не называется",
+      "from_club_id": "36",
+      "to_club_id": "33"
+    },
+    {
       "slug": "antonio-nusa-arsenal",
       "url": "rumors/antonio-nusa-arsenal/",
       "title": "Antonio Nusa и Arsenal: слух",
