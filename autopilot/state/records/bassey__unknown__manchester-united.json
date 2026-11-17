@@ -17,8 +17,8 @@
     "published": "Sun, 15 Nov 2026 20:47:44 GMT",
     "published_iso": "2026-11-15T20:47:44+00:00"
   },
-  "discovered_at": "2026-11-17T11:41:42.700517+00:00",
-  "enriched_at": "2026-11-17T11:42:15.769604+00:00",
+  "discovered_at": "2026-11-17T20:46:59.370704+00:00",
+  "enriched_at": "2026-11-17T20:47:34.009770+00:00",
   "tm_to_club_id": "985",
   "found_in": "local_index",
   "tm_from_club_id": "931",
@@ -84,5 +84,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "calvin-bassey-manchester-united",
-  "rumor_published_at": "2026-11-17T11:43:51.720394+00:00"
+  "rumor_published_at": "2026-11-17T20:49:22.120616+00:00"
 }
