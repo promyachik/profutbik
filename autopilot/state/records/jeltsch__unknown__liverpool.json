@@ -17,8 +17,8 @@
     "published": "Tue, 27 Oct 2026 21:10:47 GMT",
     "published_iso": "2026-10-27T21:10:47+00:00"
   },
-  "discovered_at": "2026-11-17T02:52:53.272386+00:00",
-  "enriched_at": "2026-11-17T02:54:02.869367+00:00",
+  "discovered_at": "2026-11-17T11:41:43.047562+00:00",
+  "enriched_at": "2026-11-17T11:43:04.596347+00:00",
   "tm_to_club_id": "31",
   "found_in": "local_index",
   "tm_from_club_id": "79",
@@ -51,7 +51,7 @@
   "shirt_number": 29,
   "is_captain": false,
   "transfer_date": "2025-02-03",
-  "national_team_debut": "",
+  "national_team_debut": "2026-11-16",
   "squad_analysis": {
     "same_position_count": 5,
     "same_position_names": [
@@ -84,5 +84,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "finn-jeltsch-liverpool",
-  "rumor_published_at": "2026-11-17T02:54:43.990404+00:00"
+  "rumor_published_at": "2026-11-17T11:43:51.725254+00:00"
 }
