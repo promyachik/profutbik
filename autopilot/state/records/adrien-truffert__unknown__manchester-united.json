@@ -18,13 +18,13 @@
     "published_iso": "2026-10-07T20:56:06+00:00"
   },
   "discovered_at": "2026-10-31T21:25:20.479407+00:00",
-  "enriched_at": "2026-11-19T18:36:50.745492+00:00",
+  "enriched_at": "2026-11-20T00:53:17.236162+00:00",
   "tm_to_club_id": "985",
   "tm_from_club_id": "989",
   "tm_player_id": "654539",
   "player_full_name": "Adrien Truffert",
   "birth_date": "2001-11-20",
-  "age": 24,
+  "age": 25,
   "position": "Left-Back",
   "position_short": "LB",
   "preferred_foot": "left",
@@ -59,7 +59,7 @@
     ],
     "value_rank": null,
     "squad_total": 29,
-    "younger_than": 16
+    "younger_than": 14
   },
   "to_club_official_name": "Manchester United",
   "to_club_context": {
