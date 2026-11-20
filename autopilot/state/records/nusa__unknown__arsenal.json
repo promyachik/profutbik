@@ -17,8 +17,8 @@
     "published": "Sat, 14 Nov 2026 21:48:45 GMT",
     "published_iso": "2026-11-14T21:48:45+00:00"
   },
-  "discovered_at": "2026-11-20T08:24:05.835208+00:00",
-  "enriched_at": "2026-11-20T08:25:34.146162+00:00",
+  "discovered_at": "2026-11-20T17:11:52.724088+00:00",
+  "enriched_at": "2026-11-20T17:13:29.724161+00:00",
   "tm_to_club_id": "11",
   "found_in": "local_index",
   "tm_from_club_id": "23826",
@@ -81,5 +81,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "antonio-nusa-arsenal",
-  "rumor_published_at": "2026-11-20T08:26:03.217849+00:00"
+  "rumor_published_at": "2026-11-20T17:14:04.987268+00:00"
 }

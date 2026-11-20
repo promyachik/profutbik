@@ -17,8 +17,8 @@
     "published": "Mon, 09 Nov 2026 21:13:37 GMT",
     "published_iso": "2026-11-09T21:13:37+00:00"
   },
-  "discovered_at": "2026-11-20T08:24:05.836480+00:00",
-  "enriched_at": "2026-11-20T08:25:54.495007+00:00",
+  "discovered_at": "2026-11-20T17:11:52.725843+00:00",
+  "enriched_at": "2026-11-20T17:13:53.341734+00:00",
   "tm_to_club_id": "13",
   "found_in": "local_index",
   "tm_from_club_id": "11",
@@ -85,5 +85,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "martin-zubimendi-atletico-madrid",
-  "rumor_published_at": "2026-11-20T08:26:03.220109+00:00"
+  "rumor_published_at": "2026-11-20T17:14:04.989612+00:00"
 }
