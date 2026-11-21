@@ -17,8 +17,8 @@
     "published": "Tue, 03 Nov 2026 22:55:00 GMT",
     "published_iso": "2026-11-03T22:55:00+00:00"
   },
-  "discovered_at": "2026-11-21T12:57:09.244957+00:00",
-  "enriched_at": "2026-11-21T12:57:16.484631+00:00",
+  "discovered_at": "2026-11-21T20:01:48.165886+00:00",
+  "enriched_at": "2026-11-21T20:01:58.080290+00:00",
   "tm_to_club_id": "985",
   "found_in": "local_index",
   "tm_from_club_id": "281",
@@ -82,5 +82,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "rayan-ait-nouri-manchester-united",
-  "rumor_published_at": "2026-11-21T12:58:37.918373+00:00"
+  "rumor_published_at": "2026-11-21T20:03:56.630882+00:00"
 }
