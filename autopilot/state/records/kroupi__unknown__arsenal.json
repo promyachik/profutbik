@@ -17,8 +17,8 @@
     "published": "Mon, 02 Nov 2026 22:24:56 GMT",
     "published_iso": "2026-11-02T22:24:56+00:00"
   },
-  "discovered_at": "2026-11-21T20:01:48.166303+00:00",
-  "enriched_at": "2026-11-21T20:03:14.452614+00:00",
+  "discovered_at": "2026-11-22T00:15:43.636880+00:00",
+  "enriched_at": "2026-11-22T00:17:05.450279+00:00",
   "tm_to_club_id": "11",
   "found_in": "local_index",
   "tm_from_club_id": "989",
@@ -82,5 +82,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "junior-kroupi-arsenal",
-  "rumor_published_at": "2026-11-21T20:03:56.636540+00:00"
+  "rumor_published_at": "2026-11-22T00:17:44.608331+00:00"
 }

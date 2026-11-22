@@ -3206,6 +3206,26 @@
   ],
   "rumors": [
     {
+      "slug": "bruno-fernandes-ac-milan",
+      "url": "rumors/bruno-fernandes-ac-milan/",
+      "title": "Bruno Fernandes и AC Milan: слух",
+      "player": "Bruno Fernandes",
+      "tm_id": "240306",
+      "status": "rumour",
+      "status_display": "слух",
+      "status_css": "is-rumor",
+      "group": "rumor",
+      "date": "2026-11-22T00:17:44+00:00",
+      "sort_ts": 1795306664.0,
+      "from_name": "Manchester United",
+      "to_name": "AC Milan",
+      "from_logo": "images/clubs/api/rendered/33-6dff7e1a3d7d.png",
+      "to_logo": "images/clubs/api/rendered/489-a0582d29e9a1.png",
+      "fee": "Сумма не называется",
+      "from_club_id": "33",
+      "to_club_id": "489"
+    },
+    {
       "slug": "calvin-bassey-manchester-united",
       "url": "rumors/calvin-bassey-manchester-united/",
       "title": "Calvin Bassey и Manchester United: слух",

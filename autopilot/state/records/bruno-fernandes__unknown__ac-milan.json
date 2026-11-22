@@ -1,0 +1,89 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "bruno-fernandes__unknown__ac-milan",
+  "player": "Bruno Fernandes",
+  "from_club": "Manchester United",
+  "to_club": "AC Milan",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "PUBLISHED_AS_RUMOR",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq8j4e8nlvm1o?at_medium=RSS&at_campaign=rss",
+    "title": "AC Milan monitoring Manchester United midfielder Bruno Fernandes",
+    "published": "Sat, 21 Nov 2026 20:35:12 GMT",
+    "published_iso": "2026-11-21T20:35:12+00:00"
+  },
+  "discovered_at": "2026-11-22T00:15:43.584722+00:00",
+  "enriched_at": "2026-11-22T00:16:18.021250+00:00",
+  "tm_to_club_id": "5",
+  "found_in": "local_index",
+  "tm_from_club_id": "985",
+  "tm_player_id": "240306",
+  "player_full_name": "Bruno Fernandes",
+  "birth_date": "1994-09-08",
+  "age": 32,
+  "position": "Attacking Midfield",
+  "position_short": "AM",
+  "preferred_foot": "right",
+  "height": 1.83,
+  "contract_until": "2027-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/240306-1683882766.jpg",
+  "market_value_points": [
+    {
+      "date": "2021-12-23",
+      "value_eur_m": 90.0
+    },
+    {
+      "date": "2025-12-09",
+      "value_eur_m": 40.0
+    },
+    {
+      "date": "2026-06-03",
+      "value_eur_m": 35.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 136,
+    "secondNationalityId": 0
+  },
+  "birth_place": "Maia",
+  "former_clubs_note": "FC Infesta (2002-2004), Boavista FC (2004-2012)",
+  "shirt_number": 8,
+  "is_captain": true,
+  "transfer_date": "2020-01-29",
+  "national_team_debut": "2017-11-10",
+  "squad_analysis": {
+    "same_position_count": 1,
+    "same_position_names": [
+      "Alphadjo Cisse"
+    ],
+    "value_rank": null,
+    "squad_total": 28,
+    "younger_than": 2
+  },
+  "to_club_official_name": "AC Milan",
+  "to_club_context": {
+    "squad_size": 28,
+    "average_age": "25.8",
+    "squad_value": {
+      "prefix": "€",
+      "content": "503.20",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "17.97",
+      "suffix": "M"
+    },
+    "stadium": "Via Aldo Rossi 8",
+    "city": "Milano"
+  },
+  "block_reason": "",
+  "block_detail": "",
+  "rumor_slug": "bruno-fernandes-ac-milan",
+  "rumor_published_at": "2026-11-22T00:17:44.600964+00:00"
+}

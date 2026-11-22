@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "fernandes__unknown__ac-milan",
+  "player": "Fernandes",
+  "from_club": "",
+  "to_club": "AC Milan",
+  "fee_raw": "",
+  "verdict": "POSSIBLE_DUPLICATE",
+  "verdict_reason": "совпала фамилия с: Mateus Fernandes -> Tottenham",
+  "pipeline_state": "NEEDS_REVIEW",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq8j4e8nlvm1o?at_medium=RSS&at_campaign=rss",
+    "title": "AC Milan monitoring Man Utd's Fernandes - Sunday's gossip",
+    "published": "Sat, 21 Nov 2026 20:35:12 GMT",
+    "published_iso": "2026-11-21T20:35:12+00:00"
+  },
+  "discovered_at": "2026-11-22T00:15:41.121933+00:00",
+  "enriched_at": "2026-11-22T00:16:46.051588+00:00",
+  "tm_to_club_id": "5",
+  "block_reason": "AMBIGUOUS_PLAYER",
+  "block_detail": "однофамильцы в наших составах: Paolo Fernandes, Ivanildo Fernandes, Rafael Fernandes, Martim Fernandes, Joelson Fernandes, Daniel Heuer Fernandes, Bruno Fernandes, Gedson Fernandes, Mateus Fernandes"
+}
