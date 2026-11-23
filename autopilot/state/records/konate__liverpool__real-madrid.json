@@ -19,7 +19,7 @@
     "published_iso": "2026-07-21T18:00:00+03:00"
   },
   "discovered_at": "2026-09-05T20:01:34.606597+00:00",
-  "enriched_at": "2026-11-23T10:40:57.322337+00:00",
+  "enriched_at": "2026-11-23T22:14:42.589546+00:00",
   "tm_to_club_id": "418",
   "tm_player_id": "357119",
   "birth_date": "1999-05-25",
@@ -63,7 +63,7 @@
       "Antonio Rüdiger"
     ],
     "value_rank": 13,
-    "squad_total": 27,
+    "squad_total": 26,
     "younger_than": 9
   },
   "to_club_official_name": "Real Madrid",

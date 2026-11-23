@@ -18,7 +18,7 @@
     "published_iso": "2026-10-01T19:45:16+00:00"
   },
   "discovered_at": "2026-10-25T19:31:51.142936+00:00",
-  "enriched_at": "2026-11-23T10:41:18.626663+00:00",
+  "enriched_at": "2026-11-23T22:15:02.423895+00:00",
   "tm_to_club_id": "418",
   "tm_from_club_id": "15",
   "tm_player_id": "632349",
@@ -60,7 +60,7 @@
       "Éder Militão"
     ],
     "value_rank": null,
-    "squad_total": 27,
+    "squad_total": 26,
     "younger_than": 17
   },
   "to_club_official_name": "Real Madrid",

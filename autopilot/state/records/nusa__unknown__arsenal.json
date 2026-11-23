@@ -5,20 +5,20 @@
   "player": "Nusa",
   "from_club": "RB Leipzig",
   "to_club": "Arsenal",
-  "fee_raw": "£66m",
+  "fee_raw": "",
   "verdict": "NEW_CANDIDATE",
   "verdict_reason": "",
   "pipeline_state": "PUBLISHED_AS_RUMOR",
   "source": {
     "publisher": "BBC Sport",
     "tier": "major_media",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c6e9kgn532gxo?at_medium=RSS&at_campaign=rss",
-    "title": "Arsenal target Nusa could cost £66m - Sunday's gossip",
-    "published": "Sat, 14 Nov 2026 21:48:45 GMT",
-    "published_iso": "2026-11-14T21:48:45+00:00"
+    "url": "https://www.bbc.co.uk/sport/football/articles/cm8x0grpder5o?at_medium=RSS&at_campaign=rss",
+    "title": "Arsenal and PSG keen on Nusa - Tuesday's gossip",
+    "published": "Mon, 23 Nov 2026 21:41:52 GMT",
+    "published_iso": "2026-11-23T21:41:52+00:00"
   },
-  "discovered_at": "2026-11-23T10:39:30.144828+00:00",
-  "enriched_at": "2026-11-23T10:41:07.797153+00:00",
+  "discovered_at": "2026-11-23T22:13:08.154092+00:00",
+  "enriched_at": "2026-11-23T22:14:51.896626+00:00",
   "tm_to_club_id": "11",
   "found_in": "local_index",
   "tm_from_club_id": "23826",
@@ -81,5 +81,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "antonio-nusa-arsenal",
-  "rumor_published_at": "2026-11-23T10:41:40.215732+00:00"
+  "rumor_published_at": "2026-11-23T22:15:25.587748+00:00"
 }

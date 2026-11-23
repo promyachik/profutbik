@@ -18,7 +18,7 @@
     "published_iso": "2026-08-17T09:12:54+00:00"
   },
   "discovered_at": "2026-09-09T19:26:54.979025+00:00",
-  "enriched_at": "2026-11-23T10:40:58.941326+00:00",
+  "enriched_at": "2026-11-23T22:14:44.495928+00:00",
   "tm_to_club_id": "418",
   "tm_from_club_id": "11",
   "tm_player_id": "423440",
@@ -61,7 +61,7 @@
       "Aurélien Tchouaméni"
     ],
     "value_rank": null,
-    "squad_total": 27,
+    "squad_total": 26,
     "younger_than": 9
   },
   "to_club_official_name": "Real Madrid",

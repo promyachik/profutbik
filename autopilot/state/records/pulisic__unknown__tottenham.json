@@ -18,7 +18,7 @@
     "published_iso": "2026-08-30T20:59:21+00:00"
   },
   "discovered_at": "2026-09-23T18:59:23.749401+00:00",
-  "enriched_at": "2026-11-23T10:41:18.092535+00:00",
+  "enriched_at": "2026-11-23T22:15:02.142440+00:00",
   "tm_to_club_id": "148",
   "tm_from_club_id": "5",
   "tm_player_id": "315779",
@@ -61,21 +61,21 @@
       "Mohammed Kudus"
     ],
     "value_rank": null,
-    "squad_total": 28,
+    "squad_total": 29,
     "younger_than": 9
   },
   "to_club_official_name": "Tottenham Hotspur",
   "to_club_context": {
-    "squad_size": 28,
-    "average_age": "26.8",
+    "squad_size": 29,
+    "average_age": "26.5",
     "squad_value": {
       "prefix": "€",
-      "content": "836.00",
+      "content": "840.00",
       "suffix": "M"
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "29.86",
+      "content": "28.97",
       "suffix": "M"
     },
     "stadium": "Bill Nicholson Way, 748 High Road",

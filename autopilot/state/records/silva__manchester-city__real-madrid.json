@@ -19,7 +19,7 @@
     "published_iso": "2026-07-20T20:00:00+03:00"
   },
   "discovered_at": "2026-09-05T20:01:34.605468+00:00",
-  "enriched_at": "2026-11-23T10:41:22.771980+00:00",
+  "enriched_at": "2026-11-23T22:15:06.855546+00:00",
   "tm_to_club_id": "418",
   "promoted_from_agreement_at": "2026-09-05T20:04:13.144845+00:00",
   "promotion_evidence": "числится в составе Real Madrid на Transfermarkt",
@@ -63,7 +63,7 @@
       "Arda Güler"
     ],
     "value_rank": 19,
-    "squad_total": 27,
+    "squad_total": 26,
     "younger_than": 2
   },
   "to_club_official_name": "Real Madrid",
