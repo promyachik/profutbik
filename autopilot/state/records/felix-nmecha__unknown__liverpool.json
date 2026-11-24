@@ -18,7 +18,7 @@
     "published_iso": "2026-10-19T22:01:39+00:00"
   },
   "discovered_at": "2026-11-12T16:13:08.881164+00:00",
-  "enriched_at": "2026-11-23T22:14:21.819949+00:00",
+  "enriched_at": "2026-11-24T06:21:12.499064+00:00",
   "tm_to_club_id": "31",
   "tm_from_club_id": "16",
   "tm_player_id": "406640",
@@ -65,7 +65,7 @@
   "to_club_official_name": "Liverpool FC",
   "to_club_context": {
     "squad_size": 31,
-    "average_age": "25.5",
+    "average_age": "25.6",
     "squad_value": {
       "prefix": "€",
       "content": "1.09",

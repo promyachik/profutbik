@@ -18,7 +18,7 @@
     "published_iso": "2026-08-17T09:12:54+00:00"
   },
   "discovered_at": "2026-09-09T19:26:54.979025+00:00",
-  "enriched_at": "2026-11-23T22:14:44.495928+00:00",
+  "enriched_at": "2026-11-24T06:21:33.539617+00:00",
   "tm_to_club_id": "418",
   "tm_from_club_id": "11",
   "tm_player_id": "423440",
@@ -66,8 +66,8 @@
   },
   "to_club_official_name": "Real Madrid",
   "to_club_context": {
-    "squad_size": 27,
-    "average_age": "26.2",
+    "squad_size": 26,
+    "average_age": "26.4",
     "squad_value": {
       "prefix": "€",
       "content": "1.50",
@@ -75,7 +75,7 @@
     },
     "average_player_value": {
       "prefix": "€",
-      "content": "55.65",
+      "content": "57.50",
       "suffix": "M"
     },
     "stadium": "Avenida de Concha Espina 1",
