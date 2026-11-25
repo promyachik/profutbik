@@ -18,7 +18,7 @@
     "published_iso": "2026-09-01T12:00:00+00:00"
   },
   "discovered_at": "2026-09-05T13:29:58.571402+00:00",
-  "enriched_at": "2026-11-25T02:46:23.983469+00:00",
+  "enriched_at": "2026-11-25T12:38:01.585800+00:00",
   "tm_to_club_id": "873",
   "tm_player_id": "881116",
   "birth_date": "2004-01-24",
@@ -57,7 +57,7 @@
       "Zavier Gozo"
     ],
     "value_rank": 14,
-    "squad_total": 28,
+    "squad_total": 29,
     "younger_than": 22
   },
   "to_club_official_name": "Crystal Palace",
