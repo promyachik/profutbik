@@ -3206,6 +3206,26 @@
   ],
   "rumors": [
     {
+      "slug": "nathan-collins-manchester-united",
+      "url": "rumors/nathan-collins-manchester-united/",
+      "title": "Nathan Collins и Manchester United: слух",
+      "player": "Nathan Collins",
+      "tm_id": "469050",
+      "status": "rumour",
+      "status_display": "слух",
+      "status_css": "is-rumor",
+      "group": "rumor",
+      "date": "2026-11-25T02:46:54+00:00",
+      "sort_ts": 1795574814.0,
+      "from_name": "Brentford FC",
+      "to_name": "Manchester United",
+      "from_logo": "images/clubs/api/rendered/55-1e74d7350dc6.png",
+      "to_logo": "images/clubs/api/rendered/33-6dff7e1a3d7d.png",
+      "fee": "Сумма не называется",
+      "from_club_id": "55",
+      "to_club_id": "33"
+    },
+    {
       "slug": "bruno-fernandes-ac-milan",
       "url": "rumors/bruno-fernandes-ac-milan/",
       "title": "Bruno Fernandes и AC Milan: слух",

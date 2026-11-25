@@ -1,0 +1,92 @@
+{
+  "schema_version": 2,
+  "kind": "rumour",
+  "entity_id": "nathan-collins__unknown__manchester-united",
+  "player": "Nathan Collins",
+  "from_club": "Brentford FC",
+  "to_club": "Manchester United",
+  "fee_raw": "",
+  "verdict": "NEW_CANDIDATE",
+  "verdict_reason": "",
+  "pipeline_state": "PUBLISHED_AS_RUMOR",
+  "source": {
+    "publisher": "BBC Sport",
+    "tier": "major_media",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cm15en5je9eko?at_medium=RSS&at_campaign=rss",
+    "title": "Manchester United target Brentford defender Nathan Collins",
+    "published": "Tue, 24 Nov 2026 20:51:44 GMT",
+    "published_iso": "2026-11-24T20:51:44+00:00"
+  },
+  "discovered_at": "2026-11-25T02:44:53.076319+00:00",
+  "enriched_at": "2026-11-25T02:46:21.162221+00:00",
+  "tm_to_club_id": "985",
+  "found_in": "local_index",
+  "tm_from_club_id": "1148",
+  "tm_player_id": "469050",
+  "player_full_name": "Nathan Collins",
+  "birth_date": "2001-04-30",
+  "age": 25,
+  "position": "Centre-Back",
+  "position_short": "CB",
+  "preferred_foot": "right",
+  "height": 1.93,
+  "contract_until": "2029-06-30",
+  "portrait_url": "https://img.a.transfermarkt.technology/portrait/big/469050-1688381729.jpg",
+  "market_value_points": [
+    {
+      "date": "2025-12-09",
+      "value_eur_m": 35.0
+    },
+    {
+      "date": "2026-03-09",
+      "value_eur_m": 30.0
+    },
+    {
+      "date": "2026-06-03",
+      "value_eur_m": 30.0
+    }
+  ],
+  "nationality_ids": {
+    "nationalityId": 72,
+    "secondNationalityId": 0
+  },
+  "birth_place": "Leixlip",
+  "former_clubs_note": "Cherry Orchard (2006-2016), Stoke City (2016-2019)",
+  "shirt_number": 22,
+  "is_captain": true,
+  "transfer_date": "2023-07-04",
+  "national_team_debut": "2021-10-12",
+  "squad_analysis": {
+    "same_position_count": 5,
+    "same_position_names": [
+      "Lisandro Martínez",
+      "Leny Yoro",
+      "Ayden Heaven",
+      "Matthijs de Ligt"
+    ],
+    "value_rank": null,
+    "squad_total": 29,
+    "younger_than": 14
+  },
+  "to_club_official_name": "Manchester United",
+  "to_club_context": {
+    "squad_size": 29,
+    "average_age": "26.4",
+    "squad_value": {
+      "prefix": "€",
+      "content": "928.80",
+      "suffix": "M"
+    },
+    "average_player_value": {
+      "prefix": "€",
+      "content": "32.03",
+      "suffix": "M"
+    },
+    "stadium": "Sir Matt Busby Way",
+    "city": "Manchester"
+  },
+  "block_reason": "",
+  "block_detail": "",
+  "rumor_slug": "nathan-collins-manchester-united",
+  "rumor_published_at": "2026-11-25T02:46:54.365805+00:00"
+}
