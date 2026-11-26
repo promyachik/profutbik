@@ -18,7 +18,7 @@
     "published_iso": "2026-10-19T22:01:39+00:00"
   },
   "discovered_at": "2026-11-12T16:13:08.881164+00:00",
-  "enriched_at": "2026-11-26T04:06:12.659135+00:00",
+  "enriched_at": "2026-11-26T13:48:27.451680+00:00",
   "tm_to_club_id": "31",
   "tm_from_club_id": "16",
   "tm_player_id": "406640",
@@ -52,8 +52,9 @@
   "transfer_date": "2023-07-03",
   "national_team_debut": "2023-03-28",
   "squad_analysis": {
-    "same_position_count": 3,
+    "same_position_count": 4,
     "same_position_names": [
+      "Dominik Szoboszlai",
       "Alexis Mac Allister",
       "Trey Nyoni",
       "James McConnell"

@@ -18,7 +18,7 @@
     "published_iso": "2026-09-13T20:23:02+00:00"
   },
   "discovered_at": "2026-10-07T20:07:34.842271+00:00",
-  "enriched_at": "2026-11-26T04:06:43.404944+00:00",
+  "enriched_at": "2026-11-26T13:49:17.289696+00:00",
   "tm_to_club_id": "27",
   "tm_from_club_id": "31",
   "tm_player_id": "598577",
@@ -50,7 +50,7 @@
     "secondNationalityId": 0
   },
   "birth_place": "Pulheim",
-  "former_clubs_note": "SV Grün-Weiss Brauweiler (2008-2010), 1.FC Köln (2010-2020), Bayer 04 Leverkusen (2020)",
+  "former_clubs_note": "SV Grün-Weiss Brauweiler (2008-2010)",
   "shirt_number": 7,
   "is_captain": false,
   "transfer_date": "2025-07-01",
@@ -85,6 +85,6 @@
   },
   "block_reason": "слух не публикуется",
   "block_detail": "не определены API-Football id клубов",
-  "rumor_attempts": 217,
+  "rumor_attempts": 218,
   "found_in": "local_index"
 }
