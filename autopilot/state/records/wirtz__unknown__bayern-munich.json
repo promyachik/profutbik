@@ -18,7 +18,7 @@
     "published_iso": "2026-09-13T20:23:02+00:00"
   },
   "discovered_at": "2026-10-07T20:07:34.842271+00:00",
-  "enriched_at": "2026-11-26T13:49:17.289696+00:00",
+  "enriched_at": "2026-11-26T22:57:15.403753+00:00",
   "tm_to_club_id": "27",
   "tm_from_club_id": "31",
   "tm_player_id": "598577",
@@ -85,6 +85,6 @@
   },
   "block_reason": "слух не публикуется",
   "block_detail": "не определены API-Football id клубов",
-  "rumor_attempts": 218,
+  "rumor_attempts": 219,
   "found_in": "local_index"
 }

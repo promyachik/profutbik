@@ -18,9 +18,8 @@
     "published_iso": "2026-11-02T22:24:56+00:00"
   },
   "discovered_at": "2026-11-26T13:47:24.774013+00:00",
-  "enriched_at": "2026-11-26T13:48:48.206742+00:00",
+  "enriched_at": "2026-11-26T22:56:47.495572+00:00",
   "tm_to_club_id": "11",
-  "found_in": "local_index",
   "tm_from_club_id": "989",
   "tm_player_id": "955357",
   "player_full_name": "Junior Kroupi",
@@ -82,5 +81,6 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "junior-kroupi-arsenal",
-  "rumor_published_at": "2026-11-26T13:49:27.294399+00:00"
+  "rumor_published_at": "2026-11-26T13:49:27.294399+00:00",
+  "found_in": "local_index"
 }

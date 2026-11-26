@@ -17,8 +17,8 @@
     "published": "Tue, 10 Nov 2026 23:08:35 GMT",
     "published_iso": "2026-11-10T23:08:35+00:00"
   },
-  "discovered_at": "2026-11-26T13:47:24.770026+00:00",
-  "enriched_at": "2026-11-26T13:48:22.029796+00:00",
+  "discovered_at": "2026-11-26T22:55:25.343939+00:00",
+  "enriched_at": "2026-11-26T22:56:22.975169+00:00",
   "tm_to_club_id": "11",
   "found_in": "local_index",
   "tm_from_club_id": "418",
@@ -86,5 +86,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "endrick-arsenal",
-  "rumor_published_at": "2026-11-26T13:49:27.288152+00:00"
+  "rumor_published_at": "2026-11-26T22:57:25.079436+00:00"
 }
