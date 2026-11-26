@@ -17,8 +17,8 @@
     "published": "Sat, 21 Nov 2026 20:35:12 GMT",
     "published_iso": "2026-11-21T20:35:12+00:00"
   },
-  "discovered_at": "2026-11-25T21:57:52.638150+00:00",
-  "enriched_at": "2026-11-25T21:58:40.986502+00:00",
+  "discovered_at": "2026-11-26T04:05:28.012779+00:00",
+  "enriched_at": "2026-11-26T04:05:52.444242+00:00",
   "tm_to_club_id": "5",
   "found_in": "local_index",
   "tm_from_club_id": "985",
@@ -85,5 +85,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "bruno-fernandes-ac-milan",
-  "rumor_published_at": "2026-11-25T22:00:16.721089+00:00"
+  "rumor_published_at": "2026-11-26T04:06:50.091014+00:00"
 }
