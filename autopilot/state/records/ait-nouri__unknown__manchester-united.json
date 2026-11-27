@@ -18,9 +18,8 @@
     "published_iso": "2026-11-03T22:55:00+00:00"
   },
   "discovered_at": "2026-11-27T14:55:01.748973+00:00",
-  "enriched_at": "2026-11-27T14:55:09.935847+00:00",
+  "enriched_at": "2026-11-27T23:22:35.954036+00:00",
   "tm_to_club_id": "985",
-  "found_in": "local_index",
   "tm_from_club_id": "281",
   "tm_player_id": "578391",
   "player_full_name": "Rayan Aït-Nouri",
@@ -82,5 +81,6 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "rayan-ait-nouri-manchester-united",
-  "rumor_published_at": "2026-11-27T14:56:40.317185+00:00"
+  "rumor_published_at": "2026-11-27T14:56:40.317185+00:00",
+  "found_in": "local_index"
 }
