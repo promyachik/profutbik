@@ -17,8 +17,8 @@
     "published": "Tue, 24 Nov 2026 20:51:44 GMT",
     "published_iso": "2026-11-24T20:51:44+00:00"
   },
-  "discovered_at": "2026-11-27T04:55:54.099066+00:00",
-  "enriched_at": "2026-11-27T04:57:01.378592+00:00",
+  "discovered_at": "2026-11-27T14:55:01.740140+00:00",
+  "enriched_at": "2026-11-27T14:56:14.709626+00:00",
   "tm_to_club_id": "985",
   "found_in": "local_index",
   "tm_from_club_id": "1148",
@@ -88,5 +88,5 @@
   "block_reason": "",
   "block_detail": "",
   "rumor_slug": "nathan-collins-manchester-united",
-  "rumor_published_at": "2026-11-27T04:57:23.738642+00:00"
+  "rumor_published_at": "2026-11-27T14:56:40.327446+00:00"
 }
